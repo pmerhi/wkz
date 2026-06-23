@@ -93,6 +93,10 @@
         .hero .trust{display:flex;flex-wrap:wrap;gap:18px;margin-top:24px;font-size:.92rem;color:rgba(255,255,255,.92)}
         .hero .trust span{display:inline-flex;align-items:center;gap:7px}
         @keyframes float{0%,100%{transform:translate(0,0)}50%{transform:translate(-14px,18px)}}
+        .hero.hero-sm{padding:clamp(22px,3.6vw,38px);border-radius:20px;margin:0 0 24px}
+        .hero.hero-sm h1{font-size:clamp(1.6rem,3.4vw,2.15rem)}
+        .hero-search{display:flex;gap:8px;max-width:460px;margin-top:18px}
+        .hero-search input{flex:1;min-width:0;padding:13px 16px;border:none;border-radius:11px;font-size:1rem;box-shadow:0 8px 24px -10px rgba(0,0,0,.4)}
 
         /* Buttons */
         .cta,.btn{display:inline-flex;align-items:center;gap:8px;background:var(--pri);color:#fff;padding:13px 24px;border-radius:11px;text-decoration:none;font-weight:700;border:none;cursor:pointer;font-size:1rem;
@@ -221,6 +225,27 @@
             .card:hover,.cta:hover,.btn:hover{transform:none}
         }
 
+        /* Artikel-Typografie */
+        .content{font-size:1.06rem;line-height:1.75}
+        .wrap--narrow{max-width:760px;margin-left:auto;margin-right:auto}
+        .content h2{margin-top:1.7em}
+        .content h3{margin-top:1.3em}
+        .content p{margin:0 0 1.1em}
+        .content ul,.content ol{margin:0 0 1.1em;padding-left:1.35em}
+        .content li{margin:.35em 0}
+        .content a{color:var(--pri);text-decoration:underline;text-underline-offset:2px}
+        .content img{border-radius:14px;margin:1.2em 0;box-shadow:var(--shadow)}
+        .content blockquote{margin:1.2em 0;padding:2px 18px;border-left:4px solid var(--pri-l);color:var(--mut)}
+        /* Callout-Boxen für Ratgeber */
+        .box{position:relative;border-radius:14px;padding:16px 18px 16px 50px;margin:1.4em 0;border:1px solid var(--line);background:var(--soft2);box-shadow:var(--shadow)}
+        .box::before{position:absolute;left:16px;top:15px;font-size:1.2rem;line-height:1}
+        .box>strong{display:block;margin-bottom:3px}
+        .box-tipp{background:#ecfdf5;border-color:#a7f3d0}.box-tipp::before{content:"💡"}
+        .box-info{background:#eff6ff;border-color:#bfdbfe}.box-info::before{content:"ℹ️"}
+        .box-wichtig{background:#fff7ed;border-color:#fed7aa}.box-wichtig::before{content:"⚠️"}
+        .box-check{background:#f0fdf4;border-color:#bbf7d0}.box-check::before{content:"✅"}
+        .box-kosten{background:#faf5ff;border-color:#e9d5ff}.box-kosten::before{content:"💶"}
+        .box-frage{background:#f8fafc;border-color:var(--line)}.box-frage::before{content:"❓"}
         footer.site{border-top:1px solid var(--line);margin-top:56px;padding:32px 0;color:var(--mut);font-size:.9rem;background:var(--soft2)}
         footer.site a{color:var(--mut)}
         footer.site a:hover{color:var(--pri)}

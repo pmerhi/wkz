@@ -4,13 +4,15 @@
         <a href="{{ url('/ratgeber') }}">Ratgeber</a> › {{ $artikel->titel }}
     </nav>
 
-    <h1>{{ $artikel->titel }}</h1>
-    @if($artikel->kategorie)<p class="muted">{{ $artikel->kategorie->name }}</p>@endif
-    @if($artikel->intro)<p><strong>{{ $artikel->intro }}</strong></p>@endif
+    <section class="hero hero-sm reveal in">
+        @if($artikel->kategorie)<p class="badge" style="background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.35);color:#fff">{{ $artikel->kategorie->name }}</p>@endif
+        <h1>{{ $artikel->titel }}</h1>
+        @if($artikel->intro)<p class="lead">{{ $artikel->intro }}</p>@endif
+    </section>
 
-    <div class="content">
+    <article class="content wrap--narrow reveal">
         {!! \Illuminate\Support\Str::markdown($artikel->body ?? '') !!}
-    </div>
+    </article>
 
     @if($artikel->tags->isNotEmpty())
         <p>

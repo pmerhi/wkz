@@ -4,25 +4,31 @@
         <a href="{{ url('/zulassungsstelle') }}">Zulassungsstellen</a> › {{ $land->name }}
     </nav>
 
-    <h1>Zulassungsstellen in {{ $land->name }}</h1>
+    <section class="hero hero-sm reveal in">
+        <h1>Zulassungsstellen in {{ $land->name }}</h1>
+        @if(! $land->zulassungsstellen->isEmpty())
+        <p class="lead">In {{ $land->name }} sind <strong>{{ $land->zulassungsstellen->count() }}</strong>
+        Kfz-Zulassungsstellen erfasst – mit Anschrift, Öffnungszeiten, Online-Terminvergabe und den
+        Kennzeichen-Kürzeln des Landes.</p>
+        @endif
+    </section>
 
     @if($land->zulassungsstellen->isEmpty())
         <p class="muted">Für {{ $land->name }} sind derzeit noch keine Zulassungsstellen erfasst.
         <a href="{{ url('/zulassungsstelle') }}">Zum Verzeichnis →</a></p>
     @else
-        <p>In {{ $land->name }} sind <strong>{{ $land->zulassungsstellen->count() }}</strong>
-        Kfz-Zulassungsstellen erfasst. Hier findest du Anschrift, Öffnungszeiten und – wo
-        vorhanden – die Online-Terminvergabe sowie die Kennzeichen-Kürzel des Landes.</p>
-
         @if($kuerzel->isNotEmpty())
+        <section class="section reveal">
             <h2>Kennzeichen-Kürzel in {{ $land->name }}</h2>
             <p>
                 @foreach($kuerzel as $k)
                     <a class="badge" href="{{ url('/kennzeichen/'.$k->slug) }}">{{ $k->code }}</a>
                 @endforeach
             </p>
+        </section>
         @endif
 
+        <section class="section reveal">
         <h2>Zulassungsstellen in {{ $land->name }}</h2>
         @php $buchstaben = $gruppen->keys(); @endphp
         <p>
@@ -38,14 +44,17 @@
                 @endforeach
             </ul>
         @endforeach
+        </section>
 
         @if($artikel->isNotEmpty())
-            <h2>Ratgeber</h2>
-            <ul>
+        <section class="section reveal">
+            <h2>Ratgeber rund ums Kfz</h2>
+            <div class="grid">
                 @foreach($artikel as $a)
-                    <li><a href="{{ url('/ratgeber/'.$a->slug) }}">{{ $a->titel }}</a></li>
+                    <div class="card"><a href="{{ url('/ratgeber/'.$a->slug) }}">{{ $a->titel }}</a></div>
                 @endforeach
-            </ul>
+            </div>
+        </section>
         @endif
     @endif
 </x-layout>

@@ -4,18 +4,16 @@
         <a href="{{ url('/kennzeichen') }}">Kennzeichen</a> › Altkennzeichen
     </nav>
 
-    <h1>Altkennzeichen – wieder eingeführte Kfz-Kennzeichen</h1>
-
-    <p>
-        Unter dem Begriff <strong>Altkennzeichen</strong> versteht man Kfz-Unterscheidungszeichen
-        aufgelöster Land- und Stadtkreise, die nach den Gebietsreformen ausliefen und im Rahmen der
-        <strong>Kennzeichenliberalisierung</strong> seit dem <strong>1. November 2012</strong> wieder
-        ausgegeben werden dürfen. Dieses Verzeichnis listet alle <strong>{{ $anzahl }}</strong> wieder
-        eingeführten Altkennzeichen in Deutschland – mit ihrer historischen Bedeutung und dem heute
-        zuständigen Zulassungsbezirk.
-    </p>
-
-    <p><a class="cta js-reservierung-cta" data-label="altkennzeichen:index" href="{{ config('portal.reservation_url') }}?utm_source=portal&utm_medium=cta&utm_campaign=altkennzeichen" rel="nofollow">Wunschkennzeichen mit Altkennzeichen reservieren →</a></p>
+    <section class="hero hero-sm reveal in">
+        <h1>Altkennzeichen – wieder eingeführte Kfz-Kennzeichen</h1>
+        <p class="lead">
+            <strong>Altkennzeichen</strong> sind Unterscheidungszeichen aufgelöster Land- und Stadtkreise,
+            die seit der <strong>Kennzeichenliberalisierung</strong> (1. November 2012) wieder ausgegeben
+            werden dürfen. Hier findest du alle <strong>{{ $anzahl }}</strong> wieder eingeführten
+            Altkennzeichen – mit historischer Bedeutung und heutigem Zulassungsbezirk.
+        </p>
+        <p style="margin:18px 0 0"><a class="cta js-reservierung-cta" data-label="altkennzeichen:index" href="{{ config('portal.reservation_url') }}?utm_source=portal&utm_medium=cta&utm_campaign=altkennzeichen" rel="nofollow">Wunschkennzeichen mit Altkennzeichen reservieren →</a></p>
+    </section>
 
     <p>
         @foreach($gruppen as $name => $g)
