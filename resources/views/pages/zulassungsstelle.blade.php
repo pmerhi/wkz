@@ -35,6 +35,20 @@
         @endif
     @endif
 
+    @if($stelle->kinder->isNotEmpty())
+        <h2>Weitere Zulassungsstellen in {{ $stelle->ort }}</h2>
+        <div class="grid">
+            @foreach($stelle->kinder as $k)
+                <div class="card">
+                    <strong>{{ $k->name }}</strong>
+                    <div class="muted">{{ $k->strasse }}@if($k->strasse && ($k->plz || $k->ort))<br>@endif{{ $k->plz }} {{ $k->ort }}</div>
+                    @if($k->telefon)<div class="muted">Tel.: {{ $k->telefon }}</div>@endif
+                    @if($k->termin_url)<a class="js-termin" data-label="{{ $k->slug }}" href="{{ $k->termin_url }}" rel="nofollow noopener" target="_blank">Online-Termin →</a>@endif
+                </div>
+            @endforeach
+        </div>
+    @endif
+
     @if($stelle->kennzeichenKuerzel->isNotEmpty())
         <h2>Kennzeichen-Kürzel</h2>
         <p>

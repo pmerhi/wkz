@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 
 class Zulassungsstelle extends Model
@@ -37,21 +38,39 @@ class Zulassungsstelle extends Model
         return url($this->pfad);
     }
 
-    /** Genug Substanz für Indexierung? (nicht nur Name + Geo) */
+    /** Genug Substanz für Indexierung? (nicht nur Name + Geo; keine Kind-Stelle) */
     public function getIsIndexableAttribute(): bool
     {
-        return $this->strasse || $this->plz || $this->oeffnungszeiten
-            || $this->telefon || $this->termin_url;
+        return ! $this->parent_id && ($this->strasse || $this->plz || $this->oeffnungszeiten
+            || $this->telefon || $this->termin_url);
     }
 
-    /** Query-Scope: nur indexierbare (substanzreiche) Stellen. */
+    /** Query-Scope: nur indexierbare Primär-Stellen (substanzreich, kein Kind). */
     public function scopeIndexable($query)
     {
-        return $query->where(function ($q) {
+        return $query->whereNull('parent_id')->where(function ($q) {
             $q->whereNotNull('strasse')->orWhereNotNull('plz')
               ->orWhereNotNull('oeffnungszeiten')->orWhereNotNull('telefon')
               ->orWhereNotNull('termin_url');
         });
+    }
+
+    /** Nur Primär-Ämter (eigene Seite). */
+    public function scopePrimaer($query)
+    {
+        return $query->whereNull('parent_id');
+    }
+
+    /** Primär-Amt (bei Kind-Stellen). */
+    public function parent(): BelongsTo
+    {
+        return $this->belongsTo(self::class, 'parent_id');
+    }
+
+    /** Weitere Zulassungsstellen am Ort (Außenstellen). */
+    public function kinder(): HasMany
+    {
+        return $this->hasMany(self::class, 'parent_id')->orderBy('name');
     }
 
     public function bundesland(): BelongsTo

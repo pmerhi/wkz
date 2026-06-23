@@ -52,7 +52,7 @@ class PageController extends Controller
 
         // Suche (?q=) — Ergebnisseite, nicht indexieren, Canonical aufs Verzeichnis.
         if ($q !== '') {
-            $treffer = Zulassungsstelle::with('bundesland')
+            $treffer = Zulassungsstelle::with('bundesland')->whereNull('parent_id')
                 ->where(fn ($x) => $x->where('name', 'like', "%{$q}%")->orWhere('ort', 'like', "%{$q}%"))
                 ->orderBy('name')->limit(50)->get();
 
@@ -70,7 +70,7 @@ class PageController extends Controller
 
         // Hub: nur die Bundesländer (Hub-and-Spoke) — Detail-Listen liegen je Land.
         $laender = Bundesland::has('zulassungsstellen')
-            ->withCount('zulassungsstellen')
+            ->withCount(['zulassungsstellen' => fn ($q) => $q->whereNull('parent_id')])
             ->orderBy('name')->get();
 
         $items = [];
@@ -99,7 +99,8 @@ class PageController extends Controller
 
     public function zulassungsstelle(string $land, string $slug)
     {
-        $query = Zulassungsstelle::with(['bundesland', 'kennzeichenKuerzel', 'seoMeta', 'gemeinde']);
+        $query = Zulassungsstelle::with(['bundesland', 'kennzeichenKuerzel', 'seoMeta', 'gemeinde',
+            'kinder' => fn ($q) => $q->with('bundesland')]);
         if ($land === 'deutschland') {
             $query->whereNull('bundesland_id');
         } else {
@@ -108,6 +109,10 @@ class PageController extends Controller
         }
         $stelle = $query->where('slug', $slug)->firstOrFail();
 
+        // Kind-Stelle (Außenstelle) → auf das Primär-Amt des Ortes weiterleiten.
+        if ($stelle->parent_id) {
+            return redirect($stelle->parent->pfad, 301);
+        }
         // Falsches Land-Segment → auf die kanonische URL umleiten.
         if ($stelle->land_slug !== $land) {
             return redirect($stelle->pfad, 301);
@@ -307,7 +312,7 @@ class PageController extends Controller
     public function bundeslandStellen(string $land)
     {
         $bl = Bundesland::with([
-            'zulassungsstellen'                   => fn ($q) => $q->orderBy('ort'),
+            'zulassungsstellen'                   => fn ($q) => $q->whereNull('parent_id')->orderBy('ort'),
             'zulassungsstellen.bundesland',
             'zulassungsstellen.kennzeichenKuerzel',
         ])->where('slug', $land)->firstOrFail();
