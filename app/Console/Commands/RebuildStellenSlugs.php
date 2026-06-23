@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use App\Models\Zulassungsstelle;
+use App\Support\Slug;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
@@ -127,9 +128,9 @@ class RebuildStellenSlugs extends Command
     /** Ortsbasierter Basis-Slug (Fallback: Behördenname). */
     private function baseSlug(Zulassungsstelle $s): string
     {
-        $base = Str::slug((string) $s->ort);
+        $base = Slug::de((string) $s->ort);
         if ($base === '') {
-            $base = Str::slug($this->stripGeneric((string) $s->name));
+            $base = Slug::de($this->stripGeneric((string) $s->name));
         }
         return $base !== '' ? $base : 'zulassungsstelle';
     }
@@ -140,13 +141,13 @@ class RebuildStellenSlugs extends Command
         if (! isset($taken[$base])) return $base;
 
         // Diskriminator-Priorität: sauberer kurzer Stadtteil → PLZ → Straßenname → Zähler.
-        $rest = Str::slug($this->stripGeneric(str_ireplace((string) $s->ort, '', (string) $s->name)));
+        $rest = Slug::de($this->stripGeneric(str_ireplace((string) $s->ort, '', (string) $s->name)));
         $cleanRest = preg_match('/^[a-z][a-z-]{1,17}$/', $rest) ? $rest : null;   // nur kurze, alphabetische Stadtteile
 
         $kandidaten = array_filter([
             $cleanRest,
             $s->plz ? (string) $s->plz : null,
-            Str::slug($this->streetName($s->strasse)) ?: null,
+            Slug::de($this->streetName($s->strasse)) ?: null,
         ]);
         foreach ($kandidaten as $disc) {
             if ($disc !== $base && ! isset($taken[$base.'-'.$disc])) {
@@ -161,14 +162,14 @@ class RebuildStellenSlugs extends Command
 
     private function stripGeneric(string $s): string
     {
-        $s = Str::slug($s, ' ');
+        $s = Str::slug(Slug::umlaute($s), ' ');
         $words = array_filter(explode(' ', $s), fn ($w) => $w !== '' && ! in_array($w, self::GENERIC, true));
         return implode(' ', $words);
     }
 
     private function streetName(?string $s): string
     {
-        $s = Str::slug((string) $s, ' ');
+        $s = Str::slug(Slug::umlaute((string) $s), ' ');
         return trim(preg_replace('/\d.*$/', '', $s));
     }
 }

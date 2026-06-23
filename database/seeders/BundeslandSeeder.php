@@ -3,8 +3,8 @@
 namespace Database\Seeders;
 
 use App\Models\Bundesland;
+use App\Support\Slug;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Str;
 
 class BundeslandSeeder extends Seeder
 {
@@ -19,7 +19,7 @@ class BundeslandSeeder extends Seeder
         ];
 
         foreach ($laender as $name) {
-            Bundesland::firstOrCreate(['slug' => Str::slug($name)], ['name' => $name]);
+            Bundesland::updateOrCreate(['name' => $name], ['slug' => Slug::de($name)]);
         }
     }
 }
