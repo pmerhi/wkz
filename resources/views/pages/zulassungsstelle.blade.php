@@ -1,78 +1,167 @@
 <x-layout :title="$title" :description="$description" :canonical="$canonical" :robots="$robots" :schemas="$schemas">
     <nav class="breadcrumb">
         <a href="{{ url('/') }}">Start</a> ›
-        <a href="{{ url('/zulassungsstelle') }}">Zulassungsstellen</a> › {{ $stelle->name }}
+        <a href="{{ url('/zulassungsstelle') }}">Zulassungsstellen</a>
+        @if($stelle->bundesland)› <a href="{{ url('/zulassungsstelle/'.$stelle->bundesland->slug) }}">{{ $stelle->bundesland->name }}</a>@endif
+        › {{ $stelle->ort ?: $stelle->name }}
     </nav>
 
+    @php
+        $v = $ab['cta_text'] ?? 'a';
+        $ortLabel = $stelle->ort ?: $stelle->name;
+        $hatHours = is_array($stelle->oeffnungszeiten) && count($stelle->oeffnungszeiten) && ! isset($stelle->oeffnungszeiten['raw']);
+        $hatRawHours = is_array($stelle->oeffnungszeiten) && isset($stelle->oeffnungszeiten['raw']);
+        $kuerzel = $stelle->kennzeichenKuerzel->first();
+        $reservUrl = config('portal.reservation_url').'?utm_source=portal&utm_medium=cta&utm_campaign=zst&zst='.$stelle->slug;
+        $istOsm = str_contains((string) $stelle->quelle, 'OpenStreetMap');
+        $kuerzelHinweis = $kuerzel ? ' (Unterscheidungszeichen <strong>'.e($kuerzel->code).'</strong>)' : '';
+    @endphp
+
     <h1>{{ $stelle->name }}</h1>
-    @if($stelle->traeger)<p class="muted">{{ $stelle->traeger }}</p>@endif
+    <p class="lead-intro">Die <strong>{{ $stelle->name }}</strong> ist für die Kfz-Zulassung in
+        <strong>{{ $ortLabel }}</strong> zuständig{!! $kuerzelHinweis !!}.
+        Hier findest du heutige Öffnungszeiten, Online-Termin und Kontakt – und kannst dein
+        Wunschkennzeichen direkt reservieren.</p>
 
-    @php $v = $ab['cta_text'] ?? 'a'; $ortLabel = $stelle->ort ?: $stelle->name; @endphp
-    <p><a class="cta js-reservierung-cta" data-label="zst:{{ $stelle->slug }}" data-variant="{{ $v }}" href="{{ config('portal.reservation_url') }}?utm_source=portal&utm_medium=cta&utm_campaign=zst&zst={{ $stelle->slug }}" rel="nofollow">{{ $v === 'b' ? $ortLabel.': Wunschkennzeichen in 2 Min. sichern →' : 'Wunschkennzeichen für '.$ortLabel.' reservieren →' }}</a></p>
+    <nav class="jumpnav">
+        @if($hatHours)<a href="#oeffnungszeiten">🕒 Öffnungszeiten</a>@endif
+        <a href="#online">🚗 Online-Zulassung</a>
+        <a href="#reservieren">⭐ Wunschkennzeichen</a>
+        @if($stelle->termin_url)<a href="#termin">📅 Termin</a>@endif
+        <a href="#kontakt">📍 Kontakt</a>
+        <a href="#faq">❓ FAQ</a>
+    </nav>
 
-    <h2>Kontakt & Anschrift</h2>
-    <table class="info">
-        <tr><th>Anschrift</th><td>{{ $stelle->strasse }}@if($stelle->strasse)<br>@endif{{ $stelle->plz }} {{ $stelle->ort }}</td></tr>
-        @if($stelle->telefon)<tr><th>Telefon</th><td>{{ $stelle->telefon }}</td></tr>@endif
-        @if($stelle->email)<tr><th>E-Mail</th><td>{{ $stelle->email }}</td></tr>@endif
-        @if($stelle->website)<tr><th>Website</th><td><a href="{{ $stelle->website }}" rel="nofollow noopener" target="_blank">{{ $stelle->website }}</a></td></tr>@endif
-        @if($stelle->termin_url)<tr><th>Terminvergabe</th><td><a class="js-termin" data-label="{{ $stelle->slug }}" href="{{ $stelle->termin_url }}" rel="nofollow noopener" target="_blank">Online-Termin buchen</a></td></tr>@endif
-        @if($stelle->bundesland)<tr><th>Bundesland</th><td><a href="{{ url('/zulassungsstelle/'.$stelle->bundesland->slug) }}">{{ $stelle->bundesland->name }}</a></td></tr>@endif
-    </table>
-
-    @if(is_array($stelle->oeffnungszeiten) && count($stelle->oeffnungszeiten))
-        <h2>Öffnungszeiten</h2>
-        @if(isset($stelle->oeffnungszeiten['raw']))
-            <p>{{ $stelle->oeffnungszeiten['raw'] }}</p>
+    {{-- Öffnungszeiten: heute mit Balken, ganze Woche aufklappbar --}}
+    @if($hatHours || $hatRawHours)
+    <section class="section reveal" id="oeffnungszeiten">
+        <h2>Öffnungszeiten {{ $ortLabel }}</h2>
+        @if($hatHours)
+            <x-oeffnungszeiten :data="$stelle->oeffnungszeiten" />
         @else
-            <table class="info">
-                @foreach($stelle->oeffnungszeiten as $z)
-                    @if(is_array($z))
-                        <tr><th>{{ $z['label'] ?? $z['day'] ?? '' }}</th><td>{{ ($z['opens'] ?? '') }}@if(isset($z['closes'])) – {{ $z['closes'] }}@endif</td></tr>
-                    @endif
-                @endforeach
-            </table>
+            <p>{{ $stelle->oeffnungszeiten['raw'] }}</p>
         @endif
+    </section>
     @endif
 
+    {{-- Online-Zulassung (i-Kfz) – der große „Neu"-Bereich --}}
+    <section class="section reveal" id="online">
+        <div class="feature">
+            <span class="tag-new">Neu · i-Kfz Stufe 4</span>
+            <h2>Auto online zulassen, ab- &amp; ummelden</h2>
+            <p class="lead-intro">Viele Vorgänge gehen heute komplett digital – ganz ohne Gang zur
+                Zulassungsstelle {{ $ortLabel }}. Über das bundesweite <a href="{{ url('/ratgeber/i-kfz') }}">i-Kfz-Portal</a>
+                erledigst du An-, Ab- und Ummeldung rund um die Uhr von zu Hause.</p>
+            <div class="grid">
+                <div class="card"><strong>✅ Voraussetzungen</strong>
+                    <div class="muted">Online-Ausweis (eID) mit PIN, Smartphone/Lesegerät, Sicherheitscodes auf Schein, Brief &amp; Plaketten.</div>
+                </div>
+                <div class="card"><strong>🚗 Anmelden &amp; ummelden</strong>
+                    <div class="muted">Neu- und Gebrauchtwagen online zulassen, Halterwechsel und Umzug digital melden.</div>
+                </div>
+                <div class="card"><strong>🅿️ Abmelden</strong>
+                    <div class="muted">Fahrzeug außer Betrieb setzen – sofort und gebührengünstig online.</div>
+                </div>
+            </div>
+            <p style="margin:18px 0 0"><a class="btn" href="{{ url('/ratgeber/i-kfz') }}">So funktioniert i-Kfz →</a></p>
+        </div>
+    </section>
+
+    {{-- Wunschkennzeichen reservieren --}}
+    <section class="section reveal" id="reservieren">
+        <div class="pri-cta-block">
+            <h2>Wunschkennzeichen @if($kuerzel){{ $kuerzel->code }} @endif in {{ $ortLabel }} reservieren</h2>
+            <p>Prüfe live, ob deine Wunsch-Kombination frei ist, und sichere sie in wenigen Minuten –
+                bequem online, bevor du zur Zulassung gehst.</p>
+            <a class="cta js-reservierung-cta" data-label="zst:{{ $stelle->slug }}" data-variant="{{ $v }}" href="{{ $reservUrl }}" rel="nofollow">{{ $v === 'b' ? 'Jetzt in 2 Minuten sichern →' : 'Wunschkennzeichen prüfen &amp; reservieren →' }}</a>
+        </div>
+    </section>
+
+    {{-- Termin --}}
+    @if($stelle->termin_url)
+    <section class="section reveal" id="termin">
+        <h2>Termin bei der Zulassungsstelle {{ $ortLabel }}</h2>
+        <p class="lead-intro">Für den Besuch vor Ort empfehlen wir eine Online-Terminbuchung – das spart
+            Wartezeit. Die Buchung läuft direkt über das Terminsystem der Behörde.</p>
+        <p><a class="btn js-termin" data-label="{{ $stelle->slug }}" href="{{ $stelle->termin_url }}" rel="nofollow noopener" target="_blank">📅 Online-Termin buchen →</a></p>
+    </section>
+    @endif
+
+    {{-- Kontakt & Anschrift --}}
+    <section class="section reveal" id="kontakt">
+        <h2>Kontakt &amp; Anschrift</h2>
+        <table class="info">
+            <tr><th>Anschrift</th><td>{{ $stelle->strasse }}@if($stelle->strasse)<br>@endif{{ $stelle->plz }} {{ $stelle->ort }}</td></tr>
+            @if($stelle->telefon)<tr><th>Telefon</th><td>{{ $stelle->telefon }}</td></tr>@endif
+            @if($stelle->email)<tr><th>E-Mail</th><td><a href="mailto:{{ $stelle->email }}">{{ $stelle->email }}</a></td></tr>@endif
+            @if($stelle->website)<tr><th>Website</th><td><a href="{{ $stelle->website }}" rel="nofollow noopener" target="_blank">{{ $stelle->website }}</a></td></tr>@endif
+            @if($stelle->bundesland)<tr><th>Bundesland</th><td><a href="{{ url('/zulassungsstelle/'.$stelle->bundesland->slug) }}">{{ $stelle->bundesland->name }}</a></td></tr>@endif
+        </table>
+    </section>
+
+    {{-- Weitere Zulassungsstellen --}}
     @if($stelle->kinder->isNotEmpty())
+    <section class="section reveal" id="weitere">
         <h2>Weitere Zulassungsstellen in {{ $stelle->ort }}</h2>
         <div class="grid">
             @foreach($stelle->kinder as $k)
                 <div class="card">
                     <strong>{{ $k->name }}</strong>
-                    <div class="muted">{{ $k->strasse }}@if($k->strasse && ($k->plz || $k->ort))<br>@endif{{ $k->plz }} {{ $k->ort }}</div>
+                    <div class="muted">{{ $k->strasse }}@if($k->strasse)<br>@endif{{ $k->plz }} {{ $k->ort }}</div>
                     @if($k->telefon)<div class="muted">Tel.: {{ $k->telefon }}</div>@endif
                     @if($k->termin_url)<a class="js-termin" data-label="{{ $k->slug }}" href="{{ $k->termin_url }}" rel="nofollow noopener" target="_blank">Online-Termin →</a>@endif
                 </div>
             @endforeach
         </div>
+    </section>
     @endif
 
+    {{-- Kennzeichen-Kürzel --}}
     @if($stelle->kennzeichenKuerzel->isNotEmpty())
-        <h2>Kennzeichen-Kürzel</h2>
+    <section class="section reveal">
+        <h2>Kennzeichen-Kürzel im Zulassungsbezirk</h2>
         <p>
             @foreach($stelle->kennzeichenKuerzel as $k)
                 <a class="badge" href="{{ url('/kennzeichen/'.$k->slug) }}">{{ $k->code }}</a>
             @endforeach
         </p>
+    </section>
     @endif
 
-    @if($stelle->last_imported_at)
-        <p class="muted">Datenstand: {{ $stelle->last_imported_at->format('d.m.Y') }}@if($stelle->quelle) · Quelle: {{ $stelle->quelle }}@endif</p>
-    @endif
-    @if(str_contains((string) $stelle->quelle, 'OpenStreetMap'))
-        <p class="muted">Stammdaten © OpenStreetMap-Mitwirkende, <a href="https://opendatacommons.org/licenses/odbl/" rel="nofollow noopener" target="_blank">ODbL</a>. Ohne Gewähr — bitte vor dem Besuch bei der Behörde prüfen.</p>
-    @endif
+    {{-- FAQ --}}
+    <section class="section reveal faq" id="faq">
+        <h2>Häufige Fragen</h2>
+        <details>
+            <summary>Wie reserviere ich ein Wunschkennzeichen in {{ $ortLabel }}?</summary>
+            <p>Prüfe online die Verfügbarkeit deiner Wunsch-Kombination und reserviere sie. Anschließend
+            kannst du das Kennzeichen bei der {{ $stelle->name }} zur Zulassung verwenden. <a href="{{ $reservUrl }}" rel="nofollow">Jetzt prüfen &amp; reservieren →</a></p>
+        </details>
+        <details>
+            <summary>Brauche ich für die Zulassung in {{ $ortLabel }} einen Termin?</summary>
+            <p>@if($stelle->termin_url)Ja, wir empfehlen eine <a href="{{ $stelle->termin_url }}" rel="nofollow noopener" target="_blank">Online-Terminbuchung</a>, um Wartezeiten zu vermeiden.@else Viele Zulassungsstellen arbeiten mit Terminvergabe. Bitte informiere dich vorab auf der offiziellen Website.@endif</p>
+        </details>
+        <details>
+            <summary>Kann ich mein Auto in {{ $ortLabel }} online zulassen?</summary>
+            <p>Ja – über das i-Kfz-Portal sind An-, Ab- und Ummeldung digital möglich. Wie das genau
+            funktioniert, erklären wir im <a href="{{ url('/ratgeber/i-kfz') }}">i-Kfz-Ratgeber</a>.</p>
+        </details>
+    </section>
 
     @if($artikel->isNotEmpty())
+    <section class="section reveal">
         <h2>Passende Ratgeber</h2>
-        <ul>
+        <div class="grid">
             @foreach($artikel as $a)
-                <li><a href="{{ url('/ratgeber/'.$a->slug) }}">{{ $a->titel }}</a></li>
+                <div class="card"><a href="{{ url('/ratgeber/'.$a->slug) }}">{{ $a->titel }}</a></div>
             @endforeach
-        </ul>
+        </div>
+    </section>
     @endif
+
+    <p class="muted" style="font-size:.85rem;margin-top:24px">
+        @if($stelle->last_imported_at)Datenstand: {{ $stelle->last_imported_at->format('d.m.Y') }}@if($stelle->quelle) · Quelle: {{ $stelle->quelle }}@endif@endif
+        @if($istOsm) · Stammdaten © OpenStreetMap-Mitwirkende, <a href="https://opendatacommons.org/licenses/odbl/" rel="nofollow noopener" target="_blank">ODbL</a>@endif
+    </p>
 
     <x-ad-slot position="zst_unten" />
 </x-layout>
