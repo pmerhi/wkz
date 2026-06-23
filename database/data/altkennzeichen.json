@@ -1,0 +1,638 @@
+[
+{
+"code": "ALF",
+"stadt": "Alfeld"
+},
+{
+"code": "ARN",
+"stadt": "Arnstadt"
+},
+{
+"code": "ART",
+"stadt": "Artern"
+},
+{
+"code": "ASL",
+"stadt": "Aschersleben"
+},
+{
+"code": "AT",
+"stadt": "Altentreptow"
+},
+{
+"code": "AZE",
+"stadt": "Anhalt-Zerbst"
+},
+{
+"code": "BCH",
+"stadt": "Buchen"
+},
+{
+"code": "BE",
+"stadt": "Beckum"
+},
+{
+"code": "BH",
+"stadt": "Bühl"
+},
+{
+"code": "BID",
+"stadt": "Biedenkopf"
+},
+{
+"code": "BIN",
+"stadt": "Bingen"
+},
+{
+"code": "BIW",
+"stadt": "Bischofswerda"
+},
+{
+"code": "BKS",
+"stadt": "Bernkastel"
+},
+{
+"code": "BLB",
+"stadt": "Berleburg"
+},
+{
+"code": "BOG",
+"stadt": "Bogen"
+},
+{
+"code": "BRL",
+"stadt": "Blankenburg"
+},
+{
+"code": "BSB",
+"stadt": "Bersenbrück"
+},
+{
+"code": "BSK",
+"stadt": "Beeskow"
+},
+{
+"code": "BUL",
+"stadt": "Burglengenfeld"
+},
+{
+"code": "BÖ",
+"stadt": "Bördekreis"
+},
+{
+"code": "BÜD",
+"stadt": "Büdingen"
+},
+{
+"code": "BÜR",
+"stadt": "Büren"
+},
+{
+"code": "CLZ",
+"stadt": "Clausthal-Zellerfeld"
+},
+{
+"code": "CR",
+"stadt": "Crailsheim"
+},
+{
+"code": "DI",
+"stadt": "Dieburg"
+},
+{
+"code": "DIN",
+"stadt": "Dinslaken"
+},
+{
+"code": "DM",
+"stadt": "Demmin"
+},
+{
+"code": "DS",
+"stadt": "Donaueschingen"
+},
+{
+"code": "DT",
+"stadt": "Detmold"
+},
+{
+"code": "DUD",
+"stadt": "Duderstadt"
+},
+{
+"code": "EBN",
+"stadt": "Ebern"
+},
+{
+"code": "EBS",
+"stadt": "Ebermannstadt"
+},
+{
+"code": "ECK",
+"stadt": "Eckernförde"
+},
+{
+"code": "EG",
+"stadt": "Eggenfelden"
+},
+{
+"code": "ERK",
+"stadt": "Erkelenz"
+},
+{
+"code": "EW",
+"stadt": "Eberswalde"
+},
+{
+"code": "FDB",
+"stadt": "Friedberg"
+},
+{
+"code": "FEU",
+"stadt": "Feuchtwangen"
+},
+{
+"code": "FLÖ",
+"stadt": "Flöha"
+},
+{
+"code": "FRW",
+"stadt": "Bad Freienwalde"
+},
+{
+"code": "FTL",
+"stadt": "Freital"
+},
+{
+"code": "FW",
+"stadt": "Fürstenwalde"
+},
+{
+"code": "FZ",
+"stadt": "Fritzlar-Homberg"
+},
+{
+"code": "GAN",
+"stadt": "Gandersheim"
+},
+{
+"code": "GC",
+"stadt": "Glauchau"
+},
+{
+"code": "GD",
+"stadt": "Schwäbisch Gmünd"
+},
+{
+"code": "GEO",
+"stadt": "Gerolzhofen"
+},
+{
+"code": "GHA",
+"stadt": "Geithain"
+},
+{
+"code": "GHC",
+"stadt": "Gräfenhainichen"
+},
+{
+"code": "GK",
+"stadt": "Geilenkirchen-Heinsberg"
+},
+{
+"code": "GLA",
+"stadt": "Gladbeck"
+},
+{
+"code": "GN",
+"stadt": "Gelnhausen"
+},
+{
+"code": "GOA",
+"stadt": "Sankt Goar"
+},
+{
+"code": "GRI",
+"stadt": "Griesbach im Rottal"
+},
+{
+"code": "GUN",
+"stadt": "Gunzenhausen"
+},
+{
+"code": "GV",
+"stadt": "Grevenbroich"
+},
+{
+"code": "HAB",
+"stadt": "Hammelburg"
+},
+{
+"code": "HCH",
+"stadt": "Hechingen"
+},
+{
+"code": "HGN",
+"stadt": "Hagenow"
+},
+{
+"code": "HIP",
+"stadt": "Hilpoltstein"
+},
+{
+"code": "HOH",
+"stadt": "Hofheim i.UFr."
+},
+{
+"code": "HOR",
+"stadt": "Horb"
+},
+{
+"code": "HY",
+"stadt": "Hoyerswerda"
+},
+{
+"code": "HÖS",
+"stadt": "Höchstadt a.d.Aisch"
+},
+{
+"code": "IL",
+"stadt": "Ilmenau"
+},
+{
+"code": "ILL",
+"stadt": "Illertissen"
+},
+{
+"code": "JB",
+"stadt": "Jüterbog"
+},
+{
+"code": "JÜL",
+"stadt": "Jülich"
+},
+{
+"code": "KEL",
+"stadt": "Kehl"
+},
+{
+"code": "KK",
+"stadt": "Kempen-Krefeld"
+},
+{
+"code": "KLZ",
+"stadt": "Klötze"
+},
+{
+"code": "KM",
+"stadt": "Kamenz"
+},
+{
+"code": "KRU",
+"stadt": "Krumbach"
+},
+{
+"code": "KY",
+"stadt": "Kyritz"
+},
+{
+"code": "KÖZ",
+"stadt": "Kötzting"
+},
+{
+"code": "LAN",
+"stadt": "Landau a. d. Isar"
+},
+{
+"code": "LBS",
+"stadt": "Lobenstein"
+},
+{
+"code": "LC",
+"stadt": "Luckau"
+},
+{
+"code": "LEO",
+"stadt": "Leonberg"
+},
+{
+"code": "LH",
+"stadt": "Lüdinghausen"
+},
+{
+"code": "LSZ",
+"stadt": "Langensalza"
+},
+{
+"code": "LUK",
+"stadt": "Luckenwalde"
+},
+{
+"code": "LWL",
+"stadt": "Ludwigslust"
+},
+{
+"code": "LÖB",
+"stadt": "Löbau"
+},
+{
+"code": "MAB",
+"stadt": "Marienberg"
+},
+{
+"code": "MAI",
+"stadt": "Mainburg"
+},
+{
+"code": "MAL",
+"stadt": "Mallersdorf"
+},
+{
+"code": "MC",
+"stadt": "Malchin"
+},
+{
+"code": "MEG",
+"stadt": "Melsungen"
+},
+{
+"code": "MEK",
+"stadt": "Mittlerer Erzgebirgskreis"
+},
+{
+"code": "MGN",
+"stadt": "Meiningen"
+},
+{
+"code": "MHL",
+"stadt": "Mühlhausen"
+},
+{
+"code": "MO",
+"stadt": "Moers"
+},
+{
+"code": "MOD",
+"stadt": "Marktoberdorf"
+},
+{
+"code": "MW",
+"stadt": "Mittweida"
+},
+{
+"code": "MY",
+"stadt": "Mayen"
+},
+{
+"code": "MÜL",
+"stadt": "Müllheim"
+},
+{
+"code": "NEN",
+"stadt": "Neunburg vorm Wald"
+},
+{
+"code": "NEU",
+"stadt": "Neustadt im Schwarzwald"
+},
+{
+"code": "NH",
+"stadt": ""
+},
+{
+"code": "NOR",
+"stadt": "Norden"
+},
+{
+"code": "NT",
+"stadt": "Nürtingen"
+},
+{
+"code": "OBB",
+"stadt": "Obernburg am Main"
+},
+{
+"code": "OBG",
+"stadt": "Osterburg"
+},
+{
+"code": "OC",
+"stadt": "Oschersleben"
+},
+{
+"code": "OCH",
+"stadt": "Ochsenfurt"
+},
+{
+"code": "OHA",
+"stadt": "Osterode am Harz"
+},
+{
+"code": "OP",
+"stadt": "Opladen"
+},
+{
+"code": "OTW",
+"stadt": "Ottweiler"
+},
+{
+"code": "OVI",
+"stadt": "Oberviechtach"
+},
+{
+"code": "PAR",
+"stadt": "Parsberg"
+},
+{
+"code": "PN",
+"stadt": "Pößneck"
+},
+{
+"code": "PRÜ",
+"stadt": "Prüm"
+},
+{
+"code": "PW",
+"stadt": "Pasewalk"
+},
+{
+"code": "RI",
+"stadt": "Rinteln"
+},
+{
+"code": "RID",
+"stadt": "Riedenburg"
+},
+{
+"code": "RL",
+"stadt": "Rochlitz"
+},
+{
+"code": "ROD",
+"stadt": "Roding"
+},
+{
+"code": "ROF",
+"stadt": "Rotenburg (Fulda)"
+},
+{
+"code": "ROK",
+"stadt": "Rockenhausen"
+},
+{
+"code": "ROL",
+"stadt": "Rottenburg a.d.Laaber"
+},
+{
+"code": "ROT",
+"stadt": "Rothenburg ob der Tauber"
+},
+{
+"code": "RSL",
+"stadt": "Roßlau"
+},
+{
+"code": "RU",
+"stadt": "Rudolstadt"
+},
+{
+"code": "SBG",
+"stadt": "Strasburg"
+},
+{
+"code": "SBK",
+"stadt": "Schönebeck"
+},
+{
+"code": "SCZ",
+"stadt": "Schleiz"
+},
+{
+"code": "SDH",
+"stadt": "Sondershausen"
+},
+{
+"code": "SEF",
+"stadt": "Scheinfeld"
+},
+{
+"code": "SLG",
+"stadt": "Saulgau"
+},
+{
+"code": "SLZ",
+"stadt": "Salzungen"
+},
+{
+"code": "SLÜ",
+"stadt": "Schlüchtern"
+},
+{
+"code": "SOB",
+"stadt": "Schrobenhausen"
+},
+{
+"code": "SOG",
+"stadt": "Schongau"
+},
+{
+"code": "STB",
+"stadt": "Sternberg"
+},
+{
+"code": "STE",
+"stadt": "Staffelstein"
+},
+{
+"code": "STL",
+"stadt": "Stollberg"
+},
+{
+"code": "STO",
+"stadt": "Stockach"
+},
+{
+"code": "SWA",
+"stadt": "Bad Schwalbach"
+},
+{
+"code": "SY",
+"stadt": "Syke"
+},
+{
+"code": "SÄK",
+"stadt": "Säckingen"
+},
+{
+"code": "UFF",
+"stadt": "Uffenheim"
+},
+{
+"code": "USI",
+"stadt": "Usingen"
+},
+{
+"code": "VAI",
+"stadt": "Vaihingen"
+},
+{
+"code": "VIB",
+"stadt": "Vilsbiburg"
+},
+{
+"code": "WA",
+"stadt": "Waldeck"
+},
+{
+"code": "WEL",
+"stadt": "Weilburg"
+},
+{
+"code": "WIZ",
+"stadt": "Witzenhausen"
+},
+{
+"code": "WOH",
+"stadt": "Wolfhagen"
+},
+{
+"code": "WOL",
+"stadt": "Wolfach"
+},
+{
+"code": "WOR",
+"stadt": "Wolfratshausen"
+},
+{
+"code": "WS",
+"stadt": "Wasserburg am Inn"
+},
+{
+"code": "WZL",
+"stadt": "Wanzleben"
+},
+{
+"code": "ZE",
+"stadt": "Zerbst"
+},
+{
+"code": "ZEL",
+"stadt": "Zell"
+},
+{
+"code": "ZIG",
+"stadt": "Ziegenhain"
+},
+{
+"code": "ZR",
+"stadt": "Zeulenroda"
+},
+{
+"code": "ZS",
+"stadt": "Zossen"
+},
+{
+"code": "ÖHR",
+"stadt": "Öhringen"
+}
+]
