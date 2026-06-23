@@ -30,12 +30,12 @@ class SitemapController extends Controller
     {
         $urls = match ($typ) {
             'static'      => $this->staticUrls(),
-            'stellen'     => Zulassungsstelle::indexable()->orderBy('name')->get()
-                                ->map(fn ($s) => ['loc' => url('/zulassungsstelle/'.$s->slug), 'lastmod' => $s->updated_at?->toAtomString()])->all(),
+            'stellen'     => Zulassungsstelle::indexable()->with('bundesland:id,slug')->orderBy('name')->get()
+                                ->map(fn ($s) => ['loc' => $s->url(), 'lastmod' => $s->updated_at?->toAtomString()])->all(),
             'kennzeichen' => KennzeichenKuerzel::indexable()->orderBy('code')->get()
                                 ->map(fn ($k) => ['loc' => url('/kennzeichen/'.$k->slug), 'lastmod' => $k->updated_at?->toAtomString()])->all(),
             'bundesland'  => Bundesland::has('zulassungsstellen')->orderBy('name')->get()
-                                ->map(fn ($b) => ['loc' => url('/bundesland/'.$b->slug), 'lastmod' => $b->updated_at?->toAtomString()])->all(),
+                                ->map(fn ($b) => ['loc' => url('/zulassungsstelle/'.$b->slug), 'lastmod' => $b->updated_at?->toAtomString()])->all(),
             'ratgeber'    => RatgeberArtikel::whereNotNull('published_at')->orderBy('slug')->get()
                                 ->map(fn ($a) => ['loc' => url('/ratgeber/'.$a->slug), 'lastmod' => $a->updated_at?->toAtomString()])->all(),
             default       => [],

@@ -17,7 +17,7 @@
         @if($stelle->email)<tr><th>E-Mail</th><td>{{ $stelle->email }}</td></tr>@endif
         @if($stelle->website)<tr><th>Website</th><td><a href="{{ $stelle->website }}" rel="nofollow noopener" target="_blank">{{ $stelle->website }}</a></td></tr>@endif
         @if($stelle->termin_url)<tr><th>Terminvergabe</th><td><a class="js-termin" data-label="{{ $stelle->slug }}" href="{{ $stelle->termin_url }}" rel="nofollow noopener" target="_blank">Online-Termin buchen</a></td></tr>@endif
-        @if($stelle->bundesland)<tr><th>Bundesland</th><td><a href="{{ url('/bundesland/'.$stelle->bundesland->slug) }}">{{ $stelle->bundesland->name }}</a></td></tr>@endif
+        @if($stelle->bundesland)<tr><th>Bundesland</th><td><a href="{{ url('/zulassungsstelle/'.$stelle->bundesland->slug) }}">{{ $stelle->bundesland->name }}</a></td></tr>@endif
     </table>
 
     @if(is_array($stelle->oeffnungszeiten) && count($stelle->oeffnungszeiten))

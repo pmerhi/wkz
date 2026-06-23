@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\Models\Bundesland;
 use App\Models\KennzeichenKuerzel;
 use App\Models\Partner;
 use App\Models\Placement;
@@ -16,12 +17,13 @@ class SmokeTest extends TestCase
 
     private function seedData(): array
     {
-        $stelle = Zulassungsstelle::create(['name' => 'Test-Zulassungsstelle', 'slug' => 'test-stelle', 'ort' => 'Teststadt']);
+        $land = Bundesland::create(['name' => 'Teststaat', 'slug' => 'teststaat']);
+        $stelle = Zulassungsstelle::create(['name' => 'Test-Zulassungsstelle', 'slug' => 'test-stelle', 'ort' => 'Teststadt', 'bundesland_id' => $land->id]);
         $kuerzel = KennzeichenKuerzel::create(['code' => 'TT', 'slug' => 'tt', 'bedeutung' => 'Teststadt']);
         $stelle->kennzeichenKuerzel()->attach($kuerzel);
         $artikel = RatgeberArtikel::create(['titel' => 'Testartikel', 'slug' => 'test-artikel', 'body' => '## Hallo', 'published_at' => now()]);
 
-        return compact('stelle', 'kuerzel', 'artikel');
+        return compact('land', 'stelle', 'kuerzel', 'artikel');
     }
 
     public function test_startseite_und_verzeichnis(): void
@@ -40,7 +42,10 @@ class SmokeTest extends TestCase
     public function test_detailseiten_und_schema(): void
     {
         $this->seedData();
-        $this->get('/zulassungsstelle/test-stelle')->assertOk()->assertSee('GovernmentOffice', false);
+        $this->get('/zulassungsstelle/teststaat')->assertOk()->assertSee('Teststadt');
+        $this->get('/zulassungsstelle/teststaat/test-stelle')->assertOk()->assertSee('GovernmentOffice', false);
+        // Altes flaches Schema wird auf die kanonische URL weitergeleitet bzw. existiert nicht mehr.
+        $this->get('/bundesland/teststaat')->assertRedirect('/zulassungsstelle/teststaat');
         $this->get('/kennzeichen/tt')->assertOk()->assertSee('TT');
         $this->get('/ratgeber/test-artikel')->assertOk()->assertSee('Article', false);
     }

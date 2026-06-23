@@ -19,6 +19,24 @@ class Zulassungsstelle extends Model
         'lng'              => 'decimal:7',
     ];
 
+    /** Land-Segment der URL (Bundesland-Slug, sonst „deutschland"). */
+    public function getLandSlugAttribute(): string
+    {
+        return $this->bundesland?->slug ?: 'deutschland';
+    }
+
+    /** Pfad der Detailseite: /zulassungsstelle/{land}/{ort}. */
+    public function getPfadAttribute(): string
+    {
+        return '/zulassungsstelle/'.$this->land_slug.'/'.$this->slug;
+    }
+
+    /** Absolute URL der Detailseite. */
+    public function url(): string
+    {
+        return url($this->pfad);
+    }
+
     /** Genug Substanz für Indexierung? (nicht nur Name + Geo) */
     public function getIsIndexableAttribute(): bool
     {

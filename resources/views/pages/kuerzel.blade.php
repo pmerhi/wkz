@@ -13,7 +13,7 @@
     <p>
         Das Kfz-Kennzeichen <strong>{{ $kuerzel->code }}</strong> steht für
         <strong>{{ $kuerzel->bedeutung ?: 'einen deutschen Zulassungsbezirk' }}</strong>@if($bundesland)
-        im Bundesland <a href="{{ url('/bundesland/'.$bundesland->slug) }}">{{ $bundesland->name }}</a>@endif.
+        im Bundesland <a href="{{ url('/zulassungsstelle/'.$bundesland->slug) }}">{{ $bundesland->name }}</a>@endif.
         Fahrzeuge aus diesem Bezirk tragen das Unterscheidungszeichen „{{ $kuerzel->code }}".
     </p>
 
@@ -36,7 +36,7 @@
         <div class="grid">
             @foreach($kuerzel->zulassungsstellen as $s)
                 <div class="card">
-                    <a href="{{ url('/zulassungsstelle/'.$s->slug) }}">{{ $s->name }}</a>
+                    <a href="{{ $s->url() }}">{{ $s->name }}</a>
                     <div class="muted">{{ $s->ort }}@if($s->bundesland) · {{ $s->bundesland->name }}@endif</div>
                 </div>
             @endforeach

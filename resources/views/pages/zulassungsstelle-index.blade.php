@@ -14,7 +14,7 @@
             <div class="grid">
                 @foreach($treffer as $s)
                     <div class="card">
-                        <a href="{{ url('/zulassungsstelle/'.$s->slug) }}">{{ $s->name }}</a>
+                        <a href="{{ $s->url() }}">{{ $s->name }}</a>
                         <div class="muted">{{ $s->ort }}@if($s->bundesland) · {{ $s->bundesland->name }}@endif</div>
                     </div>
                 @endforeach
@@ -33,24 +33,16 @@
         @if($laender->isEmpty())
             <p class="muted">Noch keine Zulassungsstellen erfasst.</p>
         @else
-            <p>
+            <p class="muted">Wähle dein Bundesland, um die Zulassungsstellen mit Anschrift,
+            Öffnungszeiten und Online-Terminvergabe zu sehen.</p>
+            <div class="grid">
                 @foreach($laender as $land)
-                    <a class="badge" href="#{{ $land->slug }}">{{ $land->name }} ({{ $land->zulassungsstellen->count() }})</a>
+                    <div class="card">
+                        <a href="{{ url('/zulassungsstelle/'.$land->slug) }}"><strong>{{ $land->name }}</strong></a>
+                        <div class="muted">{{ $land->zulassungsstellen_count }} Zulassungsstellen</div>
+                    </div>
                 @endforeach
-            </p>
-
-            @foreach($laender as $land)
-                <h2 id="{{ $land->slug }}">{{ $land->name }}</h2>
-                <p><a href="{{ url('/bundesland/'.$land->slug) }}">Alle Stellen in {{ $land->name }} →</a></p>
-                <div class="grid">
-                    @foreach($land->zulassungsstellen as $s)
-                        <div class="card">
-                            <a href="{{ url('/zulassungsstelle/'.$s->slug) }}">{{ $s->name }}</a>
-                            <div class="muted">{{ $s->ort }}</div>
-                        </div>
-                    @endforeach
-                </div>
-            @endforeach
+            </div>
         @endif
     @endif
 </x-layout>

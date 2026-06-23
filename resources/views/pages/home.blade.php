@@ -19,7 +19,7 @@
         <h2>Zulassungsstellen</h2>
         <div class="grid">
             @foreach($stellen as $s)
-                <div class="card"><a href="{{ url('/zulassungsstelle/'.$s->slug) }}">{{ $s->name }}</a>
+                <div class="card"><a href="{{ $s->url() }}">{{ $s->name }}</a>
                     <div class="muted">{{ $s->ort }}</div>
                 </div>
             @endforeach

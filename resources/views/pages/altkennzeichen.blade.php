@@ -26,7 +26,7 @@
     @foreach($gruppen as $name => $g)
         <h2 id="{{ $g['land']->slug }}">{{ $name }}</h2>
         <p class="muted">{{ count($g['codes']) }} Altkennzeichen ·
-            <a href="{{ url('/bundesland/'.$g['land']->slug) }}">Zulassungsstellen in {{ $name }} →</a></p>
+            <a href="{{ url('/zulassungsstelle/'.$g['land']->slug) }}">Zulassungsstellen in {{ $name }} →</a></p>
         <table class="info">
             <thead><tr><th>Kürzel</th><th>Historisch</th><th>Heutiger Zulassungsbezirk</th></tr></thead>
             <tbody>

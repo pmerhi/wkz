@@ -8,12 +8,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PageController::class, 'home'])->name('home');
 
 Route::get('/zulassungsstelle', [PageController::class, 'zulassungsstelleIndex'])->name('zst.index');
-Route::get('/zulassungsstelle/{slug}', [PageController::class, 'zulassungsstelle'])->name('zst.show');
+Route::get('/zulassungsstelle/{land}', [PageController::class, 'bundeslandStellen'])->name('zst.land');
+Route::get('/zulassungsstelle/{land}/{slug}', [PageController::class, 'zulassungsstelle'])->name('zst.show');
 
 Route::get('/kennzeichen', [PageController::class, 'kuerzelIndex'])->name('kuerzel.index');
 Route::get('/altkennzeichen', [PageController::class, 'altkennzeichen'])->name('altkennzeichen');
 Route::get('/kennzeichen/{slug}', [PageController::class, 'kuerzel'])->name('kuerzel.show');
-Route::get('/bundesland/{slug}', [PageController::class, 'bundesland'])->name('bundesland.show');
+// Bundesland-Listing liegt jetzt unter /zulassungsstelle/{land}; alte URL 301-weiterleiten.
+Route::get('/bundesland/{slug}', fn (string $slug) => redirect('/zulassungsstelle/'.$slug, 301))->name('bundesland.show');
 
 Route::get('/ratgeber', [PageController::class, 'ratgeberIndex'])->name('ratgeber.index');
 Route::get('/ratgeber/{slug}', [PageController::class, 'ratgeberShow'])->name('ratgeber.show');

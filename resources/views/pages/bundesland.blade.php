@@ -23,15 +23,21 @@
             </p>
         @endif
 
-        <h2>Zulassungsstellen</h2>
-        <div class="grid">
-            @foreach($land->zulassungsstellen as $s)
-                <div class="card">
-                    <a href="{{ url('/zulassungsstelle/'.$s->slug) }}">{{ $s->name }}</a>
-                    <div class="muted">{{ $s->ort }}</div>
-                </div>
+        <h2>Zulassungsstellen in {{ $land->name }}</h2>
+        @php $buchstaben = $gruppen->keys(); @endphp
+        <p>
+            @foreach($buchstaben as $b)
+                <a class="badge" href="#buchstabe-{{ $b }}">{{ $b }}</a>
             @endforeach
-        </div>
+        </p>
+        @foreach($gruppen as $b => $liste)
+            <h3 id="buchstabe-{{ $b }}">{{ $b }}</h3>
+            <ul class="stellen-liste">
+                @foreach($liste as $s)
+                    <li><a href="{{ $s->url() }}">{{ $s->ort ?: $s->name }}</a>@if($s->ort && $s->ort !== $s->name)<span class="muted"> — {{ $s->name }}</span>@endif</li>
+                @endforeach
+            </ul>
+        @endforeach
 
         @if($artikel->isNotEmpty())
             <h2>Ratgeber</h2>

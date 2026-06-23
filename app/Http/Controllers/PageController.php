@@ -68,9 +68,9 @@ class PageController extends Controller
             ]);
         }
 
-        // Hub: nach Bundesland gebündelt (Hub-and-Spoke statt flacher Liste).
+        // Hub: nur die Bundesländer (Hub-and-Spoke) — Detail-Listen liegen je Land.
         $laender = Bundesland::has('zulassungsstellen')
-            ->with(['zulassungsstellen' => fn ($x) => $x->orderBy('ort')])
+            ->withCount('zulassungsstellen')
             ->orderBy('name')->get();
 
         $items = [];
@@ -79,7 +79,7 @@ class PageController extends Controller
                 '@type'    => 'ListItem',
                 'position' => $i + 1,
                 'name'     => $land->name,
-                'url'      => url('/bundesland/'.$land->slug),
+                'url'      => url('/zulassungsstelle/'.$land->slug),
             ];
         }
 
@@ -97,10 +97,21 @@ class PageController extends Controller
         ]);
     }
 
-    public function zulassungsstelle(string $slug)
+    public function zulassungsstelle(string $land, string $slug)
     {
-        $stelle = Zulassungsstelle::with(['bundesland', 'kennzeichenKuerzel', 'seoMeta', 'gemeinde'])
-            ->where('slug', $slug)->firstOrFail();
+        $query = Zulassungsstelle::with(['bundesland', 'kennzeichenKuerzel', 'seoMeta', 'gemeinde']);
+        if ($land === 'deutschland') {
+            $query->whereNull('bundesland_id');
+        } else {
+            $bl = Bundesland::where('slug', $land)->firstOrFail();
+            $query->where('bundesland_id', $bl->id);
+        }
+        $stelle = $query->where('slug', $slug)->firstOrFail();
+
+        // Falsches Land-Segment → auf die kanonische URL umleiten.
+        if ($stelle->land_slug !== $land) {
+            return redirect($stelle->pfad, 301);
+        }
 
         $artikel = RatgeberArtikel::whereNotNull('published_at')
             ->orderByDesc('published_at')->limit(4)->get();
@@ -108,12 +119,12 @@ class PageController extends Controller
         $office = array_filter([
             '@context'         => 'https://schema.org',
             '@type'            => 'GovernmentOffice',
-            '@id'              => url('/zulassungsstelle/'.$stelle->slug).'#office',
+            '@id'              => $stelle->url().'#office',
             'name'             => $stelle->name,
             // url = offizielle Behörden-Website (Entitäts-URL), nicht unsere Seite
             'url'              => $stelle->website ?: null,
             // unsere Verzeichnisseite beschreibt die Entität (statt sich als sie auszugeben)
-            'mainEntityOfPage' => url('/zulassungsstelle/'.$stelle->slug),
+            'mainEntityOfPage' => $stelle->url(),
             'telephone'        => $stelle->telefon,
             'email'            => $stelle->email,
             'address'          => array_filter([
@@ -149,14 +160,16 @@ class PageController extends Controller
             if ($spec) $office['openingHoursSpecification'] = $spec;
         }
 
-        $schemas = [
-            $office,
-            $this->breadcrumb([
-                ['Start', url('/')],
-                ['Zulassungsstellen', url('/zulassungsstelle')],
-                [$stelle->name, url('/zulassungsstelle/'.$stelle->slug)],
-            ]),
+        $crumbs = [
+            ['Start', url('/')],
+            ['Zulassungsstellen', url('/zulassungsstelle')],
         ];
+        if ($stelle->bundesland) {
+            $crumbs[] = [$stelle->bundesland->name, url('/zulassungsstelle/'.$stelle->bundesland->slug)];
+        }
+        $crumbs[] = [$stelle->name, $stelle->url()];
+
+        $schemas = [$office, $this->breadcrumb($crumbs)];
 
         // Dünne Stubs (nur Name + Geo) nicht indexieren.
         $noindex = $stelle->seoMeta?->noindex || ! $stelle->is_indexable;
@@ -164,7 +177,7 @@ class PageController extends Controller
         return view('pages.zulassungsstelle', [
             'title'       => $stelle->seoMeta?->title ?? ($stelle->name.' — Öffnungszeiten, Termin & Wunschkennzeichen'),
             'description' => $stelle->seoMeta?->description ?? ('Zulassungsstelle '.$stelle->name.': Anschrift, Öffnungszeiten, Terminvergabe und Wunschkennzeichen reservieren.'),
-            'canonical'   => $stelle->seoMeta?->canonical ?? url('/zulassungsstelle/'.$stelle->slug),
+            'canonical'   => $stelle->seoMeta?->canonical ?? $stelle->url(),
             'robots'      => $noindex ? 'noindex,follow' : 'index,follow',
             'schemas'     => $schemas,
             'stelle'      => $stelle,
@@ -291,26 +304,32 @@ class PageController extends Controller
         ]);
     }
 
-    public function bundesland(string $slug)
+    public function bundeslandStellen(string $land)
     {
-        $land = Bundesland::with([
+        $bl = Bundesland::with([
             'zulassungsstellen'                   => fn ($q) => $q->orderBy('ort'),
+            'zulassungsstellen.bundesland',
             'zulassungsstellen.kennzeichenKuerzel',
-        ])->where('slug', $slug)->firstOrFail();
+        ])->where('slug', $land)->firstOrFail();
 
         // Kürzel des Landes (entdoppelt) + passende Ratgeber.
-        $kuerzel = $land->zulassungsstellen
+        $kuerzel = $bl->zulassungsstellen
             ->flatMap->kennzeichenKuerzel->unique('id')->sortBy('code')->values();
         $artikel = RatgeberArtikel::whereNotNull('published_at')
             ->orderByDesc('published_at')->limit(4)->get();
 
+        // Übersichtlich nach Anfangsbuchstabe des Ortes gruppieren.
+        $gruppen = $bl->zulassungsstellen
+            ->groupBy(fn ($s) => Str::upper(Str::substr($s->ort ?: $s->name, 0, 1)))
+            ->sortKeys();
+
         $items = [];
-        foreach ($land->zulassungsstellen as $i => $s) {
+        foreach ($bl->zulassungsstellen as $i => $s) {
             $items[] = [
                 '@type'    => 'ListItem',
                 'position' => $i + 1,
                 'name'     => $s->name,
-                'url'      => url('/zulassungsstelle/'.$s->slug),
+                'url'      => $s->url(),
             ];
         }
 
@@ -319,19 +338,20 @@ class PageController extends Controller
             $this->breadcrumb([
                 ['Start', url('/')],
                 ['Zulassungsstellen', url('/zulassungsstelle')],
-                [$land->name, url('/bundesland/'.$land->slug)],
+                [$bl->name, url('/zulassungsstelle/'.$bl->slug)],
             ]),
         ];
 
         return view('pages.bundesland', [
-            'title'       => 'Zulassungsstellen in '.$land->name.' — Übersicht & Kennzeichen',
-            'description' => 'Alle Kfz-Zulassungsstellen in '.$land->name.' mit Anschrift, Öffnungszeiten und Terminvergabe — plus Kennzeichen-Kürzel des Landes.',
-            'canonical'   => url('/bundesland/'.$land->slug),
-            'robots'      => $land->zulassungsstellen->isEmpty() ? 'noindex,follow' : 'index,follow',
+            'title'       => 'Zulassungsstellen in '.$bl->name.' — Übersicht & Kennzeichen',
+            'description' => 'Alle Kfz-Zulassungsstellen in '.$bl->name.' mit Anschrift, Öffnungszeiten und Terminvergabe — plus Kennzeichen-Kürzel des Landes.',
+            'canonical'   => url('/zulassungsstelle/'.$bl->slug),
+            'robots'      => $bl->zulassungsstellen->isEmpty() ? 'noindex,follow' : 'index,follow',
             'schemas'     => $schemas,
-            'land'        => $land,
+            'land'        => $bl,
             'kuerzel'     => $kuerzel,
             'artikel'     => $artikel,
+            'gruppen'     => $gruppen,
         ]);
     }
 
