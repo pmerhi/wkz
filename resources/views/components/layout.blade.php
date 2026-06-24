@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <script>(function(){try{var d=document.documentElement;var t=localStorage.getItem('theme');var dark=t?t==='dark':matchMedia('(prefers-color-scheme:dark)').matches;if(dark)d.setAttribute('data-theme','dark');var f=parseInt(localStorage.getItem('fontpx'),10);if(f>=14&&f<=22)d.style.fontSize=f+'px';}catch(e){}})();</script>
+    <script>(function(){try{var d=document.documentElement;var t=localStorage.getItem('theme');var dark=t==='dark'||((!t||t==='auto')&&matchMedia('(prefers-color-scheme:dark)').matches);if(dark)d.setAttribute('data-theme','dark');var f=parseInt(localStorage.getItem('fontpx'),10);if(f>=14&&f<=22)d.style.fontSize=f+'px';}catch(e){}})();</script>
     <title>{{ $title ?? config('portal.site_name') }}</title>
     <meta name="description" content="{{ $description }}">
     <meta name="robots" content="{{ $robots }}">
@@ -93,6 +93,23 @@
         .header-tools{display:flex;gap:5px;align-items:center}
         .tool-btn{min-width:34px;height:34px;padding:0 8px;border:1px solid var(--line);background:var(--bg);color:var(--tx);border-radius:8px;cursor:pointer;font-weight:700;font-size:.9rem;line-height:1;display:inline-flex;align-items:center;justify-content:center;transition:.15s}
         .tool-btn:hover{background:var(--soft);border-color:var(--pri-l);color:var(--ink)}
+        /* Darstellungs-Modal */
+        .modal-overlay{position:fixed;inset:0;background:rgba(15,23,42,.55);display:flex;align-items:center;justify-content:center;z-index:200;padding:20px}
+        .modal-overlay[hidden]{display:none}
+        .modal{background:var(--bg);color:var(--tx);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow-lg);width:100%;max-width:380px;overflow:hidden}
+        .modal-head{display:flex;align-items:center;justify-content:space-between;padding:15px 20px;border-bottom:1px solid var(--line)}
+        .modal-head h2{margin:0;font-size:1.15rem}
+        .modal-close{background:none;border:none;font-size:1.7rem;line-height:1;cursor:pointer;color:var(--mut);width:38px;height:38px;border-radius:9px}
+        .modal-close:hover{background:var(--soft);color:var(--ink)}
+        .modal-body{padding:18px 20px;display:grid;gap:20px}
+        .set-group{display:grid;gap:9px}
+        .set-label{font-weight:700;font-size:.9rem;color:var(--ink)}
+        .seg{display:flex;gap:6px;flex-wrap:wrap}
+        .seg-btn{flex:1 1 0;min-width:88px;padding:10px;border:1px solid var(--line);background:var(--bg);color:var(--tx);border-radius:10px;cursor:pointer;font-weight:600;font-size:.9rem;transition:.15s}
+        .seg-btn:hover{background:var(--soft)}
+        .seg-btn.active{background:var(--pri);color:#fff;border-color:var(--pri)}
+        .set-font{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+        .js-font-val{font-weight:700;min-width:56px;text-align:center;color:var(--ink)}
         @media(max-width:760px){
             nav.main{position:fixed;inset:62px 0 auto 0;flex-direction:column;align-items:stretch;background:#fff;border-bottom:1px solid var(--line);padding:8px 16px 16px;box-shadow:var(--shadow);transform:translateY(-130%);transition:transform .25s ease;gap:2px}
             nav.main.open{transform:translateY(0)}
@@ -380,11 +397,7 @@
                 <a href="{{ url('/formulare') }}">Formulare</a>
                 <a href="{{ url('/ratgeber') }}">Ratgeber</a>
             </nav>
-            <div class="header-tools" role="group" aria-label="Darstellung">
-                <button class="tool-btn js-font" type="button" data-d="-1" title="Schrift verkleinern" aria-label="Schrift verkleinern">A−</button>
-                <button class="tool-btn js-font" type="button" data-d="1" title="Schrift vergrößern" aria-label="Schrift vergrößern">A+</button>
-                <button class="tool-btn js-theme" type="button" title="Hell/Dunkel umschalten" aria-label="Dark Mode umschalten">🌙</button>
-            </div>
+            <button class="tool-btn js-settings" type="button" title="Darstellung" aria-label="Darstellung einstellen" aria-haspopup="dialog">Aa</button>
             <button class="nav-toggle" aria-label="Menü" aria-expanded="false" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰</button>
         </div>
     </div>
@@ -403,6 +416,34 @@
     </div>
 </footer>
 
+<div class="modal-overlay" id="settingsModal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+        <div class="modal-head">
+            <h2 id="settingsTitle">Darstellung</h2>
+            <button class="modal-close js-settings-close" type="button" aria-label="Schließen">×</button>
+        </div>
+        <div class="modal-body">
+            <div class="set-group">
+                <span class="set-label">Modus</span>
+                <div class="seg" role="group" aria-label="Farbmodus">
+                    <button class="seg-btn js-theme-opt" type="button" data-theme="light">☀️ Hell</button>
+                    <button class="seg-btn js-theme-opt" type="button" data-theme="dark">🌙 Dunkel</button>
+                    <button class="seg-btn js-theme-opt" type="button" data-theme="auto">🖥️ System</button>
+                </div>
+            </div>
+            <div class="set-group">
+                <span class="set-label">Schriftgröße</span>
+                <div class="set-font">
+                    <button class="tool-btn js-font" type="button" data-d="-1" aria-label="Schrift verkleinern">A−</button>
+                    <span class="js-font-val">16 px</span>
+                    <button class="tool-btn js-font" type="button" data-d="1" aria-label="Schrift vergrößern">A+</button>
+                    <button class="seg-btn js-font-reset" type="button">Zurücksetzen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script>
 /* Scroll-Reveal (Bewegung) */
 (function(){
@@ -414,29 +455,36 @@
 /* Lazyload: alle Bilder ohne explizites loading */
 document.querySelectorAll('img:not([loading])').forEach(function(i){i.loading='lazy';i.decoding='async';});
 
-/* Darstellung: Dark Mode + Schriftgröße (oben rechts), gespeichert in localStorage */
+/* Darstellung: Modal mit Theme (hell/dunkel/auto) + Schriftgröße, in localStorage */
 (function(){
-  var d=document.documentElement;
+  var d=document.documentElement, mq=matchMedia('(prefers-color-scheme:dark)');
+  function mode(){return localStorage.getItem('theme')||'auto';}
+  function applyTheme(m){ if(m==='dark'||(m==='auto'&&mq.matches)) d.setAttribute('data-theme','dark'); else d.removeAttribute('data-theme'); }
+  function markTheme(m){ document.querySelectorAll('.js-theme-opt').forEach(function(b){ b.classList.toggle('active', b.getAttribute('data-theme')===m); }); }
   function curFont(){var f=parseInt(localStorage.getItem('fontpx'),10);return (f>=14&&f<=22)?f:16;}
-  document.querySelectorAll('.js-font').forEach(function(b){
-    b.addEventListener('click',function(){
-      var f=Math.min(22,Math.max(14,curFont()+parseInt(b.getAttribute('data-d'),10)*2));
-      d.style.fontSize=f+'px';
-      try{localStorage.setItem('fontpx',f);}catch(e){}
-    });
-  });
-  var tt=document.querySelector('.js-theme');
-  function sync(){if(tt)tt.textContent=d.getAttribute('data-theme')==='dark'?'☀️':'🌙';}
-  if(tt)tt.addEventListener('click',function(){
-    if(d.getAttribute('data-theme')==='dark'){d.removeAttribute('data-theme');try{localStorage.setItem('theme','light');}catch(e){}}
-    else{d.setAttribute('data-theme','dark');try{localStorage.setItem('theme','dark');}catch(e){}}
-    sync();
-  });
-  /* Folgt der System-Einstellung, solange keine manuelle Wahl getroffen wurde */
-  try{matchMedia('(prefers-color-scheme:dark)').addEventListener('change',function(e){
-    if(!localStorage.getItem('theme')){if(e.matches)d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');sync();}
-  });}catch(e){}
-  sync();
+  function showFont(){var el=document.querySelector('.js-font-val'); if(el) el.textContent=curFont()+' px';}
+
+  document.querySelectorAll('.js-theme-opt').forEach(function(b){ b.addEventListener('click',function(){
+    var m=b.getAttribute('data-theme'); try{localStorage.setItem('theme',m);}catch(e){} applyTheme(m); markTheme(m);
+  }); });
+  try{mq.addEventListener('change',function(){ if(mode()==='auto') applyTheme('auto'); });}catch(e){}
+
+  document.querySelectorAll('.js-font').forEach(function(b){ b.addEventListener('click',function(){
+    var f=Math.min(22,Math.max(14,curFont()+parseInt(b.getAttribute('data-d'),10)*2));
+    d.style.fontSize=f+'px'; try{localStorage.setItem('fontpx',f);}catch(e){} showFont();
+  }); });
+  var fr=document.querySelector('.js-font-reset');
+  if(fr)fr.addEventListener('click',function(){ d.style.fontSize=''; try{localStorage.removeItem('fontpx');}catch(e){} showFont(); });
+
+  var modal=document.getElementById('settingsModal'), trigger=document.querySelector('.js-settings');
+  function openModal(){ markTheme(mode()); showFont(); modal.hidden=false; }
+  function closeModal(){ modal.hidden=true; }
+  if(trigger)trigger.addEventListener('click',openModal);
+  if(modal){
+    modal.addEventListener('click',function(e){ if(e.target===modal) closeModal(); });
+    modal.querySelectorAll('.js-settings-close').forEach(function(b){ b.addEventListener('click',closeModal); });
+    document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!modal.hidden) closeModal(); });
+  }
 })();
 
 /* Live-Vorschlagsliste (Autocomplete) für Suchfelder mit [data-suggest] */
