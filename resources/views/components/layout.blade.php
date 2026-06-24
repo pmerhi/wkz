@@ -94,9 +94,9 @@
         .tool-btn{min-width:34px;height:34px;padding:0 8px;border:1px solid var(--line);background:var(--bg);color:var(--tx);border-radius:8px;cursor:pointer;font-weight:700;font-size:.9rem;line-height:1;display:inline-flex;align-items:center;justify-content:center;transition:.15s}
         .tool-btn:hover{background:var(--soft);border-color:var(--pri-l);color:var(--ink)}
         /* Darstellungs-Modal */
-        .modal-overlay{position:fixed;inset:0;background:rgba(15,23,42,.55);display:flex;align-items:center;justify-content:center;z-index:200;padding:20px}
+        .modal-overlay{position:fixed;inset:0;z-index:200}
         .modal-overlay[hidden]{display:none}
-        .modal{background:var(--bg);color:var(--tx);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow-lg);width:100%;max-width:380px;overflow:hidden}
+        .modal{position:fixed;top:60px;right:12px;background:var(--bg);color:var(--tx);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow-lg);width:300px;max-width:calc(100vw - 24px);overflow:hidden}
         .modal-head{display:flex;align-items:center;justify-content:space-between;padding:15px 20px;border-bottom:1px solid var(--line)}
         .modal-head h2{margin:0;font-size:1.15rem}
         .modal-close{background:none;border:none;font-size:1.7rem;line-height:1;cursor:pointer;color:var(--mut);width:38px;height:38px;border-radius:9px}
@@ -477,13 +477,18 @@ document.querySelectorAll('img:not([loading])').forEach(function(i){i.loading='l
   if(fr)fr.addEventListener('click',function(){ d.style.fontSize=''; try{localStorage.removeItem('fontpx');}catch(e){} showFont(); });
 
   var modal=document.getElementById('settingsModal'), trigger=document.querySelector('.js-settings');
-  function openModal(){ markTheme(mode()); showFont(); modal.hidden=false; }
+  var panel=modal?modal.querySelector('.modal'):null;
+  function position(){ if(!trigger||!panel)return; var r=trigger.getBoundingClientRect();
+    panel.style.top=(r.bottom+8)+'px'; panel.style.right=Math.max(8,window.innerWidth-r.right)+'px'; }
+  function openModal(){ markTheme(mode()); showFont(); modal.hidden=false; position(); }
   function closeModal(){ modal.hidden=true; }
   if(trigger)trigger.addEventListener('click',openModal);
   if(modal){
     modal.addEventListener('click',function(e){ if(e.target===modal) closeModal(); });
     modal.querySelectorAll('.js-settings-close').forEach(function(b){ b.addEventListener('click',closeModal); });
     document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!modal.hidden) closeModal(); });
+    window.addEventListener('resize',function(){ if(!modal.hidden) position(); });
+    window.addEventListener('scroll',function(){ if(!modal.hidden) position(); },true);
   }
 })();
 
