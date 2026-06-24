@@ -5,7 +5,7 @@
         {{-- Suchergebnis-Modus --}}
         <section class="hero hero-sm reveal in">
             <h1>Zulassungsstelle suchen: „{{ $q }}"</h1>
-            <form class="hero-search" method="get" action="{{ url('/zulassungsstelle') }}">
+            <form class="hero-search" method="get" action="{{ url('/zulassungsstelle') }}" data-suggest="{{ url('/zulassungsstelle/vorschlaege') }}">
                 <input type="search" name="q" value="{{ $q }}" placeholder="Stadt oder Behörde …" aria-label="Suche">
                 <button class="cta" type="submit">Suchen</button>
             </form>
@@ -27,7 +27,7 @@
         <section class="hero hero-sm reveal in">
             <h1>Zulassungsstellen in Deutschland</h1>
             <p class="lead">Adressen, Öffnungszeiten und Online-Terminvergabe – gegliedert nach Bundesland.</p>
-            <form class="hero-search" method="get" action="{{ url('/zulassungsstelle') }}">
+            <form class="hero-search" method="get" action="{{ url('/zulassungsstelle') }}" data-suggest="{{ url('/zulassungsstelle/vorschlaege') }}">
                 <input type="search" name="q" placeholder="Stadt oder Behörde suchen …" aria-label="Suche">
                 <button class="cta" type="submit">Suchen</button>
             </form>

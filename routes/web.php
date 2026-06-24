@@ -8,6 +8,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PageController::class, 'home'])->name('home');
 
 Route::get('/zulassungsstelle', [PageController::class, 'zulassungsstelleIndex'])->name('zst.index');
+// Autocomplete-Endpoint VOR der {land}-Route registrieren, sonst fängt {land} ihn ab.
+Route::get('/zulassungsstelle/vorschlaege', [PageController::class, 'zulassungsstelleSuggest'])->name('zst.suggest');
 Route::get('/zulassungsstelle/{land}', [PageController::class, 'bundeslandStellen'])->name('zst.land');
 Route::get('/zulassungsstelle/{land}/{slug}', [PageController::class, 'zulassungsstelle'])->name('zst.show');
 

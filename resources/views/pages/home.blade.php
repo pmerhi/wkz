@@ -11,7 +11,7 @@
             <a class="btn btn-ghost" href="{{ url('/zulassungsstelle') }}">Zulassungsstelle finden</a>
         </div>
 
-        <form class="hero-search" method="get" action="{{ url('/zulassungsstelle') }}" style="margin-top:22px;display:flex;gap:8px;max-width:440px">
+        <form class="hero-search" method="get" action="{{ url('/zulassungsstelle') }}" style="margin-top:22px;display:flex;gap:8px;max-width:440px" data-suggest="{{ url('/zulassungsstelle/vorschlaege') }}">
             <input type="search" name="q" placeholder="Stadt oder Zulassungsstelle suchen …" aria-label="Suche"
                    style="flex:1;padding:13px 16px;border:none;border-radius:11px;font-size:1rem;box-shadow:0 8px 24px -10px rgba(0,0,0,.4)">
             <button class="cta" type="submit" style="padding:13px 18px">Suchen</button>

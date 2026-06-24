@@ -432,6 +432,37 @@ class PageController extends Controller
         ]);
     }
 
+    /** JSON-Endpoint für die Live-Vorschlagsliste (Autocomplete) der Zulassungsstellen-Suche. */
+    public function zulassungsstelleSuggest(Request $request)
+    {
+        $q = trim((string) $request->query('q', ''));
+        if (mb_strlen($q) < 2) {
+            return response()->json([]);
+        }
+
+        // Wie die Volltextsuche: Primär-Ämter, Treffer in Name oder Ort.
+        // Ranking: Ort-Präfix zuerst (Nutzer tippen meist die Stadt), dann Name-Präfix, dann Rest.
+        $treffer = Zulassungsstelle::with('bundesland')->whereNull('parent_id')
+            ->where(fn ($x) => $x->where('name', 'like', "%{$q}%")->orWhere('ort', 'like', "%{$q}%"))
+            ->orderByRaw('CASE WHEN ort LIKE ? THEN 0 WHEN name LIKE ? THEN 1 ELSE 2 END', ["{$q}%", "{$q}%"])
+            ->orderBy('ort')->orderBy('name')->limit(7)->get();
+
+        $terms = preg_split('/\s+/u', mb_strtolower($q), -1, PREG_SPLIT_NO_EMPTY) ?: [];
+
+        $vorschlaege = $treffer->map(function (Zulassungsstelle $s) use ($terms) {
+            $sub = trim(($s->ort ?: '').($s->bundesland ? ' · '.$s->bundesland->name : ''), " ·\t\n");
+            return [
+                'titel'         => $s->name,
+                'titel_html'    => $this->hervorheben($s->name, $terms),
+                'kategorie'     => $sub,
+                'kategorie_html' => $this->hervorheben($sub, $terms),   // Ort hervorgehoben
+                'url'           => $s->url(),
+            ];
+        })->values();
+
+        return response()->json($vorschlaege);
+    }
+
     /** JSON-Endpoint für die Live-Vorschlagsliste (Autocomplete) der Ratgeber-Suche. */
     public function ratgeberSuggest(Request $request)
     {

@@ -98,10 +98,11 @@
         .hero-search{display:flex;gap:8px;max-width:460px;margin-top:18px}
         .hero-search input{flex:1;min-width:0;padding:13px 16px;border:none;border-radius:11px;font-size:1rem;box-shadow:0 8px 24px -10px rgba(0,0,0,.4)}
         mark{background:#fde68a;color:inherit;padding:0 .12em;border-radius:3px}
-        /* Autocomplete-Vorschläge */
-        .hero-search{position:relative}
-        .ac-panel{position:absolute;top:calc(100% + 6px);left:0;right:0;background:#fff;border:1px solid var(--line);border-radius:12px;
-            box-shadow:0 18px 40px -14px rgba(0,0,0,.35);overflow:hidden;z-index:60;display:none;text-align:left}
+        /* Autocomplete-Vorschläge – per JS an <body> gehängt und fixed positioniert,
+           damit overflow:hidden des Hero-Bereichs das Panel nicht abschneidet. */
+        .ac-panel{position:fixed;background:#fff;border:1px solid var(--line);border-radius:12px;
+            box-shadow:0 18px 40px -14px rgba(0,0,0,.35);overflow-y:auto;max-height:min(70vh,420px);
+            z-index:120;display:none;text-align:left}
         .ac-panel.open{display:block}
         .ac-item{display:block;padding:10px 14px;text-decoration:none;color:var(--tx);border-bottom:1px solid var(--soft);cursor:pointer}
         .ac-item:last-child{border-bottom:none}
@@ -314,18 +315,28 @@ document.querySelectorAll('img:not([loading])').forEach(function(i){i.loading='l
     var endpoint=form.getAttribute('data-suggest');
     var panel=document.createElement('div');
     panel.className='ac-panel'; panel.setAttribute('role','listbox');
-    form.appendChild(panel);
+    document.body.appendChild(panel);   // an <body> hängen, damit kein overflow:hidden (Hero) das Panel abschneidet
     var items=[], active=-1, timer=null, lastQ='', ctrl=null;
 
     function close(){panel.classList.remove('open');panel.innerHTML='';items=[];active=-1;input.setAttribute('aria-expanded','false');}
     function go(url){if(url)window.location.href=url;}
 
+    // Panel per fixed-Position unter dem Eingabefeld ausrichten (folgt dem Suchfeld).
+    function position(){
+      var r=input.getBoundingClientRect(), fr=form.getBoundingClientRect();
+      panel.style.top=(r.bottom+6)+'px';
+      panel.style.left=fr.left+'px';
+      panel.style.width=fr.width+'px';
+    }
+
     function render(list,q){
+      position();
       panel.innerHTML=''; items=[]; active=-1;
       list.forEach(function(it){
         var a=document.createElement('a');
         a.className='ac-item'; a.href=it.url; a.setAttribute('role','option');
-        a.innerHTML='<strong>'+it.titel_html+'</strong>'+(it.kategorie?'<small>'+escapeHtml(it.kategorie)+'</small>':'');
+        var sub=it.kategorie_html?it.kategorie_html:(it.kategorie?escapeHtml(it.kategorie):'');
+        a.innerHTML='<strong>'+it.titel_html+'</strong>'+(sub?'<small>'+sub+'</small>':'');
         a.addEventListener('mousedown',function(e){e.preventDefault();go(it.url);});
         panel.appendChild(a); items.push(a);
       });
@@ -379,8 +390,10 @@ document.querySelectorAll('img:not([loading])').forEach(function(i){i.loading='l
       else if(e.key==='Escape'){close();}
     });
 
-    input.addEventListener('focus',function(){if(input.value.trim().length>=2&&items.length)panel.classList.add('open');});
-    document.addEventListener('click',function(e){if(!form.contains(e.target))close();});
+    input.addEventListener('focus',function(){if(input.value.trim().length>=2&&items.length){position();panel.classList.add('open');}});
+    document.addEventListener('click',function(e){if(!form.contains(e.target)&&!panel.contains(e.target))close();});
+    window.addEventListener('resize',function(){if(panel.classList.contains('open'))position();});
+    window.addEventListener('scroll',function(){if(panel.classList.contains('open'))position();},true);
   });
 })();
 </script>
