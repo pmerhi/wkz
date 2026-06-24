@@ -36,4 +36,6 @@
             @endforeach
         </p>
     @endforeach
+
+    <x-wusstest-box />
 </x-layout>

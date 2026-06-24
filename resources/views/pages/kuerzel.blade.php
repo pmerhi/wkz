@@ -53,5 +53,7 @@
         <a href="{{ url('/zulassungsstelle') }}">Zum Zulassungsstellen-Verzeichnis →</a></p>
     @endif
 
+    <x-wusstest-box />
+
     <p style="margin-top:24px;"><a href="{{ url('/kennzeichen') }}">← Alle Kennzeichen-Kürzel (A–Z)</a></p>
 </x-layout>

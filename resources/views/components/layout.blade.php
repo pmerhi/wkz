@@ -290,6 +290,16 @@
         .quiz-rules li{display:flex;gap:12px;align-items:flex-start;font-size:.93rem;color:var(--tx);line-height:1.4}
         .quiz-rules .ic{font-size:1.5rem;line-height:1;flex-shrink:0;width:30px;text-align:center}
         @media(max-width:820px){.quiz-layout{flex-direction:column}.quiz-info{width:100%;order:-1}}
+        /* Wusstest-du?-Box */
+        .wusstest-box{background:linear-gradient(135deg,#fffbeb,#fef3c7);border:1px solid #fcd34d;border-radius:16px;padding:22px 24px;box-shadow:var(--shadow)}
+        .wusstest-head{font-weight:800;color:#b45309;font-size:1.05rem;margin-bottom:8px}
+        .wusstest-titel{margin:0 0 6px;font-size:1.15rem;color:var(--ink)}
+        .wusstest-text{margin:0;color:var(--tx)}
+        .wusstest-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:14px;flex-wrap:wrap}
+        .wusstest-quelle{font-size:.82rem;color:var(--mut);text-decoration:none}
+        .wusstest-quelle:hover{color:var(--pri)}
+        .wusstest-next{background:#fff;border:1px solid #fcd34d;color:#b45309;border-radius:9px;padding:8px 14px;font-weight:700;cursor:pointer;font-size:.9rem;transition:.15s}
+        .wusstest-next:hover{background:#b45309;color:#fff}
         .pri-cta-block{background:linear-gradient(135deg,#1e3a8a,#1d4ed8);color:#fff;border-radius:20px;padding:clamp(22px,4vw,32px);text-align:center;box-shadow:var(--shadow-lg)}
         .pri-cta-block h2{color:#fff;margin-top:0}
         .pri-cta-block p{color:rgba(255,255,255,.9);max-width:54ch;margin:0 auto 18px}

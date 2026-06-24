@@ -95,6 +95,9 @@
     </section>
     @endif
 
+    {{-- Wusstest du? (freigegebene Fakten) --}}
+    <x-wusstest-box />
+
     {{-- FAQ --}}
     @if(count($faq) >= 1)
     <section class="section reveal faq" id="faq">
