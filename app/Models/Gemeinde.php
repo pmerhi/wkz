@@ -25,4 +25,30 @@ class Gemeinde extends Model
     {
         return $this->hasMany(Zulassungsstelle::class);
     }
+
+    /** Kennzeichen-Kürzel der Gemeinde (über den Kreis). */
+    public function kennzeichenKuerzel()
+    {
+        return $this->kreis ? $this->kreis->kennzeichenKuerzel : collect();
+    }
+
+    /** Für die Gemeinde zuständige (Primär-)Zulassungsstelle: eigene, sonst die des Kreises. */
+    public function zustaendigeStelle(): ?Zulassungsstelle
+    {
+        return Zulassungsstelle::whereNull('parent_id')
+            ->where(fn ($q) => $q->where('gemeinde_id', $this->id)->orWhere('kreis_id', $this->kreis_id))
+            ->orderByRaw('CASE WHEN gemeinde_id = ? THEN 0 ELSE 1 END', [$this->id])
+            ->first();
+    }
+
+    /** Kanonischer Pfad der Ort-Kennzeichen-Seite. */
+    public function pfad(): string
+    {
+        return '/kennzeichen/ort/'.$this->slug;
+    }
+
+    public function url(): string
+    {
+        return url($this->pfad());
+    }
 }

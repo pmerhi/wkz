@@ -116,6 +116,20 @@
     </section>
     @endif
 
+    {{-- Städte & Gemeinden im Zulassungsbezirk (reziproke Verlinkung in die Ort-Seiten) --}}
+    @if(($gemeinden ?? collect())->isNotEmpty())
+    <section class="section reveal">
+        <h2>Städte &amp; Gemeinden im Zulassungsbezirk</h2>
+        <p class="lead-intro">Welches Kennzeichen gilt in deinem Ort? Hier findest du das Unterscheidungszeichen
+            und die Wunschkennzeichen-Reservierung für jede Gemeinde:</p>
+        <div class="grid">
+            @foreach($gemeinden as $gem)
+                <div class="card"><a href="{{ url('/kennzeichen/ort/'.$gem->slug) }}">Kennzeichen {{ $gem->name }}</a></div>
+            @endforeach
+        </div>
+    </section>
+    @endif
+
     {{-- Kennzeichen-Kürzel --}}
     @if($stelle->kennzeichenKuerzel->isNotEmpty())
     <section class="section reveal">

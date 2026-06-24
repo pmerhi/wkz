@@ -15,6 +15,8 @@ Route::get('/zulassungsstelle/{land}/{slug}', [PageController::class, 'zulassung
 
 Route::get('/kennzeichen', [PageController::class, 'kuerzelIndex'])->name('kuerzel.index');
 Route::get('/altkennzeichen', [PageController::class, 'altkennzeichen'])->name('altkennzeichen');
+// Programmatic Ort-Seiten VOR der {slug}-Kürzel-Route registrieren.
+Route::get('/kennzeichen/ort/{slug}', [PageController::class, 'kennzeichenOrt'])->name('ort.show');
 Route::get('/kennzeichen/{slug}', [PageController::class, 'kuerzel'])->name('kuerzel.show');
 // Bundesland-Listing liegt jetzt unter /zulassungsstelle/{land}; alte URL 301-weiterleiten.
 Route::get('/bundesland/{slug}', fn (string $slug) => redirect('/zulassungsstelle/'.$slug, 301))->name('bundesland.show');
@@ -31,7 +33,7 @@ Route::get('/go/{placement}', GoController::class)->name('go');
 // Sitemap-Index + Kind-Sitemaps je Typ (Diagnostik in der Search Console)
 Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
 Route::get('/sitemap-{typ}.xml', [SitemapController::class, 'child'])
-    ->whereIn('typ', ['static', 'stellen', 'kennzeichen', 'bundesland', 'ratgeber'])
+    ->whereIn('typ', ['static', 'stellen', 'kennzeichen', 'ort', 'bundesland', 'ratgeber'])
     ->name('sitemap.child');
 
 Route::get('/robots.txt', function () {

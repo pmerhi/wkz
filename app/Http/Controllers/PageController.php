@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Bundesland;
+use App\Models\Gemeinde;
 use App\Models\KennzeichenKuerzel;
 use App\Models\RatgeberArtikel;
 use App\Models\Zulassungsstelle;
@@ -206,6 +207,12 @@ class PageController extends Controller
         // Dünne Stubs (nur Name + Geo) nicht indexieren.
         $noindex = $stelle->seoMeta?->noindex || ! $stelle->is_indexable;
 
+        // Gemeinden des Zulassungsbezirks → reziproke Verlinkung in die Ort-Seiten.
+        $gemeinden = $stelle->kreis_id
+            ? Gemeinde::where('kreis_id', $stelle->kreis_id)->whereNotNull('slug')
+                ->orderBy('name')->limit(60)->get(['id', 'name', 'slug'])
+            : collect();
+
         return view('pages.zulassungsstelle', [
             'title'       => $stelle->seoMeta?->title ?? ($stelle->name.' — Öffnungszeiten, Termin & Wunschkennzeichen'),
             'description' => $stelle->seoMeta?->description ?? ('Zulassungsstelle '.$stelle->name.': Anschrift, Öffnungszeiten, Terminvergabe und Wunschkennzeichen reservieren.'),
@@ -215,6 +222,7 @@ class PageController extends Controller
             'stelle'      => $stelle,
             'artikel'     => $artikel,
             'faq'         => $faq,
+            'gemeinden'   => $gemeinden,
         ]);
     }
 
@@ -334,6 +342,79 @@ class PageController extends Controller
             'schemas'     => $schemas,
             'kuerzel'     => $k,
             'bundesland'  => $bundesland,
+        ]);
+    }
+
+    /** Programmatic Ort-Seite: „Welches Kennzeichen hat {Ort}?" inkl. zuständiger Zulassungsstelle. */
+    public function kennzeichenOrt(string $slug)
+    {
+        $g = Gemeinde::with(['kreis.kennzeichenKuerzel', 'bundesland'])
+            ->where('slug', $slug)->firstOrFail();
+
+        $kuerzel = $g->kennzeichenKuerzel()->sortBy('code')->values();
+        $stelle  = $g->zustaendigeStelle();
+        $altkennzeichen = $kuerzel->where('ist_altkennzeichen', true)->values();
+
+        // Nachbar-Orte im selben Kreis (interne Verlinkung, Mehrwert gegen Thin Content).
+        $nachbarn = $g->kreis_id
+            ? Gemeinde::where('kreis_id', $g->kreis_id)->where('id', '!=', $g->id)
+                ->whereNotNull('slug')->orderBy('name')->limit(30)->get(['id', 'name', 'slug'])
+            : collect();
+
+        // Indexierbar nur mit echtem Mehrwert: mindestens ein Kürzel UND eine zuständige Stelle.
+        $indexable = $kuerzel->isNotEmpty() && $stelle !== null;
+
+        $codes = $kuerzel->pluck('code')->implode(', ');
+        $crumbs = [
+            ['Start', url('/')],
+            ['Kennzeichen', url('/kennzeichen')],
+        ];
+        if ($g->bundesland) {
+            $crumbs[] = [$g->bundesland->name, url('/zulassungsstelle/'.$g->bundesland->slug)];
+        }
+        $crumbs[] = ['Kennzeichen '.$g->name, $g->url()];
+
+        $faq = [];
+        if ($kuerzel->isNotEmpty()) {
+            $faq[] = ['Welches Kfz-Kennzeichen hat '.$g->name.'?',
+                'Fahrzeuge in '.$g->name.' tragen das Unterscheidungszeichen '.$codes
+                .($g->kreis ? ' ('.$g->kreis->name.')' : '').'. Das Kennzeichen lässt sich als '
+                .'Wunschkennzeichen reservieren.'];
+        }
+        if ($stelle) {
+            $faq[] = ['Welche Zulassungsstelle ist für '.$g->name.' zuständig?',
+                'Zuständig ist die '.$stelle->name.($stelle->ort ? ' in '.$stelle->ort : '').'. '
+                .'Dort meldest du dein Fahrzeug an, ab oder um.'];
+        }
+        if ($altkennzeichen->isNotEmpty()) {
+            $faq[] = ['Gibt es für '.$g->name.' ein Altkennzeichen?',
+                'Für die Region ist das wieder eingeführte Altkennzeichen '
+                .$altkennzeichen->pluck('code')->implode(', ').' erhältlich.'];
+        }
+
+        $schemas = [$this->breadcrumb($crumbs)];
+        if (count($faq) >= 2) {
+            $schemas[] = $this->faqPage($faq);
+        }
+
+        $titel = $kuerzel->isNotEmpty()
+            ? 'Kennzeichen '.$g->name.' ('.$codes.') — Wunschkennzeichen reservieren'
+            : 'Kennzeichen '.$g->name.' — Zulassung & Wunschkennzeichen';
+
+        return view('pages.kennzeichen-ort', [
+            'title'          => $titel,
+            'description'    => 'Welches Kfz-Kennzeichen hat '.$g->name.'?'
+                .($codes ? ' Unterscheidungszeichen '.$codes.'.' : '').' Zuständige Zulassungsstelle, '
+                .'Öffnungszeiten und Wunschkennzeichen für '.$g->name.' reservieren.',
+            'canonical'      => $g->url(),
+            'robots'         => $indexable ? 'index,follow' : 'noindex,follow',
+            'schemas'        => $schemas,
+            'gemeinde'       => $g,
+            'kuerzel'        => $kuerzel,
+            'altkennzeichen' => $altkennzeichen,
+            'stelle'         => $stelle,
+            'nachbarn'       => $nachbarn,
+            'faq'            => $faq,
         ]);
     }
 

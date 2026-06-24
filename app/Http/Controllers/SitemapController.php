@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Bundesland;
+use App\Models\Gemeinde;
 use App\Models\KennzeichenKuerzel;
 use App\Models\RatgeberArtikel;
 use App\Models\Zulassungsstelle;
@@ -10,7 +11,7 @@ use Illuminate\Http\Response;
 
 class SitemapController extends Controller
 {
-    private const TYPES = ['static', 'stellen', 'kennzeichen', 'bundesland', 'ratgeber'];
+    private const TYPES = ['static', 'stellen', 'kennzeichen', 'ort', 'bundesland', 'ratgeber'];
 
     /** Sitemap-Index, verweist auf die Kind-Sitemaps je Typ. */
     public function index(): Response
@@ -34,6 +35,13 @@ class SitemapController extends Controller
                                 ->map(fn ($s) => ['loc' => $s->url(), 'lastmod' => $s->updated_at?->toAtomString()])->all(),
             'kennzeichen' => KennzeichenKuerzel::indexable()->orderBy('code')->get()
                                 ->map(fn ($k) => ['loc' => url('/kennzeichen/'.$k->slug), 'lastmod' => $k->updated_at?->toAtomString()])->all(),
+            'ort'         => Gemeinde::whereNotNull('slug')
+                                ->whereHas('kreis.kennzeichenKuerzel')
+                                ->where(fn ($q) => $q
+                                    ->whereHas('zulassungsstellen', fn ($s) => $s->whereNull('parent_id'))
+                                    ->orWhereHas('kreis.zulassungsstellen', fn ($s) => $s->whereNull('parent_id')))
+                                ->orderBy('name')->get(['id', 'slug', 'updated_at'])
+                                ->map(fn ($g) => ['loc' => url('/kennzeichen/ort/'.$g->slug), 'lastmod' => $g->updated_at?->toAtomString()])->all(),
             'bundesland'  => Bundesland::has('zulassungsstellen')->orderBy('name')->get()
                                 ->map(fn ($b) => ['loc' => url('/zulassungsstelle/'.$b->slug), 'lastmod' => $b->updated_at?->toAtomString()])->all(),
             'ratgeber'    => RatgeberArtikel::whereNotNull('published_at')->orderBy('slug')->get()
