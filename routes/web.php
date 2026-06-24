@@ -30,6 +30,8 @@ Route::get('/ratgeber/{slug}', [PageController::class, 'ratgeberShow'])->name('r
 
 Route::get('/ueber-uns', [PageController::class, 'ueberUns'])->name('ueber-uns');
 
+// Reservierungs-Conversion VOR der {placement}-Route registrieren.
+Route::get('/go/reservierung', \App\Http\Controllers\ReservierungController::class)->name('go.reservierung');
 Route::get('/go/{placement}', GoController::class)->name('go');
 
 // Sitemap-Index + Kind-Sitemaps je Typ (Diagnostik in der Search Console)

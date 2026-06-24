@@ -1,5 +1,4 @@
 <x-layout :title="$title" :description="$description" :canonical="$canonical" :schemas="$schemas">
-    @php $v = $ab['cta_text'] ?? 'a'; @endphp
 
     <section class="hero reveal in">
         <h1>Wunschkennzeichen reservieren – schnell &amp; amtlich</h1>
@@ -7,7 +6,7 @@
         finden und dein Wunschkennzeichen in wenigen Minuten sichern.</p>
 
         <div class="hero-actions">
-            <a class="cta js-reservierung-cta" data-label="home" data-variant="{{ $v }}" href="{{ config('portal.reservation_url') }}?utm_source=portal&utm_medium=cta&utm_campaign=home" rel="nofollow">{{ $v === 'b' ? 'Wunschkennzeichen sichern – in 2 Minuten →' : 'Jetzt Wunschkennzeichen prüfen →' }}</a>
+            <x-reservierung-cta label="home" campaign="home" />
             <a class="btn btn-ghost" href="{{ url('/zulassungsstelle') }}">Zulassungsstelle finden</a>
         </div>
 

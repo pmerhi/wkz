@@ -8,7 +8,6 @@
 
     @php
         $codes = $kuerzel->pluck('code')->implode(', ');
-        $reservUrl = config('portal.reservation_url').'?utm_source=portal&utm_medium=cta&utm_campaign=ort&ort='.$gemeinde->slug;
         $primary = $kuerzel->first();
     @endphp
 
@@ -47,7 +46,7 @@
         <div class="pri-cta-block">
             <h2>Wunschkennzeichen @if($primary){{ $primary->code }} @endif in {{ $gemeinde->name }} reservieren</h2>
             <p>Prüfe live, ob deine Wunsch-Kombination frei ist, und sichere sie in wenigen Minuten – bequem online.</p>
-            <a class="cta js-reservierung-cta" data-label="ort:{{ $gemeinde->slug }}" href="{{ $reservUrl }}" rel="nofollow">Wunschkennzeichen prüfen &amp; reservieren →</a>
+            <x-reservierung-cta :label="'ort:'.$gemeinde->slug" campaign="ort" />
         </div>
     </section>
     @endif

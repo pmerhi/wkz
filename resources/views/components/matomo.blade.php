@@ -23,10 +23,8 @@
         g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
     })();
 
-    // A/B-Test: Exposure je aktivem Experiment (zur Berechnung der Conversion-Quote)
-    @foreach(($ab ?? []) as $exp => $variant)
-    _paq.push(['trackEvent', 'Experiment', '{{ $exp }}', '{{ $variant }}']);
-    @endforeach
+    // A/B-Exposure wird dort emittiert, wo der CTA tatsächlich gerendert wird
+    // (x-reservierung-cta) – so hat die Conversion-Quote je Variante einen sinnvollen Nenner.
 
     // Event-Tracking für Schlüssel-Interaktionen
     document.addEventListener('click', function (e) {

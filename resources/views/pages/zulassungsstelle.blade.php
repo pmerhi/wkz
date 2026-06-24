@@ -7,12 +7,10 @@
     </nav>
 
     @php
-        $v = $ab['cta_text'] ?? 'a';
         $ortLabel = $stelle->ort ?: $stelle->name;
         $hatHours = is_array($stelle->oeffnungszeiten) && count($stelle->oeffnungszeiten) && ! isset($stelle->oeffnungszeiten['raw']);
         $hatRawHours = is_array($stelle->oeffnungszeiten) && isset($stelle->oeffnungszeiten['raw']);
         $kuerzel = $stelle->kennzeichenKuerzel->first();
-        $reservUrl = config('portal.reservation_url').'?utm_source=portal&utm_medium=cta&utm_campaign=zst&zst='.$stelle->slug;
         $istOsm = str_contains((string) $stelle->quelle, 'OpenStreetMap');
         $kuerzelHinweis = $kuerzel ? ' (Unterscheidungszeichen <strong>'.e($kuerzel->code).'</strong>)' : '';
     @endphp
@@ -73,7 +71,7 @@
             <h2>Wunschkennzeichen @if($kuerzel){{ $kuerzel->code }} @endif in {{ $ortLabel }} reservieren</h2>
             <p>Prüfe live, ob deine Wunsch-Kombination frei ist, und sichere sie in wenigen Minuten –
                 bequem online, bevor du zur Zulassung gehst.</p>
-            <a class="cta js-reservierung-cta" data-label="zst:{{ $stelle->slug }}" data-variant="{{ $v }}" href="{{ $reservUrl }}" rel="nofollow">{{ $v === 'b' ? 'Jetzt in 2 Minuten sichern →' : 'Wunschkennzeichen prüfen &amp; reservieren →' }}</a>
+            <x-reservierung-cta :label="'zst:'.$stelle->slug" campaign="zst" />
         </div>
     </section>
 
