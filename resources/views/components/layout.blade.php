@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <script>(function(){try{var d=document.documentElement;if(localStorage.getItem('theme')==='dark')d.setAttribute('data-theme','dark');var f=parseInt(localStorage.getItem('fontpx'),10);if(f>=14&&f<=22)d.style.fontSize=f+'px';}catch(e){}})();</script>
+    <script>(function(){try{var d=document.documentElement;var t=localStorage.getItem('theme');var dark=t?t==='dark':matchMedia('(prefers-color-scheme:dark)').matches;if(dark)d.setAttribute('data-theme','dark');var f=parseInt(localStorage.getItem('fontpx'),10);if(f>=14&&f<=22)d.style.fontSize=f+'px';}catch(e){}})();</script>
     <title>{{ $title ?? config('portal.site_name') }}</title>
     <meta name="description" content="{{ $description }}">
     <meta name="robots" content="{{ $robots }}">
@@ -432,6 +432,10 @@ document.querySelectorAll('img:not([loading])').forEach(function(i){i.loading='l
     else{d.setAttribute('data-theme','dark');try{localStorage.setItem('theme','dark');}catch(e){}}
     sync();
   });
+  /* Folgt der System-Einstellung, solange keine manuelle Wahl getroffen wurde */
+  try{matchMedia('(prefers-color-scheme:dark)').addEventListener('change',function(e){
+    if(!localStorage.getItem('theme')){if(e.matches)d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');sync();}
+  });}catch(e){}
   sync();
 })();
 
