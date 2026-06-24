@@ -41,6 +41,9 @@
         @endif
     </section>
 
+    {{-- Interaktiver Wunschkennzeichen-Generator --}}
+    @if($primary)<x-kennzeichen-generator :kuerzel="$primary->code" />@endif
+
     {{-- Daten & Fakten zur Region (nur wenn gequellte Daten vorliegen) --}}
     <x-region-fakten :kreis="$gemeinde->kreis" />
 

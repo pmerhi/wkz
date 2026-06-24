@@ -243,6 +243,16 @@
         .check-list{list-style:none;margin:0;padding:12px 18px}
         .check-list li{padding:5px 0 5px 28px;position:relative;color:var(--tx)}
         .check-list li::before{content:"✓";position:absolute;left:4px;color:var(--pri);font-weight:800}
+        /* Wunschkennzeichen-Generator (Plate-Vorschau) */
+        .kfz-plate{display:inline-flex;align-items:stretch;height:62px;border:2px solid #111;border-radius:7px;background:#fff;overflow:hidden;box-shadow:var(--shadow);margin:4px 0}
+        .kfz-eu{background:#039;color:#fff;width:30px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:6px 0;font-size:.62rem}
+        .kfz-stars{color:#fc0;line-height:1;font-size:.8rem}
+        .kfz-d{font-weight:700}
+        .kfz-body{display:flex;align-items:center;padding:0 14px;font:800 1.9rem/1 "Arial Narrow",Arial,sans-serif;letter-spacing:1px;color:#111;white-space:nowrap}
+        .gen-controls{display:flex;gap:14px;margin-top:14px;flex-wrap:wrap}
+        .gen-controls label{font-size:.82rem;color:var(--mut);font-weight:600}
+        .gen-controls input{display:block;margin-top:4px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;font-size:1.1rem;font-weight:700;text-transform:uppercase;width:120px;letter-spacing:1px}
+        a.js-gen-kombi{cursor:pointer}
         .pri-cta-block{background:linear-gradient(135deg,#1e3a8a,#1d4ed8);color:#fff;border-radius:20px;padding:clamp(22px,4vw,32px);text-align:center;box-shadow:var(--shadow-lg)}
         .pri-cta-block h2{color:#fff;margin-top:0}
         .pri-cta-block p{color:rgba(255,255,255,.9);max-width:54ch;margin:0 auto 18px}

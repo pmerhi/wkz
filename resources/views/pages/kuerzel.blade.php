@@ -9,8 +9,11 @@
         @if($kuerzel->ist_altkennzeichen)
             <p class="badge badge-alt" style="background:#fff" title="Im Rahmen der Kennzeichenliberalisierung (seit 1. November 2012) wieder eingeführt">↩︎ Altkennzeichen – wieder erhältlich</p>
         @endif
-        <p style="margin:16px 0 0"><a class="cta js-reservierung-cta" data-label="kuerzel:{{ $kuerzel->code }}" data-variant="{{ $ab['cta_text'] ?? 'a' }}" href="{{ config('portal.reservation_url') }}?utm_source=portal&utm_medium=cta&utm_campaign=kuerzel&code={{ $kuerzel->code }}" rel="nofollow">{{ ($ab['cta_text'] ?? 'a') === 'b' ? $kuerzel->code.': jetzt in 2 Minuten sichern →' : 'Wunschkennzeichen '.$kuerzel->code.' reservieren →' }}</a></p>
+        <p style="margin:16px 0 0"><x-reservierung-cta :label="'kuerzel:'.$kuerzel->code" campaign="kuerzel" /></p>
     </section>
+
+    {{-- Interaktiver Wunschkennzeichen-Generator --}}
+    <x-kennzeichen-generator :kuerzel="$kuerzel->code" />
 
     <section class="section reveal">
         <p>
