@@ -226,6 +226,37 @@ class PageController extends Controller
         ]);
     }
 
+    /** Kennzeichen-Quiz „Kürzel-Raten" – Fragen aus den Kürzel mit Bedeutung. */
+    public function kennzeichenQuiz()
+    {
+        $clean = fn ($b) => trim(explode(',', (string) $b)[0]);
+
+        $pool = KennzeichenKuerzel::whereNotNull('bedeutung')->where('bedeutung', '!=', '')
+            ->get(['code', 'bedeutung'])
+            ->map(fn ($k) => ['code' => $k->code, 'antwort' => $clean($k->bedeutung)])
+            ->filter(fn ($x) => $x['antwort'] !== '')
+            ->unique('code')->values();
+
+        $fragen = $pool->shuffle()->take(15)->map(function ($q) use ($pool) {
+            $optionen = $pool->where('antwort', '!=', $q['antwort'])->pluck('antwort')->unique()
+                ->shuffle()->take(3)->push($q['antwort'])->shuffle()->values();
+            return ['code' => $q['code'], 'antwort' => $q['antwort'], 'optionen' => $optionen];
+        })->values();
+
+        return view('pages.kennzeichen-quiz', [
+            'title'       => 'Kennzeichen-Quiz: Errätst du alle Kfz-Kürzel? | Wunschkennzeichen-Portal',
+            'description' => 'Teste dein Wissen: Welche Stadt oder welcher Landkreis steckt hinter dem Kfz-Kennzeichen? '
+                .'15 Fragen, Highscore – das große Kennzeichen-Quiz zum Kürzel-Raten.',
+            'canonical'   => url('/kennzeichen-quiz'),
+            'schemas'     => [$this->breadcrumb([
+                ['Start', url('/')],
+                ['Kennzeichen', url('/kennzeichen')],
+                ['Quiz', url('/kennzeichen-quiz')],
+            ])],
+            'fragen'      => $fragen,
+        ]);
+    }
+
     public function kuerzelIndex()
     {
         $kuerzel = KennzeichenKuerzel::indexable()->orderBy('code')->get()

@@ -10,7 +10,10 @@
                 <a class="badge" href="#{{ $buchstabe }}" style="background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.35);color:#fff">{{ $buchstabe }}</a>
             @endforeach
         </p>
-        <p style="margin:16px 0 0"><a class="btn" href="{{ url('/kennzeichen/ort') }}">🔎 Kennzeichen nach Ort suchen →</a></p>
+        <p style="margin:16px 0 0">
+            <a class="btn" href="{{ url('/kennzeichen/ort') }}">🔎 Kennzeichen nach Ort suchen →</a>
+            <a class="btn" href="{{ url('/kennzeichen-quiz') }}" style="background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35)">🎮 Kennzeichen-Quiz spielen</a>
+        </p>
     </section>
 
     @if($altkennzeichen->isNotEmpty())

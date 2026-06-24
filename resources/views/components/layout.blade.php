@@ -260,6 +260,13 @@
         .andrang-bar.lvl-3{background:#f59e0b}
         .andrang-bar.lvl-4{background:#ef4444}
         .andrang-col b{font-size:.82rem;color:var(--mut)}
+        /* Kennzeichen-Quiz */
+        .quiz-head{display:flex;gap:16px;flex-wrap:wrap;color:var(--mut);font-weight:600;margin-bottom:14px}
+        .quiz-opts{display:grid;gap:10px;margin-top:16px;max-width:540px}
+        .quiz-opt{text-align:left;padding:13px 16px;border:1px solid var(--line);border-radius:11px;background:#fff;font-weight:600;cursor:pointer;font-size:1rem;transition:.12s}
+        .quiz-opt:hover:not(:disabled){border-color:var(--pri-l);background:var(--soft2)}
+        .quiz-opt.correct{background:#dcfce7;border-color:#22c55e}
+        .quiz-opt.wrong{background:#fee2e2;border-color:#ef4444}
         .pri-cta-block{background:linear-gradient(135deg,#1e3a8a,#1d4ed8);color:#fff;border-radius:20px;padding:clamp(22px,4vw,32px);text-align:center;box-shadow:var(--shadow-lg)}
         .pri-cta-block h2{color:#fff;margin-top:0}
         .pri-cta-block p{color:rgba(255,255,255,.9);max-width:54ch;margin:0 auto 18px}
