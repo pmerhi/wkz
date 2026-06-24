@@ -9,6 +9,7 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
 
 class EnrichmentIdeaResource extends Resource
 {
@@ -22,7 +23,14 @@ class EnrichmentIdeaResource extends Resource
 
     public static function getNavigationBadge(): ?string
     {
-        return (string) static::getModel()::where('status', 'neu')->count() ?: null;
+        return (string) static::getEloquentQuery()->where('status', 'neu')->count() ?: null;
+    }
+
+    /** "Wusstest du?"-Fakten haben einen eigenen Menüpunkt – hier ausblenden. */
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()
+            ->where(fn ($q) => $q->where('kategorie', '!=', 'Wusstest')->orWhereNull('kategorie'));
     }
 
     public static function form(Form $form): Form
@@ -31,8 +39,7 @@ class EnrichmentIdeaResource extends Resource
             Forms\Components\TextInput::make('titel')->required()->maxLength(255)->columnSpanFull(),
             Forms\Components\Select::make('kategorie')->options([
                 'Daten' => 'Daten/Statistik', 'Lokal' => 'Lokaler Bezug', 'Interaktiv' => 'Interaktiv/Tool',
-                'UGC' => 'Nutzer-Inhalte (UGC)', 'Wettbewerb' => 'Wettbewerber-Feature',
-                'Wusstest' => 'Wusstest du? (Fakt)', 'Sonstiges' => 'Sonstiges',
+                'UGC' => 'Nutzer-Inhalte (UGC)', 'Wettbewerb' => 'Wettbewerber-Feature', 'Sonstiges' => 'Sonstiges',
             ])->native(false),
             Forms\Components\Select::make('status')->options(array_combine(EnrichmentIdea::STATUS, EnrichmentIdea::STATUS))
                 ->default('neu')->required()->native(false),
@@ -70,8 +77,7 @@ class EnrichmentIdeaResource extends Resource
                 Tables\Filters\SelectFilter::make('status')->options(array_combine(EnrichmentIdea::STATUS, EnrichmentIdea::STATUS)),
                 Tables\Filters\SelectFilter::make('kategorie')->options([
                     'Daten' => 'Daten', 'Lokal' => 'Lokal', 'Interaktiv' => 'Interaktiv',
-                    'UGC' => 'UGC', 'Wettbewerb' => 'Wettbewerb',
-                    'Wusstest' => 'Wusstest du?', 'Sonstiges' => 'Sonstiges',
+                    'UGC' => 'UGC', 'Wettbewerb' => 'Wettbewerb', 'Sonstiges' => 'Sonstiges',
                 ]),
             ])
             ->actions([
