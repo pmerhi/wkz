@@ -13,6 +13,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <script>(function(){try{var d=document.documentElement;if(localStorage.getItem('theme')==='dark')d.setAttribute('data-theme','dark');var f=parseInt(localStorage.getItem('fontpx'),10);if(f>=14&&f<=22)d.style.fontSize=f+'px';}catch(e){}})();</script>
     <title>{{ $title ?? config('portal.site_name') }}</title>
     <meta name="description" content="{{ $description }}">
     <meta name="robots" content="{{ $robots }}">
@@ -50,9 +51,30 @@
             --shadow-lg:0 10px 40px -12px rgba(15,23,42,.25);
             --r:14px; --maxw:1080px;
         }
+        /* Dark Mode (umschaltbar oben rechts) */
+        [data-theme="dark"]{
+            --ink:#f1f5f9; --tx:#cbd5e1; --mut:#94a3b8;
+            --bg:#0f172a; --soft:#1e293b; --soft2:#162033; --line:#334155; --pri-l:#60a5fa;
+            --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px -6px rgba(0,0,0,.5);
+            --shadow-lg:0 10px 40px -12px rgba(0,0,0,.7);
+        }
+        [data-theme="dark"] header.site{background:rgba(15,23,42,.85)}
+        [data-theme="dark"] a,[data-theme="dark"] .content a,[data-theme="dark"] nav.breadcrumb a:hover{color:#60a5fa}
+        [data-theme="dark"] .card,[data-theme="dark"] table.info,[data-theme="dark"] .oz,
+        [data-theme="dark"] .faq details,[data-theme="dark"] .faq-item,[data-theme="dark"] .ac-panel,
+        [data-theme="dark"] .quiz-opt,[data-theme="dark"] .hs-table,[data-theme="dark"] .quiz-info,
+        [data-theme="dark"] .hero-search input,[data-theme="dark"] .gen-controls input,
+        [data-theme="dark"] .quiz-name,[data-theme="dark"] .badge,[data-theme="dark"] .ac-item{
+            background:var(--soft);color:var(--tx);border-color:var(--line)}
+        [data-theme="dark"] table.info th,[data-theme="dark"] .hs-table th,
+        [data-theme="dark"] .ac-item.active,[data-theme="dark"] .ac-item:hover{background:var(--soft2)}
+        [data-theme="dark"] .box{background:var(--soft2);border-color:var(--line);color:var(--tx)}
+        [data-theme="dark"] .wusstest-box{background:linear-gradient(135deg,#3a2f0a,#4a3a0c);border-color:#a16207}
+        [data-theme="dark"] .wusstest-titel,[data-theme="dark"] .wusstest-text{color:#fde68a}
+        @media(max-width:760px){[data-theme="dark"] nav.main{background:var(--soft)}}
         *{box-sizing:border-box}
         html{scroll-behavior:smooth}
-        body{margin:0;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--tx);background:var(--bg);-webkit-font-smoothing:antialiased}
+        body{margin:0;font:1rem/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--tx);background:var(--bg);-webkit-font-smoothing:antialiased;transition:background .2s,color .2s}
         .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
         .wrap--narrow{max-width:760px}
         a{color:var(--pri)}
@@ -66,7 +88,11 @@
         nav.main{display:flex;align-items:center;gap:4px}
         nav.main a{text-decoration:none;color:var(--tx);font-weight:600;font-size:.95rem;padding:8px 12px;border-radius:9px;transition:background .15s,color .15s}
         nav.main a:hover{background:var(--soft);color:var(--ink)}
-        .nav-toggle{display:none;background:none;border:1px solid var(--line);border-radius:9px;width:42px;height:38px;font-size:1.2rem;cursor:pointer}
+        .nav-toggle{display:none;background:none;border:1px solid var(--line);border-radius:9px;width:42px;height:38px;font-size:1.2rem;cursor:pointer;color:var(--tx)}
+        .header-right{display:flex;align-items:center;gap:10px}
+        .header-tools{display:flex;gap:5px;align-items:center}
+        .tool-btn{min-width:34px;height:34px;padding:0 8px;border:1px solid var(--line);background:var(--bg);color:var(--tx);border-radius:8px;cursor:pointer;font-weight:700;font-size:.9rem;line-height:1;display:inline-flex;align-items:center;justify-content:center;transition:.15s}
+        .tool-btn:hover{background:var(--soft);border-color:var(--pri-l);color:var(--ink)}
         @media(max-width:760px){
             nav.main{position:fixed;inset:62px 0 auto 0;flex-direction:column;align-items:stretch;background:#fff;border-bottom:1px solid var(--line);padding:8px 16px 16px;box-shadow:var(--shadow);transform:translateY(-130%);transition:transform .25s ease;gap:2px}
             nav.main.open{transform:translateY(0)}
@@ -346,14 +372,21 @@
 <header class="site">
     <div class="wrap">
         <a class="brand" href="{{ url('/') }}"><span class="logo">WK</span> Wunschkennzeichen-Portal</a>
-        <button class="nav-toggle" aria-label="Menü" aria-expanded="false" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰</button>
-        <nav class="main" id="nav">
-            <a href="{{ url('/zulassungsstelle') }}">Zulassungsstellen</a>
-            <a href="{{ url('/kennzeichen') }}">Kennzeichen</a>
-            <a href="{{ url('/altkennzeichen') }}">Altkennzeichen</a>
-            <a href="{{ url('/formulare') }}">Formulare</a>
-            <a href="{{ url('/ratgeber') }}">Ratgeber</a>
-        </nav>
+        <div class="header-right">
+            <nav class="main" id="nav">
+                <a href="{{ url('/zulassungsstelle') }}">Zulassungsstellen</a>
+                <a href="{{ url('/kennzeichen') }}">Kennzeichen</a>
+                <a href="{{ url('/altkennzeichen') }}">Altkennzeichen</a>
+                <a href="{{ url('/formulare') }}">Formulare</a>
+                <a href="{{ url('/ratgeber') }}">Ratgeber</a>
+            </nav>
+            <div class="header-tools" role="group" aria-label="Darstellung">
+                <button class="tool-btn js-font" type="button" data-d="-1" title="Schrift verkleinern" aria-label="Schrift verkleinern">A−</button>
+                <button class="tool-btn js-font" type="button" data-d="1" title="Schrift vergrößern" aria-label="Schrift vergrößern">A+</button>
+                <button class="tool-btn js-theme" type="button" title="Hell/Dunkel umschalten" aria-label="Dark Mode umschalten">🌙</button>
+            </div>
+            <button class="nav-toggle" aria-label="Menü" aria-expanded="false" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰</button>
+        </div>
     </div>
 </header>
 <main>
@@ -380,6 +413,27 @@
 })();
 /* Lazyload: alle Bilder ohne explizites loading */
 document.querySelectorAll('img:not([loading])').forEach(function(i){i.loading='lazy';i.decoding='async';});
+
+/* Darstellung: Dark Mode + Schriftgröße (oben rechts), gespeichert in localStorage */
+(function(){
+  var d=document.documentElement;
+  function curFont(){var f=parseInt(localStorage.getItem('fontpx'),10);return (f>=14&&f<=22)?f:16;}
+  document.querySelectorAll('.js-font').forEach(function(b){
+    b.addEventListener('click',function(){
+      var f=Math.min(22,Math.max(14,curFont()+parseInt(b.getAttribute('data-d'),10)*2));
+      d.style.fontSize=f+'px';
+      try{localStorage.setItem('fontpx',f);}catch(e){}
+    });
+  });
+  var tt=document.querySelector('.js-theme');
+  function sync(){if(tt)tt.textContent=d.getAttribute('data-theme')==='dark'?'☀️':'🌙';}
+  if(tt)tt.addEventListener('click',function(){
+    if(d.getAttribute('data-theme')==='dark'){d.removeAttribute('data-theme');try{localStorage.setItem('theme','light');}catch(e){}}
+    else{d.setAttribute('data-theme','dark');try{localStorage.setItem('theme','dark');}catch(e){}}
+    sync();
+  });
+  sync();
+})();
 
 /* Live-Vorschlagsliste (Autocomplete) für Suchfelder mit [data-suggest] */
 (function(){
