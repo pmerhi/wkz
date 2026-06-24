@@ -41,6 +41,9 @@
         @endif
     </section>
 
+    {{-- Daten & Fakten zur Region (nur wenn gequellte Daten vorliegen) --}}
+    <x-region-fakten :kreis="$gemeinde->kreis" />
+
     {{-- Wunschkennzeichen-CTA --}}
     <section class="section reveal">
         <div class="pri-cta-block">

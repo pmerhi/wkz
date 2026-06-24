@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Kreis extends Model
 {
@@ -35,5 +36,10 @@ class Kreis extends Model
             'kreis_id',
             'kennzeichen_kuerzel_id'
         );
+    }
+
+    public function statistik(): HasOne
+    {
+        return $this->hasOne(KreisStatistik::class);
     }
 }

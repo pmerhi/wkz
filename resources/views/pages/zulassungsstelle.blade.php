@@ -150,6 +150,9 @@
     </section>
     @endif
 
+    {{-- Daten & Fakten zur Region (nur wenn gequellte Daten vorliegen) --}}
+    <x-region-fakten :kreis="$stelle->kreis" />
+
     {{-- Kennzeichen-Kürzel --}}
     @if($stelle->kennzeichenKuerzel->isNotEmpty())
     <section class="section reveal">

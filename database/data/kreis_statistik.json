@@ -1,0 +1,5 @@
+[
+    {"stadt": "München", "einwohner": 1505036, "flaeche_km2": 310.72, "stand_jahr": 2025, "quelle": "Statistisches Amt München / Destatis"},
+    {"stadt": "Berlin", "einwohner": 3700577, "flaeche_km2": 891.1, "stand_jahr": 2025, "quelle": "Amt für Statistik Berlin-Brandenburg / Destatis"},
+    {"stadt": "Hamburg", "einwohner": 1869473, "flaeche_km2": 755.09, "stand_jahr": 2025, "quelle": "Statistikamt Nord / Destatis"}
+]
