@@ -31,7 +31,8 @@ class EnrichmentIdeaResource extends Resource
             Forms\Components\TextInput::make('titel')->required()->maxLength(255)->columnSpanFull(),
             Forms\Components\Select::make('kategorie')->options([
                 'Daten' => 'Daten/Statistik', 'Lokal' => 'Lokaler Bezug', 'Interaktiv' => 'Interaktiv/Tool',
-                'UGC' => 'Nutzer-Inhalte (UGC)', 'Wettbewerb' => 'Wettbewerber-Feature', 'Sonstiges' => 'Sonstiges',
+                'UGC' => 'Nutzer-Inhalte (UGC)', 'Wettbewerb' => 'Wettbewerber-Feature',
+                'Wusstest' => 'Wusstest du? (Fakt)', 'Sonstiges' => 'Sonstiges',
             ])->native(false),
             Forms\Components\Select::make('status')->options(array_combine(EnrichmentIdea::STATUS, EnrichmentIdea::STATUS))
                 ->default('neu')->required()->native(false),
@@ -69,7 +70,8 @@ class EnrichmentIdeaResource extends Resource
                 Tables\Filters\SelectFilter::make('status')->options(array_combine(EnrichmentIdea::STATUS, EnrichmentIdea::STATUS)),
                 Tables\Filters\SelectFilter::make('kategorie')->options([
                     'Daten' => 'Daten', 'Lokal' => 'Lokal', 'Interaktiv' => 'Interaktiv',
-                    'UGC' => 'UGC', 'Wettbewerb' => 'Wettbewerb', 'Sonstiges' => 'Sonstiges',
+                    'UGC' => 'UGC', 'Wettbewerb' => 'Wettbewerb',
+                    'Wusstest' => 'Wusstest du?', 'Sonstiges' => 'Sonstiges',
                 ]),
             ])
             ->actions([
