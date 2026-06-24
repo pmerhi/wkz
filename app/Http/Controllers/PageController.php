@@ -118,8 +118,15 @@ class PageController extends Controller
             return redirect($stelle->pfad, 301);
         }
 
-        $artikel = RatgeberArtikel::whereNotNull('published_at')
-            ->orderByDesc('published_at')->limit(4)->get();
+        // Kuratierte, für jede Zulassungsstelle relevante Ratgeber (feste Reihenfolge).
+        $ratgeberSlugs = [
+            'wunschkennzeichen-reservieren', 'wunschkennzeichen-kosten', 'auto-anmelden',
+            'i-kfz-online-zulassung', 'zulassungskosten', 'auto-ummelden', 'auto-abmelden',
+            'evb-nummer', 'gebrauchtwagen-zulassen', 'kurzzeitkennzeichen',
+        ];
+        $artikel = RatgeberArtikel::with('kategorie')
+            ->whereNotNull('published_at')->whereIn('slug', $ratgeberSlugs)->get()
+            ->sortBy(fn ($a) => array_search($a->slug, $ratgeberSlugs))->values();
 
         $office = array_filter([
             '@context'         => 'https://schema.org',

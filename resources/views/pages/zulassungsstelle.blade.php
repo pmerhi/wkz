@@ -50,7 +50,7 @@
             <span class="tag-new">Neu · i-Kfz Stufe 4</span>
             <h2>Auto online zulassen, ab- &amp; ummelden</h2>
             <p class="lead-intro">Viele Vorgänge gehen heute komplett digital – ganz ohne Gang zur
-                Zulassungsstelle {{ $ortLabel }}. Über das bundesweite <a href="{{ url('/ratgeber/i-kfz') }}">i-Kfz-Portal</a>
+                Zulassungsstelle {{ $ortLabel }}. Über das bundesweite <a href="{{ url('/ratgeber/i-kfz-online-zulassung') }}">i-Kfz-Portal</a>
                 erledigst du An-, Ab- und Ummeldung rund um die Uhr von zu Hause.</p>
             <div class="grid">
                 <div class="card"><strong>✅ Voraussetzungen</strong>
@@ -63,7 +63,7 @@
                     <div class="muted">Fahrzeug außer Betrieb setzen – sofort und gebührengünstig online.</div>
                 </div>
             </div>
-            <p style="margin:18px 0 0"><a class="btn" href="{{ url('/ratgeber/i-kfz') }}">So funktioniert i-Kfz →</a></p>
+            <p style="margin:18px 0 0"><a class="btn" href="{{ url('/ratgeber/i-kfz-online-zulassung') }}">So funktioniert i-Kfz →</a></p>
         </div>
     </section>
 
@@ -134,7 +134,9 @@
         <details>
             <summary>Wie reserviere ich ein Wunschkennzeichen in {{ $ortLabel }}?</summary>
             <p>Prüfe online die Verfügbarkeit deiner Wunsch-Kombination und reserviere sie. Anschließend
-            kannst du das Kennzeichen bei der {{ $stelle->name }} zur Zulassung verwenden. <a href="{{ $reservUrl }}" rel="nofollow">Jetzt prüfen &amp; reservieren →</a></p>
+            kannst du das Kennzeichen bei der {{ $stelle->name }} zur Zulassung verwenden. Wie das Schritt
+            für Schritt läuft, steht im <a href="{{ url('/ratgeber/wunschkennzeichen-reservieren') }}">Ratgeber
+            zum Wunschkennzeichen reservieren</a>. <a href="{{ $reservUrl }}" rel="nofollow">Jetzt prüfen &amp; reservieren →</a></p>
         </details>
         <details>
             <summary>Brauche ich für die Zulassung in {{ $ortLabel }} einen Termin?</summary>
@@ -143,18 +145,24 @@
         <details>
             <summary>Kann ich mein Auto in {{ $ortLabel }} online zulassen?</summary>
             <p>Ja – über das i-Kfz-Portal sind An-, Ab- und Ummeldung digital möglich. Wie das genau
-            funktioniert, erklären wir im <a href="{{ url('/ratgeber/i-kfz') }}">i-Kfz-Ratgeber</a>.</p>
+            funktioniert, erklären wir im <a href="{{ url('/ratgeber/i-kfz-online-zulassung') }}">i-Kfz-Ratgeber</a>.</p>
         </details>
     </section>
 
     @if($artikel->isNotEmpty())
     <section class="section reveal">
-        <h2>Passende Ratgeber</h2>
+        <h2>Ratgeber rund um die Zulassung in {{ $ortLabel }}</h2>
+        <p class="lead-intro">Alles, was du vor dem Termin bei der {{ $stelle->name }} wissen
+            solltest – verständlich erklärt:</p>
         <div class="grid">
             @foreach($artikel as $a)
-                <div class="card"><a href="{{ url('/ratgeber/'.$a->slug) }}">{{ $a->titel }}</a></div>
+                <div class="card">
+                    @if($a->kategorie)<div class="muted" style="font-size:.74rem;text-transform:uppercase;letter-spacing:.04em">{{ $a->kategorie->name }}</div>@endif
+                    <a href="{{ url('/ratgeber/'.$a->slug) }}">{{ $a->titel }}</a>
+                </div>
             @endforeach
         </div>
+        <p style="margin-top:14px"><a href="{{ url('/ratgeber') }}">Alle Ratgeber ansehen →</a></p>
     </section>
     @endif
 
