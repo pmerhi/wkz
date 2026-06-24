@@ -15,7 +15,7 @@
     <section class="hero hero-sm reveal in">
         <h1>Kfz-Kennzeichen {{ $gemeinde->name }}</h1>
         @if($kuerzel->isNotEmpty())
-            <p class="lead">Fahrzeuge in {{ $gemeinde->name }}@if($gemeinde->kreis) ({{ $gemeinde->kreis->name }})@endif tragen das
+            <p class="lead">Fahrzeuge in {{ $gemeinde->name }} tragen das
             Unterscheidungszeichen <strong>{{ $codes }}</strong>. Sichere dir deine Wunsch-Kombination online.</p>
         @else
             <p class="lead">Alles zur Kfz-Zulassung in {{ $gemeinde->name }} – zuständige Zulassungsstelle und
@@ -32,7 +32,14 @@
                 <a class="badge" href="{{ url('/kennzeichen/'.$k->slug) }}">{{ $k->code }}</a>
             @endforeach
         </p>
-        @if($gemeinde->kreis)<p class="muted">Zulassungsbezirk: {{ $gemeinde->kreis->name }}@if($gemeinde->bundesland) · {{ $gemeinde->bundesland->name }}@endif</p>@endif
+        @php
+            $bezirkOrt = $stelle && $stelle->ort ? $stelle->ort : '';
+            $bezirkLand = $gemeinde->bundesland?->name ?? '';
+            $bezirk = trim($bezirkOrt.($bezirkOrt && $bezirkLand ? ' · ' : '').$bezirkLand);
+        @endphp
+        @if($bezirk !== '')
+            <p class="muted">Zulassungsbezirk: {{ $bezirk }}</p>
+        @endif
     </section>
 
     {{-- Wunschkennzeichen-CTA --}}
@@ -74,7 +81,7 @@
     {{-- Nachbarorte im Kreis --}}
     @if($nachbarn->isNotEmpty())
     <section class="section reveal">
-        <h2>Kennzeichen in der Umgebung @if($gemeinde->kreis)({{ $gemeinde->kreis->name }})@endif</h2>
+        <h2>Kennzeichen in der Umgebung</h2>
         <div class="grid">
             @foreach($nachbarn as $n)
                 <div class="card"><a href="{{ url('/kennzeichen/ort/'.$n->slug) }}">Kennzeichen {{ $n->name }}</a></div>

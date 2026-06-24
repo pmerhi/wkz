@@ -65,13 +65,23 @@ class SitemapController extends Controller
 
     private function staticUrls(): array
     {
-        return [
+        $urls = [
             ['loc' => url('/')],
             ['loc' => url('/zulassungsstelle')],
             ['loc' => url('/kennzeichen')],
+            ['loc' => url('/kennzeichen/ort')],
             ['loc' => url('/altkennzeichen')],
             ['loc' => url('/ratgeber')],
             ['loc' => url('/ueber-uns')],
         ];
+
+        // Ort-Hub je Bundesland (nur Länder mit indexierbaren Ort-Seiten).
+        $laender = Bundesland::whereHas('gemeinden', fn ($q) => $q->whereNotNull('slug')->whereHas('kreis.kennzeichenKuerzel'))
+            ->orderBy('name')->get(['slug']);
+        foreach ($laender as $b) {
+            $urls[] = ['loc' => url('/kennzeichen/ort/bundesland/'.$b->slug)];
+        }
+
+        return $urls;
     }
 }

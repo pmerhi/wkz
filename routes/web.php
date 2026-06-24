@@ -15,7 +15,9 @@ Route::get('/zulassungsstelle/{land}/{slug}', [PageController::class, 'zulassung
 
 Route::get('/kennzeichen', [PageController::class, 'kuerzelIndex'])->name('kuerzel.index');
 Route::get('/altkennzeichen', [PageController::class, 'altkennzeichen'])->name('altkennzeichen');
-// Programmatic Ort-Seiten VOR der {slug}-Kürzel-Route registrieren.
+// Programmatic Ort-Seiten + Hub VOR der {slug}-Kürzel-Route registrieren.
+Route::get('/kennzeichen/ort', [PageController::class, 'ortHub'])->name('ort.hub');
+Route::get('/kennzeichen/ort/bundesland/{slug}', [PageController::class, 'ortHubLand'])->name('ort.hub.land');
 Route::get('/kennzeichen/ort/{slug}', [PageController::class, 'kennzeichenOrt'])->name('ort.show');
 Route::get('/kennzeichen/{slug}', [PageController::class, 'kuerzel'])->name('kuerzel.show');
 // Bundesland-Listing liegt jetzt unter /zulassungsstelle/{land}; alte URL 301-weiterleiten.

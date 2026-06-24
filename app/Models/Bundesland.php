@@ -14,4 +14,9 @@ class Bundesland extends Model
     {
         return $this->hasMany(Zulassungsstelle::class);
     }
+
+    public function gemeinden(): HasMany
+    {
+        return $this->hasMany(Gemeinde::class);
+    }
 }

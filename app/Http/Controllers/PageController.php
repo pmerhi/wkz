@@ -307,6 +307,96 @@ class PageController extends Controller
         ]);
     }
 
+    /** Schränkt eine Gemeinde-Query auf indexierbare Ort-Seiten ein (Kürzel + zuständige Stelle). */
+    private function ortIndexierbar($q)
+    {
+        return $q->whereNotNull('slug')
+            ->whereHas('kreis.kennzeichenKuerzel')
+            ->where(fn ($x) => $x
+                ->whereHas('zulassungsstellen', fn ($s) => $s->whereNull('parent_id'))
+                ->orWhereHas('kreis.zulassungsstellen', fn ($s) => $s->whereNull('parent_id')));
+    }
+
+    /** Ort-Hub: Übersicht aller Bundesländer mit Anzahl der Ort-Seiten. */
+    public function ortHub()
+    {
+        $counts = $this->ortIndexierbar(Gemeinde::query())
+            ->selectRaw('bundesland_id, count(*) as c')->groupBy('bundesland_id')
+            ->pluck('c', 'bundesland_id');
+
+        $laender = Bundesland::orderBy('name')->get()
+            ->map(function ($b) use ($counts) {
+                $b->ort_count = (int) ($counts[$b->id] ?? 0);
+                return $b;
+            })->filter(fn ($b) => $b->ort_count > 0)->values();
+
+        $gesamt = $counts->sum();
+
+        $schemas = [$this->breadcrumb([
+            ['Start', url('/')],
+            ['Kennzeichen', url('/kennzeichen')],
+            ['Kennzeichen nach Ort', url('/kennzeichen/ort')],
+        ])];
+
+        return view('pages.ort-hub', [
+            'title'       => 'Kfz-Kennzeichen nach Ort — Verzeichnis aller Städte & Gemeinden',
+            'description' => 'Welches Kennzeichen hat dein Ort? Verzeichnis aller deutschen Städte und Gemeinden '
+                .'nach Bundesland – mit Unterscheidungszeichen, zuständiger Zulassungsstelle und Wunschkennzeichen.',
+            'canonical'   => url('/kennzeichen/ort'),
+            'schemas'     => $schemas,
+            'laender'     => $laender,
+            'gesamt'      => $gesamt,
+        ]);
+    }
+
+    /** Ort-Hub eines Bundeslands: Orte nach Kreis gruppiert. */
+    public function ortHubLand(string $slug)
+    {
+        $land = Bundesland::where('slug', $slug)->firstOrFail();
+
+        $gemeinden = $this->ortIndexierbar(Gemeinde::query())
+            ->where('bundesland_id', $land->id)
+            ->with('kreis.kennzeichenKuerzel')
+            ->orderBy('name')->get(['id', 'name', 'slug', 'kreis_id']);
+
+        // Kreisnamen fehlen in den Stammdaten → Bezirk über die zuständige Zulassungsstelle (Ort) labeln.
+        $stellenOrt = Zulassungsstelle::whereNull('parent_id')
+            ->where('bundesland_id', $land->id)->whereNotNull('kreis_id')
+            ->get(['ort', 'name', 'kreis_id'])->keyBy('kreis_id');
+
+        // Gruppierung nach Zulassungsbezirk (kreis_id); Label = Stellen-Ort, sonst Kürzel-Codes.
+        $gruppen = $gemeinden->groupBy('kreis_id')->map(function ($orte) use ($stellenOrt) {
+            $kuerzel = $orte->first()?->kreis?->kennzeichenKuerzel ?? collect();
+            $stelle  = $stellenOrt[$orte->first()?->kreis_id] ?? null;
+            $label   = $stelle?->ort ?: ($kuerzel->pluck('code')->implode(', ') ?: 'Weitere Orte');
+
+            return [
+                'label'   => $label,
+                'kuerzel' => $kuerzel->sortBy('code')->values(),
+                'orte'    => $orte->sortBy('name', SORT_NATURAL | SORT_FLAG_CASE)->values(),
+            ];
+        })->sortBy('label', SORT_NATURAL | SORT_FLAG_CASE)->values();
+
+        $schemas = [$this->breadcrumb([
+            ['Start', url('/')],
+            ['Kennzeichen', url('/kennzeichen')],
+            ['Kennzeichen nach Ort', url('/kennzeichen/ort')],
+            [$land->name, url('/kennzeichen/ort/bundesland/'.$land->slug)],
+        ])];
+
+        return view('pages.ort-hub-land', [
+            'title'       => 'Kfz-Kennzeichen in '.$land->name.' — alle Städte & Gemeinden',
+            'description' => 'Alle Städte und Gemeinden in '.$land->name.' mit ihrem Kfz-Kennzeichen, '
+                .'zuständiger Zulassungsstelle und Wunschkennzeichen-Reservierung – nach Landkreis geordnet.',
+            'canonical'   => url('/kennzeichen/ort/bundesland/'.$land->slug),
+            'robots'      => $gemeinden->isEmpty() ? 'noindex,follow' : 'index,follow',
+            'schemas'     => $schemas,
+            'land'        => $land,
+            'gruppen'     => $gruppen,
+            'anzahl'      => $gemeinden->count(),
+        ]);
+    }
+
     public function kuerzel(string $slug)
     {
         $k = KennzeichenKuerzel::with('zulassungsstellen.bundesland')
@@ -378,8 +468,7 @@ class PageController extends Controller
         if ($kuerzel->isNotEmpty()) {
             $faq[] = ['Welches Kfz-Kennzeichen hat '.$g->name.'?',
                 'Fahrzeuge in '.$g->name.' tragen das Unterscheidungszeichen '.$codes
-                .($g->kreis ? ' ('.$g->kreis->name.')' : '').'. Das Kennzeichen lässt sich als '
-                .'Wunschkennzeichen reservieren.'];
+                .'. Das Kennzeichen lässt sich als Wunschkennzeichen reservieren.'];
         }
         if ($stelle) {
             $faq[] = ['Welche Zulassungsstelle ist für '.$g->name.' zuständig?',
