@@ -17,6 +17,9 @@
                  data-highscores='@json($highscores)'
                  data-score-url="{{ url('/kennzeichen-quiz/score') }}">
 
+                {{-- Herausforderung (wenn über ?score= aufgerufen) --}}
+                <div id="qChallenge" class="box box-info" hidden style="margin-bottom:16px"></div>
+
                 {{-- Startbildschirm --}}
                 <div id="qStart">
                     <p class="lead-intro">Welche Stadt oder welcher Landkreis steckt hinter dem
@@ -47,7 +50,11 @@
                 <div id="qDone" hidden>
                     <h2 id="qFinal" style="text-align:center"></h2>
                     <p class="muted" id="qFinalSub" style="text-align:center"></p>
-                    <p style="text-align:center;margin:8px 0 22px"><button class="cta" id="qRestart" type="button">Nochmal spielen</button></p>
+                    <p style="text-align:center;margin:8px 0 22px">
+                        <button class="cta" id="qRestart" type="button">Nochmal spielen</button>
+                        <button class="btn" id="qShare" type="button">🔗 Score teilen</button>
+                        <span id="qShareMsg" class="muted" hidden>✓ In Zwischenablage kopiert!</span>
+                    </p>
 
                     <h2>🏆 Tagesbestenliste</h2>
                     <table class="hs-table">
@@ -88,6 +95,16 @@
             elTimerWrap = document.getElementById('qTimerWrap'), elName = document.getElementById('qName');
 
         var lives, score, richtige, playerName, locked, startTs, timer, qi, order;
+
+        // Herausforderung aus ?score= (zu überholender Wert)
+        var ziel = parseInt(new URLSearchParams(location.search).get('score'), 10);
+        if (isNaN(ziel) || ziel < 0) ziel = null;
+        (function showChallenge() {
+            if (ziel == null) return;
+            var el = document.getElementById('qChallenge');
+            el.innerHTML = '🎯 <strong>Du wurdest herausgefordert!</strong> Schlage <strong>' + ziel + ' Punkte</strong> im Kennzeichen-Quiz.';
+            el.hidden = false;
+        })();
 
         function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -175,9 +192,33 @@
         function finish() {
             elPlay.hidden = true; elDone.hidden = false;
             document.getElementById('qFinal').textContent = score + ' Punkte';
-            document.getElementById('qFinalSub').textContent = richtige + ' Fragen richtig beantwortet.';
+            var sub = richtige + ' Fragen richtig beantwortet.';
+            if (ziel != null) {
+                sub += score > ziel
+                    ? ' 🎉 Herausforderung von ' + ziel + ' Punkten geknackt!'
+                    : ' Die Herausforderung (' + ziel + ' Punkte) hast du knapp verpasst.';
+            }
+            document.getElementById('qFinalSub').textContent = sub;
             save();
         }
+
+        function teilen() {
+            var url = location.origin + location.pathname + '?score=' + score;
+            var text = 'Ich habe ' + score + ' Punkte im Kennzeichen-Quiz geholt! ' + url;
+            var msg = document.getElementById('qShareMsg');
+            function done() { if (msg) { msg.hidden = false; setTimeout(function () { msg.hidden = true; }, 2500); } }
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(done, fallback);
+            } else { fallback(); }
+            function fallback() {
+                var ta = document.createElement('textarea');
+                ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+                document.body.appendChild(ta); ta.focus(); ta.select();
+                try { document.execCommand('copy'); } catch (e) {}
+                document.body.removeChild(ta); done();
+            }
+        }
+        document.getElementById('qShare').addEventListener('click', teilen);
 
         function save() {
             var token = document.querySelector('meta[name="csrf-token"]');
