@@ -72,6 +72,7 @@ class SitemapController extends Controller
             ['loc' => url('/kennzeichen/ort')],
             ['loc' => url('/altkennzeichen')],
             ['loc' => url('/ratgeber')],
+            ['loc' => url('/formulare')],
             ['loc' => url('/ueber-uns')],
         ];
 

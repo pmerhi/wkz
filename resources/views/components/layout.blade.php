@@ -277,6 +277,7 @@
             <a href="{{ url('/zulassungsstelle') }}">Zulassungsstellen</a>
             <a href="{{ url('/kennzeichen') }}">Kennzeichen</a>
             <a href="{{ url('/altkennzeichen') }}">Altkennzeichen</a>
+            <a href="{{ url('/formulare') }}">Formulare</a>
             <a href="{{ url('/ratgeber') }}">Ratgeber</a>
         </nav>
     </div>

@@ -26,6 +26,7 @@
         <a href="#online">🚗 Online-Zulassung</a>
         <a href="#reservieren">⭐ Wunschkennzeichen</a>
         @if($stelle->termin_url)<a href="#termin">📅 Termin</a>@endif
+        <a href="#formulare">📄 Formulare</a>
         <a href="#kontakt">📍 Kontakt</a>
         <a href="#faq">❓ FAQ</a>
     </nav>
@@ -84,6 +85,27 @@
         <p><a class="btn js-termin" data-label="{{ $stelle->slug }}" href="{{ $stelle->termin_url }}" rel="nofollow noopener" target="_blank">📅 Online-Termin buchen →</a></p>
     </section>
     @endif
+
+    {{-- Formulare zum Download --}}
+    <section class="section reveal" id="formulare">
+        <h2>Formulare für die Zulassungsstelle {{ $ortLabel }}</h2>
+        <div class="box box-info">
+            <strong>Für die Online-Zulassung brauchst du keine Formulare.</strong>
+            Die Muster helfen nur, wenn du persönlich zur {{ $stelle->name }} gehst.
+            <a href="{{ url('/ratgeber/i-kfz-online-zulassung') }}">Zur Online-Zulassung (i-Kfz) →</a>
+        </div>
+        <div class="grid">
+            @foreach(config('formulare', []) as $slug => $form)
+                <div class="card">
+                    <strong>{{ $form['titel'] }}</strong>
+                    <div class="muted">{{ $form['beschreibung'] }}</div>
+                    <p style="margin:10px 0 0"><a href="{{ url('/formulare/'.$slug.'.pdf') }}">⬇ Herunterladen (PDF)</a></p>
+                </div>
+            @endforeach
+        </div>
+        <p class="muted" style="font-size:.82rem;margin-top:12px">Kostenlose Muster ohne Gewähr – kein amtliches
+            Dokument. <a href="{{ url('/formulare') }}">Alle Formulare ansehen →</a></p>
+    </section>
 
     {{-- Kontakt & Anschrift --}}
     <section class="section reveal" id="kontakt">

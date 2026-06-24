@@ -30,6 +30,11 @@ Route::get('/ratgeber/{slug}', [PageController::class, 'ratgeberShow'])->name('r
 
 Route::get('/ueber-uns', [PageController::class, 'ueberUns'])->name('ueber-uns');
 
+// Kfz-Formulare: Übersicht + PDF-Download.
+Route::get('/formulare', [\App\Http\Controllers\FormularController::class, 'index'])->name('formulare.index');
+Route::get('/formulare/{slug}.pdf', [\App\Http\Controllers\FormularController::class, 'download'])
+    ->where('slug', '[a-z0-9-]+')->name('formulare.download');
+
 // Reservierungs-Conversion VOR der {placement}-Route registrieren.
 Route::get('/go/reservierung', \App\Http\Controllers\ReservierungController::class)->name('go.reservierung');
 Route::get('/go/{placement}', GoController::class)->name('go');
