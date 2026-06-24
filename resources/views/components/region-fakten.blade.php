@@ -24,6 +24,11 @@
                 <div class="card"><div class="muted" style="font-size:.78rem;text-transform:uppercase;letter-spacing:.04em">Pkw je 1.000 Einw.</div>
                     <div style="font-size:1.5rem;font-weight:800;color:var(--ink)">{{ number_format($s->pkw_dichte, 0, ',', '.') }}</div></div>
             @endif
+            @if($s->elektro_pkw && $s->pkw_bestand)
+                <div class="card"><div class="muted" style="font-size:.78rem;text-transform:uppercase;letter-spacing:.04em">E-Auto-Anteil</div>
+                    <div style="font-size:1.5rem;font-weight:800;color:var(--ink)">{{ number_format($s->elektro_pkw / $s->pkw_bestand * 100, 1, ',', '.') }} %</div>
+                    <div class="muted" style="font-size:.78rem">{{ number_format($s->elektro_pkw, 0, ',', '.') }} E-Pkw</div></div>
+            @endif
             @if($s->flaeche_km2)
                 <div class="card"><div class="muted" style="font-size:.78rem;text-transform:uppercase;letter-spacing:.04em">Fläche</div>
                     <div style="font-size:1.5rem;font-weight:800;color:var(--ink)">{{ $fmt($s->flaeche_km2) }} km²</div></div>

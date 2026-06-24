@@ -15,6 +15,7 @@ class KreisStatistik extends Model
         'flaeche_km2' => 'float',
         'kfz_bestand' => 'integer',
         'pkw_bestand' => 'integer',
+        'elektro_pkw' => 'integer',
         'pkw_dichte'  => 'float',
         'stand_jahr'  => 'integer',
     ];
