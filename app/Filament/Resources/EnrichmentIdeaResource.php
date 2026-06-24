@@ -90,6 +90,14 @@ class EnrichmentIdeaResource extends Resource
                 Tables\Actions\EditAction::make(),
             ])
             ->bulkActions([
+                Tables\Actions\BulkAction::make('umsetzen')
+                    ->label('Ausgewählte umsetzen')->icon('heroicon-o-check')->color('success')
+                    ->action(fn (\Illuminate\Support\Collection $records) => $records->each->update(['status' => 'umsetzen']))
+                    ->deselectRecordsAfterCompletion(),
+                Tables\Actions\BulkAction::make('ablehnen')
+                    ->label('Ausgewählte ablehnen')->icon('heroicon-o-x-mark')->color('danger')->requiresConfirmation()
+                    ->action(fn (\Illuminate\Support\Collection $records) => $records->each->update(['status' => 'abgelehnt']))
+                    ->deselectRecordsAfterCompletion(),
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
                 ]),
