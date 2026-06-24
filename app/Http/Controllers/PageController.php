@@ -183,6 +183,26 @@ class PageController extends Controller
 
         $schemas = [$office, $this->breadcrumb($crumbs)];
 
+        // FAQ – eine Quelle für sichtbare <details> und FAQPage-Schema.
+        $ortLabel  = $stelle->ort ?: $stelle->name;
+        $reservUrl = config('portal.reservation_url').'?utm_source=portal&utm_medium=cta&utm_campaign=zst&zst='.$stelle->slug;
+        $terminAntwort = $stelle->termin_url
+            ? 'Ja, wir empfehlen eine <a href="'.e($stelle->termin_url).'" rel="nofollow noopener" target="_blank">Online-Terminbuchung</a>, um Wartezeiten zu vermeiden.'
+            : 'Viele Zulassungsstellen arbeiten mit Terminvergabe. Bitte informiere dich vorab auf der offiziellen Website.';
+        $faq = [
+            ['Wie reserviere ich ein Wunschkennzeichen in '.$ortLabel.'?',
+             'Prüfe online die Verfügbarkeit deiner Wunsch-Kombination und reserviere sie. Anschließend '
+             .'kannst du das Kennzeichen bei der '.e($stelle->name).' zur Zulassung verwenden. Wie das Schritt '
+             .'für Schritt läuft, steht im <a href="'.url('/ratgeber/wunschkennzeichen-reservieren').'">Ratgeber '
+             .'zum Wunschkennzeichen reservieren</a>. <a href="'.e($reservUrl).'" rel="nofollow">Jetzt prüfen &amp; reservieren →</a>'],
+            ['Brauche ich für die Zulassung in '.$ortLabel.' einen Termin?',
+             $terminAntwort],
+            ['Kann ich mein Auto in '.$ortLabel.' online zulassen?',
+             'Ja – über das i-Kfz-Portal sind An-, Ab- und Ummeldung digital möglich. Wie das genau '
+             .'funktioniert, erklären wir im <a href="'.url('/ratgeber/i-kfz-online-zulassung').'">i-Kfz-Ratgeber</a>.'],
+        ];
+        $schemas[] = $this->faqPage($faq);
+
         // Dünne Stubs (nur Name + Geo) nicht indexieren.
         $noindex = $stelle->seoMeta?->noindex || ! $stelle->is_indexable;
 
@@ -194,6 +214,7 @@ class PageController extends Controller
             'schemas'     => $schemas,
             'stelle'      => $stelle,
             'artikel'     => $artikel,
+            'faq'         => $faq,
         ]);
     }
 
@@ -504,5 +525,19 @@ class PageController extends Controller
     private function cleanFaq(string $s): string
     {
         return trim(preg_replace('/\s+/u', ' ', html_entity_decode(strip_tags($s), ENT_QUOTES)));
+    }
+
+    /** Baut ein FAQPage-Schema aus [[frage, antwortHtmlOderText], ...]; Texte werden bereinigt. */
+    private function faqPage(array $pairs): array
+    {
+        return [
+            '@context'   => 'https://schema.org',
+            '@type'      => 'FAQPage',
+            'mainEntity' => array_map(fn ($f) => [
+                '@type'          => 'Question',
+                'name'           => $this->cleanFaq($f[0]),
+                'acceptedAnswer' => ['@type' => 'Answer', 'text' => $this->cleanFaq($f[1])],
+            ], $pairs),
+        ];
     }
 }

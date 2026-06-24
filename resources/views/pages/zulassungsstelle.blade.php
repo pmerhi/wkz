@@ -128,25 +128,15 @@
     </section>
     @endif
 
-    {{-- FAQ --}}
+    {{-- FAQ – Inhalt aus dem Controller ($faq), identisch zum FAQPage-Schema --}}
     <section class="section reveal faq" id="faq">
         <h2>Häufige Fragen</h2>
-        <details>
-            <summary>Wie reserviere ich ein Wunschkennzeichen in {{ $ortLabel }}?</summary>
-            <p>Prüfe online die Verfügbarkeit deiner Wunsch-Kombination und reserviere sie. Anschließend
-            kannst du das Kennzeichen bei der {{ $stelle->name }} zur Zulassung verwenden. Wie das Schritt
-            für Schritt läuft, steht im <a href="{{ url('/ratgeber/wunschkennzeichen-reservieren') }}">Ratgeber
-            zum Wunschkennzeichen reservieren</a>. <a href="{{ $reservUrl }}" rel="nofollow">Jetzt prüfen &amp; reservieren →</a></p>
-        </details>
-        <details>
-            <summary>Brauche ich für die Zulassung in {{ $ortLabel }} einen Termin?</summary>
-            <p>@if($stelle->termin_url)Ja, wir empfehlen eine <a href="{{ $stelle->termin_url }}" rel="nofollow noopener" target="_blank">Online-Terminbuchung</a>, um Wartezeiten zu vermeiden.@else Viele Zulassungsstellen arbeiten mit Terminvergabe. Bitte informiere dich vorab auf der offiziellen Website.@endif</p>
-        </details>
-        <details>
-            <summary>Kann ich mein Auto in {{ $ortLabel }} online zulassen?</summary>
-            <p>Ja – über das i-Kfz-Portal sind An-, Ab- und Ummeldung digital möglich. Wie das genau
-            funktioniert, erklären wir im <a href="{{ url('/ratgeber/i-kfz-online-zulassung') }}">i-Kfz-Ratgeber</a>.</p>
-        </details>
+        @foreach($faq as [$frage, $antwort])
+            <details>
+                <summary>{{ $frage }}</summary>
+                <p>{!! $antwort !!}</p>
+            </details>
+        @endforeach
     </section>
 
     @if($artikel->isNotEmpty())
