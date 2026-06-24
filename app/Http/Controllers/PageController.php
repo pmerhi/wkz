@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Bundesland;
 use App\Models\Gemeinde;
 use App\Models\KennzeichenKuerzel;
+use App\Models\QuizScore;
 use App\Models\RatgeberArtikel;
 use App\Models\Zulassungsstelle;
 use Illuminate\Http\Request;
@@ -226,7 +227,7 @@ class PageController extends Controller
         ]);
     }
 
-    /** Kennzeichen-Quiz „Kürzel-Raten" – Fragen aus den Kürzel mit Bedeutung. */
+    /** Kennzeichen-Quiz „Kürzel-Raten" – Pool aus den Kürzeln mit Bedeutung (Fragen baut das JS endlos). */
     public function kennzeichenQuiz()
     {
         $clean = fn ($b) => trim(explode(',', (string) $b)[0]);
@@ -237,24 +238,55 @@ class PageController extends Controller
             ->filter(fn ($x) => $x['antwort'] !== '')
             ->unique('code')->values();
 
-        $fragen = $pool->shuffle()->take(15)->map(function ($q) use ($pool) {
-            $optionen = $pool->where('antwort', '!=', $q['antwort'])->pluck('antwort')->unique()
-                ->shuffle()->take(3)->push($q['antwort'])->shuffle()->values();
-            return ['code' => $q['code'], 'antwort' => $q['antwort'], 'optionen' => $optionen];
-        })->values();
-
         return view('pages.kennzeichen-quiz', [
-            'title'       => 'Kennzeichen-Quiz: Errätst du alle Kfz-Kürzel? | Wunschkennzeichen-Portal',
-            'description' => 'Teste dein Wissen: Welche Stadt oder welcher Landkreis steckt hinter dem Kfz-Kennzeichen? '
-                .'15 Fragen, Highscore – das große Kennzeichen-Quiz zum Kürzel-Raten.',
+            'title'       => 'Kennzeichen-Quiz: 3 Leben, 15 Sekunden – schaffst du den Highscore?',
+            'description' => 'Das schnelle Kfz-Kennzeichen-Quiz: 3 Leben, 15 Sekunden pro Frage, je schneller desto '
+                .'mehr Punkte. Trag dich in die Bestenliste ein – Tages-, Wochen-, Monats- und Jahres-Highscore.',
             'canonical'   => url('/kennzeichen-quiz'),
             'schemas'     => [$this->breadcrumb([
                 ['Start', url('/')],
                 ['Kennzeichen', url('/kennzeichen')],
                 ['Quiz', url('/kennzeichen-quiz')],
             ])],
-            'fragen'      => $fragen,
+            'pool'        => $pool,
+            'highscores'  => $this->quizListen(),
         ]);
+    }
+
+    /** Speichert ein Quiz-Ergebnis und gibt die aktualisierten Bestenlisten zurück. */
+    public function quizSpeichern(Request $request)
+    {
+        $name = trim((string) $request->input('name'));
+        $name = $name === '' ? 'Anonym' : Str::limit(strip_tags($name), 40, '');
+
+        QuizScore::create([
+            'name'       => $name,
+            'score'      => max(0, min(1_000_000, (int) $request->input('score'))),
+            'richtige'   => max(0, min(9999, (int) $request->input('richtige'))),
+            'created_at' => now(),
+        ]);
+
+        return response()->json(['ok' => true, 'highscores' => $this->quizListen()]);
+    }
+
+    /** Liefert die fünf Bestenlisten als JSON (für die Live-Aktualisierung nach dem Speichern). */
+    public function quizHighscores()
+    {
+        return response()->json($this->quizListen());
+    }
+
+    /** Baut die fünf Bestenlisten (Tag/Woche/Monat/Jahr/gesamt). */
+    private function quizListen(): array
+    {
+        $listen = [];
+        foreach (['tag', 'woche', 'monat', 'jahr', 'gesamt'] as $z) {
+            $listen[$z] = QuizScore::topliste($z)->map(fn ($s) => [
+                'name'     => $s->name,
+                'score'    => $s->score,
+                'richtige' => $s->richtige,
+            ])->values();
+        }
+        return $listen;
     }
 
     public function kuerzelIndex()

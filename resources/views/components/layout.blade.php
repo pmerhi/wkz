@@ -12,6 +12,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ $title ?? config('portal.site_name') }}</title>
     <meta name="description" content="{{ $description }}">
     <meta name="robots" content="{{ $robots }}">
@@ -267,6 +268,20 @@
         .quiz-opt:hover:not(:disabled){border-color:var(--pri-l);background:var(--soft2)}
         .quiz-opt.correct{background:#dcfce7;border-color:#22c55e}
         .quiz-opt.wrong{background:#fee2e2;border-color:#ef4444}
+        .quiz-stats{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:10px;font-weight:700;max-width:540px}
+        .quiz-lives{font-size:1.25rem;letter-spacing:3px}
+        .quiz-timer{height:10px;background:var(--soft);border-radius:6px;overflow:hidden;margin-bottom:16px;max-width:540px}
+        .quiz-timer>span{display:block;height:100%;background:var(--pri);width:100%}
+        .quiz-timer.warn>span{background:#ef4444}
+        .quiz-name{padding:13px 16px;border:1px solid var(--line);border-radius:11px;font-size:1.05rem;width:260px;max-width:100%}
+        .hs-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 14px}
+        .hs-tab{padding:8px 14px;border:1px solid var(--line);border-radius:9px;background:#fff;cursor:pointer;font-weight:600;font-size:.9rem;color:var(--tx)}
+        .hs-tab.active{background:var(--pri);color:#fff;border-color:var(--pri)}
+        .hs-table{width:100%;max-width:540px;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+        .hs-table th,.hs-table td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);font-size:.95rem}
+        .hs-table th{background:var(--soft2);color:var(--mut);font-size:.74rem;text-transform:uppercase;letter-spacing:.03em}
+        .hs-table td.num{text-align:right;font-weight:700}
+        .hs-table tr.me{background:#fef9c3}
         .pri-cta-block{background:linear-gradient(135deg,#1e3a8a,#1d4ed8);color:#fff;border-radius:20px;padding:clamp(22px,4vw,32px);text-align:center;box-shadow:var(--shadow-lg)}
         .pri-cta-block h2{color:#fff;margin-top:0}
         .pri-cta-block p{color:rgba(255,255,255,.9);max-width:54ch;margin:0 auto 18px}
