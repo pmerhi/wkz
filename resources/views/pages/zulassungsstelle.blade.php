@@ -96,10 +96,10 @@
         </div>
         <div class="grid">
             @foreach(config('formulare', []) as $slug => $form)
-                <div class="card">
+                <div class="card card-dl">
                     <strong>{{ $form['titel'] }}</strong>
-                    <div class="muted">{{ $form['beschreibung'] }}</div>
-                    <p style="margin:10px 0 0"><a href="{{ url('/formulare/'.$slug.'.pdf') }}">⬇ Herunterladen (PDF)</a></p>
+                    <div class="card-desc">{{ $form['beschreibung'] }}</div>
+                    <a class="btn-dl" href="{{ url('/formulare/'.$slug.'.pdf') }}">⬇ Herunterladen (PDF)</a>
                 </div>
             @endforeach
         </div>

@@ -15,12 +15,10 @@
 
     <div class="grid">
         @foreach($formulare as $slug => $form)
-            <div class="card reveal {{ 'reveal-d'.($loop->index % 3 + 1) }}">
+            <div class="card card-dl reveal {{ 'reveal-d'.($loop->index % 3 + 1) }}">
                 <strong>{{ $form['titel'] }}</strong>
-                <div class="muted">{{ $form['beschreibung'] }}</div>
-                <p style="margin:12px 0 0">
-                    <a class="btn" href="{{ url('/formulare/'.$slug.'.pdf') }}">⬇ Herunterladen (PDF)</a>
-                </p>
+                <div class="card-desc">{{ $form['beschreibung'] }}</div>
+                <a class="btn-dl" href="{{ url('/formulare/'.$slug.'.pdf') }}">⬇ Herunterladen (PDF)</a>
             </div>
         @endforeach
     </div>

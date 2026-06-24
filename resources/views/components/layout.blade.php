@@ -129,6 +129,13 @@
         .card a{text-decoration:none;color:var(--ink);font-weight:700}
         .card a::after{content:"";position:absolute;inset:0}
         .card .muted{font-size:.92rem}
+        /* Download-Karten: Inhalt gestapelt, Button unten bündig über alle Karten */
+        .card-dl{display:flex;flex-direction:column;gap:6px}
+        .card-dl .card-desc{font-size:.92rem;color:var(--mut)}
+        .btn-dl{margin-top:auto;display:inline-flex;align-items:center;justify-content:center;gap:8px;
+            width:100%;box-sizing:border-box;padding:11px 14px;border-radius:10px;font-weight:700;font-size:.92rem;text-decoration:none;
+            color:var(--pri-d);background:var(--soft2);border:1px solid var(--line);transition:background .15s,color .15s,border-color .15s}
+        .card-dl:hover .btn-dl{background:var(--pri);color:#fff;border-color:var(--pri)}
 
         /* Badges / chips */
         .badge{display:inline-block;border:1px solid var(--line);border-radius:8px;padding:3px 10px;margin:2px;font-size:.9rem;text-decoration:none;color:var(--tx);background:#fff;transition:.15s}
