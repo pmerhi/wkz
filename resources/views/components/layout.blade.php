@@ -97,6 +97,7 @@
         .hero.hero-sm h1{font-size:clamp(1.6rem,3.4vw,2.15rem)}
         .hero-search{display:flex;gap:8px;max-width:460px;margin-top:18px}
         .hero-search input{flex:1;min-width:0;padding:13px 16px;border:none;border-radius:11px;font-size:1rem;box-shadow:0 8px 24px -10px rgba(0,0,0,.4)}
+        mark{background:#fde68a;color:inherit;padding:0 .12em;border-radius:3px}
 
         /* Buttons */
         .cta,.btn{display:inline-flex;align-items:center;gap:8px;background:var(--pri);color:#fff;padding:13px 24px;border-radius:11px;text-decoration:none;font-weight:700;border:none;cursor:pointer;font-size:1rem;

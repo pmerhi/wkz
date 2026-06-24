@@ -388,23 +388,147 @@ class PageController extends Controller
         ]);
     }
 
-    public function ratgeberIndex()
+    public function ratgeberIndex(Request $request)
     {
-        $artikel = RatgeberArtikel::with('kategorie')
-            ->whereNotNull('published_at')->orderByDesc('published_at')->get();
+        $q = trim((string) $request->query('q', ''));
 
-        $schemas = [$this->breadcrumb([
+        $breadcrumb = $this->breadcrumb([
             ['Start', url('/')],
             ['Ratgeber', url('/ratgeber')],
-        ])];
+        ]);
+
+        // Suche (?q=) — Ergebnisseite: noindex, Canonical aufs Verzeichnis.
+        if ($q !== '') {
+            return view('pages.ratgeber-index', [
+                'title'       => 'Ratgeber durchsuchen: '.$q,
+                'description' => 'Suchergebnisse im Ratgeber rund um Kfz-Zulassung und Wunschkennzeichen.',
+                'canonical'   => url('/ratgeber'),
+                'robots'      => 'noindex,follow',
+                'schemas'     => [$breadcrumb],
+                'q'           => $q,
+                'treffer'     => $this->sucheRatgeber($q),
+                'gruppen'     => null,
+                'anzahl'      => RatgeberArtikel::whereNotNull('published_at')->count(),
+            ]);
+        }
+
+        // Browse-Modus: alle Artikel, nach Kategorie gruppiert.
+        $artikel = RatgeberArtikel::with('kategorie')
+            ->whereNotNull('published_at')->orderByDesc('published_at')->get();
+        $gruppen = $artikel
+            ->sortBy(fn ($a) => $a->kategorie?->name ?? 'zzz', SORT_NATURAL | SORT_FLAG_CASE)
+            ->groupBy(fn ($a) => $a->kategorie?->name ?? 'Sonstiges');
 
         return view('pages.ratgeber-index', [
             'title'       => 'Ratgeber — Auto anmelden, abmelden, Kennzeichen & Gesetze',
             'description' => 'Ratgeber rund um Kfz-Zulassung: Auto anmelden, abmelden, ummelden, i-Kfz, Wunschkennzeichen und rechtliche Grundlagen.',
             'canonical'   => url('/ratgeber'),
-            'schemas'     => $schemas,
-            'artikel'     => $artikel,
+            'robots'      => 'index,follow',
+            'schemas'     => [$breadcrumb],
+            'q'           => '',
+            'treffer'     => null,
+            'gruppen'     => $gruppen,
+            'anzahl'      => $artikel->count(),
         ]);
+    }
+
+    /**
+     * Ratgeber-Suche über Titel, Intro, Body und Tags.
+     * Jeder Suchbegriff muss irgendwo vorkommen (UND); Sortierung nach Relevanz-Score
+     * (Titel > Tags > Intro > Body). LIKE-basiert – bei 94 Artikeln vernachlässigbar und
+     * substring-tolerant (z. B. „ummeld" findet „ummelden"); funktioniert auch in SQLite-Tests.
+     *
+     * @return \Illuminate\Support\Collection<int, RatgeberArtikel>
+     */
+    private function sucheRatgeber(string $q): \Illuminate\Support\Collection
+    {
+        $terms = collect(preg_split('/\s+/u', mb_strtolower($q), -1, PREG_SPLIT_NO_EMPTY))
+            ->filter(fn ($t) => mb_strlen($t) >= 2)->values()->all();
+        if (! $terms) {
+            return collect();
+        }
+
+        // Kandidaten: jeder Begriff muss vorkommen. Primär in Titel/Intro/Tags (= „Artikel handelt
+        // davon"), damit die Treffer fokussiert bleiben; nur wenn das nichts liefert, auch im Body.
+        $build = fn (bool $mitBody) => RatgeberArtikel::with(['kategorie', 'tags'])
+            ->whereNotNull('published_at')
+            ->where(function ($outer) use ($terms, $mitBody) {
+                foreach ($terms as $t) {
+                    $outer->where(function ($x) use ($t, $mitBody) {
+                        $x->where('titel', 'like', "%{$t}%")
+                          ->orWhere('intro', 'like', "%{$t}%")
+                          ->orWhereHas('tags', fn ($qq) => $qq->where('name', 'like', "%{$t}%"));
+                        if ($mitBody) {
+                            $x->orWhere('body', 'like', "%{$t}%");
+                        }
+                    });
+                }
+            });
+
+        $kandidaten = $build(false)->get();
+        if ($kandidaten->isEmpty()) {
+            $kandidaten = $build(true)->get();
+        }
+
+        $phrase = mb_strtolower($q);
+
+        return $kandidaten->map(function (RatgeberArtikel $a) use ($terms, $phrase) {
+            $titel = mb_strtolower($a->titel);
+            $intro = mb_strtolower((string) $a->intro);
+            $bodyT = mb_strtolower(strip_tags((string) $a->body));
+            $tags  = mb_strtolower($a->tags->pluck('name')->implode(' '));
+
+            $score = 0;
+            foreach ($terms as $t) {
+                $score += substr_count($titel, $t) * 10;
+                $score += substr_count($tags, $t) * 5;
+                $score += substr_count($intro, $t) * 3;
+                $score += substr_count($bodyT, $t) * 1;
+            }
+            if (str_contains($titel, $phrase)) {
+                $score += 50;   // exakte Wortgruppe im Titel
+            }
+
+            $a->such_score        = $score;
+            $a->such_titel_html   = $this->hervorheben($a->titel, $terms);
+            $a->such_snippet_html = $this->hervorheben($this->snippet($a, $terms), $terms);
+
+            return $a;
+        })->sortByDesc('such_score')->take(50)->values();
+    }
+
+    /** Liefert einen Textausschnitt rund um den ersten Treffer (für die Suchergebnis-Karte). */
+    private function snippet(RatgeberArtikel $a, array $terms, int $len = 160): string
+    {
+        $text = trim(preg_replace('/\s+/u', ' ', strip_tags((string) ($a->intro.' '.$a->body))));
+        $low  = mb_strtolower($text);
+
+        $pos = null;
+        foreach ($terms as $t) {
+            $p = mb_strpos($low, $t);
+            if ($p !== false && ($pos === null || $p < $pos)) {
+                $pos = $p;
+            }
+        }
+        if ($pos === null) {
+            return rtrim(mb_substr($text, 0, $len)).'…';
+        }
+        $start = max(0, $pos - 50);
+        return ($start > 0 ? '… ' : '').rtrim(mb_substr($text, $start, $len)).'…';
+    }
+
+    /** Escaped den Text und hebt die Suchbegriffe mit <mark> hervor (gibt sicheres HTML zurück). */
+    private function hervorheben(string $text, array $terms): string
+    {
+        $safe = e($text);
+        foreach ($terms as $t) {
+            $safe = preg_replace_callback(
+                '/'.preg_quote(e($t), '/').'/iu',
+                fn ($m) => '<mark>'.$m[0].'</mark>',
+                $safe
+            );
+        }
+        return $safe;
     }
 
     public function ratgeberShow(string $slug)
