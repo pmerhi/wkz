@@ -29,6 +29,40 @@
         </p>
     @endif
 
+    {{-- Verwandte Ratgeber (interne Verlinkung in die Themen-Cluster) --}}
+    @if($verwandte->isNotEmpty())
+    <section class="section reveal">
+        <h2>Verwandte Ratgeber</h2>
+        <div class="grid">
+            @foreach($verwandte as $v)
+                <div class="card reveal {{ 'reveal-d'.($loop->index % 3 + 1) }}">
+                    @if($v->kategorie)<div class="muted" style="font-size:.74rem;text-transform:uppercase;letter-spacing:.04em">{{ $v->kategorie->name }}</div>@endif
+                    <a href="{{ url('/ratgeber/'.$v->slug) }}">{{ $v->titel }}</a>
+                </div>
+            @endforeach
+        </div>
+    </section>
+    @endif
+
+    {{-- Verzeichnis-Hub: verteilt Link-Equity aus dem Ratgeber in die Geo-/Kürzel-Seiten --}}
+    <section class="section reveal">
+        <h2>Im Verzeichnis weiterstöbern</h2>
+        <div class="grid">
+            <div class="card">
+                <a href="{{ url('/zulassungsstelle') }}"><strong>Zulassungsstellen nach Bundesland</strong></a>
+                <div class="muted">Adresse, Öffnungszeiten und Online-Termin deiner zuständigen Zulassungsstelle finden.</div>
+            </div>
+            <div class="card">
+                <a href="{{ url('/kennzeichen') }}"><strong>Kfz-Kennzeichen A–Z</strong></a>
+                <div class="muted">Alle Unterscheidungszeichen mit Stadt/Landkreis – von A wie Aachen bis Z.</div>
+            </div>
+            <div class="card">
+                <a href="{{ url('/altkennzeichen') }}"><strong>Altkennzeichen</strong></a>
+                <div class="muted">Wieder eingeführte Kennzeichen deiner Heimatregion als Wunschkennzeichen sichern.</div>
+            </div>
+        </div>
+    </section>
+
     <section class="section reveal" style="text-align:center">
         <h2>Weiteren Ratgeber finden</h2>
         <form class="hero-search" method="get" action="{{ url('/ratgeber') }}" role="search" style="margin:14px auto 0" data-suggest="{{ url('/ratgeber/vorschlaege') }}">

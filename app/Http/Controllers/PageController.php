@@ -616,7 +616,38 @@ class PageController extends Controller
             'ogType'      => 'article',
             'schemas'     => $schemas,
             'artikel'     => $a,
+            'verwandte'   => $this->verwandteRatgeber($a),
         ]);
+    }
+
+    /**
+     * Verwandte Ratgeber für die interne Verlinkung: zuerst gleiche Kategorie,
+     * danach mit Artikeln aufgefüllt, die sich Tags teilen (jeweils ohne den Artikel selbst).
+     *
+     * @return \Illuminate\Support\Collection<int, RatgeberArtikel>
+     */
+    private function verwandteRatgeber(RatgeberArtikel $a, int $limit = 6): \Illuminate\Support\Collection
+    {
+        $related = collect();
+        if ($a->kategorie_id) {
+            $related = RatgeberArtikel::with('kategorie')
+                ->whereNotNull('published_at')
+                ->where('kategorie_id', $a->kategorie_id)
+                ->where('id', '!=', $a->id)
+                ->orderByDesc('published_at')->limit($limit)->get();
+        }
+
+        if ($related->count() < $limit && $a->tags->isNotEmpty()) {
+            $more = RatgeberArtikel::with('kategorie')
+                ->whereNotNull('published_at')
+                ->where('id', '!=', $a->id)
+                ->whereNotIn('id', $related->pluck('id'))
+                ->whereHas('tags', fn ($q) => $q->whereIn('tags.id', $a->tags->pluck('id')))
+                ->orderByDesc('published_at')->limit($limit - $related->count())->get();
+            $related = $related->concat($more);
+        }
+
+        return $related;
     }
 
     public function ueberUns()
