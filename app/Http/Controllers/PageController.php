@@ -432,6 +432,24 @@ class PageController extends Controller
         ]);
     }
 
+    /** JSON-Endpoint für die Live-Vorschlagsliste (Autocomplete) der Ratgeber-Suche. */
+    public function ratgeberSuggest(Request $request)
+    {
+        $q = trim((string) $request->query('q', ''));
+        if (mb_strlen($q) < 2) {
+            return response()->json([]);
+        }
+
+        $vorschlaege = $this->sucheRatgeber($q)->take(7)->map(fn (RatgeberArtikel $a) => [
+            'titel'      => $a->titel,
+            'titel_html' => $a->such_titel_html,   // serverseitig escaped + <mark>
+            'kategorie'  => $a->kategorie?->name,
+            'url'        => url('/ratgeber/'.$a->slug),
+        ])->values();
+
+        return response()->json($vorschlaege);
+    }
+
     /**
      * Ratgeber-Suche über Titel, Intro, Body und Tags.
      * Jeder Suchbegriff muss irgendwo vorkommen (UND); Sortierung nach Relevanz-Score

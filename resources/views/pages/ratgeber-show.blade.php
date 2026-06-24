@@ -31,7 +31,7 @@
 
     <section class="section reveal" style="text-align:center">
         <h2>Weiteren Ratgeber finden</h2>
-        <form class="hero-search" method="get" action="{{ url('/ratgeber') }}" role="search" style="margin:14px auto 0">
+        <form class="hero-search" method="get" action="{{ url('/ratgeber') }}" role="search" style="margin:14px auto 0" data-suggest="{{ url('/ratgeber/vorschlaege') }}">
             <input type="search" name="q" placeholder="z. B. ummelden, eVB, i-Kfz …" aria-label="Ratgeber durchsuchen">
             <button class="cta" type="submit">Suchen</button>
         </form>

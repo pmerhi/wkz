@@ -5,7 +5,7 @@
         {{-- Suchergebnis-Modus --}}
         <section class="hero hero-sm reveal in">
             <h1>Ratgeber durchsuchen</h1>
-            <form class="hero-search" method="get" action="{{ url('/ratgeber') }}" role="search">
+            <form class="hero-search" method="get" action="{{ url('/ratgeber') }}" role="search" data-suggest="{{ url('/ratgeber/vorschlaege') }}">
                 <input type="search" name="q" value="{{ $q }}" placeholder="z. B. ummelden, eVB, i-Kfz …" aria-label="Ratgeber durchsuchen" autofocus>
                 <button class="cta" type="submit">Suchen</button>
             </form>
@@ -32,7 +32,7 @@
             <h1>Ratgeber rund um die Kfz-Zulassung</h1>
             <p class="lead">Anmelden, abmelden, ummelden, Wunschkennzeichen &amp; Co. – verständlich erklärt,
             Schritt für Schritt.</p>
-            <form class="hero-search" method="get" action="{{ url('/ratgeber') }}" role="search">
+            <form class="hero-search" method="get" action="{{ url('/ratgeber') }}" role="search" data-suggest="{{ url('/ratgeber/vorschlaege') }}">
                 <input type="search" name="q" placeholder="Ratgeber durchsuchen – z. B. ummelden, eVB, i-Kfz …" aria-label="Ratgeber durchsuchen">
                 <button class="cta" type="submit">Suchen</button>
             </form>

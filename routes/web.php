@@ -18,6 +18,8 @@ Route::get('/kennzeichen/{slug}', [PageController::class, 'kuerzel'])->name('kue
 Route::get('/bundesland/{slug}', fn (string $slug) => redirect('/zulassungsstelle/'.$slug, 301))->name('bundesland.show');
 
 Route::get('/ratgeber', [PageController::class, 'ratgeberIndex'])->name('ratgeber.index');
+// Autocomplete-Endpoint VOR der {slug}-Route registrieren, sonst fängt {slug} ihn ab.
+Route::get('/ratgeber/vorschlaege', [PageController::class, 'ratgeberSuggest'])->name('ratgeber.suggest');
 Route::get('/ratgeber/{slug}', [PageController::class, 'ratgeberShow'])->name('ratgeber.show');
 
 Route::get('/ueber-uns', [PageController::class, 'ueberUns'])->name('ueber-uns');
