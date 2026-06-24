@@ -364,11 +364,12 @@ class PageController extends Controller
             ->where('bundesland_id', $land->id)->whereNotNull('kreis_id')
             ->get(['ort', 'name', 'kreis_id'])->keyBy('kreis_id');
 
-        // Gruppierung nach Zulassungsbezirk (kreis_id); Label = Stellen-Ort, sonst Kürzel-Codes.
+        // Gruppierung nach Zulassungsbezirk (kreis_id); Label = Kreisname, sonst Stellen-Ort, sonst Kürzel.
         $gruppen = $gemeinden->groupBy('kreis_id')->map(function ($orte) use ($stellenOrt) {
-            $kuerzel = $orte->first()?->kreis?->kennzeichenKuerzel ?? collect();
+            $kreis   = $orte->first()?->kreis;
+            $kuerzel = $kreis?->kennzeichenKuerzel ?? collect();
             $stelle  = $stellenOrt[$orte->first()?->kreis_id] ?? null;
-            $label   = $stelle?->ort ?: ($kuerzel->pluck('code')->implode(', ') ?: 'Weitere Orte');
+            $label   = $kreis?->name ?: ($stelle?->ort ?: ($kuerzel->pluck('code')->implode(', ') ?: 'Weitere Orte'));
 
             return [
                 'label'   => $label,

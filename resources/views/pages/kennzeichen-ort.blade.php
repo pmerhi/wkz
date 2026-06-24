@@ -33,7 +33,7 @@
             @endforeach
         </p>
         @php
-            $bezirkOrt = $stelle && $stelle->ort ? $stelle->ort : '';
+            $bezirkOrt = $gemeinde->kreis?->name ?: ($stelle && $stelle->ort ? $stelle->ort : '');
             $bezirkLand = $gemeinde->bundesland?->name ?? '';
             $bezirk = trim($bezirkOrt.($bezirkOrt && $bezirkLand ? ' · ' : '').$bezirkLand);
         @endphp
