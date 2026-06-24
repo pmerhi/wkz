@@ -313,16 +313,16 @@ class PageController extends Controller
         }
 
         return view('pages.quiz-rangliste', [
-            'title'       => 'Quiz-Rangliste – die besten Kennzeichen-Rater',
-            'description' => 'Die Bestenliste des Kfz-Kennzeichen-Quiz: Top 50 von heute, dieser Woche, '
+            'title'       => 'Hall of Fame – die besten Kennzeichen-Rater',
+            'description' => 'Die Hall of Fame des Kfz-Kennzeichen-Quiz: Top 50 von heute, dieser Woche, '
                 .'diesem Monat und insgesamt.',
-            'canonical'   => url('/kennzeichen-quiz/rangliste'),
+            'canonical'   => url('/kennzeichen-quiz/hall-of-fame'),
             'robots'      => 'noindex,follow',
             'schemas'     => [$this->breadcrumb([
                 ['Start', url('/')],
                 ['Kennzeichen', url('/kennzeichen')],
                 ['Quiz', url('/kennzeichen-quiz')],
-                ['Rangliste', url('/kennzeichen-quiz/rangliste')],
+                ['Hall of Fame', url('/kennzeichen-quiz/hall-of-fame')],
             ])],
             'zeit'        => $zeit,
             'listen'      => $listen,

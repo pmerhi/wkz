@@ -25,10 +25,11 @@
                     <p class="lead-intro">Welche Stadt oder welcher Landkreis steckt hinter dem
                         Kfz-Kennzeichen? Trag deinen Namen ein und leg los.</p>
                     <p style="margin-top:16px">
-                        <input id="qName" class="quiz-name" type="text" maxlength="40" placeholder="Dein Name" autocomplete="off">
+                        <input id="qName" class="quiz-name" type="text" maxlength="40" placeholder="Dein Spitzname" autocomplete="off">
                         <button class="cta" id="qBegin" type="button">Spiel starten →</button>
                     </p>
-                    <p style="margin-top:10px"><a class="btn" href="{{ url('/kennzeichen-quiz/rangliste') }}">🏅 Rangliste ansehen</a></p>
+                    <p class="muted" style="font-size:.8rem;margin-top:2px">Dein Name erscheint öffentlich in der Hall of Fame – bitte einen Spitznamen, keinen echten Namen verwenden.</p>
+                    <p style="margin-top:10px"><a class="btn" href="{{ url('/kennzeichen-quiz/hall-of-fame') }}">🏅 Hall of Fame ansehen</a></p>
                 </div>
 
                 {{-- Spielbildschirm --}}
@@ -54,7 +55,7 @@
                     <p style="text-align:center;margin:8px 0 22px">
                         <button class="cta" id="qRestart" type="button">Nochmal spielen</button>
                         <button class="btn" id="qShare" type="button">🔗 Score teilen</button>
-                        <a class="btn" href="{{ url('/kennzeichen-quiz/rangliste') }}">🏅 Rangliste</a>
+                        <a class="btn" href="{{ url('/kennzeichen-quiz/hall-of-fame') }}">🏅 Hall of Fame</a>
                         <span id="qShareMsg" class="muted" hidden>✓ In Zwischenablage kopiert!</span>
                     </p>
 

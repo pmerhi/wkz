@@ -2,11 +2,11 @@
     <nav class="breadcrumb">
         <a href="{{ url('/') }}">Start</a> ›
         <a href="{{ url('/kennzeichen') }}">Kennzeichen</a> ›
-        <a href="{{ url('/kennzeichen-quiz') }}">Quiz</a> › Rangliste
+        <a href="{{ url('/kennzeichen-quiz') }}">Quiz</a> › Hall of Fame
     </nav>
 
     <section class="hero hero-sm reveal in">
-        <h1>🏅 Quiz-Rangliste</h1>
+        <h1>🏅 Hall of Fame</h1>
         <p class="lead">Die besten Kennzeichen-Rater – Top 50 von heute, dieser Woche, diesem Monat und insgesamt.</p>
     </section>
 

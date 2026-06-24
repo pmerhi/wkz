@@ -18,7 +18,7 @@ Route::get('/altkennzeichen', [PageController::class, 'altkennzeichen'])->name('
 Route::get('/kennzeichen-quiz', [PageController::class, 'kennzeichenQuiz'])->name('kennzeichen.quiz');
 Route::post('/kennzeichen-quiz/score', [PageController::class, 'quizSpeichern'])->name('kennzeichen.quiz.score');
 Route::get('/kennzeichen-quiz/highscores', [PageController::class, 'quizHighscores'])->name('kennzeichen.quiz.highscores');
-Route::get('/kennzeichen-quiz/rangliste', [PageController::class, 'quizRangliste'])->name('kennzeichen.quiz.rangliste');
+Route::get('/kennzeichen-quiz/hall-of-fame', [PageController::class, 'quizRangliste'])->name('kennzeichen.quiz.halloffame');
 // Programmatic Ort-Seiten + Hub VOR der {slug}-Kürzel-Route registrieren.
 Route::get('/kennzeichen/ort', [PageController::class, 'ortHub'])->name('ort.hub');
 Route::get('/kennzeichen/ort/bundesland/{slug}', [PageController::class, 'ortHubLand'])->name('ort.hub.land');
