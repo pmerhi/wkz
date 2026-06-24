@@ -233,6 +233,16 @@
         .faq summary::after{content:"+";position:absolute;right:18px;font-weight:400;font-size:1.3rem;color:var(--pri);transition:transform .2s}
         .faq details[open] summary::after{content:"–"}
         .faq details>p{padding:0 18px 16px;margin:0;color:var(--tx)}
+        /* Aufklappbare Checkliste (Was mitbringen) */
+        .faq-item{background:#fff;border:1px solid var(--line);border-radius:12px;margin:0 0 10px;box-shadow:var(--shadow);overflow:hidden}
+        .faq-item>summary{cursor:pointer;padding:14px 18px;font-weight:700;color:var(--ink);list-style:none;position:relative}
+        .faq-item>summary::-webkit-details-marker{display:none}
+        .faq-item>summary::after{content:"+";position:absolute;right:18px;font-weight:400;font-size:1.3rem;color:var(--pri)}
+        .faq-item[open]>summary{border-bottom:1px solid var(--line)}
+        .faq-item[open]>summary::after{content:"–"}
+        .check-list{list-style:none;margin:0;padding:12px 18px}
+        .check-list li{padding:5px 0 5px 28px;position:relative;color:var(--tx)}
+        .check-list li::before{content:"✓";position:absolute;left:4px;color:var(--pri);font-weight:800}
         .pri-cta-block{background:linear-gradient(135deg,#1e3a8a,#1d4ed8);color:#fff;border-radius:20px;padding:clamp(22px,4vw,32px);text-align:center;box-shadow:var(--shadow-lg)}
         .pri-cta-block h2{color:#fff;margin-top:0}
         .pri-cta-block p{color:rgba(255,255,255,.9);max-width:54ch;margin:0 auto 18px}

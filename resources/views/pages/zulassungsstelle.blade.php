@@ -27,6 +27,7 @@
         <a href="#reservieren">⭐ Wunschkennzeichen</a>
         @if($stelle->termin_url)<a href="#termin">📅 Termin</a>@endif
         <a href="#formulare">📄 Formulare</a>
+        <a href="#mitbringen">✅ Was mitbringen</a>
         <a href="#kontakt">📍 Kontakt</a>
         <a href="#faq">❓ FAQ</a>
     </nav>
@@ -106,6 +107,9 @@
         <p class="muted" style="font-size:.82rem;margin-top:12px">Kostenlose Muster ohne Gewähr – kein amtliches
             Dokument. <a href="{{ url('/formulare') }}">Alle Formulare ansehen →</a></p>
     </section>
+
+    {{-- Was mitbringen – Unterlagen-Checkliste je Anliegen --}}
+    <x-mitbringen-checkliste :ort="$ortLabel" />
 
     {{-- Kontakt & Anschrift --}}
     <section class="section reveal" id="kontakt">
