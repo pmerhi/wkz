@@ -50,6 +50,7 @@ class ImportEnrichmentIdeas extends Command
                 'umsetzung'    => $i['umsetzung'] ?? null,
                 'quelle'       => $i['quelle'] ?? null,
                 'wettbewerber' => $i['wettbewerber'] ?? null,
+                'notiz'        => $i['notiz'] ?? null,
                 'seo_wert'     => $this->clamp($i['seo_wert'] ?? 3),
                 'relevanz'     => $this->clamp($i['relevanz'] ?? 3),
                 'aufwand'      => $this->clamp($i['aufwand'] ?? 3),
