@@ -80,7 +80,7 @@ Es gibt nur wenige legale Wege, die Untersuchung **nicht** machen zu müssen:
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Wer eine bestandskräftig
 angeordnete MPU ignoriert und trotzdem fährt, riskiert
-[Fahren ohne Fahrerlaubnis](/ratgeber/fahren-ohne-fuhrerschein) – eine Straftat
+<a href="/ratgeber/fahren-ohne-fuhrerschein">Fahren ohne Fahrerlaubnis</a> – eine Straftat
 mit empfindlichen Folgen. „Umgehen" durch Aussitzen ist also gefährlich.</div>
 
 Die ehrlichste Abkürzung ist deshalb keine Abkürzung, sondern eine gute
@@ -108,7 +108,7 @@ bestandene MPU ist demgegenüber meist nach wenigen Monaten erledigt.
 nach Anlass grob <strong>400–800 €</strong>, eine seriöse Vorbereitung noch einmal
 <strong>einige Hundert Euro</strong>. Klingt viel – ist aber günstiger als zehn
 Jahre Mobilitätsverlust. Was im Detail anfällt, findest du unter
-[MPU-Kosten](/ratgeber/mpu-kosten).</div>
+<a href="/ratgeber/mpu-kosten">MPU-Kosten</a>.</div>
 
 ## Wie du deinen Registerstand prüfst
 
@@ -118,7 +118,7 @@ Fahreignungsregister beantragen. So siehst du schwarz auf weiß, welche Einträg
 existieren und wann sie voraussichtlich getilgt werden.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Beantrage die
-Registerauskunft beim [Kraftfahrt-Bundesamt](https://www.kba.de), bevor du einen
+Registerauskunft beim <a href="https://www.kba.de" rel="nofollow noopener" target="_blank">Kraftfahrt-Bundesamt</a>, bevor du einen
 Neuantrag stellst. Erst wenn du deinen echten Stand kennst, lässt sich
 einschätzen, ob eine MPU überhaupt droht – und ob sich Warten lohnt.</div>
 

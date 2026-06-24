@@ -87,7 +87,7 @@ findest du im [Ratgeber zum Oldtimer zulassen](/ratgeber/oldtimer-zulassen).
 
 <div class="box box-check"><strong>Das brauchst du für ein 07er:</strong>
 Personalausweis, Fahrzeugpapiere bzw. ein Datenblatt zum Oldtimer, ein
-Oldtimergutachten, eine [eVB-Nummer](/ratgeber/evb-nummer) der Versicherung und
+Oldtimergutachten, eine <a href="/ratgeber/evb-nummer">eVB-Nummer</a> der Versicherung und
 das ausgefüllte Antragsformular der Zulassungsstelle. Ein Fahrtenbuch musst du
 zusätzlich führen.</div>
 
@@ -127,7 +127,7 @@ Für mehrere Oldtimer kann sich das gegenüber lauter Einzelzulassungen lohnen.<
 realistische Orientierungswerte, kein garantierter Festpreis. Gebühren, Auflagen
 und sogar die Frage, ob ein 07er überhaupt ausgegeben wird, unterscheiden sich
 regional teils deutlich. Frag im Zweifel direkt bei deiner zuständigen
-[Zulassungsstelle](/zulassungsstelle) nach – Angaben hier ohne Gewähr.</div>
+<a href="/zulassungsstelle">Zulassungsstelle</a> nach – Angaben hier ohne Gewähr.</div>
 
 ## Rotes Kennzeichen, Saison- oder Kurzzeitkennzeichen?
 
@@ -159,11 +159,11 @@ richtige Weg.</div>
 <div class="box box-frage"><strong>Brauche ich für jedes Fahrzeug eine eigene
 Versicherung?</strong> Nein, das ist gerade der Vorteil: Die Versicherung hängt am
 roten Kennzeichen, nicht am einzelnen Fahrzeug. Trotzdem brauchst du eine
-[eVB-Nummer](/ratgeber/evb-nummer) für die Zuteilung.</div>
+<a href="/ratgeber/evb-nummer">eVB-Nummer</a> für die Zuteilung.</div>
 
 <div class="box box-frage"><strong>Muss ein Oldtimer für das 07er durch den
 TÜV?</strong> Ein gültiges Oldtimergutachten ist Pflicht, eine regelmäßige
-[Hauptuntersuchung](/ratgeber/hauptuntersuchung-tuv) wird in der Praxis ebenfalls
+<a href="/ratgeber/hauptuntersuchung-tuv">Hauptuntersuchung</a> wird in der Praxis ebenfalls
 verlangt. Die genauen Auflagen klärst du mit deiner Zulassungsstelle.</div>
 
 ## Fazit

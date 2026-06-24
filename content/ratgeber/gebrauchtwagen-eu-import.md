@@ -56,7 +56,7 @@ Fahrzeug technisch begutachtet.
 
 <div class="box box-check"><strong>Das brauchst du für den EU-Import:</strong> COC-Papier,
 ausländische Zulassungsbescheinigung (Teil I und ggf. II), Kaufvertrag, gültige
-[eVB-Nummer](/ratgeber/evb-nummer) deiner Versicherung, Personalausweis und – falls
+<a href="/ratgeber/evb-nummer">eVB-Nummer</a> deiner Versicherung, Personalausweis und – falls
 vorhanden – den Nachweis über eine bestehende technische Prüfung.</div>
 
 Hast du die ausländische [Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung)
@@ -116,7 +116,7 @@ für den Import ergänze ich hier die Besonderheiten.
 <div class="box box-frage"><strong>Kann ich ein importiertes Auto online über i-Kfz
 zulassen?</strong> Teilweise. Bei sauberen Papieren und vorhandener Typgenehmigung
 geht vieles digital. Fehlt das COC oder ist eine Vollabnahme nötig, führt der Weg
-in der Regel doch zur [Zulassungsstelle](/zulassungsstelle) vor Ort.</div>
+in der Regel doch zur <a href="/zulassungsstelle">Zulassungsstelle</a> vor Ort.</div>
 
 Du kannst dir natürlich auch direkt ein [Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren) –
 das funktioniert beim Import genauso wie bei einem deutschen Gebrauchtwagen.
@@ -157,7 +157,7 @@ an – auch beim Privatkauf.</div>
 
 <div class="box box-frage"><strong>Wie komme ich legal nach Hause?</strong> Mit
 einem ausländischen Exportkennzeichen, einem deutschen
-[Kurzzeitkennzeichen](/ratgeber/kurzzeitkennzeichen) oder per Anhänger. Wichtig ist
+<a href="/ratgeber/kurzzeitkennzeichen">Kurzzeitkennzeichen</a> oder per Anhänger. Wichtig ist
 in jedem Fall ein gültiger Versicherungsschutz für die Fahrt.</div>
 
 ## Fazit

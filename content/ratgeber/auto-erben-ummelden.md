@@ -36,8 +36,8 @@ Stellen auch andere Nachweise. Frag im Zweifel vorher kurz nach.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Erbnachweis
 (Erbschein oder eröffnetes Testament), Personalausweis, Zulassungsbescheinigung
-Teil I und II ([Fahrzeugschein und -brief](/ratgeber/zulassungsbescheinigung)),
-die Sterbeurkunde und – falls vorhanden – die [eVB-Nummer](/ratgeber/evb-nummer)
+Teil I und II (<a href="/ratgeber/zulassungsbescheinigung">Fahrzeugschein und -brief</a>),
+die Sterbeurkunde und – falls vorhanden – die <a href="/ratgeber/evb-nummer">eVB-Nummer</a>
 deiner Versicherung.</div>
 
 Und ja, das Auto darf in dieser Übergangszeit grundsätzlich weiter gefahren
@@ -58,7 +58,7 @@ einen anderen Kreis, ist der Ablauf etwas anders – das habe ich im
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Geht es nur um den
 Halterwechsel auf dich, prüf vorab, ob deine Zulassungsstelle das über
-[i-Kfz online](/ratgeber/i-kfz-online-zulassung) anbietet. Bei Erbfällen
+<a href="/ratgeber/i-kfz-online-zulassung">i-Kfz online</a> anbietet. Bei Erbfällen
 verlangen viele Behörden allerdings noch den persönlichen Termin, weil der
 Erbnachweis im Original geprüft wird.</div>
 
@@ -130,7 +130,7 @@ Erbfall weitergilt. Kläre den Halterübergang aber zügig mit dem Versicherer.<
 <div class="box box-frage"><strong>Was passiert mit der Kfz-Versicherung?</strong>
 Sie geht auf dich als Erben über und läuft zunächst weiter. Du kannst sie nach dem
 Halterwechsel anpassen oder kündigen – vergleich am besten die
-[Kfz-Versicherung](/ratgeber/kfz-versicherung-vergleich), bevor du dich festlegst.</div>
+<a href="/ratgeber/kfz-versicherung-vergleich">Kfz-Versicherung</a>, bevor du dich festlegst.</div>
 
 <div class="box box-frage"><strong>Mehrere Erben – wer entscheidet?</strong> Bei
 einer Erbengemeinschaft müssen alle gemeinsam handeln. Praktisch löst man das mit
@@ -141,7 +141,7 @@ schriftlich zu.</div>
 Nicht immer. Ein eröffnetes notarielles Testament reicht der Zulassungsstelle oft
 aus. Den Erbschein brauchst du eher, wenn kein Testament existiert. Verbindlich
 ist die Auskunft deiner Behörde – die Regeln zur Zulassung stehen in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).</div>
+<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.</div>
 
 ## Fazit
 

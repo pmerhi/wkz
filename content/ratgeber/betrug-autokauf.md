@@ -91,7 +91,7 @@ Ratgeber [Auto verkaufen und abmelden](/ratgeber/auto-verkaufen-abmelden) und be
 [Halterwechsel](/ratgeber/halterwechsel-auto) ausführlich erklärt.
 
 <div class="box box-frage"><strong>Muss ich das Auto vor dem Verkauf abmelden?</strong>
-Nicht zwingend – oft übernimmt der Käufer die [Ummeldung](/ratgeber/auto-ummelden).
+Nicht zwingend – oft übernimmt der Käufer die <a href="/ratgeber/auto-ummelden">Ummeldung</a>.
 Sicherer ist es aber, gemeinsam zur Zulassungsstelle zu gehen oder den Verkauf
 schriftlich der Behörde zu melden, damit die Haftung sauber übergeht.</div>
 
@@ -108,7 +108,7 @@ Forderungen – solange du keine Mängel arglistig verschweigst. Lügst du aktiv
 einen Unfall, hilft dir auch der beste Vertrag nicht.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Ein
-[Kfz-Gutachten](/ratgeber/kfz-gutachten) oder ein Werkstatt-Check vor dem Kauf
+<a href="/ratgeber/kfz-gutachten">Kfz-Gutachten</a> oder ein Werkstatt-Check vor dem Kauf
 kostet dich rund 80–150 €. Klingt nach viel? Gegen einen versteckten Motorschaden
 von mehreren tausend Euro ist das eine der günstigsten Versicherungen überhaupt.</div>
 
@@ -152,7 +152,7 @@ nicht hat. Bei arglistiger Täuschung greift der Ausschluss nicht.</div>
 <div class="box box-frage"><strong>Wie erkenne ich gefälschte Fahrzeugpapiere?</strong>
 Achte auf Wasserzeichen, saubere Druckqualität und stimmige Stempel. Gleiche
 Fahrgestellnummer im Schein, am Fahrzeug und in der
-[Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung) ab. Bei Unstimmigkeiten
+<a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a> ab. Bei Unstimmigkeiten
 brich den Kauf ab.</div>
 
 ## Fazit

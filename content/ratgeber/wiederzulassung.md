@@ -41,7 +41,7 @@ aber für den Aufwand.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ohne gültige Zulassung zu
 fahren, ist kein Kavaliersdelikt. Es droht eine Strafanzeige wegen
-[Fahrens ohne Zulassung](/ratgeber/fahren-ohne-zulassung) – und der
+<a href="/ratgeber/fahren-ohne-zulassung">Fahrens ohne Zulassung</a> – und der
 Versicherungsschutz fehlt komplett. Warte also, bis die Wiederzulassung wirklich
 durch ist.</div>
 
@@ -53,8 +53,8 @@ Ohne gültige HU keine Wiederzulassung – das ist der Punkt, an dem die meisten
 zuerst hängenbleiben.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis oder
-Reisepass mit Meldebescheinigung, [Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung)
-Teil I und II, gültige HU (TÜV/DEKRA), eine [eVB-Nummer](/ratgeber/evb-nummer) deiner
+Reisepass mit Meldebescheinigung, <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a>
+Teil I und II, gültige HU (TÜV/DEKRA), eine <a href="/ratgeber/evb-nummer">eVB-Nummer</a> deiner
 Versicherung, ein SEPA-Lastschriftmandat für die Kfz-Steuer und – falls vorhanden –
 die alten Kennzeichen.</div>
 
@@ -100,8 +100,8 @@ ohne neue Schilder behalten. Danach kann es anderweitig vergeben sein.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Willst du auf Nummer
 sicher gehen oder dir eine schöne Kombination holen, lohnt sich ein
-[Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren). Die genaue
-[Gültigkeit der Reservierung](/ratgeber/wunschkennzeichen-reservierung-gultigkeit)
+<a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen reservieren</a>. Die genaue
+<a href="/ratgeber/wunschkennzeichen-reservierung-gultigkeit">Gültigkeit der Reservierung</a>
 ist regional unterschiedlich.</div>
 
 ## Was kostet die Wiederzulassung?

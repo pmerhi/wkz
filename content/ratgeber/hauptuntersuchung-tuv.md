@@ -167,8 +167,8 @@ Hauptuntersuchung und wird gemeinsam dokumentiert.</div>
 
 <div class="box box-frage"><strong>Wo finde ich seriöse Infos zu Fristen und
 Mängeln?</strong> Eine gute Anlaufstelle ist der
-[TÜV-Verband](https://www.tuev-verband.de); rechtliche Grundlagen und
-Praxistipps findest du beim [ADAC](https://www.adac.de) und in der StVZO.</div>
+<a href="https://www.tuev-verband.de" rel="nofollow noopener" target="_blank">TÜV-Verband</a>; rechtliche Grundlagen und
+Praxistipps findest du beim <a href="https://www.adac.de" rel="nofollow noopener" target="_blank">ADAC</a> und in der StVZO.</div>
 
 ## Fazit
 

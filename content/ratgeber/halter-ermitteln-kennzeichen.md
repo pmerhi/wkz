@@ -114,8 +114,8 @@ beschaffen kann. Im Zweifel sparst du dir Geld und Ärger, wenn du den offiziell
 Weg über Polizei oder Zulassungsstelle gehst.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Eine qualifizierte
-Halterauskunft bei der Behörde kostet meist nur eine **kleine Gebühr im
-einstelligen bis niedrigen zweistelligen Euro-Bereich**. Kommerzielle
+Halterauskunft bei der Behörde kostet meist nur eine <strong>kleine Gebühr im
+einstelligen bis niedrigen zweistelligen Euro-Bereich</strong>. Kommerzielle
 Vermittler verlangen oft ein Vielfaches – für dasselbe Ergebnis. Die genauen
 Beträge unterscheiden sich je nach Bundesland, also ohne Gewähr.</div>
 

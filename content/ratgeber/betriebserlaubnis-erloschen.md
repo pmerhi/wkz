@@ -59,7 +59,7 @@ Typische Auslöser, bei denen das **Erlöschen der Betriebserlaubnis** droht:
 <div class="box box-wichtig"><strong>Wichtig:</strong> „Tuning Betriebserlaubnis"
 heißt nicht automatisch verboten. Viele Teile haben eine ABE oder ein
 Teilegutachten – dann musst du die Änderung nur korrekt eintragen lassen. Erst der
-Umbau **ohne** gültige Papiere oder Abnahme bringt die Betriebserlaubnis zum
+Umbau <strong>ohne</strong> gültige Papiere oder Abnahme bringt die Betriebserlaubnis zum
 Erlöschen.</div>
 
 Aber Tuning ist nicht die einzige Ursache. Auch schwere Unfallschäden, die die
@@ -119,7 +119,7 @@ Zulassungsbescheinigung Teil I, einen Termin bei TÜV/DEKRA und das fertig
 umgebaute, fahrbereite Fahrzeug. Bring am besten gleich alle Belege mit.</div>
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Lass kritische Umbauten
-**vor** dem Kauf prüfen, ob sie eintragungsfähig sind. Ich frage beim Händler
+<strong>vor</strong> dem Kauf prüfen, ob sie eintragungsfähig sind. Ich frage beim Händler
 immer nach Gutachten oder ABE – das spart später Ärger, Geld und im schlimmsten
 Fall den Rückbau.</div>
 
@@ -151,7 +151,7 @@ weg – ohne Bescheid. Du merkst es oft erst bei Kontrolle oder HU.</div>
 
 <div class="box box-frage"><strong>Darf ich mit erloschener Betriebserlaubnis noch
 fahren?</strong> Nein, das solltest du nicht. Es drohen Bußgeld, Punkt und Probleme
-mit der [Kfz-Versicherung](/ratgeber/kfz-versicherung-vergleich) – im Ernstfall
+mit der <a href="/ratgeber/kfz-versicherung-vergleich">Kfz-Versicherung</a> – im Ernstfall
 sogar Regress im Schadensfall.</div>
 
 <div class="box box-frage"><strong>Bringt jedes Tuning die Betriebserlaubnis zum

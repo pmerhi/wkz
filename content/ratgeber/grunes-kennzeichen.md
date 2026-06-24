@@ -39,7 +39,7 @@ Steuerbefreiung von außen sichtbar und kontrollierbar.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Steuerbefreit heißt nicht
 versicherungsfrei. Auch ein Fahrzeug mit grünem Kennzeichen braucht eine
-Kfz-Haftpflicht und in der Regel eine [eVB-Nummer](/ratgeber/evb-nummer) für die
+Kfz-Haftpflicht und in der Regel eine <a href="/ratgeber/evb-nummer">eVB-Nummer</a> für die
 Zulassung. Gespart wird nur bei der Steuer, nicht beim Versicherungsschutz.</div>
 
 ## Wer bekommt ein steuerbefreites Kennzeichen?
@@ -65,7 +65,7 @@ läuft über einen anderen Mechanismus, nicht über die Farbe.
 <div class="box box-frage"><strong>Bekommt mein E-Auto ein grünes Kennzeichen?</strong>
 Nein. Elektroautos sind zwar befristet von der Kfz-Steuer befreit, fahren aber mit
 normalem Schild. Mehr dazu liest du im Ratgeber zur
-[Kfz-Steuer beim Elektroauto](/ratgeber/kfz-steuer-elektroauto).</div>
+<a href="/ratgeber/kfz-steuer-elektroauto">Kfz-Steuer beim Elektroauto</a>.</div>
 
 ## Der Klassiker: der grüne Anhänger
 
@@ -100,7 +100,7 @@ Der Weg zum grünen Nummernschild läuft über die Zulassung – ähnlich wie be
 anderen Fahrzeug, nur mit dem zusätzlichen Antrag auf Steuerbefreiung.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis,
-[Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung) Teil I und (bei
+<a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a> Teil I und (bei
 Erstzulassung) Teil II, eVB-Nummer, gültige HU sowie den Nachweis, dass dein
 Fahrzeug die Voraussetzungen für die Steuerbefreiung erfüllt – etwa eine
 Bescheinigung über die land- oder forstwirtschaftliche Nutzung.</div>
@@ -154,7 +154,7 @@ Zugfahrzeug. Das ist der klassische Spar-Hebel beim grünen Kennzeichen.</div>
 <div class="box box-frage"><strong>Ist ein grünes Kennzeichen komplett kostenlos?</strong>
 Nein. Die Kfz-Steuer entfällt, aber Zulassungsgebühren, Schilder und
 Versicherung zahlst du ganz normal. Einen Überblick gibt der
-[Ratgeber zu den Zulassungskosten](/ratgeber/zulassungskosten).</div>
+<a href="/ratgeber/zulassungskosten">Ratgeber zu den Zulassungskosten</a>.</div>
 
 <div class="box box-frage"><strong>Kann ich ein normales Kennzeichen in ein grünes
 umwandeln?</strong> Nur, wenn dein Fahrzeug die Voraussetzungen erfüllt. Dann
@@ -162,14 +162,14 @@ beantragst du die Steuerbefreiung bei der Zulassungsstelle und lässt neue,
 grüne Schilder prägen.</div>
 
 <div class="box box-frage"><strong>Verliere ich die Befreiung bei einer
-Ummeldung?</strong> Nicht automatisch. Bei einem [Halterwechsel](/ratgeber/halterwechsel-auto)
+Ummeldung?</strong> Nicht automatisch. Bei einem <a href="/ratgeber/halterwechsel-auto">Halterwechsel</a>
 oder Umzug bleibt die Befreiung bestehen, solange der begünstigte Zweck weiter
 erfüllt ist – sonst wird das Fahrzeug wieder steuerpflichtig.</div>
 
 <div class="box box-frage"><strong>Gibt es ein Wunschkennzeichen mit grüner
 Schrift?</strong> Ja. Auch ein steuerbefreites Fahrzeug darf eine
 Wunschkombination tragen – wie das geht, zeigt der
-[Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren).</div>
+<a href="/ratgeber/wunschkennzeichen-reservieren">Ratgeber zum Wunschkennzeichen reservieren</a>.</div>
 
 ## Fazit
 

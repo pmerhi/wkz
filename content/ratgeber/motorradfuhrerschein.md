@@ -121,7 +121,7 @@ Sommer fährt.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Wer nur saisonal fährt, spart mit
 einem Saisonkennzeichen Steuer und Versicherung für die Wintermonate. Wie das
-funktioniert, liest du im Ratgeber zur [Saisonzulassung](/ratgeber/saisonzulassung).</div>
+funktioniert, liest du im Ratgeber zur <a href="/ratgeber/saisonzulassung">Saisonzulassung</a>.</div>
 
 ## Theorie- und Praxisstunden: Wie viele wirklich nötig sind
 
@@ -152,7 +152,7 @@ schon 24 bist und sofort große Maschinen willst, ja. Bist du jünger, ist der W
 
 <div class="box box-frage"><strong>Verliere ich bei einem Umzug etwas?</strong>
 Nein. Der Führerschein gilt bundesweit. Vergiss aber nicht, bei einem Umzug auch
-dein [Motorrad umzumelden](/ratgeber/auto-ummelden).</div>
+dein <a href="/ratgeber/auto-ummelden">Motorrad umzumelden</a>.</div>
 
 ## Fazit
 

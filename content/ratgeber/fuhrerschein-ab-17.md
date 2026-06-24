@@ -121,7 +121,7 @@ Nachweis – aber nur in Deutschland und nur mit Begleitung.
 <div class="box box-tipp"><strong>Mein Rat:</strong> Bewahre die Prüfbescheinigung
 genauso sorgfältig auf wie später den Führerschein. Verlierst du sie, brauchst du
 Ersatz von der Behörde – ähnlich aufwendig wie beim
-[verlorenen Führerschein](/ratgeber/fuhrerschein-verloren).</div>
+<a href="/ratgeber/fuhrerschein-verloren">verlorenen Führerschein</a>.</div>
 
 ## Was passiert am 18. Geburtstag?
 
@@ -158,7 +158,7 @@ begleitet dich dagegen lange.
 
 <div class="box box-frage"><strong>Kann ich mit BF17 auch Motorrad fahren?</strong>
 Nein. Das begleitete Fahren gilt nur für die Klasse B (Pkw). Für Zweiräder gelten
-eigene Mindestalter und Klassen – siehe [Führerscheinklassen](/ratgeber/fuhrerscheinklassen).</div>
+eigene Mindestalter und Klassen – siehe <a href="/ratgeber/fuhrerscheinklassen">Führerscheinklassen</a>.</div>
 
 <div class="box box-frage"><strong>Was, wenn die Begleitperson nicht angeschnallt
 ist?</strong> Auch die Begleitperson muss alle Verkehrsregeln einhalten und darf

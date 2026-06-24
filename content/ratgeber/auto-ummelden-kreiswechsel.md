@@ -57,7 +57,7 @@ mit dem Kürzel deines neuen Kreises beantragen.
 <div class="box box-tipp"><strong>Mein Rat:</strong> Wenn dir dein altes
 Kennzeichen ans Herz gewachsen ist oder du dir die Kosten für neue Schilder sparen
 willst, nimm es einfach mit. Mehr dazu liest du im
-[Ratgeber Wunschkennzeichen mitnehmen](/ratgeber/wunschkennzeichen-mitnehmen).</div>
+<a href="/ratgeber/wunschkennzeichen-mitnehmen">Ratgeber Wunschkennzeichen mitnehmen</a>.</div>
 
 ## Schritt für Schritt: Auto ummelden in den anderen Landkreis
 
@@ -78,7 +78,7 @@ nachschlagen.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis (mit
 neuer Adresse) oder Meldebestätigung, Zulassungsbescheinigung Teil I und II,
-[eVB-Nummer](/ratgeber/evb-nummer) deiner Versicherung, gültige HU-Plakette und –
+<a href="/ratgeber/evb-nummer">eVB-Nummer</a> deiner Versicherung, gültige HU-Plakette und –
 falls vorhanden – den SEPA-Bescheid für die Kfz-Steuer. Bei Kennzeichenwechsel
 zusätzlich die alten Schilder.</div>
 
@@ -115,7 +115,7 @@ mehr die Behörde. Allgemeine Hinweise zum Umzug mit Fahrzeug findest du auch be
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die rechtliche Grundlage
 für Ummeldung und Kennzeichenmitnahme ist die
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.
 Dort ist auch geregelt, dass das bisherige Kennzeichen bei einem Halterwechsel des
 Wohnorts weitergeführt werden darf.</div>
 

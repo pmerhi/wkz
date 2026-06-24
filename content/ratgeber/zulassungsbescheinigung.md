@@ -38,8 +38,8 @@ Hauptuntersuchung**.
 
 <div class="box box-check"><strong>Das brauchst du Teil I unter anderem für:</strong>
 Verkehrskontrollen, den Reifenwechsel (zulässige Größen), die Hauptuntersuchung beim TÜV,
-das Berechnen der [Kfz-Steuer](/ratgeber/kfz-steuer-berechnen) und natürlich für jede
-[Ummeldung](/ratgeber/auto-ummelden) oder [Abmeldung](/ratgeber/auto-abmelden).</div>
+das Berechnen der <a href="/ratgeber/kfz-steuer-berechnen">Kfz-Steuer</a> und natürlich für jede
+<a href="/ratgeber/auto-ummelden">Ummeldung</a> oder <a href="/ratgeber/auto-abmelden">Abmeldung</a>.</div>
 
 ## Teil II = Fahrzeugbrief: der Eigentumsnachweis
 
@@ -86,7 +86,7 @@ auf), legst deinen Personalausweis vor und – sofern vorhanden – Teil II. Ans
 dir ein neuer Teil I ausgestellt.
 
 <div class="box box-frage"><strong>Brauche ich eine Anzeige bei der Polizei?</strong> Bei
-schlichtem Verlust meist nicht. Wurde der Schein aber **gestohlen**, ist eine Anzeige sinnvoll
+schlichtem Verlust meist nicht. Wurde der Schein aber <strong>gestohlen</strong>, ist eine Anzeige sinnvoll
 und wird von manchen Zulassungsstellen verlangt. Frag im Zweifel kurz bei deiner Behörde nach.</div>
 
 Mehr Details zum Ablauf habe ich dir im [Ratgeber Fahrzeugschein verloren](/ratgeber/fahrzeugschein-verloren)
@@ -113,7 +113,7 @@ bestätigen. Mehr dazu im [Ratgeber zur Zulassungsbescheinigung im i-Kfz-Verfahr
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die Sicherheitscodes sind nur
 einmal verwendbar. Hast du eine Online-Abmeldung durchgeführt, ist der Code „verbraucht".
-Für eine spätere [Wiederzulassung](/ratgeber/wiederzulassung) brauchst du dann neue
+Für eine spätere <a href="/ratgeber/wiederzulassung">Wiederzulassung</a> brauchst du dann neue
 Dokumente mit frischem Code.</div>
 
 ## Häufige Fragen zur Zulassungsbescheinigung

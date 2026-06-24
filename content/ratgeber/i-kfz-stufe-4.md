@@ -89,7 +89,7 @@ mit Wunschkennzeichen liegt grob bei <strong>etwa 30–55 €</strong>: rund 13 
 Zuteilung und Wunsch-Reservierung, der Rest für die Bearbeitung. Neue
 <strong>Schilder</strong> (ca. 20–35 €) kommen nur dazu, wenn du das Kennzeichen
 wechselst. Details findest du im Ratgeber zu den
-[Zulassungskosten](/ratgeber/zulassungskosten).</div>
+<a href="/ratgeber/zulassungskosten">Zulassungskosten</a>.</div>
 
 ## Die größte Hürde: der Online-Ausweis
 
@@ -124,7 +124,7 @@ vor Ort.
 
 <div class="box box-frage"><strong>Was, wenn der Verkäufer schon abgemeldet
 hat?</strong> Dann ist das Fahrzeug außer Betrieb gesetzt, und du machst statt
-eines Halterwechsels eine [Wiederzulassung](/ratgeber/wiederzulassung) auf deinen
+eines Halterwechsels eine <a href="/ratgeber/wiederzulassung">Wiederzulassung</a> auf deinen
 Namen – auch das geht in Stufe 4 online.</div>
 
 ## Wann der Gang zur Behörde trotzdem nötig ist
@@ -143,7 +143,7 @@ gibt den Rahmen vor, die Umsetzung läuft regional unterschiedlich schnell.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die rechtliche Grundlage
 für die internetbasierte Zulassung steckt in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.
 Dort ist auch geregelt, welche Nachweise und Codes für den Online-Weg verlangt
 werden.</div>
 
@@ -156,7 +156,7 @@ Post kommen – das ist die zentrale Neuerung gegenüber den früheren Stufen.</
 
 <div class="box box-frage"><strong>Kann ich ein Wunschkennzeichen online
 mitbestellen?</strong> Ja, die Reservierung ist Teil des Prozesses. Wie du die
-[Gültigkeit deiner Reservierung](/ratgeber/wunschkennzeichen-reservierung-gultigkeit)
+<a href="/ratgeber/wunschkennzeichen-reservierung-gultigkeit">Gültigkeit deiner Reservierung</a>
 im Blick behältst, steht im passenden Ratgeber.</div>
 
 <div class="box box-frage"><strong>Wie lange dauert die Online-Zulassung?</strong>
@@ -165,7 +165,7 @@ und Plaketten triffst du je nach Behörde nach wenigen Werktagen im Briefkasten.
 
 <div class="box box-frage"><strong>Brauche ich trotzdem geprägte Schilder?</strong>
 Bei einem Kennzeichenwechsel ja – die bestellst du separat. Behältst du dein
-Kennzeichen, etwa beim [Ummelden ohne Kreiswechsel](/ratgeber/auto-ummelden-ohne-kreiswechsel),
+Kennzeichen, etwa beim <a href="/ratgeber/auto-ummelden-ohne-kreiswechsel">Ummelden ohne Kreiswechsel</a>,
 fällt dieser Posten weg.</div>
 
 ## Fazit

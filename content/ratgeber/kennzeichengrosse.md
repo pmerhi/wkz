@@ -59,7 +59,7 @@ ausführlich beschrieben.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Willst du ein verkürztes Schild,
 plane das schon bei der Wahl deiner Kombination ein. Beim
-[Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren) lohnt es
+<a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen reservieren</a> lohnt es
 sich, auf wenige Zeichen zu setzen – das spart Platz und sieht oft eleganter aus.</div>
 
 ## Zweizeilige Kennzeichen: für SUV, Geländewagen und Co.
@@ -77,7 +77,7 @@ die einzige, die montagetechnisch überhaupt funktioniert.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ein zweizeiliges Schild
 darf nicht einfach gewählt werden, weil es „schöner" aussieht. Maßgeblich ist die
 Bauart deines Fahrzeugs. Im Zweifel entscheidet die
-[Zulassungsstelle](/zulassungsstelle) bzw. die Halterung, welche Bauform zulässig
+<a href="/zulassungsstelle">Zulassungsstelle</a> bzw. die Halterung, welche Bauform zulässig
 ist – die Angaben hier sind eine Orientierung, ohne Gewähr und mit möglichen
 regionalen Unterschieden.</div>
 
@@ -114,7 +114,7 @@ riskiert ein Bußgeld – nachzulesen unter anderem im
 [Bußgeldkatalog](/ratgeber/bussgeldkatalog).
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Auch moderne
-[3D-Kennzeichen](/ratgeber/3d-kennzeichen) müssen sich exakt an dieselben Maße
+<a href="/ratgeber/3d-kennzeichen">3D-Kennzeichen</a> müssen sich exakt an dieselben Maße
 halten wie flache Schilder. Die erhabene Optik ändert nichts an Länge, Höhe und
 Schriftgröße – sie muss innerhalb der zulässigen Toleranzen bleiben.</div>
 

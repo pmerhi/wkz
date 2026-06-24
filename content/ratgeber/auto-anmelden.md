@@ -64,7 +64,7 @@ Die Behördengebühr für eine Zulassung liegt bei **rund 30 €**. Dazu kommen 
 Schilder (ca. 20–35 €) und – wenn gewünscht – das Wunschkennzeichen (ca. 10–13 €).
 
 <div class="box box-kosten"><strong>Beispiel Neuzulassung:</strong> Gebühr ~30 € +
-Schilder ~25 € + Wunschkennzeichen ~13 € = rund **68 €**. Alle Posten und
+Schilder ~25 € + Wunschkennzeichen ~13 € = rund <strong>68 €</strong>. Alle Posten und
 Spar-Tipps findest du im Ratgeber zu den
 <a href="/ratgeber/zulassungskosten">Zulassungskosten</a>.</div>
 

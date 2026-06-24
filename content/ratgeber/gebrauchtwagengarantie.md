@@ -113,7 +113,7 @@ wirksam – plane das ein.
 <div class="box box-frage"><strong>Was, wenn der Verkäufer offensichtlich
 betrügt?</strong> Bei arglistiger Täuschung – etwa manipuliertem Tacho – greift kein
 Gewährleistungsausschluss. Mehr dazu liest du im Ratgeber
-[Betrug beim Autokauf](/ratgeber/betrug-autokauf).</div>
+<a href="/ratgeber/betrug-autokauf">Betrug beim Autokauf</a>.</div>
 
 Nach dem Kauf wartet noch der Papierkram: Das Fahrzeug muss
 [umgemeldet](/ratgeber/auto-ummelden) oder neu zugelassen werden, und der

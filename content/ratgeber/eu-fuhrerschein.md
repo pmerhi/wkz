@@ -41,7 +41,7 @@ dauerhaft wohnen, ohne den Führerschein umschreiben zu lassen.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Alle alten Papierführerscheine
 (grau oder rosa) müssen bis spätestens 2033 in das EU-Kartenformat umgetauscht
 werden. Die genauen Fristen hängen vom Geburtsjahr und Ausstellungsdatum ab –
-Details habe ich dir im [Ratgeber zum Führerschein umtauschen](/ratgeber/fuhrerschein-umtauschen)
+Details habe ich dir im <a href="/ratgeber/fuhrerschein-umtauschen">Ratgeber zum Führerschein umtauschen</a>
 zusammengestellt.</div>
 
 ## Internationaler Führerschein: Wann brauchst du ihn?
@@ -124,7 +124,7 @@ EU-Führerschein reicht völlig aus – auch für den Mietwagen.</div>
 <div class="box box-frage"><strong>Wie lange ist der internationale Führerschein
 gültig?</strong> In der Regel drei Jahre, längstens jedoch so lange wie dein
 nationaler Führerschein. Verlierst du den nationalen Schein, wird auch der
-internationale ungültig – mehr dazu im [Ratgeber Führerschein verloren](/ratgeber/fuhrerschein-verloren).</div>
+internationale ungültig – mehr dazu im <a href="/ratgeber/fuhrerschein-verloren">Ratgeber Führerschein verloren</a>.</div>
 
 <div class="box box-frage"><strong>Muss ich meinen alten Papierführerschein
 umtauschen?</strong> Ja, bis spätestens 2033 – gestaffelt nach Geburtsjahr. Ohne
@@ -135,7 +135,7 @@ ausgestellt.</div>
 Anerkennung im Ausland können sich je nach Land und Behörde unterscheiden und
 ändern sich gelegentlich. Sieh die Angaben hier als realistische Orientierung,
 nicht als rechtsverbindliche Auskunft – ohne Gewähr. Frag im Zweifel deine
-Führerscheinstelle oder den [ADAC](https://www.adac.de).</div>
+Führerscheinstelle oder den <a href="https://www.adac.de" rel="nofollow noopener" target="_blank">ADAC</a>.</div>
 
 ## Fazit
 

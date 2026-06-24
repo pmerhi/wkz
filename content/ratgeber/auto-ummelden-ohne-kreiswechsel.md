@@ -37,7 +37,7 @@ Ernstfall ein Rückruf des Herstellers müssen dich erreichen. Stimmt die Adress
 nicht, wird es im Zweifel teuer oder zumindest unangenehm.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Wer die
-**Adressänderung im Fahrzeugschein** dauerhaft ignoriert, riskiert ein Verwarnungs-
+<strong>Adressänderung im Fahrzeugschein</strong> dauerhaft ignoriert, riskiert ein Verwarnungs-
 oder Bußgeld. Die Höhe variiert je nach Behörde und Einzelfall – sieh die Angaben
 hier als Orientierung, nicht als verbindliche Rechtsauskunft (ohne Gewähr).</div>
 
@@ -54,7 +54,7 @@ mit möglichem Kennzeichenwechsel. Diesen Fall habe ich dir separat im Ratgeber
 <div class="box box-frage"><strong>Woher weiß ich, ob es derselbe Kreis ist?</strong>
 Schau auf dein Kennzeichen: Bleibt das Unterscheidungszeichen (die Buchstaben vor
 dem Strich) für deine neue Adresse zuständig, bist du im gleichen Bezirk. Welche
-Stelle für dich zuständig ist, findest du über die [Zulassungsstellen-Suche](/zulassungsstelle).</div>
+Stelle für dich zuständig ist, findest du über die <a href="/zulassungsstelle">Zulassungsstellen-Suche</a>.</div>
 
 ## So läuft die Adressänderung Schritt für Schritt
 
@@ -74,7 +74,7 @@ Schild** geprägt werden und auch Teil II (der Fahrzeugbrief) bleibt meist unber
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis oder
 Reisepass mit aktueller Meldebescheinigung, die Zulassungsbescheinigung Teil I
 (Fahrzeugschein) und – je nach Behörde – Teil II. Wenn jemand anderes für dich geht,
-zusätzlich eine [Vollmacht](/ratgeber/zulassungsdienst-vollmacht).</div>
+zusätzlich eine <a href="/ratgeber/zulassungsdienst-vollmacht">Vollmacht</a>.</div>
 
 ## Geht das auch online? i-Kfz und die Adressänderung
 
@@ -90,7 +90,7 @@ Anfahrt, keine Wartemarke, kein Parkplatzstress.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Aktivier die Online-Funktion
 deines Personalausweises rechtzeitig. Infos dazu bekommst du beim
-[Personalausweisportal](https://www.personalausweisportal.de). Hast du die eID
+<a href="https://www.personalausweisportal.de" rel="nofollow noopener" target="_blank">Personalausweisportal</a>. Hast du die eID
 einmal eingerichtet, sparst du sie dir bei jedem künftigen Behördengang.</div>
 
 ## Was kostet das Ganze?
@@ -103,7 +103,7 @@ weil keine neuen Schilder und keine vollständige Neuzulassung anfallen.
 Adressänderung im Fahrzeugschein liegst du meist bei rund <strong>10–15 €</strong>.
 Online über i-Kfz ist es häufig ähnlich günstig oder etwas weniger. Ein
 Kreiswechsel mit neuem Kennzeichen wäre mit Schildern und Zulassung deutlich teurer
-– mehr dazu im [Ratgeber Zulassungskosten](/ratgeber/zulassungskosten).</div>
+– mehr dazu im <a href="/ratgeber/zulassungskosten">Ratgeber Zulassungskosten</a>.</div>
 
 Vergleich gefällig? Wer den Kreis wechselt, landet schnell beim Drei- bis Vierfachen,
 sobald neue [Nummernschilder geprägt](/ratgeber/nummernschild-pragen) und ein
@@ -122,7 +122,7 @@ Ein paar Dinge, bei denen ich selbst schon ins Grübeln kam:
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Ändert sich neben der
 Adresse auch der Halter – etwa weil du das Auto übernimmst – ist es keine reine
-Adressänderung mehr, sondern ein [Halterwechsel](/ratgeber/halterwechsel-auto). Dann
+Adressänderung mehr, sondern ein <a href="/ratgeber/halterwechsel-auto">Halterwechsel</a>. Dann
 sind andere Unterlagen nötig.</div>
 
 ## Häufige Fragen
@@ -144,7 +144,7 @@ Wohnsitz-Ummeldung.</div>
 <div class="box box-frage"><strong>Kann ich die Adressänderung mit einem
 Wunschkennzeichen verbinden?</strong> Wenn du im gleichen Kreis bleibst, brauchst du
 kein neues Kennzeichen. Möchtest du trotzdem eines, kannst du es separat
-[reservieren](/ratgeber/wunschkennzeichen-reservieren) – das ist dann aber ein
+<a href="/ratgeber/wunschkennzeichen-reservieren">reservieren</a> – das ist dann aber ein
 zusätzlicher Vorgang mit eigenen Kosten.</div>
 
 ## Fazit

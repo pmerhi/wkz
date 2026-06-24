@@ -139,14 +139,14 @@ du den Träger an mehreren Autos, brauchst du für jedes ein eigenes
 Zusatzkennzeichen – oder du klärst eine Wechsellösung mit der Behörde.</div>
 
 <div class="box box-frage"><strong>Funktioniert das auch mit einem
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren)?</strong> Natürlich.
+<a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen</a>?</strong> Natürlich.
 Das Zusatzschild übernimmt exakt deine zugeteilte Kombination – egal ob
 Standard- oder Wunschkennzeichen.</div>
 
 <div class="box box-frage"><strong>Gilt das auch für Wohnmobile und
 Anhänger?</strong> Sobald ein Heckträger das hintere Kennzeichen verdeckt, gilt
 dieselbe Regel. Bei Gespannen lohnt sich vorab ein Blick in den Ratgeber zum
-[Anhänger zulassen](/ratgeber/anhanger-zulassen).</div>
+<a href="/ratgeber/anhanger-zulassen">Anhänger zulassen</a>.</div>
 
 ## Fazit
 

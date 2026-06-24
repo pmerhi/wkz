@@ -40,7 +40,7 @@ für den Zeitraum bis zur Ausfuhr** – und das auch über Grenzen hinweg.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ein gewöhnliches deutsches
 Kennzeichen reicht für den dauerhaften Export nicht aus. Wer das Auto einfach
 abmeldet und trotzdem fährt, riskiert ein Bußgeld wegen
-[Fahren ohne Zulassung](/ratgeber/fahren-ohne-zulassung) und steht ohne
+<a href="/ratgeber/fahren-ohne-zulassung">Fahren ohne Zulassung</a> und steht ohne
 Versicherungsschutz da.</div>
 
 ## Ausfuhrkennzeichen oder Kurzzeitkennzeichen?
@@ -79,7 +79,7 @@ Der Ablauf ist überschaubar, wenn du die Reihenfolge kennst. Zuständig ist die
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis oder
 Reisepass, Zulassungsbescheinigung Teil I und II (Fahrzeugschein und -brief),
 gültige HU-Bescheinigung, Versicherungsbestätigung für die Ausfuhr und – falls du
-nicht selbst erscheinst – eine [Vollmacht](/ratgeber/zulassungsdienst-vollmacht).</div>
+nicht selbst erscheinst – eine <a href="/ratgeber/zulassungsdienst-vollmacht">Vollmacht</a>.</div>
 
 Hast du den Fahrzeugschein oder Fahrzeugbrief verlegt, wird es kniffliger. Dann
 führt der Weg erst über die Ersatzbeschaffung – wie das geht, liest du im Ratgeber
@@ -155,7 +155,7 @@ Zielland und alle Transitländer abgedeckt sind.</div>
 
 <div class="box box-frage"><strong>Was passiert, wenn die Gültigkeit abläuft?</strong>
 Dann darfst du das Fahrzeug nicht mehr im öffentlichen Verkehr bewegen. Der
-[ADAC](https://www.adac.de) und die Zulassungsstellen weisen darauf hin: Nach dem
+<a href="https://www.adac.de" rel="nofollow noopener" target="_blank">ADAC</a> und die Zulassungsstellen weisen darauf hin: Nach dem
 Datum im roten Feld besteht kein Versicherungsschutz mehr.</div>
 
 <div class="box box-frage"><strong>Kann ich ein Ausfuhrkennzeichen online

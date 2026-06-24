@@ -60,7 +60,7 @@ drittens wirkt es einfach aufgeräumter.
 <div class="box box-tipp"><strong>Tipp:</strong> Wenn dir die Optik wichtig ist,
 kombiniere ein kurzes Kennzeichen mit einem schönen verkleinerten Schildformat.
 Wie das geprägt wird und worauf du achten musst, erkläre ich dir im
-[Ratgeber zum Nummernschild prägen](/ratgeber/nummernschild-pragen).</div>
+<a href="/ratgeber/nummernschild-pragen">Ratgeber zum Nummernschild prägen</a>.</div>
 
 ## So sicherst du dir kurze Zeichen
 
@@ -76,7 +76,7 @@ verschiedene kurze Varianten durch, bis eine freie auftaucht.
 <div class="box box-check"><strong>Das brauchst du:</strong> Zugang zum
 Online-Portal deiner Zulassungsstelle, ein paar Wunsch-Kombinationen als
 Alternativen, deine Fahrzeugdaten und etwas Geduld beim Durchprobieren. Mehr
-dazu im [Ratgeber Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren).</div>
+dazu im <a href="/ratgeber/wunschkennzeichen-reservieren">Ratgeber Wunschkennzeichen reservieren</a>.</div>
 
 Ganz praktisch hilft es, **flexibel** zu sein. Wenn „M A 1" weg ist, sind
 „M A 2", „M B 1" oder „M K 9" vielleicht noch frei. Je weniger du dich auf eine
@@ -120,7 +120,7 @@ zu den Regeln und Bedeutungen findest du in der Übersicht der
 <div class="box box-info"><strong>Gut zu wissen:</strong> Seit der
 Kennzeichen-Reform darfst du dein altes Kennzeichen bei einem Umzug oft
 mitnehmen. Hast du also einmal ein kurzes Kennzeichen ergattert, musst du es bei
-einem [Umzug nicht zwangsläufig aufgeben](/ratgeber/wunschkennzeichen-mitnehmen).</div>
+einem <a href="/ratgeber/wunschkennzeichen-mitnehmen">Umzug nicht zwangsläufig aufgeben</a>.</div>
 
 ## Häufige Fragen
 
@@ -139,7 +139,7 @@ Nein. Du zahlst die normale Wunschgebühr. Die Schilder können wegen weniger
 Zeichen sogar etwas günstiger ausfallen.</div>
 
 <div class="box box-frage"><strong>Gilt das auch fürs Motorrad?</strong> Ja –
-gerade beim [Motorradkennzeichen](/ratgeber/wunschkennzeichen-motorrad) ist ein
+gerade beim <a href="/ratgeber/wunschkennzeichen-motorrad">Motorradkennzeichen</a> ist ein
 kurzes Kennzeichen praktisch, weil das verkleinerte Format weniger Platz bietet.</div>
 
 ## Fazit

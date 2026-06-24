@@ -42,7 +42,7 @@ mit dem Fahrzeug machst.
 <div class="box box-wichtig"><strong>Wichtig:</strong> „Stillgelegt" heißt nicht
 automatisch „abgemeldet bei der Versicherung". Beides läuft getrennt. Die
 Zulassungsstelle informiert deine Kfz-Versicherung zwar, aber kümmere dich
-trotzdem selbst um die [eVB-Nummer](/ratgeber/evb-nummer) und den Vertragsstatus.</div>
+trotzdem selbst um die <a href="/ratgeber/evb-nummer">eVB-Nummer</a> und den Vertragsstatus.</div>
 
 ## Wann lohnt sich eine Stilllegung?
 
@@ -63,7 +63,7 @@ Behördengang.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Planst du eine feste, jährlich
 wiederkehrende Pause – etwa November bis März –, prüf ernsthaft die
-[Saisonzulassung](/ratgeber/saisonzulassung). Sie ist bequemer als zweimal pro
+<a href="/ratgeber/saisonzulassung">Saisonzulassung</a>. Sie ist bequemer als zweimal pro
 Jahr zur Behörde zu fahren und kostet dich nur einmal Gebühren.</div>
 
 ## Was du zum Stilllegen brauchst
@@ -76,8 +76,8 @@ Kennzeichen.
 <div class="box box-check"><strong>Das brauchst du:</strong> deinen
 Personalausweis, die Zulassungsbescheinigung Teil I (früher Fahrzeugschein),
 beide Kennzeichenschilder zum Entstempeln und – falls vorhanden – die
-[Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung) Teil II. Wer für
-jemand anderen abmeldet, braucht eine [Vollmacht](/ratgeber/zulassungsdienst-vollmacht).</div>
+<a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a> Teil II. Wer für
+jemand anderen abmeldet, braucht eine <a href="/ratgeber/zulassungsdienst-vollmacht">Vollmacht</a>.</div>
 
 Vor Ort werden die Stempelplaketten von den Schildern entfernt. Du bekommst eine
 Bestätigung der Außerbetriebsetzung – die hebst du gut auf, denn sie ist dein
@@ -142,7 +142,7 @@ reichlich Luft.
 <div class="box box-tipp"><strong>Mein Rat:</strong> Willst du dein Kennzeichen
 später wiederverwenden, melde das Fahrzeug innerhalb von zwölf Monaten erneut an.
 Wie das funktioniert, steht im Ratgeber zur
-[Wiederzulassung](/ratgeber/wiederzulassung).</div>
+<a href="/ratgeber/wiederzulassung">Wiederzulassung</a>.</div>
 
 ## Stilllegen beim Verkauf – ja oder nein?
 
@@ -169,7 +169,7 @@ i-Kfz brauchst du nicht einmal das.</div>
 <div class="box box-frage"><strong>Darf ich ein stillgelegtes Auto noch fahren?</strong>
 Nein, auf keinen Fall. Ohne Zulassung und Versicherung ist jede Fahrt eine
 Straftat. Brauchst du es nur kurz von A nach B, hilft ein
-[Kurzzeitkennzeichen](/ratgeber/kurzzeitkennzeichen).</div>
+<a href="/ratgeber/kurzzeitkennzeichen">Kurzzeitkennzeichen</a>.</div>
 
 <div class="box box-frage"><strong>Bekomme ich zu viel gezahlte Kfz-Steuer zurück?</strong>
 Ja. Die Steuer wird taggenau abgerechnet; den Rest erstattet das Hauptzollamt

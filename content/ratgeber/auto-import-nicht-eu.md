@@ -23,7 +23,7 @@ EU-Nachbarland.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> „Drittland" bedeutet
 jedes Land außerhalb der EU. Die Schweiz, Großbritannien, die USA, Kanada oder
-Japan zählen dazu. Bei einem [Import aus der EU](/ratgeber/gebrauchtwagen-eu-import)
+Japan zählen dazu. Bei einem <a href="/ratgeber/gebrauchtwagen-eu-import">Import aus der EU</a>
 entfallen Zoll und Einfuhrumsatzsteuer – beim Drittland nicht.</div>
 
 ## Warum ein Drittland-Import so anders ist
@@ -70,7 +70,7 @@ Punkt, den viele beim ersten Mal unterschätzen.
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Kostet dein US-Auto
 20.000 € plus 2.000 € Fracht, liegt die Basis bei 22.000 €. Darauf rund 10 % Zoll
 (≈ 2.200 €), dann 19 % Einfuhrumsatzsteuer auf 24.200 € (≈ 4.600 €). Allein an
-Abgaben kommen so schnell **rund 6.800 €** zusammen – zusätzlich zum Kaufpreis.</div>
+Abgaben kommen so schnell <strong>rund 6.800 €</strong> zusammen – zusätzlich zum Kaufpreis.</div>
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Zoll- und Steuersätze sowie
 Sonderregeln (etwa für Umzugsgut oder Oldtimer) ändern sich und hängen vom
@@ -120,9 +120,9 @@ zuständigen [Zulassungsstelle](/zulassungsstelle) und meldest das Fahrzeug an.
 
 <div class="box box-check"><strong>Für die Zulassung dabei haben:</strong>
 Verzollungsnachweis, Gutachten der Einzelabnahme (§ 21), ausländisches
-Fahrzeugdokument, [eVB-Nummer](/ratgeber/evb-nummer) der Versicherung,
+Fahrzeugdokument, <a href="/ratgeber/evb-nummer">eVB-Nummer</a> der Versicherung,
 Personalausweis und – wenn du willst – ein reserviertes
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren).</div>
+<a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen</a>.</div>
 
 Die Zulassungsstelle stellt dann die [Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung)
 Teil I und II aus, und du bekommst deine Stempel auf die Schilder. Ab dem Moment
@@ -130,8 +130,8 @@ darfst du legal fahren.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Solange das Fahrzeug
 noch nicht regulär zugelassen ist, du es aber zum Prüfdienst überführen musst,
-brauchst du ein [Kurzzeitkennzeichen](/ratgeber/kurzzeitkennzeichen) oder
-[Überführungskennzeichen](/ratgeber/uberfuhrungskennzeichen) – mit passender
+brauchst du ein <a href="/ratgeber/kurzzeitkennzeichen">Kurzzeitkennzeichen</a> oder
+<a href="/ratgeber/uberfuhrungskennzeichen">Überführungskennzeichen</a> – mit passender
 Versicherung versteht sich.</div>
 
 ## Was kostet der Import unterm Strich?
@@ -158,7 +158,7 @@ Liebhaberfahrzeugen.</div>
 
 <div class="box box-frage"><strong>Gibt es Ausnahmen beim Zoll?</strong> Ja, etwa
 bei einem Wohnsitzwechsel (Umzugsgut) unter bestimmten Bedingungen oder bei
-echten [Oldtimern](/ratgeber/oldtimer-zulassen) mit reduziertem Steuersatz. Das
+echten <a href="/ratgeber/oldtimer-zulassen">Oldtimern</a> mit reduziertem Steuersatz. Das
 klärst du individuell mit dem Zoll.</div>
 
 <div class="box box-frage"><strong>Brauche ich immer ein Vollgutachten?</strong>
@@ -169,7 +169,7 @@ beides, wird das Vollgutachten nötig.</div>
 <div class="box box-frage"><strong>Kann ich das Auto vor der Zulassung
 bewegen?</strong> Nur mit Kurzzeit- oder Überführungskennzeichen und gültiger
 Versicherung. Ohne gültige Papiere drohen Konsequenzen wegen
-[Fahren ohne Zulassung](/ratgeber/fahren-ohne-zulassung).</div>
+<a href="/ratgeber/fahren-ohne-zulassung">Fahren ohne Zulassung</a>.</div>
 
 ## Fazit
 

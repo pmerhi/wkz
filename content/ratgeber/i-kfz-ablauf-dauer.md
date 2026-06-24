@@ -82,7 +82,7 @@ Wartezimmer.
 <div class="box box-tipp"><strong>Tipp:</strong> Möchtest du ein Wunschkennzeichen,
 reservier es am besten <strong>vorher</strong> separat und nimm die Kombination in
 den i-Kfz-Antrag mit. Wie das geht, zeige ich dir unter
-[Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren).</div>
+<a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen reservieren</a>.</div>
 
 ## Schritt 3: Gebühren zahlen und absenden
 
@@ -97,7 +97,7 @@ Freigabe. Wo noch ein Mensch draufschaut, dauert es entsprechend etwas länger.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die volldigitale Variante
 ohne manuelle Nachbearbeitung gibt es erst seit der jüngsten Ausbaustufe. Mehr dazu
-findest du unter [i-Kfz Stufe 4](/ratgeber/i-kfz-stufe-4).</div>
+findest du unter <a href="/ratgeber/i-kfz-stufe-4">i-Kfz Stufe 4</a>.</div>
 
 ## Schritt 4: Vorläufige Zulassung – ab jetzt darfst du fahren
 
@@ -114,7 +114,7 @@ bis irgendwelche Briefe ankommen.
 vorläufigen Gültigkeit und einzelne Abläufe können sich je nach Bundesland und
 Zulassungsbezirk unterscheiden. Sieh die Angaben hier als realistische
 Orientierung – ohne Gewähr und ohne Rechtsrat. Die rechtliche Grundlage ist die
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).</div>
+<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.</div>
 
 ## Schritt 5: Schilder prägen und Plakette per Post
 
@@ -170,7 +170,7 @@ geprägten Schildern an. Eine bebilderte Anleitung liegt der Sendung bei.</div>
 <div class="box box-frage"><strong>Geht das auch für einen Gebrauchtwagen?</strong>
 Ja. Sowohl Halterwechsel als auch Ummeldung laufen über i-Kfz. Worauf du dabei
 achten musst, steht im Ratgeber zum
-[Gebrauchtwagen zulassen](/ratgeber/gebrauchtwagen-zulassen).</div>
+<a href="/ratgeber/gebrauchtwagen-zulassen">Gebrauchtwagen zulassen</a>.</div>
 
 ## Fazit
 

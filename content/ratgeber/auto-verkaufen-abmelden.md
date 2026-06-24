@@ -43,7 +43,7 @@ Zulassungsstelle auf sich um. Den Ablauf habe ich dir im
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Verkaufst du ein fahrbereites
 Auto, lass den Käufer ummelden statt selbst abzumelden. Eine Abmeldung würde den
-Käufer zwingen, mit [Kurzzeitkennzeichen](/ratgeber/kurzzeitkennzeichen) oder
+Käufer zwingen, mit <a href="/ratgeber/kurzzeitkennzeichen">Kurzzeitkennzeichen</a> oder
 Überführung zu hantieren – das schreckt Interessenten eher ab.</div>
 
 ## Wenn der Käufer ummeldet: das musst du absichern
@@ -78,7 +78,7 @@ Diese Punkte gehören für die **Kaufvertrag-Auto-Abmeldung** unbedingt rein:
 - eine Klausel, dass der Käufer das Fahrzeug **unverzüglich ummeldet**
 
 <div class="box box-check"><strong>Das brauchst du beim Verkauf:</strong>
-Zulassungsbescheinigung Teil I und II ([Fahrzeugschein und -brief](/ratgeber/zulassungsbescheinigung)),
+Zulassungsbescheinigung Teil I und II (<a href="/ratgeber/zulassungsbescheinigung">Fahrzeugschein und -brief</a>),
 gültige HU-Bescheinigung, beide Kennzeichen am Fahrzeug, Kaufvertrag in zweifacher
 Ausfertigung und eine Ausweiskopie des Käufers für deine Veräußerungsanzeige.</div>
 
@@ -99,7 +99,7 @@ Auch hier zeigt sich: Je schneller der Käufer ummeldet, desto besser für dich.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Eine Ummeldung kostet
 den Käufer meist <strong>rund 25–40 €</strong> plus eventuell neue
-[Schilder bei Kreiswechsel](/ratgeber/auto-ummelden-kreiswechsel) (ca. 20–35 €).
+<a href="/ratgeber/auto-ummelden-kreiswechsel">Schilder bei Kreiswechsel</a> (ca. 20–35 €).
 Für dich als Verkäufer ist die Veräußerungsanzeige in vielen Bezirken
 <strong>kostenlos</strong> oder kostet nur wenige Euro – ein günstiger Preis für
 deine Absicherung.</div>
@@ -159,7 +159,7 @@ warst.</div>
 
 <div class="box box-frage"><strong>Kann der Käufer das Auto bei seiner eigenen
 Zulassungsstelle ummelden?</strong> Ja. Seit der i-Kfz-Reform ist der Halterwechsel
-bundesweit möglich, oft sogar [online über i-Kfz](/ratgeber/i-kfz-online-zulassung) –
+bundesweit möglich, oft sogar <a href="/ratgeber/i-kfz-online-zulassung">online über i-Kfz</a> –
 unabhängig davon, wo das Auto vorher zugelassen war.</div>
 
 ## Fazit

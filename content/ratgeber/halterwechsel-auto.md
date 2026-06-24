@@ -95,7 +95,7 @@ Familie weitergegeben wird, muss der neue Halter eingetragen werden.
 
 <div class="box box-frage"><strong>Reicht es, wenn der Käufer einfach weiterfährt?</strong>
 Nein. Solange du eingetragen bist, haftest du als Halter mit. Bestehe auf der
-Ummeldung und sichere dich mit einer [Verkaufsabmeldung](/ratgeber/auto-verkaufen-abmelden)
+Ummeldung und sichere dich mit einer <a href="/ratgeber/auto-verkaufen-abmelden">Verkaufsabmeldung</a>
 ab, falls der Käufer trödelt.</div>
 
 ## Was kostet ein Halterwechsel?
@@ -144,7 +144,7 @@ es Streit um Bußgelder oder Steuern gibt.</div>
 
 <div class="box box-frage"><strong>Muss der alte Halter zur Zulassungsstelle mit?</strong>
 In der Regel nicht. Der neue Halter erledigt die Ummeldung allein, sofern er alle
-Papiere hat. Eine [Vollmacht](/ratgeber/zulassungsdienst-vollmacht) braucht es nur,
+Papiere hat. Eine <a href="/ratgeber/zulassungsdienst-vollmacht">Vollmacht</a> braucht es nur,
 wenn jemand Drittes das übernimmt.</div>
 
 <div class="box box-frage"><strong>Was passiert mit der Kfz-Steuer?</strong> Die Steuer
@@ -153,13 +153,13 @@ zahlt ab Umschreibung. Zu viel gezahlte Steuer wird dir anteilig erstattet.</div
 
 <div class="box box-frage"><strong>Und die Versicherung?</strong> Der bisherige Vertrag
 endet mit dem Halterwechsel. Der neue Halter braucht eine eigene
-[eVB-Nummer](/ratgeber/evb-nummer). Vergleiche vorher in Ruhe die
-[Kfz-Versicherung](/ratgeber/kfz-versicherung-vergleich), das spart oft mehr als die
+<a href="/ratgeber/evb-nummer">eVB-Nummer</a>. Vergleiche vorher in Ruhe die
+<a href="/ratgeber/kfz-versicherung-vergleich">Kfz-Versicherung</a>, das spart oft mehr als die
 Umschreibegebühr.</div>
 
 <div class="box box-frage"><strong>Kann ich mein Kennzeichen behalten?</strong> Als
 verkaufender Halter ja – du kannst dein Wunschkennzeichen
-[mitnehmen und reservieren](/ratgeber/wunschkennzeichen-reservieren), wenn du es fürs
+<a href="/ratgeber/wunschkennzeichen-reservieren">mitnehmen und reservieren</a>, wenn du es fürs
 nächste Auto nutzen willst. Sonst geht es an den neuen Halter oder wird eingezogen.</div>
 
 ## Fazit

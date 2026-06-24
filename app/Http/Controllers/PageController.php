@@ -409,6 +409,11 @@ class PageController extends Controller
             ]),
         ];
 
+        // FAQPage-Schema aus den sichtbaren „box-frage"-FAQ-Boxen des Artikels.
+        if ($faq = $this->faqSchema((string) $a->body)) {
+            $schemas[] = $faq;
+        }
+
         return view('pages.ratgeber-show', [
             'title'       => $a->seoMeta?->title ?? ($a->titel.' — Ratgeber'),
             'description' => $a->seoMeta?->description ?? (string) $a->intro,
@@ -458,5 +463,46 @@ class PageController extends Controller
             ];
         }
         return ['@context' => 'https://schema.org', '@type' => 'BreadcrumbList', 'itemListElement' => $elements];
+    }
+
+    /**
+     * Baut ein FAQPage-Schema aus den „box-frage"-Boxen des Artikels.
+     * Erwartet Blöcke der Form <div class="box box-frage"><strong>Frage</strong> Antwort</div>.
+     * Gibt nur dann ein Schema zurück, wenn mindestens zwei valide FAQs vorliegen.
+     */
+    private function faqSchema(string $body): ?array
+    {
+        if (! preg_match_all('~<div class="box box-frage">(.*?)</div>~s', $body, $m)) {
+            return null;
+        }
+
+        $faqs = [];
+        foreach ($m[1] as $block) {
+            if (! preg_match('~<strong>(.*?)</strong>(.*)~s', $block, $qa)) {
+                continue;
+            }
+            $frage   = $this->cleanFaq($qa[1]);
+            $antwort = $this->cleanFaq($qa[2]);
+            if ($frage === '' || $antwort === '') {
+                continue;
+            }
+            $faqs[] = [
+                '@type'          => 'Question',
+                'name'           => $frage,
+                'acceptedAnswer' => ['@type' => 'Answer', 'text' => $antwort],
+            ];
+        }
+
+        if (count($faqs) < 2) {
+            return null;
+        }
+
+        return ['@context' => 'https://schema.org', '@type' => 'FAQPage', 'mainEntity' => $faqs];
+    }
+
+    /** Entfernt HTML, dekodiert Entities und normalisiert Whitespace für FAQ-Texte. */
+    private function cleanFaq(string $s): string
+    {
+        return trim(preg_replace('/\s+/u', ' ', html_entity_decode(strip_tags($s), ENT_QUOTES)));
     }
 }

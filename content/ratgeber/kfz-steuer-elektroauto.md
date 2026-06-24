@@ -78,7 +78,7 @@ weiter, sie wird nicht zurückgesetzt. Wenn du also 2026 ein E-Auto mit
 Erstzulassung 2022 kaufst, profitierst du noch bis 2030 von der Steuerfreiheit.
 
 <div class="box box-check"><strong>Das brauchst du, um es zu prüfen:</strong>
-Wirf einen Blick in die [Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung)
+Wirf einen Blick in die <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a>
 Teil I. Unter „B" steht das Datum der Erstzulassung – ab diesem Tag läuft deine
 Befreiungsfrist. Die Antriebsart erkennst du an Feld „P.3" (Kraftstoffart:
 „Elektro").</div>
@@ -114,7 +114,7 @@ das du in Strom, Reifen oder schlicht in den Tank deiner Urlaubskasse steckst.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Lass dich nicht nur von der
 Steuerbefreiung leiten. Rechne die Gesamtkosten – Anschaffung, Strom,
-[Versicherung](/ratgeber/kfz-versicherung-vergleich) und Wertverlust – zusammen.
+<a href="/ratgeber/kfz-versicherung-vergleich">Versicherung</a> und Wertverlust – zusammen.
 Die Steuerersparnis ist ein schöner Bonus, aber selten allein der entscheidende
 Posten.</div>
 
@@ -143,11 +143,11 @@ emissionsarme Verbrenner.</div>
 
 <div class="box box-frage"><strong>Was passiert, wenn ich ein E-Auto aus dem
 Ausland importiere?</strong> Entscheidend ist die deutsche Erstzulassung. Beim
-[Import und der Zulassung](/ratgeber/gebrauchtwagen-zulassen) zählt das Datum, an
+<a href="/ratgeber/gebrauchtwagen-zulassen">Import und der Zulassung</a> zählt das Datum, an
 dem das Fahrzeug hier erstmals zugelassen wurde.</div>
 
 <div class="box box-frage"><strong>Verliere ich die Befreiung beim Umzug oder
-Ummelden?</strong> Nein. Beim [Ummelden mit Kreiswechsel](/ratgeber/auto-ummelden-kreiswechsel)
+Ummelden?</strong> Nein. Beim <a href="/ratgeber/auto-ummelden-kreiswechsel">Ummelden mit Kreiswechsel</a>
 oder ohne läuft die Befreiungsfrist unverändert weiter – sie hängt am Fahrzeug,
 nicht am Wohnort.</div>
 

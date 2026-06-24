@@ -65,7 +65,7 @@ der ich sie selbst zusammenpacke:
 <div class="box box-tipp"><strong>Tipp:</strong> Die eVB-Nummer bekommst du von
 deiner Versicherung meist in Minuten – telefonisch oder online. Ohne sie läuft
 gar nichts, also besorg sie <strong>vor</strong> dem Behördengang. Wie sie
-funktioniert, erklärt der [Ratgeber zur eVB-Nummer](/ratgeber/evb-nummer).</div>
+funktioniert, erklärt der <a href="/ratgeber/evb-nummer">Ratgeber zur eVB-Nummer</a>.</div>
 
 Stammt das Fahrzeug aus einem anderen Zulassungsbezirk, ist das heute kein
 Problem mehr. Seit der Kennzeichen-Reform darfst du das alte Unterscheidungszeichen
@@ -100,7 +100,7 @@ befestigst die Schilder und darfst sofort fahren.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Das Prägen der Schilder
 und das Anbringen der Plaketten erledigst du nach der Zuteilung. Mehr zum
-[Nummernschild prägen](/ratgeber/nummernschild-pragen) findest du im eigenen
+<a href="/ratgeber/nummernschild-pragen">Nummernschild prägen</a> findest du im eigenen
 Ratgeber – online sind die Schilder fast immer günstiger als am Amt.</div>
 
 ## Geht das auch online? i-Kfz beim Gebrauchtwagen
@@ -167,7 +167,7 @@ Mehr Hintergrund zu Fristen und Pflichten liefert dir der
 <div class="box box-frage"><strong>Kann ich das alte Kennzeichen behalten?</strong>
 Seit der Reform ist die Mitnahme bundesweit möglich – auch über Kreisgrenzen
 hinweg. Du sparst dir damit neue Schilder. Details im
-[Ratgeber Kennzeichen mitnehmen](/ratgeber/wunschkennzeichen-mitnehmen).</div>
+<a href="/ratgeber/wunschkennzeichen-mitnehmen">Ratgeber Kennzeichen mitnehmen</a>.</div>
 
 <div class="box box-frage"><strong>Muss der Verkäufer dabei sein?</strong> Nein.
 Du brauchst nur die vollständigen Papiere und den Kaufvertrag. Eine Vollmacht des
@@ -176,7 +176,7 @@ Verkäufers ist nicht nötig, solange du Teil II besitzt.</div>
 <div class="box box-frage"><strong>Wie schnell muss ich umschreiben?</strong>
 Sobald du Halter wirst, solltest du das Fahrzeug zeitnah auf dich anmelden. Fährst
 du es nicht angemeldet, drohen Probleme – siehe
-[Fahren ohne Zulassung](/ratgeber/fahren-ohne-zulassung).</div>
+<a href="/ratgeber/fahren-ohne-zulassung">Fahren ohne Zulassung</a>.</div>
 
 <div class="box box-frage"><strong>Welche Unterlagen brauche ich zum Gebrauchtwagen
 ummelden mindestens?</strong> Ausweis, Zulassungsbescheinigung Teil I und II,

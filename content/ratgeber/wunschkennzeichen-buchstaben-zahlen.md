@@ -43,10 +43,10 @@ vorgegeben, je nachdem, wo dein Auto angemeldet wird. Den zweiten Teil – Buchs
 und Zahlen – darfst du dir aussuchen. Genau das macht das Wunschkennzeichen aus.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Welche Ortskürzel es
-gibt und welche [Altkennzeichen](/altkennzeichen) wieder erlaubt sind, hat nichts
+gibt und welche <a href="/altkennzeichen">Altkennzeichen</a> wieder erlaubt sind, hat nichts
 mit deiner Wunsch-Kombination zu tun. Das Kürzel ist fix – frei wählbar ist nur
 der hintere Teil. Eine Übersicht findest du in unseren
-[Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen).</div>
+<a href="/ratgeber/kennzeichen-abkurzungen">Kennzeichen-Abkürzungen</a>.</div>
 
 ## Wie viele Zeichen sind beim Kennzeichen maximal erlaubt?
 
@@ -84,7 +84,7 @@ Prägen abläuft, liest du im Ratgeber
 [Nummernschild prägen](/ratgeber/nummernschild-pragen).
 
 <div class="box box-tipp"><strong>Tipp:</strong> Willst du es besonders kompakt,
-geh auf ein [kurzes Kennzeichen](/ratgeber/kurzes-kennzeichen) mit nur wenigen
+geh auf ein <a href="/ratgeber/kurzes-kennzeichen">kurzes Kennzeichen</a> mit nur wenigen
 Zeichen. Das wirkt aufgeräumt, passt auch an kleine Motorräder und sieht an
 sportlichen Autos einfach gut aus.</div>
 
@@ -136,7 +136,7 @@ wer ohnehin auf eine kurze Kombi steht, spart hier ein paar Cent.
 Standardschilder kosten je nach Anbieter etwa <strong>20–35 €</strong>. Die
 Reservierung deiner Wunsch-Kombi schlägt mit rund <strong>10–13 €</strong> zu
 Buche – unabhängig davon, ob du zwei oder sechs Zeichen wählst. Details findest du
-im Ratgeber zu den [Wunschkennzeichen-Kosten](/ratgeber/wunschkennzeichen-kosten).</div>
+im Ratgeber zu den <a href="/ratgeber/wunschkennzeichen-kosten">Wunschkennzeichen-Kosten</a>.</div>
 
 Ob du am Ende online oder vor Ort reservierst, macht für die Zeichenregeln keinen
 Unterschied. Praktisch ist der digitale Weg trotzdem: Du siehst sofort, ob deine

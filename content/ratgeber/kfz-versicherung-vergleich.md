@@ -89,7 +89,7 @@ du beim Vergleich an den richtigen Schrauben drehst, sparst du zusätzlich:
 - **Stellplatz**: Garage statt Straße kann den Beitrag senken
 
 <div class="box box-check"><strong>Das brauchst du für den Vergleich:</strong>
-Fahrzeugschein bzw. [Zulassungsbescheinigung Teil I](/ratgeber/zulassungsbescheinigung)
+Fahrzeugschein bzw. <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a>
 mit HSN/TSN, deine aktuelle SF-Klasse, die jährliche Fahrleistung, dein
 Zulassungsbezirk und Angaben zu den Fahrern. Mit diesen Daten dauert ein
 Online-Vergleich keine zehn Minuten.</div>
@@ -124,8 +124,8 @@ Der Wechsel ist einfacher, als die meisten denken. So gehe ich jedes Jahr vor:
 <div class="box box-info"><strong>Gut zu wissen:</strong> Neben dem regulären
 Stichtag gibt es ein <strong>Sonderkündigungsrecht</strong> – etwa nach einer
 Beitragserhöhung oder im Schadenfall. Dann kannst du auch mitten im Jahr wechseln.
-Beim ohnehin geplanten [Halterwechsel](/ratgeber/halterwechsel-auto) oder
-[Auto ummelden](/ratgeber/auto-ummelden) ist ein neuer Tarif ebenfalls ein guter
+Beim ohnehin geplanten <a href="/ratgeber/halterwechsel-auto">Halterwechsel</a> oder
+<a href="/ratgeber/auto-ummelden">Auto ummelden</a> ist ein neuer Tarif ebenfalls ein guter
 Anlass zum Vergleich.</div>
 
 Übrigens: Beim Wechsel des Fahrzeugs nimmst du deine SF-Klasse mit – genauso wie du
@@ -167,7 +167,7 @@ Dann greift in der Regel ein Sonderkündigungsrecht von einem Monat.</div>
 <div class="box box-frage"><strong>Wie hängt die Versicherung mit der Kfz-Steuer
 zusammen?</strong> Gar nicht direkt – das sind zwei getrennte Posten. Was dein
 Fahrzeug an Steuer kostet, kannst du im Ratgeber
-[Kfz-Steuer berechnen](/ratgeber/kfz-steuer-berechnen) nachsehen.</div>
+<a href="/ratgeber/kfz-steuer-berechnen">Kfz-Steuer berechnen</a> nachsehen.</div>
 
 ## Fazit
 

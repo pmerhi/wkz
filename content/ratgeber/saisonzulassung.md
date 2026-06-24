@@ -159,12 +159,12 @@ nächste Saison von selbst wieder – ohne Behördengang.</div>
 
 <div class="box box-frage"><strong>Kann ich ein Saisonkennzeichen bei einem
 Umzug mitnehmen?</strong> Seit der Kennzeichenreform ist die Mitnahme bundesweit
-möglich. Mehr dazu im [Ratgeber Wunschkennzeichen mitnehmen](/ratgeber/wunschkennzeichen-mitnehmen).</div>
+möglich. Mehr dazu im <a href="/ratgeber/wunschkennzeichen-mitnehmen">Ratgeber Wunschkennzeichen mitnehmen</a>.</div>
 
 <div class="box box-frage"><strong>Lohnt sich die Saisonzulassung für mein
 Motorrad?</strong> In den meisten Fällen ja. Maschinen stehen im Winter ohnehin
-still – mehr Infos beim [ADAC](https://www.adac.de) und im
-[Motorrad-Ratgeber](/ratgeber/wunschkennzeichen-motorrad).</div>
+still – mehr Infos beim <a href="https://www.adac.de" rel="nofollow noopener" target="_blank">ADAC</a> und im
+<a href="/ratgeber/wunschkennzeichen-motorrad">Motorrad-Ratgeber</a>.</div>
 
 ## Fazit
 

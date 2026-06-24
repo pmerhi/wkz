@@ -22,7 +22,7 @@ fährst du im rechtlichen Niemandsland – und das kann richtig teuer werden.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die Betriebserlaubnis
 bescheinigt, dass ein Fahrzeug oder ein Bauteil den geltenden Vorschriften der
-[StVZO](https://www.gesetze-im-internet.de/stvzo_2012/) entspricht. Sie ist die
+<a href="https://www.gesetze-im-internet.de/stvzo_2012/" rel="nofollow noopener" target="_blank">StVZO</a> entspricht. Sie ist die
 Grundlage dafür, dass dein Auto überhaupt zugelassen werden darf.</div>
 
 ## Was ist eine Betriebserlaubnis überhaupt?
@@ -60,7 +60,7 @@ die Wirkung der ABE.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Verbaust du Teile ohne
 gültige Genehmigung oder missachtest die Auflagen, kann die
-[Betriebserlaubnis deines Fahrzeugs erlöschen](/ratgeber/betriebserlaubnis-erloschen).
+<a href="/ratgeber/betriebserlaubnis-erloschen">Betriebserlaubnis deines Fahrzeugs erlöschen</a>.
 Dann ist dein Auto faktisch nicht mehr zugelassen – mit allen rechtlichen Folgen.
 Angaben hier ohne Gewähr, regionale Auslegung kann abweichen.</div>
 
@@ -94,7 +94,7 @@ Serien-Genehmigung nicht mehr greift, brauchst du die EBE.
 <div class="box box-frage"><strong>Und bei einem importierten Auto?</strong> Fahrzeuge
 ohne EU-Typgenehmigung – etwa aus den USA – benötigen meist ebenfalls eine
 Einzelabnahme. Mehr dazu im Ratgeber zum
-[Auto-Import außerhalb der EU](/ratgeber/auto-import-nicht-eu).</div>
+<a href="/ratgeber/auto-import-nicht-eu">Auto-Import außerhalb der EU</a>.</div>
 
 ## Was kostet eine Betriebserlaubnis?
 
@@ -136,13 +136,13 @@ das Risiko, am Ende ohne Versicherungsschutz dazustehen.</div>
 
 <div class="box box-frage"><strong>Ist die Betriebserlaubnis dasselbe wie der
 Fahrzeugschein?</strong> Nein. Der frühere Fahrzeugschein – heute
-[Zulassungsbescheinigung Teil I](/ratgeber/zulassungsbescheinigung) – dokumentiert
+<a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a> – dokumentiert
 die Zulassung. Die Betriebserlaubnis ist die technische Grundlage dahinter.</div>
 
 <div class="box box-frage"><strong>Erlischt die ABE durch jedes Zubehörteil?</strong>
 Nicht durch jedes. Kleinere, genehmigte Teile mit eigener ABE sind unkritisch.
 Sicherheitsrelevante Änderungen ohne Genehmigung können die
-[Betriebserlaubnis erlöschen lassen](/ratgeber/betriebserlaubnis-erloschen).</div>
+<a href="/ratgeber/betriebserlaubnis-erloschen">Betriebserlaubnis erlöschen lassen</a>.</div>
 
 <div class="box box-frage"><strong>Brauche ich für eine andere Felge immer eine
 Eintragung?</strong> Nur wenn die Felge keine passende ABE mit erfüllbaren Auflagen

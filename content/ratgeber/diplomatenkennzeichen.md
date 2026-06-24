@@ -22,7 +22,7 @@ ablesen, aus welchem Land jemand kommt und welchen Rang er hat. Genau das
 schauen wir uns jetzt in Ruhe an.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Diplomatenkennzeichen
-sind keine eigene Kennzeichenfarbe wie das [grüne Kennzeichen](/ratgeber/grunes-kennzeichen),
+sind keine eigene Kennzeichenfarbe wie das <a href="/ratgeber/grunes-kennzeichen">grüne Kennzeichen</a>,
 sondern reguläre schwarz-weiße Schilder mit einer besonderen Zahlensystematik.
 Erkennbar sind sie vor allem an der führenden <strong>0</strong> und an den
 Kürzeln <strong>CD</strong> oder <strong>CC</strong>.</div>
@@ -160,7 +160,7 @@ völkerrechtlich jedoch eingeschränkt.</div>
 <div class="box box-frage"><strong>Kann ich selbst ein CD-Kennzeichen
 bekommen?</strong> Nein. Es ist an den diplomatischen oder konsularischen Status
 gebunden. Als Privatperson wählst du stattdessen ein reguläres
-[Wunschkennzeichen mit eigenen Buchstaben und Zahlen](/ratgeber/wunschkennzeichen-buchstaben-zahlen).</div>
+<a href="/ratgeber/wunschkennzeichen-buchstaben-zahlen">Wunschkennzeichen mit eigenen Buchstaben und Zahlen</a>.</div>
 
 ## Fazit
 

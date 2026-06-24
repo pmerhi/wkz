@@ -69,7 +69,7 @@ Euro-Feld hat sie nur elegant ins Nummernschild integriert.
 Länderkennzeichen nicht mit dem regionalen <strong>Unterscheidungszeichen</strong>
 (z. B. „M" für München). Ersteres steht im blauen Feld, Letzteres ist der erste
 Teil deiner Kennung. Welche Kürzel für welche Stadt stehen, findest du in meiner
-Übersicht der [Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen).</div>
+Übersicht der <a href="/ratgeber/kennzeichen-abkurzungen">Kennzeichen-Abkürzungen</a>.</div>
 
 ## Reicht das Euro-Feld wirklich im ganzen Ausland?
 
@@ -86,7 +86,7 @@ UK-Zeichen wieder gefragt.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Welche Länder das Euro-Feld
 akzeptieren, ändert sich gelegentlich, und die Anforderungen unterscheiden sich
 von Staat zu Staat. Prüfe vor einer Fernreise immer die aktuellen Einreise-
-und Verkehrsregeln deines Ziellandes – etwa beim [ADAC](https://www.adac.de).
+und Verkehrsregeln deines Ziellandes – etwa beim <a href="https://www.adac.de" rel="nofollow noopener" target="_blank">ADAC</a>.
 Diese Angaben hier sind eine Orientierung ohne Gewähr, kein Rechtsrat.</div>
 
 Mein pragmatischer Rat: Wer viel im außereuropäischen Ausland unterwegs ist oder
@@ -107,7 +107,7 @@ oder das Auto [ummeldet](/ratgeber/auto-ummelden), wechselt also spätestens dan
 auf das Euro-Feld – freiwillig oder nicht.
 
 <div class="box box-frage"><strong>Und bei einem H-Kennzeichen?</strong> Oldtimer
-mit [H-Kennzeichen](/ratgeber/h-kennzeichen) tragen oft bewusst kein Euro-Feld, um
+mit <a href="/ratgeber/h-kennzeichen">H-Kennzeichen</a> tragen oft bewusst kein Euro-Feld, um
 den historischen Look zu wahren – das ist erlaubt. Auch hier gilt: kein Zwang, aber
 auch kein automatischer EU-Schutz im Ausland.</div>
 
@@ -147,7 +147,7 @@ ein D-Schild brauchst du dort in der Regel nicht.</div>
 <div class="box box-frage"><strong>Kann ich ein Wunschkennzeichen mit Euro-Feld
 kombinieren?</strong> Selbstverständlich. Das Euro-Feld ist Teil jedes modernen
 Schilds – deine Wunschkombination steht einfach rechts daneben. Wie das geht,
-zeigt mein Ratgeber zum [Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren).</div>
+zeigt mein Ratgeber zum <a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen reservieren</a>.</div>
 
 ## Fazit
 

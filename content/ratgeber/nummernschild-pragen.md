@@ -94,8 +94,8 @@ Vorschau – ein guter Schutz vor Tippfehlern.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die Schilder allein
 melden dein Auto noch nicht an. Du brauchst weiterhin die eigentliche
-[Zulassung](/ratgeber/auto-anmelden) bei der Behörde oder bequem
-[online über i-Kfz](/ratgeber/i-kfz-online-zulassung). Erst die Stempelplakette
+<a href="/ratgeber/auto-anmelden">Zulassung</a> bei der Behörde oder bequem
+<a href="/ratgeber/i-kfz-online-zulassung">online über i-Kfz</a>. Erst die Stempelplakette
 macht aus dem geprägten Schild ein gültiges Kennzeichen.</div>
 
 ## Die Stempelplakette – der letzte Schritt
@@ -156,7 +156,7 @@ kommen Zulassungsgebühren und die Plakette – die Beträge variieren regional.
 
 <div class="box box-frage"><strong>Brauche ich für die Bestellung schon die
 Fahrzeugpapiere?</strong> Für die reine Prägung nicht – du brauchst nur die
-Kombination. Die [Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung) und
+Kombination. Die <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a> und
 weitere Dokumente brauchst du erst bei der eigentlichen Zulassung.</div>
 
 ## Fazit

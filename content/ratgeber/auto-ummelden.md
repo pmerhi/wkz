@@ -71,7 +71,7 @@ Rechtsberatung.</div>
 Die Kosten hängen davon ab, ob neue Schilder nötig sind:
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Ummeldung mit
-Kennzeichenmitnahme ca. **20–30 €** (keine Schilder). Mit neuem Kennzeichen kommen
+Kennzeichenmitnahme ca. <strong>20–30 €</strong> (keine Schilder). Mit neuem Kennzeichen kommen
 ca. 20–35 € für Schilder dazu. Die volle Aufstellung steht im Ratgeber zu den
 <a href="/ratgeber/zulassungskosten">Zulassungskosten</a>.</div>
 

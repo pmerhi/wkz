@@ -39,7 +39,7 @@ identifizieren sich stark mit ihrer Region. Aus diesem Wunsch heraus entstand di
 Idee, die alten Kürzel wieder freizugeben.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Ein Altkennzeichen ist
-technisch ein ganz normales [Unterscheidungszeichen](/kennzeichen). Es steht für
+technisch ein ganz normales <a href="/kennzeichen">Unterscheidungszeichen</a>. Es steht für
 einen Ort, gehört aber demselben heutigen Zulassungsbezirk an. Verwaltung, Steuer
 und Zulassung laufen völlig identisch – nur die Buchstaben vorn sind eben „alt".</div>
 
@@ -59,7 +59,7 @@ anderes nur ein paar Kilometer weiter nicht.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Welche Altkennzeichen
 verfügbar sind, hängt vom Bundesland und vom konkreten Zulassungsbezirk ab und kann
 sich ändern. Die Rechtsgrundlage findest du in der
-[Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2011/). Sieh
+<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung</a>. Sieh
 die Angaben hier als Orientierung – ohne Gewähr und ohne Rechtsrat.</div>
 
 ## Altkennzeichen-Liste: bekannte Beispiele
@@ -80,7 +80,7 @@ kleinere Landkreise, deren Kürzel im Gedächtnis der Menschen weiterlebt.
 
 <div class="box box-check"><strong>Das brauchst du, um es zu prüfen:</strong> deine
 Wohnort-Postleitzahl, den Namen deines aktuellen Zulassungsbezirks und einen Blick
-ins Online-Portal deiner [Zulassungsstelle](/zulassungsstelle). Dort siehst du,
+ins Online-Portal deiner <a href="/zulassungsstelle">Zulassungsstelle</a>. Dort siehst du,
 welche Kürzel – aktuelle wie alte – sich auswählen lassen.</div>
 
 ## Wie bekomme ich ein Altkennzeichen?
@@ -101,7 +101,7 @@ aufgeschrieben.
 <div class="box box-tipp"><strong>Mein Rat:</strong> Prüfe zuerst online, ob dein
 Wunsch-Altkürzel überhaupt verfügbar ist, und reserviere die Kombination erst dann.
 Bei einer Neuanmeldung kannst du das Altkennzeichen direkt mit der
-[Auto-Anmeldung](/ratgeber/auto-anmelden) verbinden.</div>
+<a href="/ratgeber/auto-anmelden">Auto-Anmeldung</a> verbinden.</div>
 
 Ob du den Gang zur Behörde oder den digitalen Weg wählst, bleibt dir überlassen.
 Viele Bezirke bieten die Auswahl des Kürzels inzwischen auch über die
@@ -147,7 +147,7 @@ Versicherung und Behörden behandeln sie genau wie jedes andere Kürzel.</div>
 <div class="box box-frage"><strong>Kann ich jedes alte Kürzel wählen?</strong> Nein.
 Verfügbar sind nur die Altkennzeichen, die dein Bundesland für deinen
 Zulassungsbezirk wieder freigegeben hat. Das prüfst du am besten direkt im Portal
-deiner [Zulassungsstelle](/zulassungsstelle).</div>
+deiner <a href="/zulassungsstelle">Zulassungsstelle</a>.</div>
 
 <div class="box box-frage"><strong>Muss ich im Altkennzeichen-Ort wohnen?</strong>
 In der Regel musst du im heutigen Zulassungsbezirk gemeldet sein, zu dem das alte
@@ -155,7 +155,7 @@ Kürzel gehört. Der exakte Wohnort innerhalb des Bezirks spielt meist keine Rol
 die Details regelt die jeweilige Behörde.</div>
 
 <div class="box box-frage"><strong>Kann ich mein Altkennzeichen bei Umzug
-mitnehmen?</strong> Seit der Reform ist die [Kennzeichenmitnahme](/ratgeber/wunschkennzeichen-mitnehmen)
+mitnehmen?</strong> Seit der Reform ist die <a href="/ratgeber/wunschkennzeichen-mitnehmen">Kennzeichenmitnahme</a>
 bundesweit möglich. Ziehst du allerdings in einen ganz anderen Bezirk, hängt es von
 der dortigen Freigabe ab, ob du das Kürzel behalten darfst.</div>
 

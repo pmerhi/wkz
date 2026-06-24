@@ -128,7 +128,7 @@ neuer Kosten.
 je nach Anlass etwa <strong>400–800 €</strong>. Rechnest du Abstinenznachweise
 (grob 100–200 € je Screening) und eine Verkehrstherapie oder Vorbereitung dazu,
 landest du realistisch schnell im Bereich von <strong>1.000–2.000 €</strong>. Mehr
-Details findest du im [Ratgeber zu den MPU-Kosten](/ratgeber/mpu-kosten).</div>
+Details findest du im <a href="/ratgeber/mpu-kosten">Ratgeber zu den MPU-Kosten</a>.</div>
 
 ## Was passiert nach der MPU?
 
@@ -152,7 +152,7 @@ ehrliche Aufarbeitung wichtiger als auswendig Gelerntes.</div>
 <div class="box box-frage"><strong>Kann ich die MPU ohne Vorbereitung
 bestehen?</strong> Theoretisch ja, praktisch selten. Gerade beim psychologischen
 Gespräch scheitern viele an fehlender Aufarbeitung. Eine gezielte
-[MPU-Vorbereitung](/ratgeber/mpu-vorbereitung) erhöht die Chancen deutlich.</div>
+<a href="/ratgeber/mpu-vorbereitung">MPU-Vorbereitung</a> erhöht die Chancen deutlich.</div>
 
 <div class="box box-frage"><strong>Was passiert, wenn ich durchfalle?</strong> Du
 kannst die MPU wiederholen. Ein negatives Gutachten musst du nicht einreichen –
@@ -161,7 +161,7 @@ nächsten Anlauf.</div>
 
 <div class="box box-frage"><strong>Verjährt eine MPU-Anordnung
 irgendwann?</strong> Eintragungen und damit verbundene Fristen können verfallen.
-Die Details dazu habe ich im [Ratgeber zur MPU-Verjährung](/ratgeber/mpu-verjahrung)
+Die Details dazu habe ich im <a href="/ratgeber/mpu-verjahrung">Ratgeber zur MPU-Verjährung</a>
 zusammengetragen – sie hängen stark vom Einzelfall ab.</div>
 
 <div class="box box-frage"><strong>Ist der Leistungstest schwer?</strong> Für die

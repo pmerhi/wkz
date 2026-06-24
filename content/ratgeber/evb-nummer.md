@@ -88,7 +88,7 @@ nach Tarif – Infos zu deinem Schadenfreiheitsrabatt.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Bevor du blind die erstbeste eVB
 nimmst, lohnt ein kurzer Blick auf die Tarife. Wer einen
-[Kfz-Versicherungsvergleich](/ratgeber/kfz-versicherung-vergleich) macht, sichert
+<a href="/ratgeber/kfz-versicherung-vergleich">Kfz-Versicherungsvergleich</a> macht, sichert
 sich oft günstigere Konditionen – und die eVB gibt's beim Abschluss meist gratis
 obendrauf.</div>
 
@@ -108,7 +108,7 @@ sein. Für die normale Zulassung gehst du aber besser direkt zur Versicherung.
 dich in der Regel <strong>0 €</strong>. Was Geld kostet, ist die Versicherung
 dahinter – und die brauchst du ohnehin. Plane für die eigentliche Zulassung dann noch
 die Behördengebühr (rund 30 €) und die Schilder (ca. 20–35 €) ein. Mehr dazu im
-[Ratgeber zu den Zulassungskosten](/ratgeber/zulassungskosten).</div>
+<a href="/ratgeber/zulassungskosten">Ratgeber zu den Zulassungskosten</a>.</div>
 
 ## Wie lange ist eine eVB-Nummer gültig?
 
@@ -161,7 +161,7 @@ Telefonisch geht es ähnlich schnell.</div>
 
 <div class="box box-frage"><strong>Brauche ich für ein Wunschkennzeichen eine eigene
 eVB?</strong> Nein, es ist dieselbe eVB wie für jede Zulassung. Das
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) selbst reservierst du
+<a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen</a> selbst reservierst du
 unabhängig davon.</div>
 
 ## Fazit

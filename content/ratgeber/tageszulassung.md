@@ -151,11 +151,11 @@ zurückliegt, desto weniger Garantie bleibt dir.</div>
 <div class="box box-frage"><strong>Kann ich ein Wunschkennzeichen nutzen?</strong>
 Klar. Du meldest das Auto ganz normal auf dich an und kannst dabei dein
 Wunschkennzeichen wählen – siehe
-[Wunschkennzeichen online oder vor Ort](/ratgeber/wunschkennzeichen-online-vor-ort).</div>
+<a href="/ratgeber/wunschkennzeichen-online-vor-ort">Wunschkennzeichen online oder vor Ort</a>.</div>
 
 <div class="box box-frage"><strong>Ist die Tageszulassung steuerlich ein
 Neuwagen?</strong> Für die Kfz-Steuer wird nach den technischen Werten berechnet –
-du kannst sie vorab mit dem [Kfz-Steuer-Rechner](/ratgeber/kfz-steuer-berechnen)
+du kannst sie vorab mit dem <a href="/ratgeber/kfz-steuer-berechnen">Kfz-Steuer-Rechner</a>
 abschätzen. Beim Halterstatus bleibst du aber zweiter Halter.</div>
 
 ## Fazit

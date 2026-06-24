@@ -75,7 +75,7 @@ habe:
 
 <div class="box box-tipp"><strong>Tipp:</strong> Lass dir die Kennzeichen vom Betrieb
 nicht einfach „mitnehmen", bevor klar ist, was mit der Abmeldung passiert. Idealerweise
-werden die Schilder vor deinen Augen [entstempelt](/ratgeber/kennzeichen-entstempeln) –
+werden die Schilder vor deinen Augen <a href="/ratgeber/kennzeichen-entstempeln">entstempelt</a> –
 das ist der Beweis, dass das Kennzeichen aus dem Verkehr ist.</div>
 
 ## Was kostet es, ein Auto zu verschrotten?
@@ -120,7 +120,7 @@ Verwertungsnachweis.</div>
 
 <div class="box box-frage"><strong>Kann ich das Auto verschrotten, wenn der
 Fahrzeugbrief fehlt?</strong> Oft ja, aber es wird aufwendiger. Ist der
-[Fahrzeugbrief verloren](/ratgeber/fahrzeugbrief-verloren), solltest du das vorher mit
+<a href="/ratgeber/fahrzeugbrief-verloren">Fahrzeugbrief verloren</a>, solltest du das vorher mit
 Betrieb und Zulassungsstelle klären – teils ist eine eidesstattliche Versicherung nötig.</div>
 
 <div class="box box-frage"><strong>Muss ich das Auto erst abmelden oder erst
@@ -128,7 +128,7 @@ verschrotten?</strong> In der Regel zuerst verschrotten lassen: Du brauchst den
 Verwertungsnachweis, um die Abmeldung als Außerbetriebsetzung sauber durchzuführen.</div>
 
 <div class="box box-frage"><strong>Kann ich die Abmeldung online machen?</strong>
-Ja, die [Außerbetriebsetzung über i-Kfz](/ratgeber/i-kfz-online-zulassung) ist
+Ja, die <a href="/ratgeber/i-kfz-online-zulassung">Außerbetriebsetzung über i-Kfz</a> ist
 bundesweit möglich, wenn die Voraussetzungen erfüllt sind und die Schilder die nötigen
 Sicherheitscodes haben.</div>
 

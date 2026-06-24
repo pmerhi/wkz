@@ -39,7 +39,7 @@ oder Transportanhänger gilt: Der will angemeldet werden.
 <div class="box box-wichtig"><strong>Wichtig:</strong> „Anhänger anmelden" und
 „Anhänger zulassen" meinen im Behördendeutsch dasselbe. Wer ohne gültige
 Zulassung fährt, riskiert ein Bußgeld und im Schadensfall Ärger mit der
-Versicherung. Mehr dazu im Ratgeber [Fahren ohne Zulassung](/ratgeber/fahren-ohne-zulassung).</div>
+Versicherung. Mehr dazu im Ratgeber <a href="/ratgeber/fahren-ohne-zulassung">Fahren ohne Zulassung</a>.</div>
 
 ## Welche Unterlagen du für die Zulassung brauchst
 
@@ -48,7 +48,7 @@ Papiere fehlen. Deshalb lege ich dir alles vorher griffbereit hin. Das ist der
 Kern dessen, was du mitbringen musst.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis oder
-Reisepass mit Meldebescheinigung, die [Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung)
+Reisepass mit Meldebescheinigung, die <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a>
 Teil II (früher Fahrzeugbrief), bei gebrauchten Anhängern auch Teil I, eine
 gültige HU-Bescheinigung und die eVB-Nummer deiner Versicherung. Bei
 fabrikneuen Anhängern kommt die CoC-Bescheinigung oder Datenbestätigung dazu.</div>
@@ -60,7 +60,7 @@ fabrikneuen Modell vom Händler bekommst du die Papiere fix und fertig mitgelief
 
 <div class="box box-tipp"><strong>Tipp:</strong> Frag schon beim Kauf nach, ob für
 den Anhänger bereits eine HU vorliegt. Ist die Hauptuntersuchung abgelaufen,
-musst du erst zum [TÜV](https://www.tuev-verband.de) oder zu einer anderen
+musst du erst zum <a href="https://www.tuev-verband.de" rel="nofollow noopener" target="_blank">TÜV</a> oder zu einer anderen
 Prüforganisation, bevor die Zulassungsstelle dich überhaupt bedient.</div>
 
 ## Der TÜV: Auch Anhänger brauchen die Hauptuntersuchung
@@ -159,12 +159,12 @@ Anhänger Kennzeichen, das nicht mit dem des Zugfahrzeugs identisch ist.</div>
 
 <div class="box box-frage"><strong>Kann ich einen Anhänger als Saisonkennzeichen
 anmelden?</strong> Ja, das geht. Gerade bei Wohn- oder Bootsanhängern ist ein
-[Saisonkennzeichen](/ratgeber/saisonkennzeichen) sinnvoll, wenn du ihn nur in
+<a href="/ratgeber/saisonkennzeichen">Saisonkennzeichen</a> sinnvoll, wenn du ihn nur in
 bestimmten Monaten nutzt.</div>
 
 <div class="box box-frage"><strong>Muss ich den Anhänger ummelden, wenn ich
 umziehe?</strong> Beim Umzug in einen anderen Kreis ja – das läuft wie beim
-[Auto ummelden](/ratgeber/auto-ummelden). Innerhalb desselben Bezirks darfst du
+<a href="/ratgeber/auto-ummelden">Auto ummelden</a>. Innerhalb desselben Bezirks darfst du
 dein Kennzeichen meist behalten.</div>
 
 ## Fazit

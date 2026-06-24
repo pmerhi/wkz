@@ -43,7 +43,7 @@ zusammengefasst.
 <div class="box box-check"><strong>Das brauchst du beim Zulassen:</strong>
 Personalausweis, Zulassungsbescheinigung Teil I und II, eVB-Nummer der Versicherung,
 gültige HU und – bei Halterwechsel – den Kaufvertrag. Den gewünschten Zeitraum
-nennst du einfach an der [Zulassungsstelle](/zulassungsstelle).</div>
+nennst du einfach an der <a href="/zulassungsstelle">Zulassungsstelle</a>.</div>
 
 ## Saisonkennzeichen Kosten: Womit musst du rechnen?
 
@@ -86,7 +86,7 @@ Wähle den Betriebszeitraum nicht zu großzügig. Jeder zusätzliche Monat koste
 Versicherung und Steuer – auch wenn du gar nicht fährst.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Hol dir vor der Zulassung einen
-[Kfz-Versicherungsvergleich](/ratgeber/kfz-versicherung-vergleich). Nicht jeder
+<a href="/ratgeber/kfz-versicherung-vergleich">Kfz-Versicherungsvergleich</a>. Nicht jeder
 Anbieter rechnet die Saison gleich ab, und die Beiträge unterscheiden sich
 spürbar – gerade bei Motorrädern.</div>
 
@@ -159,7 +159,7 @@ gut.</div>
 
 <div class="box box-frage"><strong>Kann ich ein Saisonkennzeichen als Wunschkennzeichen
 nehmen?</strong> Ja. Du kannst dir die Kombination ganz normal aussuchen und
-[reservieren](/ratgeber/wunschkennzeichen-reservieren) – der Saison-Zusatz ändert
+<a href="/ratgeber/wunschkennzeichen-reservieren">reservieren</a> – der Saison-Zusatz ändert
 daran nichts.</div>
 
 <div class="box box-frage"><strong>Muss ich am Saisonende etwas tun?</strong> Nein.
@@ -169,7 +169,7 @@ wieder anmelden – das ist ja gerade der Vorteil.</div>
 <div class="box box-frage"><strong>Brauche ich eine gültige HU während der ganzen
 Saison?</strong> Ja. Die Hauptuntersuchung muss auch beim Saisonkennzeichen gültig
 sein. Läuft sie in der Pause ab, kümmere dich rechtzeitig vor dem Saisonstart darum.
-Infos dazu findest du beim [TÜV-Verband](https://www.tuev-verband.de).</div>
+Infos dazu findest du beim <a href="https://www.tuev-verband.de" rel="nofollow noopener" target="_blank">TÜV-Verband</a>.</div>
 
 ## Fazit
 

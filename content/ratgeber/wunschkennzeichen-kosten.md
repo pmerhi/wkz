@@ -135,8 +135,8 @@ normales?</strong> Nur minimal. Der eigentliche Aufpreis sind die wenigen Euro f
 Wunsch-Zuteilung und Reservierung – der Rest fällt sowieso an.</div>
 
 <div class="box box-frage"><strong>Sind Altkennzeichen teurer?</strong> Nein.
-Wieder eingeführte [Altkennzeichen](/altkennzeichen) kosten genauso viel wie jedes
-andere [Unterscheidungszeichen](/kennzeichen) – du zahlst ganz normal die
+Wieder eingeführte <a href="/altkennzeichen">Altkennzeichen</a> kosten genauso viel wie jedes
+andere <a href="/kennzeichen">Unterscheidungszeichen</a> – du zahlst ganz normal die
 Wunsch-Gebühr.</div>
 
 ## Fazit

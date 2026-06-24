@@ -157,7 +157,7 @@ Fahrschule nach.</div>
 
 <div class="box box-frage"><strong>Sind die Kosten bundesweit gleich?</strong>
 Nein. In Großstädten und Ballungsräumen zahlst du oft mehr als auf dem Land.
-Beim [ADAC](https://www.adac.de) findest du regelmäßig aktuelle Erhebungen zu den
+Beim <a href="https://www.adac.de" rel="nofollow noopener" target="_blank">ADAC</a> findest du regelmäßig aktuelle Erhebungen zu den
 durchschnittlichen Führerscheinkosten.</div>
 
 ## Fazit

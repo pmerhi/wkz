@@ -69,7 +69,7 @@ Schriftgröße passt. Frag im Zweifel bei deiner Zulassungsstelle nach, welches 
 für dein Modell freigegeben ist.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Wenn du dir ein
-[Wunschkennzeichen fürs Motorrad](/ratgeber/wunschkennzeichen-motorrad) sicherst,
+<a href="/ratgeber/wunschkennzeichen-motorrad">Wunschkennzeichen fürs Motorrad</a> sicherst,
 achte auf möglichst wenige Zeichen. Kurze Kombinationen passen besser auf den
 schmalen Heckbereich und sehen am Krad einfach harmonischer aus.</div>
 
@@ -84,8 +84,8 @@ aber problematisch sind stark angewinkelte Halter, die das Kennzeichen kaum noch
 lesbar machen. Das kann bei einer Kontrolle teuer werden.
 
 <div class="box box-check"><strong>Das brauchst du für die Zulassung:</strong>
-Personalausweis, [Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung) Teil I
-und II, [eVB-Nummer](/ratgeber/evb-nummer) der Versicherung, gültige HU und – bei
+Personalausweis, <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a> Teil I
+und II, <a href="/ratgeber/evb-nummer">eVB-Nummer</a> der Versicherung, gültige HU und – bei
 Gebrauchtkauf – den Kaufvertrag. Das geprägte Schild bringst du dann passend zur
 zugeteilten Kombination mit.</div>
 
@@ -140,7 +140,7 @@ Das spart dir die Kosten für das zweite geprägte Schild.</div>
 
 <div class="box box-frage"><strong>Kann ich ein Wunschkennzeichen fürs Motorrad
 nehmen?</strong> Ja. Du kannst dir wie beim Auto eine Wunschkombination
-[reservieren](/ratgeber/wunschkennzeichen-reservieren). Achte nur auf kurze
+<a href="/ratgeber/wunschkennzeichen-reservieren">reservieren</a>. Achte nur auf kurze
 Kombinationen, damit sie aufs kleinere Schild passen.</div>
 
 <div class="box box-frage"><strong>Muss das Motorradkennzeichen beleuchtet

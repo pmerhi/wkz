@@ -95,8 +95,8 @@ fehlende Sicherheitsausstattung schlagen zu Buche. Wer ohne gültige
 weniger, aber ein Verwarngeld ist auch hier drin.
 
 <div class="box box-check"><strong>Das brauchst du bei einer Kontrolle:</strong>
-Führerschein, [Zulassungsbescheinigung Teil I](/ratgeber/zulassungsbescheinigung),
-gültige [HU-Plakette](/ratgeber/hauptuntersuchung-tuv), Warndreieck, Warnweste und
+Führerschein, <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a>,
+gültige <a href="/ratgeber/hauptuntersuchung-tuv">HU-Plakette</a>, Warndreieck, Warnweste und
 einen vollständigen Verbandskasten. Fehlt etwas davon, droht ein Verwarngeld.</div>
 
 ## Punkte in Flensburg: ab wann wird der Lappen knapp?
@@ -150,8 +150,8 @@ ermitteln, kann dem Halter aber eine Fahrtenbuchauflage und eine Kostenpauschale
 auferlegt werden.</div>
 
 <div class="box box-frage"><strong>Wo finde ich die offiziellen Sätze?</strong> Eine
-gute Übersicht bietet der [Bußgeldkatalog](https://www.bussgeldkatalog.org), und beim
-[ADAC](https://www.adac.de) findest du die aktuellen Tabellen kompakt aufbereitet.</div>
+gute Übersicht bietet der <a href="https://www.bussgeldkatalog.org" rel="nofollow noopener" target="_blank">Bußgeldkatalog</a>, und beim
+<a href="https://www.adac.de" rel="nofollow noopener" target="_blank">ADAC</a> findest du die aktuellen Tabellen kompakt aufbereitet.</div>
 
 ## Fazit
 

@@ -98,7 +98,7 @@ Alter und deine Schadenfreiheitsklasse können hineinspielen.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Hol dir die eVB für das
 Kurzzeitkennzeichen über einen Online-Versicherer statt am Schalter. Die Preise
-schwanken stark – ein kurzer [Versicherungsvergleich](/ratgeber/kfz-versicherung-vergleich)
+schwanken stark – ein kurzer <a href="/ratgeber/kfz-versicherung-vergleich">Versicherungsvergleich</a>
 kann dir hier schnell 30 € und mehr sparen.</div>
 
 ## Die Kurzzeitkennzeichen Versicherung – ohne eVB geht nichts
@@ -118,7 +118,7 @@ in der Regel die <strong>Haftpflicht</strong> ab – also Schäden, die du ander
 zufügst. Eine Kaskoabdeckung für dein eigenes Fahrzeug ist nicht automatisch
 dabei. Bei einem hochwertigen Überführungsstück lohnt sich der Blick auf einen
 Zusatzschutz. Mehr zur eVB findest du im
-[eVB-Nummer-Ratgeber](/ratgeber/evb-nummer).</div>
+<a href="/ratgeber/evb-nummer">eVB-Nummer-Ratgeber</a>.</div>
 
 ## Wie lange gilt ein Kurzzeitkennzeichen?
 
@@ -169,12 +169,12 @@ variiert je nach Zulassungsbezirk.</div>
 
 <div class="box box-frage"><strong>Darf ich mit dem Kurzzeitkennzeichen ins
 Ausland fahren?</strong> Nicht überall. Manche Länder erkennen es an, andere
-nicht. Für den Export ist das [Ausfuhrkennzeichen](/ratgeber/ausfuhrkennzeichen)
+nicht. Für den Export ist das <a href="/ratgeber/ausfuhrkennzeichen">Ausfuhrkennzeichen</a>
 der sichere Weg. Kläre die Einreisebestimmungen vorher.</div>
 
 <div class="box box-frage"><strong>Was passiert mit den Schildern nach den fünf
 Tagen?</strong> Sie werden ungültig und du entsorgst sie. Eine Entstempelung wie
-beim normalen [Auto abmelden](/ratgeber/auto-abmelden) ist nicht nötig.</div>
+beim normalen <a href="/ratgeber/auto-abmelden">Auto abmelden</a> ist nicht nötig.</div>
 
 <div class="box box-frage"><strong>Kann ich das Kurzzeitkennzeichen
 verlängern?</strong> Nein. Brauchst du länger, beantragst du ein neues – mit

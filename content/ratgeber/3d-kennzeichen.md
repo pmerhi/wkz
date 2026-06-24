@@ -141,7 +141,7 @@ Vorschriften wissen will, findet beim [ADAC](https://www.adac.de) gute
 
 <div class="box box-frage"><strong>Sind 3D-Kennzeichen TÜV-konform?</strong>
 Ja, sofern sie nach DIN 74069 gefertigt sind und die Prüfzeichen tragen. Bei
-der [Hauptuntersuchung](/ratgeber/hauptuntersuchung-tuv) gibt es mit
+der <a href="/ratgeber/hauptuntersuchung-tuv">Hauptuntersuchung</a> gibt es mit
 normgerechten Schildern keine Beanstandung.</div>
 
 <div class="box box-frage"><strong>Sind Carbon-Kennzeichen verboten?</strong>
@@ -156,7 +156,7 @@ ziehen.</div>
 
 <div class="box box-frage"><strong>Kann ich mein 3D-Kennzeichen auch fürs
 Motorrad nutzen?</strong> Grundsätzlich ja – auch
-[Motorradkennzeichen](/ratgeber/motorradkennzeichen) gibt es in 3D-Optik,
+<a href="/ratgeber/motorradkennzeichen">Motorradkennzeichen</a> gibt es in 3D-Optik,
 solange sie der vorgeschriebenen Größe und Norm entsprechen.</div>
 
 ## Fazit

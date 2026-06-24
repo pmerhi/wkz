@@ -29,7 +29,7 @@ nach Hamburg ziehst. Du musst dein Auto zwar **ummelden**, aber das
 <div class="box box-info"><strong>Gut zu wissen:</strong> Genau dieser Effekt hat
 auch dazu geführt, dass viele alte Kürzel zurückgekehrt sind. Die wieder
 eingeführten Codes findest du in unserer
-[Altkennzeichen-Liste](/altkennzeichen).</div>
+<a href="/altkennzeichen">Altkennzeichen-Liste</a>.</div>
 
 ## So läuft die Kennzeichenmitnahme ab
 
@@ -40,7 +40,7 @@ es online) und meldest die neue Adresse. Dein Kennzeichen wird beibehalten.
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis mit
 neuer Meldeadresse, Zulassungsbescheinigung Teil I und II, eVB-Nummer und deine
 bisherigen Kennzeichen. Den genauen Ablauf findest du im
-[Ratgeber zum Auto ummelden](/ratgeber/auto-ummelden).</div>
+<a href="/ratgeber/auto-ummelden">Ratgeber zum Auto ummelden</a>.</div>
 
 Weil keine neuen Schilder nötig sind, ist dieser Weg oft der **günstigste**
 überhaupt – du sparst dir 20 bis 35 Euro für die Prägung.
@@ -48,7 +48,7 @@ Weil keine neuen Schilder nötig sind, ist dieser Weg oft der **günstigste**
 <div class="box box-kosten"><strong>Kostenvorteil:</strong> Ummeldung mit
 Kennzeichenmitnahme kostet meist nur die Verwaltungsgebühr von rund 20–30 €.
 Neue Schilder? Null. Mehr dazu im
-[Ratgeber zu den Zulassungskosten](/ratgeber/zulassungskosten).</div>
+<a href="/ratgeber/zulassungskosten">Ratgeber zu den Zulassungskosten</a>.</div>
 
 ## Schritt für Schritt: Kennzeichen mitnehmen
 

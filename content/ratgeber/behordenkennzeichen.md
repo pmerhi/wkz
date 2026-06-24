@@ -105,8 +105,8 @@ Systematik findest du in der [Fahrzeug-Zulassungsverordnung](https://www.gesetze
 die den rechtlichen Rahmen für alle Kennzeichen in Deutschland setzt.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Verwechsle Behördenkennzeichen
-nicht mit dem [grünen Kennzeichen](/ratgeber/grunes-kennzeichen) für
-steuerbefreite Fahrzeuge oder dem [roten Kennzeichen](/ratgeber/rotes-kennzeichen)
+nicht mit dem <a href="/ratgeber/grunes-kennzeichen">grünen Kennzeichen</a> für
+steuerbefreite Fahrzeuge oder dem <a href="/ratgeber/rotes-kennzeichen">roten Kennzeichen</a>
 für Händler. Das sind völlig andere Sonderformen – die Farbe oder Buchstabenwahl
 sagt jeweils etwas ganz Eigenes aus.</div>
 
@@ -125,7 +125,7 @@ gekennzeichnet (Blaulicht) unterwegs ist.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Für reguläre
 Verkehrsverstöße gelten auch für viele Behördenfahrzeuge dieselben Regeln wie für
-dich – ein Blick in den [Bußgeldkatalog](/ratgeber/bussgeldkatalog) lohnt sich
+dich – ein Blick in den <a href="/ratgeber/bussgeldkatalog">Bußgeldkatalog</a> lohnt sich
 also nicht nur für Privatleute. Im Einsatz mit Blaulicht greifen dagegen
 Sonderrechte.</div>
 
@@ -160,7 +160,7 @@ Hoheits- und Bundesfahrzeuge.</div>
 
 <div class="box box-frage"><strong>Bekommen Behördenfahrzeuge eine HU?</strong>
 Ja, auch Dienstfahrzeuge müssen verkehrssicher sein und durchlaufen technische
-Prüfungen ähnlich der [Hauptuntersuchung](/ratgeber/hauptuntersuchung-tuv). Details
+Prüfungen ähnlich der <a href="/ratgeber/hauptuntersuchung-tuv">Hauptuntersuchung</a>. Details
 können je nach Behörde geregelt sein.</div>
 
 ## Fazit

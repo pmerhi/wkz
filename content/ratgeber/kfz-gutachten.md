@@ -67,7 +67,7 @@ Umbauten oder eine [erloschene Betriebserlaubnis](/ratgeber/betriebserlaubnis-er
 benötigst.
 
 <div class="box box-check"><strong>Das brauchst du für die Begutachtung:</strong>
-Fahrzeugschein bzw. [Zulassungsbescheinigung Teil I](/ratgeber/zulassungsbescheinigung),
+Fahrzeugschein bzw. <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a>,
 Serviceheft und Reparaturnachweise, eventuell den Kaufvertrag, eine Übersicht der
 Sonderausstattung und – bei Unfallschäden – die Daten des Unfallgegners.</div>
 
@@ -180,7 +180,7 @@ genügt oft eine Online-Bewertung. Bei wertvollen oder strittigen Fahrzeugen sch
 ein Gutachten aber Vertrauen und beugt Streit vor.</div>
 
 <div class="box box-frage"><strong>Ist ein Gutachten dasselbe wie die HU beim
-TÜV?</strong> Nein. Die [Hauptuntersuchung](/ratgeber/hauptuntersuchung-tuv) prüft
+TÜV?</strong> Nein. Die <a href="/ratgeber/hauptuntersuchung-tuv">Hauptuntersuchung</a> prüft
 nur die Verkehrssicherheit. Ein Wert- oder Schadengutachten bewertet dagegen Wert
 und Schäden – das sind völlig verschiedene Dinge.</div>
 

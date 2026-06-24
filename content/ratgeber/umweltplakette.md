@@ -37,7 +37,7 @@ Schadstoffgruppe 1 bekommen gar keine Plakette – sie dürfen in keine Umweltzo
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Maßgeblich für deine
 Schadstoffgruppe ist die Emissionsschlüsselnummer in der
-[Zulassungsbescheinigung Teil I](/ratgeber/zulassungsbescheinigung). Sie steht im
+<a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a>. Sie steht im
 Feld 14.1 – die letzten beiden Ziffern verraten dem Prüfer sofort, welche Plakette
 dir zusteht.</div>
 
@@ -81,7 +81,7 @@ Bußgeldern ein lächerlich kleiner Betrag – mehr dazu gleich.</div>
 <div class="box box-tipp"><strong>Mein Rat:</strong> Lass dir die Plakette gleich
 bei der nächsten HU mitgeben. Du sparst dir den Extraweg, und die Prüfstelle hat
 deine Fahrzeugdaten ohnehin schon vorliegen. Beim
-[Auto anmelden](/ratgeber/auto-anmelden) kannst du sie ebenfalls direkt mitnehmen.</div>
+<a href="/ratgeber/auto-anmelden">Auto anmelden</a> kannst du sie ebenfalls direkt mitnehmen.</div>
 
 ## Was ist eine Umweltzone – und wo gilt sie?
 
@@ -98,7 +98,7 @@ also überall innerhalb der Begrenzung.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die Regeln unterscheiden
 sich von Stadt zu Stadt, und es kommen Zonen hinzu oder fallen weg. Prüfe vor
 einer Reise immer die aktuelle Regelung deines Ziels – etwa beim
-[ADAC](https://www.adac.de). Die Angaben hier sind eine Orientierung, kein
+<a href="https://www.adac.de" rel="nofollow noopener" target="_blank">ADAC</a>. Die Angaben hier sind eine Orientierung, kein
 garantierter Festpreis und keine Rechtsberatung, alles ohne Gewähr.</div>
 
 ## Was passiert ohne Plakette? Bußgeld und Risiken
@@ -131,7 +131,7 @@ ist, dass auf der Plakette dein **Kennzeichen** vermerkt ist; sie gilt immer nur
 für genau dieses Fahrzeug.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Wenn du dein
-[Auto ummeldest](/ratgeber/auto-ummelden) und ein neues Kennzeichen bekommst,
+<a href="/ratgeber/auto-ummelden">Auto ummeldest</a> und ein neues Kennzeichen bekommst,
 trag das neue Kennzeichen auf der Plakette nach oder hol dir eine neue. Eine
 Plakette mit altem Kennzeichen kann bei einer Kontrolle Probleme machen.</div>
 

@@ -93,7 +93,7 @@ etwa bei älteren Dokumenten – ist der Online-Weg leider versperrt.
 
 <div class="box box-check"><strong>Diese Daten hältst du bereit:</strong> die
 verdeckten Sicherheitscodes aus ZB I und II, deine
-[eVB-Nummer](/ratgeber/evb-nummer) der Kfz-Versicherung, deine IBAN für das
+<a href="/ratgeber/evb-nummer">eVB-Nummer</a> der Kfz-Versicherung, deine IBAN für das
 SEPA-Lastschriftmandat der Kfz-Steuer und – bei einem Wunschkennzeichen – die
 reservierte Kombination.</div>
 
@@ -126,7 +126,7 @@ Die rechtliche Grundlage liefert übrigens die
 ist meist etwas günstiger als der Gang zur Behörde. Statt der vollen
 Vor-Ort-Gebühr von rund <strong>30 €</strong> zahlst du online oft nur etwa
 <strong>13–20 €</strong> – plus Schilder und eventuelle Wunschkennzeichen-Gebühr.
-Die genauen Beträge findest du im [Zulassungskosten-Ratgeber](/ratgeber/zulassungskosten).</div>
+Die genauen Beträge findest du im <a href="/ratgeber/zulassungskosten">Zulassungskosten-Ratgeber</a>.</div>
 
 ## Die häufigsten Stolpersteine
 
@@ -158,11 +158,11 @@ Online-Funktion.</div>
 
 <div class="box box-frage"><strong>Was, wenn meine Zulassungsbescheinigung keinen
 Sicherheitscode hat?</strong> Dann ist die Online-Zulassung nicht möglich. Du musst
-in dem Fall persönlich zur [Zulassungsstelle](/zulassungsstelle).</div>
+in dem Fall persönlich zur <a href="/zulassungsstelle">Zulassungsstelle</a>.</div>
 
 <div class="box box-frage"><strong>Kann ich ein Wunschkennzeichen online
 einbinden?</strong> Ja. Reserviere es vorab und gib die Kombination im Antrag an –
-mehr dazu im [Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren).</div>
+mehr dazu im <a href="/ratgeber/wunschkennzeichen-reservieren">Ratgeber zum Wunschkennzeichen reservieren</a>.</div>
 
 ## Fazit
 

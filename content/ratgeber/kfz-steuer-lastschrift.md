@@ -40,7 +40,7 @@ Jahr, im Voraus, zum Tag der Zulassung.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ohne gültiges
 SEPA-Lastschriftmandat verweigert die Zulassungsstelle die Anmeldung. Das gilt für
-Neuwagen, Gebrauchtwagen und jeden [Halterwechsel](/ratgeber/halterwechsel-auto)
+Neuwagen, Gebrauchtwagen und jeden <a href="/ratgeber/halterwechsel-auto">Halterwechsel</a>
 gleichermaßen. Es gibt hier praktisch keine Ausnahme für Privatpersonen.</div>
 
 ## Was ist ein SEPA-Lastschriftmandat überhaupt?
@@ -113,7 +113,7 @@ geht auf ihn über. Dein altes Mandat erlischt mit der Ummeldung automatisch.
 
 <div class="box box-frage"><strong>Bleibt mein Mandat beim Umzug bestehen?</strong>
 Ja. Ziehst du nur um und behältst dein Auto, läuft die Lastschrift weiter. Bei einem
-[Kreiswechsel](/ratgeber/auto-ummelden-kreiswechsel) ändert sich ggf. das
+<a href="/ratgeber/auto-ummelden-kreiswechsel">Kreiswechsel</a> ändert sich ggf. das
 zuständige Zollamt, das Mandat selbst bleibt aber gültig.</div>
 
 ## Beispielrechnung: Was zieht der Zoll ein?
@@ -126,7 +126,7 @@ nachlesen.
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Ein Benziner mit
 1.600 ccm und moderatem CO₂-Wert liegt grob bei <strong>120–180 €</strong>
 Kfz-Steuer im Jahr. Diesen Betrag zieht der Zoll per Lastschrift in einer Summe
-ein – nicht monatlich. Ein reines [Elektroauto](/ratgeber/kfz-steuer-elektroauto)
+ein – nicht monatlich. Ein reines <a href="/ratgeber/kfz-steuer-elektroauto">Elektroauto</a>
 ist befristet steuerbefreit, hier wird (vorerst) gar nichts abgebucht.</div>
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Liegt deine Jahressteuer

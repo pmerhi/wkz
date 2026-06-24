@@ -78,7 +78,7 @@ Jetzt gibt es zwei Wege:
   Kriminelle endgültig wertlos.
 
 <div class="box box-check"><strong>Das brauchst du bei der Zulassungsstelle:</strong>
-Personalausweis, die [Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung)
+Personalausweis, die <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a>
 Teil I (Fahrzeugschein), bei Diebstahl die polizeiliche Anzeige mit Tagebuchnummer
 und – falls noch vorhanden – das verbliebene zweite Schild.</div>
 

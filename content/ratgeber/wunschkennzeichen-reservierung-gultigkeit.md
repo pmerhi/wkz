@@ -24,7 +24,7 @@ In dieser Zeit ist „deine" Kombination für niemanden sonst verfügbar – sie
 sozusagen auf dich.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Bei der Online-Reservierung
-über das Portal deiner [Zulassungsstelle](/zulassungsstelle) siehst du das
+über das Portal deiner <a href="/zulassungsstelle">Zulassungsstelle</a> siehst du das
 Ablaufdatum in der Regel direkt in der Bestätigung. Notiere es dir – darauf kommt
 es später an.</div>
 
@@ -58,8 +58,8 @@ meldet das Auto aber nicht an. Erst die Zulassung macht aus der Reservierung ein
 gültiges Kennzeichen am Fahrzeug.
 
 <div class="box box-check"><strong>Dein Fahrplan:</strong> 1. Wunschkennzeichen
-[online oder vor Ort](/ratgeber/wunschkennzeichen-online-vor-ort) prüfen und
-reservieren. 2. Innerhalb der Frist die [Zulassung](/ratgeber/auto-anmelden)
+<a href="/ratgeber/wunschkennzeichen-online-vor-ort">online oder vor Ort</a> prüfen und
+reservieren. 2. Innerhalb der Frist die <a href="/ratgeber/auto-anmelden">Zulassung</a>
 durchführen. 3. Reservierungscode mitbringen bzw. im i-Kfz-Vorgang angeben.</div>
 
 Wenn du dein Auto gleich [online über i-Kfz zulässt](/ratgeber/i-kfz-online-zulassung),
@@ -79,7 +79,7 @@ sonst schnell nicht aus. Wenn du dennoch früh sichergehen willst, frag deine
 Zulassungsstelle vorab nach den Verlängerungsmöglichkeiten.
 
 <div class="box box-info"><strong>Online vs. vor Ort:</strong> Reservierungen über
-das [Online-Portal](/ratgeber/wunschkennzeichen-online-vor-ort) und am Schalter
+das <a href="/ratgeber/wunschkennzeichen-online-vor-ort">Online-Portal</a> und am Schalter
 können unterschiedliche Fristen haben. Welcher Zeitraum für dich gilt, steht immer
 in deiner persönlichen Bestätigung – verlass dich nicht auf Faustregeln aus dem
 Internet.</div>
@@ -126,7 +126,7 @@ aber ein zweites Mal.</div>
 <div class="box box-frage"><strong>Gilt die Reservierung auch in einem anderen
 Kreis?</strong> Nein. Sie ist an das Unterscheidungszeichen deiner Zulassungsstelle
 gebunden. Ziehst du um, kannst du dein Kennzeichen aber meist
-[mitnehmen](/ratgeber/wunschkennzeichen-mitnehmen).</div>
+<a href="/ratgeber/wunschkennzeichen-mitnehmen">mitnehmen</a>.</div>
 
 ## Fazit
 

@@ -59,7 +59,7 @@ knackig hältst, findest du im Ratgeber zum
 <div class="box box-frage"><strong>Sind manche Buchstaben verboten?</strong> Ja.
 Bestimmte Kombinationen sind bundesweit gesperrt, etwa solche mit politisch oder
 historisch belasteter Bedeutung. Welche das sind, habe ich im Ratgeber zu den
-[verbotenen Wunschkennzeichen](/ratgeber/verbotene-wunschkennzeichen) gesammelt.</div>
+<a href="/ratgeber/verbotene-wunschkennzeichen">verbotenen Wunschkennzeichen</a> gesammelt.</div>
 
 ## Beliebte Zahlen – Daten, Glück und Symbolik
 
@@ -75,7 +75,7 @@ Nummer eins. Manche kombinieren auch bewusst Buchstabe und Zahl zu einem Wort-Bi
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Egal wie kreativ deine
 Idee ist – am Preis ändert das nichts. Die Wunsch-Zuteilung kostet überall rund
 <strong>10–13 €</strong>. Was ein Wunschkennzeichen insgesamt kostet, habe ich dir im
-[Kosten-Ratgeber](/ratgeber/wunschkennzeichen-kosten) aufgeschlüsselt.</div>
+<a href="/ratgeber/wunschkennzeichen-kosten">Kosten-Ratgeber</a> aufgeschlüsselt.</div>
 
 ## Kennzeichen-Ideen, die wirklich funktionieren
 
@@ -111,7 +111,7 @@ lange Kombination festlegst.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Welche Kombinationen erlaubt
 sind und welche Zeichenzahl gilt, regelt bundesweit die
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.
 Einzelne Zulassungsstellen legen Details aber unterschiedlich aus – sieh die Angaben
 hier als Orientierung, nicht als rechtsverbindliche Auskunft, ohne Gewähr.</div>
 
@@ -128,12 +128,12 @@ Ein-Buchstaben-Kombinationen mit einstelligen Zahlen sind sehr gefragt.</div>
 <div class="box box-frage"><strong>Behält mein Kennzeichen seine Bedeutung beim
 Umzug?</strong> In vielen Fällen ja – das Kennzeichen darf seit der Reform meist
 mitgenommen werden. Details findest du im Ratgeber zum
-[Wunschkennzeichen mitnehmen](/ratgeber/wunschkennzeichen-mitnehmen).</div>
+<a href="/ratgeber/wunschkennzeichen-mitnehmen">Wunschkennzeichen mitnehmen</a>.</div>
 
 <div class="box box-frage"><strong>Wie lange ist meine Reservierung gültig?</strong>
 Das hängt vom Bezirk ab, meist sind es einige Tage bis Wochen. Mehr dazu in der
 Übersicht zur
-[Gültigkeit der Reservierung](/ratgeber/wunschkennzeichen-reservierung-gultigkeit).</div>
+<a href="/ratgeber/wunschkennzeichen-reservierung-gultigkeit">Gültigkeit der Reservierung</a>.</div>
 
 ## Fazit
 

@@ -39,8 +39,8 @@ verpflichtet dich, Änderungen deiner Daten der Zulassungsbehörde mitzuteilen.
 Es ist also keine Kann-, sondern eine Soll-Sache.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Eine reine
-**Namensänderung** ist kein Halterwechsel. Du bleibst dieselbe Person – nur dein
-Name ändert sich. Verwechsle das nicht mit dem [Halterwechsel beim Auto](/ratgeber/halterwechsel-auto),
+<strong>Namensänderung</strong> ist kein Halterwechsel. Du bleibst dieselbe Person – nur dein
+Name ändert sich. Verwechsle das nicht mit dem <a href="/ratgeber/halterwechsel-auto">Halterwechsel beim Auto</a>,
 bei dem das Fahrzeug auf eine andere Person übergeht.</div>
 
 ## Die häufigsten Anlässe: Heirat, Scheidung & Co.
@@ -57,7 +57,7 @@ Heiratsurkunde mit dem neuen Familiennamen. Genau dieses Dokument brauchst du
 später auch beim Amt – dazu gleich mehr.
 
 <div class="box box-frage"><strong>Muss ich auch das Kennzeichen ändern?</strong>
-Nein. Eine **Kennzeichen-Namensänderung** im eigentlichen Sinn gibt es nicht – das
+Nein. Eine <strong>Kennzeichen-Namensänderung</strong> im eigentlichen Sinn gibt es nicht – das
 Kennzeichen hängt am Fahrzeug, nicht am Namen. Du behältst dein altes Schild,
 nur der Name in den Papieren wird korrigiert.</div>
 
@@ -104,8 +104,8 @@ anstoßen, sodass du dir den Gang zum Amt sparst.
 <div class="box box-info"><strong>Gut zu wissen:</strong> Wenn sich gleichzeitig
 deine Adresse ändert – etwa weil du zum Partner ziehst – kannst du beides
 zusammen erledigen. Bleibst du im selben Zulassungsbezirk, ist das eine
-[Ummeldung ohne Kreiswechsel](/ratgeber/auto-ummelden-ohne-kreiswechsel); ziehst
-du in einen anderen Kreis, greift die [Ummeldung mit Kreiswechsel](/ratgeber/auto-ummelden-kreiswechsel).</div>
+<a href="/ratgeber/auto-ummelden-ohne-kreiswechsel">Ummeldung ohne Kreiswechsel</a>; ziehst
+du in einen anderen Kreis, greift die <a href="/ratgeber/auto-ummelden-kreiswechsel">Ummeldung mit Kreiswechsel</a>.</div>
 
 ## Was kostet die Namensänderung?
 
@@ -155,12 +155,12 @@ an deinen Namen. Neue Schilder sind nur nötig, wenn du sie ausdrücklich möcht
 
 <div class="box box-frage"><strong>Kann ich die Namensänderung online
 machen?</strong> In immer mehr Zulassungsbezirken ja, über
-[i-Kfz](/ratgeber/i-kfz-online-zulassung). Welche Schritte online möglich sind,
+<a href="/ratgeber/i-kfz-online-zulassung">i-Kfz</a>. Welche Schritte online möglich sind,
 hängt von deiner Behörde ab – ein Blick aufs jeweilige Portal lohnt sich.</div>
 
 <div class="box box-frage"><strong>Was, wenn ich gleichzeitig umziehe?</strong>
 Dann erledigst du Namens- und Adressänderung am besten in einem Termin. Je nach
-Wohnort ist das eine [Ummeldung mit oder ohne Kreiswechsel](/ratgeber/auto-ummelden).</div>
+Wohnort ist das eine <a href="/ratgeber/auto-ummelden">Ummeldung mit oder ohne Kreiswechsel</a>.</div>
 
 ## Fazit
 

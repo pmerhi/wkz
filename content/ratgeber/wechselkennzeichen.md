@@ -43,8 +43,8 @@ also zum Beispiel zwei Pkw oder zwei Motorräder, nicht Pkw plus Motorrad.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> zwei zugelassene
 Fahrzeuge derselben Klasse, für jedes eine eigene
-[eVB-Nummer](/ratgeber/evb-nummer) der Versicherung, die
-[Zulassungsbescheinigungen](/ratgeber/zulassungsbescheinigung) und – wie immer –
+<a href="/ratgeber/evb-nummer">eVB-Nummer</a> der Versicherung, die
+<a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigungen</a> und – wie immer –
 deinen Personalausweis. Beide Fahrzeuge brauchen eine gültige HU.</div>
 
 ## Wechselkennzeichen Vorteile: Was bringt es dir?
@@ -151,8 +151,8 @@ Versicherungstarife – und nur, wenn ein Fahrzeug überwiegend steht.</div>
 
 <div class="box box-frage"><strong>Gibt es das Wechselkennzeichen als
 Saisonvariante?</strong> Das Wechselkennzeichen und das
-[Saisonkennzeichen](/ratgeber/saisonkennzeichen) sind zwei getrennte Modelle.
-Für ein reines Sommerfahrzeug ist die [Saisonzulassung](/ratgeber/saisonzulassung)
+<a href="/ratgeber/saisonkennzeichen">Saisonkennzeichen</a> sind zwei getrennte Modelle.
+Für ein reines Sommerfahrzeug ist die <a href="/ratgeber/saisonzulassung">Saisonzulassung</a>
 oft die einfachere Lösung.</div>
 
 ## Fazit

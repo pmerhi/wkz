@@ -72,7 +72,7 @@ Ziehst du um und behältst dein Kennzeichen, fällt der Schilder-Posten weg:
 <div class="box box-check"><strong>Diese Unterlagen brauchst du:</strong>
 Personalausweis, Zulassungsbescheinigung Teil I und II, eVB-Nummer, gültige HU
 und – bei Halterwechsel – den Kaufvertrag. Wie der Ablauf genau ist, steht im
-[Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden).</div>
+<a href="/ratgeber/auto-anmelden">Ratgeber zum Auto anmelden</a>.</div>
 
 ## Sonderfälle: Saison, Kurzzeit und Export
 
@@ -89,7 +89,7 @@ eigene Gebühren:
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Wie viele Fahrzeuge in
 Deutschland zugelassen sind und wie sich der Bestand entwickelt, veröffentlicht das
-[Kraftfahrt-Bundesamt](https://www.kba.de) – ein guter Beleg dafür, wie alltäglich
+<a href="https://www.kba.de" rel="nofollow noopener" target="_blank">Kraftfahrt-Bundesamt</a> – ein guter Beleg dafür, wie alltäglich
 diese Vorgänge sind.</div>
 
 ## Warum die Kosten überhaupt schwanken

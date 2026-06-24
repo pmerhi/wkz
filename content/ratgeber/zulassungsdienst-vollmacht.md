@@ -74,7 +74,7 @@ Zulassung übrigens **nicht** nötig.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die genauen Anforderungen an
 Form und Inhalt der Vollmacht unterscheiden sich von Bezirk zu Bezirk. Einige Ämter
 verlangen zusätzlich eine Ausweiskopie des Halters, andere ein bestimmtes
-Formular. Erkundige dich vorab bei deiner [Zulassungsstelle](/zulassungsstelle) –
+Formular. Erkundige dich vorab bei deiner <a href="/zulassungsstelle">Zulassungsstelle</a> –
 die Angaben hier sind eine Orientierung ohne Gewähr und kein Rechtsrat.</div>
 
 ## Welche Unterlagen muss der Dienst mitnehmen?
@@ -108,8 +108,8 @@ oder Express dabei sind. Bundesweite Online-Dienste mit Versand bewegen sich oft
 unteren Ende, lokale Büros mit Sofort-Service eher darüber.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Für eine Anmeldung mit
-Dienstleister landest du schnell bei rund **30 € Amtsgebühr + 50 € Service + 25 €
-Schilder ≈ 105 €**. Klingt nach mehr als der Behördengang – dafür kostet es dich
+Dienstleister landest du schnell bei rund <strong>30 € Amtsgebühr + 50 € Service + 25 €
+Schilder ≈ 105 €</strong>. Klingt nach mehr als der Behördengang – dafür kostet es dich
 keinen Urlaubstag und keine Nerven.</div>
 
 Ob sich das lohnt, ist eine reine Rechnung aus deiner Zeit gegen das Honorar. Wer
@@ -143,7 +143,7 @@ anmelden?</strong> Wenn er nicht selbst Halter ist, braucht auch er eine schrift
 Vollmacht von dir. Das gilt für jede dritte Person, egal wie verwandt.</div>
 
 <div class="box box-frage"><strong>Gilt eine Vollmacht auch fürs Abmelden?</strong>
-Ja, du kannst dein [Auto abmelden](/ratgeber/auto-abmelden) ebenso per Vollmacht
+Ja, du kannst dein <a href="/ratgeber/auto-abmelden">Auto abmelden</a> ebenso per Vollmacht
 erledigen lassen. Nenne den Vorgang in der Vollmacht am besten ausdrücklich.</div>
 
 <div class="box box-frage"><strong>Reicht eine Kopie der Vollmacht?</strong> Das

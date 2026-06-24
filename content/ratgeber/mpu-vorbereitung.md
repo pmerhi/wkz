@@ -39,7 +39,7 @@ wiederholen?* Wer darauf keine glaubwürdige, durchdachte Antwort hat, fällt du
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Eine MPU-Anordnung kommt
 nie aus heiterem Himmel – sie hat immer einen konkreten Anlass (Alkohol, Drogen,
-zu viele [Punkte in Flensburg](/ratgeber/punkte-in-flensburg) oder eine
+zu viele <a href="/ratgeber/punkte-in-flensburg">Punkte in Flensburg</a> oder eine
 Straftat). Deine gesamte Vorbereitung muss exakt auf diesen Anlass zugeschnitten
 sein.</div>
 
@@ -73,11 +73,11 @@ Bestehen" oder fertige Antwort-Vorlagen versprechen – das durchschaut jeder
 Gutachter und es kann dir massiv schaden.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Ein
-verkehrspsychologisches Einzelgespräch kostet oft zwischen **80 und 150 € pro
-Stunde**. Für eine komplette Vorbereitung solltest du je nach Fall mit insgesamt
-**ca. 300 bis 800 €** rechnen. Die MPU selbst schlägt noch einmal mit rund **400
-bis 750 €** zu Buche. Mehr dazu findest du in meinem Überblick zu den
-[MPU-Kosten](/ratgeber/mpu-kosten).</div>
+verkehrspsychologisches Einzelgespräch kostet oft zwischen <strong>80 und 150 € pro
+Stunde</strong>. Für eine komplette Vorbereitung solltest du je nach Fall mit insgesamt
+<strong>ca. 300 bis 800 €</strong> rechnen. Die MPU selbst schlägt noch einmal mit rund <strong>400
+bis 750 €</strong> zu Buche. Mehr dazu findest du in meinem Überblick zu den
+<a href="/ratgeber/mpu-kosten">MPU-Kosten</a>.</div>
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Such dir eine Beratung, die
 nach Verkehrspsychologie-Standard arbeitet, und vereinbare ein unverbindliches
@@ -148,9 +148,9 @@ schwierigeren Anlässen erhöht eine seriöse Beratung deine Erfolgschancen aber
 deutlich.</div>
 
 <div class="box box-frage"><strong>Was passiert mit meinem Führerschein bis dahin?</strong>
-War der Lappen entzogen, läuft die [MPU](/ratgeber/mpu-ablauf) im Rahmen der
+War der Lappen entzogen, läuft die <a href="/ratgeber/mpu-ablauf">MPU</a> im Rahmen der
 Wiedererteilung. Wie der Ablauf genau aussieht und ob du den
-[Führerschein neu beantragen](/ratgeber/fuhrerschein-verloren) musst, hängt von
+<a href="/ratgeber/fuhrerschein-verloren">Führerschein neu beantragen</a> musst, hängt von
 deinem Bescheid ab.</div>
 
 ## Fazit

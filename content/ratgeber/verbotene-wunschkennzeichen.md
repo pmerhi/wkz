@@ -56,7 +56,7 @@ Konkret blockiert sind in aller Regel diese Kürzel:
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Diese Sperren gelten nicht
 nur als ganzes Wort, sondern auch in Verbindung mit bestimmten Zahlen. Die Kombi
-**88** (für „HH" = Heil Hitler) oder **18** (für „AH" = Adolf Hitler) ist in vielen
+<strong>88</strong> (für „HH" = Heil Hitler) oder <strong>18</strong> (für „AH" = Adolf Hitler) ist in vielen
 Bezirken zusätzlich gesperrt – mal pauschal, mal nur zusammen mit belasteten
 Buchstaben. Die genaue Handhabung unterscheidet sich regional, deshalb hier ohne
 Gewähr.</div>
@@ -111,7 +111,7 @@ aufgeschrieben. Und wenn du wissen willst, was hinter den Kürzeln stecken kann,
 schau in den Ratgeber zur [Wunschkennzeichen-Bedeutung](/ratgeber/wunschkennzeichen-bedeutung).
 
 <div class="box box-check"><strong>Das brauchst du für die Prüfung:</strong> nur
-deine Wunschkombination und die Online-Maske deiner [Zulassungsstelle](/zulassungsstelle).
+deine Wunschkombination und die Online-Maske deiner <a href="/zulassungsstelle">Zulassungsstelle</a>.
 Du musst dafür noch nichts bezahlen – die reine Verfügbarkeitsabfrage ist kostenlos.</div>
 
 ## Was es nicht kostet – und was schon
@@ -155,7 +155,7 @@ mit belasteten Buchstaben. Die Handhabung ist regional unterschiedlich – im Zw
 zeigt dir die Online-Maske, ob deine Kombi geht.</div>
 
 <div class="box box-frage"><strong>Kann ich ein gesperrtes Altkennzeichen
-bekommen?</strong> Wieder eingeführte [Altkennzeichen](/altkennzeichen) betreffen nur
+bekommen?</strong> Wieder eingeführte <a href="/altkennzeichen">Altkennzeichen</a> betreffen nur
 das vordere Unterscheidungszeichen. Im frei wählbaren Teil gelten die normalen
 Sperren weiter – ein belastetes Kürzel bleibt also auch dort verboten.</div>
 

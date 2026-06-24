@@ -24,7 +24,7 @@ hat: Jedes Jahr wechselt es die Farbe.
 Versicherungskennzeichen ist kein amtliches Kennzeichen und keine Zulassung. Es
 ist der sichtbare Nachweis, dass für dein Kleinkraftrad eine gültige
 Haftpflichtversicherung besteht. Deshalb bekommst du es auch ohne Gang zur
-[Zulassungsstelle](/zulassungsstelle).</div>
+<a href="/zulassungsstelle">Zulassungsstelle</a>.</div>
 
 ## Wer braucht ein Versicherungskennzeichen?
 
@@ -46,8 +46,8 @@ oder mehr als 50 cm³ hat, brauchst du dagegen ein echtes
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Fährst du dein Mofa oder
 deinen Roller ohne gültiges Versicherungskennzeichen, fehlt der
-Versicherungsschutz – und das gilt rechtlich wie [Fahren ohne
-Zulassung](/ratgeber/fahren-ohne-zulassung). Im Schadensfall haftest du
+Versicherungsschutz – und das gilt rechtlich wie <a href="/ratgeber/fahren-ohne-zulassung">Fahren ohne
+Zulassung</a>. Im Schadensfall haftest du
 persönlich, und es droht ein Strafverfahren. Diese Angaben sind ohne Gewähr und
 können je nach Fall variieren.</div>
 
@@ -63,7 +63,7 @@ Blau und Grün**. Jede Farbe gilt für ein Verkehrsjahr. Und dieses Jahr ist die
 zweite Eigenheit, die du kennen musst.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Das Verkehrsjahr für
-Versicherungskennzeichen beginnt nicht am 1. Januar, sondern am **1. März** und
+Versicherungskennzeichen beginnt nicht am 1. Januar, sondern am <strong>1. März</strong> und
 läuft bis Ende Februar des Folgejahres. Wer im Frühling startet, hat also fast
 die volle Saison.</div>
 
@@ -87,7 +87,7 @@ nur den anteiligen Betrag bis Ende Februar.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Vergleiche die Anbieter vor dem
 1. März. Viele Versicherer locken zum Saisonstart mit günstigen Tarifen, und ein
-[Kfz-Versicherungsvergleich](/ratgeber/kfz-versicherung-vergleich) lohnt sich
+<a href="/ratgeber/kfz-versicherung-vergleich">Kfz-Versicherungsvergleich</a> lohnt sich
 auch beim kleinen Roller. Die Beitragsunterschiede sind oft größer, als man
 denkt.</div>
 
@@ -101,7 +101,7 @@ ausgehändigt oder innerhalb weniger Tage zugeschickt.
 <div class="box box-check"><strong>Das brauchst du dafür:</strong> Personalausweis,
 deine persönlichen Daten, Angaben zum Fahrzeug (Hersteller,
 Fahrzeug-Identifizierungsnummer, Hubraum bzw. Leistung) und eine Bankverbindung
-für den Beitrag. Eine [eVB-Nummer](/ratgeber/evb-nummer) wie beim Auto brauchst
+für den Beitrag. Eine <a href="/ratgeber/evb-nummer">eVB-Nummer</a> wie beim Auto brauchst
 du hier nicht – das Schild ist der Nachweis selbst.</div>
 
 Im Gegensatz zur klassischen [Auto-Anmeldung](/ratgeber/auto-anmelden) entfällt
@@ -143,7 +143,7 @@ beginnt. Mehr Aufwand ist es tatsächlich nicht.
 
 <div class="box box-frage"><strong>Brauche ich für ein Mofa einen
 Führerschein?</strong> Für ein Mofa bis 25 km/h reicht die Mofa-Prüfbescheinigung,
-für schnellere Roller die [Führerscheinklasse AM](/ratgeber/fuhrerscheinklassen).
+für schnellere Roller die <a href="/ratgeber/fuhrerscheinklassen">Führerscheinklasse AM</a>.
 Das Versicherungskennzeichen ersetzt keine Fahrerlaubnis.</div>
 
 <div class="box box-frage"><strong>Gilt das Versicherungskennzeichen auch für
@@ -153,13 +153,13 @@ Farbwechsel sind identisch.</div>
 
 <div class="box box-frage"><strong>Was passiert bei Diebstahl des
 Schilds?</strong> Melde den Verlust deiner Versicherung, ähnlich wie beim
-[verlorenen Kennzeichen](/ratgeber/kennzeichen-verloren-gestohlen) am Auto. Du
+<a href="/ratgeber/kennzeichen-verloren-gestohlen">verlorenen Kennzeichen</a> am Auto. Du
 bekommst Ersatz und solltest den Diebstahl je nach Fall auch der Polizei
 melden.</div>
 
 <div class="box box-frage"><strong>Kann ich das Kennzeichen mitten im Jahr
 abmelden?</strong> Du kannst die Versicherung kündigen oder das Fahrzeug
-abstellen. Anders als beim [Auto abmelden](/ratgeber/auto-abmelden) gibt es aber
+abstellen. Anders als beim <a href="/ratgeber/auto-abmelden">Auto abmelden</a> gibt es aber
 keine Behörde, der du das melden musst – es genügt der Weg über den
 Versicherer.</div>
 

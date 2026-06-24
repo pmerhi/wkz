@@ -20,7 +20,7 @@ Pflicht** ist kein netter Vorschlag, sondern steht so in der Straßenverkehrs-
 Zulassungs-Ordnung. Und sie betrifft dich, ob dir das gefällt oder nicht.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die Pflicht zum
-Verbandskasten ergibt sich aus § 35h der [StVZO](https://www.gesetze-im-internet.de/stvzo_2012/).
+Verbandskasten ergibt sich aus § 35h der <a href="https://www.gesetze-im-internet.de/stvzo_2012/" rel="nofollow noopener" target="_blank">StVZO</a>.
 Sie gilt für Pkw, Lkw und Busse – nicht aber für Motorräder. Für Zweiräder gibt
 es keine bundesweite Mitführpflicht, ein kleines Set schadet trotzdem nie.</div>
 
@@ -99,7 +99,7 @@ Kasten kann aber als Mangel notiert werden. Mehr zum Ablauf findest du im
 <div class="box box-frage"><strong>Bekomme ich Punkte in Flensburg dafür?</strong>
 Nein. Ein fehlender Verbandskasten oder eine fehlende Warnweste ist eine
 Ordnungswidrigkeit mit Verwarngeld, aber ohne Eintrag im
-[Fahreignungsregister](/ratgeber/punkte-in-flensburg). Trotzdem kein Grund,
+<a href="/ratgeber/punkte-in-flensburg">Fahreignungsregister</a>. Trotzdem kein Grund,
 nachlässig zu sein – im Ernstfall geht es um Erste Hilfe.</div>
 
 ## Verbandskasten und Zulassung – hängt das zusammen?
@@ -119,7 +119,7 @@ liegt das Ablaufdatum erfahrungsgemäß gern im roten Bereich.
 <div class="box box-info"><strong>Gut zu wissen:</strong> Auch das Warndreieck
 ist Pflicht und muss der Norm entsprechen. Verbandskasten, Warndreieck und
 Warnweste bilden zusammen das klassische Trio der Sicherheitsausstattung. Der
-[ADAC](https://www.adac.de) bietet dazu praktische Checklisten für die
+<a href="https://www.adac.de" rel="nofollow noopener" target="_blank">ADAC</a> bietet dazu praktische Checklisten für die
 Urlaubsfahrt – im Ausland gelten teils strengere Regeln.</div>
 
 ## Häufige Fragen

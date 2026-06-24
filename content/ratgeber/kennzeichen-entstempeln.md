@@ -41,7 +41,7 @@ behältst du in der Regel mit nach Hause.
 entstempeltem Kennzeichen darf nicht mehr im öffentlichen Verkehr bewegt werden –
 auch nicht „nur kurz". Wer ohne gültiges Siegel fährt, riskiert ein Bußgeld und
 fährt ohne Versicherungsschutz. Mehr dazu im Ratgeber
-[Fahren ohne Zulassung](/ratgeber/fahren-ohne-zulassung).</div>
+<a href="/ratgeber/fahren-ohne-zulassung">Fahren ohne Zulassung</a>.</div>
 
 ## Wann musst du dein Kennzeichen entstempeln lassen?
 
@@ -79,7 +79,7 @@ es richtig:
    Fahrzeug offiziell abgemeldet ist.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis oder
-Reisepass, die [Zulassungsbescheinigung Teil I](/ratgeber/zulassungsbescheinigung)
+Reisepass, die <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a>
 (Fahrzeugschein) und beide Kennzeichen mit Siegel. Bei einer Stilllegung kann auch
 Teil II verlangt werden.</div>
 
@@ -111,7 +111,7 @@ Entstempeln vor Ort: ca. <strong>7–15 €</strong>. Online über i-Kfz: häufi
 Schild noch rund <strong>10–18 €</strong> dazu.</div>
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die genauen Beträge sind in
-der bundesweiten [FZV](https://www.gesetze-im-internet.de/fzv_2011/) geregelt,
+der bundesweiten <a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">FZV</a> geregelt,
 können aber je nach Bundesland und Kommune leicht abweichen. Sieh die Angaben
 hier als realistische Orientierung – ohne Gewähr und ohne Anspruch auf einen
 garantierten Festpreis.</div>
@@ -131,7 +131,7 @@ bestimmten Voraussetzungen reservieren statt entstempeln.
 <div class="box box-info"><strong>Gut zu wissen:</strong> Wer sein Fahrzeug nur
 vorübergehend abmeldet, kann das Kennzeichen meist bis zu zwölf Monate
 reservieren lassen. Bei einer späteren
-[Wiederzulassung](/ratgeber/wiederzulassung) bekommst du dann genau dieselbe
+<a href="/ratgeber/wiederzulassung">Wiederzulassung</a> bekommst du dann genau dieselbe
 Kombination zurück.</div>
 
 ## Häufige Fragen zum Entstempeln
@@ -149,12 +149,12 @@ Außerbetriebsetzung.</div>
 <div class="box box-frage"><strong>Was passiert mit dem entstempelten
 Schild?</strong> Du nimmst es mit. Brauchst du es nicht mehr, gehört es in den
 Metallschrott. Für eine spätere Anmeldung lässt du einfach neue Schilder
-[prägen](/ratgeber/nummernschild-pragen).</div>
+<a href="/ratgeber/nummernschild-pragen">prägen</a>.</div>
 
 <div class="box box-frage"><strong>Geht Entstempeln auch beim Verkauf?</strong> Ja.
 Wenn der Käufer das Auto nicht selbst ummeldet, solltest du es vor der Übergabe
 abmelden lassen. Wie das sicher klappt, zeigt der Ratgeber
-[Auto verkaufen und abmelden](/ratgeber/auto-verkaufen-abmelden).</div>
+<a href="/ratgeber/auto-verkaufen-abmelden">Auto verkaufen und abmelden</a>.</div>
 
 ## Fazit
 

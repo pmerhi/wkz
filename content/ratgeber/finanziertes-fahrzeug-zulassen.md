@@ -60,7 +60,7 @@ liegt bei der Bank, bis die letzte Rate fließt – dann bekommst du es ausgehä
 <div class="box box-frage"><strong>Brauche ich den Brief nicht für die
 Zulassung?</strong> Bei der Erstzulassung wird die Teil II in der Regel direkt
 vom Händler an die Bank geschickt, oder die Bank stellt eine Vollmacht aus. Bei
-einem späteren [Halterwechsel](/ratgeber/halterwechsel-auto) musst du den Brief
+einem späteren <a href="/ratgeber/halterwechsel-auto">Halterwechsel</a> musst du den Brief
 oder eine Freigabe der Bank vorlegen.</div>
 
 ## So läuft die Zulassung eines finanzierten Autos ab

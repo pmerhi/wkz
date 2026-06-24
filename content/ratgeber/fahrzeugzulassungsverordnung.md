@@ -39,7 +39,7 @@ viele davon sind in die FZV gewandert.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Den vollständigen Verordnungstext
 findest du jederzeit kostenlos in der amtlichen Fassung unter
-[gesetze-im-internet.de](https://www.gesetze-im-internet.de/fzv_2011/). Praktisch,
+<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">gesetze-im-internet.de</a>. Praktisch,
 wenn du eine konkrete Regel im Original nachlesen willst.</div>
 
 ## Wofür ist die FZV im Alltag zuständig?
@@ -59,7 +59,7 @@ abverlangt, tut sie das, weil die FZV es so vorschreibt – nicht aus Schikane.
 
 <div class="box box-check"><strong>Das brauchst du laut FZV für eine Zulassung:</strong>
 Personalausweis, Zulassungsbescheinigung Teil I und II, eine gültige
-[eVB-Nummer](/ratgeber/evb-nummer) der Versicherung, den Nachweis der
+<a href="/ratgeber/evb-nummer">eVB-Nummer</a> der Versicherung, den Nachweis der
 Hauptuntersuchung sowie – bei Halterwechsel – einen Kaufvertrag oder eine
 Vollmacht.</div>
 
@@ -82,7 +82,7 @@ Zulassungsstelle.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Wer ein
 zulassungspflichtiges Fahrzeug ohne gültige Zulassung im öffentlichen Verkehr
 bewegt, riskiert ein Bußgeld und den Verlust des Versicherungsschutzes. Wie heikel
-das wird, habe ich dir im Ratgeber zum [Fahren ohne Zulassung](/ratgeber/fahren-ohne-zulassung)
+das wird, habe ich dir im Ratgeber zum <a href="/ratgeber/fahren-ohne-zulassung">Fahren ohne Zulassung</a>
 aufgeschrieben.</div>
 
 ## Kennzeichen und FZV – mehr Spielraum, als du denkst
@@ -101,7 +101,7 @@ bundesweite Kennzeichenmitnahme beim Umzug haben ihre Basis in FZV-Reformen.
 <div class="box box-frage"><strong>Darf ich mein Kennzeichen bei einem Umzug
 behalten?</strong> Ja. Seit einer FZV-Reform darfst du dein Kennzeichen
 bundesweit mitnehmen – auch über Kreisgrenzen hinweg. Details findest du im
-Ratgeber [Auto ummelden mit Kreiswechsel](/ratgeber/auto-ummelden-kreiswechsel).</div>
+Ratgeber <a href="/ratgeber/auto-ummelden-kreiswechsel">Auto ummelden mit Kreiswechsel</a>.</div>
 
 ## Die Digitalisierung: i-Kfz steckt auch in der FZV
 
@@ -153,7 +153,7 @@ jederzeit wissen, wer für welches Fahrzeug verantwortlich ist.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Aktuelle Zahlen zum
 Fahrzeugbestand und zu Zulassungen veröffentlicht das
-[Kraftfahrt-Bundesamt](https://www.kba.de) – die zentrale Bundesbehörde, die viele
+<a href="https://www.kba.de" rel="nofollow noopener" target="_blank">Kraftfahrt-Bundesamt</a> – die zentrale Bundesbehörde, die viele
 FZV-Aufgaben im Hintergrund koordiniert.</div>
 
 ## Häufige Fragen zur FZV
@@ -165,13 +165,13 @@ Sie ist genauso verbindlich wie ein Gesetz.</div>
 
 <div class="box box-frage"><strong>Wo finde ich den aktuellen FZV-Text?</strong>
 In der amtlichen Online-Sammlung unter
-[gesetze-im-internet.de](https://www.gesetze-im-internet.de/fzv_2011/). Dort ist
+<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">gesetze-im-internet.de</a>. Dort ist
 immer die aktuell gültige Fassung hinterlegt.</div>
 
 <div class="box box-frage"><strong>Regelt die FZV auch mein
 Wunschkennzeichen?</strong> Ja. Die Vorgaben zu Format, erlaubten Zeichen und
 Reservierung wurzeln im Zulassungsrecht der FZV. Den praktischen Ablauf erkläre
-ich dir unter [Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren).</div>
+ich dir unter <a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen reservieren</a>.</div>
 
 <div class="box box-frage"><strong>Brauche ich für jedes Fahrzeug eine
 Zulassung?</strong> Nein. Manche langsamen oder kleinen Fahrzeuge sind

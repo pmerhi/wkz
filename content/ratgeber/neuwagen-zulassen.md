@@ -69,7 +69,7 @@ heute in vielen Fällen komplett digital. Über die
 erledigst du Erstzulassung, Wunschkennzeichen und Steueranmeldung von zu Hause.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Prüf vor dem Autohaus-Besuch,
-ob dein neues Fahrzeug die [i-Kfz-Voraussetzungen](/ratgeber/i-kfz-voraussetzungen)
+ob dein neues Fahrzeug die <a href="/ratgeber/i-kfz-voraussetzungen">i-Kfz-Voraussetzungen</a>
 erfüllt. Spätestens seit der Ausbaustufe 4 läuft fast alles online – inklusive
 sofortiger vorläufiger Zulassung, mit der du direkt losfahren darfst.</div>
 
@@ -107,7 +107,7 @@ sind dieselben DIN-zertifizierten Schilder oft deutlich günstiger.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Reservier zuerst dein Kennzeichen,
 dann steht die Kombination fest – und du kannst die Schilder in Ruhe beim
-günstigsten Anbieter [prägen lassen](/ratgeber/nummernschild-pragen), ohne
+günstigsten Anbieter <a href="/ratgeber/nummernschild-pragen">prägen lassen</a>, ohne
 Fehlprägung zu riskieren.</div>
 
 Wie viele Neuwagen jährlich überhaupt erstzugelassen werden, veröffentlicht

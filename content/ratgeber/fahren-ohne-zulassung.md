@@ -42,7 +42,7 @@ Zusammenspiel mit der fehlenden Versicherung sogar eine Straftat. Mehr dazu
 gleich.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ein abgemeldetes Fahrzeug
-hat in der Regel **keinen Versicherungsschutz mehr**. Damit ist „kurz ohne
+hat in der Regel <strong>keinen Versicherungsschutz mehr</strong>. Damit ist „kurz ohne
 Zulassung fahren" fast immer auch „fahren ohne Versicherung" – und das ist die
 deutlich gefährlichere Variante.</div>
 
@@ -79,7 +79,7 @@ und im schlimmsten Fall der Entzug der Fahrerlaubnis.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Fehlt nur die
 Plakette, reden wir über ein zweistelliges Bußgeld. Fehlt die Versicherung, kann
-es schnell in die **Hunderte oder Tausende Euro** gehen – Geldstrafen orientieren
+es schnell in die <strong>Hunderte oder Tausende Euro</strong> gehen – Geldstrafen orientieren
 sich an Tagessätzen, also an deinem Einkommen. Der Unterschied ist enorm.</div>
 
 Kommt es dann auch noch zu einem Unfall, wird es richtig bitter: Die

@@ -39,10 +39,10 @@ sicherer passt er aufs Schild. Lange Kombinationen mit zwei Buchstaben und vier
 Ziffern werden schnell unübersichtlich oder passen gar nicht mehr sauber.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Plane beim Motorrad bewusst
-**kurz**. Ein Buchstabe plus zwei oder drei Ziffern wirkt auf dem Zweizeiler
+<strong>kurz</strong>. Ein Buchstabe plus zwei oder drei Ziffern wirkt auf dem Zweizeiler
 deutlich aufgeräumter – und du läufst nicht Gefahr, dass die Behörde dir das
 gewünschte Format als zu groß abweist. Mehr dazu im Ratgeber zum
-[kurzen Kennzeichen](/ratgeber/kurzes-kennzeichen).</div>
+<a href="/ratgeber/kurzes-kennzeichen">kurzen Kennzeichen</a>.</div>
 
 ## So reservierst du dein motorrad wunschkennzeichen
 
@@ -104,7 +104,7 @@ Zugfahrzeug gekoppelt. Das heißt, du wählst hier eine komplett eigene
 Wunschkombination – sie muss nichts mit dem Schild deines Autos zu tun haben.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Ein
-**anhänger wunschkennzeichen** nutzt in der Regel das normale einzeilige
+<strong>anhänger wunschkennzeichen</strong> nutzt in der Regel das normale einzeilige
 Format. Bei sehr kleinen Anhängern ist aber – ähnlich wie beim Motorrad – ein
 verkleinertes Schild möglich. Frag im Zweifel deine Zulassungsstelle, welches
 Format für dein Gespann zulässig ist. Wie du einen
@@ -131,7 +131,7 @@ Fahrzeug. Die rechtliche Grundlage für die Zuteilung findest du in der
 
 <div class="box box-tipp"><strong>Tipp:</strong> Du ziehst um und willst dein
 liebgewonnenes Bike-Kennzeichen behalten? Seit der Reform kannst du es bundesweit
-[mitnehmen](/ratgeber/wunschkennzeichen-mitnehmen) – ein neues Schild und die
+<a href="/ratgeber/wunschkennzeichen-mitnehmen">mitnehmen</a> – ein neues Schild und die
 Prägekosten sparst du dir damit.</div>
 
 ## Häufige Fragen

@@ -42,7 +42,7 @@ zusammenhängt.
 
 <div class="box box-check"><strong>Das brauchst du für die Berechnung:</strong>
 Hubraum in cm³, CO₂-Ausstoß in g/km, Kraftstoffart und das Datum der
-Erstzulassung. Alle Werte findest du in deiner [Zulassungsbescheinigung Teil I](/ratgeber/zulassungsbescheinigung)
+Erstzulassung. Alle Werte findest du in deiner <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a>
 (Felder P.1, V.7 und P.3).</div>
 
 ## Der CO₂-Freibetrag – und warum er so wichtig ist
@@ -105,7 +105,7 @@ Das ist für große, alte Motoren oft ein echtes Schnäppchen.
 Hubraum, CO₂ spielt keine Rolle.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Wenn du dein Fahrzeug nur saisonal
-nutzt, lohnt sich ein [Saisonkennzeichen](/ratgeber/saisonkennzeichen). Die Kfz-Steuer
+nutzt, lohnt sich ein <a href="/ratgeber/saisonkennzeichen">Saisonkennzeichen</a>. Die Kfz-Steuer
 fällt dann nur anteilig für die Monate an, in denen das Auto angemeldet ist – beim
 Cabrio im Sommer spürbar günstiger.</div>
 
@@ -123,7 +123,7 @@ Jahre Haltedauer ist das ein vierstelliger Betrag.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Wie viele Fahrzeuge welcher
 Antriebsart in Deutschland unterwegs sind, veröffentlicht das
-[Kraftfahrt-Bundesamt](https://www.kba.de) – ein guter Anhaltspunkt dafür, wie stark
+<a href="https://www.kba.de" rel="nofollow noopener" target="_blank">Kraftfahrt-Bundesamt</a> – ein guter Anhaltspunkt dafür, wie stark
 der Trend inzwischen Richtung emissionsarmer und steuergünstiger Modelle geht.</div>
 
 ## So senkst du deine Autosteuer
@@ -150,14 +150,14 @@ SEPA-Lastschrift von dem Konto ein, das du bei der Zulassung angegeben hast.</di
 
 <div class="box box-frage"><strong>Bekomme ich Steuer zurück, wenn ich das Auto
 abmelde?</strong> Ja. Meldest du das Fahrzeug ab oder lässt es
-[stilllegen](/ratgeber/auto-stilllegen), wird die zu viel gezahlte Steuer
+<a href="/ratgeber/auto-stilllegen">stilllegen</a>, wird die zu viel gezahlte Steuer
 taggenau erstattet. Die Abmeldung meldet die Zulassungsstelle automatisch an den
 Zoll.</div>
 
 <div class="box box-frage"><strong>Wo finde ich Hubraum und CO₂-Wert?</strong> In der
 Zulassungsbescheinigung Teil I: Hubraum unter P.1, CO₂ unter V.7 und die Kraftstoffart
 unter P.3. Ist dein Schein weg, hilft dir der
-[Ratgeber Fahrzeugschein verloren](/ratgeber/fahrzeugschein-verloren) weiter.</div>
+<a href="/ratgeber/fahrzeugschein-verloren">Ratgeber Fahrzeugschein verloren</a> weiter.</div>
 
 <div class="box box-frage"><strong>Zahlen Diesel wirklich mehr Steuer?</strong> Beim
 Hubraum-Anteil ja – rund 9,50 € statt 2,00 € je 100 cm³. Dafür ist der Kraftstoff

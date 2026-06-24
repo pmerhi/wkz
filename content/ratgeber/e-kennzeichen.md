@@ -111,7 +111,7 @@ erledigst du die Anmeldung bequem von zu Hause aus. Welche Voraussetzungen dafü
 gelten, erkläre ich im Beitrag zu den [i-Kfz-Voraussetzungen](/ratgeber/i-kfz-voraussetzungen).
 
 <div class="box box-tipp"><strong>Tipp:</strong> Du kannst dein E-Kennzeichen auch
-als [Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren). Das E
+als <a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen reservieren</a>. Das E
 hängt sich dann einfach an deine Wunschkombination an – etwa deine Initialen plus
 ein Geburtsjahr und das abschließende E.</div>
 
@@ -130,7 +130,7 @@ zahlt zusätzlich die übliche Wunsch-Gebühr, die ich in den
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die früher diskutierte
 Kfz-Steuerbefreiung für reine Elektroautos ist ein eigenes Thema und hängt nicht am
 E-Kennzeichen, sondern an der Fahrzeugart. Mehr dazu, wie sich die Abgabe berechnet,
-liest du unter [Kfz-Steuer berechnen](/ratgeber/kfz-steuer-berechnen).</div>
+liest du unter <a href="/ratgeber/kfz-steuer-berechnen">Kfz-Steuer berechnen</a>.</div>
 
 ## Lohnt sich das E-Kennzeichen für dich?
 
@@ -164,7 +164,7 @@ oder höchstens 50 g CO₂ pro Kilometer. Steht in deinen Fahrzeugpapieren.</div
 
 <div class="box box-frage"><strong>Kann ich das E nachträglich anbringen?</strong>
 Nicht einfach selbst aufkleben – das E ist Teil des amtlichen Kennzeichens. Du
-brauchst eine [Ummeldung](/ratgeber/auto-ummelden) mit neuen Schildern.</div>
+brauchst eine <a href="/ratgeber/auto-ummelden">Ummeldung</a> mit neuen Schildern.</div>
 
 ## Fazit
 

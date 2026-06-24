@@ -150,7 +150,7 @@ das Datum der Erstzulassung.</div>
 
 <div class="box box-frage"><strong>Ist ein H-Kennzeichen Pflicht?</strong> Nein.
 Du kannst einen 30 Jahre alten Wagen auch ganz normal oder als
-[Saisonzulassung](/ratgeber/saisonzulassung) anmelden. Das H-Kennzeichen ist ein
+<a href="/ratgeber/saisonzulassung">Saisonzulassung</a> anmelden. Das H-Kennzeichen ist ein
 Angebot mit Steuer- und Umweltzonen-Vorteilen, keine Pflicht.</div>
 
 <div class="box box-frage"><strong>Darf ich mit dem 07er-Kennzeichen täglich

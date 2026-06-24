@@ -43,7 +43,7 @@ kleines Verwarnungsgeld nach sich ziehen. Genau deshalb solltest du den
 <div class="box box-wichtig"><strong>Wichtig:</strong> Verwechsle den verlorenen
 Fahrzeugschein nicht mit dem Fahrzeugbrief. Ist der Brief (Teil 2) weg, gilt ein
 anderes, aufwendigeres Verfahren – das erkläre ich dir im
-[Ratgeber Fahrzeugbrief verloren](/ratgeber/fahrzeugbrief-verloren).</div>
+<a href="/ratgeber/fahrzeugbrief-verloren">Ratgeber Fahrzeugbrief verloren</a>.</div>
 
 ## Verloren oder gestohlen? Der erste Schritt entscheidet
 
@@ -71,7 +71,7 @@ Frust – und absolut vermeidbar.
 Personalausweis oder Reisepass (bei Pass mit Meldebescheinigung), die
 Zulassungsbescheinigung Teil 2 (Fahrzeugbrief), bei Diebstahl die Verlust- oder
 Diebstahlanzeige und – falls du nicht selbst kommst – eine
-[Vollmacht für den Zulassungsdienst](/ratgeber/zulassungsdienst-vollmacht).</div>
+<a href="/ratgeber/zulassungsdienst-vollmacht">Vollmacht für den Zulassungsdienst</a>.</div>
 
 In vielen Bezirken wirst du vor Ort eine **Verlusterklärung** unterschreiben.
 Das ist Routine, geht schnell und kostet dich keinen Cent extra. Bring dein
@@ -154,7 +154,7 @@ gibst ihn bei der Behörde ab.</div>
 
 <div class="box box-frage"><strong>Geht der Ersatz auch online?</strong> In
 einigen Bezirken ja, abhängig vom Ausbaustand der i-Kfz-Plattform. Frag bei deiner
-[Zulassungsstelle](/zulassungsstelle) nach oder prüf das Online-Portal deiner
+<a href="/zulassungsstelle">Zulassungsstelle</a> nach oder prüf das Online-Portal deiner
 Kommune.</div>
 
 ## Fazit

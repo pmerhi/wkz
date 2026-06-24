@@ -42,7 +42,7 @@ besitzt, ist die Sache erledigt. Punkte in Flensburg gibt es dafür nicht.
 Foto deines Führerscheins im Handy auf. Das ersetzt zwar nicht das Original, hilft
 aber bei der Kontrolle oft, die Lage schnell zu klären. Hast du das Kärtchen
 verloren, kümmere dich zügig um Ersatz – wie das geht, liest du im Ratgeber
-[Führerschein verloren](/ratgeber/fuhrerschein-verloren).</div>
+<a href="/ratgeber/fuhrerschein-verloren">Führerschein verloren</a>.</div>
 
 ## Fahren ohne Fahrerlaubnis: jetzt wird es ernst
 
@@ -95,7 +95,7 @@ bestandener [MPU](/ratgeber/mpu-vorbereitung).
 
 <div class="box box-check"><strong>Das brauchst du, bevor du dich wieder ans
 Steuer setzt:</strong> eine gültige Fahrerlaubnis für die passende
-[Fahrzeugklasse](/ratgeber/fuhrerscheinklassen), nach einem Entzug ggf. den
+<a href="/ratgeber/fuhrerscheinklassen">Fahrzeugklasse</a>, nach einem Entzug ggf. den
 positiven MPU-Bescheid und die behördliche Wiedererteilung. Erst dann bist du auf
 der sicheren Seite.</div>
 
@@ -131,13 +131,13 @@ Haft und ein möglicher Eintrag ins Führungszeugnis.</div>
 
 <div class="box box-frage"><strong>Was ist mit ausländischem oder abgelaufenem
 Führerschein?</strong> Ein abgelaufenes Kärtchen heißt nicht automatisch, dass die
-Fahrerlaubnis weg ist – meist musst du nur [umtauschen](/ratgeber/fuhrerschein-umtauschen).
-Beim [EU-Führerschein](/ratgeber/eu-fuhrerschein) gelten eigene Regeln; im Zweifel
+Fahrerlaubnis weg ist – meist musst du nur <a href="/ratgeber/fuhrerschein-umtauschen">umtauschen</a>.
+Beim <a href="/ratgeber/eu-fuhrerschein">EU-Führerschein</a> gelten eigene Regeln; im Zweifel
 vorher klären.</div>
 
 <div class="box box-frage"><strong>Darf ich mit 17 schon allein fahren?</strong>
 Nur mit gültigem Begleiter im Rahmen des begleiteten Fahrens – Details im Ratgeber
-[Führerschein ab 17](/ratgeber/fuhrerschein-ab-17). Fährst du ohne Begleitperson,
+<a href="/ratgeber/fuhrerschein-ab-17">Führerschein ab 17</a>. Fährst du ohne Begleitperson,
 riskierst du den Entzug der Prüfungsbescheinigung.</div>
 
 ## Fazit

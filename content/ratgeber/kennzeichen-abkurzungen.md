@@ -46,7 +46,7 @@ Eine vollständige, durchsuchbare Übersicht aller Kürzel findest du in unserer
 
 <div class="box box-tipp"><strong>Tipp:</strong> Du willst wissen, welches Kürzel
 zu deiner Stadt gehört? Tippe es einfach in unsere
-[Kennzeichen-Übersicht](/kennzeichen) ein – dort siehst du Bedeutung und
+<a href="/kennzeichen">Kennzeichen-Übersicht</a> ein – dort siehst du Bedeutung und
 zuständige Zulassungsstelle auf einen Blick.</div>
 
 ## Die Sache mit den Altkennzeichen
@@ -89,7 +89,7 @@ und ein vierstelliges Datum unterbringen willst.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Du suchst ein besonders kurzes
 Kennzeichen? In Großstädten mit einbuchstabigem Kürzel hast du die meiste Freiheit.
-Stöbere in der [Kennzeichen-Liste](/kennzeichen), um Kürzel und Bedeutung zu
+Stöbere in der <a href="/kennzeichen">Kennzeichen-Liste</a>, um Kürzel und Bedeutung zu
 vergleichen.</div>
 
 ## Wie viele Kürzel gibt es eigentlich?
@@ -118,7 +118,7 @@ Verkehrssicherheit.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Egal welche Optik – die
 Buchstaben-Zahlen-Kombination und das Unterscheidungszeichen bleiben dieselben. Die
-Bauform ändert nichts an der Zuteilung deines [Wunschkennzeichens](/ratgeber/wunschkennzeichen-reservieren).</div>
+Bauform ändert nichts an der Zuteilung deines <a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichens</a>.</div>
 
 ## Häufige Fragen
 

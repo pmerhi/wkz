@@ -44,7 +44,7 @@ liest du im Ratgeber [Fahren ohne Zulassung](/ratgeber/fahren-ohne-zulassung).
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ohne gültige
 Versicherung darfst du auch mit einem Überführungskennzeichen nicht losfahren. Für
 jede dieser Kennzeichenarten brauchst du eine Versicherungsbestätigung – meist in
-Form einer [eVB-Nummer](/ratgeber/evb-nummer).</div>
+Form einer <a href="/ratgeber/evb-nummer">eVB-Nummer</a>.</div>
 
 ## Die drei Wege, ein Auto zu überführen
 
@@ -65,7 +65,7 @@ direkt zur nächsten Prüfstelle fahren.
 <div class="box box-check"><strong>Das brauchst du fürs Kurzzeitkennzeichen:</strong>
 Personalausweis, Fahrzeugbrief (Zulassungsbescheinigung Teil II), eVB-Nummer und –
 für die uneingeschränkte Nutzung – einen gültigen HU-Nachweis. Beantragen kannst
-du es bei der [Zulassungsstelle](/zulassungsstelle) deines Wohnorts oder am
+du es bei der <a href="/zulassungsstelle">Zulassungsstelle</a> deines Wohnorts oder am
 Standort des Fahrzeugs.</div>
 
 ### 2. Das Ausfuhrkennzeichen – wenn es ins Ausland geht
