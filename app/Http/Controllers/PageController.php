@@ -291,10 +291,42 @@ class PageController extends Controller
         return response()->json(['ok' => true, 'highscores' => $this->quizListen()]);
     }
 
-    /** Liefert die fünf Bestenlisten als JSON (für die Live-Aktualisierung nach dem Speichern). */
+    /** Liefert die Tagesbestenliste als JSON (für die Live-Aktualisierung nach dem Speichern). */
     public function quizHighscores()
     {
         return response()->json($this->quizListen());
+    }
+
+    /** Rangliste-Seite: Top 50 je Zeitraum (Heute/Woche/Monat/Insgesamt) mit Datum. */
+    public function quizRangliste()
+    {
+        $zeit = ['tag' => 'Heute', 'woche' => 'Woche', 'monat' => 'Monat', 'gesamt' => 'Insgesamt'];
+
+        $listen = [];
+        foreach (array_keys($zeit) as $z) {
+            $listen[$z] = QuizScore::topliste($z, 50)->map(fn ($s) => [
+                'name'     => $s->name,
+                'score'    => $s->score,
+                'richtige' => $s->richtige,
+                'datum'    => $s->created_at?->format('d.m.Y H:i'),
+            ])->values();
+        }
+
+        return view('pages.quiz-rangliste', [
+            'title'       => 'Quiz-Rangliste – die besten Kennzeichen-Rater',
+            'description' => 'Die Bestenliste des Kfz-Kennzeichen-Quiz: Top 50 von heute, dieser Woche, '
+                .'diesem Monat und insgesamt.',
+            'canonical'   => url('/kennzeichen-quiz/rangliste'),
+            'robots'      => 'noindex,follow',
+            'schemas'     => [$this->breadcrumb([
+                ['Start', url('/')],
+                ['Kennzeichen', url('/kennzeichen')],
+                ['Quiz', url('/kennzeichen-quiz')],
+                ['Rangliste', url('/kennzeichen-quiz/rangliste')],
+            ])],
+            'zeit'        => $zeit,
+            'listen'      => $listen,
+        ]);
     }
 
     /** Baut die Tagesbestenliste. */

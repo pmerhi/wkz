@@ -28,6 +28,7 @@
                         <input id="qName" class="quiz-name" type="text" maxlength="40" placeholder="Dein Name" autocomplete="off">
                         <button class="cta" id="qBegin" type="button">Spiel starten →</button>
                     </p>
+                    <p style="margin-top:10px"><a class="btn" href="{{ url('/kennzeichen-quiz/rangliste') }}">🏅 Rangliste ansehen</a></p>
                 </div>
 
                 {{-- Spielbildschirm --}}
@@ -53,6 +54,7 @@
                     <p style="text-align:center;margin:8px 0 22px">
                         <button class="cta" id="qRestart" type="button">Nochmal spielen</button>
                         <button class="btn" id="qShare" type="button">🔗 Score teilen</button>
+                        <a class="btn" href="{{ url('/kennzeichen-quiz/rangliste') }}">🏅 Rangliste</a>
                         <span id="qShareMsg" class="muted" hidden>✓ In Zwischenablage kopiert!</span>
                     </p>
 
