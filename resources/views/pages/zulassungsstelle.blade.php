@@ -44,6 +44,9 @@
     </section>
     @endif
 
+    {{-- Beste Besuchszeit (Erfahrungswerte) --}}
+    <x-besuchszeit :ort="$ortLabel" :hatTermin="(bool) $stelle->termin_url" />
+
     {{-- Online-Zulassung (i-Kfz) – der große „Neu"-Bereich --}}
     <section class="section reveal" id="online">
         <div class="feature">

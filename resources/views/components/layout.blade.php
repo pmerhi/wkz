@@ -253,6 +253,13 @@
         .gen-controls label{font-size:.82rem;color:var(--mut);font-weight:600}
         .gen-controls input{display:block;margin-top:4px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;font-size:1.1rem;font-weight:700;text-transform:uppercase;width:120px;letter-spacing:1px}
         a.js-gen-kombi{cursor:pointer}
+        /* Andrang-Wochenverlauf (Beste Besuchszeit) */
+        .andrang{display:flex;align-items:flex-end;gap:16px;height:118px;max-width:360px;margin:6px 0 4px}
+        .andrang-col{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:6px}
+        .andrang-bar{width:36px;border-radius:6px 6px 0 0;background:#22c55e}
+        .andrang-bar.lvl-3{background:#f59e0b}
+        .andrang-bar.lvl-4{background:#ef4444}
+        .andrang-col b{font-size:.82rem;color:var(--mut)}
         .pri-cta-block{background:linear-gradient(135deg,#1e3a8a,#1d4ed8);color:#fff;border-radius:20px;padding:clamp(22px,4vw,32px);text-align:center;box-shadow:var(--shadow-lg)}
         .pri-cta-block h2{color:#fff;margin-top:0}
         .pri-cta-block p{color:rgba(255,255,255,.9);max-width:54ch;margin:0 auto 18px}
