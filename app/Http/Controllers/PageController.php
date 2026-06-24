@@ -232,11 +232,33 @@ class PageController extends Controller
     {
         $clean = fn ($b) => trim(explode(',', (string) $b)[0]);
 
+        // „Großstadt"-Indikator: höchster Kfz-Bestand der mit dem Kürzel verknüpften Kreise.
+        $pop = \Illuminate\Support\Facades\DB::table('kennzeichen_kuerzel_kreis as kk')
+            ->join('kennzeichen_kuerzel as k', 'k.id', '=', 'kk.kennzeichen_kuerzel_id')
+            ->join('kreis_statistik as s', 's.kreis_id', '=', 'kk.kreis_id')
+            ->groupBy('k.code')
+            ->selectRaw('k.code as code, max(s.kfz_bestand) as pop')
+            ->pluck('pop', 'code');
+
         $pool = KennzeichenKuerzel::whereNotNull('bedeutung')->where('bedeutung', '!=', '')
             ->get(['code', 'bedeutung'])
             ->map(fn ($k) => ['code' => $k->code, 'antwort' => $clean($k->bedeutung)])
             ->filter(fn ($x) => $x['antwort'] !== '')
-            ->unique('code')->values();
+            ->unique('code')
+            // Schwierigkeit: kurz + im Namen enthalten + bevölkerungsreich = leicht.
+            ->map(function ($x) use ($pop) {
+                $len = mb_strlen($x['code']);
+                $score = $len * 100;
+                if ($this->codeImNamen($x['code'], $x['antwort'])) {
+                    $score -= 30;
+                }
+                $score -= min(60, (int) ($pop[$x['code']] ?? 0) / 20000);
+                $x['s'] = $score;
+                return $x;
+            })
+            ->sortBy('s')                                  // leicht → schwer
+            ->map(fn ($x) => ['code' => $x['code'], 'antwort' => $x['antwort']])
+            ->values();
 
         return view('pages.kennzeichen-quiz', [
             'title'       => 'Kennzeichen-Quiz: 3 Leben, 15 Sekunden – schaffst du den Highscore?',
@@ -275,18 +297,41 @@ class PageController extends Controller
         return response()->json($this->quizListen());
     }
 
-    /** Baut die fünf Bestenlisten (Tag/Woche/Monat/Jahr/gesamt). */
+    /** Baut die Tagesbestenliste. */
     private function quizListen(): array
     {
-        $listen = [];
-        foreach (['tag', 'woche', 'monat', 'jahr', 'gesamt'] as $z) {
-            $listen[$z] = QuizScore::topliste($z)->map(fn ($s) => [
+        return [
+            'tag' => QuizScore::topliste('tag')->map(fn ($s) => [
                 'name'     => $s->name,
                 'score'    => $s->score,
                 'richtige' => $s->richtige,
-            ])->values();
+            ])->values(),
+        ];
+    }
+
+    /** Prüft, ob die Buchstaben des Kürzels als Teilfolge im Ortsnamen vorkommen (= leichter zu raten). */
+    private function codeImNamen(string $code, string $name): bool
+    {
+        $name = mb_strtoupper($name);
+        $code = mb_strtoupper($code);
+        $pos = 0;
+        $lenN = mb_strlen($name);
+        for ($i = 0; $i < mb_strlen($code); $i++) {
+            $ch = mb_substr($code, $i, 1);
+            $found = false;
+            while ($pos < $lenN) {
+                if (mb_substr($name, $pos, 1) === $ch) {
+                    $found = true;
+                    $pos++;
+                    break;
+                }
+                $pos++;
+            }
+            if (! $found) {
+                return false;
+            }
         }
-        return $listen;
+        return true;
     }
 
     public function kuerzelIndex()

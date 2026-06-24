@@ -282,6 +282,14 @@
         .hs-table th{background:var(--soft2);color:var(--mut);font-size:.74rem;text-transform:uppercase;letter-spacing:.03em}
         .hs-table td.num{text-align:right;font-weight:700}
         .hs-table tr.me{background:#fef9c3}
+        .quiz-layout{display:flex;gap:24px;align-items:flex-start}
+        .quiz-main{flex:1;min-width:0}
+        .quiz-info{width:290px;flex-shrink:0;background:var(--soft2);border:1px solid var(--line);border-radius:16px;padding:20px}
+        .quiz-info h2{margin:0 0 6px;font-size:1.15rem}
+        .quiz-rules{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:15px}
+        .quiz-rules li{display:flex;gap:12px;align-items:flex-start;font-size:.93rem;color:var(--tx);line-height:1.4}
+        .quiz-rules .ic{font-size:1.5rem;line-height:1;flex-shrink:0;width:30px;text-align:center}
+        @media(max-width:820px){.quiz-layout{flex-direction:column}.quiz-info{width:100%;order:-1}}
         .pri-cta-block{background:linear-gradient(135deg,#1e3a8a,#1d4ed8);color:#fff;border-radius:20px;padding:clamp(22px,4vw,32px);text-align:center;box-shadow:var(--shadow-lg)}
         .pri-cta-block h2{color:#fff;margin-top:0}
         .pri-cta-block p{color:rgba(255,255,255,.9);max-width:54ch;margin:0 auto 18px}
