@@ -622,6 +622,25 @@ class PageController extends Controller
                 .$altkennzeichen->pluck('code')->implode(', ').' erhältlich.'];
         }
 
+        // Datengetriebene FAQ mit echten Werten (KBA/Destatis) – einzigartig je Region.
+        $stat  = $g->kreis?->statistik;
+        $regio = $g->kreis?->name ?: $g->name;
+        if ($stat && $stat->kfz_bestand) {
+            $satz = 'Im Zulassungsbezirk '.$regio.' sind rund '.number_format($stat->kfz_bestand, 0, ',', '.').' Kraftfahrzeuge zugelassen';
+            if ($stat->pkw_bestand) {
+                $satz .= ', darunter '.number_format($stat->pkw_bestand, 0, ',', '.').' Pkw';
+            }
+            if ($stat->pkw_dichte) {
+                $satz .= ' ('.number_format($stat->pkw_dichte, 0, ',', '.').' Pkw je 1.000 Einwohner)';
+            }
+            $faq[] = ['Wie viele Autos sind in '.$regio.' zugelassen?', $satz.'.'];
+        }
+        if ($stat && $stat->elektro_pkw && $stat->pkw_bestand) {
+            $faq[] = ['Wie hoch ist der E-Auto-Anteil in '.$regio.'?',
+                'Etwa '.number_format($stat->elektro_pkw / $stat->pkw_bestand * 100, 1, ',', '.').' % der Pkw in '
+                .$regio.' sind reine Elektroautos ('.number_format($stat->elektro_pkw, 0, ',', '.').' E-Pkw).'];
+        }
+
         $schemas = [$this->breadcrumb($crumbs)];
         if (count($faq) >= 2) {
             $schemas[] = $this->faqPage($faq);

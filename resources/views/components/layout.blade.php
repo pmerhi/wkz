@@ -43,6 +43,11 @@
     @endforeach
 
     <style>
+        /* Amtliche Kennzeichen-Schrift (Datei unter public/fonts/ ablegen) */
+        @font-face{font-family:"gl-nummernschild";font-display:swap;
+            src:url("/fonts/gl-nummernschild-mtl.woff2") format("woff2"),
+                url("/fonts/gl-nummernschild-mtl.woff") format("woff"),
+                url("/fonts/gl-nummernschild-mtl.ttf") format("truetype");}
         :root{
             --pri:#1d4ed8; --pri-d:#1e3a8a; --pri-l:#3b82f6;
             --ok:#16a34a; --ok-bg:#dcfce7; --warn:#d97706; --warn-bg:#fef3c7; --no:#dc2626; --no-bg:#fee2e2;
@@ -304,11 +309,11 @@
         /* Kennzeichen-Eingabemaske (direkt im Schild tippen) */
         .nt-row{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
         .nt-plate-wrap{flex:0 1 480px;max-width:100%}
-        .nt-plate{display:grid;grid-template-columns:46px 1.1fr 20px 1fr 1.5fr;align-items:stretch;height:clamp(70px,13vw,94px);border:1px solid #111;border-radius:6px;background:#fff;overflow:hidden;box-shadow:0 4px 14px -5px rgba(0,0,0,.4);font-family:"Arial Narrow",Arial,sans-serif}
+        .nt-plate{display:grid;grid-template-columns:46px 1.1fr 20px 1fr 1.5fr;align-items:stretch;height:clamp(70px,13vw,94px);border:1px solid #111;border-radius:6px;background:#fff;overflow:hidden;box-shadow:0 4px 14px -5px rgba(0,0,0,.4);font-family:"gl-nummernschild","Arial Narrow",Arial,sans-serif}
         .nt-plate-eu{background:#078ac5;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:9px 0 6px}
         .nt-plate-stars{width:62%;color:#fc0;display:block}
         .nt-plate-d{font-weight:700;font-size:clamp(.8rem,2.2vw,1.05rem);line-height:1}
-        .nt-in{border:none;background:transparent;text-align:center;text-transform:uppercase;color:#111;font-weight:800;font-size:clamp(1.6rem,6vw,2.9rem);letter-spacing:1px;outline:none;min-width:0;height:100%;padding:0}
+        .nt-in{border:none;background:transparent;text-align:center;text-transform:uppercase;color:#111;font-family:"gl-nummernschild","Arial Narrow",Arial,sans-serif;font-weight:800;font-size:clamp(1.6rem,6vw,2.9rem);letter-spacing:1px;outline:none;min-width:0;height:100%;padding:0}
         .nt-in-letters,.nt-in-numbers{border-left:1px solid #e5e7eb}
         .nt-in-numbers{box-shadow:inset 0 0 0 2px #fcd34d}
         .nt-in:focus{background:#fff7ed;box-shadow:inset 0 0 0 2px #f59e0b}
