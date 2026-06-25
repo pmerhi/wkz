@@ -12,27 +12,37 @@
 @if($code !== '')
     <section class="section reveal" id="generator" data-code="{{ $code }}" data-go="{{ $goBase }}">
         <h2>Wunschkennzeichen {{ $code }} prüfen &amp; reservieren</h2>
-        <p class="lead-intro">Gib Buchstaben und Zahlen ein – wir prüfen live, ob die Kombination möglich ist.
-            Tipp: Ein <strong>?</strong> dient als Platzhalter für ein einzelnes Zeichen.</p>
+        <p class="lead-intro">Prüfe live, ob deine Wunsch-Kombination möglich ist – tippe direkt ins Kennzeichen.</p>
 
-        <div class="kfz-plate" aria-hidden="true">
-            <span class="kfz-eu"><span class="kfz-stars">∗</span><span class="kfz-d">D</span></span>
-            <span class="kfz-body"><b>{{ $code }}</b>&nbsp;<span class="js-gen-let">MAX</span>&nbsp;<span class="js-gen-num">123</span></span>
-        </div>
-
-        <div class="gen-controls">
-            <label>Buchstaben<br><input class="js-gen-in-let" type="text" maxlength="2" placeholder="z. B. SC" autocomplete="off"></label>
-            <label>Zahlen<br><input class="js-gen-in-num" type="text" maxlength="4" inputmode="numeric" placeholder="z. B. 22" autocomplete="off"></label>
+        <p class="muted" style="font-weight:700;margin:0 0 8px">Ihre Wunschkombi:</p>
+        <div class="pm-row">
+            <div class="pm">
+                <div class="pm-plate">
+                    <div class="pm-eu"><span class="pm-stars">∗</span><span class="pm-d">D</span></div>
+                    <div class="pm-seg pm-symbol">{{ $code }}</div>
+                    <div class="pm-dots"><span></span><span></span></div>
+                    <div class="pm-seg pm-field"><input class="pm-in js-gen-in-let" type="text" maxlength="2" aria-label="Buchstaben" autocomplete="off" placeholder="SC"></div>
+                    <div class="pm-seg pm-field pm-num"><input class="pm-in js-gen-in-num" type="text" maxlength="4" inputmode="numeric" aria-label="Zahlen" autocomplete="off" placeholder="22"></div>
+                </div>
+                <div class="pm-labels">
+                    <span class="pm-sp-eu"></span>
+                    <span class="pm-lbl">Ortskürzel</span>
+                    <span class="pm-sp-dots"></span>
+                    <span class="pm-lbl">Buchstaben</span>
+                    <span class="pm-lbl pm-lbl-num">Zahlen</span>
+                </div>
+            </div>
+            <a class="cta js-reservierung-cta js-gen-cta is-disabled" data-label="generator:{{ $code }}" rel="nofollow" aria-disabled="true" href="#">Jetzt Verfügbarkeit prüfen →</a>
         </div>
 
         <p class="gen-status js-gen-status" aria-live="polite"></p>
 
+        <div class="box box-info" style="margin-top:8px"><strong>Tipp:</strong> Verwende ein <strong>?</strong> als Platzhalter für einzelne Zeichen.</div>
+
         @if($kombis->isNotEmpty())
-            <p class="muted" style="margin:8px 0 4px">Beliebte Kombis für {{ $code }} – zum Übernehmen antippen:</p>
+            <p class="muted" style="margin:16px 0 4px">Beliebte Kombis für {{ $code }} – zum Übernehmen antippen:</p>
             <p>@foreach($kombis as $rest)<a class="badge js-gen-kombi" role="button" data-let="{{ $rest }}">{{ $code }}-{{ $rest }}</a>@endforeach</p>
         @endif
-
-        <p style="margin-top:16px"><a class="cta js-reservierung-cta js-gen-cta is-disabled" data-label="generator:{{ $code }}" rel="nofollow" aria-disabled="true" href="#">Jetzt Verfügbarkeit prüfen →</a></p>
     </section>
 
     <script>
@@ -41,7 +51,6 @@
         if (!sec) return;
         var CODE = sec.getAttribute('data-code') || '', GO = sec.getAttribute('data-go') || '';
         var FORBIDDEN = ['SS', 'SA', 'NS', 'KZ', 'HJ', 'SD'];   // bundesweit unzulässige Buchstabenpaare
-        var outL = sec.querySelector('.js-gen-let'), outN = sec.querySelector('.js-gen-num');
         var inL = sec.querySelector('.js-gen-in-let'), inN = sec.querySelector('.js-gen-in-num');
         var status = sec.querySelector('.js-gen-status'), cta = sec.querySelector('.js-gen-cta');
 
@@ -55,11 +64,8 @@
             var l = (inL.value || '').toUpperCase().replace(/[^A-Z?]/g, '').slice(0, 2);
             var n = (inN.value || '').replace(/[^0-9?]/g, '').slice(0, 4);
             inL.value = l; inN.value = n;
-            outL.textContent = l || 'MAX'; outN.textContent = n || '123';
 
             if (!l && !n) { return disable('Buchstaben und Zahlen eingeben.', false); }
-
-            // Plausibilität nach den deutschen Kennzeichen-Regeln
             if (l.length < 1) return disable('Bitte 1–2 Buchstaben eingeben.', true);
             if (n.length < 1) return disable('Bitte 1–4 Zahlen eingeben.', true);
             if (n.indexOf('?') < 0 && /^0/.test(n)) return disable('Die Zahl darf nicht mit 0 beginnen.', true);

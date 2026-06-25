@@ -301,6 +301,26 @@
         .gen-status.ok{color:#16a34a}
         .gen-status.err{color:#dc2626}
         .cta.is-disabled{opacity:.5;pointer-events:none;filter:grayscale(.3)}
+        /* Kennzeichen-Eingabemaske (direkt im Schild tippen) */
+        .pm-row{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+        .pm{flex:0 1 460px;max-width:100%}
+        .pm-plate{display:flex;align-items:stretch;height:clamp(64px,12vw,88px);border:3px solid #111;border-radius:10px;background:#fff;overflow:hidden;box-shadow:var(--shadow)}
+        .pm-eu{flex:0 0 46px;background:#039;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:8px 0;font-weight:700;font-size:.66rem}
+        .pm-eu .pm-stars{color:#fc0;font-size:.85rem;line-height:1}
+        .pm-seg{flex:1;display:flex;align-items:center;justify-content:center}
+        .pm-field{border-left:1px solid #e5e7eb}
+        .pm-symbol{font:800 clamp(1.5rem,5vw,2.5rem)/1 "Arial Narrow",Arial,sans-serif;color:#111;letter-spacing:1px}
+        .pm-dots{flex:0 0 28px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px}
+        .pm-dots span{width:9px;height:9px;border-radius:50%;background:#cbd5e1}
+        .pm-num{flex:1.3;box-shadow:inset 0 0 0 2px #fcd34d}
+        .pm-in{width:100%;height:100%;border:none;background:transparent;text-align:center;text-transform:uppercase;color:#111;font:800 clamp(1.5rem,5vw,2.5rem)/1 "Arial Narrow",Arial,sans-serif;letter-spacing:1px;outline:none;min-width:0;padding:0}
+        .pm-in:focus{background:#fff7ed;box-shadow:inset 0 0 0 2px #f59e0b}
+        .pm-labels{display:flex;margin-top:6px}
+        .pm-labels>span{text-align:center;font-size:.76rem;color:var(--mut)}
+        .pm-sp-eu{flex:0 0 46px}
+        .pm-sp-dots{flex:0 0 28px}
+        .pm-lbl{flex:1}
+        .pm-lbl-num{flex:1.3}
         /* Andrang-Wochenverlauf (Beste Besuchszeit) */
         .andrang{display:flex;align-items:flex-end;gap:16px;height:118px;max-width:360px;margin:6px 0 4px}
         .andrang-col{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:6px}
