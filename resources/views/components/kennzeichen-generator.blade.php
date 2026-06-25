@@ -6,37 +6,38 @@
         ->filter(fn ($w) => strlen($w) > strlen($code) && str_starts_with($w, $code) && strlen($w) - strlen($code) <= 2)
         ->map(fn ($w) => substr($w, strlen($code)))
         ->unique()->take(8)->values();
-    // Getrackter Funnel-Start; JS hängt symbol/letters/numbers an, Controller baut cId + kennzeichen.
     $goBase = url('/go/reservierung').'?'.http_build_query(['c' => 'generator', 'label' => 'generator:'.$code, 'v' => $ab['cta_text'] ?? 'a']);
 @endphp
 @if($code !== '')
-    <section class="section reveal" id="generator" data-code="{{ $code }}" data-go="{{ $goBase }}">
+    <section class="section reveal" id="generator" data-go="{{ $goBase }}">
         <h2>Wunschkennzeichen {{ $code }} prüfen &amp; reservieren</h2>
-        <p class="lead-intro">Prüfe live, ob deine Wunsch-Kombination möglich ist – tippe direkt ins Kennzeichen.</p>
+        <p class="lead-intro">Tippe direkt ins Kennzeichen – wir prüfen live, ob deine Kombination möglich ist.</p>
 
         <p class="muted" style="font-weight:700;margin:0 0 8px">Ihre Wunschkombi:</p>
-        <div class="pm-row">
-            <div class="pm">
-                <div class="pm-plate">
-                    <div class="pm-eu"><span class="pm-stars">∗</span><span class="pm-d">D</span></div>
-                    <div class="pm-seg pm-symbol">{{ $code }}</div>
-                    <div class="pm-dots"><span></span><span></span></div>
-                    <div class="pm-seg pm-field"><input class="pm-in js-gen-in-let" type="text" maxlength="2" aria-label="Buchstaben" autocomplete="off" placeholder="SC"></div>
-                    <div class="pm-seg pm-field pm-num"><input class="pm-in js-gen-in-num" type="text" maxlength="4" inputmode="numeric" aria-label="Zahlen" autocomplete="off" placeholder="22"></div>
+        <div class="nt-row">
+            <div class="nt-plate-wrap">
+                <div class="nt-plate">
+                    <div class="nt-plate-eu">
+                        <svg class="nt-plate-stars" viewBox="0 0 340 340" aria-hidden="true"><g fill-rule="evenodd" clip-rule="evenodd" fill="currentColor"><path d="M190.21 25.054c-3.228 2.261-6.418 4.577-9.695 6.764-2.393 1.598-3.341 3.326-1.982 6.25 1.52 3.27 2.551 6.768 4.227 11.346-4.102-2.734-7.206-5.162-10.649-6.934-1.482-.764-4.006-.816-5.464-.057-3.468 1.807-6.582 4.291-10.88 7.206 1.641-4.214 2.818-7.38 4.104-10.501 1.369-3.325 1.159-5.795-2.481-7.771-3.238-1.758-6.036-4.327-10.06-7.301 2.438 0 3.544.036 4.647-.006 4.13-.158 9.199 1.045 12.108-.93 2.617-1.775 2.85-7.051 4.168-10.77.217-.614.61-1.166.955-1.809.155.125.445.242.466.394 1.643 12.249 8.883 15.986 21.009 12.323a525.32 525.32 0 0 0-.473 1.796zM112.78 68.629c-3.458-2.423-6.149-3.97-8.428-5.985-3.393-3.002-6.421-3.231-9.901-.146-2.316 2.054-5.026 3.663-8.63 6.233 1.682-4.615 2.746-8.158 4.255-11.5 1.398-3.1.454-4.871-2.233-6.562-3.29-2.069-6.346-4.508-10.642-7.61 5.174 0 8.957-.29 12.675.081 3.771.375 5.278-1.338 6.146-4.645.812-3.102 2.04-6.096 3.195-9.461 2.061 4.898 2.777 11.209 6.14 13.336 3.554 2.246 9.628.504 15.028 1.46-3.272 2.329-6.495 4.735-9.836 6.964-2.396 1.598-3.36 3.293-2.041 6.218 1.528 3.391 2.598 6.989 4.272 11.617zM225.989 68.57c.618-1.722.821-2.178.947-2.654 1.154-4.347 4.123-9.315 2.92-12.87-1.169-3.453-6.625-5.449-10.185-8.104-.391-.292-.69-.707-1.814-1.887 4.741 0 8.723-.187 12.678.062 3.003.188 4.547-.935 5.324-3.771.911-3.326 2.092-6.58 3.272-10.229.332.492.555.676.58.883 1.423 11.457 8.093 15.281 18.948 13.086.424-.086.907.133 2.172.347-3.483 2.58-6.274 5.144-9.504 6.906-3.6 1.966-3.942 4.394-2.527 7.751 1.277 3.031 2.438 6.111 4.205 10.574-4.054-2.791-7.152-4.675-9.956-6.928-2.627-2.11-4.815-2.086-7.421.013-2.788 2.246-5.844 4.162-9.639 6.821zM48.306 79.728c1.428 4.162 2.4 7.857 4.006 11.254.646 1.365 2.61 2.797 4.098 2.942 4.113.399 8.292.138 13.84.138-4.017 2.98-6.896 5.561-10.181 7.432-3.347 1.906-3.76 4.143-2.368 7.375 1.351 3.137 2.491 6.365 4.197 10.775-4.077-2.782-7.278-4.668-10.118-6.994-2.521-2.066-4.478-2.028-6.973.015-2.783 2.28-5.898 4.157-9.972 6.972 1.628-4.34 2.725-7.623 4.085-10.792 1.403-3.269.92-5.479-2.407-7.36-3.245-1.836-6.11-4.342-10.333-7.422 5.629 0 9.878.261 14.064-.141 1.479-.142 3.427-1.605 4.075-2.978 1.598-3.388 2.567-7.072 3.987-11.216zM268.345 94.071c4.926 0 8.548-.258 12.115.07 3.761.345 5.812-.835 6.634-4.67.65-3.034 1.942-5.931 3.092-9.31.352.636.546.925.679 1.239 1.756 4.162 2.428 9.904 5.56 12.043 3.091 2.109 8.67.566 13.157.639.478.008.953.112 2.508.307-3.951 2.801-7.184 5.201-10.53 7.43-2.409 1.605-3.313 3.341-1.998 6.239 1.491 3.285 2.542 6.771 4.217 11.356-4.094-2.727-7.189-5.145-10.621-6.908-1.488-.765-4.009-.838-5.466-.08-3.468 1.805-6.582 4.291-10.89 7.215 1.638-4.21 2.818-7.362 4.09-10.477 1.348-3.305 1.216-5.801-2.456-7.781-3.247-1.751-6.047-4.327-10.091-7.312zM16.672 189.751c1.744-4.512 2.878-7.746 4.237-10.883 1.409-3.251.947-5.48-2.392-7.364-3.248-1.833-6.115-4.341-10.349-7.426 5.621 0 9.865.259 14.047-.14 1.482-.142 3.441-1.59 4.087-2.959 1.604-3.397 2.576-7.093 3.997-11.239 1.422 4.146 2.394 7.842 3.997 11.239.646 1.369 2.604 2.813 4.088 2.959 4.114.402 8.293.14 13.848.14-4.008 2.978-6.88 5.551-10.152 7.423-3.326 1.902-3.799 4.116-2.389 7.368 1.359 3.136 2.493 6.37 4.201 10.788-4.07-2.779-7.263-4.668-10.104-6.986-2.513-2.05-4.469-2.059-6.974.002-2.779 2.287-5.902 4.154-10.142 7.078zM296.174 189.407c.477-1.615.672-2.238.844-2.867 1.148-4.191 4.062-8.97 2.926-12.407-1.094-3.308-6.362-5.254-9.839-7.739-.669-.479-1.534-.684-2.31-1.014l.883-1.293c3.596 0 7.216-.257 10.782.07 3.759.344 5.815-.83 6.638-4.666.65-3.034 1.941-5.932 3.092-9.313.351.636.545.924.677 1.237 1.757 4.162 2.426 9.905 5.559 12.045 3.089 2.109 8.67.566 13.157.64.478.008.954.11 2.514.302-3.951 2.805-7.183 5.203-10.528 7.433-2.409 1.604-3.32 3.337-2.003 6.236 1.492 3.286 2.54 6.772 4.215 11.358-4.092-2.726-7.186-5.142-10.615-6.904-1.488-.764-4.01-.841-5.465-.084-3.472 1.804-6.586 4.29-10.527 6.966zM48.311 219.487c1.808 13.422 8.947 17.58 21.424 13.823l-.449 1.542c-2.986 2.211-5.78 4.775-9.012 6.537-3.609 1.969-3.919 4.409-2.513 7.756 1.274 3.032 2.439 6.111 4.21 10.576-4.062-2.799-7.168-4.685-9.973-6.945-2.634-2.123-4.822-2.063-7.421.021-2.791 2.24-5.84 4.157-9.821 6.948 1.684-4.485 2.822-7.858 4.213-11.124 1.316-3.089.867-5.181-2.249-6.981-3.256-1.882-6.174-4.351-10.596-7.541 5.431 0 9.416-.188 13.374.062 3.007.189 4.541-.945 5.318-3.776.913-3.326 2.094-6.579 3.495-10.898zM303.909 259.655c-4.252-2.88-7.35-5.343-10.794-7.141-1.471-.768-4-.793-5.464-.031-3.46 1.805-6.57 4.282-10.864 7.193 1.647-4.229 2.819-7.402 4.116-10.523 1.389-3.346 1.108-5.789-2.508-7.76-3.235-1.764-6.031-4.331-9.287-6.739.862-.319 1.141-.508 1.424-.516 4.81-.128 10.729 1.43 14.114-.824 3.25-2.165 3.877-8.272 5.666-12.674.086.075.373.202.395.363 1.63 12.265 8.916 15.932 21.013 12.313l-.352 1.532c-3.122 2.286-6.092 4.834-9.412 6.782-3.091 1.813-3.596 3.88-2.264 6.977 1.365 3.17 2.477 6.449 4.217 11.048zM86.154 310.487c.479-1.739.658-2.372.829-3.008 1.122-4.185 4.011-8.966 2.858-12.385-1.118-3.313-6.401-5.21-9.824-7.771-.617-.46-1.087-1.117-1.729-1.794.658-.209.946-.375 1.24-.383 4.809-.133 10.734 1.421 14.108-.84 3.247-2.175 3.854-8.29 5.681-12.818.115.174.336.357.361.565 1.424 11.454 8.09 15.285 18.948 13.087.423-.086.907.134 2.173.347-3.483 2.58-6.275 5.144-9.503 6.906-3.6 1.966-3.945 4.392-2.528 7.75 1.277 3.031 2.436 6.111 4.203 10.574-4.052-2.789-7.15-4.674-9.954-6.925-2.626-2.11-4.814-2.09-7.421.011-2.786 2.247-5.842 4.162-9.442 6.684zM217.801 285.646c1.189-.341 1.485-.493 1.784-.501 4.809-.135 10.739 1.416 14.104-.849 3.242-2.182 3.836-8.302 5.599-12.705.123.135.34.283.436.487 2.003 4.312 2.913 10.327 6.287 12.474 3.396 2.16 9.237.475 15.45.475-4.123 3.051-6.918 5.617-10.151 7.378-3.618 1.973-3.902 4.422-2.503 7.761 1.271 3.034 2.44 6.11 4.214 10.577-4.069-2.805-7.184-4.69-9.988-6.96-2.641-2.137-4.829-2.041-7.421.032-2.793 2.231-5.834 4.151-9.723 6.876 1.659-4.58 2.71-8.176 4.257-11.546 1.34-2.919.438-4.658-1.964-6.262-3.279-2.186-6.472-4.501-10.381-7.237zM190.303 303.886c-2.994 2.211-5.793 4.782-9.034 6.538-3.651 1.979-3.843 4.462-2.469 7.774 1.259 3.034 2.438 6.102 4.222 10.581-4.103-2.833-7.232-4.716-10.03-7.005-2.659-2.175-4.849-1.977-7.422.059-2.797 2.213-5.819 4.141-9.703 6.867 1.667-4.604 2.721-8.204 4.269-11.577 1.344-2.931.398-4.65-1.994-6.245-3.278-2.187-6.469-4.506-9.556-7.763 3.997 0 8.006-.198 11.985.064 3.049.201 4.504-1.041 5.28-3.824.927-3.323 2.096-6.579 3.215-10.034.341.408.616.583.642.789 1.548 12.38 9.093 15.651 21.023 12.287l-.428 1.489z"></path></g></svg>
+                        <span class="nt-plate-d">D</span>
+                    </div>
+                    <input class="nt-in nt-in-symbol js-gen-in-sym" type="text" maxlength="3" autocomplete="off" aria-label="Ortskürzel" value="{{ $code }}">
+                    <span class="nt-seal"><span class="seal-small"></span><span class="seal-big"></span></span>
+                    <input class="nt-in nt-in-letters js-gen-in-let" type="text" maxlength="2" autocomplete="off" aria-label="Buchstaben" placeholder="SC">
+                    <input class="nt-in nt-in-numbers js-gen-in-num" type="text" maxlength="4" inputmode="numeric" autocomplete="off" aria-label="Zahlen" placeholder="22">
                 </div>
-                <div class="pm-labels">
-                    <span class="pm-sp-eu"></span>
-                    <span class="pm-lbl">Ortskürzel</span>
-                    <span class="pm-sp-dots"></span>
-                    <span class="pm-lbl">Buchstaben</span>
-                    <span class="pm-lbl pm-lbl-num">Zahlen</span>
+                <div class="nt-plate-labels">
+                    <span></span>
+                    <label class="js-lbl-sym">Ortskürzel</label>
+                    <span></span>
+                    <label>Buchstaben</label>
+                    <label>Zahlen</label>
                 </div>
             </div>
             <a class="cta js-reservierung-cta js-gen-cta is-disabled" data-label="generator:{{ $code }}" rel="nofollow" aria-disabled="true" href="#">Jetzt Verfügbarkeit prüfen →</a>
         </div>
 
         <p class="gen-status js-gen-status" aria-live="polite"></p>
-
         <div class="box box-info" style="margin-top:8px"><strong>Tipp:</strong> Verwende ein <strong>?</strong> als Platzhalter für einzelne Zeichen.</div>
 
         @if($kombis->isNotEmpty())
@@ -49,9 +50,9 @@
     (function () {
         var sec = document.getElementById('generator');
         if (!sec) return;
-        var CODE = sec.getAttribute('data-code') || '', GO = sec.getAttribute('data-go') || '';
-        var FORBIDDEN = ['SS', 'SA', 'NS', 'KZ', 'HJ', 'SD'];   // bundesweit unzulässige Buchstabenpaare
-        var inL = sec.querySelector('.js-gen-in-let'), inN = sec.querySelector('.js-gen-in-num');
+        var GO = sec.getAttribute('data-go') || '';
+        var FORBIDDEN = ['SS', 'SA', 'NS', 'KZ', 'HJ', 'SD'];
+        var inS = sec.querySelector('.js-gen-in-sym'), inL = sec.querySelector('.js-gen-in-let'), inN = sec.querySelector('.js-gen-in-num');
         var status = sec.querySelector('.js-gen-status'), cta = sec.querySelector('.js-gen-cta');
 
         function disable(msg, isErr) {
@@ -61,26 +62,27 @@
         }
 
         function check() {
+            var s = (inS.value || '').toUpperCase().replace(/[^A-ZÄÖÜ]/g, '').slice(0, 3);
             var l = (inL.value || '').toUpperCase().replace(/[^A-Z?]/g, '').slice(0, 2);
             var n = (inN.value || '').replace(/[^0-9?]/g, '').slice(0, 4);
-            inL.value = l; inN.value = n;
+            inS.value = s; inL.value = l; inN.value = n;
 
-            if (!l && !n) { return disable('Buchstaben und Zahlen eingeben.', false); }
+            if (!s) return disable('Bitte ein Ortskürzel eingeben.', true);
+            if (!l && !n) return disable('Buchstaben und Zahlen eingeben.', false);
             if (l.length < 1) return disable('Bitte 1–2 Buchstaben eingeben.', true);
             if (n.length < 1) return disable('Bitte 1–4 Zahlen eingeben.', true);
             if (n.indexOf('?') < 0 && /^0/.test(n)) return disable('Die Zahl darf nicht mit 0 beginnen.', true);
             if (/^0+$/.test(n)) return disable('Die Zahl darf nicht 0 sein.', true);
-            if ((CODE.length + l.length + n.length) > 8) return disable('Insgesamt sind höchstens 8 Zeichen erlaubt.', true);
+            if ((s.length + l.length + n.length) > 8) return disable('Insgesamt sind höchstens 8 Zeichen erlaubt.', true);
             if (l.length === 2 && l.indexOf('?') < 0 && FORBIDDEN.indexOf(l) >= 0) return disable('Die Buchstaben „' + l + '" sind nicht zulässig.', true);
 
-            status.textContent = '✓ Mögliche Kombination ' + CODE + '-' + l + '-' + n + ' – jetzt Verfügbarkeit prüfen.';
+            status.textContent = '✓ Mögliche Kombination ' + s + '-' + l + '-' + n + ' – jetzt Verfügbarkeit prüfen.';
             status.className = 'gen-status js-gen-status ok';
             cta.classList.remove('is-disabled'); cta.removeAttribute('aria-disabled');
-            cta.href = GO + '&symbol=' + encodeURIComponent(CODE) + '&letters=' + encodeURIComponent(l.toLowerCase()) + '&numbers=' + encodeURIComponent(n);
+            cta.href = GO + '&symbol=' + encodeURIComponent(s) + '&letters=' + encodeURIComponent(l.toLowerCase()) + '&numbers=' + encodeURIComponent(n);
         }
 
-        inL.addEventListener('input', check);
-        inN.addEventListener('input', check);
+        [inS, inL, inN].forEach(function (el) { el.addEventListener('input', check); });
         cta.addEventListener('click', function (e) { if (cta.classList.contains('is-disabled')) e.preventDefault(); });
         sec.querySelectorAll('.js-gen-kombi').forEach(function (b) {
             b.addEventListener('click', function () {
