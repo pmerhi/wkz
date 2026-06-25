@@ -13,7 +13,7 @@ const IDEA = {
         type: 'object',
         properties: {
           titel: { type: 'string', description: 'kurzer, konkreter Titel der Idee' },
-          kategorie: { type: 'string', enum: ['Daten', 'Lokal', 'Interaktiv', 'UGC', 'Wettbewerb', 'Sonstiges'] },
+          kategorie: { type: 'string', enum: ['Daten', 'Lokal', 'Interaktiv', 'UGC', 'Wettbewerb', 'Wusstest', 'Sonstiges'] },
           beschreibung: { type: 'string' },
           umsetzung: { type: 'string', description: 'konkreter Umsetzungsvorschlag fürs Portal' },
           quelle: { type: 'string', description: 'Fund-/Beleg-URL' },
