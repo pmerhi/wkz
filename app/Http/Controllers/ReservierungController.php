@@ -27,12 +27,28 @@ class ReservierungController extends Controller
             ]);
         }
 
-        $ziel = config('portal.reservation_url').'?'.http_build_query([
+        $query = [
+            'cId'          => config('portal.reservation_cid'),
+            'gclid'        => (string) $request->query('gclid', ''),
             'utm_source'   => 'portal',
             'utm_medium'   => 'cta',
             'utm_campaign' => $campaign,
             'v'            => $variant,
-        ]);
+        ];
+
+        // Wunschkombi aus dem Generator sauber durchreichen (Format des Reservierungs-Portals).
+        $symbol  = strtoupper(preg_replace('/[^A-Za-zÄÖÜäöü?]/u', '', (string) $request->query('symbol', '')));
+        $letters = strtolower(preg_replace('/[^A-Za-z?]/', '', (string) $request->query('letters', '')));
+        $numbers = preg_replace('/[^0-9?]/', '', (string) $request->query('numbers', ''));
+        if ($symbol !== '' && ($letters !== '' || $numbers !== '')) {
+            $query['symbol']      = $symbol;
+            $query['letters']     = $letters;
+            $query['numbers']     = $numbers;
+            $query['kennzeichen'] = $symbol.'-'.strtoupper($letters).'-'.$numbers;
+            $query['search']      = 1;
+        }
+
+        $ziel = config('portal.reservation_url').'?'.http_build_query($query);
 
         return redirect()->away($ziel, 302);
     }

@@ -297,6 +297,10 @@
         .gen-controls label{font-size:.82rem;color:var(--mut);font-weight:600}
         .gen-controls input{display:block;margin-top:4px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;font-size:1.1rem;font-weight:700;text-transform:uppercase;width:120px;letter-spacing:1px}
         a.js-gen-kombi{cursor:pointer}
+        .gen-status{margin:12px 0 0;font-size:.9rem;min-height:1.2em;font-weight:600}
+        .gen-status.ok{color:#16a34a}
+        .gen-status.err{color:#dc2626}
+        .cta.is-disabled{opacity:.5;pointer-events:none;filter:grayscale(.3)}
         /* Andrang-Wochenverlauf (Beste Besuchszeit) */
         .andrang{display:flex;align-items:flex-end;gap:16px;height:118px;max-width:360px;margin:6px 0 4px}
         .andrang-col{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:6px}

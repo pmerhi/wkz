@@ -1,9 +1,9 @@
 <?php
 
 return [
-    // Externe Reservierungs-App (eigene Domain). Platzhalter — finale Domain offen.
-    // Funnel-CTA leitet hierhin (getrackt). UTM-Parameter werden ergänzt.
-    'reservation_url' => env('RESERVATION_URL', 'https://reservierung.example'),
+    // Externe Reservierungs-App. Funnel-CTA leitet hierhin (getrackt, UTM + Partner-cId).
+    'reservation_url' => env('RESERVATION_URL', 'https://jetzt.wunschkennzeichen-reservieren.de/wunschkennzeichen'),
+    'reservation_cid' => env('RESERVATION_CID', '1085'),   // Partner-ID, immer gleich
 
     // Basis-Domain des Portals (für absolute URLs in Sitemap/Canonical/Schema)
     'site_name' => 'Wunschkennzeichen-Portal',
