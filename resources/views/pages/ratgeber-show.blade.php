@@ -1,7 +1,7 @@
 <x-layout :title="$title" :description="$description" :canonical="$canonical" :robots="$robots" :ogType="$ogType" :schemas="$schemas">
     <nav class="breadcrumb">
         <a href="{{ url('/') }}">Start</a> ›
-        <a href="{{ url('/ratgeber') }}">Ratgeber</a> › {{ $artikel->titel }}
+        <a href="{{ url('/kfz-ratgeber') }}">Ratgeber</a> › {{ $artikel->titel }}
     </nav>
 
     <section class="hero hero-sm reveal in">
@@ -37,7 +37,7 @@
             @foreach($verwandte as $v)
                 <div class="card reveal {{ 'reveal-d'.($loop->index % 3 + 1) }}">
                     @if($v->kategorie)<div class="muted" style="font-size:.74rem;text-transform:uppercase;letter-spacing:.04em">{{ $v->kategorie->name }}</div>@endif
-                    <a href="{{ url('/ratgeber/'.$v->slug) }}">{{ $v->titel }}</a>
+                    <a href="{{ url('/kfz-ratgeber/'.$v->slug) }}">{{ $v->titel }}</a>
                 </div>
             @endforeach
         </div>
@@ -65,7 +65,7 @@
 
     <section class="section reveal" style="text-align:center">
         <h2>Weiteren Ratgeber finden</h2>
-        <form class="hero-search" method="get" action="{{ url('/ratgeber') }}" role="search" style="margin:14px auto 0" data-suggest="{{ url('/ratgeber/vorschlaege') }}">
+        <form class="hero-search" method="get" action="{{ url('/kfz-ratgeber') }}" role="search" style="margin:14px auto 0" data-suggest="{{ url('/kfz-ratgeber/vorschlaege') }}">
             <input type="search" name="q" placeholder="z. B. ummelden, eVB, i-Kfz …" aria-label="Ratgeber durchsuchen">
             <button class="cta" type="submit">Suchen</button>
         </form>

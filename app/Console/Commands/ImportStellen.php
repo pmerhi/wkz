@@ -210,12 +210,12 @@ OVERPASS;
     private function bundeslandId(?string $name): ?int
     {
         if (! $name) return null;
-        return Bundesland::firstOrCreate(['slug' => Str::slug($name)], ['name' => $name])->id;
+        return Bundesland::firstOrCreate(['slug' => \App\Support\Slug::de($name)], ['name' => $name])->id;
     }
 
     private function uniqueSlug(string $name, ?string $ort): string
     {
-        $base = Str::slug($name) ?: Str::slug((string) $ort) ?: 'stelle';
+        $base = \App\Support\Slug::de($name) ?: \App\Support\Slug::de((string) $ort) ?: 'stelle';
         $slug = $base; $i = 2;
         while (Zulassungsstelle::where('slug', $slug)->exists()) {
             $slug = $base.'-'.$i++;

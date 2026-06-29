@@ -41,11 +41,15 @@ class SitemapController extends Controller
                                     ->whereHas('zulassungsstellen', fn ($s) => $s->whereNull('parent_id'))
                                     ->orWhereHas('kreis.zulassungsstellen', fn ($s) => $s->whereNull('parent_id')))
                                 ->orderBy('name')->get(['id', 'slug', 'updated_at'])
-                                ->map(fn ($g) => ['loc' => url('/kennzeichen/ort/'.$g->slug), 'lastmod' => $g->updated_at?->toAtomString()])->all(),
-            'bundesland'  => Bundesland::has('zulassungsstellen')->orderBy('name')->get()
+                                ->map(fn ($g) => ['loc' => url('/wunschkennzeichen/'.$g->slug), 'lastmod' => $g->updated_at?->toAtomString()])->all(),
+            // Stadtstaaten (Land-Slug == Hauptstelle-Slug) NICHT listen – ihre URL
+            // /zulassungsstelle/{slug} ist die Stelle (steht schon in der stellen-Sitemap).
+            'bundesland'  => Bundesland::has('zulassungsstellen')
+                                ->whereNotIn('slug', Zulassungsstelle::whereNull('parent_id')->pluck('slug'))
+                                ->orderBy('name')->get()
                                 ->map(fn ($b) => ['loc' => url('/zulassungsstelle/'.$b->slug), 'lastmod' => $b->updated_at?->toAtomString()])->all(),
             'ratgeber'    => RatgeberArtikel::whereNotNull('published_at')->orderBy('slug')->get()
-                                ->map(fn ($a) => ['loc' => url('/ratgeber/'.$a->slug), 'lastmod' => $a->updated_at?->toAtomString()])->all(),
+                                ->map(fn ($a) => ['loc' => url('/kfz-ratgeber/'.$a->slug), 'lastmod' => $a->updated_at?->toAtomString()])->all(),
             default       => [],
         };
 
@@ -72,7 +76,7 @@ class SitemapController extends Controller
             ['loc' => url('/kennzeichen/ort')],
             ['loc' => url('/altkennzeichen')],
             ['loc' => url('/kennzeichen-quiz')],
-            ['loc' => url('/ratgeber')],
+            ['loc' => url('/kfz-ratgeber')],
             ['loc' => url('/formulare')],
             ['loc' => url('/ueber-uns')],
         ];

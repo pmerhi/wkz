@@ -5,6 +5,13 @@
     'robots' => 'index,follow',
     'ogType' => 'website',
     'schemas' => [],
+    // Kopfzeile: leer = Portal-Logo (Standard). Gesetzt (z.B. auf Zulassungsstellen-
+    // Seiten) = fixer Amtsname statt Logo, z.B. „Straßenverkehrsamt München".
+    // Ist 'brand' gesetzt, wird der Titel NICHT verlinkt (Besucher bleibt auf der Seite).
+    'brand' => null,
+    // Kopf-Menü: leer = globale Seitennavigation (Standard). Gefüllt = nur seiten-
+    // interne Sprungmarken [['href'=>'#…','label'=>'…'], …], um Besucher zu halten.
+    'navLinks' => [],
 ])
 @php $ogImage = config('portal.og_image'); @endphp
 <!DOCTYPE html>
@@ -88,9 +95,20 @@
         /* Header */
         header.site{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.82);backdrop-filter:saturate(160%) blur(10px);border-bottom:1px solid var(--line)}
         header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:62px}
-        a.brand{display:flex;align-items:center;gap:9px;font-weight:800;letter-spacing:-.02em;font-size:1.12rem;text-decoration:none;color:var(--ink)}
-        a.brand .logo{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--pri),var(--pri-l));display:grid;place-items:center;color:#fff;font-size:.95rem;box-shadow:var(--shadow)}
+        .brand{display:flex;align-items:center;gap:9px;font-weight:800;letter-spacing:-.02em;font-size:1.12rem;text-decoration:none;color:var(--ink)}
+        .brand--static{cursor:default}
+        .brand .brand-logo{height:35px;width:auto;display:block}
+        .brand .brand-amt{margin:0;font-weight:800;letter-spacing:-.02em;font-size:clamp(1rem,2.4vw,1.2rem);line-height:1.15;color:var(--ink)}
+        /* Logo im Dark Mode aufhellen (SVG-Schrift ist nahezu schwarz) */
+        [data-theme="dark"] .brand .brand-logo{filter:invert(1) hue-rotate(180deg) brightness(1.05)}
         nav.main{display:flex;align-items:center;gap:4px}
+        /* Seiten-internes Kopf-Menü (z.B. Zulassungsstelle): viele Sprungmarken
+           dürfen die Kopfzeile nicht sprengen → bei Überlauf horizontal scrollen. */
+        nav.main.nav--inpage{flex-wrap:nowrap;overflow-x:auto;max-width:100%;gap:1px;scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+        /* Deutlich kompakter als die globale Nav: kleinere Schrift, kleinere Emoji-Icons, enger */
+        nav.main.nav--inpage a{white-space:nowrap;flex:0 0 auto;font-size:.72rem;font-weight:600;padding:4px 7px;letter-spacing:-.005em}
+        nav.main.nav--inpage::-webkit-scrollbar{height:6px}
+        nav.main.nav--inpage::-webkit-scrollbar-thumb{background:var(--line);border-radius:3px}
         nav.main a{text-decoration:none;color:var(--tx);font-weight:600;font-size:.95rem;padding:8px 12px;border-radius:9px;transition:background .15s,color .15s}
         nav.main a:hover{background:var(--soft);color:var(--ink)}
         .nav-toggle{display:none;background:none;border:1px solid var(--line);border-radius:9px;width:42px;height:38px;font-size:1.2rem;cursor:pointer;color:var(--tx)}
@@ -191,6 +209,37 @@
         a.badge:hover{border-color:var(--pri-l);color:var(--pri);background:var(--soft2);transform:translateY(-1px)}
         .badge-alt{border-color:#1d4ed8;background:#eff6ff;color:#1d4ed8;font-weight:700}
 
+        /* Altkennzeichen-Infografik (iframe der interaktiven Karte) */
+        .ak-infografik{margin:28px 0}
+        .ak-infografik-cap{margin:0 0 14px;padding:0}
+        .ak-infografik-titel{margin:0 0 4px}
+        .ak-infografik-intro{margin:0;max-width:62ch}
+        .ak-infografik-frame{width:462px;max-width:100%;margin:0 auto}
+        .ak-infografik-frame iframe{width:462px;max-width:100%;height:840px;border:1px solid var(--line);border-radius:12px;background:#fff;display:block}
+
+        /* Interaktive Deutschlandkarte (Altkennzeichen nach Bundesland) */
+        .de-karte-wrap{margin:28px 0}
+        .de-karte-titel{margin:0 0 4px}
+        .de-karte-intro{margin:0 0 14px}
+        .de-karte-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,360px);gap:24px;align-items:start}
+        .de-karte-svg-box{min-width:0}
+        .de-karte-svg{width:100%;height:auto;display:block}
+        .de-karte-svg path{stroke:var(--bg,#fff);stroke-width:1.1;stroke-linejoin:round;transition:fill .15s,filter .15s}
+        .de-karte-svg path.is-hover{filter:brightness(1.06)}
+        .de-karte-svg path.is-aktiv{stroke:var(--pri);stroke-width:2.2;filter:drop-shadow(0 1px 3px rgba(0,0,0,.25))}
+        .de-karte-svg path:focus{outline:none}
+        .de-karte-svg path:focus-visible{stroke:var(--pri);stroke-width:2.4}
+        .de-karte-legende{display:flex;align-items:center;gap:8px;margin-top:10px;font-size:.8rem}
+        .de-karte-leg-bar{flex:0 0 90px;height:10px;border-radius:5px;background:linear-gradient(90deg,hsl(199 92% 92%),hsl(199 92% 40%))}
+        .de-karte-panel{border:1px solid var(--line);border-radius:14px;padding:16px 18px;background:var(--card,#fff);position:sticky;top:90px}
+        .de-karte-panel-titel{margin:0 0 4px}
+        .de-karte-panel-meta{margin:0 0 12px;font-size:.9rem}
+        .de-karte-codes{display:flex;flex-wrap:wrap;gap:2px;margin-bottom:14px}
+        .de-karte-panel-link{font-weight:600;text-decoration:none;color:var(--pri)}
+        .de-karte-panel-link:hover{text-decoration:underline}
+        @media(max-width:740px){.de-karte-grid{grid-template-columns:1fr}.de-karte-panel{position:static}}
+        [data-theme="dark"] .de-karte-svg path{stroke:var(--card,#1a1d22)}
+
         nav.breadcrumb{font-size:.88rem;margin-bottom:12px;color:var(--mut)}
         nav.breadcrumb a{color:var(--mut);text-decoration:none}
         nav.breadcrumb a:hover{color:var(--pri)}
@@ -251,7 +300,7 @@
         details.oz-week>summary:hover{background:var(--soft2)}
         .oz-closed-lbl{font-size:.74rem;color:var(--mut);padding-left:6px;line-height:18px}
         .oz-table{width:100%;border-collapse:collapse;margin:0}
-        .oz-table th,.oz-table td{text-align:left;padding:9px 18px;border-top:1px solid var(--line);font-size:.95rem}
+        .oz-table th,.oz-table td{text-align:left;padding:10px 18px;border:none;font-size:.95rem}
         .oz-table th{width:130px;font-weight:600;color:var(--tx)}
         .oz-table th small{font-weight:600;color:var(--pri);font-size:.7rem;margin-left:4px}
         .oz-table tr.is-today{background:rgba(34,197,94,.08)}
@@ -413,14 +462,27 @@
 <body>
 <header class="site">
     <div class="wrap">
-        <a class="brand" href="{{ url('/') }}"><span class="logo">WK</span> Wunschkennzeichen-Portal</a>
+        @if($brand)
+            {{-- Amtsname als Kopf-Titel: bewusst NICHT verlinkt; zugleich die einzige H1 der Seite. --}}
+            <div class="brand brand--static"><h1 class="brand-amt">{{ $brand }}</h1></div>
+        @else
+            <a class="brand" href="{{ url('/') }}">
+                <img class="brand-logo" src="{{ asset('img/logo-wkr.svg') }}" alt="{{ config('portal.site_name') }}" width="160" height="35">
+            </a>
+        @endif
         <div class="header-right">
-            <nav class="main" id="nav">
-                <a href="{{ url('/zulassungsstelle') }}">Zulassungsstellen</a>
-                <a href="{{ url('/kennzeichen') }}">Kennzeichen</a>
-                <a href="{{ url('/altkennzeichen') }}">Altkennzeichen</a>
-                <a href="{{ url('/formulare') }}">Formulare</a>
-                <a href="{{ url('/ratgeber') }}">Ratgeber</a>
+            <nav class="main{{ count($navLinks) ? ' nav--inpage' : '' }}" id="nav">
+                @if(count($navLinks))
+                    @foreach($navLinks as $item)
+                        <a href="{{ $item['href'] }}">{{ $item['label'] }}</a>
+                    @endforeach
+                @else
+                    <a href="{{ url('/zulassungsstelle') }}">Zulassungsstellen</a>
+                    <a href="{{ url('/kennzeichen') }}">Kennzeichen</a>
+                    <a href="{{ url('/altkennzeichen') }}">Altkennzeichen</a>
+                    <a href="{{ url('/formulare') }}">Formulare</a>
+                    <a href="{{ url('/kfz-ratgeber') }}">Ratgeber</a>
+                @endif
             </nav>
             <button class="tool-btn js-settings" type="button" title="Darstellung" aria-label="Darstellung einstellen" aria-haspopup="dialog">Aa</button>
             <button class="nav-toggle" aria-label="Menü" aria-expanded="false" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰</button>

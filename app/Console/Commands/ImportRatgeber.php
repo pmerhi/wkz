@@ -40,12 +40,12 @@ class ImportRatgeber extends Command
             $meta = $this->parseFrontmatter($m[1]);
             $body = trim($m[2]);
 
-            $slug = $meta['slug'] ?? Str::slug($meta['titel'] ?? basename($file, '.md'));
+            $slug = $meta['slug'] ?? \App\Support\Slug::de($meta['titel'] ?? basename($file, '.md'));
 
             $kategorieId = null;
             if (! empty($meta['kategorie'])) {
                 $kategorieId = Kategorie::firstOrCreate(
-                    ['slug' => Str::slug($meta['kategorie'])],
+                    ['slug' => \App\Support\Slug::de($meta['kategorie'])],
                     ['name' => $meta['kategorie']]
                 )->id;
             }
@@ -67,7 +67,7 @@ class ImportRatgeber extends Command
             $tagIds = [];
             foreach ($this->parseList($meta['tags'] ?? '') as $tagName) {
                 $tagIds[] = Tag::firstOrCreate(
-                    ['slug' => Str::slug($tagName)],
+                    ['slug' => \App\Support\Slug::de($tagName)],
                     ['name' => $tagName]
                 )->id;
             }

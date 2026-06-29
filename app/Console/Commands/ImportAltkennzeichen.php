@@ -101,7 +101,7 @@ class ImportAltkennzeichen extends Command
 
     private function uniqueSlug(string $code): string
     {
-        $base = Str::slug($code) ?: Str::lower($code);
+        $base = \App\Support\Slug::de($code) ?: Str::lower($code);
         $slug = $base; $i = 2;
         while (KennzeichenKuerzel::where('slug', $slug)->exists()) {
             $slug = $base.'-'.$i; $i++;

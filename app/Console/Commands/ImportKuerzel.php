@@ -115,7 +115,7 @@ SPARQL;
 
     private function uniqueSlug(string $code): string
     {
-        $base = Str::slug($code) ?: strtolower($code);
+        $base = \App\Support\Slug::de($code) ?: strtolower($code);
         $slug = $base; $i = 2;
         while (KennzeichenKuerzel::where('slug', $slug)->exists()) {
             $slug = $base.'-'.$i++;

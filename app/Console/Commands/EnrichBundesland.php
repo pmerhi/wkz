@@ -46,7 +46,7 @@ class EnrichBundesland extends Command
             if ($this->option('dry')) { $set++; continue; }
 
             $landIds[$land] ??= Bundesland::firstOrCreate(
-                ['slug' => Str::slug($land)],
+                ['slug' => \App\Support\Slug::de($land)],
                 ['name' => $land]
             )->id;
             $stelle->update(['bundesland_id' => $landIds[$land]]);

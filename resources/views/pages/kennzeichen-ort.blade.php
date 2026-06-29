@@ -89,7 +89,7 @@
         <h2>Kennzeichen in der Umgebung</h2>
         <div class="grid">
             @foreach($nachbarn as $n)
-                <div class="card"><a href="{{ url('/kennzeichen/ort/'.$n->slug) }}">Kennzeichen {{ $n->name }}</a></div>
+                <div class="card"><a href="{{ url('/wunschkennzeichen/'.$n->slug) }}">Kennzeichen {{ $n->name }}</a></div>
             @endforeach
         </div>
     </section>
@@ -115,11 +115,13 @@
     <section class="section reveal">
         <h2>Passende Ratgeber</h2>
         <div class="grid">
-            <div class="card"><a href="{{ url('/ratgeber/wunschkennzeichen-reservieren') }}">Wunschkennzeichen reservieren – so geht's</a></div>
-            <div class="card"><a href="{{ url('/ratgeber/auto-anmelden') }}">Auto anmelden – Schritt für Schritt</a></div>
-            <div class="card"><a href="{{ url('/ratgeber/i-kfz-online-zulassung') }}">i-Kfz – online zulassen</a></div>
+            <div class="card"><a href="{{ url('/kfz-ratgeber/wunschkennzeichen-reservieren') }}">Wunschkennzeichen reservieren – so geht's</a></div>
+            <div class="card"><a href="{{ url('/kfz-ratgeber/auto-anmelden') }}">Auto anmelden – Schritt für Schritt</a></div>
+            <div class="card"><a href="{{ url('/kfz-ratgeber/i-kfz-online-zulassung') }}">i-Kfz – online zulassen</a></div>
         </div>
     </section>
+
+    <x-quiz-teaser :code="$primary?->code" />
 
     <x-ad-slot position="ort_unten" />
 </x-layout>

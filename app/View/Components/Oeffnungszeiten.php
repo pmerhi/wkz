@@ -96,7 +96,10 @@ class Oeffnungszeiten extends Component
             if ($o === null || $c === null || $c <= $o) continue;
             $out[$key][] = [$o, $c];
         }
-        foreach ($out as &$f) { sort($f); }
+        // Exakte Dubletten je Tag entfernen (gleiches [opens, closes]); echte
+        // Mehrfach-Intervalle (Vor-/Nachmittag) bleiben erhalten. Dann sortieren.
+        foreach ($out as &$f) { $f = array_values(array_unique($f, SORT_REGULAR)); sort($f); }
+        unset($f);
         return $out;
     }
 

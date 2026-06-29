@@ -15,6 +15,8 @@
         <p style="margin:18px 0 0"><a class="cta js-reservierung-cta" data-label="altkennzeichen:index" href="{{ config('portal.reservation_url') }}?utm_source=portal&utm_medium=cta&utm_campaign=altkennzeichen" rel="nofollow">Wunschkennzeichen mit Altkennzeichen reservieren →</a></p>
     </section>
 
+    <x-altkennzeichen-infografik />
+
     <p>
         @foreach($gruppen as $name => $g)
             <a class="badge" href="#{{ $g['land']->slug }}">{{ $name }} ({{ count($g['codes']) }})</a>

@@ -1,10 +1,20 @@
-<x-layout :title="$title" :description="$description" :canonical="$canonical" :robots="$robots" :schemas="$schemas">
-    <nav class="breadcrumb">
-        <a href="{{ url('/') }}">Start</a> ›
-        <a href="{{ url('/zulassungsstelle') }}">Zulassungsstellen</a>
-        @if($stelle->bundesland)› <a href="{{ url('/zulassungsstelle/'.$stelle->bundesland->slug) }}">{{ $stelle->bundesland->name }}</a>@endif
-        › {{ $stelle->ort ?: $stelle->name }}
-    </nav>
+@php
+    // Seiten-internes Menü – nur Sprungmarken auf dieser Seite (Besucher bleibt hier).
+    // Einzige Quelle für Kopf-Menü UND jumpnav, damit beide nicht auseinanderlaufen.
+    $hatHoursKopf = is_array($stelle->oeffnungszeiten) && count($stelle->oeffnungszeiten) && ! isset($stelle->oeffnungszeiten['raw']);
+    $kopfNav = [];
+    if ($hatHoursKopf) $kopfNav[] = ['href' => '#oeffnungszeiten', 'label' => '🕒 Öffnungszeiten'];
+    $kopfNav[] = ['href' => '#online', 'label' => '🚗 Online-Zulassung'];
+    $kopfNav[] = ['href' => '#reservieren', 'label' => '⭐ Wunschkennzeichen'];
+    if ($stelle->termin_url) $kopfNav[] = ['href' => '#termin', 'label' => '📅 Termin'];
+    $kopfNav[] = ['href' => '#formulare', 'label' => '📄 Formulare'];
+    $kopfNav[] = ['href' => '#mitbringen', 'label' => '✅ Was mitbringen'];
+    $kopfNav[] = ['href' => '#kontakt', 'label' => '📍 Kontakt'];
+    $kopfNav[] = ['href' => '#faq', 'label' => '❓ FAQ'];
+@endphp
+<x-layout :title="$title" :description="$description" :canonical="$canonical" :robots="$robots" :schemas="$schemas" :brand="$stelle->kopf_titel ?: $stelle->name" :nav-links="$kopfNav">
+    {{-- Breadcrumb hier bewusst ausgeblendet: Besucher soll auf der Seite bleiben.
+         BreadcrumbList-JSON-LD bleibt für SEO erhalten (kommt aus dem Controller). --}}
 
     @php
         $ortLabel = $stelle->ort ?: $stelle->name;
@@ -15,22 +25,12 @@
         $kuerzelHinweis = $kuerzel ? ' (Unterscheidungszeichen <strong>'.e($kuerzel->code).'</strong>)' : '';
     @endphp
 
-    <h1>{{ $stelle->name }}</h1>
+    {{-- Titel (H1) und Sprungnavigation stehen ausschließlich im Header oben,
+         um Dopplungen zu vermeiden. --}}
     <p class="lead-intro">Die <strong>{{ $stelle->name }}</strong> ist für die Kfz-Zulassung in
         <strong>{{ $ortLabel }}</strong> zuständig{!! $kuerzelHinweis !!}.
         Hier findest du heutige Öffnungszeiten, Online-Termin und Kontakt – und kannst dein
         Wunschkennzeichen direkt reservieren.</p>
-
-    <nav class="jumpnav">
-        @if($hatHours)<a href="#oeffnungszeiten">🕒 Öffnungszeiten</a>@endif
-        <a href="#online">🚗 Online-Zulassung</a>
-        <a href="#reservieren">⭐ Wunschkennzeichen</a>
-        @if($stelle->termin_url)<a href="#termin">📅 Termin</a>@endif
-        <a href="#formulare">📄 Formulare</a>
-        <a href="#mitbringen">✅ Was mitbringen</a>
-        <a href="#kontakt">📍 Kontakt</a>
-        <a href="#faq">❓ FAQ</a>
-    </nav>
 
     {{-- Öffnungszeiten: heute mit Balken, ganze Woche aufklappbar --}}
     @if($hatHours || $hatRawHours)
@@ -53,7 +53,7 @@
             <span class="tag-new">Neu · i-Kfz Stufe 4</span>
             <h2>Auto online zulassen, ab- &amp; ummelden</h2>
             <p class="lead-intro">Viele Vorgänge gehen heute komplett digital – ganz ohne Gang zur
-                Zulassungsstelle {{ $ortLabel }}. Über das bundesweite <a href="{{ url('/ratgeber/i-kfz-online-zulassung') }}">i-Kfz-Portal</a>
+                Zulassungsstelle {{ $ortLabel }}. Über das bundesweite <a href="{{ url('/kfz-ratgeber/i-kfz-online-zulassung') }}">i-Kfz-Portal</a>
                 erledigst du An-, Ab- und Ummeldung rund um die Uhr von zu Hause.</p>
             <div class="grid">
                 <div class="card"><strong>✅ Voraussetzungen</strong>
@@ -66,7 +66,7 @@
                     <div class="muted">Fahrzeug außer Betrieb setzen – sofort und gebührengünstig online.</div>
                 </div>
             </div>
-            <p style="margin:18px 0 0"><a class="btn" href="{{ url('/ratgeber/i-kfz-online-zulassung') }}">So funktioniert i-Kfz →</a></p>
+            <p style="margin:18px 0 0"><a class="btn" href="{{ url('/kfz-ratgeber/i-kfz-online-zulassung') }}">So funktioniert i-Kfz →</a></p>
         </div>
     </section>
 
@@ -96,7 +96,7 @@
         <div class="box box-info">
             <strong>Für die Online-Zulassung brauchst du keine Formulare.</strong>
             Die Muster helfen nur, wenn du persönlich zur {{ $stelle->name }} gehst.
-            <a href="{{ url('/ratgeber/i-kfz-online-zulassung') }}">Zur Online-Zulassung (i-Kfz) →</a>
+            <a href="{{ url('/kfz-ratgeber/i-kfz-online-zulassung') }}">Zur Online-Zulassung (i-Kfz) →</a>
         </div>
         <div class="grid">
             @foreach(config('formulare', []) as $slug => $form)
@@ -124,6 +124,9 @@
             @if($stelle->website)<tr><th>Website</th><td><a href="{{ $stelle->website }}" rel="nofollow noopener" target="_blank">{{ $stelle->website }}</a></td></tr>@endif
             @if($stelle->bundesland)<tr><th>Bundesland</th><td><a href="{{ url('/zulassungsstelle/'.$stelle->bundesland->slug) }}">{{ $stelle->bundesland->name }}</a></td></tr>@endif
         </table>
+
+        {{-- Standortkarte (basemap.de) – nur wenn Koordinaten vorliegen --}}
+        <x-standort-karte :stelle="$stelle" />
     </section>
 
     {{-- Weitere Zulassungsstellen --}}
@@ -151,7 +154,7 @@
             und die Wunschkennzeichen-Reservierung für jede Gemeinde:</p>
         <div class="grid">
             @foreach($gemeinden as $gem)
-                <div class="card"><a href="{{ url('/kennzeichen/ort/'.$gem->slug) }}">Kennzeichen {{ $gem->name }}</a></div>
+                <div class="card"><a href="{{ url('/wunschkennzeichen/'.$gem->slug) }}">Kennzeichen {{ $gem->name }}</a></div>
             @endforeach
         </div>
     </section>
@@ -192,18 +195,19 @@
             @foreach($artikel as $a)
                 <div class="card">
                     @if($a->kategorie)<div class="muted" style="font-size:.74rem;text-transform:uppercase;letter-spacing:.04em">{{ $a->kategorie->name }}</div>@endif
-                    <a href="{{ url('/ratgeber/'.$a->slug) }}">{{ $a->titel }}</a>
+                    <a href="{{ url('/kfz-ratgeber/'.$a->slug) }}">{{ $a->titel }}</a>
                 </div>
             @endforeach
         </div>
-        <p style="margin-top:14px"><a href="{{ url('/ratgeber') }}">Alle Ratgeber ansehen →</a></p>
+        <p style="margin-top:14px"><a href="{{ url('/kfz-ratgeber') }}">Alle Ratgeber ansehen →</a></p>
     </section>
     @endif
 
+    @if($istOsm)
     <p class="muted" style="font-size:.85rem;margin-top:24px">
-        @if($stelle->last_imported_at)Datenstand: {{ $stelle->last_imported_at->format('d.m.Y') }}@if($stelle->quelle) · Quelle: {{ $stelle->quelle }}@endif@endif
-        @if($istOsm) · Stammdaten © OpenStreetMap-Mitwirkende, <a href="https://opendatacommons.org/licenses/odbl/" rel="nofollow noopener" target="_blank">ODbL</a>@endif
+        Stammdaten © OpenStreetMap-Mitwirkende, <a href="https://opendatacommons.org/licenses/odbl/" rel="nofollow noopener" target="_blank">ODbL</a>
     </p>
+    @endif
 
     <x-ad-slot position="zst_unten" />
 </x-layout>

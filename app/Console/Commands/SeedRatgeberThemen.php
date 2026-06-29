@@ -117,7 +117,7 @@ class SeedRatgeberThemen extends Command
         foreach (self::THEMEN as [$kat, $titel, $focus, $keywords, $in, $v, $f, $vorhanden]) {
             $prio = $this->prioritaet($v, $f, $in, $vorhanden);
             RatgeberThema::updateOrCreate(
-                ['slug' => Str::slug($focus)],
+                ['slug' => \App\Support\Slug::de($focus)],
                 [
                     'kategorie'      => $kat,
                     'titel'          => $titel,

@@ -52,12 +52,11 @@
                 <div id="qDone" hidden>
                     <h2 id="qFinal" style="text-align:center"></h2>
                     <p class="muted" id="qFinalSub" style="text-align:center"></p>
-                    <p style="text-align:center;margin:8px 0 22px">
+                    <div style="text-align:center;margin:8px 0 22px">
                         <button class="cta" id="qRestart" type="button">Nochmal spielen</button>
-                        <button class="btn" id="qShare" type="button">🔗 Score teilen</button>
                         <a class="btn" href="{{ url('/kennzeichen-quiz/hall-of-fame') }}">🏅 Hall of Fame</a>
-                        <span id="qShareMsg" class="muted" hidden>✓ In Zwischenablage kopiert!</span>
-                    </p>
+                        <p class="muted" style="margin:12px 0 0;font-size:.88rem">🔗 Score teilen & Freunde herausfordern: unten bei „Eure Rekorde auf diesem Gerät".</p>
+                    </div>
 
                     <h2>🏆 Tagesbestenliste</h2>
                     <table class="hs-table">
@@ -82,6 +81,17 @@
         </div>
     </section>
 
+    {{-- Lokale Bestenliste (pro Spitzname, nur auf diesem Gerät gespeichert) --}}
+    <section class="section reveal" id="qLocalWrap" hidden>
+        <h2>🎮 Eure Rekorde auf diesem Gerät</h2>
+        <p class="muted">Jeder Spitzname bekommt einen eigenen Rekord – spielt abwechselnd und fordert euch
+            gegenseitig heraus. Mit „Link" oder „WhatsApp" verschickst du deinen Score an einen Gegner.</p>
+        <table class="hs-table">
+            <thead><tr><th>#</th><th>Name</th><th style="text-align:right">Bestwert</th><th>Herausfordern</th></tr></thead>
+            <tbody id="qLocalBody"></tbody>
+        </table>
+    </section>
+
     <script>
     (function () {
         var root = document.getElementById('quiz');
@@ -99,19 +109,27 @@
 
         var lives, score, richtige, playerName, locked, startTs, timer, qi, order;
 
-        // Herausforderung aus ?score= (zu überholender Wert)
-        var ziel = parseInt(new URLSearchParams(location.search).get('score'), 10);
+        // Schwierigkeit steigt wie zuvor schrittweise über den (leicht→schwer sortierten) Pool,
+        // springt aber nach STAGE_LEN Fragen eine Stufe weiter (schnellerer Anstieg).
+        var STAGE_LEN = 8;   // Fragen pro Schwierigkeitsstufe
+        var STAGES = 8;      // Anzahl Stufen über den Pool
+
+        // Herausforderung aus ?score= (+ optional ?von=Name)
+        var params = new URLSearchParams(location.search);
+        var ziel = parseInt(params.get('score'), 10);
         if (isNaN(ziel) || ziel < 0) ziel = null;
+        var herausforderer = (params.get('von') || '').trim().slice(0, 40);
         (function showChallenge() {
             if (ziel == null) return;
             var el = document.getElementById('qChallenge');
-            el.innerHTML = '🎯 <strong>Du wurdest herausgefordert!</strong> Schlage <strong>' + ziel + ' Punkte</strong> im Kennzeichen-Quiz.';
+            var wer = herausforderer ? esc(herausforderer) : 'Ein Freund';
+            el.innerHTML = '🎯 <strong>' + wer + ' fordert dich heraus!</strong> Zu schlagender Score: <strong>' + ziel + ' Punkte</strong>. Trag deinen Namen ein und leg los!';
             el.hidden = false;
         })();
 
         function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
-        // Reihenfolge: Schwierigkeit bleibt grob erhalten, aber Blöcke von 4 werden gemischt (Variation pro Spiel).
+        // Reihenfolge: leicht→schwer, aber 4er-Blöcke gemischt (Variation pro Spiel).
         function spielreihenfolge() {
             var idx = POOL.map(function (_, i) { return i; });
             for (var i = 0; i < idx.length; i += 4) {
@@ -122,11 +140,15 @@
         }
 
         function buildQuestion() {
-            var item = POOL[order[qi % order.length]];
+            // Stufe aus der Fragennummer; nach STAGE_LEN Fragen eine Stufe tiefer (= schwerer).
+            var stage = Math.min(STAGES - 1, Math.floor(qi / STAGE_LEN));
+            var stageSize = Math.ceil(order.length / STAGES);
+            var pos = Math.min(order.length - 1, stage * stageSize + (qi % STAGE_LEN));
+            var item = POOL[order[pos]];
             // Ablenker aus ähnlichem Schwierigkeitsfenster (≈ gleiche Bekanntheit) wählen.
-            var pos = qi % order.length, W = 70;
-            var von = Math.max(0, pos - W), bis = Math.min(POOL.length, pos + W);
-            var fenster = []; for (var p = von; p < bis; p++) fenster.push(POOL[p]);
+            var W = 70;
+            var fvon = Math.max(0, pos - W), fbis = Math.min(POOL.length, pos + W);
+            var fenster = []; for (var p = fvon; p < fbis; p++) fenster.push(POOL[p]);
             var falsch = shuffle(fenster.filter(function (x) { return x.antwort !== item.antwort; }).map(function (x) { return x.antwort; }));
             var opts = [], seen = {};
             for (var c = 0; c < falsch.length && opts.length < 3; c++) { if (!seen[falsch[c]]) { seen[falsch[c]] = 1; opts.push(falsch[c]); } }
@@ -197,31 +219,70 @@
             document.getElementById('qFinal').textContent = score + ' Punkte';
             var sub = richtige + ' Fragen richtig beantwortet.';
             if (ziel != null) {
+                var gegner = herausforderer ? esc(herausforderer) : 'die Herausforderung';
                 sub += score > ziel
-                    ? ' 🎉 Herausforderung von ' + ziel + ' Punkten geknackt!'
-                    : ' Die Herausforderung (' + ziel + ' Punkte) hast du knapp verpasst.';
+                    ? ' 🎉 Du hast ' + gegner + ' (' + ziel + ' Punkte) geschlagen!'
+                    : ' Knapp – ' + gegner + ' liegt mit ' + ziel + ' Punkten vorn. Nochmal?';
             }
             document.getElementById('qFinalSub').textContent = sub;
+            updateLocal(playerName, score, richtige);
+            renderLocal();
             save();
         }
 
-        function teilen() {
-            var url = location.origin + location.pathname + '?score=' + score;
-            var text = 'Ich habe ' + score + ' Punkte im Kennzeichen-Quiz geholt! ' + url;
-            var msg = document.getElementById('qShareMsg');
-            function done() { if (msg) { msg.hidden = false; setTimeout(function () { msg.hidden = true; }, 2500); } }
-            if (navigator.clipboard && navigator.clipboard.writeText) {
-                navigator.clipboard.writeText(text).then(done, fallback);
-            } else { fallback(); }
-            function fallback() {
+        function challengeUrl(name, sc) { return location.origin + location.pathname + '?score=' + sc + '&von=' + encodeURIComponent(name); }
+        function challengeText(name, sc) { return '🏁 Kennzeichen-Quiz: ' + name + ' hat ' + sc + ' Punkte erreicht! Schaffst du mehr? ' + challengeUrl(name, sc); }
+        function waUrl(name, sc) { return 'https://wa.me/?text=' + encodeURIComponent(challengeText(name, sc)); }
+
+        function copyText(text, cb) {
+            function fb() {
                 var ta = document.createElement('textarea');
                 ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
                 document.body.appendChild(ta); ta.focus(); ta.select();
                 try { document.execCommand('copy'); } catch (e) {}
-                document.body.removeChild(ta); done();
+                document.body.removeChild(ta); if (cb) cb();
             }
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(function () { if (cb) cb(); }, fb);
+            } else { fb(); }
         }
-        document.getElementById('qShare').addEventListener('click', teilen);
+
+        // --- Lokale Bestenliste je Spitzname (nur auf diesem Gerät) ---
+        var LS_KEY = 'kkquiz_local_v1';
+        function loadLocal() { try { return JSON.parse(localStorage.getItem(LS_KEY)) || {}; } catch (e) { return {}; } }
+        function saveLocal(o) { try { localStorage.setItem(LS_KEY, JSON.stringify(o)); } catch (e) {} }
+        function updateLocal(name, sc, ri) {
+            var o = loadLocal(), k = (name || 'Anonym');
+            if (!o[k] || sc > o[k].score) { o[k] = { score: sc, richtige: ri }; saveLocal(o); }
+        }
+        function renderLocal() {
+            var o = loadLocal();
+            var entries = Object.keys(o).map(function (n) { return { name: n, score: o[n].score, richtige: o[n].richtige }; })
+                .sort(function (a, b) { return b.score - a.score; });
+            var wrap = document.getElementById('qLocalWrap'), body = document.getElementById('qLocalBody');
+            if (!entries.length) { wrap.hidden = true; return; }
+            wrap.hidden = false; body.innerHTML = '';
+            entries.forEach(function (e, i) {
+                var tr = document.createElement('tr');
+                if (e.name === playerName) tr.className = 'me';
+                var td1 = document.createElement('td'); td1.textContent = (i + 1);
+                var td2 = document.createElement('td'); td2.textContent = e.name;
+                var td3 = document.createElement('td'); td3.className = 'num'; td3.textContent = e.score;
+                var td4 = document.createElement('td');
+                var bCopy = document.createElement('button'); bCopy.className = 'btn'; bCopy.type = 'button'; bCopy.textContent = '🔗 Link';
+                bCopy.style.marginRight = '6px';
+                bCopy.addEventListener('click', function () {
+                    var orig = bCopy.textContent;
+                    copyText(challengeText(e.name, e.score), function () { bCopy.textContent = '✓ kopiert'; setTimeout(function () { bCopy.textContent = orig; }, 2000); });
+                });
+                var aWa = document.createElement('a'); aWa.className = 'btn'; aWa.target = '_blank'; aWa.rel = 'noopener nofollow';
+                aWa.textContent = '💬 WhatsApp'; aWa.href = waUrl(e.name, e.score);
+                td4.appendChild(bCopy); td4.appendChild(aWa);
+                tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(td3); tr.appendChild(td4);
+                body.appendChild(tr);
+            });
+        }
+        renderLocal();
 
         function save() {
             var token = document.querySelector('meta[name="csrf-token"]');

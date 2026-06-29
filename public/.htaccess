@@ -13,10 +13,15 @@
     RewriteCond %{HTTP:x-xsrf-token} .
     RewriteRule .* - [E=HTTP_X_XSRF_TOKEN:%{HTTP:X-XSRF-Token}]
 
-    # Redirect Trailing Slashes If Not A Folder...
+    # Trailing Slash erzwingen (Standard-URL-Form mit / am Ende).
+    # Nur GET, keine echten Dateien/Ordner, keine Datei-Endungen, nicht /admin & /livewire.
+    RewriteCond %{REQUEST_METHOD} =GET
+    RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_URI} (.+)/$
-    RewriteRule ^ %1 [L,R=301]
+    RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{1,6}$
+    RewriteCond %{REQUEST_URI} !/$
+    RewriteCond %{REQUEST_URI} !^/(admin|livewire)(/|$)
+    RewriteRule ^ %{REQUEST_URI}/ [L,R=301]
 
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d

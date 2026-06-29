@@ -64,7 +64,7 @@ class SeedRatgeberThemenGaps extends Command
 
         $n = 0; $neu = 0;
         foreach (self::GAPS as [$kat, $titel, $focus, $keywords, $in, $v, $f, $herkunft]) {
-            $slug = Str::slug($focus);
+            $slug = \App\Support\Slug::de($focus);
             $exists = RatgeberThema::where('slug', $slug)->exists();
             $score = ['h' => 40, 'm' => 24, 'n' => 10][$f] + ['h' => 30, 'm' => 18, 'n' => 8][$v] + ['t' => 18, 'k' => 12, 'i' => 6][$in];
             RatgeberThema::updateOrCreate(['slug' => $slug], [

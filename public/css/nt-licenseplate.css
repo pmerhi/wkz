@@ -1,0 +1,342 @@
+/* Lizenzierte Kennzeichen-Schrift (lokal gehostet) – Alias auf den vom Widget erwarteten Namen */
+@font-face{font-family:gl-nummernschild-mtl;font-display:swap;src:url("/fonts/gl-nummernschild-mtl.woff2") format("woff2"),url("/fonts/gl-nummernschild-mtl.woff") format("woff"),url("/fonts/gl-nummernschild-mtl.ttf") format("truetype")}
+@media screen and (min-width: 30em) {
+  .licenseplate-container {width:19rem}
+}
+.licenseplate-container--ad {width:100%}
+.licenseplate--ad .licenseplate__country {height:60px}
+.licenseplate--ad.licenseplate--oneline .licenseplate__input {font-size:35px;height:50px}
+.licenseplate--ad.licenseplate--oneline .licenseplate__input--symbol {width:62px}
+.licenseplate--ad.licenseplate--oneline .licenseplate__input--letters {width:55px}
+.licenseplate--ad.licenseplate--oneline .licenseplate__input--numbers {width:80px}
+.licenseplate__cta,.nt-licenseplate--oneline .nt-licenseplate__cta {background:linear-gradient(to bottom, rgb(63.2804054054, 212.2195945946, 85.4628378378), rgb(40.9560810811, 183.5439189189, 62.1925675676));border:0 solid rgba(0,0,0,0);border-radius:0 4px 4px 0;color:#fff;cursor:pointer;font-size:1.5rem;height:100%;margin-left:4px;padding:0;width:100%}
+.licenseplate__cta:active,.nt-licenseplate--oneline .nt-licenseplate__cta:active {background:linear-gradient(to top, rgb(63.2804054054, 212.2195945946, 85.4628378378), rgb(40.9560810811, 183.5439189189, 62.1925675676))}
+.licenseplate__cta svg,.nt-licenseplate--oneline .nt-licenseplate__cta svg {vertical-align:bottom}
+.licenseplate-labels {display:flex;font-size:.875rem}
+.licenseplate-labels--ad {font-size:12px}
+.licenseplate-labels--ad .licenseplate-label--symbol {margin-left:42px}
+.licenseplate-labels--ad .licenseplate-label--letters {margin-left:18px}
+.licenseplate-labels--ad .licenseplate-label--numbers {margin-left:34px}
+.nt-licenseplate {display:inline-block}
+.nt-licenseplate__outer {border-radius:.02em;width:1em}
+.nt-licenseplate__outer *,.nt-licenseplate__outer *::before,.nt-licenseplate__outer *::after {box-sizing:inherit}
+.nt-licenseplate--520 .nt-licenseplate__outer {font-size:100%;background:linear-gradient(90deg, #078ac5 0%, #078ac5 9%, #ffffff 9%)}
+.nt-licenseplate--460 .nt-licenseplate__outer {font-size:84.62%;background:linear-gradient(90deg, #078ac5 0%, #078ac5 10.8%, #ffffff 10.8%)}
+.nt-licenseplate--menu .nt-licenseplate__outer {font-size:84.62%;background:linear-gradient(90deg, #078ac5 0%, #078ac5 13%, #ffffff 13%);width:.65em}
+.nt-licenseplate--340 .nt-licenseplate__outer {font-size:61.54%;background:linear-gradient(90deg, #078ac5 0%, #078ac5 15%, #ffffff 15%)}
+.nt-licenseplate--280 .nt-licenseplate__outer {font-size:57.7%;background:linear-gradient(90deg, #078ac5 0%, #078ac5 15.5%, #ffffff 15.5%)}
+.nt-licenseplate--180 .nt-licenseplate__outer {font-size:43.27%;background:linear-gradient(90deg, #078ac5 0%, #078ac5 21%, #ffffff 21%)}
+.nt-licenseplate--220 .nt-licenseplate__outer {font-size:50%;background:linear-gradient(90deg, #078ac5 0%, #078ac5 18%, #ffffff 18%)}
+.nt-licenseplate--255 .nt-licenseplate__outer {font-size:56.73%;background:linear-gradient(90deg, #078ac5 0%, #078ac5 16%, #ffffff 16%)}
+.nt-licenseplate__inner {border-radius:.02em;box-sizing:border-box;position:relative}
+.nt-licenseplate__inner::before {content:"";float:left}
+.nt-licenseplate__inner::after {clear:left;content:"";display:table}
+.nt-licenseplate__inner:not(.nt-licenseplate--green) {color:#333;border:none;outline:solid 2px #383838}
+.nt-licenseplate--green .nt-licenseplate__inner {color:#1b7929;outline:solid 2px #1b7929}
+.nt-licenseplate--green .nt-licenseplate__inner input {color:#1b7929;border-color:#1b7929}
+.nt-licenseplate--520 .nt-licenseplate__inner::before {padding-bottom:18%}
+.nt-licenseplate--460 .nt-licenseplate__inner::before {padding-bottom:21.4%}
+.nt-licenseplate--menu .nt-licenseplate__inner {height:30px}
+.nt-licenseplate--menu .nt-licenseplate__inner::before {padding-bottom:21.4%}
+.nt-licenseplate--340 .nt-licenseplate__inner {background:linear-gradient(180deg, transparent 50%, #ffffff 50%)}
+.nt-licenseplate--340 .nt-licenseplate__inner::before {padding-bottom:59%}
+.nt-licenseplate--280 .nt-licenseplate__inner {background:linear-gradient(180deg, transparent 50%, #ffffff 50%)}
+.nt-licenseplate--280 .nt-licenseplate__inner::before {padding-bottom:64%}
+.nt-licenseplate--220 .nt-licenseplate__inner {background:linear-gradient(180deg, transparent 50%, #ffffff 50%)}
+.nt-licenseplate--220 .nt-licenseplate__inner::before {padding-bottom:82%}
+.nt-licenseplate--255 .nt-licenseplate__inner {background:linear-gradient(180deg, transparent 50%, #ffffff 50%)}
+.nt-licenseplate--255 .nt-licenseplate__inner::before {padding-bottom:60%}
+.nt-licenseplate--180 .nt-licenseplate__inner {background:linear-gradient(180deg, transparent 50%, #ffffff 50%)}
+.nt-licenseplate--180 .nt-licenseplate__inner::before {padding-bottom:96%}
+.nt-licenseplate-country {color:#fff;font-family:Arial,Helvetica,sans-serif;position:absolute}
+.nt-licenseplate--520 .nt-licenseplate-country {border-radius:.01em 0 0 .01em;height:100%;padding:2% 1%;width:9%}
+.nt-licenseplate--460 .nt-licenseplate-country {border-radius:.01em 0 0 .01em;height:100%;padding:2% 1.2%;width:10.8%}
+.nt-licenseplate--menu .nt-licenseplate-country {border-radius:.01em 0 0 .01em;height:100%;padding:2% 1.2%;width:10.8%}
+.nt-licenseplate--340 .nt-licenseplate-country {border-radius:.01em 0 0 0;height:50%;padding:2.2% 1.8%;width:15%}
+.nt-licenseplate--280 .nt-licenseplate-country {border-radius:.01em 0 0 0;height:48%;padding:2.2% 1.5%;width:15.5%}
+.nt-licenseplate--180 .nt-licenseplate-country {border-radius:.01em 0 0 0;height:44%;padding:2.2% 2%;width:21%}
+.nt-licenseplate--220 .nt-licenseplate-country {border-radius:.01em 0 0 0;height:45%;padding:2.2% 1.7%;width:18%}
+.nt-licenseplate--255 .nt-licenseplate-country {border-radius:.01em 0 0 0;height:50%;padding:2.2% 1.7%;width:16%}
+.nt-licenseplate-country__stars {color:#e1ce87;display:block}
+.nt-licenseplate--520 .nt-licenseplate-country__code,.nt-licenseplate--460 .nt-licenseplate-country__code,.nt-licenseplate--menu .nt-licenseplate-country__code,.nt-licenseplate--340 .nt-licenseplate-country__code,.nt-licenseplate--280 .nt-licenseplate-country__code,.nt-licenseplate--180 .nt-licenseplate-country__code,.nt-licenseplate--220 .nt-licenseplate-country__code,.nt-licenseplate--255 .nt-licenseplate-country__code {display:block;margin-top:21%;text-align:center}
+.nt-licenseplate--520 .nt-licenseplate-country__code {font-size:.05em}
+.nt-licenseplate--460 .nt-licenseplate-country__code {font-size:.059em}
+.nt-licenseplate--menu .nt-licenseplate-country__code {font-size:.059em}
+.nt-licenseplate--340 .nt-licenseplate-country__code {font-size:.087em}
+.nt-licenseplate--280 .nt-licenseplate-country__code {font-size:.093em}
+.nt-licenseplate--180 .nt-licenseplate-country__code {font-size:.124em}
+.nt-licenseplate--220 .nt-licenseplate-country__code {font-size:.108em}
+.nt-licenseplate--255 .nt-licenseplate-country__code {font-size:.095em}
+.nt-licenseplate-license {font-family:gl-nummernschild-mtl,sans-serif;line-height:1;position:absolute}
+.nt-licenseplate--520 .nt-licenseplate-license,.nt-licenseplate--460 .nt-licenseplate-license,.nt-licenseplate--menu .nt-licenseplate-license,.nt-licenseplate--340 .nt-licenseplate-license,.nt-licenseplate--280 .nt-licenseplate-license,.nt-licenseplate--180 .nt-licenseplate-license,.nt-licenseplate--220 .nt-licenseplate-license,.nt-licenseplate--255 .nt-licenseplate-license {height:100%}
+.nt-licenseplate--520 .nt-licenseplate-license {left:9%;font-size:21%;width:91%}
+.nt-licenseplate--460 .nt-licenseplate-license {left:10%;font-size:23%;width:90%}
+.nt-licenseplate--menu .nt-licenseplate-license {left:10.8%;font-size:24.8%;width:87%}
+.nt-licenseplate--340 .nt-licenseplate-license {left:15%;font-size:34.1%;width:85%}
+.nt-licenseplate--280 .nt-licenseplate-license {left:15.5%;font-size:36.4%;width:84.5%}
+.nt-licenseplate--180 .nt-licenseplate-license {left:21%;font-size:48.5%;width:79%}
+.nt-licenseplate--220 .nt-licenseplate-license {left:18%;font-size:41%;width:82%}
+.nt-licenseplate--255 .nt-licenseplate-license {left:18%;font-size:35%;width:82%}
+.nt-licenseplate--340.nt-licenseplate--electric .nt-licenseplate-license__inner::after,.nt-licenseplate--340.nt-licenseplate--oldtimer .nt-licenseplate-license__inner::after,.nt-licenseplate--280.nt-licenseplate--electric .nt-licenseplate-license__inner::after,.nt-licenseplate--280.nt-licenseplate--oldtimer .nt-licenseplate-license__inner::after,.nt-licenseplate--255.nt-licenseplate--electric .nt-licenseplate-license__inner::after,.nt-licenseplate--255.nt-licenseplate--oldtimer .nt-licenseplate-license__inner::after,.nt-licenseplate--220.nt-licenseplate--electric .nt-licenseplate-license__inner::after,.nt-licenseplate--220.nt-licenseplate--oldtimer .nt-licenseplate-license__inner::after,.nt-licenseplate--180.nt-licenseplate--electric .nt-licenseplate-license__inner::after,.nt-licenseplate--180.nt-licenseplate--oldtimer .nt-licenseplate-license__inner::after {height:45%}
+.nt-licenseplate-license__inner {height:inherit}
+.nt-licenseplate--520 .nt-licenseplate-license__inner {align-items:center;display:flex;justify-content:space-between;padding:.5% 1% 0}
+.nt-licenseplate--460 .nt-licenseplate-license__inner {align-items:center;display:flex;justify-content:space-between;padding:.5% 1.6% 0}
+.nt-licenseplate--menu .nt-licenseplate-license__inner {align-items:center;display:flex;justify-content:space-between;padding:.5% 3.6% 0}
+.nt-licenseplate--280 .nt-licenseplate-license__inner {padding-left:1%;padding-right:1%}
+.nt-licenseplate--180 .nt-licenseplate-license__inner,.nt-licenseplate--220 .nt-licenseplate-license__inner,.nt-licenseplate--255 .nt-licenseplate-license__inner {padding:0}
+.nt-licenseplate-license__inner *+* {margin-left:1.5%}
+.nt-licenseplate--340 .nt-licenseplate-character--symbol,.nt-licenseplate--280 .nt-licenseplate-character--symbol,.nt-licenseplate--180 .nt-licenseplate-character--symbol,.nt-licenseplate--220 .nt-licenseplate-character--symbol,.nt-licenseplate--255 .nt-licenseplate-character--symbol {display:block;line-height:.86;margin-left:5%}
+.season-container .nt-licenseplate-character--symbol {display:inline-block}
+.nt-licenseplate--340 .nt-licenseplate-character--letters,.nt-licenseplate--280 .nt-licenseplate-character--letters,.nt-licenseplate--180 .nt-licenseplate-character--letters,.nt-licenseplate--220 .nt-licenseplate-character--letters,.nt-licenseplate--255 .nt-licenseplate-character--letters {display:inline-block;line-height:.86;vertical-align:top}
+.nt-licenseplate--520 .nt-licenseplate-character--letters {margin-left:2%}
+.nt-licenseplate--460 .nt-licenseplate-character--letters {margin-left:2%}
+.nt-licenseplate--menu .nt-licenseplate-character--letters {margin-left:2%}
+.nt-licenseplate--340 .nt-licenseplate-character--letters {margin-left:-11%}
+.nt-licenseplate--280 .nt-licenseplate-character--letters {margin-left:-14%}
+.nt-licenseplate--180 .nt-licenseplate-character--letters {margin-left:-24%;margin-top:15%}
+.nt-licenseplate--220 .nt-licenseplate-character--letters {margin-left:-20%;margin-top:14%}
+.nt-licenseplate--255 .nt-licenseplate-character--letters {margin-left:-21%;margin-top:5%}
+.nt-licenseplate--340 .nt-licenseplate-character--numbers,.nt-licenseplate--280 .nt-licenseplate-character--numbers,.nt-licenseplate--180 .nt-licenseplate-character--numbers,.nt-licenseplate--220 .nt-licenseplate-character--numbers,.nt-licenseplate--255 .nt-licenseplate-character--numbers {display:inline-block;line-height:.86;vertical-align:top}
+.nt-licenseplate--340 .nt-licenseplate-character--numbers {margin-left:4%}
+.nt-licenseplate--180 .nt-licenseplate-character--numbers {margin-left:-2%;margin-top:15%}
+.nt-licenseplate--220 .nt-licenseplate-character--numbers {margin-left:-4%;margin-top:14%}
+.nt-licenseplate--255 .nt-licenseplate-character--numbers {margin-left:-7%;margin-top:5%}
+.nt-licenseplate--electric .nt-licenseplate-cartype::before {content:"E"}
+.nt-licenseplate--oldtimer .nt-licenseplate-cartype::before {content:"H"}
+.nt-licenseplate-input-enabled .nt-licenseplate-cartype::before {font-size:75%}
+.season-container .nt-licenseplate-type {margin-left:10%}
+.nt-licenseplate--520 .nt-licenseplate-type,.nt-licenseplate--460 .nt-licenseplate-type,.nt-licenseplate--menu .nt-licenseplate-type,.nt-licenseplate--340 .nt-licenseplate-type,.nt-licenseplate--280 .nt-licenseplate-type,.nt-licenseplate--180 .nt-licenseplate-type,.nt-licenseplate--220 .nt-licenseplate-type,.nt-licenseplate--255 .nt-licenseplate-type {display:inline-table;display:inline-flex;flex-direction:column;font-size:.35em;justify-content:center}
+.nt-licenseplate--520 .nt-licenseplate-type,.nt-licenseplate--460 .nt-licenseplate-type,.nt-licenseplate--menu .nt-licenseplate-type {height:inherit}
+.nt-licenseplate--340 .nt-licenseplate-type,.nt-licenseplate--280 .nt-licenseplate-type,.nt-licenseplate--180 .nt-licenseplate-type,.nt-licenseplate--220 .nt-licenseplate-type,.nt-licenseplate--255 .nt-licenseplate-type {height:auto}
+.nt-licenseplate-type *:first-child {border-bottom:2px solid currentColor}
+.nt-licenseplate-season-character {display:none}
+.nt-licenseplate--season .nt-licenseplate-season-character {display:table-row}
+.nt-licenseplate-input {border:1px solid #078ac5;border-radius:2px;box-shadow:0 0 4px 0 rgba(0,0,0,.3) inset;font-family:gl-nummernschild-mtl,sans-serif;font-size:.7em;height:82%;padding:0;text-align:center}
+.nt-licenseplate--520 .nt-licenseplate-input--symbol {width:30%}
+.nt-licenseplate--520 #seal .seal-big {width:95%;padding-bottom:95%}
+.nt-licenseplate--520 #seal .seal-small {width:70%;padding-bottom:70%}
+.nt-licenseplate--520 #seal img.seal-big {padding-bottom:10%}
+.nt-licenseplate--520 .nt-licenseplate-input--letters {width:25%}
+.nt-licenseplate--520 .nt-licenseplate-input--numbers {width:35%}
+.nt-licenseplate--520.nt-licenseplate--oldtimer #seal,.nt-licenseplate--520.nt-licenseplate--electric #seal {width:10%}
+.nt-licenseplate--520.nt-licenseplate--oldtimer .nt-licenseplate-input-disabled #seal,.nt-licenseplate--520.nt-licenseplate--electric .nt-licenseplate-input-disabled #seal {width:8%}
+.nt-licenseplate--520.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-license,.nt-licenseplate--520.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-license {font-size:19%}
+.nt-licenseplate--520.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-input--letters,.nt-licenseplate--520.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-input--letters {width:35%}
+.nt-licenseplate--520.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-input--numbers,.nt-licenseplate--520.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-input--numbers {width:35%}
+.nt-licenseplate--460 .nt-licenseplate-input--symbol {width:30%}
+.nt-licenseplate--460 #seal .seal-big {width:95%;padding-bottom:95%}
+.nt-licenseplate--460 #seal .seal-small {width:70%;padding-bottom:70%}
+.nt-licenseplate--460 #seal img.seal-big {padding-bottom:5%}
+.nt-licenseplate--460 .nt-licenseplate-input--letters {width:25%}
+.nt-licenseplate--460 .nt-licenseplate-input--numbers {width:35%}
+.nt-licenseplate--460.nt-licenseplate--oldtimer .nt-licenseplate-license,.nt-licenseplate--460.nt-licenseplate--electric .nt-licenseplate-license {font-size:22%}
+.nt-licenseplate--460.nt-licenseplate--oldtimer .nt-licenseplate-license__inner,.nt-licenseplate--460.nt-licenseplate--electric .nt-licenseplate-license__inner {padding:.5% 2% 0}
+.nt-licenseplate--460.nt-licenseplate--oldtimer #seal,.nt-licenseplate--460.nt-licenseplate--electric #seal {width:10%}
+.nt-licenseplate--460.nt-licenseplate--season .nt-licenseplate-license {font-size:21%}
+.nt-licenseplate--460.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-license,.nt-licenseplate--460.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-license {font-size:20.5%}
+.nt-licenseplate--460.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-input--letters,.nt-licenseplate--460.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-input--letters {width:35%}
+.nt-licenseplate--460.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-input--numbers,.nt-licenseplate--460.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-input--numbers {width:35%}
+.nt-licenseplate--menu #text {width:100%}
+.nt-licenseplate--180 .nt-licenseplate-license__inner,.nt-licenseplate--220 .nt-licenseplate-license__inner,.nt-licenseplate--255 .nt-licenseplate-license__inner,.nt-licenseplate--280 .nt-licenseplate-license__inner,.nt-licenseplate--340 .nt-licenseplate-license__inner {display:flex;flex-wrap:wrap;justify-content:center}
+.nt-licenseplate--340 .nt-licenseplate-license {left:0;width:100%}
+.nt-licenseplate--340 input {height:45%}
+.nt-licenseplate--340 span {height:50%}
+.nt-licenseplate--340 input {margin-top:1%;margin-bottom:1%}
+.nt-licenseplate--340 .nt-licenseplate-input--symbol,.nt-licenseplate--340 span#symbol {width:65%;margin-left:17%}
+.nt-licenseplate--340 #seal {height:50%;width:13%}
+.nt-licenseplate--340 #seal .seal-big {width:95%;padding-bottom:95%}
+.nt-licenseplate--340 #seal .seal-small {width:70%;padding-bottom:70%}
+.nt-licenseplate--340 #seal img.seal-big {padding-bottom:5%}
+.nt-licenseplate--340 input#letters {width:45%}
+.nt-licenseplate--340 span#letters {width:auto}
+.nt-licenseplate--340 input#numbers {width:47%}
+.nt-licenseplate--340 span#numbers {width:auto}
+.nt-licenseplate--340.nt-licenseplate--oldtimer input#letters,.nt-licenseplate--340.nt-licenseplate--electric input#letters {width:35%}
+.nt-licenseplate--340.nt-licenseplate--oldtimer input#numbers,.nt-licenseplate--340.nt-licenseplate--electric input#numbers {width:40%}
+.nt-licenseplate--340.nt-licenseplate--oldtimer .nt-licenseplate-input-enabled .nt-licenseplate-cartype,.nt-licenseplate--340.nt-licenseplate--electric .nt-licenseplate-input-enabled .nt-licenseplate-cartype {height:50%;line-height:85%}
+.nt-licenseplate--340.nt-licenseplate--season .nt-licenseplate-license__inner>span {height:50%;margin-top:.5%}
+.nt-licenseplate--340.nt-licenseplate--season #symbol {order:0;width:50%;margin-left:17%;line-height:90%}
+.nt-licenseplate--340.nt-licenseplate--season input#symbol {margin-top:2%}
+.nt-licenseplate--340.nt-licenseplate--season #letters {order:2;line-height:80%}
+.nt-licenseplate--340.nt-licenseplate--season #numbers {order:3;line-height:80%}
+.nt-licenseplate--340.nt-licenseplate--season .nt-licenseplate-cartype {order:4}
+.nt-licenseplate--340.nt-licenseplate--season .nt-licenseplate-type {order:1;width:11%;height:50%;padding-top:2%}
+.nt-licenseplate--340.nt-licenseplate--season .nt-licenseplate-type span {align-self:flex-end}
+.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--oldtimer #symbol,.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--electric #symbol {width:50%;order:0}
+.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--oldtimer input#letters,.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--oldtimer input#numbers,.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--electric input#letters,.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--electric input#numbers {width:38%}
+.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--oldtimer #letters,.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--electric #letters {order:2}
+.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--oldtimer #numbers,.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--electric #numbers {order:3}
+.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-cartype,.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-cartype {order:4;line-height:80%}
+.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-type,.nt-licenseplate--340.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-type {order:1}
+.nt-licenseplate--280 .nt-licenseplate-license {left:0;width:100%}
+.nt-licenseplate--280 input,.nt-licenseplate--280 span {height:45%;line-height:95%}
+.nt-licenseplate--280 input {margin-top:1%;margin-bottom:1%}
+.nt-licenseplate--280 .nt-licenseplate-input--symbol,.nt-licenseplate--280 span#symbol {width:65%;margin-left:17%}
+.nt-licenseplate--280 #seal {height:50%;width:13%}
+.nt-licenseplate--280 #seal .seal-big {width:95%;padding-bottom:95%}
+.nt-licenseplate--280 #seal .seal-small {width:70%;padding-bottom:70%}
+.nt-licenseplate--280 #seal img.seal-big {padding-bottom:5%}
+.nt-licenseplate--280 input#letters {width:45%}
+.nt-licenseplate--280 input#numbers {width:47%}
+.nt-licenseplate--280 span#letters,.nt-licenseplate--280 span#numbers {width:auto}
+.nt-licenseplate--280.nt-licenseplate--oldtimer input#letters,.nt-licenseplate--280.nt-licenseplate--electric input#letters {width:38%}
+.nt-licenseplate--280.nt-licenseplate--oldtimer input#numbers,.nt-licenseplate--280.nt-licenseplate--electric input#numbers {width:38%}
+.nt-licenseplate--280.nt-licenseplate--oldtimer .nt-licenseplate-input-enabled .nt-licenseplate-cartype,.nt-licenseplate--280.nt-licenseplate--electric .nt-licenseplate-input-enabled .nt-licenseplate-cartype {height:50%;line-height:85%}
+.nt-licenseplate--280.nt-licenseplate--oldtimer .nt-licenseplate-input-disabled .nt-licenseplate-cartype,.nt-licenseplate--280.nt-licenseplate--electric .nt-licenseplate-input-disabled .nt-licenseplate-cartype {height:45%;line-height:95%}
+.nt-licenseplate--280.nt-licenseplate--season .nt-licenseplate-license__inner>input {height:45%}
+.nt-licenseplate--280.nt-licenseplate--season .nt-licenseplate-license__inner>span {height:50%;margin-top:.5%}
+.nt-licenseplate--280.nt-licenseplate--season #symbol {order:0;width:50%;margin-left:17%;line-height:85%}
+.nt-licenseplate--280.nt-licenseplate--season input#letters,.nt-licenseplate--280.nt-licenseplate--season input#numbers {width:48%}
+.nt-licenseplate--280.nt-licenseplate--season #letters {order:2;line-height:80%}
+.nt-licenseplate--280.nt-licenseplate--season #numbers {order:3;line-height:80%}
+.nt-licenseplate--280.nt-licenseplate--season .nt-licenseplate-cartype {order:4}
+.nt-licenseplate--280.nt-licenseplate--season .nt-licenseplate-type {order:1;width:13%;height:50%;margin-top:1%}
+.nt-licenseplate--280.nt-licenseplate--season .nt-licenseplate-type span {align-self:flex-end}
+.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--oldtimer #symbol,.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--electric #symbol {width:50%;order:0}
+.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--oldtimer input#letters,.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--oldtimer input#numbers,.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--electric input#letters,.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--electric input#numbers {width:38%}
+.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--oldtimer #letters,.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--electric #letters {order:2}
+.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--oldtimer #numbers,.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--electric #numbers {order:3}
+.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-cartype,.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-cartype {order:4;line-height:80%}
+.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-type,.nt-licenseplate--280.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-type {order:1}
+.nt-licenseplate--255 .nt-licenseplate-license {left:0;width:100%}
+.nt-licenseplate--255 input,.nt-licenseplate--255 span {height:45%}
+.nt-licenseplate--255 input {margin-top:2.2%}
+.nt-licenseplate--255 span {line-height:90%}
+.nt-licenseplate--255 input#symbol {width:45%;margin-left:15%}
+.nt-licenseplate--255 span#symbol {margin-left:14%;min-width:35%}
+.nt-licenseplate--255 span#letters {min-width:30%}
+.nt-licenseplate--255 #seal {width:35%;height:45%;flex-direction:row-reverse;margin-left:0}
+.nt-licenseplate--255 #seal .seal-small {width:35%;padding-bottom:35%}
+.nt-licenseplate--255 #seal .seal-big {width:50%;padding-bottom:50%}
+.nt-licenseplate--255 #seal img.seal-big {padding-bottom:0}
+.nt-licenseplate--255 #seal #state-symbol {width:50%}
+.nt-licenseplate--255 input#letters,.nt-licenseplate--255 input#numbers {width:46%}
+.nt-licenseplate--255.nt-licenseplate--oldtimer .nt-licenseplate-input-disabled #seal,.nt-licenseplate--255.nt-licenseplate--electric .nt-licenseplate-input-disabled #seal {margin-right:2%}
+.nt-licenseplate--255.nt-licenseplate--oldtimer span#letters,.nt-licenseplate--255.nt-licenseplate--electric span#letters {min-width:15%}
+.nt-licenseplate--255.nt-licenseplate--oldtimer .nt-licenseplate-license,.nt-licenseplate--255.nt-licenseplate--electric .nt-licenseplate-license {font-size:34%}
+.nt-licenseplate--255.nt-licenseplate--oldtimer input#letters,.nt-licenseplate--255.nt-licenseplate--oldtimer input#numbers,.nt-licenseplate--255.nt-licenseplate--electric input#letters,.nt-licenseplate--255.nt-licenseplate--electric input#numbers {width:37%}
+.nt-licenseplate--255.nt-licenseplate--oldtimer span#letters,.nt-licenseplate--255.nt-licenseplate--oldtimer span#numbers,.nt-licenseplate--255.nt-licenseplate--electric span#letters,.nt-licenseplate--255.nt-licenseplate--electric span#numbers {width:auto}
+.nt-licenseplate--255.nt-licenseplate--oldtimer .nt-licenseplate-input-disabled .nt-licenseplate-cartype,.nt-licenseplate--255.nt-licenseplate--electric .nt-licenseplate-input-disabled .nt-licenseplate-cartype {height:50%;line-height:90%}
+.nt-licenseplate--255.nt-licenseplate--oldtimer .nt-licenseplate-input-enabled .nt-licenseplate-cartype,.nt-licenseplate--255.nt-licenseplate--electric .nt-licenseplate-input-enabled .nt-licenseplate-cartype {line-height:90%}
+.nt-licenseplate--255.nt-licenseplate--season span#numbers {width:auto}
+.nt-licenseplate--255.nt-licenseplate--season input#letters,.nt-licenseplate--255.nt-licenseplate--season input#numbers {width:39%}
+.nt-licenseplate--255.nt-licenseplate--season .nt-licenseplate-type {margin-top:1%;font-size:40%}
+.nt-licenseplate--255.nt-licenseplate--season .nt-licenseplate-license {font-size:34%}
+.nt-licenseplate--255.nt-licenseplate--season span#letters {min-width:15%}
+.nt-licenseplate--255.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-license,.nt-licenseplate--255.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-license {font-size:35%}
+.nt-licenseplate--255.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-type,.nt-licenseplate--255.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-type {margin-top:2%}
+.nt-licenseplate--255.nt-licenseplate--season.nt-licenseplate--oldtimer input#letters,.nt-licenseplate--255.nt-licenseplate--season.nt-licenseplate--oldtimer input#numbers,.nt-licenseplate--255.nt-licenseplate--season.nt-licenseplate--electric input#letters,.nt-licenseplate--255.nt-licenseplate--season.nt-licenseplate--electric input#numbers {width:30%}
+.nt-licenseplate--255.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-cartype,.nt-licenseplate--255.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-cartype {line-height:90%}
+.nt-licenseplate--255 .nt-licenseplate-type {margin-top:0}
+.nt-licenseplate--220 .nt-licenseplate-license {left:0%;width:100%}
+.nt-licenseplate--220 input {height:35%;margin-top:2%}
+.nt-licenseplate--220 span {height:40%;line-height:75%}
+.nt-licenseplate--220 input#symbol,.nt-licenseplate--220 span#symbol {width:78%;margin-left:18%}
+.nt-licenseplate--220 #seal {width:50%;height:20%;flex-direction:row;margin-left:25%;margin-right:30%}
+.nt-licenseplate--220 #seal .seal-small {width:25%;padding-bottom:25%}
+.nt-licenseplate--220 #seal .seal-big {width:35%;padding-bottom:35%}
+.nt-licenseplate--220 #seal img.seal-big {padding-bottom:0}
+.nt-licenseplate--220 input#letters,.nt-licenseplate--220 input#numbers {width:47%}
+.nt-licenseplate--220 span#letters,.nt-licenseplate--220 span#numbers {width:auto}
+.nt-licenseplate--220.nt-licenseplate--oldtimer input#letters,.nt-licenseplate--220.nt-licenseplate--oldtimer input#numbers,.nt-licenseplate--220.nt-licenseplate--electric input#letters,.nt-licenseplate--220.nt-licenseplate--electric input#numbers {width:37%;line-height:90%}
+.nt-licenseplate--220.nt-licenseplate--oldtimer .nt-licenseplate-cartype,.nt-licenseplate--220.nt-licenseplate--electric .nt-licenseplate-cartype {height:40%;line-height:75%}
+.nt-licenseplate--220.nt-licenseplate--season .nt-licenseplate-license__inner>input,.nt-licenseplate--220.nt-licenseplate--season .nt-licenseplate-license__inner>span {height:34%;margin-top:.5%}
+.nt-licenseplate--220.nt-licenseplate--season #symbol {order:0;width:58%}
+.nt-licenseplate--220.nt-licenseplate--season #seal {margin-right:0;height:30%}
+.nt-licenseplate--220.nt-licenseplate--season #letters {order:2}
+.nt-licenseplate--220.nt-licenseplate--season #numbers {order:3}
+.nt-licenseplate--220.nt-licenseplate--season .nt-licenseplate-cartype {order:4}
+.nt-licenseplate--220.nt-licenseplate--season .nt-licenseplate-type {order:1;width:15%;height:30%;font-size:.3em}
+.nt-licenseplate--220.nt-licenseplate--season .nt-licenseplate-type span {align-self:flex-end}
+.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-license,.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-license {font-size:38%}
+.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--oldtimer span,.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-cartype,.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--electric span,.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-cartype {line-height:80%;height:40%}
+.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--oldtimer input,.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--electric input {height:37%}
+.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--oldtimer #seal,.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--electric #seal {width:50%;height:20%;flex-direction:row;margin-left:25%;margin-right:30%}
+.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--oldtimer #seal .seal-small,.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--electric #seal .seal-small {width:25%;padding-bottom:25%}
+.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--oldtimer #seal .seal-big,.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--electric #seal .seal-big {width:35%;padding-bottom:35%}
+.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--oldtimer input#letters,.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--oldtimer input#numbers,.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--electric input#letters,.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--electric input#numbers {width:38%}
+.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-type,.nt-licenseplate--220.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-type {height:40%}
+.nt-licenseplate--220 .nt-licenseplate-type {margin-left:2%;margin-top:0}
+.nt-licenseplate--180 .nt-licenseplate-license {left:0;width:100%}
+.nt-licenseplate--180 input {height:37%;margin-top:1%;margin-bottom:1%}
+.nt-licenseplate--180 span {height:40%;line-height:75%}
+.nt-licenseplate--180 #symbol {width:70%;margin-left:25%}
+.nt-licenseplate--180 #seal {width:50%;height:20%;flex-direction:row;margin-left:25%;margin-right:30%}
+.nt-licenseplate--180 #seal .seal-small {width:30%;padding-bottom:30%}
+.nt-licenseplate--180 #seal .seal-big {width:40%;padding-bottom:40%}
+.nt-licenseplate--180 #seal img.seal-big {padding-bottom:0}
+.nt-licenseplate--180 #seal #state-symbol {width:40%}
+.nt-licenseplate--180 input#letters,.nt-licenseplate--180 input#numbers {width:46%}
+.nt-licenseplate--180.nt-licenseplate--oldtimer span,.nt-licenseplate--180.nt-licenseplate--electric span {line-height:95%}
+.nt-licenseplate--180.nt-licenseplate--oldtimer .nt-licenseplate-input-disabled span,.nt-licenseplate--180.nt-licenseplate--electric .nt-licenseplate-input-disabled span {font-size:90%}
+.nt-licenseplate--180.nt-licenseplate--oldtimer input#letters,.nt-licenseplate--180.nt-licenseplate--oldtimer input#numbers,.nt-licenseplate--180.nt-licenseplate--electric input#letters,.nt-licenseplate--180.nt-licenseplate--electric input#numbers {width:35%}
+.nt-licenseplate--180.nt-licenseplate--oldtimer span#letters,.nt-licenseplate--180.nt-licenseplate--oldtimer span#numbers,.nt-licenseplate--180.nt-licenseplate--electric span#letters,.nt-licenseplate--180.nt-licenseplate--electric span#numbers {width:auto}
+.nt-licenseplate--180.nt-licenseplate--oldtimer .nt-licenseplate-cartype,.nt-licenseplate--180.nt-licenseplate--electric .nt-licenseplate-cartype {line-height:90%;font-size:95%}
+.nt-licenseplate--180.nt-licenseplate--oldtimer .nt-licenseplate-input-enabled .nt-licenseplate-cartype::before,.nt-licenseplate--180.nt-licenseplate--electric .nt-licenseplate-input-enabled .nt-licenseplate-cartype::before {line-height:75%}
+.nt-licenseplate--180.nt-licenseplate--season .nt-licenseplate-license__inner>input,.nt-licenseplate--180.nt-licenseplate--season .nt-licenseplate-license__inner>span {height:34%;margin-top:.5%}
+.nt-licenseplate--180.nt-licenseplate--season #symbol {order:0;line-height:80%;margin-top:3%}
+.nt-licenseplate--180.nt-licenseplate--season #seal {margin-right:0;height:30%}
+.nt-licenseplate--180.nt-licenseplate--season input#letters,.nt-licenseplate--180.nt-licenseplate--season input#numbers {width:48%}
+.nt-licenseplate--180.nt-licenseplate--season #letters,.nt-licenseplate--180.nt-licenseplate--season #numbers {line-height:75%}
+.nt-licenseplate--180.nt-licenseplate--season #letters {order:2}
+.nt-licenseplate--180.nt-licenseplate--season #numbers {order:3}
+.nt-licenseplate--180.nt-licenseplate--season .nt-licenseplate-input-disabled span {font-size:90%}
+.nt-licenseplate--180.nt-licenseplate--season .nt-licenseplate-input-enabled #nt-licenseplate-season-start {line-height:50%}
+.nt-licenseplate--180.nt-licenseplate--season .nt-licenseplate-input-enabled #nt-licenseplate-season-end {line-height:90%}
+.nt-licenseplate--180.nt-licenseplate--season .nt-licenseplate-input-enabled #seal,.nt-licenseplate--180.nt-licenseplate--season .nt-licenseplate-input-enabled .nt-licenseplate-type {height:20%}
+.nt-licenseplate--180.nt-licenseplate--season .nt-licenseplate-cartype {order:4}
+.nt-licenseplate--180.nt-licenseplate--season .nt-licenseplate-type {order:1;width:15%;height:30%;font-size:.3em}
+.nt-licenseplate--180.nt-licenseplate--season .nt-licenseplate-type span {align-self:flex-end}
+.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--oldtimer input#symbol,.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--electric input#symbol {margin-top:1%}
+.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--oldtimer input#letters,.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--electric input#letters {width:44%}
+.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--oldtimer input#numbers,.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--electric input#numbers {width:29%}
+.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-cartype,.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-cartype {line-height:75%;font-size:90%}
+.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--oldtimer #seal,.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--electric #seal {height:25%}
+.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-type,.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-type {height:28%}
+.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-type #nt-licenseplate-season-start,.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-type #nt-licenseplate-season-start {line-height:50%}
+.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--oldtimer .nt-licenseplate-type #nt-licenseplate-season-end,.nt-licenseplate--180.nt-licenseplate--season.nt-licenseplate--electric .nt-licenseplate-type #nt-licenseplate-season-end {line-height:100%}
+.nt-licenseplate--180 .nt-licenseplate-type {margin-left:2%;margin-top:0}
+.nt-licenseplate--oneline .nt-licenseplate-license__inner {padding:0 0 0 2%}
+.nt-licenseplate-labels--ad .nt-licenseplate-label--symbol {margin-left:15%}
+.nt-licenseplate-labels--ad .nt-licenseplate-label--letters {margin-left:4.5%}
+.nt-licenseplate-labels--ad .nt-licenseplate-label--numbers {margin-left:10%}
+.nt-licenseplate--carbon input,.nt-licenseplate--carbon span,.nt-licenseplate--carbon .nt-licenseplate-cartype,.nt-licenseplate--carbon .nt-licenseplate-type {color:rgba(0,0,0,0);background:conic-gradient(from 45deg, #181818 0% 25%, #383838 0% 50%, #585858 0% 75%, #787878 0%) 50%/4px 4px;-webkit-background-clip:text;-webkit-text-fill-color:rgba(0,0,0,0)}
+.nt-licenseplate--carbon .nt-licenseplate-country__code {-webkit-text-fill-color:#fff}
+.nt-licenseplate--carbon .nt-licenseplate__inner {box-shadow:0 0 0 2px #383838;outline:dashed 2px #787878;border:none}
+.nt-licenseplate--carbon .nt-licenseplate-type *:first-child {border-bottom:2px solid #383838}
+.nt-licenseplate--carbon.nt-licenseplate--green input,.nt-licenseplate--carbon.nt-licenseplate--green span,.nt-licenseplate--carbon.nt-licenseplate--green .nt-licenseplate-cartype,.nt-licenseplate--carbon.nt-licenseplate--green .nt-licenseplate-type {background:conic-gradient(from 45deg, #0d3c14 0% 25%, #0a4713 0% 50%, #1b7929 0% 75%, #31863e 0%) 50%/4px 4px;-webkit-background-clip:text;-webkit-text-fill-color:rgba(0,0,0,0)}
+.nt-licenseplate--carbon.nt-licenseplate--green .nt-licenseplate-country__code {-webkit-text-fill-color:#fff}
+.nt-licenseplate--carbon.nt-licenseplate--green .nt-licenseplate__inner {box-shadow:0 0 0 2px #0d3c14;outline:dashed 2px #31863e}
+.nt-licenseplate--carbon.nt-licenseplate--green .nt-licenseplate-type *:first-child {border-color:#31863e}
+.nt-licenseplate--danger {overflow:hidden}
+.nt-licenseplate--danger input,.nt-licenseplate--danger .nt-licenseplate__inner {border:2px solid red}
+.nt-licenseplate--danger input .nt-licenseplate-license,.nt-licenseplate--danger .nt-licenseplate__inner .nt-licenseplate-license {background-color:rgba(255,0,0,.2)}
+#seal {height:100%;width:7%;min-width:5%;display:flex;justify-content:space-around;align-items:center;flex-direction:column}
+#seal span {border-radius:50%;background:#ccc;display:block;height:0}
+.nt-licenseplate--520 .nt-licenseplate-input--symbol.symbol-cta {width:35%}
+.nt-licenseplate-container {flex-grow:1}
+.nt-licenseplate-container>*+* {margin-top:.5rem}
+input.nt-licenseplate-input[readonly] {border:none;box-shadow:none}
+div#nt-license-input.nt-licenseplate {font-size:clamp(280px,80vw,500px) !important}
+div.licenseplate-labels {font-size:clamp(10px,80vw,14px) !important}
+@media screen and (max-width: 560px) {
+  .licenseplate-labels {display:none}
+  #nt-sticky-license {margin-bottom:1rem}
+}
+@media screen and (max-width: 767px) {
+  .licenseplate-labels.nt-licenseplate-labels--ad {margin-bottom:1rem;width:clamp(300px,70vw,425px);margin-left:auto;margin-right:auto}
+  .nt-licenseplate-labels--ad .nt-licenseplate-label--symbol {margin-left:11.5vw}
+  .nt-licenseplate-labels--ad .nt-licenseplate-label--letters {margin-left:9.2vw}
+  .nt-licenseplate-labels--ad .nt-licenseplate-label--numbers {margin-left:9%}
+}
+@media screen and (min-width: 768px) {
+  .nt-licenseplate-labels--ad .nt-licenseplate-label--symbol {margin-left:16%}
+  .nt-licenseplate-labels--ad .nt-licenseplate-label--letters {margin-left:17.5%}
+  .nt-licenseplate-labels--ad .nt-licenseplate-label--numbers {margin-left:13%}
+}
+@media screen and (min-width: 860px) {
+  div#nt-license-input.nt-licenseplate {font-size:clamp(280px,80vw,555px) !important}
+  .nt-licenseplate-labels--ad .nt-licenseplate-label--symbol {margin-left:17%}
+  .nt-licenseplate-labels--ad .nt-licenseplate-label--letters {margin-left:18.5%}
+  .nt-licenseplate-labels--ad .nt-licenseplate-label--numbers {margin-left:16%}
+}

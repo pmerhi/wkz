@@ -25,7 +25,7 @@
                 </h2>
                 <div class="grid">
                     @foreach($grp['orte'] as $g)
-                        <div class="card"><a href="{{ url('/kennzeichen/ort/'.$g->slug) }}">{{ $g->name }}</a></div>
+                        <div class="card"><a href="{{ url('/wunschkennzeichen/'.$g->slug) }}">{{ $g->name }}</a></div>
                     @endforeach
                 </div>
             </section>

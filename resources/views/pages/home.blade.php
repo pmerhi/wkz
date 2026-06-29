@@ -50,7 +50,7 @@
         <div class="grid">
             @foreach($artikel as $a)
                 <div class="card reveal {{ 'reveal-d'.($loop->index % 3 + 1) }}">
-                    <a href="{{ url('/ratgeber/'.$a->slug) }}">{{ $a->titel }}</a>
+                    <a href="{{ url('/kfz-ratgeber/'.$a->slug) }}">{{ $a->titel }}</a>
                 </div>
             @endforeach
         </div>

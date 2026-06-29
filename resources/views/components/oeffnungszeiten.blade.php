@@ -5,21 +5,12 @@
         <strong class="oz-status">{{ $status['text'] }}</strong>
     </div>
 
-    {{-- Heute prominent mit Balken --}}
+    {{-- Heute auf einen Blick --}}
     @php $hf = $heute['fenster'] ?? []; @endphp
     <div class="oz-today">
         <div class="oz-today-top">
             <span class="oz-today-tag">Heute, {{ $heute['label'] ?? '' }}</span>
             <span class="oz-today-times">@forelse($hf as $f){{ !$loop->first ? ' · ' : '' }}{{ $f['von'] }}–{{ $f['bis'] }} Uhr @empty geschlossen @endforelse</span>
-        </div>
-        <div class="oz-track oz-track-lg">
-            @foreach($hf as $f)
-                <span class="oz-bar" style="left:{{ $f['left'] }}%;width:{{ $f['width'] }}%" title="{{ $f['von'] }}–{{ $f['bis'] }} Uhr"></span>
-            @endforeach
-            @if($nowPct !== null)<span class="oz-now" style="left:{{ $nowPct }}%" title="Jetzt"></span>@endif
-        </div>
-        <div class="oz-axis-lg" aria-hidden="true">
-            @foreach($axisLabels as $a)<span style="left:{{ $a['left'] }}%">{{ $a['text'] }}</span>@endforeach
         </div>
     </div>
 
@@ -29,7 +20,7 @@
         <table class="oz-table">
             @foreach($week as $t)
                 <tr class="{{ $t['heute'] ? 'is-today' : '' }} {{ empty($t['fenster']) ? 'is-closed' : '' }}">
-                    <th>{{ $t['label'] }}@if($t['heute']) <small>heute</small>@endif</th>
+                    <th>{{ $t['label'] }}</th>
                     <td>@forelse($t['fenster'] as $f){{ $f['von'] }}–{{ $f['bis'] }} Uhr{{ !$loop->last ? ', ' : '' }}@empty geschlossen @endforelse</td>
                 </tr>
             @endforeach

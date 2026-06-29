@@ -37,5 +37,7 @@
         </p>
     @endforeach
 
+    <x-quiz-teaser />
+
     <x-wusstest-box />
 </x-layout>

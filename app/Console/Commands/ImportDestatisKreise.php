@@ -65,7 +65,7 @@ class ImportDestatisKreise extends Command
             if ($stat->pkw_bestand) {
                 $stat->pkw_dichte = round($stat->pkw_bestand / $einw * 1000, 1);
             }
-            $stat->quelle = 'KBA (Kfz/Pkw) · Destatis '.$jahr.' (Einwohner/Fläche)';
+            $stat->quelle = 'KBA (Kfz/Pkw)';
             $stat->save();
             $ok++;
         }

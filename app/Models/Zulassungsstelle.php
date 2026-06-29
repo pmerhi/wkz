@@ -14,10 +14,12 @@ class Zulassungsstelle extends Model
     protected $guarded = [];
 
     protected $casts = [
-        'oeffnungszeiten'  => 'array',
-        'last_imported_at' => 'datetime',
-        'lat'              => 'decimal:7',
-        'lng'              => 'decimal:7',
+        'oeffnungszeiten'             => 'array',
+        'last_imported_at'            => 'datetime',
+        'oeffnungszeiten_geprueft_at' => 'datetime',
+        'oeffnungszeiten_geaendert'   => 'boolean',
+        'lat'                         => 'decimal:7',
+        'lng'                         => 'decimal:7',
     ];
 
     /** Land-Segment der URL (Bundesland-Slug, sonst „deutschland"). */
@@ -26,10 +28,10 @@ class Zulassungsstelle extends Model
         return $this->bundesland?->slug ?: 'deutschland';
     }
 
-    /** Pfad der Detailseite: /zulassungsstelle/{land}/{ort}. */
+    /** Pfad der Detailseite: /zulassungsstelle/{ort}/ (einsegmentig, wie altes Projekt). */
     public function getPfadAttribute(): string
     {
-        return '/zulassungsstelle/'.$this->land_slug.'/'.$this->slug;
+        return '/zulassungsstelle/'.$this->slug;
     }
 
     /** Absolute URL der Detailseite. */

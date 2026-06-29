@@ -18,6 +18,11 @@ class KreisStatistik extends Model
         'elektro_pkw' => 'integer',
         'pkw_dichte'  => 'float',
         'stand_jahr'  => 'integer',
+        'ladepunkte_normal'  => 'integer',
+        'ladepunkte_schnell' => 'integer',
+        'auspendler_quote'   => 'float',
+        'einpendler_quote'   => 'float',
+        'pendler_saldo'      => 'integer',
     ];
 
     public function kreis(): BelongsTo
@@ -28,6 +33,7 @@ class KreisStatistik extends Model
     /** Es liegen überhaupt anzeigbare Daten vor. */
     public function hatDaten(): bool
     {
-        return $this->einwohner || $this->kfz_bestand || $this->pkw_bestand || $this->flaeche_km2;
+        return $this->einwohner || $this->kfz_bestand || $this->pkw_bestand || $this->flaeche_km2
+            || $this->ladepunkte_normal || $this->ladepunkte_schnell;
     }
 }

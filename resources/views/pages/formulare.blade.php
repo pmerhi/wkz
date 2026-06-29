@@ -10,7 +10,7 @@
     <div class="box box-info" style="margin:0 0 22px">
         <strong>Für die Online-Zulassung brauchst du keine Formulare.</strong>
         Die Muster helfen nur, wenn du persönlich zur Zulassungsstelle gehst. Viele Vorgänge gehen heute komplett
-        digital – siehe <a href="{{ url('/ratgeber/i-kfz-online-zulassung') }}">i-Kfz – Auto online zulassen</a>.
+        digital – siehe <a href="{{ url('/kfz-ratgeber/i-kfz-online-zulassung') }}">i-Kfz – Auto online zulassen</a>.
     </div>
 
     <div class="grid">

@@ -41,10 +41,10 @@ class Gemeinde extends Model
             ->first();
     }
 
-    /** Kanonischer Pfad der Ort-Kennzeichen-Seite. */
+    /** Kanonischer Pfad der Ort-/Wunschkennzeichen-Seite (wie altes Projekt: /wunschkennzeichen/{ort}/). */
     public function pfad(): string
     {
-        return '/kennzeichen/ort/'.$this->slug;
+        return '/wunschkennzeichen/'.$this->slug;
     }
 
     public function url(): string

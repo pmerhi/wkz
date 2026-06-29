@@ -26,6 +26,10 @@ class ZulassungsstelleResource extends Resource
                 Forms\Components\TextInput::make('name')
                     ->required()
                     ->maxLength(255),
+                Forms\Components\TextInput::make('kopf_titel')
+                    ->label('Kopf-Titel (Amtsname in der Kopfzeile)')
+                    ->helperText('Wird auf der Detailseite statt des Logos angezeigt, z.B. „Straßenverkehrsamt München" oder „Zulassungsstelle Aichach". Leer = voller Name.')
+                    ->maxLength(255),
                 Forms\Components\TextInput::make('slug')
                     ->required()
                     ->maxLength(255),
@@ -53,6 +57,21 @@ class ZulassungsstelleResource extends Resource
                     ->maxLength(255),
                 Forms\Components\TextInput::make('termin_url')
                     ->maxLength(255),
+                Forms\Components\TextInput::make('oeffnungszeiten_url')
+                    ->label('Öffnungszeiten-Quelle (URL)')
+                    ->helperText('Offizielle Seite, auf der die Öffnungszeiten stehen – wird regelmäßig auf Änderungen geprüft.')
+                    ->url()
+                    ->maxLength(1024)
+                    ->columnSpanFull(),
+                Forms\Components\Placeholder::make('oeffnungszeiten_url_quelle')
+                    ->label('URL-Herkunft')
+                    ->content(fn ($record) => $record?->oeffnungszeiten_url_quelle ?: '—'),
+                Forms\Components\Placeholder::make('oeffnungszeiten_geprueft_at')
+                    ->label('Zuletzt geprüft')
+                    ->content(fn ($record) => $record?->oeffnungszeiten_geprueft_at?->format('d.m.Y H:i') ?: 'noch nie'),
+                Forms\Components\Toggle::make('oeffnungszeiten_geaendert')
+                    ->label('Quelle hat sich geändert (Prüfung offen)')
+                    ->helperText('Anschalten lassen vom Monitor; nach Abgleich der Zeiten hier ausschalten.'),
                 Forms\Components\TextInput::make('oeffnungszeiten'),
                 Forms\Components\TextInput::make('quelle')
                     ->maxLength(255),
@@ -66,6 +85,10 @@ class ZulassungsstelleResource extends Resource
             ->columns([
                 Tables\Columns\TextColumn::make('name')
                     ->searchable(),
+                Tables\Columns\TextColumn::make('kopf_titel')
+                    ->label('Kopf-Titel')
+                    ->searchable()
+                    ->toggleable(),
                 Tables\Columns\TextColumn::make('slug')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('traeger')
@@ -93,6 +116,24 @@ class ZulassungsstelleResource extends Resource
                     ->searchable(),
                 Tables\Columns\TextColumn::make('termin_url')
                     ->searchable(),
+                Tables\Columns\IconColumn::make('oeffnungszeiten_geaendert')
+                    ->label('Quelle geändert')
+                    ->boolean()
+                    ->trueIcon('heroicon-o-exclamation-triangle')
+                    ->trueColor('warning')
+                    ->falseIcon('heroicon-o-check-circle')
+                    ->falseColor('gray')
+                    ->sortable(),
+                Tables\Columns\TextColumn::make('oeffnungszeiten_geprueft_at')
+                    ->label('Geprüft')
+                    ->dateTime('d.m.Y H:i')
+                    ->placeholder('noch nie')
+                    ->sortable(),
+                Tables\Columns\TextColumn::make('oeffnungszeiten_url')
+                    ->label('OZ-Quelle')
+                    ->url(fn ($record) => $record->oeffnungszeiten_url, true)
+                    ->limit(40)
+                    ->toggleable(isToggledHiddenByDefault: true),
                 Tables\Columns\TextColumn::make('quelle')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('last_imported_at')
@@ -108,9 +149,17 @@ class ZulassungsstelleResource extends Resource
                     ->toggleable(isToggledHiddenByDefault: true),
             ])
             ->filters([
-                //
+                Tables\Filters\Filter::make('oeffnungszeiten_geaendert')
+                    ->label('Nur geänderte Öffnungszeiten-Quellen')
+                    ->query(fn (Builder $query) => $query->where('oeffnungszeiten_geaendert', true)),
             ])
             ->actions([
+                Tables\Actions\Action::make('ozGeprueft')
+                    ->label('Als geprüft markieren')
+                    ->icon('heroicon-o-check')
+                    ->visible(fn ($record) => $record->oeffnungszeiten_geaendert)
+                    ->requiresConfirmation()
+                    ->action(fn ($record) => $record->update(['oeffnungszeiten_geaendert' => false])),
                 Tables\Actions\EditAction::make(),
             ])
             ->bulkActions([

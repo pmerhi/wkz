@@ -111,7 +111,7 @@ class ImportKonsolidiert extends Command
 
     private function uniqueSlug(?string $name, ?string $plz): string
     {
-        $base = Str::slug($name ?: 'zulassungsstelle') ?: 'stelle';
+        $base = \App\Support\Slug::de($name ?: 'zulassungsstelle') ?: 'stelle';
         $slug = $base; $i = 2;
         while (Zulassungsstelle::where('slug', $slug)->exists()) {
             $slug = $base.'-'.($i === 2 && $plz ? $plz : $i);

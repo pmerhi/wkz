@@ -79,10 +79,16 @@ class EnrichStellen extends Command
     {
         if (! is_array($raw)) return null;
         $out = [];
+        $gesehen = [];
         foreach ($raw as $z) {
             if (! is_array($z) || ! isset($z['opens'], $z['closes'])) continue;
             $d = strtolower(basename((string) ($z['day'] ?? '')));
             [$en, $de] = self::DAYS[$d] ?? [null, ($z['day'] ?? null)];
+            // Exakte Dubletten (gleicher Tag + gleiche Zeit) überspringen; echte
+            // Mehrfach-Intervalle (Vor-/Nachmittag) bleiben erhalten.
+            $key = ($en ?? $de).'|'.$z['opens'].'|'.$z['closes'];
+            if (isset($gesehen[$key])) continue;
+            $gesehen[$key] = true;
             $out[] = array_filter(['day' => $en, 'label' => $de, 'opens' => $z['opens'], 'closes' => $z['closes']]);
         }
         return $out ?: null;

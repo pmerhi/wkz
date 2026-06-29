@@ -55,5 +55,7 @@
 
     <x-wusstest-box />
 
+    <x-quiz-teaser :code="$kuerzel->code" />
+
     <p style="margin-top:24px;"><a href="{{ url('/kennzeichen') }}">← Alle Kennzeichen-Kürzel (A–Z)</a></p>
 </x-layout>

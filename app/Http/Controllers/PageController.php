@@ -99,27 +99,79 @@ class PageController extends Controller
         ]);
     }
 
-    public function zulassungsstelle(string $land, string $slug)
+    /**
+     * Einsegmentige URL /zulassungsstelle/{slug}/ – dispatcht auf Stelle, Bundesland-Listing
+     * oder leitet Kind-/Altstellen weiter. Stadtstaaten: die Stelle gewinnt (zuerst geprüft).
+     */
+    public function zulassungsstelle(string $slug)
     {
-        $query = Zulassungsstelle::with(['bundesland', 'kennzeichenKuerzel', 'seoMeta', 'gemeinde',
-            'kinder' => fn ($q) => $q->with('bundesland')]);
-        if ($land === 'deutschland') {
-            $query->whereNull('bundesland_id');
-        } else {
-            $bl = Bundesland::where('slug', $land)->firstOrFail();
-            $query->where('bundesland_id', $bl->id);
-        }
-        $stelle = $query->where('slug', $slug)->firstOrFail();
-
-        // Kind-Stelle (Außenstelle) → auf das Primär-Amt des Ortes weiterleiten.
-        if ($stelle->parent_id) {
-            return redirect($stelle->parent->pfad, 301);
-        }
-        // Falsches Land-Segment → auf die kanonische URL umleiten.
-        if ($stelle->land_slug !== $land) {
-            return redirect($stelle->pfad, 301);
+        // 1) Hauptstelle mit diesem Slug? (Stadtstaaten: berlin/bremen/hamburg → Stelle gewinnt)
+        $stelle = Zulassungsstelle::whereNull('parent_id')->where('slug', $slug)
+            ->with(['bundesland', 'kennzeichenKuerzel', 'seoMeta', 'gemeinde',
+                'kinder' => fn ($q) => $q->with('bundesland')])->first();
+        if ($stelle) {
+            return $this->renderStelle($stelle);
         }
 
+        // 2) Kind-/Außenstelle → auf das Primär-Amt des Ortes weiterleiten.
+        $kind = Zulassungsstelle::whereNotNull('parent_id')->where('slug', $slug)->with('parent')->first();
+        if ($kind && $kind->parent) {
+            return redirect($kind->parent->pfad, 301);
+        }
+
+        // 3) Bundesland-Slug → Landes-Listing (für Nicht-Stadtstaaten).
+        if (Bundesland::where('slug', $slug)->exists()) {
+            return $this->bundeslandStellen($slug);
+        }
+
+        // 4) Alte /zulassungsstelle/{ort}/-URL ohne eigene Stelle → zuständige Stelle des Ortes.
+        if ($gem = $this->gemeindeAusSlug($slug)) {
+            if ($st = $gem->zustaendigeStelle()) {
+                return redirect($st->pfad, 301);
+            }
+            if ($gem->bundesland) {
+                return redirect(url('/zulassungsstelle/'.$gem->bundesland->slug), 301);
+            }
+        }
+
+        // 5) sonst → zur Übersicht statt 404.
+        return redirect('/zulassungsstelle');
+    }
+
+    /**
+     * Löst einen „ort-artigen" Slug (auch mit Region-Suffix) auf eine Gemeinde auf:
+     * exakt → Ort-Alias (/wunschkennzeichen/…) → Suffix-/Prefix-Heuristik.
+     */
+    private function gemeindeAusSlug(string $slug): ?Gemeinde
+    {
+        if ($g = Gemeinde::where('slug', $slug)->first()) {
+            return $g;
+        }
+        $alias = \App\Models\OrtAlias::where('slug', $slug)->first();
+        if ($alias && str_starts_with($alias->ziel, '/wunschkennzeichen/')) {
+            $gs = substr($alias->ziel, strlen('/wunschkennzeichen/'));
+            if ($g = Gemeinde::where('slug', $gs)->first()) {
+                return $g;
+            }
+        }
+        // Region-Suffix abschneiden (z.B. „landau-isar" → „landau-an-der-isar" als Prefix).
+        $parts = explode('-', $slug);
+        for ($n = count($parts) - 1; $n >= 1; $n--) {
+            $cand = implode('-', array_slice($parts, 0, $n));
+            if ($g = Gemeinde::where('slug', $cand)->first()) {
+                return $g;
+            }
+            $treffer = Gemeinde::where('slug', 'like', $cand.'-%')->limit(2)->get();
+            if ($treffer->count() === 1) {
+                return $treffer->first();
+            }
+        }
+        return null;
+    }
+
+    /** Rendert die Detailseite einer (Haupt-)Zulassungsstelle. */
+    private function renderStelle(Zulassungsstelle $stelle)
+    {
         // Kuratierte, für jede Zulassungsstelle relevante Ratgeber (feste Reihenfolge).
         $ratgeberSlugs = [
             'wunschkennzeichen-reservieren', 'wunschkennzeichen-kosten', 'auto-anmelden',
@@ -178,7 +230,8 @@ class PageController extends Controller
             ['Start', url('/')],
             ['Zulassungsstellen', url('/zulassungsstelle')],
         ];
-        if ($stelle->bundesland) {
+        // Stadtstaaten (Land-Slug == Stelle-Slug) würden auf sich selbst verlinken → auslassen.
+        if ($stelle->bundesland && $stelle->bundesland->slug !== $stelle->slug) {
             $crumbs[] = [$stelle->bundesland->name, url('/zulassungsstelle/'.$stelle->bundesland->slug)];
         }
         $crumbs[] = [$stelle->name, $stelle->url()];
@@ -195,13 +248,13 @@ class PageController extends Controller
             ['Wie reserviere ich ein Wunschkennzeichen in '.$ortLabel.'?',
              'Prüfe online die Verfügbarkeit deiner Wunsch-Kombination und reserviere sie. Anschließend '
              .'kannst du das Kennzeichen bei der '.e($stelle->name).' zur Zulassung verwenden. Wie das Schritt '
-             .'für Schritt läuft, steht im <a href="'.url('/ratgeber/wunschkennzeichen-reservieren').'">Ratgeber '
+             .'für Schritt läuft, steht im <a href="'.url('/kfz-ratgeber/wunschkennzeichen-reservieren').'">Ratgeber '
              .'zum Wunschkennzeichen reservieren</a>. <a href="'.e($reservUrl).'" rel="nofollow">Jetzt prüfen &amp; reservieren →</a>'],
             ['Brauche ich für die Zulassung in '.$ortLabel.' einen Termin?',
              $terminAntwort],
             ['Kann ich mein Auto in '.$ortLabel.' online zulassen?',
              'Ja – über das i-Kfz-Portal sind An-, Ab- und Ummeldung digital möglich. Wie das genau '
-             .'funktioniert, erklären wir im <a href="'.url('/ratgeber/i-kfz-online-zulassung').'">i-Kfz-Ratgeber</a>.'],
+             .'funktioniert, erklären wir im <a href="'.url('/kfz-ratgeber/i-kfz-online-zulassung').'">i-Kfz-Ratgeber</a>.'],
         ];
         $schemas[] = $this->faqPage($faq);
 
@@ -407,6 +460,20 @@ class PageController extends Controller
         }
         ksort($gruppen);
 
+        // Daten für die interaktive Deutschlandkarte (je Bundesland-Name → Anzahl + Kürzel).
+        $karteDaten = [];
+        foreach ($gruppen as $name => $g) {
+            $karteDaten[$name] = [
+                'slug'  => $g['land']->slug,
+                'count' => count($g['codes']),
+                'codes' => array_map(fn ($k) => [
+                    'code'  => $k->code,
+                    'slug'  => $k->slug,
+                    'stadt' => $k->historische_stadt,
+                ], $g['codes']),
+            ];
+        }
+
         $faq = [
             ['Was sind Altkennzeichen?',
              'Altkennzeichen sind Kfz-Unterscheidungszeichen aufgelöster Land- und Stadtkreise, die nach den Gebietsreformen ausliefen und im Rahmen der Kennzeichenliberalisierung seit dem 1. November 2012 wieder ausgegeben werden dürfen.'],
@@ -441,6 +508,7 @@ class PageController extends Controller
             'canonical'   => url('/altkennzeichen'),
             'schemas'     => $schemas,
             'gruppen'     => $gruppen,
+            'karteDaten'  => $karteDaten,
             'ohne'        => $ohne,
             'anzahl'      => $alle->count(),
             'faq'         => $faq,
@@ -541,7 +609,21 @@ class PageController extends Controller
     public function kuerzel(string $slug)
     {
         $k = KennzeichenKuerzel::with('zulassungsstellen.bundesland')
-            ->where('slug', $slug)->firstOrFail();
+            ->where('slug', $slug)->first();
+
+        // Alte /kennzeichen/{code-id}/-URL (z.B. „abg-1354") → auf das Kürzel 301 umleiten.
+        if (! $k) {
+            $basis = preg_replace('/-\d+$/', '', $slug);
+            if ($basis !== $slug && KennzeichenKuerzel::where('slug', $basis)->exists()) {
+                return redirect(url('/kennzeichen/'.$basis), 301);
+            }
+            // Auslaufendes Altkennzeichen → heutiges Kürzel des Kreises.
+            if ($ziel = config('kennzeichen_redirects.'.$slug)) {
+                return redirect(url('/kennzeichen/'.$ziel), 301);
+            }
+            // Sonst: ohne -ID prüfen wir noch die Mapping-Tabelle, sonst Übersicht.
+            return redirect(url('/kennzeichen'), 301);
+        }
 
         // Bundesland aus zugeordneten Stellen ableiten (für Anreicherung).
         $bundesland = $k->zulassungsstellen
@@ -580,7 +662,16 @@ class PageController extends Controller
     public function kennzeichenOrt(string $slug)
     {
         $g = Gemeinde::with(['kreis.kennzeichenKuerzel', 'bundesland'])
-            ->where('slug', $slug)->firstOrFail();
+            ->where('slug', $slug)->first();
+
+        // Alter /wunschkennzeichen/-Slug ohne eigene Gemeinde-Seite → 301 auf kanonisches Ziel.
+        if (! $g) {
+            $alias = \App\Models\OrtAlias::where('slug', $slug)->first();
+            if ($alias) {
+                return redirect(url($alias->ziel), 301);
+            }
+            abort(404);
+        }
 
         $kuerzel = $g->kennzeichenKuerzel()->sortBy('code')->values();
         $stelle  = $g->zustaendigeStelle();
@@ -647,8 +738,8 @@ class PageController extends Controller
         }
 
         $titel = $kuerzel->isNotEmpty()
-            ? 'Kennzeichen '.$g->name.' ('.$codes.') — Wunschkennzeichen reservieren'
-            : 'Kennzeichen '.$g->name.' — Zulassung & Wunschkennzeichen';
+            ? 'Wunschkennzeichen '.$g->name.' ('.$codes.') reservieren & Verfügbarkeit prüfen'
+            : 'Wunschkennzeichen '.$g->name.' reservieren';
 
         return view('pages.kennzeichen-ort', [
             'title'          => $titel,
@@ -673,7 +764,9 @@ class PageController extends Controller
             'zulassungsstellen'                   => fn ($q) => $q->whereNull('parent_id')->orderBy('ort'),
             'zulassungsstellen.bundesland',
             'zulassungsstellen.kennzeichenKuerzel',
-        ])->where('slug', $land)->firstOrFail();
+        ])->where('slug', $land)->first();
+        // Nicht existierendes Bundesland → zur Zulassungsstellen-Übersicht statt 404.
+        if (! $bl) return redirect('/zulassungsstelle');
 
         // Kürzel des Landes (entdoppelt) + passende Ratgeber.
         $kuerzel = $bl->zulassungsstellen
@@ -724,7 +817,7 @@ class PageController extends Controller
 
         $breadcrumb = $this->breadcrumb([
             ['Start', url('/')],
-            ['Ratgeber', url('/ratgeber')],
+            ['Ratgeber', url('/kfz-ratgeber')],
         ]);
 
         // Suche (?q=) — Ergebnisseite: noindex, Canonical aufs Verzeichnis.
@@ -732,7 +825,7 @@ class PageController extends Controller
             return view('pages.ratgeber-index', [
                 'title'       => 'Ratgeber durchsuchen: '.$q,
                 'description' => 'Suchergebnisse im Ratgeber rund um Kfz-Zulassung und Wunschkennzeichen.',
-                'canonical'   => url('/ratgeber'),
+                'canonical'   => url('/kfz-ratgeber'),
                 'robots'      => 'noindex,follow',
                 'schemas'     => [$breadcrumb],
                 'q'           => $q,
@@ -752,7 +845,7 @@ class PageController extends Controller
         return view('pages.ratgeber-index', [
             'title'       => 'Ratgeber — Auto anmelden, abmelden, Kennzeichen & Gesetze',
             'description' => 'Ratgeber rund um Kfz-Zulassung: Auto anmelden, abmelden, ummelden, i-Kfz, Wunschkennzeichen und rechtliche Grundlagen.',
-            'canonical'   => url('/ratgeber'),
+            'canonical'   => url('/kfz-ratgeber'),
             'robots'      => 'index,follow',
             'schemas'     => [$breadcrumb],
             'q'           => '',
@@ -805,7 +898,7 @@ class PageController extends Controller
             'titel'      => $a->titel,
             'titel_html' => $a->such_titel_html,   // serverseitig escaped + <mark>
             'kategorie'  => $a->kategorie?->name,
-            'url'        => url('/ratgeber/'.$a->slug),
+            'url'        => url('/kfz-ratgeber/'.$a->slug),
         ])->values();
 
         return response()->json($vorschlaege);
@@ -928,8 +1021,8 @@ class PageController extends Controller
             ]),
             $this->breadcrumb([
                 ['Start', url('/')],
-                ['Ratgeber', url('/ratgeber')],
-                [$a->titel, url('/ratgeber/'.$a->slug)],
+                ['Ratgeber', url('/kfz-ratgeber')],
+                [$a->titel, url('/kfz-ratgeber/'.$a->slug)],
             ]),
         ];
 
@@ -941,13 +1034,30 @@ class PageController extends Controller
         return view('pages.ratgeber-show', [
             'title'       => $a->seoMeta?->title ?? ($a->titel.' — Ratgeber'),
             'description' => $a->seoMeta?->description ?? (string) $a->intro,
-            'canonical'   => $a->seoMeta?->canonical ?? url('/ratgeber/'.$a->slug),
+            'canonical'   => $a->seoMeta?->canonical ?? url('/kfz-ratgeber/'.$a->slug),
             'robots'      => $a->seoMeta?->noindex ? 'noindex,follow' : 'index,follow',
             'ogType'      => 'article',
             'schemas'     => $schemas,
             'artikel'     => $a,
             'verwandte'   => $this->verwandteRatgeber($a),
         ]);
+    }
+
+    /**
+     * Alte Ratgeber-URL des Vorgängerprojekts (/kfz-zulassung/{slug} usw.) → 301 auf den
+     * passenden /kfz-ratgeber/-Artikel. Mapping aus config/ratgeber_redirects.php; sonst
+     * gleicher Slug, sofern vorhanden – andernfalls auf die Ratgeber-Übersicht.
+     */
+    public function altRatgeberRedirect(string $slug)
+    {
+        $slug = trim($slug, '/');
+        $ziel = config('ratgeber_redirects.'.$slug, $slug);
+
+        if (RatgeberArtikel::where('slug', $ziel)->exists()) {
+            return redirect(url('/kfz-ratgeber/'.$ziel), 301);
+        }
+
+        return redirect(url('/kfz-ratgeber'), 301);
     }
 
     /**
