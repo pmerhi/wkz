@@ -17,6 +17,10 @@ class BundeslandResource extends Resource
 {
     protected static ?string $model = Bundesland::class;
 
+    protected static ?string $modelLabel = 'Bundesland';
+
+    protected static ?string $pluralModelLabel = 'Bundesländer';
+
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form

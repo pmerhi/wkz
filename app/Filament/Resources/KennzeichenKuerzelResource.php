@@ -17,6 +17,10 @@ class KennzeichenKuerzelResource extends Resource
 {
     protected static ?string $model = KennzeichenKuerzel::class;
 
+    protected static ?string $modelLabel = 'Kennzeichen-Kürzel';
+
+    protected static ?string $pluralModelLabel = 'Kennzeichen-Kürzel';
+
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form

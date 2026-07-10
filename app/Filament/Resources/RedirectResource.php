@@ -17,6 +17,10 @@ class RedirectResource extends Resource
 {
     protected static ?string $model = Redirect::class;
 
+    protected static ?string $modelLabel = 'Weiterleitung';
+
+    protected static ?string $pluralModelLabel = 'Weiterleitungen';
+
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form

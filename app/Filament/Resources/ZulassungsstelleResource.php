@@ -17,6 +17,10 @@ class ZulassungsstelleResource extends Resource
 {
     protected static ?string $model = Zulassungsstelle::class;
 
+    protected static ?string $modelLabel = 'Zulassungsstelle';
+
+    protected static ?string $pluralModelLabel = 'Zulassungsstellen';
+
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form

@@ -17,6 +17,10 @@ class RatgeberArtikelResource extends Resource
 {
     protected static ?string $model = RatgeberArtikel::class;
 
+    protected static ?string $modelLabel = 'Ratgeber-Artikel';
+
+    protected static ?string $pluralModelLabel = 'Ratgeber-Artikel';
+
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form
