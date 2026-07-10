@@ -109,6 +109,11 @@
         .brand--static{cursor:default}
         .brand .brand-logo{height:80px;width:auto;display:block;transition:height .25s ease}
         .brand .brand-amt{margin:0;font-weight:800;letter-spacing:-.02em;font-size:clamp(1rem,2.4vw,1.2rem);line-height:1.15;color:var(--ink)}
+        /* Zertifikats-Badges im Header (SSL, DIN) – wie Referenz, auf Mobil ausgeblendet */
+        .header-badges{display:flex;align-items:center;gap:12px;flex:0 0 auto}
+        .header-badges img{height:48px;width:auto;display:block;transition:height .25s ease}
+        header.site.is-small .header-badges img{height:34px}
+        @media(max-width:900px){.header-badges{display:none}}
         /* Logo im Dark Mode aufhellen (SVG-Schrift ist nahezu schwarz) */
         [data-theme="dark"] .brand .brand-logo{filter:invert(1) hue-rotate(180deg) brightness(1.05)}
         nav.main{display:flex;align-items:center;gap:4px}
@@ -503,6 +508,10 @@
                 <img class="brand-logo" src="{{ asset('img/logo-wkr.svg') }}" alt="{{ config('portal.site_name') }}" width="366" height="80">
             </a>
         @endif
+        <div class="header-badges">
+            <img src="{{ asset('img/ssl.svg') }}" alt="SSL-Zertifikat" width="48" height="48" loading="lazy">
+            <img src="{{ asset('img/din.svg') }}" alt="DIN geprüft" width="48" height="48" loading="lazy">
+        </div>
         <div class="header-right">
             <nav class="main{{ count($navLinks) ? ' nav--inpage' : '' }}" id="nav">
                 @if(count($navLinks))
