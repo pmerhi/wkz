@@ -469,6 +469,25 @@
         footer.site{border-top:1px solid var(--line);margin-top:56px;padding:32px 0;color:var(--mut);font-size:.9rem;background:var(--soft2)}
         footer.site a{color:var(--mut)}
         footer.site a:hover{color:var(--pri)}
+        /* Vertrauens-Badges (Zertifikate) */
+        .footer-trust{display:flex;flex-wrap:wrap;justify-content:center;gap:14px 34px;padding-bottom:24px;margin-bottom:24px;border-bottom:1px solid var(--line)}
+        .ft-badge{display:flex;align-items:center;gap:11px;color:var(--tx);font-weight:600;line-height:1.25}
+        .ft-badge img{height:52px;width:auto;display:block;flex:0 0 auto}
+        .ft-badge small{display:block;font-weight:400;color:var(--mut);font-size:.78rem}
+        /* Zahlung / Versand + bestehende Infos */
+        .footer-cols{display:grid;grid-template-columns:1.5fr 1fr;gap:34px;align-items:start}
+        .footer-h{font-size:.95rem;font-weight:700;color:var(--ink);margin:0 0 10px}
+        .footer-pay .footer-h{margin-top:18px}
+        .footer-pay .footer-h:first-child{margin-top:0}
+        .pay-logos{display:flex;flex-wrap:wrap;gap:8px}
+        .pay-tile{display:inline-flex;align-items:center;justify-content:center;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:7px 12px;box-shadow:var(--shadow);height:42px}
+        .pay-tile img{height:22px;width:auto;display:block}
+        .footer-info p{margin:0 0 .8em}
+        @media(max-width:760px){
+            .footer-cols{grid-template-columns:1fr;gap:24px}
+            .footer-trust{gap:14px 22px}
+            .ft-badge img{height:44px}
+        }
     </style>
 
     <x-matomo />
@@ -510,10 +529,51 @@
 </main>
 <footer class="site">
     <div class="wrap">
-        <p class="muted">Nicht-amtliches Informationsangebot. Die Reservierung erfolgt
-        über die zuständige Zulassungsstelle bzw. die externe Reservierungs-App.
-        Einige Links sind Partner-/Affiliate-Links (als <em>Anzeige</em> gekennzeichnet).</p>
-        <p><a href="{{ url('/ueber-uns') }}">Über uns</a> · <a href="{{ url('/impressum') }}">Impressum</a> · <a href="{{ url('/datenschutz') }}">Datenschutz</a></p>
+        {{-- Vertrauens-/Zertifikats-Badges --}}
+        <div class="footer-trust">
+            <div class="ft-badge">
+                <img src="{{ asset('img/obr.svg') }}" alt="In Deutschland zugelassen" width="52" height="52" loading="lazy">
+                <span>In Deutschland zugelassen</span>
+            </div>
+            <div class="ft-badge">
+                <img src="{{ asset('img/din.svg') }}" alt="DIN-zertifiziert" width="52" height="52" loading="lazy">
+                <span>DIN-zertifiziert<small>DIN 74069 · Reg. 1M/1295215</small></span>
+            </div>
+            <div class="ft-badge">
+                <img src="{{ asset('img/ssl.svg') }}" alt="Sichere SSL-Verbindung" width="52" height="52" loading="lazy">
+                <span>Sichere SSL-Verbindung</span>
+            </div>
+        </div>
+
+        <div class="footer-cols">
+            {{-- Zahlung + Versand --}}
+            <div class="footer-pay">
+                <h3 class="footer-h">Sichere Zahlung mit</h3>
+                <div class="pay-logos">
+                    <span class="pay-tile"><img src="{{ asset('img/payment-paypal.svg') }}" alt="PayPal" title="PayPal" loading="lazy"></span>
+                    <span class="pay-tile"><img src="{{ asset('img/payment-visa_mastercard.svg') }}" alt="Visa / Mastercard" title="Visa / Mastercard" loading="lazy"></span>
+                    <span class="pay-tile"><img src="{{ asset('img/payment-amex.svg') }}" alt="American Express" title="American Express" loading="lazy"></span>
+                    <span class="pay-tile"><img src="{{ asset('img/payment-applepay.svg') }}" alt="Apple Pay" title="Apple Pay" loading="lazy"></span>
+                    <span class="pay-tile"><img src="{{ asset('img/payment-googlepay.svg') }}" alt="Google Pay" title="Google Pay" loading="lazy"></span>
+                    <span class="pay-tile"><img src="{{ asset('img/payment-klarna.svg') }}" alt="Klarna" title="Klarna" loading="lazy"></span>
+                    <span class="pay-tile"><img src="{{ asset('img/payment-sofort.svg') }}" alt="Sofort Überweisung" title="Sofort Überweisung" loading="lazy"></span>
+                    <span class="pay-tile"><img src="{{ asset('img/payment-rechnung.svg') }}" alt="Kauf auf Rechnung" title="Kauf auf Rechnung" loading="lazy"></span>
+                </div>
+                <h3 class="footer-h">Versand mit</h3>
+                <div class="pay-logos">
+                    <span class="pay-tile"><img src="{{ asset('img/shipping-dhl.svg') }}" alt="DHL" title="DHL" loading="lazy"></span>
+                    <span class="pay-tile"><img src="{{ asset('img/klimaneutral.svg') }}" alt="Klimaneutraler Versand" title="Klimaneutraler Versand" loading="lazy"></span>
+                </div>
+            </div>
+
+            {{-- Bestehende Footer-Infos --}}
+            <div class="footer-info">
+                <p class="muted">Nicht-amtliches Informationsangebot. Die Reservierung erfolgt
+                über die zuständige Zulassungsstelle bzw. die externe Reservierungs-App.
+                Einige Links sind Partner-/Affiliate-Links (als <em>Anzeige</em> gekennzeichnet).</p>
+                <p><a href="{{ url('/ueber-uns') }}">Über uns</a> · <a href="{{ url('/impressum') }}">Impressum</a> · <a href="{{ url('/datenschutz') }}">Datenschutz</a></p>
+            </div>
+        </div>
     </div>
 </footer>
 
