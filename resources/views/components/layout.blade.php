@@ -101,10 +101,13 @@
 
         /* Header */
         header.site{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.82);backdrop-filter:saturate(160%) blur(10px);border-bottom:1px solid var(--line)}
-        header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:100px}
+        header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:100px;transition:height .25s ease}
+        /* Beim Scrollen schrumpft der Header (Klasse .is-small per JS) */
+        header.site.is-small .wrap{height:64px}
+        header.site.is-small .brand-logo{height:46px}
         .brand{display:flex;align-items:center;gap:9px;font-weight:800;letter-spacing:-.02em;font-size:1.12rem;text-decoration:none;color:var(--ink)}
         .brand--static{cursor:default}
-        .brand .brand-logo{height:80px;width:auto;display:block}
+        .brand .brand-logo{height:80px;width:auto;display:block;transition:height .25s ease}
         .brand .brand-amt{margin:0;font-weight:800;letter-spacing:-.02em;font-size:clamp(1rem,2.4vw,1.2rem);line-height:1.15;color:var(--ink)}
         /* Logo im Dark Mode aufhellen (SVG-Schrift ist nahezu schwarz) */
         [data-theme="dark"] .brand .brand-logo{filter:invert(1) hue-rotate(180deg) brightness(1.05)}
@@ -143,6 +146,8 @@
         @media(max-width:760px){
             header.site .wrap{height:60px}
             .brand .brand-logo{height:40px}
+            header.site.is-small .wrap{height:52px}
+            header.site.is-small .brand-logo{height:34px}
             nav.main{position:fixed;inset:60px 0 auto 0;flex-direction:column;align-items:stretch;background:#fff;border-bottom:1px solid var(--line);padding:8px 16px 16px;box-shadow:var(--shadow);transform:translateY(-130%);transition:transform .25s ease;gap:2px}
             nav.main.open{transform:translateY(0)}
             nav.main a{padding:12px 10px}
@@ -550,6 +555,19 @@
 })();
 /* Lazyload: alle Bilder ohne explizites loading */
 document.querySelectorAll('img:not([loading])').forEach(function(i){i.loading='lazy';i.decoding='async';});
+
+/* Header beim Scrollen verkleinern (Logo + Höhe) */
+(function(){
+  var h=document.querySelector('header.site');
+  if(!h)return;
+  var small=false;
+  function onScroll(){
+    var s=(window.scrollY||document.documentElement.scrollTop||0)>30;
+    if(s!==small){small=s;h.classList.toggle('is-small',s);}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
+})();
 
 /* Darstellung: Modal mit Theme (hell/dunkel/auto) + Schriftgröße, in localStorage */
 (function(){
