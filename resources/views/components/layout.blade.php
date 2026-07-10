@@ -25,7 +25,7 @@
     <meta name="description" content="{{ $description }}">
     <meta name="robots" content="{{ $robots }}">
     <link rel="canonical" href="{{ $canonical ?? url()->current() }}">
-    <meta name="theme-color" content="#1d4ed8">
+    <meta name="theme-color" content="#055cc5">
 
     {{-- Open Graph --}}
     <meta property="og:type" content="{{ $ogType }}">
@@ -55,18 +55,25 @@
             src:url("/fonts/gl-nummernschild-mtl.woff2") format("woff2"),
                 url("/fonts/gl-nummernschild-mtl.woff") format("woff"),
                 url("/fonts/gl-nummernschild-mtl.ttf") format("truetype");}
+        /* Titillium Web – Seitenschrift (selbst gehostet, Anlehnung an Referenz-Design) */
+        @font-face{font-family:"Titillium Web";font-weight:400;font-style:normal;font-display:swap;
+            src:url("/fonts/titillium-web/titillium-web-regular.woff2") format("woff2");}
+        @font-face{font-family:"Titillium Web";font-weight:600;font-style:normal;font-display:swap;
+            src:url("/fonts/titillium-web/titillium-web-600.woff2") format("woff2");}
+        @font-face{font-family:"Titillium Web";font-weight:700;font-style:normal;font-display:swap;
+            src:url("/fonts/titillium-web/titillium-web-700.woff2") format("woff2");}
         :root{
-            --pri:#1d4ed8; --pri-d:#1e3a8a; --pri-l:#3b82f6;
-            --ok:#16a34a; --ok-bg:#dcfce7; --warn:#d97706; --warn-bg:#fef3c7; --no:#dc2626; --no-bg:#fee2e2;
-            --ink:#0f172a; --tx:#1e293b; --mut:#64748b; --bg:#ffffff; --soft:#f1f5f9; --soft2:#f8fafc; --line:#e2e8f0;
-            --shadow:0 1px 2px rgba(15,23,42,.04),0 6px 20px -6px rgba(15,23,42,.10);
-            --shadow-lg:0 10px 40px -12px rgba(15,23,42,.25);
-            --r:14px; --maxw:1080px;
+            --pri:#055cc5; --pri-d:#004bb1; --pri-l:#3d82d6;
+            --ok:#29aa5d; --ok-bg:#e3f5ea; --warn:#d97706; --warn-bg:#fef3c7; --no:#dc2626; --no-bg:#fee2e2;
+            --ink:#000000; --tx:#1f1f1f; --mut:#888888; --bg:#ffffff; --page:#f1f1f1; --soft:#f1f1f1; --soft2:#e8e8e8; --line:#d9d9d9;
+            --shadow:0 1px 5px 0 rgba(0,0,0,.25);
+            --shadow-lg:0 8px 30px -8px rgba(0,0,0,.28);
+            --r:4px; --maxw:1080px;
         }
         /* Dark Mode (umschaltbar oben rechts) */
         [data-theme="dark"]{
             --ink:#f1f5f9; --tx:#cbd5e1; --mut:#94a3b8;
-            --bg:#0f172a; --soft:#1e293b; --soft2:#162033; --line:#334155; --pri-l:#60a5fa;
+            --bg:#0f172a; --page:#0b1120; --soft:#1e293b; --soft2:#162033; --line:#334155; --pri-l:#60a5fa;
             --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px -6px rgba(0,0,0,.5);
             --shadow-lg:0 10px 40px -12px rgba(0,0,0,.7);
         }
@@ -86,7 +93,7 @@
         @media(max-width:760px){[data-theme="dark"] nav.main{background:var(--soft)}}
         *{box-sizing:border-box}
         html{scroll-behavior:smooth}
-        body{margin:0;font:1rem/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--tx);background:var(--bg);-webkit-font-smoothing:antialiased;transition:background .2s,color .2s}
+        body{margin:0;font:1rem/1.65 "Titillium Web",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--tx);background:var(--page);-webkit-font-smoothing:antialiased;transition:background .2s,color .2s}
         .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
         .wrap--narrow{max-width:760px}
         a{color:var(--pri)}
@@ -150,7 +157,7 @@
 
         /* Hero */
         .hero{position:relative;overflow:hidden;border-radius:24px;margin:6px 0 26px;padding:clamp(28px,5vw,56px);color:#fff;
-            background:linear-gradient(135deg,#1e3a8a,#1d4ed8 55%,#3b82f6);box-shadow:var(--shadow-lg)}
+            background:linear-gradient(135deg,#004bb1,#055cc5 55%,#3d82d6);box-shadow:var(--shadow-lg)}
         .hero::before,.hero::after{content:"";position:absolute;border-radius:50%;filter:blur(2px);opacity:.5;pointer-events:none}
         .hero::before{width:340px;height:340px;right:-90px;top:-120px;background:radial-gradient(circle,rgba(255,255,255,.30),transparent 70%);animation:float 14s ease-in-out infinite}
         .hero::after{width:260px;height:260px;left:-80px;bottom:-120px;background:radial-gradient(circle,rgba(125,211,252,.35),transparent 70%);animation:float 18s ease-in-out infinite reverse}
@@ -178,12 +185,12 @@
         .ac-item.active,.ac-item:hover{background:var(--soft2)}
         .ac-item mark{background:#fde68a}
         .ac-all{display:block;padding:9px 14px;font-size:.85rem;font-weight:600;color:var(--pri);text-decoration:none;background:var(--soft2);border-top:1px solid var(--line)}
-        .ac-all.active{background:#eff4ff}
+        .ac-all.active{background:#e8f1fb}
 
         /* Buttons */
         .cta,.btn{display:inline-flex;align-items:center;gap:8px;background:var(--pri);color:#fff;padding:13px 24px;border-radius:11px;text-decoration:none;font-weight:700;border:none;cursor:pointer;font-size:1rem;
-            box-shadow:0 6px 16px -6px rgba(29,78,216,.6);transition:transform .15s,box-shadow .15s,background .15s}
-        .cta:hover,.btn:hover{transform:translateY(-2px);box-shadow:0 12px 24px -8px rgba(29,78,216,.7);background:var(--pri-d)}
+            box-shadow:0 6px 16px -6px rgba(5,92,197,.6);transition:transform .15s,box-shadow .15s,background .15s}
+        .cta:hover,.btn:hover{transform:translateY(-2px);box-shadow:0 12px 24px -8px rgba(5,92,197,.7);background:var(--pri-d)}
         .hero .cta{background:#fff;color:var(--pri-d);box-shadow:0 10px 30px -10px rgba(0,0,0,.45)}
         .hero .cta:hover{background:#f8fafc}
         .btn-ghost{background:transparent;color:#fff;box-shadow:none;border:1.5px solid rgba(255,255,255,.6)}
@@ -207,7 +214,7 @@
         /* Badges / chips */
         .badge{display:inline-block;border:1px solid var(--line);border-radius:8px;padding:3px 10px;margin:2px;font-size:.9rem;text-decoration:none;color:var(--tx);background:#fff;transition:.15s}
         a.badge:hover{border-color:var(--pri-l);color:var(--pri);background:var(--soft2);transform:translateY(-1px)}
-        .badge-alt{border-color:#1d4ed8;background:#eff6ff;color:#1d4ed8;font-weight:700}
+        .badge-alt{border-color:#055cc5;background:#e8f1fb;color:#055cc5;font-weight:700}
 
         /* Altkennzeichen-Infografik (iframe der interaktiven Karte) */
         .ak-infografik{margin:28px 0}
@@ -275,8 +282,8 @@
         .oz-row .oz-day{font-weight:700;font-size:.9rem;color:var(--tx);display:flex;flex-direction:column;line-height:1.1}
         .oz-row .oz-day small{font-weight:600;color:var(--pri);font-size:.66rem}
         .oz-track{position:relative;height:18px;background:repeating-linear-gradient(90deg,var(--soft) 0 1px,transparent 1px 25%);border-radius:6px;background-color:var(--soft2)}
-        .oz-bar{position:absolute;top:2px;bottom:2px;background:linear-gradient(180deg,var(--pri-l),var(--pri));border-radius:5px;box-shadow:0 1px 3px rgba(29,78,216,.4)}
-        .oz-row.is-today .oz-bar{background:linear-gradient(180deg,#22c55e,#16a34a);box-shadow:0 1px 3px rgba(22,163,74,.45)}
+        .oz-bar{position:absolute;top:2px;bottom:2px;background:linear-gradient(180deg,var(--pri-l),var(--pri));border-radius:5px;box-shadow:0 1px 3px rgba(5,92,197,.4)}
+        .oz-row.is-today .oz-bar{background:linear-gradient(180deg,#22c55e,#29aa5d);box-shadow:0 1px 3px rgba(22,163,74,.45)}
         .oz-row.is-today{background:linear-gradient(90deg,rgba(34,197,94,.08),transparent);border-radius:8px}
         .oz-zu{font-size:.74rem;color:var(--mut);padding-left:6px;line-height:18px;background:none}
         .oz-now{position:absolute;top:-3px;bottom:-3px;width:2px;background:#ef4444;border-radius:2px}
@@ -317,7 +324,7 @@
         .section:first-of-type{border-top:none}
         .section>h2{margin-top:0}
         .lead-intro{font-size:1.12rem;color:var(--mut);max-width:68ch}
-        .feature{position:relative;overflow:hidden;background:linear-gradient(135deg,#eff6ff,#e0e7ff);border:1px solid #c7d2fe;border-radius:20px;padding:clamp(22px,4vw,34px);box-shadow:var(--shadow)}
+        .feature{position:relative;overflow:hidden;background:linear-gradient(135deg,#e8f1fb,#dbe9f8);border:1px solid #bcd6f2;border-radius:20px;padding:clamp(22px,4vw,34px);box-shadow:var(--shadow)}
         .feature .tag-new{display:inline-block;background:var(--pri);color:#fff;font-size:.72rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:5px 11px;border-radius:30px;margin-bottom:12px}
         .feature h2{margin:0 0 .35em}
         .feature .grid{margin-top:18px}
@@ -352,7 +359,7 @@
         .gen-controls input{display:block;margin-top:4px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;font-size:1.1rem;font-weight:700;text-transform:uppercase;width:120px;letter-spacing:1px}
         a.js-gen-kombi{cursor:pointer}
         .gen-status{margin:12px 0 0;font-size:.9rem;min-height:1.2em;font-weight:600}
-        .gen-status.ok{color:#16a34a}
+        .gen-status.ok{color:#29aa5d}
         .gen-status.err{color:#dc2626}
         .cta.is-disabled{opacity:.5;pointer-events:none;filter:grayscale(.3)}
         /* Kennzeichen-Eingabemaske (direkt im Schild tippen) */
@@ -408,7 +415,7 @@
         .quiz-rules .ic{font-size:1.5rem;line-height:1;flex-shrink:0;width:30px;text-align:center}
         @media(max-width:820px){.quiz-layout{flex-direction:column}.quiz-info{width:100%;order:-1}}
         /* Wusstest-du?-Box */
-        .wusstest-box{background:linear-gradient(135deg,#fffbeb,#fef3c7);border:1px solid #fcd34d;border-radius:16px;padding:22px 24px;box-shadow:var(--shadow)}
+        .wusstest-box{background:linear-gradient(135deg,#fffbeb,#fef3c7);border:1px solid #fcd34d;border-radius:4px;padding:22px 24px;box-shadow:var(--shadow)}
         .wusstest-head{font-weight:800;color:#b45309;font-size:1.05rem;margin-bottom:8px}
         .wusstest-titel{margin:0 0 6px;font-size:1.15rem;color:var(--ink)}
         .wusstest-text{margin:0;color:var(--tx)}
@@ -417,7 +424,7 @@
         .wusstest-quelle:hover{color:var(--pri)}
         .wusstest-next{background:#fff;border:1px solid #fcd34d;color:#b45309;border-radius:9px;padding:8px 14px;font-weight:700;cursor:pointer;font-size:.9rem;transition:.15s}
         .wusstest-next:hover{background:#b45309;color:#fff}
-        .pri-cta-block{background:linear-gradient(135deg,#1e3a8a,#1d4ed8);color:#fff;border-radius:20px;padding:clamp(22px,4vw,32px);text-align:center;box-shadow:var(--shadow-lg)}
+        .pri-cta-block{background:linear-gradient(135deg,#004bb1,#055cc5);color:#fff;border-radius:20px;padding:clamp(22px,4vw,32px);text-align:center;box-shadow:var(--shadow-lg)}
         .pri-cta-block h2{color:#fff;margin-top:0}
         .pri-cta-block p{color:rgba(255,255,255,.9);max-width:54ch;margin:0 auto 18px}
 
@@ -443,11 +450,11 @@
         .content img{border-radius:14px;margin:1.2em 0;box-shadow:var(--shadow)}
         .content blockquote{margin:1.2em 0;padding:2px 18px;border-left:4px solid var(--pri-l);color:var(--mut)}
         /* Callout-Boxen für Ratgeber */
-        .box{position:relative;border-radius:14px;padding:16px 18px 16px 50px;margin:1.4em 0;border:1px solid var(--line);background:var(--soft2);box-shadow:var(--shadow)}
+        .box{position:relative;border-radius:4px;padding:16px 18px 16px 50px;margin:1.4em 0;border:1px solid var(--line);background:var(--soft2);box-shadow:var(--shadow)}
         .box::before{position:absolute;left:16px;top:15px;font-size:1.2rem;line-height:1}
         .box>strong{display:block;margin-bottom:3px}
         .box-tipp{background:#ecfdf5;border-color:#a7f3d0}.box-tipp::before{content:"💡"}
-        .box-info{background:#eff6ff;border-color:#bfdbfe}.box-info::before{content:"ℹ️"}
+        .box-info{background:#e8f1fb;border-color:#bcd6f2}.box-info::before{content:"ℹ️"}
         .box-wichtig{background:#fff7ed;border-color:#fed7aa}.box-wichtig::before{content:"⚠️"}
         .box-check{background:#f0fdf4;border-color:#bbf7d0}.box-check::before{content:"✅"}
         .box-kosten{background:#faf5ff;border-color:#e9d5ff}.box-kosten::before{content:"💶"}
