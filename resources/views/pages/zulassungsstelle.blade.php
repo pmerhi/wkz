@@ -3,13 +3,13 @@
     // Einzige Quelle für Kopf-Menü UND jumpnav, damit beide nicht auseinanderlaufen.
     $hatHoursKopf = is_array($stelle->oeffnungszeiten) && count($stelle->oeffnungszeiten) && ! isset($stelle->oeffnungszeiten['raw']);
     $kopfNav = [];
+    $kopfNav[] = ['href' => '#kontakt', 'label' => '📍 Kontakt'];
     if ($hatHoursKopf) $kopfNav[] = ['href' => '#oeffnungszeiten', 'label' => '🕒 Öffnungszeiten'];
     $kopfNav[] = ['href' => '#online', 'label' => '🚗 Online-Zulassung'];
     $kopfNav[] = ['href' => '#reservieren', 'label' => '⭐ Wunschkennzeichen'];
     if ($stelle->termin_url) $kopfNav[] = ['href' => '#termin', 'label' => '📅 Termin'];
     $kopfNav[] = ['href' => '#formulare', 'label' => '📄 Formulare'];
     $kopfNav[] = ['href' => '#mitbringen', 'label' => '✅ Was mitbringen'];
-    $kopfNav[] = ['href' => '#kontakt', 'label' => '📍 Kontakt'];
     $kopfNav[] = ['href' => '#faq', 'label' => '❓ FAQ'];
 @endphp
 <x-layout :title="$title" :description="$description" :canonical="$canonical" :robots="$robots" :schemas="$schemas" :brand="$stelle->kopf_titel ?: $stelle->name" :nav-links="$kopfNav">
@@ -31,6 +31,21 @@
         <strong>{{ $ortLabel }}</strong> zuständig{!! $kuerzelHinweis !!}.
         Hier findest du heutige Öffnungszeiten, Online-Termin und Kontakt – und kannst dein
         Wunschkennzeichen direkt reservieren.</p>
+
+    {{-- Kontakt & Anschrift (ganz oben) --}}
+    <section class="section reveal" id="kontakt">
+        <h2>Kontakt &amp; Anschrift</h2>
+        <table class="info">
+            <tr><th>Anschrift</th><td>{{ $stelle->strasse }}@if($stelle->strasse)<br>@endif{{ $stelle->plz }} {{ $stelle->ort }}</td></tr>
+            @if($stelle->telefon)<tr><th>Telefon</th><td>{{ $stelle->telefon }}</td></tr>@endif
+            @if($stelle->email)<tr><th>E-Mail</th><td><a href="mailto:{{ $stelle->email }}">{{ $stelle->email }}</a></td></tr>@endif
+            @if($stelle->website)<tr><th>Website</th><td><a href="{{ $stelle->website }}" rel="nofollow noopener" target="_blank">{{ $stelle->website }}</a></td></tr>@endif
+            @if($stelle->bundesland)<tr><th>Bundesland</th><td><a href="{{ url('/zulassungsstelle/'.$stelle->bundesland->slug) }}">{{ $stelle->bundesland->name }}</a></td></tr>@endif
+        </table>
+
+        {{-- Standortkarte (basemap.de) – nur wenn Koordinaten vorliegen --}}
+        <x-standort-karte :stelle="$stelle" />
+    </section>
 
     {{-- Öffnungszeiten: heute mit Balken, ganze Woche aufklappbar --}}
     @if($hatHours || $hatRawHours)
@@ -114,21 +129,6 @@
     {{-- Was mitbringen – Unterlagen-Checkliste je Anliegen --}}
     <x-mitbringen-checkliste :ort="$ortLabel" />
 
-    {{-- Kontakt & Anschrift --}}
-    <section class="section reveal" id="kontakt">
-        <h2>Kontakt &amp; Anschrift</h2>
-        <table class="info">
-            <tr><th>Anschrift</th><td>{{ $stelle->strasse }}@if($stelle->strasse)<br>@endif{{ $stelle->plz }} {{ $stelle->ort }}</td></tr>
-            @if($stelle->telefon)<tr><th>Telefon</th><td>{{ $stelle->telefon }}</td></tr>@endif
-            @if($stelle->email)<tr><th>E-Mail</th><td><a href="mailto:{{ $stelle->email }}">{{ $stelle->email }}</a></td></tr>@endif
-            @if($stelle->website)<tr><th>Website</th><td><a href="{{ $stelle->website }}" rel="nofollow noopener" target="_blank">{{ $stelle->website }}</a></td></tr>@endif
-            @if($stelle->bundesland)<tr><th>Bundesland</th><td><a href="{{ url('/zulassungsstelle/'.$stelle->bundesland->slug) }}">{{ $stelle->bundesland->name }}</a></td></tr>@endif
-        </table>
-
-        {{-- Standortkarte (basemap.de) – nur wenn Koordinaten vorliegen --}}
-        <x-standort-karte :stelle="$stelle" />
-    </section>
-
     {{-- Weitere Zulassungsstellen --}}
     @if($stelle->kinder->isNotEmpty())
     <section class="section reveal" id="weitere">
@@ -167,11 +167,11 @@
     @if($stelle->kennzeichenKuerzel->isNotEmpty())
     <section class="section reveal">
         <h2>Kennzeichen-Kürzel im Zulassungsbezirk</h2>
-        <p>
+        <div class="kzs-liste">
             @foreach($stelle->kennzeichenKuerzel as $k)
-                <a class="badge" href="{{ url('/kennzeichen/'.$k->slug) }}">{{ $k->code }}</a>
+                <x-kennzeichen-schild :code="$k->code" :href="url('/kennzeichen/'.$k->slug)" />
             @endforeach
-        </p>
+        </div>
     </section>
     @endif
 

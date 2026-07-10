@@ -18,11 +18,14 @@
         <p class="muted">{{ number_format($anzahl, 0, ',', '.') }} Orte in {{ $gruppen->count() }} Zulassungsbezirken.</p>
         @foreach($gruppen as $grp)
             <section class="section reveal">
-                <h2>Zulassungsbezirk {{ $grp['label'] }}
-                    @if($grp['kuerzel']->isNotEmpty())<span class="muted" style="font-weight:400">·
-                        @foreach($grp['kuerzel'] as $k)<a class="badge" href="{{ url('/kennzeichen/'.$k->slug) }}">{{ $k->code }}</a>@endforeach
-                    </span>@endif
-                </h2>
+                <h2>Zulassungsbezirk {{ $grp['label'] }}</h2>
+                @if($grp['kuerzel']->isNotEmpty())
+                <div class="kzs-liste kzs-liste--kompakt" style="margin:-4px 0 14px">
+                    @foreach($grp['kuerzel'] as $k)
+                        <x-kennzeichen-schild :code="$k->code" :href="url('/kennzeichen/'.$k->slug)" />
+                    @endforeach
+                </div>
+                @endif
                 <div class="grid">
                     @foreach($grp['orte'] as $g)
                         <div class="card"><a href="{{ url('/wunschkennzeichen/'.$g->slug) }}">{{ $g->name }}</a></div>

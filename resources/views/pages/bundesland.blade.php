@@ -23,11 +23,11 @@
             <p class="muted">{{ $kuerzel->count() === 1
                 ? 'Fahrzeuge aus '.$land->name.' tragen das Unterscheidungszeichen:'
                 : 'Fahrzeuge aus '.$land->name.' tragen diese Unterscheidungszeichen:' }}</p>
-            <p>
+            <div class="kzs-liste">
                 @foreach($kuerzel as $k)
-                    <a class="badge" href="{{ url('/kennzeichen/'.$k->slug) }}">{{ $k->code }}</a>
+                    <x-kennzeichen-schild :code="$k->code" :href="url('/kennzeichen/'.$k->slug)" />
                 @endforeach
-            </p>
+            </div>
         </section>
         @endif
 

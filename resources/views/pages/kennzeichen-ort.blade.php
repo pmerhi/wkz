@@ -26,11 +26,11 @@
     @if($kuerzel->isNotEmpty())
     <section class="section reveal">
         <h2>Unterscheidungszeichen für {{ $gemeinde->name }}</h2>
-        <p>
+        <div class="kzs-liste">
             @foreach($kuerzel as $k)
-                <a class="badge" href="{{ url('/kennzeichen/'.$k->slug) }}">{{ $k->code }}</a>
+                <x-kennzeichen-schild :code="$k->code" :href="url('/kennzeichen/'.$k->slug)" />
             @endforeach
-        </p>
+        </div>
         @php
             $bezirkOrt = $gemeinde->kreis?->name ?: ($stelle && $stelle->ort ? $stelle->ort : '');
             $bezirkLand = $gemeinde->bundesland?->name ?? '';
@@ -75,11 +75,11 @@
     <section class="section reveal">
         <h2>Altkennzeichen rund um {{ $gemeinde->name }}</h2>
         <p>Für die Region ist auch ein wieder eingeführtes <a href="{{ url('/altkennzeichen') }}">Altkennzeichen</a> erhältlich:</p>
-        <p>
+        <div class="kzs-liste">
             @foreach($altkennzeichen as $k)
-                <a class="badge" href="{{ url('/kennzeichen/'.$k->slug) }}">{{ $k->code }}</a>
+                <x-kennzeichen-schild :code="$k->code" :href="url('/kennzeichen/'.$k->slug)" />
             @endforeach
-        </p>
+        </div>
     </section>
     @endif
 

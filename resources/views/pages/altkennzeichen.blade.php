@@ -32,7 +32,7 @@
             <tbody>
             @foreach($g['codes'] as $k)
                 <tr>
-                    <td><a class="badge badge-alt" href="{{ url('/kennzeichen/'.$k->slug) }}">{{ $k->code }}</a></td>
+                    <td><span class="kzs-liste kzs-liste--kompakt"><x-kennzeichen-schild :code="$k->code" :href="url('/kennzeichen/'.$k->slug)" /></span></td>
                     <td>{{ $k->historische_stadt ?: '—' }}</td>
                     <td>{{ $k->bedeutung ? \Illuminate\Support\Str::beforeLast($k->bedeutung, ', '.$name) : '—' }}</td>
                 </tr>
@@ -43,11 +43,11 @@
 
     @if(!empty($ohne))
         <h2 id="weitere">Weitere Altkennzeichen</h2>
-        <p>
+        <div class="kzs-liste kzs-liste--kompakt">
             @foreach($ohne as $k)
-                <a class="badge badge-alt" href="{{ url('/kennzeichen/'.$k->slug) }}" title="{{ $k->historische_stadt }}">{{ $k->code }}</a>
+                <x-kennzeichen-schild :code="$k->code" :href="url('/kennzeichen/'.$k->slug)" :title="$k->historische_stadt" />
             @endforeach
-        </p>
+        </div>
     @endif
 
     <h2>Häufige Fragen zu Altkennzeichen</h2>

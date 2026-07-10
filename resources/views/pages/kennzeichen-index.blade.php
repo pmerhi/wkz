@@ -21,20 +21,20 @@
         <p class="muted">Diese {{ $altkennzeichen->count() }} Kennzeichen waren ausgelaufen und sind seit der
         Kennzeichenliberalisierung (1. November 2012) wieder erhältlich – ideal als Wunschkennzeichen mit
         regionalem Bezug. <a href="{{ url('/altkennzeichen') }}">Zur Altkennzeichen-Liste nach Bundesland →</a></p>
-        <p>
+        <div class="kzs-liste kzs-liste--kompakt">
             @foreach($altkennzeichen as $k)
-                <a class="badge badge-alt" href="{{ url('/kennzeichen/'.$k->slug) }}" title="{{ $k->historische_stadt }}@if($k->bedeutung) – heute {{ $k->bedeutung }}@endif">{{ $k->code }}</a>
+                <x-kennzeichen-schild :code="$k->code" :href="url('/kennzeichen/'.$k->slug)" :title="$k->historische_stadt.($k->bedeutung ? ' – heute '.$k->bedeutung : '')" />
             @endforeach
-        </p>
+        </div>
     @endif
 
     @foreach($gruppen as $buchstabe => $liste)
         <h2 id="{{ $buchstabe }}" class="reveal">{{ $buchstabe }}</h2>
-        <p class="reveal reveal-d1">
+        <div class="kzs-liste kzs-liste--kompakt reveal reveal-d1">
             @foreach($liste as $k)
-                <a class="badge" href="{{ url('/kennzeichen/'.$k->slug) }}" title="{{ $k->bedeutung }}">{{ $k->code }}</a>
+                <x-kennzeichen-schild :code="$k->code" :href="url('/kennzeichen/'.$k->slug)" :title="$k->bedeutung" />
             @endforeach
-        </p>
+        </div>
     @endforeach
 
     <x-quiz-teaser />
