@@ -101,10 +101,10 @@
 
         /* Header */
         header.site{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.82);backdrop-filter:saturate(160%) blur(10px);border-bottom:1px solid var(--line)}
-        header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:62px}
+        header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:100px}
         .brand{display:flex;align-items:center;gap:9px;font-weight:800;letter-spacing:-.02em;font-size:1.12rem;text-decoration:none;color:var(--ink)}
         .brand--static{cursor:default}
-        .brand .brand-logo{height:35px;width:auto;display:block}
+        .brand .brand-logo{height:80px;width:auto;display:block}
         .brand .brand-amt{margin:0;font-weight:800;letter-spacing:-.02em;font-size:clamp(1rem,2.4vw,1.2rem);line-height:1.15;color:var(--ink)}
         /* Logo im Dark Mode aufhellen (SVG-Schrift ist nahezu schwarz) */
         [data-theme="dark"] .brand .brand-logo{filter:invert(1) hue-rotate(180deg) brightness(1.05)}
@@ -141,7 +141,9 @@
         .set-font{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
         .js-font-val{font-weight:700;min-width:56px;text-align:center;color:var(--ink)}
         @media(max-width:760px){
-            nav.main{position:fixed;inset:62px 0 auto 0;flex-direction:column;align-items:stretch;background:#fff;border-bottom:1px solid var(--line);padding:8px 16px 16px;box-shadow:var(--shadow);transform:translateY(-130%);transition:transform .25s ease;gap:2px}
+            header.site .wrap{height:60px}
+            .brand .brand-logo{height:40px}
+            nav.main{position:fixed;inset:60px 0 auto 0;flex-direction:column;align-items:stretch;background:#fff;border-bottom:1px solid var(--line);padding:8px 16px 16px;box-shadow:var(--shadow);transform:translateY(-130%);transition:transform .25s ease;gap:2px}
             nav.main.open{transform:translateY(0)}
             nav.main a{padding:12px 10px}
             .nav-toggle{display:block}
@@ -474,7 +476,7 @@
             <div class="brand brand--static"><h1 class="brand-amt">{{ $brand }}</h1></div>
         @else
             <a class="brand" href="{{ url('/') }}">
-                <img class="brand-logo" src="{{ asset('img/logo-wkr.svg') }}" alt="{{ config('portal.site_name') }}" width="160" height="35">
+                <img class="brand-logo" src="{{ asset('img/logo-wkr.svg') }}" alt="{{ config('portal.site_name') }}" width="366" height="80">
             </a>
         @endif
         <div class="header-right">
