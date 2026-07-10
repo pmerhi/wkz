@@ -4,13 +4,14 @@
         ->inRandomOrder()->limit(8)->get(['titel', 'beschreibung', 'quelle']);
 @endphp
 @if($fakten->isNotEmpty())
+    @php $erst = $fakten->first(); @endphp
     <section class="section reveal">
         <div class="wusstest-box" data-fakten='@json($fakten->map(fn ($f) => ['t' => $f->titel, 'b' => $f->beschreibung, 'q' => $f->quelle])->values())'>
             <div class="wusstest-head">💡 Wusstest du?</div>
-            <h3 class="wusstest-titel js-wt-titel"></h3>
-            <p class="wusstest-text js-wt-text"></p>
+            <h3 class="wusstest-titel js-wt-titel">{{ $erst->titel }}</h3>
+            <p class="wusstest-text js-wt-text">{{ $erst->beschreibung }}</p>
             <div class="wusstest-foot">
-                <a class="wusstest-quelle js-wt-quelle" href="#" target="_blank" rel="nofollow noopener" hidden>Quelle ansehen ↗</a>
+                <a class="wusstest-quelle js-wt-quelle" href="{{ $erst->quelle ?: '#' }}" target="_blank" rel="nofollow noopener" @unless($erst->quelle) hidden @endunless>Quelle ansehen ↗</a>
                 <button type="button" class="wusstest-next js-wt-next">Nächster Fakt →</button>
             </div>
         </div>
