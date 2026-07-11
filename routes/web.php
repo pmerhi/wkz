@@ -47,6 +47,8 @@ Route::get('/ratgeber/{slug}', fn (string $slug) => redirect(url('/kfz-ratgeber/
 
 // Alte Ratgeber-Pfade des Vorgängerprojekts → 301 auf passenden /kfz-ratgeber/-Artikel.
 foreach (['kfz-zulassung', 'kfz-kennzeichen', 'tipps-fuer-fahrzeughalter', 'kfz-ummeldung-abmeldung'] as $altPfad) {
+    // Nackter Kategorie-Index (z. B. /kfz-zulassung/) → 301 auf die Ratgeber-Übersicht.
+    Route::get('/'.$altPfad, fn () => redirect(url('/kfz-ratgeber'), 301));
     Route::get('/'.$altPfad.'/{slug}', [PageController::class, 'altRatgeberRedirect'])->where('slug', '.*');
 }
 
