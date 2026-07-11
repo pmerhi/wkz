@@ -17,20 +17,6 @@
         <p class="muted">Für {{ $land->name }} sind derzeit noch keine Zulassungsstellen erfasst.
         <a href="{{ url('/zulassungsstelle') }}">Zum Verzeichnis →</a></p>
     @else
-        @if($kuerzel->isNotEmpty())
-        <section class="section reveal">
-            <h2>Kennzeichen-Kürzel in {{ $land->name }}</h2>
-            <p class="muted">{{ $kuerzel->count() === 1
-                ? 'Fahrzeuge aus '.$land->name.' tragen das Unterscheidungszeichen:'
-                : 'Fahrzeuge aus '.$land->name.' tragen diese Unterscheidungszeichen:' }}</p>
-            <div class="kzs-liste">
-                @foreach($kuerzel as $k)
-                    <x-kennzeichen-schild :code="$k->code" :href="url('/kennzeichen/'.$k->slug)" />
-                @endforeach
-            </div>
-        </section>
-        @endif
-
         <section class="section reveal">
             <h2>Zulassungsstellen in {{ $land->name }}</h2>
             <p class="muted">{{ $land->zulassungsstellen->count() === 1
@@ -45,6 +31,20 @@
                 @endforeach
             </div>
         </section>
+
+        @if($kuerzel->isNotEmpty())
+        <section class="section reveal">
+            <h2>Kennzeichen-Kürzel in {{ $land->name }}</h2>
+            <p class="muted">{{ $kuerzel->count() === 1
+                ? 'Fahrzeuge aus '.$land->name.' tragen das Unterscheidungszeichen:'
+                : 'Fahrzeuge aus '.$land->name.' tragen diese Unterscheidungszeichen:' }}</p>
+            <div class="kzs-liste">
+                @foreach($kuerzel as $k)
+                    <x-kennzeichen-schild :code="$k->code" :href="url('/kennzeichen/'.$k->slug)" />
+                @endforeach
+            </div>
+        </section>
+        @endif
 
         @if($artikel->isNotEmpty())
         <section class="section reveal">
