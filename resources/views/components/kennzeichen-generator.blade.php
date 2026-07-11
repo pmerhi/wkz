@@ -32,7 +32,7 @@
         </style>
     @endonce
     <section class="section reveal" id="generator" data-go="{{ $goBase }}">
-        <h2>Wunschkennzeichen@if($code !== '') {{ $code }}@endif prüfen &amp; reservieren</h2>
+        <h2>Wunschkennzeichen{{ $code !== '' ? ' '.$code : '' }} prüfen &amp; reservieren</h2>
         <p class="lead-intro">Tippe direkt ins Kennzeichen – wir prüfen live, ob deine Kombination möglich ist.</p>
 
         <p class="muted" style="font-weight:700;margin:0 0 8px">Ihre Wunschkombi:</p>

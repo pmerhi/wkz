@@ -27,10 +27,26 @@
 
     {{-- Titel (H1) und Sprungnavigation stehen ausschließlich im Header oben,
          um Dopplungen zu vermeiden. --}}
-    <p class="lead-intro">Die <strong>{{ $stelle->name }}</strong> ist für die Kfz-Zulassung in
-        <strong>{{ $ortLabel }}</strong> zuständig{!! $kuerzelHinweis !!}.
-        Hier findest du heutige Öffnungszeiten, Online-Termin und Kontakt – und kannst dein
-        Wunschkennzeichen direkt reservieren.</p>
+    <style>
+        .intro-with-badges{display:flex;align-items:center;gap:28px;justify-content:space-between}
+        .intro-with-badges .lead-intro{margin:0}
+        .intro-badges{display:flex;align-items:center;gap:16px;flex:0 0 auto}
+        .intro-badges img{height:66px;width:auto;display:block}
+        @media(max-width:640px){
+            .intro-with-badges{flex-direction:column;align-items:flex-start;gap:14px}
+            .intro-badges img{height:52px}
+        }
+    </style>
+    <div class="intro-with-badges">
+        <p class="lead-intro">Die <strong>{{ $stelle->name }}</strong> ist für die Kfz-Zulassung in
+            <strong>{{ $ortLabel }}</strong> zuständig{!! $kuerzelHinweis !!}.
+            Hier findest du heutige Öffnungszeiten, Online-Termin und Kontakt – und kannst dein
+            Wunschkennzeichen direkt reservieren.</p>
+        <div class="intro-badges">
+            <img src="{{ asset('img/ssl.svg') }}" alt="SSL-Zertifikat" width="66" height="66" loading="lazy">
+            <img src="{{ asset('img/din.svg') }}" alt="DIN geprüft" width="66" height="66" loading="lazy">
+        </div>
+    </div>
 
     {{-- Kontakt & Anschrift (ganz oben) --}}
     <section class="section reveal" id="kontakt">

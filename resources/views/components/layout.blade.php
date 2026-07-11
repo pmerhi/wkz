@@ -508,10 +508,12 @@
                 <img class="brand-logo" src="{{ asset('img/logo-wkr.svg') }}" alt="{{ config('portal.site_name') }}" width="366" height="80">
             </a>
         @endif
+        @unless($brand)
         <div class="header-badges">
             <img src="{{ asset('img/ssl.svg') }}" alt="SSL-Zertifikat" width="48" height="48" loading="lazy">
             <img src="{{ asset('img/din.svg') }}" alt="DIN geprüft" width="48" height="48" loading="lazy">
         </div>
+        @endunless
         <div class="header-right">
             <nav class="main{{ count($navLinks) ? ' nav--inpage' : '' }}" id="nav">
                 @if(count($navLinks))
