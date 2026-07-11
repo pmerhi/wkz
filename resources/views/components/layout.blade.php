@@ -27,6 +27,11 @@
     <link rel="canonical" href="{{ $canonical ?? url()->current() }}">
     <meta name="theme-color" content="#055cc5">
 
+    {{-- Favicon (von der Plattform übernommen) --}}
+    <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="any">
+    <link rel="icon" href="{{ asset('img/favicon-wkr.svg') }}" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ asset('img/favicon-wkr.svg') }}">
+
     {{-- Open Graph --}}
     <meta property="og:type" content="{{ $ogType }}">
     <meta property="og:locale" content="de_DE">
