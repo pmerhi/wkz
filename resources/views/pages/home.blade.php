@@ -1,5 +1,7 @@
 <x-layout :title="$title" :description="$description" :canonical="$canonical" :schemas="$schemas">
 
+    <x-kennzeichen-generator />
+
     <section class="hero reveal in">
         <h1>Wunschkennzeichen reservieren – schnell &amp; amtlich</h1>
         <p class="lead">Verfügbarkeit prüfen, Zulassungsstelle mit Öffnungszeiten &amp; Online-Termin

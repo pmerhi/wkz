@@ -11,7 +11,6 @@
         ->unique()->take(8)->values();
     $goBase = url('/go/reservierung').'?'.http_build_query(['c' => 'generator', 'label' => 'generator:'.$code, 'v' => $ab['cta_text'] ?? 'a']);
 @endphp
-@if($code !== '')
     @once
         <link rel="stylesheet" href="{{ asset('css/nt-licenseplate.css') }}">
         <style>
@@ -33,7 +32,7 @@
         </style>
     @endonce
     <section class="section reveal" id="generator" data-go="{{ $goBase }}">
-        <h2>Wunschkennzeichen {{ $code }} prüfen &amp; reservieren</h2>
+        <h2>Wunschkennzeichen@if($code !== '') {{ $code }}@endif prüfen &amp; reservieren</h2>
         <p class="lead-intro">Tippe direkt ins Kennzeichen – wir prüfen live, ob deine Kombination möglich ist.</p>
 
         <p class="muted" style="font-weight:700;margin:0 0 8px">Ihre Wunschkombi:</p>
@@ -70,7 +69,7 @@
         <p class="gen-status js-gen-status" aria-live="polite"></p>
         <div class="box box-info" style="margin-top:8px"><strong>Tipp:</strong> Verwende ein <strong>?</strong> als Platzhalter für einzelne Zeichen.</div>
 
-        @if($kombis->isNotEmpty())
+        @if($code !== '' && $kombis->isNotEmpty())
             <p class="muted" style="margin:16px 0 4px">Beliebte Kombis für {{ $code }} – zum Übernehmen antippen:</p>
             <p>@foreach($kombis as $rest)<a class="badge js-gen-kombi" role="button" data-let="{{ $rest }}">{{ $code }}-{{ $rest }}</a>@endforeach</p>
         @endif
@@ -124,4 +123,3 @@
         check();
     })();
     </script>
-@endif
