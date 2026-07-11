@@ -1099,6 +1099,41 @@ class PageController extends Controller
         ]);
     }
 
+    /** FAQ – 1:1 aus der Alt-Seite übernommen (resources/data/faq.php), nach Kategorie gruppiert. */
+    public function faq()
+    {
+        $faq = require resource_path('data/faq.php');
+        $pairs = [];
+        foreach ($faq as $cat) {
+            foreach ($cat['items'] as $item) {
+                $pairs[] = $item;
+            }
+        }
+
+        return view('pages.faq', [
+            'title'       => 'FAQ – Häufige Fragen — '.config('portal.site_name'),
+            'description' => 'Antworten auf häufige Fragen rund um Wunschkennzeichen, Reservierung, Schilderprägung, Versand und Zulassung.',
+            'canonical'   => url('/faq'),
+            'faq'         => $faq,
+            'schemas'     => [$this->faqPage($pairs)],
+        ]);
+    }
+
+    /** AGB – 1:1 aus der Alt-Seite übernommen (resources/data/agb.html). */
+    public function agb()
+    {
+        $file = resource_path('data/agb.html');
+        $html = is_file($file) ? file_get_contents($file) : null;
+
+        return view('pages.legal', [
+            'title'     => 'AGB & Widerrufsrecht — '.config('portal.site_name'),
+            'robots'    => 'noindex,follow',   // rechtlicher White-Label-Text – zunächst noindex
+            'canonical' => url('/agb'),
+            'heading'   => 'Allgemeine Geschäftsbedingungen',
+            'html'      => $html,
+        ]);
+    }
+
     public function legal(string $page)
     {
         $titel = $page === 'impressum' ? 'Impressum' : 'Datenschutzerklärung';

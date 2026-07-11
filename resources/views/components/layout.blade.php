@@ -350,6 +350,13 @@
         .faq summary::after{content:"+";position:absolute;right:18px;font-weight:400;font-size:1.3rem;color:var(--pri);transition:transform .2s}
         .faq details[open] summary::after{content:"–"}
         .faq details>p{padding:0 18px 16px;margin:0;color:var(--tx)}
+        /* Übernommene FAQ-Antworten (HTML in .faq-answer): großzügiges Padding + Abstände */
+        .faq details .faq-answer{padding:6px 20px 20px;color:var(--tx)}
+        .faq details .faq-answer>:first-child{margin-top:0}
+        .faq details .faq-answer>:last-child{margin-bottom:0}
+        .faq details .faq-answer p{margin:0 0 .8em}
+        .faq details .faq-answer ul,.faq details .faq-answer ol{margin:.3em 0 .9em;padding-left:1.4em}
+        .faq details .faq-answer li{margin:.25em 0}
         /* Aufklappbare Checkliste (Was mitbringen) */
         .faq-item{background:#fff;border:1px solid var(--line);border-radius:12px;margin:0 0 10px;box-shadow:var(--shadow);overflow:hidden}
         .faq-item>summary{cursor:pointer;padding:14px 18px;font-weight:700;color:var(--ink);list-style:none;position:relative}
@@ -582,7 +589,7 @@
                 <p class="muted">Nicht-amtliches Informationsangebot. Die Reservierung erfolgt
                 über die zuständige Zulassungsstelle bzw. die externe Reservierungs-App.
                 Einige Links sind Partner-/Affiliate-Links (als <em>Anzeige</em> gekennzeichnet).</p>
-                <p><a href="{{ url('/ueber-uns') }}">Über uns</a> · <a href="{{ url('/impressum') }}">Impressum</a> · <a href="{{ url('/datenschutz') }}">Datenschutz</a></p>
+                <p><a href="{{ url('/ueber-uns') }}">Über uns</a> · <a href="{{ url('/faq') }}">FAQ</a> · <a href="{{ url('/impressum') }}">Impressum</a> · <a href="{{ url('/datenschutz') }}">Datenschutz</a> · <a href="{{ url('/agb') }}">AGB</a></p>
             </div>
         </div>
     </div>

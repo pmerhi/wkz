@@ -74,3 +74,5 @@ Route::get('/robots.txt', function () {
 
 Route::get('/impressum', [PageController::class, 'legal'])->defaults('page', 'impressum')->name('impressum');
 Route::get('/datenschutz', [PageController::class, 'legal'])->defaults('page', 'datenschutz')->name('datenschutz');
+Route::get('/faq', [PageController::class, 'faq'])->name('faq');
+Route::get('/agb', [PageController::class, 'agb'])->name('agb');
