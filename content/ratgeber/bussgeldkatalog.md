@@ -90,13 +90,13 @@ ein – tippst du während der Fahrt, ist das teuer und gefährlich zugleich.
 
 Auch zu wenig **Abstand** zum Vordermann, das Überfahren einer roten Ampel oder
 fehlende Sicherheitsausstattung schlagen zu Buche. Wer ohne gültige
-[Hauptuntersuchung](/ratgeber/hauptuntersuchung-tuv) fährt oder den
-[Verbandskasten](/ratgeber/verbandskasten-pflicht) vergessen hat, zahlt zwar
+[Hauptuntersuchung](/kfz-ratgeber/hauptuntersuchung-tuev/) fährt oder den
+[Verbandskasten](/kfz-ratgeber/verbandskasten-pflicht/) vergessen hat, zahlt zwar
 weniger, aber ein Verwarngeld ist auch hier drin.
 
 <div class="box box-check"><strong>Das brauchst du bei einer Kontrolle:</strong>
-Führerschein, <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a>,
-gültige <a href="/ratgeber/hauptuntersuchung-tuv">HU-Plakette</a>, Warndreieck, Warnweste und
+Führerschein, <a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung Teil I</a>,
+gültige <a href="/kfz-ratgeber/hauptuntersuchung-tuev/">HU-Plakette</a>, Warndreieck, Warnweste und
 einen vollständigen Verbandskasten. Fehlt etwas davon, droht ein Verwarngeld.</div>
 
 ## Punkte in Flensburg: ab wann wird der Lappen knapp?
@@ -108,9 +108,9 @@ Das System reicht von **1 bis 8 Punkten** – und bei 8 ist Schluss mit der Fahr
 So läuft die Eskalation: Bei **4 bis 5 Punkten** bekommst du eine Ermahnung, bei
 **6 bis 7 Punkten** eine Verwarnung, und bei **8 Punkten** wird dir die Fahrerlaubnis
 entzogen. Spätestens dann führt der Weg oft über eine
-[medizinisch-psychologische Untersuchung](/ratgeber/mpu-vorbereitung) zurück zum
+[medizinisch-psychologische Untersuchung](/kfz-ratgeber/mpu-vorbereitung/) zurück zum
 Führerschein. Wie genau das Punktesystem tickt, habe ich dir im
-[Ratgeber Punkte in Flensburg](/ratgeber/punkte-in-flensburg) im Detail erklärt.
+[Ratgeber Punkte in Flensburg](/kfz-ratgeber/punkte-in-flensburg/) im Detail erklärt.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Punkte verfallen nicht
 gemeinsam, sondern jeder einzeln – je nach Schwere nach 2,5, 5 oder 10 Jahren. Ein
@@ -125,7 +125,7 @@ Formfehler im Spiel sind, kann sich ein zweiter Blick auszahlen.
 
 Ein paar Punkte, die du prüfen solltest: Stimmen die Angaben zu Fahrzeug und
 Tatzeitpunkt? Wurdest du als Fahrer eindeutig erkannt? Und ist die Frist im Bescheid
-korrekt? Eine [Halterabfrage über das Kennzeichen](/ratgeber/halter-ermitteln-kennzeichen)
+korrekt? Eine [Halterabfrage über das Kennzeichen](/kfz-ratgeber/halter-ermitteln-kennzeichen/)
 spielt hier übrigens keine Rolle – entscheidend ist, wer tatsächlich am Steuer saß.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Alle Beträge hier sind
@@ -162,5 +162,5 @@ genau dann lohnt sich ein genauer Blick auf den Bescheid.
 
 Mein Rat aus Erfahrung: Lieber zwei Minuten früher losfahren und entspannt im Tempo
 bleiben, als am Ende über ein Bußgeld zu grübeln. Wenn doch mal Punkte zusammenkommen,
-hilft dir der [Ratgeber Punkte in Flensburg](/ratgeber/punkte-in-flensburg) weiter,
+hilft dir der [Ratgeber Punkte in Flensburg](/kfz-ratgeber/punkte-in-flensburg/) weiter,
 den Überblick zu behalten – und im Ernstfall die richtige Strategie zu wählen.

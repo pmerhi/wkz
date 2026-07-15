@@ -25,7 +25,7 @@ Eine Ummeldung wird aus zwei Gründen fällig:
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Dank der
 Kennzeichenliberalisierung kannst du dein Kennzeichen bei einem Umzug
-<a href="/ratgeber/wunschkennzeichen-mitnehmen">mitnehmen</a> – sogar über
+<a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">mitnehmen</a> – sogar über
 Kreisgrenzen hinweg. Neue Schilder sind dann nicht nötig, was die Ummeldung deutlich
 verbilligt.</div>
 
@@ -33,13 +33,13 @@ verbilligt.</div>
 
 <div class="box box-check"><strong>Checkliste Ummeldung:</strong> Personalausweis
 (mit neuer Adresse beim Umzug), Zulassungsbescheinigung Teil I und II,
-<a href="/ratgeber/evb-nummer">eVB-Nummer</a>, gültige
-<a href="/ratgeber/hauptuntersuchung-tuv">HU</a>, SEPA-Mandat für die Kfz-Steuer und
+<a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a>, gültige
+<a href="/kfz-ratgeber/hauptuntersuchung-tuev/">HU</a>, SEPA-Mandat für die Kfz-Steuer und
 – beim Kauf – der Kaufvertrag samt bisherigen Kennzeichen.</div>
 
 ## Der Ablauf
 
-Vor Ort gehst du zur [Zulassungsstelle](/zulassungsstelle) an deinem (neuen)
+Vor Ort gehst du zur [Zulassungsstelle](/zulassungsstelle/) an deinem (neuen)
 Wohnort:
 
 1. **Unterlagen vorlegen** und angeben, ob du das Kennzeichen behältst.
@@ -48,7 +48,7 @@ Wohnort:
 
 Behältst du dein Kennzeichen, bekommst du nur neue Papiere; nimmst du ein neues, wird
 zusätzlich geprägt. Wenn du magst, kannst du beim Halterwechsel auch gleich ein
-frisches [Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) wählen.
+frisches [Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) wählen.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Beim Umzug zuerst den Wohnsitz beim
 Einwohnermeldeamt ummelden – dann steht die neue Adresse im Ausweis, und du musst
@@ -57,7 +57,7 @@ nur einmal Unterlagen zusammensuchen.</div>
 ## Online ummelden über i-Kfz
 
 Viele Ummeldungen laufen inzwischen komplett digital über die
-[i-Kfz-Zulassung](/ratgeber/i-kfz-online-zulassung) – inklusive Adressänderung und
+[i-Kfz-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/) – inklusive Adressänderung und
 Halterwechsel. Du brauchst dafür deinen Online-Ausweis mit PIN und die
 Sicherheitscodes auf Schein, Brief und Plaketten.
 
@@ -73,28 +73,28 @@ Die Kosten hängen davon ab, ob neue Schilder nötig sind:
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Ummeldung mit
 Kennzeichenmitnahme ca. <strong>20–30 €</strong> (keine Schilder). Mit neuem Kennzeichen kommen
 ca. 20–35 € für Schilder dazu. Die volle Aufstellung steht im Ratgeber zu den
-<a href="/ratgeber/zulassungskosten">Zulassungskosten</a>.</div>
+<a href="/kfz-ratgeber/zulassungskosten/">Zulassungskosten</a>.</div>
 
 ## Sonderfälle: Kreiswechsel, Kauf, Erbe
 
 Je nach Situation gibt es eigene Wege:
 
 - **Mit Kreiswechsel:** Details im Ratgeber
-  <a href="/ratgeber/auto-ummelden-kreiswechsel">Auto ummelden mit Kreiswechsel</a>.
+  <a href="/kfz-ratgeber/auto-ummelden-kreiswechsel/">Auto ummelden mit Kreiswechsel</a>.
 - **Ohne Kreiswechsel** (reine Adressänderung): siehe
-  <a href="/ratgeber/auto-ummelden-ohne-kreiswechsel">Ummelden ohne Kreiswechsel</a>.
+  <a href="/kfz-ratgeber/auto-ummelden-ohne-kreiswechsel/">Ummelden ohne Kreiswechsel</a>.
 - **Geerbtes Fahrzeug:** Hier gilt eine besondere Reihenfolge – siehe
-  <a href="/ratgeber/auto-erben-ummelden">Auto erben und ummelden</a>.
+  <a href="/kfz-ratgeber/auto-erben-ummelden/">Auto erben und ummelden</a>.
 
 Rechtsgrundlage ist die
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 
 ## Mit oder ohne neues Kennzeichen?
 
 Bei der Ummeldung hast du fast immer die Wahl. **Kennzeichen behalten** ist der
 Standard und der günstigste Weg – seit der Reform geht das auch über Kreisgrenzen
 hinweg. **Neues Kennzeichen** wählst du nur, wenn du möchtest – etwa für ein frisches
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) mit den Initialen des
+[Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) mit den Initialen des
 neuen Halters.
 
 Behältst du das Kennzeichen, sparst du dir Schilder und Prägekosten. Beim Halterwechsel
@@ -117,7 +117,7 @@ Wenn du den digitalen Weg gehst, läuft die Adressänderung so:
 
 Beim Halterwechsel kommen die Daten des Vorbesitzers und der Kaufvertrag dazu. Den
 kompletten Online-Ablauf erkläre ich im Ratgeber zur
-<a href="/ratgeber/i-kfz-online-zulassung">i-Kfz-Zulassung</a>.
+<a href="/kfz-ratgeber/i-kfz-online-zulassung/">i-Kfz-Zulassung</a>.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Prüfe vor dem Start, ob die
 Online-Ausweisfunktion deines Personalausweises aktiviert ist – das ist die häufigste
@@ -134,7 +134,7 @@ Steuer und Versicherung sauber zugeordnet sind.
 <div class="box box-info"><strong>Gut zu wissen:</strong> Du kannst die Ummeldung an
 deinem neuen Wohnort erledigen – ein Termin bei der alten Zulassungsstelle ist nicht
 nötig. Welche für dich zuständig ist, findest du im
-<a href="/zulassungsstelle">Zulassungsstellen-Verzeichnis</a>.</div>
+<a href="/zulassungsstelle/">Zulassungsstellen-Verzeichnis</a>.</div>
 
 ## Häufige Fragen
 
@@ -163,4 +163,4 @@ Auto ummelden ist 2026 unkompliziert: Beim Umzug behältst du in aller Regel dei
 Kennzeichen und zahlst nur eine kleine Gebühr, beim Kauf kommt der Halterwechsel
 dazu. Wer mag, erledigt alles online. Wichtig ist nur, die Ummeldung nicht
 aufzuschieben – und falls du ohnehin neu zulässt, ist ein
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) schnell dazugewählt.
+[Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) schnell dazugewählt.

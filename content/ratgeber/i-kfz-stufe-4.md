@@ -48,16 +48,16 @@ verlierst nichts außer ein paar Minuten.</div>
 
 Das ist die Frage, die mir am häufigsten gestellt wird. Die kurze Antwort: fast
 alles, was ein Privatmensch im Alltag braucht. Im Detail erledigst du über
-[i-Kfz](/ratgeber/i-kfz-online-zulassung) inzwischen:
+[i-Kfz](/kfz-ratgeber/i-kfz-online-zulassung/) inzwischen:
 
 - **Neuzulassung** eines fabrikneuen oder gebrauchten Fahrzeugs
-- **Ummeldung** beim Umzug – mit und ohne [Kreiswechsel](/ratgeber/auto-ummelden-kreiswechsel)
-- **Halterwechsel** beim Kauf eines [Gebrauchtwagens](/ratgeber/gebrauchtwagen-zulassen)
-- **Außerbetriebsetzung** (das klassische [Auto abmelden](/ratgeber/auto-abmelden))
+- **Ummeldung** beim Umzug – mit und ohne [Kreiswechsel](/kfz-ratgeber/auto-ummelden-kreiswechsel/)
+- **Halterwechsel** beim Kauf eines [Gebrauchtwagens](/kfz-ratgeber/gebrauchtwagen-zulassen/)
+- **Außerbetriebsetzung** (das klassische [Auto abmelden](/kfz-ratgeber/auto-abmelden/))
 - **Wiederzulassung** eines stillgelegten Fahrzeugs
 
 Und ja: Ein **Wunschkennzeichen** lässt sich dabei direkt mit
-[reservieren](/ratgeber/wunschkennzeichen-reservieren) und zuteilen. Du musst die
+[reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/) und zuteilen. Du musst die
 Kombination also nicht in einem separaten Schritt vorab sichern.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Online-Ausweis
@@ -89,7 +89,7 @@ mit Wunschkennzeichen liegt grob bei <strong>etwa 30–55 €</strong>: rund 13 
 Zuteilung und Wunsch-Reservierung, der Rest für die Bearbeitung. Neue
 <strong>Schilder</strong> (ca. 20–35 €) kommen nur dazu, wenn du das Kennzeichen
 wechselst. Details findest du im Ratgeber zu den
-<a href="/ratgeber/zulassungskosten">Zulassungskosten</a>.</div>
+<a href="/kfz-ratgeber/zulassungskosten/">Zulassungskosten</a>.</div>
 
 ## Die größte Hürde: der Online-Ausweis
 
@@ -119,31 +119,31 @@ Verkäufers. Fehlt nur einer, ist Schluss mit online.
 Mein Tipp aus der Praxis: Kläre beim Kauf direkt, ob die Zulassungsbescheinigung
 die verdeckten Codes noch unversehrt enthält. Wurden sie schon einmal
 freigerubbelt, lässt sich der Vorgang oft nicht mehr digital abwickeln – dann
-führt der Weg über den klassischen [Halterwechsel](/ratgeber/halterwechsel-auto)
+führt der Weg über den klassischen [Halterwechsel](/kfz-ratgeber/halterwechsel-auto/)
 vor Ort.
 
 <div class="box box-frage"><strong>Was, wenn der Verkäufer schon abgemeldet
 hat?</strong> Dann ist das Fahrzeug außer Betrieb gesetzt, und du machst statt
-eines Halterwechsels eine <a href="/ratgeber/wiederzulassung">Wiederzulassung</a> auf deinen
+eines Halterwechsels eine <a href="/kfz-ratgeber/wiederzulassung/">Wiederzulassung</a> auf deinen
 Namen – auch das geht in Stufe 4 online.</div>
 
 ## Wann der Gang zur Behörde trotzdem nötig ist
 
 So gut Stufe 4 ist – sie deckt nicht jeden Fall ab. Für **Firmenfahrzeuge**,
-Fahrzeuge mit roten Kennzeichen, [Oldtimer mit H-Kennzeichen](/ratgeber/h-kennzeichen),
+Fahrzeuge mit roten Kennzeichen, [Oldtimer mit H-Kennzeichen](/kfz-ratgeber/h-kennzeichen/),
 bestimmte Umschreibungen aus dem Ausland oder Fälle mit
-[Zulassungsdienst-Vollmacht](/ratgeber/zulassungsdienst-vollmacht) brauchst du oft
+[Zulassungsdienst-Vollmacht](/kfz-ratgeber/zulassungsdienst-vollmacht/) brauchst du oft
 weiterhin den persönlichen Weg.
 
 Auch wenn dir die Online-Identifikation fehlt – etwa weil du keinen deutschen
 Personalausweis mit eID hast – bleibt nur der Termin bei der zuständigen
-[Zulassungsstelle](/zulassungsstelle). Welche Fälle genau abgedeckt sind, hängt
+[Zulassungsstelle](/zulassungsstelle/). Welche Fälle genau abgedeckt sind, hängt
 außerdem davon ab, wie weit deine Kommune das Portal ausgebaut hat. Die Reform
 gibt den Rahmen vor, die Umsetzung läuft regional unterschiedlich schnell.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die rechtliche Grundlage
 für die internetbasierte Zulassung steckt in der
-<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.
+<a href="https://www.gesetze-im-internet.de/fzv_2023/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.
 Dort ist auch geregelt, welche Nachweise und Codes für den Online-Weg verlangt
 werden.</div>
 
@@ -156,7 +156,7 @@ Post kommen – das ist die zentrale Neuerung gegenüber den früheren Stufen.</
 
 <div class="box box-frage"><strong>Kann ich ein Wunschkennzeichen online
 mitbestellen?</strong> Ja, die Reservierung ist Teil des Prozesses. Wie du die
-<a href="/ratgeber/wunschkennzeichen-reservierung-gultigkeit">Gültigkeit deiner Reservierung</a>
+<a href="/kfz-ratgeber/wunschkennzeichen-reservierung-gueltigkeit/">Gültigkeit deiner Reservierung</a>
 im Blick behältst, steht im passenden Ratgeber.</div>
 
 <div class="box box-frage"><strong>Wie lange dauert die Online-Zulassung?</strong>
@@ -165,7 +165,7 @@ und Plaketten triffst du je nach Behörde nach wenigen Werktagen im Briefkasten.
 
 <div class="box box-frage"><strong>Brauche ich trotzdem geprägte Schilder?</strong>
 Bei einem Kennzeichenwechsel ja – die bestellst du separat. Behältst du dein
-Kennzeichen, etwa beim <a href="/ratgeber/auto-ummelden-ohne-kreiswechsel">Ummelden ohne Kreiswechsel</a>,
+Kennzeichen, etwa beim <a href="/kfz-ratgeber/auto-ummelden-ohne-kreiswechsel/">Ummelden ohne Kreiswechsel</a>,
 fällt dieser Posten weg.</div>
 
 ## Fazit
@@ -177,6 +177,6 @@ Unterschied im Alltag. Die größte Hürde ist nicht die Technik, sondern der
 aktivierte Online-Ausweis – kümmere dich rechtzeitig darum.
 
 Wenn du es konkret angehen willst: Prüf zuerst die
-[Voraussetzungen für i-Kfz](/ratgeber/i-kfz-voraussetzungen) und sieh dir den
-genauen [Ablauf und die Dauer](/ratgeber/i-kfz-ablauf-dauer) an. Dann steht
+[Voraussetzungen für i-Kfz](/kfz-ratgeber/i-kfz-voraussetzungen/) und sieh dir den
+genauen [Ablauf und die Dauer](/kfz-ratgeber/i-kfz-ablauf-dauer/) an. Dann steht
 deinem Auto vom Sofa aus nichts mehr im Weg.

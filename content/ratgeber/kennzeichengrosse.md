@@ -34,7 +34,7 @@ Standardkennzeichen. Die übliche **Nummernschild Größe** für Pkw beträgt
 jedes Fahrzeug passt und das du am Schilderstand standardmäßig bekommst.
 
 Diese Größe ist kein Zufall: Sie bietet genug Platz für das volle
-[Unterscheidungszeichen](/kennzeichen) deiner Stadt, die Erkennungsnummer aus
+[Unterscheidungszeichen](/kennzeichen/) deiner Stadt, die Erkennungsnummer aus
 Buchstaben und Zahlen sowie beide Plaketten. Je nachdem, wie viele Zeichen deine
 Kombination hat, kann das Schild aber auch kürzer ausfallen.
 
@@ -54,12 +54,12 @@ aufgeräumteren Look.
 Voraussetzung ist allerdings, dass deine Kombination kurz genug ist. Mit einem
 knackigen Kürzel wie B-A 1 bekommst du ein deutlich handlicheres Schild als mit
 einer langen Kombination. Wie du an eine besonders kurze Variante kommst, habe
-ich dir im [Ratgeber zum kurzen Kennzeichen](/ratgeber/kurzes-kennzeichen)
+ich dir im [Ratgeber zum kurzen Kennzeichen](/kfz-ratgeber/kurzes-kennzeichen/)
 ausführlich beschrieben.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Willst du ein verkürztes Schild,
 plane das schon bei der Wahl deiner Kombination ein. Beim
-<a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen reservieren</a> lohnt es
+<a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Wunschkennzeichen reservieren</a> lohnt es
 sich, auf wenige Zeichen zu setzen – das spart Platz und sieht oft eleganter aus.</div>
 
 ## Zweizeilige Kennzeichen: für SUV, Geländewagen und Co.
@@ -71,13 +71,13 @@ hier **340 mm Länge und 200 mm Höhe**.
 
 Die Zeichen verteilen sich dann auf zwei Reihen: oben das Unterscheidungszeichen
 mit den Plaketten, unten die Buchstaben und Zahlen. Wenn du einen
-[Anhänger zulassen](/ratgeber/anhanger-zulassen) willst, ist diese Variante oft
+[Anhänger zulassen](/kfz-ratgeber/anhaenger-zulassen/) willst, ist diese Variante oft
 die einzige, die montagetechnisch überhaupt funktioniert.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ein zweizeiliges Schild
 darf nicht einfach gewählt werden, weil es „schöner" aussieht. Maßgeblich ist die
 Bauart deines Fahrzeugs. Im Zweifel entscheidet die
-<a href="/zulassungsstelle">Zulassungsstelle</a> bzw. die Halterung, welche Bauform zulässig
+<a href="/zulassungsstelle/">Zulassungsstelle</a> bzw. die Halterung, welche Bauform zulässig
 ist – die Angaben hier sind eine Orientierung, ohne Gewähr und mit möglichen
 regionalen Unterschieden.</div>
 
@@ -87,10 +87,10 @@ Zweiräder haben ihre eigenen Maße – logisch, denn an ein Motorrad passt kein
 520-mm-Schild. Das **Motorradkennzeichen** misst in der gängigen Variante
 **220 mm in der Breite und 200 mm in der Höhe** und ist damit kompakter und
 quadratischer. Details zur Zulassung findest du im
-[Ratgeber zum Motorradkennzeichen](/ratgeber/motorradkennzeichen).
+[Ratgeber zum Motorradkennzeichen](/kfz-ratgeber/motorradkennzeichen/).
 
 Für Mofas, E-Bikes mit Versicherungspflicht und ähnliche Kleinkrafträder gilt
-nochmal etwas anderes: Das [Versicherungskennzeichen](/ratgeber/versicherungskennzeichen)
+nochmal etwas anderes: Das [Versicherungskennzeichen](/kfz-ratgeber/versicherungskennzeichen/)
 ist deutlich kleiner und folgt eigenen Regeln. Auch hier gilt: Größe und Bauform
 sind genormt, nicht frei wählbar.
 
@@ -111,10 +111,10 @@ Auch der Rand, die sogenannte Bördelkante, und der Abstand der Zeichen
 zueinander sind genormt. Deshalb darfst du an einem amtlichen Schild nichts
 verändern, nichts überkleben und nichts abschneiden. Wer hier basteln will,
 riskiert ein Bußgeld – nachzulesen unter anderem im
-[Bußgeldkatalog](/ratgeber/bussgeldkatalog).
+[Bußgeldkatalog](/kfz-ratgeber/bussgeldkatalog/).
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Auch moderne
-<a href="/ratgeber/3d-kennzeichen">3D-Kennzeichen</a> müssen sich exakt an dieselben Maße
+<a href="/kfz-ratgeber/3d-kennzeichen/">3D-Kennzeichen</a> müssen sich exakt an dieselben Maße
 halten wie flache Schilder. Die erhabene Optik ändert nichts an Länge, Höhe und
 Schriftgröße – sie muss innerhalb der zulässigen Toleranzen bleiben.</div>
 
@@ -131,7 +131,7 @@ zusammengefasst:
 
 Welche Variante an dein Fahrzeug darf, hängt am Ende von der Bauform und der
 vorhandenen Halterung ab. Wenn du dein Fahrzeug ohnehin gerade neu zulässt,
-sprich die Größe direkt beim [Auto anmelden](/ratgeber/auto-anmelden) an – dann
+sprich die Größe direkt beim [Auto anmelden](/kfz-ratgeber/auto-anmelden/) an – dann
 passt das Schild von Anfang an.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Miss vor der Bestellung die
@@ -169,6 +169,6 @@ Kombination.
 
 Mein Tipp: Wenn du Wert auf einen cleanen Look legst, plane die Größe früh ein –
 am besten schon bei der Wahl deiner Kombination. Die genauen rechtlichen Vorgaben
-findest du in der [Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2011/),
+findest du in der [Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2023/),
 und welche Bauform an dein Fahrzeug darf, klärst du im Zweifel beim
-[Auto anmelden](/ratgeber/auto-anmelden) direkt vor Ort.
+[Auto anmelden](/kfz-ratgeber/auto-anmelden/) direkt vor Ort.

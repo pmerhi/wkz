@@ -54,9 +54,9 @@ kurzer Theorie- und Fahrtag ohne Prüfung. Für noch schwerere Gespanne brauchst
 die eigene Klasse <strong>BE</strong> (Anhänger bis 3.500 kg) mit praktischer
 Prüfung.</div>
 
-Wenn du konkret einen [Anhänger zulassen](/ratgeber/anhanger-zulassen) möchtest,
+Wenn du konkret einen [Anhänger zulassen](/kfz-ratgeber/anhaenger-zulassen/) möchtest,
 lohnt vorher der Blick auf die Gewichtsangaben in der
-[Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung) – dort steht, was
+[Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/) – dort steht, was
 dein Gespann tatsächlich wiegen darf.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Bevor du teuer Klasse BE
@@ -74,7 +74,7 @@ Hier sorgt die Abstufung gern für Verwirrung. Vier Klassen bauen aufeinander au
 - **A**: unbegrenzte Leistung, direkt ab 24 Jahren – oder ab 20 mit zwei Jahren
   Vorbesitz von A2.
 
-Wer einen [Motorradführerschein](/ratgeber/motorradfuhrerschein) anstrebt,
+Wer einen [Motorradführerschein](/kfz-ratgeber/motorradfuehrerschein/) anstrebt,
 durchläuft also oft eine Stufenleiter. Das hat einen Vorteil: Mit jeder Stufe
 sammelst du Fahrpraxis, bevor du auf die stärkeren Maschinen darfst.
 
@@ -112,8 +112,8 @@ Klassen wie C oder D können – inklusive Untersuchungen – schnell vierstelli
 werden. Alle Beträge sind Spannen, keine Festpreise.</div>
 
 Eine detailliertere Aufschlüsselung findest du im Ratgeber zu den
-[Führerschein-Kosten](/ratgeber/fuhrerschein-kosten). Und wer mit 17 starten
-möchte, sollte sich das [begleitete Fahren ab 17](/ratgeber/fuhrerschein-ab-17)
+[Führerschein-Kosten](/kfz-ratgeber/fuehrerschein-kosten/). Und wer mit 17 starten
+möchte, sollte sich das [begleitete Fahren ab 17](/kfz-ratgeber/fuehrerschein-ab-17/)
 anschauen – das spart Zeit, nicht unbedingt Geld.
 
 ## Welche Klasse brauche ich für …?
@@ -129,7 +129,7 @@ Ein paar typische Alltagsfragen, die mir immer wieder begegnen:
 
 Welche Buchstabenkürzel sonst noch auf Kennzeichen und Dokumenten auftauchen,
 erkläre ich dir übrigens im Ratgeber zu den
-[Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen).
+[Kennzeichen-Abkürzungen](/kfz-ratgeber/kennzeichen-abkuerzungen/).
 
 <div class="box box-tipp"><strong>Tipp:</strong> Du bist dir unsicher, welche
 Klassen in deinem Führerschein stehen? Schau auf die Rückseite. Dort sind alle
@@ -140,7 +140,7 @@ erteilten Klassen mit Datum und eventuellen Schlüsselzahlen aufgelistet.</div>
 Viele alte Papierführerscheine müssen bis spätestens 2033 in den
 EU-Scheckkartenführerschein umgetauscht werden – gestaffelt nach Geburtsjahr und
 Ausstellungsdatum. Wie das abläuft, liest du im Ratgeber zum
-[Führerschein umtauschen](/ratgeber/fuhrerschein-umtauschen). Den genauen Stand
+[Führerschein umtauschen](/kfz-ratgeber/fuehrerschein-umtauschen/). Den genauen Stand
 und offizielle Hinweise findest du außerdem beim
 [ADAC](https://www.adac.de).
 
@@ -179,5 +179,5 @@ Lkw oder Bus, erfordert eine gezielte Erweiterung.
 Mein Rat: Überleg dir vorher genau, was du wirklich fahren willst, und wähle die
 passende Klasse – statt teuer aufzustocken, was du nie brauchst. Wenn du beim
 Thema Fahrerlaubnis tiefer einsteigen willst, schau in den
-[Ratgeber-Bereich](/ratgeber); dort findest du zu jedem Schritt eine eigene
+[Ratgeber-Bereich](/kfz-ratgeber/); dort findest du zu jedem Schritt eine eigene
 Anleitung.

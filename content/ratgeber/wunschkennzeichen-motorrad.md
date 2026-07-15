@@ -42,19 +42,19 @@ Ziffern werden schnell unübersichtlich oder passen gar nicht mehr sauber.
 <strong>kurz</strong>. Ein Buchstabe plus zwei oder drei Ziffern wirkt auf dem Zweizeiler
 deutlich aufgeräumter – und du läufst nicht Gefahr, dass die Behörde dir das
 gewünschte Format als zu groß abweist. Mehr dazu im Ratgeber zum
-<a href="/ratgeber/kurzes-kennzeichen">kurzen Kennzeichen</a>.</div>
+<a href="/kfz-ratgeber/kurzes-kennzeichen/">kurzen Kennzeichen</a>.</div>
 
 ## So reservierst du dein motorrad wunschkennzeichen
 
 Der Ablauf ist im Kern identisch mit dem beim Auto. Du gehst ins
-Online-Portal deiner [Zulassungsstelle](/zulassungsstelle), wählst dein
+Online-Portal deiner [Zulassungsstelle](/zulassungsstelle/), wählst dein
 Unterscheidungszeichen und tippst deine Wunschkombination ein. Das System sagt
 dir sofort, ob sie noch frei ist.
 
 Wichtig ist nur, dass du beim Fahrzeugtyp **Krad/Motorrad** auswählst, falls das
 Portal danach fragt. So weiß die Stelle, dass du das kleine Zweizeiler-Format
 brauchst. Den genauen Weg habe ich dir im
-[Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren)
+[Ratgeber zum Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 Schritt für Schritt aufgeschrieben – der gilt sinngemäß auch fürs Bike.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis,
@@ -65,7 +65,7 @@ Wunschkombination bringst du als Reservierungsbeleg mit.</div>
 Ob du online oder vor Ort reservierst, ist Geschmackssache. Ich nehme fast
 immer den digitalen Weg, weil ich mir den Gang zur Behörde spare. Die Unterschiede
 habe ich im Ratgeber
-[Wunschkennzeichen online oder vor Ort](/ratgeber/wunschkennzeichen-online-vor-ort)
+[Wunschkennzeichen online oder vor Ort](/kfz-ratgeber/wunschkennzeichen-online-vor-ort/)
 gegenübergestellt.
 
 ## Was kostet das Ganze?
@@ -79,12 +79,12 @@ inkl. Reservierung ca. <strong>13 €</strong>, Zulassungsgebühr ca.
 <strong>30 €</strong>, ein geprägtes Motorradschild oft günstiger als ein
 Auto-Paar, etwa <strong>12–18 €</strong>. Macht für eine Neuanmeldung grob
 <strong>55–60 €</strong>. Alle Details im
-<a href="/ratgeber/wunschkennzeichen-kosten">Kosten-Ratgeber</a>.</div>
+<a href="/kfz-ratgeber/wunschkennzeichen-kosten/">Kosten-Ratgeber</a>.</div>
 
 Ein kleiner Vorteil: Du brauchst nur **ein** Schild statt zwei. Das spart beim
 Prägen gegenüber dem Auto ein paar Euro. Wo du die Schilder am günstigsten
 bekommst und worauf du beim
-[Nummernschild prägen](/ratgeber/nummernschild-pragen) achten solltest, liest du
+[Nummernschild prägen](/kfz-ratgeber/nummernschild-praegen/) achten solltest, liest du
 im eigenen Ratgeber.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die genannten Beträge sind
@@ -108,7 +108,7 @@ Wunschkombination – sie muss nichts mit dem Schild deines Autos zu tun haben.
 Format. Bei sehr kleinen Anhängern ist aber – ähnlich wie beim Motorrad – ein
 verkleinertes Schild möglich. Frag im Zweifel deine Zulassungsstelle, welches
 Format für dein Gespann zulässig ist. Wie du einen
-<a href="/ratgeber/anhanger-zulassen">Anhänger zulässt</a>, erkläre ich
+<a href="/kfz-ratgeber/anhaenger-zulassen/">Anhänger zulässt</a>, erkläre ich
 separat.</div>
 
 Praktisch finde ich, dass du Zug- und Anhängerkennzeichen optisch aufeinander
@@ -121,17 +121,17 @@ Egal ob Motorrad oder Anhänger – die Regeln für **erlaubte** Kombinationen s
 dieselben wie beim Auto. Du kombinierst nach dem Stadtkürzel ein bis zwei
 Buchstaben mit ein bis vier Ziffern. Welche Logik dahintersteckt, zeigt der
 Ratgeber zu den
-[Buchstaben und Zahlen im Wunschkennzeichen](/ratgeber/wunschkennzeichen-buchstaben-zahlen).
+[Buchstaben und Zahlen im Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-buchstaben-zahlen/).
 
 Und ja, es gibt Tabus: Kürzel mit eindeutig
-[verfassungsfeindlichem oder anstößigem Bezug](/ratgeber/verbotene-wunschkennzeichen)
+[verfassungsfeindlichem oder anstößigem Bezug](/kfz-ratgeber/verbotene-wunschkennzeichen/)
 weisen die Behörden ab. Das gilt fürs Bike genauso wie für jedes andere
 Fahrzeug. Die rechtliche Grundlage für die Zuteilung findest du in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 
 <div class="box box-tipp"><strong>Tipp:</strong> Du ziehst um und willst dein
 liebgewonnenes Bike-Kennzeichen behalten? Seit der Reform kannst du es bundesweit
-<a href="/ratgeber/wunschkennzeichen-mitnehmen">mitnehmen</a> – ein neues Schild und die
+<a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">mitnehmen</a> – ein neues Schild und die
 Prägekosten sparst du dir damit.</div>
 
 ## Häufige Fragen
@@ -149,7 +149,7 @@ auf der sicheren Seite.</div>
 <div class="box box-frage"><strong>Braucht der Anhänger eine eigene
 Versicherung?</strong> In der Regel ja, der Anhänger wird eigenständig zugelassen
 und versichert. Die Details klärst du beim Versichern und beim
-<a href="/ratgeber/anhanger-zulassen">Anhänger zulassen</a>.</div>
+<a href="/kfz-ratgeber/anhaenger-zulassen/">Anhänger zulassen</a>.</div>
 
 <div class="box box-frage"><strong>Verfällt die Reservierungsgebühr, wenn ich
 nicht zulasse?</strong> Ja. Reservierst du, lässt das Fahrzeug aber nicht zu, ist
@@ -165,6 +165,6 @@ Gebühren liegen in beiden Fällen auf Auto-Niveau, beim Bike sparst du sogar da
 zweite Schild.
 
 Wenn du so weit bist, geht es direkt weiter: Im
-[Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren)
+[Ratgeber zum Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 zeige ich dir, wie du deine Wunschkombination prüfst und sicherst – egal ob für
 Maschine, Hänger oder Auto.

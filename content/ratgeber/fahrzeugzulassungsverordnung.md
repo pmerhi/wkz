@@ -39,7 +39,7 @@ viele davon sind in die FZV gewandert.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Den vollständigen Verordnungstext
 findest du jederzeit kostenlos in der amtlichen Fassung unter
-<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">gesetze-im-internet.de</a>. Praktisch,
+<a href="https://www.gesetze-im-internet.de/fzv_2023/" rel="nofollow noopener" target="_blank">gesetze-im-internet.de</a>. Praktisch,
 wenn du eine konkrete Regel im Original nachlesen willst.</div>
 
 ## Wofür ist die FZV im Alltag zuständig?
@@ -47,19 +47,19 @@ wenn du eine konkrete Regel im Original nachlesen willst.</div>
 Klingt abstrakt? Wird gleich greifbar. Die FZV regelt unter anderem:
 
 - **Die Zulassungspflicht** – welche Fahrzeuge überhaupt zugelassen werden müssen
-- **Den Zulassungsvorgang** – also das, was du beim [Auto anmelden](/ratgeber/auto-anmelden) erlebst
+- **Den Zulassungsvorgang** – also das, was du beim [Auto anmelden](/kfz-ratgeber/auto-anmelden/) erlebst
 - **Die Kennzeichen** – Format, Größe, Buchstaben, Plaketten
 - **Die Zulassungsbescheinigung** Teil I und II (früher Schein und Brief)
 - **Die Betriebsuntersagung** – wenn ein Fahrzeug stillgelegt wird
 - **Sonderkennzeichen** wie rote, grüne oder Kurzzeitkennzeichen
 
 Praktisch jeder Behördengang rund ums Fahrzeug hat seine Wurzel in dieser
-Verordnung. Wenn dir die Sachbearbeiterin die [Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung)
+Verordnung. Wenn dir die Sachbearbeiterin die [Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/)
 abverlangt, tut sie das, weil die FZV es so vorschreibt – nicht aus Schikane.
 
 <div class="box box-check"><strong>Das brauchst du laut FZV für eine Zulassung:</strong>
 Personalausweis, Zulassungsbescheinigung Teil I und II, eine gültige
-<a href="/ratgeber/evb-nummer">eVB-Nummer</a> der Versicherung, den Nachweis der
+<a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> der Versicherung, den Nachweis der
 Hauptuntersuchung sowie – bei Halterwechsel – einen Kaufvertrag oder eine
 Vollmacht.</div>
 
@@ -70,9 +70,9 @@ Kennzeichen. Die FZV unterscheidet ziemlich klar.
 
 **Zulassungspflichtig** sind grundsätzlich alle Kraftfahrzeuge mit mehr als 6
 km/h bauartbedingter Höchstgeschwindigkeit und ihre Anhänger – also dein Pkw, das
-Motorrad, der [Anhänger](/ratgeber/anhanger-zulassen). **Zulassungsfrei**, aber
+Motorrad, der [Anhänger](/kfz-ratgeber/anhaenger-zulassen/). **Zulassungsfrei**, aber
 teils versicherungspflichtig, sind dagegen etwa Mofas oder kleine
-Leichtfahrzeuge, die ein [Versicherungskennzeichen](/ratgeber/versicherungskennzeichen)
+Leichtfahrzeuge, die ein [Versicherungskennzeichen](/kfz-ratgeber/versicherungskennzeichen/)
 tragen.
 
 Mein Rat aus der Praxis: Geh nie davon aus, dass „das schon irgendwie passt". Ob
@@ -82,26 +82,26 @@ Zulassungsstelle.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Wer ein
 zulassungspflichtiges Fahrzeug ohne gültige Zulassung im öffentlichen Verkehr
 bewegt, riskiert ein Bußgeld und den Verlust des Versicherungsschutzes. Wie heikel
-das wird, habe ich dir im Ratgeber zum <a href="/ratgeber/fahren-ohne-zulassung">Fahren ohne Zulassung</a>
+das wird, habe ich dir im Ratgeber zum <a href="/kfz-ratgeber/fahren-ohne-zulassung/">Fahren ohne Zulassung</a>
 aufgeschrieben.</div>
 
 ## Kennzeichen und FZV – mehr Spielraum, als du denkst
 
 Ein Teil, den ich besonders mag: Die FZV regelt auch, wie Kennzeichen aussehen
 dürfen. Genau hier liegt der rechtliche Grund dafür, dass du dir überhaupt ein
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) aussuchen darfst.
+[Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) aussuchen darfst.
 
 Die Verordnung legt fest, welche Buchstaben- und Zahlenkombinationen erlaubt sind,
 wie viele Zeichen ein Kennzeichen haben darf und welche Plaketten draufgehören.
 Sie ist auch der Grund, warum bestimmte
-[verbotene Kombinationen](/ratgeber/verbotene-wunschkennzeichen) tabu sind. Sogar
-die wieder eingeführten [Altkennzeichen](/ratgeber/altkennzeichen) und die
+[verbotene Kombinationen](/kfz-ratgeber/verbotene-wunschkennzeichen/) tabu sind. Sogar
+die wieder eingeführten [Altkennzeichen](/kfz-ratgeber/altkennzeichen/) und die
 bundesweite Kennzeichenmitnahme beim Umzug haben ihre Basis in FZV-Reformen.
 
 <div class="box box-frage"><strong>Darf ich mein Kennzeichen bei einem Umzug
 behalten?</strong> Ja. Seit einer FZV-Reform darfst du dein Kennzeichen
 bundesweit mitnehmen – auch über Kreisgrenzen hinweg. Details findest du im
-Ratgeber <a href="/ratgeber/auto-ummelden-kreiswechsel">Auto ummelden mit Kreiswechsel</a>.</div>
+Ratgeber <a href="/kfz-ratgeber/auto-ummelden-kreiswechsel/">Auto ummelden mit Kreiswechsel</a>.</div>
 
 ## Die Digitalisierung: i-Kfz steckt auch in der FZV
 
@@ -110,8 +110,8 @@ sich geändert – und auch das ist FZV-Sache. Die internetbasierte
 Fahrzeugzulassung, kurz **i-Kfz**, ist rechtlich in der Verordnung verankert.
 
 Dadurch kannst du heute viele Vorgänge komplett online erledigen, von der
-[Online-Zulassung](/ratgeber/i-kfz-online-zulassung) bis zur
-[Wiederzulassung](/ratgeber/wiederzulassung). Die FZV beschreibt dabei, welche
+[Online-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/) bis zur
+[Wiederzulassung](/kfz-ratgeber/wiederzulassung/). Die FZV beschreibt dabei, welche
 Sicherheitsmerkmale gelten und welche Codes du auf deinen Dokumenten und
 Plaketten brauchst.
 
@@ -143,11 +143,11 @@ schon viel leichter einordnen und weißt sofort, wo du nachschlagen müsstest.</
 Mit der Zulassung ist es nicht getan – die FZV macht dich als Halter dauerhaft
 verantwortlich. Du musst zum Beispiel Änderungen melden: einen Umzug, einen
 neuen Namen nach Heirat oder den Verkauf. Bei einem Verkauf solltest du das
-Fahrzeug korrekt [abmelden bzw. den Halterwechsel](/ratgeber/auto-verkaufen-abmelden)
+Fahrzeug korrekt [abmelden bzw. den Halterwechsel](/kfz-ratgeber/auto-verkaufen-abmelden/)
 dokumentieren, sonst haftest du womöglich für Dinge, mit denen du längst nichts
 mehr zu tun hast.
 
-Auch das ordnungsgemäße [Stilllegen](/ratgeber/auto-stilllegen) eines Fahrzeugs,
+Auch das ordnungsgemäße [Stilllegen](/kfz-ratgeber/auto-stilllegen/) eines Fahrzeugs,
 das du nicht mehr nutzt, ist eine FZV-Pflicht. Der rote Faden: Die Behörde will
 jederzeit wissen, wer für welches Fahrzeug verantwortlich ist.
 
@@ -165,13 +165,13 @@ Sie ist genauso verbindlich wie ein Gesetz.</div>
 
 <div class="box box-frage"><strong>Wo finde ich den aktuellen FZV-Text?</strong>
 In der amtlichen Online-Sammlung unter
-<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">gesetze-im-internet.de</a>. Dort ist
+<a href="https://www.gesetze-im-internet.de/fzv_2023/" rel="nofollow noopener" target="_blank">gesetze-im-internet.de</a>. Dort ist
 immer die aktuell gültige Fassung hinterlegt.</div>
 
 <div class="box box-frage"><strong>Regelt die FZV auch mein
 Wunschkennzeichen?</strong> Ja. Die Vorgaben zu Format, erlaubten Zeichen und
 Reservierung wurzeln im Zulassungsrecht der FZV. Den praktischen Ablauf erkläre
-ich dir unter <a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen reservieren</a>.</div>
+ich dir unter <a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Wunschkennzeichen reservieren</a>.</div>
 
 <div class="box box-frage"><strong>Brauche ich für jedes Fahrzeug eine
 Zulassung?</strong> Nein. Manche langsamen oder kleinen Fahrzeuge sind
@@ -195,5 +195,5 @@ und Gebühren können sich ändern und regional abweichen – alle Angaben daher
 Gewähr.</div>
 
 Wenn du jetzt konkret loslegen willst, ist der
-[Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden) dein nächster Schritt – dort
+[Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/) dein nächster Schritt – dort
 setze ich die FZV-Theorie in einen praktischen Ablauf um.

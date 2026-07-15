@@ -47,7 +47,7 @@ ohne Gewähr.</div>
 Wenn du dein Auto verschrotten lässt, stellt dir der anerkannte Betrieb den
 **Verwertungsnachweis** aus. Das ist die offizielle Bestätigung, dass dein Fahrzeug
 umweltgerecht verwertet wurde. Genau dieses Dokument brauchst du anschließend, um den
-Wagen endgültig [abzumelden](/ratgeber/auto-abmelden).
+Wagen endgültig [abzumelden](/kfz-ratgeber/auto-abmelden/).
 
 Auf dem Nachweis stehen unter anderem die Fahrzeug-Identifizierungsnummer, das
 amtliche Kennzeichen, deine Daten als Halter und die Bestätigung des Betriebs. Bewahr
@@ -68,14 +68,14 @@ habe:
    fährt.
 2. **Fahrzeug übergeben** inklusive Papiere und Schilder. Du bekommst den
    Verwertungsnachweis – manchmal sofort, manchmal per Post.
-3. **Fahrzeug abmelden.** Mit dem Nachweis gehst du zur [Zulassungsstelle](/zulassungsstelle)
-   oder erledigst die [Außerbetriebsetzung online](/ratgeber/i-kfz-online-zulassung).
+3. **Fahrzeug abmelden.** Mit dem Nachweis gehst du zur [Zulassungsstelle](/zulassungsstelle/)
+   oder erledigst die [Außerbetriebsetzung online](/kfz-ratgeber/i-kfz-online-zulassung/).
 4. **Versicherung informieren.** Die Kfz-Versicherung kündigt sich nicht von selbst –
    melde die Abmeldung, damit du zu viel gezahlte Beiträge zurückbekommst.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Lass dir die Kennzeichen vom Betrieb
 nicht einfach „mitnehmen", bevor klar ist, was mit der Abmeldung passiert. Idealerweise
-werden die Schilder vor deinen Augen <a href="/ratgeber/kennzeichen-entstempeln">entstempelt</a> –
+werden die Schilder vor deinen Augen <a href="/kfz-ratgeber/kennzeichen-entstempeln/">entstempelt</a> –
 das ist der Beweis, dass das Kennzeichen aus dem Verkehr ist.</div>
 
 ## Was kostet es, ein Auto zu verschrotten?
@@ -102,7 +102,7 @@ gefragtes Modell, ein intakter Motor oder seltene Ersatzteile können einen Verk
 attraktiver machen.
 
 Wenn du verkaufst statt verschrottest, gelten andere Regeln – dann zählt vor allem die
-saubere [Abmeldung beim Verkauf](/ratgeber/auto-verkaufen-abmelden) und ein wasserdichter
+saubere [Abmeldung beim Verkauf](/kfz-ratgeber/auto-verkaufen-abmelden/) und ein wasserdichter
 Kaufvertrag. Lohnt sich die Reparatur nicht und findet sich kein Käufer, ist die
 Verschrottung die ehrlichste und sicherste Lösung.
 
@@ -120,7 +120,7 @@ Verwertungsnachweis.</div>
 
 <div class="box box-frage"><strong>Kann ich das Auto verschrotten, wenn der
 Fahrzeugbrief fehlt?</strong> Oft ja, aber es wird aufwendiger. Ist der
-<a href="/ratgeber/fahrzeugbrief-verloren">Fahrzeugbrief verloren</a>, solltest du das vorher mit
+<a href="/kfz-ratgeber/fahrzeugbrief-verloren/">Fahrzeugbrief verloren</a>, solltest du das vorher mit
 Betrieb und Zulassungsstelle klären – teils ist eine eidesstattliche Versicherung nötig.</div>
 
 <div class="box box-frage"><strong>Muss ich das Auto erst abmelden oder erst
@@ -128,7 +128,7 @@ verschrotten?</strong> In der Regel zuerst verschrotten lassen: Du brauchst den
 Verwertungsnachweis, um die Abmeldung als Außerbetriebsetzung sauber durchzuführen.</div>
 
 <div class="box box-frage"><strong>Kann ich die Abmeldung online machen?</strong>
-Ja, die <a href="/ratgeber/i-kfz-online-zulassung">Außerbetriebsetzung über i-Kfz</a> ist
+Ja, die <a href="/kfz-ratgeber/i-kfz-online-zulassung/">Außerbetriebsetzung über i-Kfz</a> ist
 bundesweit möglich, wenn die Voraussetzungen erfüllt sind und die Schilder die nötigen
 Sicherheitscodes haben.</div>
 
@@ -145,5 +145,5 @@ Reihenfolge einhält, ist innerhalb eines Tages das alte Auto los – ohne böse
 Überraschungen. Mehr Hintergrund zu Fahrzeugbeständen und Verwertung findest du beim
 [Kraftfahrt-Bundesamt](https://www.kba.de) und beim [ADAC](https://www.adac.de).
 
-Wenn als Nächstes ein neues Auto ansteht, hilft dir der [Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden)
+Wenn als Nächstes ein neues Auto ansteht, hilft dir der [Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/)
 beim Start mit dem nächsten Fahrzeug.

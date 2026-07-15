@@ -36,8 +36,8 @@ Stellen auch andere Nachweise. Frag im Zweifel vorher kurz nach.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Erbnachweis
 (Erbschein oder eröffnetes Testament), Personalausweis, Zulassungsbescheinigung
-Teil I und II (<a href="/ratgeber/zulassungsbescheinigung">Fahrzeugschein und -brief</a>),
-die Sterbeurkunde und – falls vorhanden – die <a href="/ratgeber/evb-nummer">eVB-Nummer</a>
+Teil I und II (<a href="/kfz-ratgeber/zulassungsbescheinigung/">Fahrzeugschein und -brief</a>),
+die Sterbeurkunde und – falls vorhanden – die <a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a>
 deiner Versicherung.</div>
 
 Und ja, das Auto darf in dieser Übergangszeit grundsätzlich weiter gefahren
@@ -48,24 +48,24 @@ Versicherer, wie es weitergeht.
 ## Variante 1: Fahrzeug aus dem Erbe ummelden (Halterwechsel)
 
 Willst du den Wagen behalten oder innerhalb der Familie weiterfahren, läuft das
-über einen **Halterwechsel** – im Grunde wie eine normale [Ummeldung](/ratgeber/auto-ummelden).
+über einen **Halterwechsel** – im Grunde wie eine normale [Ummeldung](/kfz-ratgeber/auto-ummelden/).
 Du wirst neuer Halter, das Fahrzeug bleibt zugelassen.
 
 Ob du auch ein neues Kennzeichen brauchst, hängt vom Wohnort ab. Bleibst du im
 selben Zulassungsbezirk, kannst du das alte Kennzeichen oft behalten. Ziehst du in
 einen anderen Kreis, ist der Ablauf etwas anders – das habe ich im
-[Ratgeber zum Kreiswechsel](/ratgeber/auto-ummelden-kreiswechsel) beschrieben.
+[Ratgeber zum Kreiswechsel](/kfz-ratgeber/auto-ummelden-kreiswechsel/) beschrieben.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Geht es nur um den
 Halterwechsel auf dich, prüf vorab, ob deine Zulassungsstelle das über
-<a href="/ratgeber/i-kfz-online-zulassung">i-Kfz online</a> anbietet. Bei Erbfällen
+<a href="/kfz-ratgeber/i-kfz-online-zulassung/">i-Kfz online</a> anbietet. Bei Erbfällen
 verlangen viele Behörden allerdings noch den persönlichen Termin, weil der
 Erbnachweis im Original geprüft wird.</div>
 
 Der Klassiker bleibt also der Gang zur Behörde mit allen Papieren. Wie ein
 Halterwechsel grundsätzlich abläuft, findest du im
-[Ratgeber Halterwechsel](/ratgeber/halterwechsel-auto). Ziehst du ohne Kreiswechsel
-um, geht es sogar [ohne neue Schilder](/ratgeber/auto-ummelden-ohne-kreiswechsel).
+[Ratgeber Halterwechsel](/kfz-ratgeber/halterwechsel-auto/). Ziehst du ohne Kreiswechsel
+um, geht es sogar [ohne neue Schilder](/kfz-ratgeber/auto-ummelden-ohne-kreiswechsel/).
 
 ## Variante 2: Abmelden und erst mal stilllegen
 
@@ -73,10 +73,10 @@ Vielleicht willst du noch gar nicht entscheiden – oder der Wagen soll erst nac
 einer Erbauseinandersetzung verteilt werden. Dann ist das **Abmelden** der
 ruhigere Weg.
 
-Mit der [Außerbetriebsetzung](/ratgeber/auto-stilllegen) stoppst du Steuer und
+Mit der [Außerbetriebsetzung](/kfz-ratgeber/auto-stilllegen/) stoppst du Steuer und
 Versicherungsbeitrag. Das Fahrzeug darf dann nicht mehr im öffentlichen Raum
 stehen oder fahren, aber du gewinnst Zeit für die Entscheidung. Später lässt es
-sich problemlos [wieder zulassen](/ratgeber/wiederzulassung).
+sich problemlos [wieder zulassen](/kfz-ratgeber/wiederzulassung/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Auch fürs Abmelden brauchst
 du den Erbnachweis – die Behörde gibt einem Fremden das Fahrzeug nicht aus dem
@@ -93,7 +93,7 @@ sein, dann kannst du verkaufen.
 Praktisch heißt das: Entweder du wirst zuerst als Halter eingetragen und
 verkaufst dann normal, oder ihr verkauft direkt aus der Erbengemeinschaft heraus –
 dann unterschreiben idealerweise alle Erben den Kaufvertrag. Den Ablauf rund um
-[Verkauf und Abmeldung](/ratgeber/auto-verkaufen-abmelden) habe ich separat
+[Verkauf und Abmeldung](/kfz-ratgeber/auto-verkaufen-abmelden/) habe ich separat
 aufgeschrieben.
 
 <div class="box box-frage"><strong>Muss ich das geerbte Auto vor dem Verkauf
@@ -130,7 +130,7 @@ Erbfall weitergilt. Kläre den Halterübergang aber zügig mit dem Versicherer.<
 <div class="box box-frage"><strong>Was passiert mit der Kfz-Versicherung?</strong>
 Sie geht auf dich als Erben über und läuft zunächst weiter. Du kannst sie nach dem
 Halterwechsel anpassen oder kündigen – vergleich am besten die
-<a href="/ratgeber/kfz-versicherung-vergleich">Kfz-Versicherung</a>, bevor du dich festlegst.</div>
+<a href="/kfz-ratgeber/kfz-versicherung-vergleich/">Kfz-Versicherung</a>, bevor du dich festlegst.</div>
 
 <div class="box box-frage"><strong>Mehrere Erben – wer entscheidet?</strong> Bei
 einer Erbengemeinschaft müssen alle gemeinsam handeln. Praktisch löst man das mit
@@ -141,13 +141,13 @@ schriftlich zu.</div>
 Nicht immer. Ein eröffnetes notarielles Testament reicht der Zulassungsstelle oft
 aus. Den Erbschein brauchst du eher, wenn kein Testament existiert. Verbindlich
 ist die Auskunft deiner Behörde – die Regeln zur Zulassung stehen in der
-<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.</div>
+<a href="https://www.gesetze-im-internet.de/fzv_2023/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.</div>
 
 ## Fazit
 
 Ein geerbtes Auto wirkt anfangs wie ein Berg Bürokratie, ist aber gut machbar,
 sobald der **Erbnachweis** steht. Dann hast du drei klare Wege: behalten und
-[ummelden](/ratgeber/auto-ummelden), erst mal [abmelden](/ratgeber/auto-stilllegen)
+[ummelden](/kfz-ratgeber/auto-ummelden/), erst mal [abmelden](/kfz-ratgeber/auto-stilllegen/)
 oder verkaufen. Welcher passt, hängt davon ab, ob du das Fahrzeug brauchst und ob
 mehrere Erben mitreden.
 
@@ -155,4 +155,4 @@ Mein Rat aus eigener Erfahrung: Kümmere dich früh, sammle die Papiere vollstä
 und kläre Versicherung und Steuer parallel. Dann wird aus „Auto geerbt – was tun?"
 ganz schnell eine erledigte Sache. Weitere Hilfe rund ums Thema findest du
 beim [ADAC](https://www.adac.de) und in unseren weiteren
-[Ratgebern](/ratgeber).
+[Ratgebern](/kfz-ratgeber/).

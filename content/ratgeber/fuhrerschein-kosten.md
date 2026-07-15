@@ -127,15 +127,15 @@ Ein paar Hebel, mit denen du die Kosten spürbar drückst:
    Theorie beim ersten Mal und spart die teure Wiederholung.
 3. **Regelmäßig fahren:** Kontinuität verhindert teure Auffrischungsstunden.
 4. **Nicht am falschen Ende sparen:** Lieber eine Stunde mehr als ein
-   Durchfaller. Beim [MPU-Thema](/ratgeber/mpu-kosten) gilt übrigens dasselbe
+   Durchfaller. Beim [MPU-Thema](/kfz-ratgeber/mpu-kosten/) gilt übrigens dasselbe
    Prinzip – Vorbereitung zahlt sich aus.
 
 Und wenn der Lappen endlich da ist, geht es ums eigene Auto: Vom
-[Fahrzeug anmelden](/ratgeber/auto-anmelden) über die
-[Zulassungskosten](/ratgeber/zulassungskosten) bis zum
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-kosten) habe ich dir die
+[Fahrzeug anmelden](/kfz-ratgeber/auto-anmelden/) über die
+[Zulassungskosten](/kfz-ratgeber/zulassungskosten/) bis zum
+[Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-kosten/) habe ich dir die
 nächsten Schritte ausführlich aufgeschrieben. Auch der
-[Kfz-Versicherungsvergleich](/ratgeber/kfz-versicherung-vergleich) gehört für
+[Kfz-Versicherungsvergleich](/kfz-ratgeber/kfz-versicherung-vergleich/) gehört für
 Fahranfänger ganz oben auf die Liste.
 
 ## Häufige Fragen zu den Führerschein Kosten
@@ -170,4 +170,4 @@ spart**, kommt am Ende mit der kleineren Rechnung davon.
 
 Plane lieber etwas großzügiger und freu dich, wenn es günstiger wird. Und wenn du
 den Lappen erst einmal hast, wartet schon das nächste Abenteuer: dein eigenes
-Auto und das passende [Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren).
+Auto und das passende [Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/).

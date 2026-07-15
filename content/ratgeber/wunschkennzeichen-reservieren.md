@@ -17,7 +17,7 @@ verzetteln kannst – genau die nehmen wir uns hier vor.
 
 ## Was ein Wunschkennzeichen überhaupt ist
 
-Jedes deutsche Kennzeichen besteht aus dem [Unterscheidungszeichen](/kennzeichen)
+Jedes deutsche Kennzeichen besteht aus dem [Unterscheidungszeichen](/kennzeichen/)
 deines Zulassungsbezirks (etwa „M" für München) und einer frei wählbaren
 Erkennungsnummer aus Buchstaben und Zahlen. Genau diese Erkennungsnummer machst du
 beim Wunschkennzeichen zu *deiner* – Initialen, Geburtsdatum, ein Glücksbuchstabe,
@@ -26,14 +26,14 @@ was immer du möchtest.
 <div class="box box-info"><strong>Gut zu wissen:</strong> Das Unterscheidungszeichen
 selbst kannst du dir nicht aussuchen – es ergibt sich aus deinem Zulassungsbezirk.
 Frei wählbar ist alles dahinter. Was die Kürzel bedeuten, liest du im Ratgeber zu
-den <a href="/ratgeber/kennzeichen-abkurzungen">Kennzeichen-Abkürzungen</a>.</div>
+den <a href="/kfz-ratgeber/kennzeichen-abkuerzungen/">Kennzeichen-Abkürzungen</a>.</div>
 
 ## Schritt für Schritt: so reservierst du online
 
 Der schnellste Weg führt über das Portal deiner Zulassungsstelle:
 
 1. **Zulassungsbezirk wählen:** Du startest auf der Seite deiner zuständigen
-   [Zulassungsstelle](/zulassungsstelle) und wählst dein Unterscheidungszeichen.
+   [Zulassungsstelle](/zulassungsstelle/) und wählst dein Unterscheidungszeichen.
 2. **Kombination eingeben:** Deine Wunschbuchstaben und -zahlen eintippen.
 3. **Verfügbarkeit prüfen:** Das System zeigt dir sofort „frei" oder „vergeben".
 4. **Reservieren und zahlen:** Ist die Kombination frei, sicherst du sie und
@@ -45,7 +45,7 @@ Der schnellste Weg führt über das Portal deiner Zulassungsstelle:
 Alternativkombinationen zurecht. Beliebte Varianten wie Initialen plus Geburtsjahr
 sind oft vergeben – mit Plan B bist du in Sekunden durch. Ob sich der Online-Weg
 für dich lohnt, vergleiche ich im Detail im Ratgeber
-<a href="/ratgeber/wunschkennzeichen-online-vor-ort">online oder vor Ort
+<a href="/kfz-ratgeber/wunschkennzeichen-online-vor-ort/">online oder vor Ort
 reservieren</a>.</div>
 
 ## Was kostet die Reservierung?
@@ -57,7 +57,7 @@ Du landest also meist bei **rund 10 bis 13 €** für den „Wunsch"-Teil.
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Reservierung ca. 10–13 €.
 Dazu kommen – wie bei jeder Zulassung – die Schilder (ca. 20–35 €) und die
 Anmeldegebühr. Die komplette Aufschlüsselung findest du im Ratgeber zu den
-<a href="/ratgeber/wunschkennzeichen-kosten">Wunschkennzeichen-Kosten</a>.</div>
+<a href="/kfz-ratgeber/wunschkennzeichen-kosten/">Wunschkennzeichen-Kosten</a>.</div>
 
 ## Wie lange ist die Reservierung gültig?
 
@@ -68,7 +68,7 @@ und in der Regel auch die Gebühr.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Reservierung und Zulassung
 sind zwei Schritte. Die Reservierung sichert nur die Kombination, sie meldet dein
 Auto noch nicht an. Alles zu Fristen und Verlängerung steht im Ratgeber zur
-<a href="/ratgeber/wunschkennzeichen-reservierung-gultigkeit">Gültigkeit der
+<a href="/kfz-ratgeber/wunschkennzeichen-reservierung-gueltigkeit/">Gültigkeit der
 Reservierung</a>. Beträge sind Richtwerte und können regional abweichen.</div>
 
 ## Von der Reservierung zur Zulassung
@@ -77,8 +77,8 @@ Mit dem Reservierungscode in der Hand meldest du dein Fahrzeug an. Das geht auf
 zwei Wegen:
 
 - **Vor Ort** bei der Zulassungsstelle – du legst den Code vor, alle Unterlagen
-  dazu stehen im Ratgeber zum [Auto anmelden](/ratgeber/auto-anmelden).
-- **Komplett online** über die [i-Kfz-Zulassung](/ratgeber/i-kfz-online-zulassung) –
+  dazu stehen im Ratgeber zum [Auto anmelden](/kfz-ratgeber/auto-anmelden/).
+- **Komplett online** über die [i-Kfz-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/) –
   dann laufen Reservierung und Anmeldung oft im selben Vorgang zusammen, und du
   sparst dir jede Frist-Sorge.
 
@@ -97,7 +97,7 @@ dir mehr Spielraum.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Lust auf ein Kürzel mit
 Heimatbezug? Viele alte Codes sind zurückgekehrt – stöbere in der
-<a href="/altkennzeichen">Altkennzeichen-Liste</a>, dort findest du wieder erhältliche
+<a href="/altkennzeichen/">Altkennzeichen-Liste</a>, dort findest du wieder erhältliche
 Unterscheidungszeichen für ein Wunschkennzeichen mit Geschichte.</div>
 
 ## Inspiration: was Leute am häufigsten wählen
@@ -109,13 +109,13 @@ kurze, gut merkbare Varianten – die sind allerdings schneller vergeben.
 
 Genau deshalb lohnt sich der Echtzeit-Check im Portal: Du tippst eine Idee ein und
 siehst sofort, ob sie noch frei ist. Hast du Lust auf etwas mit regionalem Charakter,
-wirf einen Blick auf die [Altkennzeichen](/altkennzeichen) – manche zurückgekehrten
+wirf einen Blick auf die [Altkennzeichen](/altkennzeichen/) – manche zurückgekehrten
 Kürzel sind kleine Hingucker und erzählen eine Geschichte.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Ein Wunschkennzeichen ist
 an dich als Halter und an dein Fahrzeug gebunden. Verkaufst du das Auto, kannst du
 die Kombination aber abmelden und auf ein neues Fahrzeug
-<a href="/ratgeber/wunschkennzeichen-mitnehmen">übertragen</a> – dein Wunsch wandert
+<a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">übertragen</a> – dein Wunsch wandert
 also mit.</div>
 
 ## Reservieren fürs zweite Auto oder als Geschenk
@@ -124,7 +124,7 @@ Du kannst ein Wunschkennzeichen auch reservieren, bevor das Fahrzeug überhaupt 
 ist – praktisch beim Neuwagen mit Lieferzeit. Achte dann nur auf die Frist, damit
 die Reservierung nicht abläuft, bevor du zulassen kannst. Alle Details dazu stehen
 im Ratgeber zur
-<a href="/ratgeber/wunschkennzeichen-reservierung-gultigkeit">Gültigkeit der
+<a href="/kfz-ratgeber/wunschkennzeichen-reservierung-gueltigkeit/">Gültigkeit der
 Reservierung</a>.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Reserviere möglichst erst,
@@ -140,12 +140,12 @@ und legst den Code am Schalter vor.</div>
 
 <div class="box box-frage"><strong>Geht das auch fürs Motorrad oder den
 Anhänger?</strong> Ja. Auch dafür kannst du ein
-<a href="/ratgeber/wunschkennzeichen-motorrad">Wunschkennzeichen reservieren</a> –
+<a href="/kfz-ratgeber/wunschkennzeichen-motorrad/">Wunschkennzeichen reservieren</a> –
 die Schilder sind nur kleiner.</div>
 
 <div class="box box-frage"><strong>Nehme ich mein Wunschkennzeichen bei einem Umzug
 mit?</strong> In der Regel ja. Seit der Kennzeichenliberalisierung darfst du es
-<a href="/ratgeber/wunschkennzeichen-mitnehmen">behalten</a>, auch über Kreisgrenzen
+<a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">behalten</a>, auch über Kreisgrenzen
 hinweg.</div>
 
 ## Fazit
@@ -155,4 +155,4 @@ prüfen, sichern, Code merken – fertig. Online geht das in wenigen Minuten und
 um die Uhr. Achte nur darauf, die Reservierung passend zum Zulassungstermin zu
 setzen, dann bringst du deinen Wunsch entspannt aufs Auto. Wie viel das insgesamt
 kostet, rechne ich dir im Ratgeber zu den
-[Wunschkennzeichen-Kosten](/ratgeber/wunschkennzeichen-kosten) vor.
+[Wunschkennzeichen-Kosten](/kfz-ratgeber/wunschkennzeichen-kosten/) vor.

@@ -40,18 +40,18 @@ für den Zeitraum bis zur Ausfuhr** – und das auch über Grenzen hinweg.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ein gewöhnliches deutsches
 Kennzeichen reicht für den dauerhaften Export nicht aus. Wer das Auto einfach
 abmeldet und trotzdem fährt, riskiert ein Bußgeld wegen
-<a href="/ratgeber/fahren-ohne-zulassung">Fahren ohne Zulassung</a> und steht ohne
+<a href="/kfz-ratgeber/fahren-ohne-zulassung/">Fahren ohne Zulassung</a> und steht ohne
 Versicherungsschutz da.</div>
 
 ## Ausfuhrkennzeichen oder Kurzzeitkennzeichen?
 
 Diese Verwechslung sehe ich oft. Beide Schilder sind zeitlich befristet – aber sie
-lösen verschiedene Probleme. Das [Kurzzeitkennzeichen](/ratgeber/kurzzeitkennzeichen)
+lösen verschiedene Probleme. Das [Kurzzeitkennzeichen](/kfz-ratgeber/kurzzeitkennzeichen/)
 gilt nur **fünf Tage** und ist für Probe- und Überführungsfahrten **innerhalb
 Deutschlands** gedacht. Sobald es ins Ausland geht und länger dauert, brauchst du
 das Ausfuhrkennzeichen.
 
-Auch das [Überführungskennzeichen](/ratgeber/uberfuhrungskennzeichen) wird hier
+Auch das [Überführungskennzeichen](/kfz-ratgeber/ueberfuehrungskennzeichen/) wird hier
 gerne genannt. Für den endgültigen Export aber führt am Zollkennzeichen kein Weg
 vorbei, weil nur dieses die nötige internationale Versicherungsbestätigung
 mitbringt.
@@ -64,11 +64,11 @@ hinaus brauchst du das Ausfuhrkennzeichen mit eigener Export-Versicherung.</div>
 ## So beantragst du das Zollkennzeichen – Schritt für Schritt
 
 Der Ablauf ist überschaubar, wenn du die Reihenfolge kennst. Zuständig ist die
-[Zulassungsstelle](/zulassungsstelle) deines Wohnorts oder die am Fahrzeugstandort.
+[Zulassungsstelle](/zulassungsstelle/) deines Wohnorts oder die am Fahrzeugstandort.
 
 1. **Export-Versicherung abschließen.** Du brauchst eine spezielle
    Versicherungsbestätigung für Ausfuhrkennzeichen – die normale
-   [eVB-Nummer](/ratgeber/evb-nummer) reicht hier nicht. Die meisten Versicherer
+   [eVB-Nummer](/kfz-ratgeber/evb-nummer/) reicht hier nicht. Die meisten Versicherer
    bieten kurze Laufzeiten von wenigen Tagen bis zu einem Jahr an.
 2. **Unterlagen zusammenstellen** (siehe Box unten).
 3. **Termin bei der Zulassungsstelle** machen und das Kennzeichen beantragen.
@@ -79,11 +79,11 @@ Der Ablauf ist überschaubar, wenn du die Reihenfolge kennst. Zuständig ist die
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis oder
 Reisepass, Zulassungsbescheinigung Teil I und II (Fahrzeugschein und -brief),
 gültige HU-Bescheinigung, Versicherungsbestätigung für die Ausfuhr und – falls du
-nicht selbst erscheinst – eine <a href="/ratgeber/zulassungsdienst-vollmacht">Vollmacht</a>.</div>
+nicht selbst erscheinst – eine <a href="/kfz-ratgeber/zulassungsdienst-vollmacht/">Vollmacht</a>.</div>
 
 Hast du den Fahrzeugschein oder Fahrzeugbrief verlegt, wird es kniffliger. Dann
 führt der Weg erst über die Ersatzbeschaffung – wie das geht, liest du im Ratgeber
-zum [Fahrzeugschein verloren](/ratgeber/fahrzeugschein-verloren). Plan das früh
+zum [Fahrzeugschein verloren](/kfz-ratgeber/fahrzeugschein-verloren/). Plan das früh
 genug ein, sonst verzögert sich der ganze Export.
 
 ## Wie lange gilt ein Ausfuhrkennzeichen?
@@ -130,15 +130,15 @@ Zielland. Sieh die Zahlen als Orientierung – ohne Gewähr.</div>
 ## Abmelden nicht vergessen
 
 Ein Punkt, der gerne untergeht: Das Ausfuhrkennzeichen ersetzt nicht die saubere
-[Abmeldung](/ratgeber/auto-abmelden) des Fahrzeugs in Deutschland. Mit der Zuteilung
+[Abmeldung](/kfz-ratgeber/auto-abmelden/) des Fahrzeugs in Deutschland. Mit der Zuteilung
 des Zollkennzeichens wird das alte deutsche Kennzeichen außer Betrieb gesetzt. So
 ist klar dokumentiert, dass das Auto das Land verlässt – wichtig für die
 Kfz-Steuer und für spätere Nachfragen.
 
 Verkaufst du das Fahrzeug, gilt dasselbe Prinzip wie beim
-[Auto verkaufen und abmelden](/ratgeber/auto-verkaufen-abmelden): Kläre die
+[Auto verkaufen und abmelden](/kfz-ratgeber/auto-verkaufen-abmelden/): Kläre die
 Übergabe der Papiere sauber und behalte einen Nachweis über die Ausfuhr. In der
-[Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2011/)
+[Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2023/)
 findest du die rechtliche Grundlage rund um Außerbetriebsetzung und Ausfuhr.
 
 ## Häufige Fragen zum Ausfuhrkennzeichen
@@ -175,5 +175,5 @@ realistisch ein – vor allem die Versicherung kann je nach Zielland deutlich in
 Gewicht fallen.
 
 Wenn du dein Auto verkaufst, statt es zu exportieren, schau in den Ratgeber
-[Auto verkaufen und abmelden](/ratgeber/auto-verkaufen-abmelden) – dort zeige ich
+[Auto verkaufen und abmelden](/kfz-ratgeber/auto-verkaufen-abmelden/) – dort zeige ich
 dir den reibungslosen Weg ohne böse Überraschungen.

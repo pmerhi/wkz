@@ -4,6 +4,10 @@
     'canonical' => null,
     'robots' => 'index,follow',
     'ogType' => 'website',
+    // Seitenspezifisches Social-Sharing-Bild (absolute URL). Leer = Portal-Standard
+    // aus config('portal.og_image'). Optionaler Alt-Text via $ogImageAlt.
+    'ogImage' => null,
+    'ogImageAlt' => null,
     'schemas' => [],
     // Kopfzeile: leer = Portal-Logo (Standard). Gesetzt (z.B. auf Zulassungsstellen-
     // Seiten) = fixer Amtsname statt Logo, z.B. „Straßenverkehrsamt München".
@@ -13,7 +17,7 @@
     // interne Sprungmarken [['href'=>'#…','label'=>'…'], …], um Besucher zu halten.
     'navLinks' => [],
 ])
-@php $ogImage = config('portal.og_image'); @endphp
+@php $ogImage = $ogImage ?: config('portal.og_image'); @endphp
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -41,8 +45,10 @@
     <meta property="og:url" content="{{ $canonical ?? url()->current() }}">
     @if($ogImage)
     <meta property="og:image" content="{{ $ogImage }}">
+    @if($ogImageAlt)<meta property="og:image:alt" content="{{ $ogImageAlt }}">@endif
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{ $ogImage }}">
+    @if($ogImageAlt)<meta name="twitter:image:alt" content="{{ $ogImageAlt }}">@endif
     @else
     <meta name="twitter:card" content="summary">
     @endif
@@ -60,13 +66,6 @@
             src:url("/fonts/gl-nummernschild-mtl.woff2") format("woff2"),
                 url("/fonts/gl-nummernschild-mtl.woff") format("woff"),
                 url("/fonts/gl-nummernschild-mtl.ttf") format("truetype");}
-        /* Titillium Web – Seitenschrift (selbst gehostet, Anlehnung an Referenz-Design) */
-        @font-face{font-family:"Titillium Web";font-weight:400;font-style:normal;font-display:swap;
-            src:url("/fonts/titillium-web/titillium-web-regular.woff2") format("woff2");}
-        @font-face{font-family:"Titillium Web";font-weight:600;font-style:normal;font-display:swap;
-            src:url("/fonts/titillium-web/titillium-web-600.woff2") format("woff2");}
-        @font-face{font-family:"Titillium Web";font-weight:700;font-style:normal;font-display:swap;
-            src:url("/fonts/titillium-web/titillium-web-700.woff2") format("woff2");}
         :root{
             --pri:#055cc5; --pri-d:#004bb1; --pri-l:#3d82d6;
             --ok:#29aa5d; --ok-bg:#e3f5ea; --warn:#d97706; --warn-bg:#fef3c7; --no:#dc2626; --no-bg:#fee2e2;
@@ -98,7 +97,7 @@
         @media(max-width:760px){[data-theme="dark"] nav.main{background:var(--soft)}}
         *{box-sizing:border-box}
         html{scroll-behavior:smooth}
-        body{margin:0;font:1rem/1.65 "Titillium Web",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--tx);background:var(--page);-webkit-font-smoothing:antialiased;transition:background .2s,color .2s}
+        body{margin:0;font:1rem/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--tx);background:var(--page);-webkit-font-smoothing:antialiased;transition:background .2s,color .2s}
         .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
         .wrap--narrow{max-width:760px}
         a{color:var(--pri)}
@@ -126,7 +125,7 @@
            dürfen die Kopfzeile nicht sprengen → bei Überlauf horizontal scrollen. */
         nav.main.nav--inpage{flex-wrap:nowrap;overflow-x:auto;max-width:100%;gap:1px;scrollbar-width:thin;scrollbar-color:var(--line) transparent}
         /* Deutlich kompakter als die globale Nav: kleinere Schrift, kleinere Emoji-Icons, enger */
-        nav.main.nav--inpage a{white-space:nowrap;flex:0 0 auto;font-size:.72rem;font-weight:600;padding:4px 7px;letter-spacing:-.005em}
+        nav.main.nav--inpage a{white-space:nowrap;flex:0 0 auto;font-size:.82rem;font-weight:600;padding:4px 9px;letter-spacing:-.005em}
         nav.main.nav--inpage::-webkit-scrollbar{height:6px}
         nav.main.nav--inpage::-webkit-scrollbar-thumb{background:var(--line);border-radius:3px}
         nav.main a{text-decoration:none;color:var(--tx);font-weight:600;font-size:.95rem;padding:8px 12px;border-radius:9px;transition:background .15s,color .15s}
@@ -162,6 +161,15 @@
             nav.main.open{transform:translateY(0)}
             nav.main a{padding:12px 10px}
             .nav-toggle{display:block}
+        }
+        /* Tablet (Seiten mit In-Page-Menü, z.B. Zulassungsstelle): Amtsname mittig
+           allein oben, Sprungmenü zentriert darunter. */
+        @media(min-width:761px) and (max-width:1024px){
+            header.site .wrap:has(.nav--inpage){flex-direction:column;height:auto;align-items:center;gap:8px;padding:12px 0}
+            header.site.is-small .wrap:has(.nav--inpage){height:auto}
+            .wrap:has(.nav--inpage) .brand--static{width:100%;justify-content:center;text-align:center}
+            .wrap:has(.nav--inpage) .header-right{width:100%;justify-content:center;min-width:0}
+            .wrap:has(.nav--inpage) nav.main.nav--inpage{min-width:0}
         }
 
         main{padding:34px 0 8px;min-height:50vh}
@@ -287,7 +295,8 @@
         .oz-head .oz-dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;box-shadow:0 0 0 0 currentColor}
         .oz-offen{background:var(--ok-bg);color:#166534}
         .oz-bald{background:var(--warn-bg);color:#92400e}
-        .oz-zu{background:var(--no-bg);color:#991b1b}
+        /* Geschlossen: klar sichtbar – kräftiges Rot, weiße Schrift, mehr Padding */
+        .oz-head.oz-zu{background:#dc2626;color:#fff;padding:18px 20px;font-weight:700;font-size:1.1rem}
         .oz-unbekannt{background:var(--soft);color:var(--mut)}
         .oz-offen .oz-dot,.oz-bald .oz-dot{background:currentColor;animation:pulse 2s infinite}
         .oz-zu .oz-dot{background:currentColor}
@@ -302,7 +311,6 @@
         .oz-bar{position:absolute;top:2px;bottom:2px;background:linear-gradient(180deg,var(--pri-l),var(--pri));border-radius:5px;box-shadow:0 1px 3px rgba(5,92,197,.4)}
         .oz-row.is-today .oz-bar{background:linear-gradient(180deg,#22c55e,#29aa5d);box-shadow:0 1px 3px rgba(22,163,74,.45)}
         .oz-row.is-today{background:linear-gradient(90deg,rgba(34,197,94,.08),transparent);border-radius:8px}
-        .oz-zu{font-size:.74rem;color:var(--mut);padding-left:6px;line-height:18px;background:none}
         .oz-now{position:absolute;top:-3px;bottom:-3px;width:2px;background:#ef4444;border-radius:2px}
         .oz-now::before{content:"";position:absolute;top:-3px;left:-3px;width:8px;height:8px;border-radius:50%;background:#ef4444}
         .oz-times{font-size:.8rem;color:var(--mut);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -778,6 +786,23 @@ document.querySelectorAll('img:not([loading])').forEach(function(i){i.loading='l
     window.addEventListener('resize',function(){if(panel.classList.contains('open'))position();});
     window.addEventListener('scroll',function(){if(panel.classList.contains('open'))position();},true);
   });
+})();
+</script>
+<script>
+// Externe Links in neuem Tab öffnen – Ausnahme: jetzt.wunschkennzeichen-reservieren.de
+(function(){
+  var KEEP = 'jetzt.wunschkennzeichen-reservieren.de';
+  function mark(a){
+    if(a.protocol!=='http:'&&a.protocol!=='https:') return;      // mailto/tel etc. überspringen
+    if(!a.hostname||a.hostname===location.hostname) return;       // interne Links überspringen
+    if(a.hostname===KEEP) return;                                 // Ausnahme-Domain: gleicher Tab
+    a.target='_blank';
+    var rel=(a.getAttribute('rel')||'').split(/\s+/).filter(Boolean);
+    ['noopener','noreferrer'].forEach(function(t){ if(rel.indexOf(t)<0) rel.push(t); });
+    a.setAttribute('rel',rel.join(' '));
+  }
+  function run(){ document.querySelectorAll('a[href]').forEach(mark); }
+  if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded',run); } else { run(); }
 })();
 </script>
 </body>

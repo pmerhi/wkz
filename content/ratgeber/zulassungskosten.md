@@ -17,8 +17,8 @@ einzeln auseinander.
 
 ## Die Behördengebühr ist nur der Anfang
 
-Die reine Verwaltungsgebühr der [Zulassungsstelle](/zulassungsstelle) ist
-bundesweit in der [Gebührenordnung (GebOSt)](https://www.gesetze-im-internet.de/gebost/)
+Die reine Verwaltungsgebühr der [Zulassungsstelle](/zulassungsstelle/) ist
+bundesweit in der [Gebührenordnung (GebOSt)](https://www.gesetze-im-internet.de/stgebo_2011/)
 geregelt. Je nach Vorgang sieht das grob so aus:
 
 - **Neuzulassung:** rund 30 €
@@ -42,10 +42,10 @@ sparen.</div>
 
 ## Wunschkennzeichen und weitere Aufschläge
 
-Möchtest du ein [Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren),
+Möchtest du ein [Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/),
 kommen wenige Euro für Zuteilung und Reservierung dazu. Wie sich dieser Posten
 genau zusammensetzt, habe ich im
-[Ratgeber zu den Wunschkennzeichen-Kosten](/ratgeber/wunschkennzeichen-kosten)
+[Ratgeber zu den Wunschkennzeichen-Kosten](/kfz-ratgeber/wunschkennzeichen-kosten/)
 aufgeschlüsselt. Weitere mögliche Kosten:
 
 - **eVB-Nummer:** in der Regel kostenlos von deiner Kfz-Versicherung
@@ -72,7 +72,7 @@ Ziehst du um und behältst dein Kennzeichen, fällt der Schilder-Posten weg:
 <div class="box box-check"><strong>Diese Unterlagen brauchst du:</strong>
 Personalausweis, Zulassungsbescheinigung Teil I und II, eVB-Nummer, gültige HU
 und – bei Halterwechsel – den Kaufvertrag. Wie der Ablauf genau ist, steht im
-<a href="/ratgeber/auto-anmelden">Ratgeber zum Auto anmelden</a>.</div>
+<a href="/kfz-ratgeber/auto-anmelden/">Ratgeber zum Auto anmelden</a>.</div>
 
 ## Sonderfälle: Saison, Kurzzeit und Export
 
@@ -104,7 +104,7 @@ es zusammen."
 
 ## So drückst du die Zulassungskosten
 
-1. **Online zulassen:** Die [i-Kfz-Zulassung](/ratgeber/i-kfz-online-zulassung) ist
+1. **Online zulassen:** Die [i-Kfz-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/) ist
    oft günstiger als der Schalter – und du sparst Anfahrt und Wartezeit.
 2. **Schilder nicht vor Ort kaufen**, sondern vorab online.
 3. **Kennzeichen mitnehmen**, wenn du umziehst – spart neue Schilder.
@@ -125,7 +125,7 @@ Praktisch heißt das für dich als Käufer: Du brauchst vor der Ummeldung eine
 **eVB-Nummer** deiner Versicherung, die Zulassungsbescheinigungen vom Verkäufer und
 den Kaufvertrag. Erst dann kannst du das Auto auf dich zulassen – und entscheidest,
 ob du das bisherige Kennzeichen übernimmst oder ein eigenes
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) wählst.
+[Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) wählst.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Vereinbart im Kaufvertrag klar, wer
 das Fahrzeug abmeldet bzw. ummeldet. Das erspart beiden Seiten Ärger, falls das Auto

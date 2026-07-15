@@ -32,7 +32,7 @@ Phase soll dir Routine geben, bevor du allein losziehst. Statistisch fahren
 BF17-Absolventen später nachweislich unfallfreier.
 
 Die rechtliche Grundlage findest du in der
-[Fahrerlaubnis-Verordnung](https://www.gesetze-im-internet.de/fzv_2011/), die das
+[Fahrerlaubnis-Verordnung](https://www.gesetze-im-internet.de/fev_2010/), die das
 Modell seit Jahren bundesweit regelt. Du startest also nicht mit einem
 „Sonderführerschein", sondern mit dem echten B-Schein – nur mit einer befristeten
 Auflage.
@@ -52,7 +52,7 @@ ein biometrisches Passbild und die Zustimmung der Erziehungsberechtigten. Dazu
 mindestens eine eingetragene Begleitperson.</div>
 
 Den Antrag stellst du bei deiner Führerscheinstelle. Sie ist oft an dieselbe
-Behörde angegliedert wie deine [Zulassungsstelle](/zulassungsstelle), nur ein
+Behörde angegliedert wie deine [Zulassungsstelle](/zulassungsstelle/), nur ein
 anderer Schalter. Plane für die Bearbeitung ein paar Wochen ein – gerade vor den
 Sommerferien sind die Ämter voll.
 
@@ -70,7 +70,7 @@ prüfen – ohne Gewähr.</div>
 
 Du kannst **mehrere Begleitpersonen** eintragen lassen – das ist sogar
 empfehlenswert. So bist du nicht aufgeschmissen, wenn Mama mal keine Zeit hat und
-Papa einspringen muss. Wer wie viele [Punkte in Flensburg](/ratgeber/punkte-in-flensburg)
+Papa einspringen muss. Wer wie viele [Punkte in Flensburg](/kfz-ratgeber/punkte-in-flensburg/)
 hat, lässt sich vorab prüfen, damit es bei der Eintragung keine böse Überraschung gibt.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Trag von Anfang an zwei bis drei
@@ -95,7 +95,7 @@ kaum.</div>
 
 Eine genaue Aufschlüsselung der Posten – von der Grundgebühr über die
 Pflichtstunden bis zu den Prüfungsgebühren – habe ich dir im Ratgeber zu den
-[Führerschein-Kosten](/ratgeber/fuhrerschein-kosten) zusammengestellt. Dort siehst
+[Führerschein-Kosten](/kfz-ratgeber/fuehrerschein-kosten/) zusammengestellt. Dort siehst
 du auch, wo sich sparen lässt.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die Anzahl der nötigen
@@ -121,7 +121,7 @@ Nachweis – aber nur in Deutschland und nur mit Begleitung.
 <div class="box box-tipp"><strong>Mein Rat:</strong> Bewahre die Prüfbescheinigung
 genauso sorgfältig auf wie später den Führerschein. Verlierst du sie, brauchst du
 Ersatz von der Behörde – ähnlich aufwendig wie beim
-<a href="/ratgeber/fuhrerschein-verloren">verlorenen Führerschein</a>.</div>
+<a href="/kfz-ratgeber/fuehrerschein-verloren/">verlorenen Führerschein</a>.</div>
 
 ## Was passiert am 18. Geburtstag?
 
@@ -132,7 +132,7 @@ die Auflage „begleitetes Fahren" automatisch.
 Du gehst noch einmal zur Führerscheinstelle und holst deinen regulären
 EU-Kartenführerschein ab. Ab dann darfst du allein fahren – und auch ins Ausland.
 Eine neue Prüfung ist nicht nötig. Welche Klassen dein Schein dann genau umfasst,
-erklärt der Überblick zu den [Führerscheinklassen](/ratgeber/fuhrerscheinklassen).
+erklärt der Überblick zu den [Führerscheinklassen](/kfz-ratgeber/fuehrerscheinklassen/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Während BF17 darfst du nur
 in Deutschland fahren. Fahrten ins Ausland sind erst mit dem regulären Führerschein
@@ -150,7 +150,7 @@ Bußgeld, die Verlängerung der Probezeit und eine Nachschulung – im schlimmst
 sogar der Entzug der Fahrerlaubnis.
 
 Details zu möglichen Sanktionen findest du im
-[Bußgeldkatalog](/ratgeber/bussgeldkatalog). Mein dringender Rat: Halte dich an die
+[Bußgeldkatalog](/kfz-ratgeber/bussgeldkatalog/). Mein dringender Rat: Halte dich an die
 Regeln. Das eine Jahr Begleitung ist schnell vorbei, ein Fahrerlaubnis-Entzug
 begleitet dich dagegen lange.
 
@@ -158,7 +158,7 @@ begleitet dich dagegen lange.
 
 <div class="box box-frage"><strong>Kann ich mit BF17 auch Motorrad fahren?</strong>
 Nein. Das begleitete Fahren gilt nur für die Klasse B (Pkw). Für Zweiräder gelten
-eigene Mindestalter und Klassen – siehe <a href="/ratgeber/fuhrerscheinklassen">Führerscheinklassen</a>.</div>
+eigene Mindestalter und Klassen – siehe <a href="/kfz-ratgeber/fuehrerscheinklassen/">Führerscheinklassen</a>.</div>
 
 <div class="box box-frage"><strong>Was, wenn die Begleitperson nicht angeschnallt
 ist?</strong> Auch die Begleitperson muss alle Verkehrsregeln einhalten und darf

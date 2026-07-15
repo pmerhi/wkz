@@ -23,7 +23,7 @@ EU-Nachbarland.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> „Drittland" bedeutet
 jedes Land außerhalb der EU. Die Schweiz, Großbritannien, die USA, Kanada oder
-Japan zählen dazu. Bei einem <a href="/ratgeber/gebrauchtwagen-eu-import">Import aus der EU</a>
+Japan zählen dazu. Bei einem <a href="/kfz-ratgeber/gebrauchtwagen-eu-import/">Import aus der EU</a>
 entfallen Zoll und Einfuhrumsatzsteuer – beim Drittland nicht.</div>
 
 ## Warum ein Drittland-Import so anders ist
@@ -36,7 +36,7 @@ EU-Außengrenze eingeführt wird.
 
 Das heißt konkret: Du musst das Auto beim Zoll anmelden, Abgaben zahlen und
 nachweisen, dass es den europäischen Vorschriften entspricht. Erst danach kannst
-du überhaupt an eine [Zulassung](/ratgeber/auto-anmelden) denken.
+du überhaupt an eine [Zulassung](/kfz-ratgeber/auto-anmelden/) denken.
 
 ## Schritt 1: Kauf und Transport
 
@@ -90,7 +90,7 @@ die deutschen Vorschriften angepasst und geprüft werden.
 
 Das läuft über eine **Einzelabnahme nach § 21 StVZO** bei einer technischen
 Prüforganisation wie TÜV oder DEKRA. Geprüft wird, ob das Fahrzeug der
-[Fahrzeug-Zulassungsverordnung](/ratgeber/fahrzeugzulassungsverordnung) und den
+[Fahrzeug-Zulassungsverordnung](/kfz-ratgeber/fahrzeugzulassungsverordnung/) und den
 technischen Anforderungen entspricht.
 
 Typische Umbauten bei US-Fahrzeugen:
@@ -99,7 +99,7 @@ Typische Umbauten bei US-Fahrzeugen:
   Umrüstung auf gelbe Blinker und konforme Scheinwerfer
 - **Nebelschlussleuchte**: in der EU Pflicht, in den USA meist nicht verbaut
 - **Tacho**: Anzeige in km/h erforderlich
-- **Abgas**: Nachweis der Schadstoffeinstufung für die [Umweltplakette](/ratgeber/umweltplakette)
+- **Abgas**: Nachweis der Schadstoffeinstufung für die [Umweltplakette](/kfz-ratgeber/umweltplakette/)
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Klär die technische
 Machbarkeit, bevor du kaufst. Manche US-Modelle lassen sich mit überschaubarem
@@ -114,24 +114,24 @@ Umbauten je nach Fahrzeug mit einem niedrigen vierstelligen Betrag.
 ## Schritt 4: Zulassung bei der Zulassungsstelle
 
 Hast du Zoll und technische Abnahme hinter dir, ist der Rest fast schon
-Routine – es läuft wie eine normale [Erstzulassung](/ratgeber/neuwagen-zulassen)
-bzw. [Gebrauchtwagen-Zulassung](/ratgeber/gebrauchtwagen-zulassen). Du gehst zur
-zuständigen [Zulassungsstelle](/zulassungsstelle) und meldest das Fahrzeug an.
+Routine – es läuft wie eine normale [Erstzulassung](/kfz-ratgeber/neuwagen-zulassen/)
+bzw. [Gebrauchtwagen-Zulassung](/kfz-ratgeber/gebrauchtwagen-zulassen/). Du gehst zur
+zuständigen [Zulassungsstelle](/zulassungsstelle/) und meldest das Fahrzeug an.
 
 <div class="box box-check"><strong>Für die Zulassung dabei haben:</strong>
 Verzollungsnachweis, Gutachten der Einzelabnahme (§ 21), ausländisches
-Fahrzeugdokument, <a href="/ratgeber/evb-nummer">eVB-Nummer</a> der Versicherung,
+Fahrzeugdokument, <a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> der Versicherung,
 Personalausweis und – wenn du willst – ein reserviertes
-<a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen</a>.</div>
+<a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Wunschkennzeichen</a>.</div>
 
-Die Zulassungsstelle stellt dann die [Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung)
+Die Zulassungsstelle stellt dann die [Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/)
 Teil I und II aus, und du bekommst deine Stempel auf die Schilder. Ab dem Moment
 darfst du legal fahren.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Solange das Fahrzeug
 noch nicht regulär zugelassen ist, du es aber zum Prüfdienst überführen musst,
-brauchst du ein <a href="/ratgeber/kurzzeitkennzeichen">Kurzzeitkennzeichen</a> oder
-<a href="/ratgeber/uberfuhrungskennzeichen">Überführungskennzeichen</a> – mit passender
+brauchst du ein <a href="/kfz-ratgeber/kurzzeitkennzeichen/">Kurzzeitkennzeichen</a> oder
+<a href="/kfz-ratgeber/ueberfuehrungskennzeichen/">Überführungskennzeichen</a> – mit passender
 Versicherung versteht sich.</div>
 
 ## Was kostet der Import unterm Strich?
@@ -158,7 +158,7 @@ Liebhaberfahrzeugen.</div>
 
 <div class="box box-frage"><strong>Gibt es Ausnahmen beim Zoll?</strong> Ja, etwa
 bei einem Wohnsitzwechsel (Umzugsgut) unter bestimmten Bedingungen oder bei
-echten <a href="/ratgeber/oldtimer-zulassen">Oldtimern</a> mit reduziertem Steuersatz. Das
+echten <a href="/kfz-ratgeber/oldtimer-zulassen/">Oldtimern</a> mit reduziertem Steuersatz. Das
 klärst du individuell mit dem Zoll.</div>
 
 <div class="box box-frage"><strong>Brauche ich immer ein Vollgutachten?</strong>
@@ -169,7 +169,7 @@ beides, wird das Vollgutachten nötig.</div>
 <div class="box box-frage"><strong>Kann ich das Auto vor der Zulassung
 bewegen?</strong> Nur mit Kurzzeit- oder Überführungskennzeichen und gültiger
 Versicherung. Ohne gültige Papiere drohen Konsequenzen wegen
-<a href="/ratgeber/fahren-ohne-zulassung">Fahren ohne Zulassung</a>.</div>
+<a href="/kfz-ratgeber/fahren-ohne-zulassung/">Fahren ohne Zulassung</a>.</div>
 
 ## Fazit
 

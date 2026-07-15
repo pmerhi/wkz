@@ -27,7 +27,7 @@ einfacher als bei einem Gebrauchten.</div>
 
 ## Was beim Neuwagen anders ist als beim Gebrauchten
 
-Beim Neuwagen entfällt das, was bei einem [Gebrauchtwagen](/ratgeber/gebrauchtwagen-zulassen)
+Beim Neuwagen entfällt das, was bei einem [Gebrauchtwagen](/kfz-ratgeber/gebrauchtwagen-zulassen/)
 oft Zeit frisst: Es gibt keine alten Kennzeichen abzumelden, keine
 Vorbesitzer-Historie und keine fällige Hauptuntersuchung. Ein Neufahrzeug bringt
 seine HU quasi „ab Werk" mit – die erste Hauptuntersuchung steht erst nach drei
@@ -35,7 +35,7 @@ Jahren an.
 
 Auch die Zulassungsbescheinigung ist beim Neuwagen frisch. Teil II (früher
 Fahrzeugbrief) und Teil I (früher Fahrzeugschein) bekommst du im Rahmen des Kaufs.
-Mehr zu diesen Papieren findest du im [Ratgeber zur Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung).
+Mehr zu diesen Papieren findest du im [Ratgeber zur Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/).
 
 ## Schritt für Schritt: So meldest du deinen Neuwagen an
 
@@ -43,7 +43,7 @@ Den Ablauf kannst du dir wie eine kurze Checkliste merken. In dieser Reihenfolge
 geht nichts schief:
 
 1. **eVB-Nummer besorgen.** Ohne Versicherungsbestätigung läuft nichts. Die
-   [eVB-Nummer](/ratgeber/evb-nummer) bekommst du von deinem Kfz-Versicherer,
+   [eVB-Nummer](/kfz-ratgeber/evb-nummer/) bekommst du von deinem Kfz-Versicherer,
    meist in Minuten per E-Mail.
 2. **Unterlagen zusammenstellen** (gleich mehr dazu).
 3. **Wunschkennzeichen reservieren** – falls du eine bestimmte Kombination willst.
@@ -57,7 +57,7 @@ Teil I und II, eVB-Nummer, SEPA-Lastschriftmandat für die Kfz-Steuer und – be
 Fahrzeugen ohne EG-Typgenehmigung – das Datenblatt oder die CoC-Bescheinigung.</div>
 
 Viele Autohäuser bieten an, die Anmeldung gegen Aufpreis komplett für dich zu
-übernehmen. Dann unterschreibst du nur eine [Zulassungsdienst-Vollmacht](/ratgeber/zulassungsdienst-vollmacht)
+übernehmen. Dann unterschreibst du nur eine [Zulassungsdienst-Vollmacht](/kfz-ratgeber/zulassungsdienst-vollmacht/)
 und holst den Wagen fix und fertig zugelassen ab. Bequem – aber selten die
 günstigste Variante.
 
@@ -65,15 +65,15 @@ günstigste Variante.
 
 Hier scheiden sich die Geister, und ich bin ehrlich: Den Neuwagen anmelden geht
 heute in vielen Fällen komplett digital. Über die
-[internetbasierte Fahrzeugzulassung (i-Kfz)](/ratgeber/i-kfz-online-zulassung)
+[internetbasierte Fahrzeugzulassung (i-Kfz)](/kfz-ratgeber/i-kfz-online-zulassung/)
 erledigst du Erstzulassung, Wunschkennzeichen und Steueranmeldung von zu Hause.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Prüf vor dem Autohaus-Besuch,
-ob dein neues Fahrzeug die <a href="/ratgeber/i-kfz-voraussetzungen">i-Kfz-Voraussetzungen</a>
+ob dein neues Fahrzeug die <a href="/kfz-ratgeber/i-kfz-voraussetzungen/">i-Kfz-Voraussetzungen</a>
 erfüllt. Spätestens seit der Ausbaustufe 4 läuft fast alles online – inklusive
 sofortiger vorläufiger Zulassung, mit der du direkt losfahren darfst.</div>
 
-Der Gang zur [Zulassungsstelle](/zulassungsstelle) lohnt sich vor allem, wenn du
+Der Gang zur [Zulassungsstelle](/zulassungsstelle/) lohnt sich vor allem, wenn du
 es sehr eilig hast und die Behörde gut erreichbar ist, oder wenn dir der digitale
 Weg zu fummelig ist. Wer online geht, sollte allerdings die Versanddauer der
 Plaketten und Papiere einplanen – die kommen per Post.
@@ -91,7 +91,7 @@ Posten.
 
 - **Zulassungsgebühr:** rund **30 €** vor Ort, online häufig etwas günstiger.
 - **Wunschkennzeichen** (optional): Zuteilung plus Reservierung zusammen etwa
-  **13 €** – Details im [Ratgeber zu den Wunschkennzeichen-Kosten](/ratgeber/wunschkennzeichen-kosten).
+  **13 €** – Details im [Ratgeber zu den Wunschkennzeichen-Kosten](/kfz-ratgeber/wunschkennzeichen-kosten/).
 - **Zwei geprägte Schilder:** je nach Anbieter **20–35 €**.
 - **Kfz-Steuer:** läuft separat über das Hauptzollamt, wird per Lastschrift
   eingezogen.
@@ -107,13 +107,13 @@ sind dieselben DIN-zertifizierten Schilder oft deutlich günstiger.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Reservier zuerst dein Kennzeichen,
 dann steht die Kombination fest – und du kannst die Schilder in Ruhe beim
-günstigsten Anbieter <a href="/ratgeber/nummernschild-pragen">prägen lassen</a>, ohne
+günstigsten Anbieter <a href="/kfz-ratgeber/nummernschild-praegen/">prägen lassen</a>, ohne
 Fehlprägung zu riskieren.</div>
 
 Wie viele Neuwagen jährlich überhaupt erstzugelassen werden, veröffentlicht
 übrigens das [Kraftfahrt-Bundesamt](https://www.kba.de) – ein guter Beleg dafür,
 wie eingespielt dieser Vorgang inzwischen ist. Rechtlich geregelt ist alles in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die genauen Beträge
 unterscheiden sich je nach Bundesland und Zulassungsbezirk. Manche Kommunen rufen
@@ -125,7 +125,7 @@ Orientierung, nicht als amtlich garantierten Festpreis – Angaben ohne Gewähr.
 Aus eigener Erfahrung und vielen Leserfragen kenne ich die Klassiker: Die
 eVB-Nummer wird vergessen, die SEPA-Daten für die Kfz-Steuer fehlen, oder das
 Wunschkennzeichen wird zu spät reserviert und ist plötzlich weg. Plane die
-[Reservierung](/ratgeber/wunschkennzeichen-reservieren) deshalb rechtzeitig vor dem
+[Reservierung](/kfz-ratgeber/wunschkennzeichen-reservieren/) deshalb rechtzeitig vor dem
 Abholtermin ein.
 
 Ein weiterer Punkt: Wenn das Autohaus in einem anderen Zulassungsbezirk liegt als
@@ -158,7 +158,7 @@ Weil Vorgeschichte, HU und Abmeldung wegfallen, brauchst du im Kern nur drei
 Dinge: **die Papiere vom Händler, eine eVB-Nummer und – wenn gewünscht – ein
 reserviertes Kennzeichen.** Den Rest erledigst du heute meist bequem online.
 
-Wenn du so weit bist: Im [Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden)
+Wenn du so weit bist: Im [Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/)
 gehe ich den allgemeinen Ablauf noch einmal Schritt für Schritt durch – und im
-[Ratgeber zur Online-Zulassung](/ratgeber/i-kfz-online-zulassung) zeige ich dir,
+[Ratgeber zur Online-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/) zeige ich dir,
 wie du dir den Gang zur Behörde komplett sparst.

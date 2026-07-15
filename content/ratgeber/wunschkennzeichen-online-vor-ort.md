@@ -19,7 +19,7 @@ uns die zwei Varianten einmal nebeneinanderlegen.
 
 Die meisten Zulassungsstellen betreiben heute ein eigenes Portal, in dem du deine
 Wunschkombination **live auf Verfügbarkeit prüfst** und direkt reservierst. Du
-gibst dein [Unterscheidungszeichen](/kennzeichen) ein – etwa „M" für München –
+gibst dein [Unterscheidungszeichen](/kennzeichen/) ein – etwa „M" für München –
 dazu deine Wunschbuchstaben und -zahlen, und das System sagt dir sofort, ob die
 Kombination frei ist.
 
@@ -32,13 +32,13 @@ Geburtsdaten sind oft schon vergeben – mit Plan B bist du in Sekunden durch.</
 
 Der große Vorteil: Du machst das **rund um die Uhr**, ohne Wartenummer, ohne
 Anfahrt. Und wenn du dein Auto ohnehin
-[online über i-Kfz zulässt](/ratgeber/i-kfz-online-zulassung), läuft die
+[online über i-Kfz zulässt](/kfz-ratgeber/i-kfz-online-zulassung/), läuft die
 Reservierung nahtlos in den gleichen Vorgang.
 
 ## Der Weg vor Ort: persönlich, aber langsamer
 
 Natürlich kannst du dein Wunschkennzeichen auch direkt bei der
-[Zulassungsstelle](/zulassungsstelle) aussuchen. Am Schalter prüft die
+[Zulassungsstelle](/zulassungsstelle/) aussuchen. Am Schalter prüft die
 Sachbearbeiterin die Verfügbarkeit und reserviert die Kombination für dich –
 oder du teilst sie dir gleich im Zuge der Zulassung zu.
 
@@ -56,7 +56,7 @@ manchmal kleinen Online-Servicegebühren.</div>
 Die eigentliche Wunsch-Gebühr ist in beiden Fällen gleich. Online kommt je nach
 Kommune ein kleiner Servicebetrag von wenigen Euro dazu – den hast du aber durch
 gesparte Anfahrt und Parkgebühr meist schon wieder drin. Alle Posten habe ich dir
-im [Ratgeber zu den Wunschkennzeichen-Kosten](/ratgeber/wunschkennzeichen-kosten)
+im [Ratgeber zu den Wunschkennzeichen-Kosten](/kfz-ratgeber/wunschkennzeichen-kosten/)
 im Detail aufgeschlüsselt.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Wunsch-Reservierung
@@ -133,4 +133,4 @@ Hürde zu hoch ist.
 
 Wie die Reservierung Schritt für Schritt abläuft und worauf du bei der
 Kombination achten solltest, liest du im
-[Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren).
+[Ratgeber zum Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/).

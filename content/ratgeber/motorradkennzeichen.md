@@ -45,7 +45,7 @@ beim Auto, wo du zwei Schilder brauchst.</div>
 ## Die genauen Maße und Vorschriften
 
 Damit das Schild zulässig ist, muss es bestimmte Vorgaben erfüllen. Diese sind in
-der [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/)
+der [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/)
 und der StVZO geregelt. Ein paar Eckpunkte, die du kennen solltest:
 
 - **Format:** zweizeilig, mit reflektierender Beschichtung und schwarzer Schrift auf
@@ -69,7 +69,7 @@ Schriftgröße passt. Frag im Zweifel bei deiner Zulassungsstelle nach, welches 
 für dein Modell freigegeben ist.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Wenn du dir ein
-<a href="/ratgeber/wunschkennzeichen-motorrad">Wunschkennzeichen fürs Motorrad</a> sicherst,
+<a href="/kfz-ratgeber/wunschkennzeichen-motorrad/">Wunschkennzeichen fürs Motorrad</a> sicherst,
 achte auf möglichst wenige Zeichen. Kurze Kombinationen passen besser auf den
 schmalen Heckbereich und sehen am Krad einfach harmonischer aus.</div>
 
@@ -84,14 +84,14 @@ aber problematisch sind stark angewinkelte Halter, die das Kennzeichen kaum noch
 lesbar machen. Das kann bei einer Kontrolle teuer werden.
 
 <div class="box box-check"><strong>Das brauchst du für die Zulassung:</strong>
-Personalausweis, <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a> Teil I
-und II, <a href="/ratgeber/evb-nummer">eVB-Nummer</a> der Versicherung, gültige HU und – bei
+Personalausweis, <a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung</a> Teil I
+und II, <a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> der Versicherung, gültige HU und – bei
 Gebrauchtkauf – den Kaufvertrag. Das geprägte Schild bringst du dann passend zur
 zugeteilten Kombination mit.</div>
 
 Auch die Beleuchtung spielt eine Rolle: Das hintere Kennzeichen muss bei Dunkelheit
 beleuchtet sein. Eine fehlende oder defekte Kennzeichenbeleuchtung führt nicht nur
-zu Ärger bei der [Hauptuntersuchung beim TÜV](/ratgeber/hauptuntersuchung-tuv),
+zu Ärger bei der [Hauptuntersuchung beim TÜV](/kfz-ratgeber/hauptuntersuchung-tuev/),
 sondern kann auch ein Verwarngeld kosten.
 
 ## Wenn das Kennzeichen nicht passt – das droht
@@ -118,14 +118,14 @@ im Zweifel ein Bußgeld – und sieht besser aus als ein verbogenes Blech.</div>
 
 Nicht jedes Zweirad bekommt ein „normales" Motorradkennzeichen. Roller, Mofas und
 Mopeds bis 50 ccm bzw. 45 km/h brauchen ein
-[Versicherungskennzeichen](/ratgeber/versicherungskennzeichen). Das ist das kleine,
+[Versicherungskennzeichen](/kfz-ratgeber/versicherungskennzeichen/). Das ist das kleine,
 farbige Schild, das jedes Jahr die Farbe wechselt und ohne Behördengang direkt bei
 der Versicherung erhältlich ist.
 
 Diese Kennzeichen sind nochmal deutlich kleiner und folgen eigenen Regeln. Verwechsle
 sie also nicht mit dem klassischen, geprägten Motorradkennzeichen für zulassungs-
 pflichtige Maschinen. Einen Überblick über alle Schild-Typen findest du unter
-[Kennzeichen-Arten](/kennzeichen).
+[Kennzeichen-Arten](/kennzeichen/).
 
 ## Häufige Fragen
 
@@ -140,7 +140,7 @@ Das spart dir die Kosten für das zweite geprägte Schild.</div>
 
 <div class="box box-frage"><strong>Kann ich ein Wunschkennzeichen fürs Motorrad
 nehmen?</strong> Ja. Du kannst dir wie beim Auto eine Wunschkombination
-<a href="/ratgeber/wunschkennzeichen-reservieren">reservieren</a>. Achte nur auf kurze
+<a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">reservieren</a>. Achte nur auf kurze
 Kombinationen, damit sie aufs kleinere Schild passen.</div>
 
 <div class="box box-frage"><strong>Muss das Motorradkennzeichen beleuchtet
@@ -156,6 +156,6 @@ schlampt, riskiert ein Bußgeld.
 
 Mein Rat: Halte dich ans Standardformat, montier das Schild gerade und gut lesbar
 und gönn dir einen stabilen Halter. Wenn du dein Krad neu anmeldest, schau vorher in
-den [Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden) – der Ablauf ist beim
+den [Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/) – der Ablauf ist beim
 Motorrad fast identisch. Und wenn du eine persönliche Note willst, hol dir ein
-[Wunschkennzeichen fürs Motorrad](/ratgeber/wunschkennzeichen-motorrad).
+[Wunschkennzeichen fürs Motorrad](/kfz-ratgeber/wunschkennzeichen-motorrad/).

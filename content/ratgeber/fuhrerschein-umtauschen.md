@@ -35,7 +35,7 @@ gerade im Ausland, war das ein Albtraum.
 Deshalb hat der Gesetzgeber gestaffelte **Führerschein Umtausch Fristen**
 festgelegt. Wer nicht rechtzeitig tauscht, fährt zwar nicht „ohne Fahrerlaubnis",
 riskiert aber ein Verwarnungsgeld. Die rechtliche Grundlage findest du in der
-[Fahrerlaubnis-Verordnung](https://www.gesetze-im-internet.de/fzv_2011/) und den
+[Fahrerlaubnis-Verordnung](https://www.gesetze-im-internet.de/fev_2010/) und den
 zugehörigen Übergangsregelungen.
 
 ## Die Fristen nach Geburtsjahr – für Papierführerscheine
@@ -108,9 +108,9 @@ meist bei <strong>35–45 €</strong> – einmalig, alle 15 Jahre wiederkehrend
 
 Ein medizinisches Gutachten oder eine Sehtest-Bescheinigung brauchst du beim
 einfachen Pflichtumtausch **nicht**. Anders sieht es bei den Lkw- und
-Busklassen aus – mehr dazu findest du im [Ratgeber zum Lkw-Führerschein](/ratgeber/lkw-fuhrerschein).
+Busklassen aus – mehr dazu findest du im [Ratgeber zum Lkw-Führerschein](/kfz-ratgeber/lkw-fuehrerschein/).
 Wie viel ein kompletter Führerschein heute kostet, habe ich dir übrigens im
-[Ratgeber zu den Führerschein-Kosten](/ratgeber/fuhrerschein-kosten) aufgeschlüsselt.
+[Ratgeber zu den Führerschein-Kosten](/kfz-ratgeber/fuehrerschein-kosten/) aufgeschlüsselt.
 
 ## EU-Führerschein umtauschen – ausländische Dokumente
 
@@ -130,9 +130,9 @@ du damit in Deutschland fahren. Erst wenn er abläuft, tauschst du ihn bei deine
 deutschen Führerscheinstelle in einen deutschen um.</div>
 
 Verloren gegangen ist dein Dokument? Dann hilft dir der separate
-[Ratgeber Führerschein verloren](/ratgeber/fuhrerschein-verloren) weiter. Und wer
+[Ratgeber Führerschein verloren](/kfz-ratgeber/fuehrerschein-verloren/) weiter. Und wer
 gerade ohnehin seine Klassen sortiert, findet in der Übersicht zu den
-[Führerscheinklassen](/ratgeber/fuhrerscheinklassen) den richtigen Durchblick.
+[Führerscheinklassen](/kfz-ratgeber/fuehrerscheinklassen/) den richtigen Durchblick.
 
 ## Häufige Fragen zum Führerschein umtauschen
 

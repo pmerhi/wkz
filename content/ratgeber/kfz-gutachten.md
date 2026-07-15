@@ -57,17 +57,17 @@ der Regel die Kosten.
 
 **Das Wertgutachten Auto** ermittelt den aktuellen Marktwert. Das ist Gold wert
 beim Verkauf, bei der Scheidung, im Erbfall oder wenn du beim
-[Halterwechsel](/ratgeber/halterwechsel-auto) einen fairen Preis aushandeln
-willst. Auch wer ein [finanziertes Fahrzeug](/ratgeber/finanziertes-fahrzeug-zulassen)
+[Halterwechsel](/kfz-ratgeber/halterwechsel-auto/) einen fairen Preis aushandeln
+willst. Auch wer ein [finanziertes Fahrzeug](/kfz-ratgeber/finanziertes-fahrzeug-zulassen/)
 ablösen möchte, profitiert von einer belastbaren Zahl.
 
 **Das Oldtimer-Gutachten** ist ein Sonderfall – dazu unten gleich mehr. Und dann
 gibt es noch das **technische Gutachten** nach § 21 StVZO, das du etwa für
-Umbauten oder eine [erloschene Betriebserlaubnis](/ratgeber/betriebserlaubnis-erloschen)
+Umbauten oder eine [erloschene Betriebserlaubnis](/kfz-ratgeber/betriebserlaubnis-erloeschen/)
 benötigst.
 
 <div class="box box-check"><strong>Das brauchst du für die Begutachtung:</strong>
-Fahrzeugschein bzw. <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a>,
+Fahrzeugschein bzw. <a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung Teil I</a>,
 Serviceheft und Reparaturnachweise, eventuell den Kaufvertrag, eine Übersicht der
 Sonderausstattung und – bei Unfallschäden – die Daten des Unfallgegners.</div>
 
@@ -91,7 +91,7 @@ hängt vom Einzelfall ab – ohne Gewähr.</div>
 
 Lass das Auto nach einem unverschuldeten Unfall im Zweifel nicht reparieren,
 bevor das Gutachten steht. Sonst fehlt der Beweis für den Schadenumfang. Und wenn
-du das Fahrzeug danach [verkaufen und abmelden](/ratgeber/auto-verkaufen-abmelden)
+du das Fahrzeug danach [verkaufen und abmelden](/kfz-ratgeber/auto-verkaufen-abmelden/)
 willst, ist das dokumentierte Gutachten ohnehin ein starkes Verkaufsargument.
 
 ## Wertgutachten Auto: was ist mein Fahrzeug wert?
@@ -114,7 +114,7 @@ geht.</div>
 ## Oldtimer-Gutachten: doppelt wichtig
 
 Beim Oldtimer wird es spannend, denn hier brauchst du gleich aus zwei Gründen ein
-Gutachten. Erstens für das [H-Kennzeichen](/ratgeber/h-kennzeichen): Das
+Gutachten. Erstens für das [H-Kennzeichen](/kfz-ratgeber/h-kennzeichen/): Das
 sogenannte § 23-StVZO-Gutachten bestätigt den historisch korrekten, gepflegten
 Zustand und ist Voraussetzung für die steuerlich attraktive H-Zulassung.
 
@@ -130,7 +130,7 @@ Schadensfall, dass die Versicherung nur den Zeitwert ansetzt – die Differenz k
 schnell fünfstellig werden. Die paar Hundert Euro sind also gut investiert.</div>
 
 Wer mit dem Gedanken spielt, einen Klassiker anzumelden, findet die Details im
-[Ratgeber zum Oldtimer zulassen](/ratgeber/oldtimer-zulassen).
+[Ratgeber zum Oldtimer zulassen](/kfz-ratgeber/oldtimer-zulassen/).
 
 ## Was kostet ein Kfz-Gutachten?
 
@@ -180,7 +180,7 @@ genügt oft eine Online-Bewertung. Bei wertvollen oder strittigen Fahrzeugen sch
 ein Gutachten aber Vertrauen und beugt Streit vor.</div>
 
 <div class="box box-frage"><strong>Ist ein Gutachten dasselbe wie die HU beim
-TÜV?</strong> Nein. Die <a href="/ratgeber/hauptuntersuchung-tuv">Hauptuntersuchung</a> prüft
+TÜV?</strong> Nein. Die <a href="/kfz-ratgeber/hauptuntersuchung-tuev/">Hauptuntersuchung</a> prüft
 nur die Verkehrssicherheit. Ein Wert- oder Schadengutachten bewertet dagegen Wert
 und Schäden – das sind völlig verschiedene Dinge.</div>
 
@@ -196,5 +196,5 @@ als auch für die Versicherung.
 Mein Rat: Überlege dir vorher genau, welches Ziel du verfolgst. Dann findest du
 das passende Fahrzeuggutachten – und gibst kein Geld für ein Dokument aus, das du
 gar nicht brauchst. Wenn es danach ans Abmelden oder Ummelden geht, helfen dir die
-Ratgeber zum [Auto abmelden](/ratgeber/auto-abmelden) und
-[Auto ummelden](/ratgeber/auto-ummelden) beim nächsten Schritt.
+Ratgeber zum [Auto abmelden](/kfz-ratgeber/auto-abmelden/) und
+[Auto ummelden](/kfz-ratgeber/auto-ummelden/) beim nächsten Schritt.

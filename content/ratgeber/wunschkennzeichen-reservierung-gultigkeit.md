@@ -24,7 +24,7 @@ In dieser Zeit ist „deine" Kombination für niemanden sonst verfügbar – sie
 sozusagen auf dich.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Bei der Online-Reservierung
-über das Portal deiner <a href="/zulassungsstelle">Zulassungsstelle</a> siehst du das
+über das Portal deiner <a href="/zulassungsstelle/">Zulassungsstelle</a> siehst du das
 Ablaufdatum in der Regel direkt in der Bestätigung. Notiere es dir – darauf kommt
 es später an.</div>
 
@@ -58,11 +58,11 @@ meldet das Auto aber nicht an. Erst die Zulassung macht aus der Reservierung ein
 gültiges Kennzeichen am Fahrzeug.
 
 <div class="box box-check"><strong>Dein Fahrplan:</strong> 1. Wunschkennzeichen
-<a href="/ratgeber/wunschkennzeichen-online-vor-ort">online oder vor Ort</a> prüfen und
-reservieren. 2. Innerhalb der Frist die <a href="/ratgeber/auto-anmelden">Zulassung</a>
+<a href="/kfz-ratgeber/wunschkennzeichen-online-vor-ort/">online oder vor Ort</a> prüfen und
+reservieren. 2. Innerhalb der Frist die <a href="/kfz-ratgeber/auto-anmelden/">Zulassung</a>
 durchführen. 3. Reservierungscode mitbringen bzw. im i-Kfz-Vorgang angeben.</div>
 
-Wenn du dein Auto gleich [online über i-Kfz zulässt](/ratgeber/i-kfz-online-zulassung),
+Wenn du dein Auto gleich [online über i-Kfz zulässt](/kfz-ratgeber/i-kfz-online-zulassung/),
 fällt der Schritt sogar zusammen: Reservierung und Zulassung in einem Vorgang –
 dann musst du dir um Fristen kaum Gedanken machen.
 
@@ -79,7 +79,7 @@ sonst schnell nicht aus. Wenn du dennoch früh sichergehen willst, frag deine
 Zulassungsstelle vorab nach den Verlängerungsmöglichkeiten.
 
 <div class="box box-info"><strong>Online vs. vor Ort:</strong> Reservierungen über
-das <a href="/ratgeber/wunschkennzeichen-online-vor-ort">Online-Portal</a> und am Schalter
+das <a href="/kfz-ratgeber/wunschkennzeichen-online-vor-ort/">Online-Portal</a> und am Schalter
 können unterschiedliche Fristen haben. Welcher Zeitraum für dich gilt, steht immer
 in deiner persönlichen Bestätigung – verlass dich nicht auf Faustregeln aus dem
 Internet.</div>
@@ -106,7 +106,7 @@ einmal vergeben ist, bist du sofort handlungsfähig.</div>
 Es gibt einen eleganten Ausweg aus dem Fristen-Stress: Reservierung und Zulassung
 in einem Rutsch. Wenn dein Fahrzeug bereits zugelassen werden kann, sicherst du dir
 die Kombination und meldest direkt an – am bequemsten
-[online über i-Kfz](/ratgeber/i-kfz-online-zulassung). Dann gibt es streng genommen
+[online über i-Kfz](/kfz-ratgeber/i-kfz-online-zulassung/). Dann gibt es streng genommen
 gar keine Wartezeit, in der etwas ablaufen könnte.
 
 ## Häufige Fragen
@@ -126,7 +126,7 @@ aber ein zweites Mal.</div>
 <div class="box box-frage"><strong>Gilt die Reservierung auch in einem anderen
 Kreis?</strong> Nein. Sie ist an das Unterscheidungszeichen deiner Zulassungsstelle
 gebunden. Ziehst du um, kannst du dein Kennzeichen aber meist
-<a href="/ratgeber/wunschkennzeichen-mitnehmen">mitnehmen</a>.</div>
+<a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">mitnehmen</a>.</div>
 
 ## Fazit
 

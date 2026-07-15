@@ -49,7 +49,7 @@ vorläufigen Zulassungsbescheinigung – also fast sofort.</div>
 Ob deine Zulassung flott läuft oder hakt, entscheidet sich vor dem ersten Klick.
 Du brauchst einen Personalausweis mit **freigeschalteter Online-Ausweisfunktion
 (eID)** und die zugehörige PIN. Welche technischen Dinge sonst noch sein müssen,
-habe ich dir im Detail unter [i-Kfz Voraussetzungen](/ratgeber/i-kfz-voraussetzungen)
+habe ich dir im Detail unter [i-Kfz Voraussetzungen](/kfz-ratgeber/i-kfz-voraussetzungen/)
 zusammengestellt.
 
 Leg dir vorher alles griffbereit. Wenn du erst während des Antrags nach
@@ -62,34 +62,34 @@ Zulassungsbescheinigung Teil I und II mit den Sicherheitscodes, die
 <strong>eVB-Nummer</strong> deiner Versicherung und deine Bankverbindung
 (SEPA-Lastschrift) für die Gebühren.</div>
 
-Ein häufiger Stolperstein: die [eVB-Nummer](/ratgeber/evb-nummer). Ohne diese
+Ein häufiger Stolperstein: die [eVB-Nummer](/kfz-ratgeber/evb-nummer/). Ohne diese
 elektronische Versicherungsbestätigung kommst du im Antrag nicht weiter. Hol sie
 dir also vorab bei deiner Kfz-Versicherung – meist bekommst du sie in Minuten.
 
 ## Schritt 2: Identifizieren und Daten eingeben
 
 Jetzt geht es ans eigentliche Portal. Du startest auf der Plattform deiner
-[Zulassungsstelle](/zulassungsstelle) oder über das zentrale Portal, weist dich
+[Zulassungsstelle](/zulassungsstelle/) oder über das zentrale Portal, weist dich
 mit der eID aus und gibst Schritt für Schritt die Fahrzeugdaten ein.
 
 Das System fragt die **verdeckten Sicherheitscodes** ab: Du rubbelst die Felder
 auf der Zulassungsbescheinigung frei und gibst die Codes ein. Damit prüft die
 Behörde, dass du tatsächlich verfügungsberechtigt bist. Bei einer Ummeldung
 funktioniert das genauso – wie sich das von der klassischen
-[Ummeldung](/ratgeber/auto-ummelden) unterscheidet, ist im Grunde nur: kein
+[Ummeldung](/kfz-ratgeber/auto-ummelden/) unterscheidet, ist im Grunde nur: kein
 Wartezimmer.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Möchtest du ein Wunschkennzeichen,
 reservier es am besten <strong>vorher</strong> separat und nimm die Kombination in
 den i-Kfz-Antrag mit. Wie das geht, zeige ich dir unter
-<a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen reservieren</a>.</div>
+<a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Wunschkennzeichen reservieren</a>.</div>
 
 ## Schritt 3: Gebühren zahlen und absenden
 
 Am Ende des Antrags steht die Zahlung. Die Gebühren ziehst du per SEPA-Lastschrift
 oder Online-Bezahldienst – das ist in wenigen Klicks erledigt. Wie hoch die
 Beträge ausfallen, liest du im Überblick zu den
-[Zulassungskosten](/ratgeber/zulassungskosten).
+[Zulassungskosten](/kfz-ratgeber/zulassungskosten/).
 
 Sobald du absendest, übernimmt die Zulassungsstelle. In vielen Bezirken läuft die
 Prüfung inzwischen **vollautomatisiert** – dann hast du innerhalb von Minuten deine
@@ -97,7 +97,7 @@ Freigabe. Wo noch ein Mensch draufschaut, dauert es entsprechend etwas länger.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die volldigitale Variante
 ohne manuelle Nachbearbeitung gibt es erst seit der jüngsten Ausbaustufe. Mehr dazu
-findest du unter <a href="/ratgeber/i-kfz-stufe-4">i-Kfz Stufe 4</a>.</div>
+findest du unter <a href="/kfz-ratgeber/i-kfz-stufe-4/">i-Kfz Stufe 4</a>.</div>
 
 ## Schritt 4: Vorläufige Zulassung – ab jetzt darfst du fahren
 
@@ -114,7 +114,7 @@ bis irgendwelche Briefe ankommen.
 vorläufigen Gültigkeit und einzelne Abläufe können sich je nach Bundesland und
 Zulassungsbezirk unterscheiden. Sieh die Angaben hier als realistische
 Orientierung – ohne Gewähr und ohne Rechtsrat. Die rechtliche Grundlage ist die
-<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.</div>
+<a href="https://www.gesetze-im-internet.de/fzv_2023/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.</div>
 
 ## Schritt 5: Schilder prägen und Plakette per Post
 
@@ -143,7 +143,7 @@ Aus eigener Erfahrung sind es fast immer dieselben Dinge, die i-Kfz ausbremsen:
 4. **Manuelle Prüfung** in Bezirken ohne Vollautomatik – hier zählt die Auslastung.
 
 Wer diese Punkte vorab abhakt, kommt dem Idealfall „in 20 Minuten durch" sehr nah.
-Wie der reine Ablauf der [Online-Zulassung über i-Kfz](/ratgeber/i-kfz-online-zulassung)
+Wie der reine Ablauf der [Online-Zulassung über i-Kfz](/kfz-ratgeber/i-kfz-online-zulassung/)
 funktioniert, habe ich dort noch einmal kompakt aufgeschrieben.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Starte den Antrag nicht spät
@@ -170,7 +170,7 @@ geprägten Schildern an. Eine bebilderte Anleitung liegt der Sendung bei.</div>
 <div class="box box-frage"><strong>Geht das auch für einen Gebrauchtwagen?</strong>
 Ja. Sowohl Halterwechsel als auch Ummeldung laufen über i-Kfz. Worauf du dabei
 achten musst, steht im Ratgeber zum
-<a href="/ratgeber/gebrauchtwagen-zulassen">Gebrauchtwagen zulassen</a>.</div>
+<a href="/kfz-ratgeber/gebrauchtwagen-zulassen/">Gebrauchtwagen zulassen</a>.</div>
 
 ## Fazit
 
@@ -183,6 +183,6 @@ eben nicht vom Losfahren ab.
 Mein Rat: Bereite eID, Sicherheitscodes und eVB-Nummer sauber vor, dann wird aus
 „Wie lange dauert das?" ganz schnell „War das schon alles?". Wenn du wissen willst,
 ob dein Fall überhaupt online geht, schau in die
-[i-Kfz Voraussetzungen](/ratgeber/i-kfz-voraussetzungen). Aktuelle Zahlen zur
+[i-Kfz Voraussetzungen](/kfz-ratgeber/i-kfz-voraussetzungen/). Aktuelle Zahlen zur
 Digitalisierung der Zulassung findest du beim
 [Kraftfahrt-Bundesamt](https://www.kba.de).

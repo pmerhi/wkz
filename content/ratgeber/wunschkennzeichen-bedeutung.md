@@ -32,7 +32,7 @@ Zuerst kommt das **Unterscheidungszeichen** – also der Teil, der von deinem Wo
 abhängt. „M" steht für München, „B" für Berlin, „HH" für Hamburg. Diesen Teil kannst
 du dir nicht aussuchen, er ergibt sich aus deinem Zulassungsbezirk. Eine schöne
 Übersicht, welche Abkürzung wofür steht, findest du in meinem Ratgeber zu den
-[Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen).
+[Kennzeichen-Abkürzungen](/kfz-ratgeber/kennzeichen-abkuerzungen/).
 
 Danach folgt der eigentlich spannende Teil: die **Erkennungsnummer** aus Buchstaben
 und Zahlen. Hier liegt die ganze Kennzeichen-Bedeutung, die du selbst gestaltest.
@@ -54,12 +54,12 @@ Genauso beliebt: Buchstaben, die für etwas stehen. „GT" für den Sportwagen-F
 Anfangsbuchstaben der Kinder. Wer es kurz mag, nimmt nur **einen** Buchstaben – das
 wirkt aufgeräumt und ist auf dem Schild gut lesbar. Mehr dazu, wie du es richtig
 knackig hältst, findest du im Ratgeber zum
-[kurzen Kennzeichen](/ratgeber/kurzes-kennzeichen).
+[kurzen Kennzeichen](/kfz-ratgeber/kurzes-kennzeichen/).
 
 <div class="box box-frage"><strong>Sind manche Buchstaben verboten?</strong> Ja.
 Bestimmte Kombinationen sind bundesweit gesperrt, etwa solche mit politisch oder
 historisch belasteter Bedeutung. Welche das sind, habe ich im Ratgeber zu den
-<a href="/ratgeber/verbotene-wunschkennzeichen">verbotenen Wunschkennzeichen</a> gesammelt.</div>
+<a href="/kfz-ratgeber/verbotene-wunschkennzeichen/">verbotenen Wunschkennzeichen</a> gesammelt.</div>
 
 ## Beliebte Zahlen – Daten, Glück und Symbolik
 
@@ -75,7 +75,7 @@ Nummer eins. Manche kombinieren auch bewusst Buchstabe und Zahl zu einem Wort-Bi
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Egal wie kreativ deine
 Idee ist – am Preis ändert das nichts. Die Wunsch-Zuteilung kostet überall rund
 <strong>10–13 €</strong>. Was ein Wunschkennzeichen insgesamt kostet, habe ich dir im
-<a href="/ratgeber/wunschkennzeichen-kosten">Kosten-Ratgeber</a> aufgeschlüsselt.</div>
+<a href="/kfz-ratgeber/wunschkennzeichen-kosten/">Kosten-Ratgeber</a> aufgeschlüsselt.</div>
 
 ## Kennzeichen-Ideen, die wirklich funktionieren
 
@@ -90,7 +90,7 @@ Praxis bewährt haben:
 
 Wichtig ist, dass die Kombination zu dir passt – und dass sie technisch erlaubt ist.
 Wie viele Buchstaben und Zahlen genau möglich sind, erkläre ich im Detail im Ratgeber
-zu [Buchstaben und Zahlen im Wunschkennzeichen](/ratgeber/wunschkennzeichen-buchstaben-zahlen).
+zu [Buchstaben und Zahlen im Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-buchstaben-zahlen/).
 
 <div class="box box-check"><strong>Das brauchst du für die Reservierung:</strong>
 Deine Wunschkombination (am besten mit Alternativen), den Zulassungsbezirk deines
@@ -102,16 +102,16 @@ Hast du deine Bedeutung gefunden, geht es ans Eingemachte: Ist die Kombination n
 frei? Das prüfst du im Online-Portal deiner Zulassungsstelle in Sekunden. Ist sie
 verfügbar, kannst du sie direkt **reservieren** – wie das Schritt für Schritt
 funktioniert, zeige ich dir im
-[Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren).
+[Ratgeber zum Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/).
 
 Übrigens: Auch fürs **Motorrad** gelten eigene Formate, weil die Schilder kleiner und
 oft zweizeilig sind. Wenn du dort ein Wunschkennzeichen planst, lohnt der Blick in den
-[Motorrad-Ratgeber](/ratgeber/wunschkennzeichen-motorrad), bevor du dich auf eine
+[Motorrad-Ratgeber](/kfz-ratgeber/wunschkennzeichen-motorrad/), bevor du dich auf eine
 lange Kombination festlegst.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Welche Kombinationen erlaubt
 sind und welche Zeichenzahl gilt, regelt bundesweit die
-<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.
+<a href="https://www.gesetze-im-internet.de/fzv_2023/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.
 Einzelne Zulassungsstellen legen Details aber unterschiedlich aus – sieh die Angaben
 hier als Orientierung, nicht als rechtsverbindliche Auskunft, ohne Gewähr.</div>
 
@@ -128,12 +128,12 @@ Ein-Buchstaben-Kombinationen mit einstelligen Zahlen sind sehr gefragt.</div>
 <div class="box box-frage"><strong>Behält mein Kennzeichen seine Bedeutung beim
 Umzug?</strong> In vielen Fällen ja – das Kennzeichen darf seit der Reform meist
 mitgenommen werden. Details findest du im Ratgeber zum
-<a href="/ratgeber/wunschkennzeichen-mitnehmen">Wunschkennzeichen mitnehmen</a>.</div>
+<a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">Wunschkennzeichen mitnehmen</a>.</div>
 
 <div class="box box-frage"><strong>Wie lange ist meine Reservierung gültig?</strong>
 Das hängt vom Bezirk ab, meist sind es einige Tage bis Wochen. Mehr dazu in der
 Übersicht zur
-<a href="/ratgeber/wunschkennzeichen-reservierung-gultigkeit">Gültigkeit der Reservierung</a>.</div>
+<a href="/kfz-ratgeber/wunschkennzeichen-reservierung-gueltigkeit/">Gültigkeit der Reservierung</a>.</div>
 
 ## Fazit
 
@@ -144,5 +144,5 @@ erlaubt und noch frei ist.
 
 Mein Tipp zum Schluss: Spiel ein bisschen mit den Möglichkeiten, sammel zwei, drei
 Favoriten und prüf sie online. Wenn du deine Idee gefunden hast, geht es im
-[Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren)
+[Ratgeber zum Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 direkt weiter – damit aus deiner Bedeutung schnell ein echtes Schild wird.

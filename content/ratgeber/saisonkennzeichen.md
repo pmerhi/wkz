@@ -26,24 +26,24 @@ von Anfang April bis Ende Oktober.</div>
 
 ## Was ist ein Saisonkennzeichen überhaupt?
 
-Ein Saisonkennzeichen ist ein ganz normales [Kfz-Kennzeichen](/kennzeichen) – nur
+Ein Saisonkennzeichen ist ein ganz normales [Kfz-Kennzeichen](/kennzeichen/) – nur
 mit einem aufgedruckten **Betriebszeitraum**. Du legst beim Zulassen fest, in
 welchen Monaten dein Fahrzeug fahren darf. Innerhalb dieser Spanne ist es voll
 zugelassen, versichert und steuerpflichtig. Außerhalb ruht alles automatisch.
 
 Das Praktische daran: Du musst dein Auto oder Motorrad am Saisonende **nicht
 abmelden** und im Frühjahr nicht wieder anmelden. Es passiert von selbst. Geregelt
-ist das Ganze in der [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+ist das Ganze in der [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 
 Typische Kandidaten sind Motorräder, Cabrios, Wohnmobile und Oldtimer – also alles,
 was ohnehin nur einen Teil des Jahres bewegt wird. Für ein Motorrad habe ich dir
-die Besonderheiten im [Ratgeber zum Wunschkennzeichen fürs Motorrad](/ratgeber/wunschkennzeichen-motorrad)
+die Besonderheiten im [Ratgeber zum Wunschkennzeichen fürs Motorrad](/kfz-ratgeber/wunschkennzeichen-motorrad/)
 zusammengefasst.
 
 <div class="box box-check"><strong>Das brauchst du beim Zulassen:</strong>
 Personalausweis, Zulassungsbescheinigung Teil I und II, eVB-Nummer der Versicherung,
 gültige HU und – bei Halterwechsel – den Kaufvertrag. Den gewünschten Zeitraum
-nennst du einfach an der <a href="/zulassungsstelle">Zulassungsstelle</a>.</div>
+nennst du einfach an der <a href="/zulassungsstelle/">Zulassungsstelle</a>.</div>
 
 ## Saisonkennzeichen Kosten: Womit musst du rechnen?
 
@@ -54,7 +54,7 @@ Zulassungsgebühr plus die Schilder – fertig.
 Die reine Anmeldegebühr liegt meist bei **rund 30 €**. Dazu kommen zwei geprägte
 Schilder für etwa **20 bis 35 €**. Möchtest du dir deine Kombination aussuchen,
 kommt noch die Wunschgebühr dazu – wie viel das ist, habe ich im
-[Ratgeber zu den Wunschkennzeichen-Kosten](/ratgeber/wunschkennzeichen-kosten)
+[Ratgeber zu den Wunschkennzeichen-Kosten](/kfz-ratgeber/wunschkennzeichen-kosten/)
 aufgeschlüsselt.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Eine Neuanmeldung mit
@@ -86,7 +86,7 @@ Wähle den Betriebszeitraum nicht zu großzügig. Jeder zusätzliche Monat koste
 Versicherung und Steuer – auch wenn du gar nicht fährst.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Hol dir vor der Zulassung einen
-<a href="/ratgeber/kfz-versicherung-vergleich">Kfz-Versicherungsvergleich</a>. Nicht jeder
+<a href="/kfz-ratgeber/kfz-versicherung-vergleich/">Kfz-Versicherungsvergleich</a>. Nicht jeder
 Anbieter rechnet die Saison gleich ab, und die Beiträge unterscheiden sich
 spürbar – gerade bei Motorrädern.</div>
 
@@ -98,7 +98,7 @@ Jahressteuer fällig. Das Finanzamt rechnet das automatisch aus, sobald die
 Zulassungsstelle deine Daten übermittelt.
 
 Wie sich die Steuer für dein Fahrzeug zusammensetzt, kannst du im
-[Ratgeber zur Kfz-Steuer](/ratgeber/kfz-steuer-berechnen) nachrechnen. Bei einem
+[Ratgeber zur Kfz-Steuer](/kfz-ratgeber/kfz-steuer-berechnen/) nachrechnen. Bei einem
 Motorrad mit kleinem Hubraum ist der gesparte Betrag oft überschaubar – beim
 durstigen Oldtimer-Cabrio macht der Saison-Rabatt dagegen richtig was aus.
 
@@ -113,7 +113,7 @@ Fahrzeug **nicht am öffentlichen Verkehr teilnehmen** und auch nicht am Straße
 parken. Es muss auf privatem Grund stehen.
 
 Erwischt dich die Polizei mit einem Saisonkennzeichen außerhalb der Saison auf der
-Straße, ist das wie [Fahren ohne Zulassung](/ratgeber/fahren-ohne-zulassung) – mit
+Straße, ist das wie [Fahren ohne Zulassung](/kfz-ratgeber/fahren-ohne-zulassung/) – mit
 Bußgeld und im Zweifel Ärger mit der Versicherung. Das ist es nicht wert.
 
 <div class="box box-frage"><strong>Darf ich am letzten Tag der Saison noch fahren?
@@ -128,7 +128,7 @@ Wohnmobilisten und Oldtimer-Liebhaber profitieren am meisten.
 
 Weniger sinnvoll ist es, wenn du das Fahrzeug doch mal im Winter brauchst oder
 keinen privaten Stellplatz hast. Dann ist eine normale Zulassung oder – bei längeren
-Pausen – das [Stilllegen des Autos](/ratgeber/auto-stilllegen) die bessere Wahl.
+Pausen – das [Stilllegen des Autos](/kfz-ratgeber/auto-stilllegen/) die bessere Wahl.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Du bist dir unsicher zwischen
 Saison- und Ganzjahreszulassung? Rechne deine tatsächlichen Fahrmonate ehrlich
@@ -159,7 +159,7 @@ gut.</div>
 
 <div class="box box-frage"><strong>Kann ich ein Saisonkennzeichen als Wunschkennzeichen
 nehmen?</strong> Ja. Du kannst dir die Kombination ganz normal aussuchen und
-<a href="/ratgeber/wunschkennzeichen-reservieren">reservieren</a> – der Saison-Zusatz ändert
+<a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">reservieren</a> – der Saison-Zusatz ändert
 daran nichts.</div>
 
 <div class="box box-frage"><strong>Muss ich am Saisonende etwas tun?</strong> Nein.
@@ -181,4 +181,4 @@ fährst**. Dazu kommt der bequeme Automatik-Effekt: kein Ab- und Anmelden mehr.
 Wichtig ist nur, dass du den Betriebszeitraum realistisch wählst und das Fahrzeug in
 der Pause sicher abstellst. Wenn das passt, ist die Saison-Zulassung fast immer die
 clevere Wahl. Mehr zu den verschiedenen Schildervarianten findest du im
-[Überblick zu den Kennzeichen-Arten](/kennzeichen).
+[Überblick zu den Kennzeichen-Arten](/kennzeichen/).

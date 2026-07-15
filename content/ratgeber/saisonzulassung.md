@@ -33,7 +33,7 @@ in dem dein Fahrzeug zugelassen ist. Dieser Zeitraum muss **mindestens zwei und
 höchstens elf Monate** umfassen – volle Kalendermonate, nicht tageweise.
 
 Die rechtliche Grundlage findest du in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 Der Clou: Innerhalb deines Zeitraums ist alles wie bei einem normalen Auto.
 Außerhalb gilt das Fahrzeug automatisch als **vorübergehend stillgelegt** – du
 musst also nichts tun, wenn die Saison endet.
@@ -51,7 +51,7 @@ das vor allem:
 
 - **Cabrios und Roadster**, die im Winter ohnehin in der Garage bleiben.
 - **Motorräder** – hier ist das Saisonkennzeichen fast schon Standard. Mehr dazu
-  im [Ratgeber zum Wunschkennzeichen fürs Motorrad](/ratgeber/wunschkennzeichen-motorrad).
+  im [Ratgeber zum Wunschkennzeichen fürs Motorrad](/kfz-ratgeber/wunschkennzeichen-motorrad/).
 - **Wohnmobile und Wohnwagen**, die von Frühling bis Herbst on Tour sind.
 - **Oldtimer**, die als Schönwetterfahrzeuge bewegt werden.
 
@@ -67,18 +67,18 @@ an einem warmen Märztag fahren willst und die Saison erst im April beginnt,
 ## So meldest du dein Auto saisonweise an
 
 Der Ablauf unterscheidet sich kaum von einer normalen Zulassung. Wenn du dein
-[Auto anmelden](/ratgeber/auto-anmelden) willst, gibst du bei der
+[Auto anmelden](/kfz-ratgeber/auto-anmelden/) willst, gibst du bei der
 Zulassungsstelle einfach zusätzlich den gewünschten Saisonzeitraum an. Diese
 beiden Zahlen werden dann fest auf das Schild geprägt.
 
 Du kannst die Saisonzulassung sowohl **vor Ort** als auch zunehmend **online**
-erledigen. Über die [internetbasierte Fahrzeugzulassung (i-Kfz)](/ratgeber/i-kfz-online-zulassung)
+erledigen. Über die [internetbasierte Fahrzeugzulassung (i-Kfz)](/kfz-ratgeber/i-kfz-online-zulassung/)
 ist die Saison inzwischen in vielen Zulassungsbezirken auswählbar – bequem vom
-Sofa aus. Welche [Voraussetzungen](/ratgeber/i-kfz-voraussetzungen) du dafür
+Sofa aus. Welche [Voraussetzungen](/kfz-ratgeber/i-kfz-voraussetzungen/) du dafür
 erfüllen musst, habe ich dir separat aufgeschrieben.
 
 Ein Wunschkennzeichen ist auch mit Saison problemlos möglich. Du
-[reservierst deine Wunschkombination](/ratgeber/wunschkennzeichen-reservieren)
+[reservierst deine Wunschkombination](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 wie gewohnt – die Saisonzahlen kommen einfach zusätzlich aufs Schild.
 
 <div class="box box-frage"><strong>Kann ich das Saisonkennzeichen mitten im Jahr
@@ -90,7 +90,7 @@ und Prägung. Plane deine Saison deshalb von Anfang an realistisch.</div>
 
 Die einmaligen Kosten für die Zulassung selbst unterscheiden sich kaum von einer
 normalen Anmeldung: rund **30 €** Zulassungsgebühr plus etwa **20–35 €** für die
-geprägten Schilder. Details dazu im [Ratgeber zu den Zulassungskosten](/ratgeber/zulassungskosten).
+geprägten Schilder. Details dazu im [Ratgeber zu den Zulassungskosten](/kfz-ratgeber/zulassungskosten/).
 
 Der eigentliche Spareffekt steckt bei den **laufenden Kosten**: Kfz-Steuer und
 Versicherung berechnen sich anteilig nur für die Monate deiner Saison.
@@ -103,7 +103,7 @@ einen ordentlichen Betrag.</div>
 
 Die Steuer ziehst du dabei nicht jedes Jahr neu – das Finanzamt verlängert
 automatisch. Wie sich der Steuerbetrag zusammensetzt, kannst du im
-[Ratgeber Kfz-Steuer berechnen](/ratgeber/kfz-steuer-berechnen) nachlesen.
+[Ratgeber Kfz-Steuer berechnen](/kfz-ratgeber/kfz-steuer-berechnen/) nachlesen.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Alle Beträge sind
 realistische Spannen zur Orientierung. Gebühren und Versicherungstarife
@@ -119,7 +119,7 @@ Du darfst dein Auto in dieser Zeit **nicht im öffentlichen Verkehr bewegen** �
 und auch **nicht im öffentlichen Raum parken**. Es muss auf privatem Grund
 stehen, also in der Garage, im Carport oder auf deinem eigenen Stellplatz. Wer
 mit abgelaufener Saison erwischt wird, fährt faktisch ohne Zulassung. Was das
-bedeutet, erklärt der [Ratgeber zum Fahren ohne Zulassung](/ratgeber/fahren-ohne-zulassung).
+bedeutet, erklärt der [Ratgeber zum Fahren ohne Zulassung](/kfz-ratgeber/fahren-ohne-zulassung/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Während der Saisonpause
 besteht in der Regel nur eine eingeschränkte Ruheversicherung. Beschädigungen
@@ -133,8 +133,8 @@ der neuen Saison nachholen, bevor du losfährst.
 ## Saisonzulassung vs. dauerhaft an- und abmelden
 
 Theoretisch könntest du dein Fahrzeug auch jedes Jahr neu
-[anmelden](/ratgeber/auto-anmelden) und im Winter wieder
-[abmelden](/ratgeber/auto-abmelden). Aber das ist deutlich umständlicher: zwei
+[anmelden](/kfz-ratgeber/auto-anmelden/) und im Winter wieder
+[abmelden](/kfz-ratgeber/auto-abmelden/). Aber das ist deutlich umständlicher: zwei
 Behördengänge pro Jahr, jedes Mal Gebühren, und bei der Abmeldung verlierst du
 unter Umständen dein Wunschkennzeichen.
 
@@ -159,12 +159,12 @@ nächste Saison von selbst wieder – ohne Behördengang.</div>
 
 <div class="box box-frage"><strong>Kann ich ein Saisonkennzeichen bei einem
 Umzug mitnehmen?</strong> Seit der Kennzeichenreform ist die Mitnahme bundesweit
-möglich. Mehr dazu im <a href="/ratgeber/wunschkennzeichen-mitnehmen">Ratgeber Wunschkennzeichen mitnehmen</a>.</div>
+möglich. Mehr dazu im <a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">Ratgeber Wunschkennzeichen mitnehmen</a>.</div>
 
 <div class="box box-frage"><strong>Lohnt sich die Saisonzulassung für mein
 Motorrad?</strong> In den meisten Fällen ja. Maschinen stehen im Winter ohnehin
 still – mehr Infos beim <a href="https://www.adac.de" rel="nofollow noopener" target="_blank">ADAC</a> und im
-<a href="/ratgeber/wunschkennzeichen-motorrad">Motorrad-Ratgeber</a>.</div>
+<a href="/kfz-ratgeber/wunschkennzeichen-motorrad/">Motorrad-Ratgeber</a>.</div>
 
 ## Fazit
 
@@ -176,5 +176,5 @@ die clevere Lösung.
 
 Wichtig bleibt nur: Halte dich an deinen Zeitraum, parke außerhalb der Saison
 auf Privatgrund und behalte die HU im Blick. Wenn du so weit bist, zeigt dir der
-[Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden) Schritt für Schritt, wie
+[Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/) Schritt für Schritt, wie
 du dein Fahrzeug – mit oder ohne Wunschkennzeichen – auf die Straße bringst.

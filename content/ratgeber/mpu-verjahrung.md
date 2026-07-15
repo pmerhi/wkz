@@ -38,7 +38,7 @@ Sache darf dir dann in der Regel nicht mehr als Beleg für fehlende Eignung
 entgegengehalten werden.
 
 Wenn du wissen willst, wie das Punktesystem dahinter tickt, lies meinen Ratgeber
-zu den [Punkten in Flensburg](/ratgeber/punkte-in-flensburg) – das ist die
+zu den [Punkten in Flensburg](/kfz-ratgeber/punkte-in-flensburg/) – das ist die
 Grundlage für fast alles, was hier folgt.
 
 ## Die wichtigsten MPU Fristen im Überblick
@@ -80,13 +80,13 @@ Es gibt nur wenige legale Wege, die Untersuchung **nicht** machen zu müssen:
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Wer eine bestandskräftig
 angeordnete MPU ignoriert und trotzdem fährt, riskiert
-<a href="/ratgeber/fahren-ohne-fuhrerschein">Fahren ohne Fahrerlaubnis</a> – eine Straftat
+<a href="/kfz-ratgeber/fahren-ohne-fuehrerschein/">Fahren ohne Fahrerlaubnis</a> – eine Straftat
 mit empfindlichen Folgen. „Umgehen" durch Aussitzen ist also gefährlich.</div>
 
 Die ehrlichste Abkürzung ist deshalb keine Abkürzung, sondern eine gute
 **Vorbereitung**. Wer sauber vorbereitet zur MPU geht, besteht sie oft im ersten
 Anlauf – das spart am Ende mehr Zeit als jedes Aussitzen. Mehr dazu in meinem
-Ratgeber zur [MPU-Vorbereitung](/ratgeber/mpu-vorbereitung).
+Ratgeber zur [MPU-Vorbereitung](/kfz-ratgeber/mpu-vorbereitung/).
 
 ## Tilgung und das 10-Jahres-Limit bei Alkohol
 
@@ -108,7 +108,7 @@ bestandene MPU ist demgegenüber meist nach wenigen Monaten erledigt.
 nach Anlass grob <strong>400–800 €</strong>, eine seriöse Vorbereitung noch einmal
 <strong>einige Hundert Euro</strong>. Klingt viel – ist aber günstiger als zehn
 Jahre Mobilitätsverlust. Was im Detail anfällt, findest du unter
-<a href="/ratgeber/mpu-kosten">MPU-Kosten</a>.</div>
+<a href="/kfz-ratgeber/mpu-kosten/">MPU-Kosten</a>.</div>
 
 ## Wie du deinen Registerstand prüfst
 
@@ -128,7 +128,7 @@ Personalausweis zur Identifizierung und etwas Geduld. Die Auskunft selbst ist f�
 dich in der Regel gebührenfrei.</div>
 
 Ablauf und Dauer der MPU an sich habe ich dir separat aufgeschrieben – schau in
-den [MPU-Ablauf](/ratgeber/mpu-ablauf), wenn du wissen willst, was im
+den [MPU-Ablauf](/kfz-ratgeber/mpu-ablauf/), wenn du wissen willst, was im
 Gutachtengespräch wirklich passiert.
 
 ## Häufige Fragen zur MPU-Verjährung
@@ -161,7 +161,7 @@ MPU selbst läuft nie von allein ab.
 
 Mein ehrlicher Rat: Prüfe zuerst deinen Registerstand, rechne nach, ob sich
 Warten überhaupt lohnt, und setze im Zweifel auf eine gute Vorbereitung statt aufs
-Aussitzen. Wer die [MPU gut vorbereitet](/ratgeber/mpu-vorbereitung) angeht,
+Aussitzen. Wer die [MPU gut vorbereitet](/kfz-ratgeber/mpu-vorbereitung/) angeht,
 besteht sie meist schneller, als jede Frist verstreichen könnte. Eine erste
 Orientierung zu Anlässen und Behördenfragen findest du auch beim
 [ADAC](https://www.adac.de).

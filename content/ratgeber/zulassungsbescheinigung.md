@@ -38,8 +38,8 @@ Hauptuntersuchung**.
 
 <div class="box box-check"><strong>Das brauchst du Teil I unter anderem für:</strong>
 Verkehrskontrollen, den Reifenwechsel (zulässige Größen), die Hauptuntersuchung beim TÜV,
-das Berechnen der <a href="/ratgeber/kfz-steuer-berechnen">Kfz-Steuer</a> und natürlich für jede
-<a href="/ratgeber/auto-ummelden">Ummeldung</a> oder <a href="/ratgeber/auto-abmelden">Abmeldung</a>.</div>
+das Berechnen der <a href="/kfz-ratgeber/kfz-steuer-berechnen/">Kfz-Steuer</a> und natürlich für jede
+<a href="/kfz-ratgeber/auto-ummelden/">Ummeldung</a> oder <a href="/kfz-ratgeber/auto-abmelden/">Abmeldung</a>.</div>
 
 ## Teil II = Fahrzeugbrief: der Eigentumsnachweis
 
@@ -50,7 +50,7 @@ Handschuhfach, sondern an einen sicheren Ort zu Hause.
 Warum? Teil II dokumentiert die Halterkette und dient beim Verkauf als zentraler Nachweis.
 Wer den „Brief" besitzt, gilt zwar nicht automatisch als Eigentümer – ein verbreiteter
 Irrtum –, aber ohne ihn lässt sich ein Fahrzeug praktisch nicht ummelden oder verkaufen.
-Genau deshalb ist er beim [Halterwechsel](/ratgeber/halterwechsel-auto) so zentral.
+Genau deshalb ist er beim [Halterwechsel](/kfz-ratgeber/halterwechsel-auto/) so zentral.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Bewahre Teil II niemals im Auto auf.
 Wird dein Wagen gestohlen und liegt der „Brief" drin, machst du es Dieben unnötig leicht,
@@ -65,10 +65,10 @@ eingeprägt habe:
 - **Teil I (Schein)** = bewegt sich mit dem Auto. Mitführen, Kontrolle, HU, Reifen.
 - **Teil II (Brief)** = bleibt zu Hause. Eigentum, Verkauf, Ummeldung, Halterwechsel.
 
-Beim [Auto verkaufen und abmelden](/ratgeber/auto-verkaufen-abmelden) brauchst du beide
+Beim [Auto verkaufen und abmelden](/kfz-ratgeber/auto-verkaufen-abmelden/) brauchst du beide
 Teile: Teil II übergibst du dem Käufer (oder er wird auf ihn umgeschrieben), Teil I
-begleitet das Fahrzeug. Lässt du ein [Auto neu zu](/ratgeber/auto-anmelden) oder
-[meldest es um](/ratgeber/auto-ummelden), legst du ebenfalls beide Dokumente vor.
+begleitet das Fahrzeug. Lässt du ein [Auto neu zu](/kfz-ratgeber/auto-anmelden/) oder
+[meldest es um](/kfz-ratgeber/auto-ummelden/), legst du ebenfalls beide Dokumente vor.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Fotografiere beide Teile vorne und hinten
 ab und speichere die Bilder sicher. Geht ein Dokument verloren, hast du FIN und die wichtigen
@@ -78,7 +78,7 @@ Nummern sofort zur Hand – das beschleunigt die Neuausstellung enorm.</div>
 
 Das ist der Klassiker: Der Schein verschwindet, oft beim Umzug oder im Chaos des
 Handschuhfachs. Keine Panik – verloren ist nicht gleich verloren. Du beantragst bei deiner
-[Zulassungsstelle](/zulassungsstelle) eine Ersatzausfertigung.
+[Zulassungsstelle](/zulassungsstelle/) eine Ersatzausfertigung.
 
 So gehst du vor, wenn die **Zulassungsbescheinigung Teil 1 verloren** ist: Du erstattest
 zunächst eine eidesstattliche Versicherung über den Verbleib (das nimmt die Behörde direkt
@@ -89,9 +89,9 @@ dir ein neuer Teil I ausgestellt.
 schlichtem Verlust meist nicht. Wurde der Schein aber <strong>gestohlen</strong>, ist eine Anzeige sinnvoll
 und wird von manchen Zulassungsstellen verlangt. Frag im Zweifel kurz bei deiner Behörde nach.</div>
 
-Mehr Details zum Ablauf habe ich dir im [Ratgeber Fahrzeugschein verloren](/ratgeber/fahrzeugschein-verloren)
+Mehr Details zum Ablauf habe ich dir im [Ratgeber Fahrzeugschein verloren](/kfz-ratgeber/fahrzeugschein-verloren/)
 zusammengestellt. Ist dagegen der **Brief** weg, schau in den
-[Ratgeber Fahrzeugbrief verloren](/ratgeber/fahrzeugbrief-verloren) – das Verfahren ist
+[Ratgeber Fahrzeugbrief verloren](/kfz-ratgeber/fahrzeugbrief-verloren/) – das Verfahren ist
 ähnlich, aber etwas aufwändiger, weil hier zusätzlich eine Aufgebotsfrist greifen kann.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Die Ersatzausstellung von Teil I
@@ -104,16 +104,16 @@ Zulassungsstelle fest.</div>
 Geregelt ist das Ganze in der **Fahrzeug-Zulassungsverordnung (FZV)**. Sie schreibt vor,
 welche Daten in den Dokumenten stehen, dass Teil I mitzuführen ist und wie eine
 Ersatzausstellung abläuft. Wenn du es genau wissen willst, kannst du die
-[FZV im Original nachlesen](https://www.gesetze-im-internet.de/fzv_2011/).
+[FZV im Original nachlesen](https://www.gesetze-im-internet.de/fzv_2023/).
 
-Gut zu wissen für die digitale Zukunft: Mit der [i-Kfz-Online-Zulassung](/ratgeber/i-kfz-online-zulassung)
+Gut zu wissen für die digitale Zukunft: Mit der [i-Kfz-Online-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/)
 spielen die aufgedruckten **Sicherheitscodes** auf beiden Dokumenten eine zentrale Rolle.
 Du rubbelst dort verdeckte Felder frei, um online eine Ummeldung oder Abmeldung zu
-bestätigen. Mehr dazu im [Ratgeber zur Zulassungsbescheinigung im i-Kfz-Verfahren](/ratgeber/i-kfz-voraussetzungen).
+bestätigen. Mehr dazu im [Ratgeber zur Zulassungsbescheinigung im i-Kfz-Verfahren](/kfz-ratgeber/i-kfz-voraussetzungen/).
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die Sicherheitscodes sind nur
 einmal verwendbar. Hast du eine Online-Abmeldung durchgeführt, ist der Code „verbraucht".
-Für eine spätere <a href="/ratgeber/wiederzulassung">Wiederzulassung</a> brauchst du dann neue
+Für eine spätere <a href="/kfz-ratgeber/wiederzulassung/">Wiederzulassung</a> brauchst du dann neue
 Dokumente mit frischem Code.</div>
 
 ## Häufige Fragen zur Zulassungsbescheinigung
@@ -146,5 +146,5 @@ wenn der Brief im Wagen liegt.
 Geht ein Dokument verloren, ist das kein Drama: Mit Ausweis, einer eidesstattlichen
 Versicherung und ein paar Euro bekommst du Ersatz. Wer beide Teile abfotografiert und gut
 verwahrt, ist für Verkauf, Ummeldung und Notfall bestens gerüstet. Wenn der nächste
-Halterwechsel ansteht, hilft dir mein [Ratgeber zum Halterwechsel](/ratgeber/halterwechsel-auto)
+Halterwechsel ansteht, hilft dir mein [Ratgeber zum Halterwechsel](/kfz-ratgeber/halterwechsel-auto/)
 weiter.

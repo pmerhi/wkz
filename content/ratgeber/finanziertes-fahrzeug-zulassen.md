@@ -29,7 +29,7 @@ ist der Kern der ganzen Geschichte.</div>
 
 Das deutsche Zulassungsrecht kennt zwei Rollen, die man oft durcheinanderwirft.
 Der **Halter** ist die Person, die das Auto im Alltag nutzt, dafür Versicherung
-und Steuer zahlt und in der [Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung)
+und Steuer zahlt und in der [Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/)
 eingetragen ist. Der **Eigentümer** ist dagegen rechtlich der „Besitzer" im
 juristischen Sinn.
 
@@ -60,7 +60,7 @@ liegt bei der Bank, bis die letzte Rate fließt – dann bekommst du es ausgehä
 <div class="box box-frage"><strong>Brauche ich den Brief nicht für die
 Zulassung?</strong> Bei der Erstzulassung wird die Teil II in der Regel direkt
 vom Händler an die Bank geschickt, oder die Bank stellt eine Vollmacht aus. Bei
-einem späteren <a href="/ratgeber/halterwechsel-auto">Halterwechsel</a> musst du den Brief
+einem späteren <a href="/kfz-ratgeber/halterwechsel-auto/">Halterwechsel</a> musst du den Brief
 oder eine Freigabe der Bank vorlegen.</div>
 
 ## So läuft die Zulassung eines finanzierten Autos ab
@@ -72,12 +72,12 @@ Gebrauchtfahrzeug anmelden, läuft es so:
 1. Du klärst mit der Bank, **wer den Brief vorlegt** – häufig erhältst du eine
    schriftliche Vollmacht oder die Teil II direkt zugeschickt.
 2. Du besorgst die übrigen Unterlagen (siehe Checkliste unten).
-3. Du gehst zur [Zulassungsstelle](/zulassungsstelle) oder nutzt die
-   [Online-Zulassung über i-Kfz](/ratgeber/i-kfz-online-zulassung).
+3. Du gehst zur [Zulassungsstelle](/zulassungsstelle/) oder nutzt die
+   [Online-Zulassung über i-Kfz](/kfz-ratgeber/i-kfz-online-zulassung/).
 4. Du wirst als **Halter** eingetragen, das Eigentum bleibt bei der Bank vermerkt.
 
 Der eigentliche Ablauf unterscheidet sich kaum von einer normalen
-[Auto-Anmeldung](/ratgeber/auto-anmelden). Nur das Thema Brief musst du vorab
+[Auto-Anmeldung](/kfz-ratgeber/auto-anmelden/). Nur das Thema Brief musst du vorab
 sauber organisieren – sonst stehst du am Schalter und es fehlt das wichtigste
 Dokument.
 
@@ -110,12 +110,12 @@ sondern in den monatlichen Raten und der Versicherungseinstufung.</div>
 Egal ob finanziert oder geleast: Ohne **eVB-Nummer** läuft nichts. Sie ist dein
 Nachweis, dass eine Kfz-Haftpflicht besteht, und du bekommst sie direkt von deiner
 Versicherung. Wie das genau funktioniert, habe ich dir im
-[Ratgeber zur eVB-Nummer](/ratgeber/evb-nummer) zusammengefasst.
+[Ratgeber zur eVB-Nummer](/kfz-ratgeber/evb-nummer/) zusammengefasst.
 
 Banken und Leasinggesellschaften verlangen bei finanzierten Fahrzeugen außerdem
 fast immer eine **Vollkaskoversicherung** – schließlich ist das Auto ihre
 Sicherheit. Das treibt die Prämie nach oben, schützt aber auch dich. Ein
-[Versicherungsvergleich](/ratgeber/kfz-versicherung-vergleich) vor Vertragsschluss
+[Versicherungsvergleich](/kfz-ratgeber/kfz-versicherung-vergleich/) vor Vertragsschluss
 lohnt sich hier doppelt. Die Kfz-Steuer wird ohnehin per Lastschrift eingezogen –
 ohne SEPA-Mandat erteilt die Zulassungsstelle keine Anmeldung.
 
@@ -129,13 +129,13 @@ Anfang an zusammen.</div>
 Solange die Finanzierung läuft, gehört dir das Auto nicht allein. Willst du es
 früher verkaufen, brauchst du die **Ablösung des Restkredits** und die Freigabe
 der Bank, die dir dann die Teil II aushändigt. Erst danach kannst du das Fahrzeug
-sauber [abmelden und verkaufen](/ratgeber/auto-verkaufen-abmelden).
+sauber [abmelden und verkaufen](/kfz-ratgeber/auto-verkaufen-abmelden/).
 
 Genau deshalb solltest du den Fahrzeugbrief – pardon, die Teil II – auch nach dem
 Abbezahlen gut verwahren. Geht sie verloren, wird es aufwendig, wie ich im
-[Ratgeber zum verlorenen Fahrzeugbrief](/ratgeber/fahrzeugbrief-verloren)
+[Ratgeber zum verlorenen Fahrzeugbrief](/kfz-ratgeber/fahrzeugbrief-verloren/)
 beschrieben habe. Die rechtlichen Grundlagen zur Zulassung findest du übrigens in
-der [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/),
+der [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/),
 und ein guter neutraler Überblick gelingt dir beim [ADAC](https://www.adac.de).
 
 ## Häufige Fragen
@@ -166,5 +166,5 @@ Teil II vorlegt, halte eVB, HU und SEPA-Mandat bereit – dann steht der Anmeldu
 nichts im Weg.
 
 Wenn du das Auto frisch gekauft hast, hilft dir mein
-[Ratgeber zum Gebrauchtwagen zulassen](/ratgeber/gebrauchtwagen-zulassen) beim
+[Ratgeber zum Gebrauchtwagen zulassen](/kfz-ratgeber/gebrauchtwagen-zulassen/) beim
 nächsten Schritt – inklusive aller Unterlagen, die du am Schalter brauchst.

@@ -43,7 +43,7 @@ kleines Verwarnungsgeld nach sich ziehen. Genau deshalb solltest du den
 <div class="box box-wichtig"><strong>Wichtig:</strong> Verwechsle den verlorenen
 Fahrzeugschein nicht mit dem Fahrzeugbrief. Ist der Brief (Teil 2) weg, gilt ein
 anderes, aufwendigeres Verfahren – das erkläre ich dir im
-<a href="/ratgeber/fahrzeugbrief-verloren">Ratgeber Fahrzeugbrief verloren</a>.</div>
+<a href="/kfz-ratgeber/fahrzeugbrief-verloren/">Ratgeber Fahrzeugbrief verloren</a>.</div>
 
 ## Verloren oder gestohlen? Der erste Schritt entscheidet
 
@@ -71,7 +71,7 @@ Frust – und absolut vermeidbar.
 Personalausweis oder Reisepass (bei Pass mit Meldebescheinigung), die
 Zulassungsbescheinigung Teil 2 (Fahrzeugbrief), bei Diebstahl die Verlust- oder
 Diebstahlanzeige und – falls du nicht selbst kommst – eine
-<a href="/ratgeber/zulassungsdienst-vollmacht">Vollmacht für den Zulassungsdienst</a>.</div>
+<a href="/kfz-ratgeber/zulassungsdienst-vollmacht/">Vollmacht für den Zulassungsdienst</a>.</div>
 
 In vielen Bezirken wirst du vor Ort eine **Verlusterklärung** unterschreiben.
 Das ist Routine, geht schnell und kostet dich keinen Cent extra. Bring dein
@@ -81,16 +81,16 @@ nötig, solange sich an den Fahrzeugdaten nichts ändert.
 ## Der Ablauf bei der Zulassungsstelle
 
 So läuft es typischerweise ab, wenn du den Ersatz vor Ort beantragst: Du meldest
-dich bei deiner zuständigen [Zulassungsstelle](/zulassungsstelle), gibst die
+dich bei deiner zuständigen [Zulassungsstelle](/zulassungsstelle/), gibst die
 Verlusterklärung ab, legst deine Unterlagen vor und zahlst die Gebühr.
 Anschließend wird der alte Schein im System für ungültig erklärt und du
 bekommst einen neuen ausgestellt – meist direkt am selben Tag.
 
 Manche Behörden bieten den Ersatz inzwischen auch teildigital an. Ob das in
 deinem Bezirk geht, hängt vom Stand der
-[internetbasierten Fahrzeugzulassung (i-Kfz)](/ratgeber/i-kfz-online-zulassung)
+[internetbasierten Fahrzeugzulassung (i-Kfz)](/kfz-ratgeber/i-kfz-online-zulassung/)
 ab. Wie der Online-Weg generell funktioniert und welche
-[Voraussetzungen](/ratgeber/i-kfz-voraussetzungen) gelten, habe ich dir separat
+[Voraussetzungen](/kfz-ratgeber/i-kfz-voraussetzungen/) gelten, habe ich dir separat
 aufgeschrieben.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Du musst nicht in deine
@@ -111,7 +111,7 @@ wenn sich dein Kennzeichen ändert.</div>
 
 Im Vergleich zu anderen Behördengängen ist das günstig. Eine vollständige
 Übersicht über typische Behördenkosten findest du in meinem
-[Ratgeber zu den Zulassungskosten](/ratgeber/zulassungskosten).
+[Ratgeber zu den Zulassungskosten](/kfz-ratgeber/zulassungskosten/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die genauen Beträge können
 sich je nach Bundesland und Zulassungsbezirk unterscheiden, einige Kommunen
@@ -130,9 +130,9 @@ Trotzdem bist du verpflichtet, das Dokument mitzuführen. Fährst du ohne, riski
 du bei einer Kontrolle ein kleines Verwarnungsgeld. Mein Rat: Beantrag den Ersatz
 zeitnah und fahr in der Zwischenzeit nur das Nötigste. Mehr zu den Folgen einer
 fehlenden Zulassung findest du unter
-[Fahren ohne Zulassung](/ratgeber/fahren-ohne-zulassung). Die rechtlichen
+[Fahren ohne Zulassung](/kfz-ratgeber/fahren-ohne-zulassung/). Die rechtlichen
 Grundlagen kannst du bei Bedarf direkt in der
-[Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2011/)
+[Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2023/)
 nachlesen.
 
 ## Häufige Fragen zum verlorenen Fahrzeugschein
@@ -154,7 +154,7 @@ gibst ihn bei der Behörde ab.</div>
 
 <div class="box box-frage"><strong>Geht der Ersatz auch online?</strong> In
 einigen Bezirken ja, abhängig vom Ausbaustand der i-Kfz-Plattform. Frag bei deiner
-<a href="/zulassungsstelle">Zulassungsstelle</a> nach oder prüf das Online-Portal deiner
+<a href="/zulassungsstelle/">Zulassungsstelle</a> nach oder prüf das Online-Portal deiner
 Kommune.</div>
 
 ## Fazit
@@ -166,5 +166,5 @@ Unterlagen ein und beantrag die Neuausstellung bei deiner Zulassungsstelle. Meis
 hältst du den neuen Schein noch am selben Tag in der Hand.
 
 Falls bei dir nicht nur der Schein, sondern auch der Brief fehlt, lies unbedingt
-weiter im [Ratgeber Fahrzeugbrief verloren](/ratgeber/fahrzeugbrief-verloren) –
+weiter im [Ratgeber Fahrzeugbrief verloren](/kfz-ratgeber/fahrzeugbrief-verloren/) –
 denn dann wird das Verfahren etwas aufwendiger.

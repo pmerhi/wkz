@@ -39,7 +39,7 @@ verschiedene Aufgaben:
   Einsatz.
 
 Hast du nur den Schein verloren, ist das eine andere – meist einfachere – Sache;
-dazu habe ich einen eigenen [Ratgeber zum Fahrzeugschein verloren](/ratgeber/fahrzeugschein-verloren)
+dazu habe ich einen eigenen [Ratgeber zum Fahrzeugschein verloren](/kfz-ratgeber/fahrzeugschein-verloren/)
 geschrieben. Hier geht es um den Brief, also die ZB II.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Der Fahrzeugbrief ist <em>kein</em>
@@ -72,7 +72,7 @@ Erklärung kannst du oft direkt bei der Behörde unterschreiben.
 Vermutest du einen **Diebstahl**, erstatte zusätzlich Anzeige bei der Polizei. Das
 schützt dich, falls jemand mit deinem Brief Schindluder treibt. Welche Behörde
 für dich zuständig ist, findest du über unsere
-[Übersicht der Zulassungsstellen](/zulassungsstelle).
+[Übersicht der Zulassungsstellen](/zulassungsstelle/).
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Bevor ein
 Ersatz-Fahrzeugbrief ausgestellt wird, kann eine
@@ -124,8 +124,8 @@ Recht auf dem Originaldokument als Eigentumsnachweis.
 
 Beantrage also zuerst den Ersatz und plane die Bearbeitungszeit in den Verkauf ein.
 Wie du beim Verkauf sonst vorgehst, vom Abmelden bis zur Übergabe, liest du im
-[Ratgeber Auto verkaufen und abmelden](/ratgeber/auto-verkaufen-abmelden). Geht es
-nur um den Halterwechsel, hilft dir der [Ratgeber zum Halterwechsel](/ratgeber/halterwechsel-auto)
+[Ratgeber Auto verkaufen und abmelden](/kfz-ratgeber/auto-verkaufen-abmelden/). Geht es
+nur um den Halterwechsel, hilft dir der [Ratgeber zum Halterwechsel](/kfz-ratgeber/halterwechsel-auto/)
 weiter.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Gebühren, Fristen und der
@@ -142,9 +142,9 @@ zusätzlich digital. Und gib den Brief niemals leichtfertig aus der Hand, auch n
 bei einer Probefahrt mit einem Kaufinteressenten.
 
 Mehr Hintergrund zu den beiden Dokumenten und ihren Funktionen findest du im
-[Ratgeber zur Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung). Die
+[Ratgeber zur Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/). Die
 rechtlichen Grundlagen stehen in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/),
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/),
 nachlesbare Praxis-Tipps bietet außerdem der [ADAC](https://www.adac.de).
 
 ## Häufige Fragen
@@ -178,5 +178,5 @@ richtigen Unterlagen, etwas Gebühr und ein bisschen Geduld hast du die neue
 Zulassungsbescheinigung Teil 2 bald in der Hand.
 
 Wenn du ohnehin gerade Papierkram sortierst: Schau dir auch den
-[Ratgeber zum Fahrzeugschein verloren](/ratgeber/fahrzeugschein-verloren) an – dann
+[Ratgeber zum Fahrzeugschein verloren](/kfz-ratgeber/fahrzeugschein-verloren/) an – dann
 bist du für beide Dokumente gewappnet, falls mal wieder etwas verschwindet.

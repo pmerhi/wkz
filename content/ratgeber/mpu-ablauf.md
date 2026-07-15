@@ -30,13 +30,13 @@ bist.</div>
 
 Eine MPU wird nicht aus heiterem Himmel angeordnet. Sie ist die Folge einer
 Entscheidung der Fahrerlaubnisbehörde – meist nach Alkohol- oder Drogenfahrten,
-zu vielen [Punkten in Flensburg](/ratgeber/punkte-in-flensburg) oder erheblichen
+zu vielen [Punkten in Flensburg](/kfz-ratgeber/punkte-in-flensburg/) oder erheblichen
 Straftaten im Zusammenhang mit dem Fahren. Die Behörde zweifelt deine Eignung
 an und will sie geklärt wissen, bevor du den Führerschein zurückbekommst.
 
 Bevor du überhaupt zum Test eingeladen wirst, beantragst du die Neuerteilung
 deiner Fahrerlaubnis. Wie das praktisch abläuft und was dabei sonst noch zu
-beachten ist, habe ich im [Ratgeber zur MPU-Vorbereitung](/ratgeber/mpu-vorbereitung)
+beachten ist, habe ich im [Ratgeber zur MPU-Vorbereitung](/kfz-ratgeber/mpu-vorbereitung/)
 ausführlicher beschrieben.
 
 ## Der MPU-Ablauf besteht aus drei Teilen
@@ -128,7 +128,7 @@ neuer Kosten.
 je nach Anlass etwa <strong>400–800 €</strong>. Rechnest du Abstinenznachweise
 (grob 100–200 € je Screening) und eine Verkehrstherapie oder Vorbereitung dazu,
 landest du realistisch schnell im Bereich von <strong>1.000–2.000 €</strong>. Mehr
-Details findest du im <a href="/ratgeber/mpu-kosten">Ratgeber zu den MPU-Kosten</a>.</div>
+Details findest du im <a href="/kfz-ratgeber/mpu-kosten/">Ratgeber zu den MPU-Kosten</a>.</div>
 
 ## Was passiert nach der MPU?
 
@@ -152,7 +152,7 @@ ehrliche Aufarbeitung wichtiger als auswendig Gelerntes.</div>
 <div class="box box-frage"><strong>Kann ich die MPU ohne Vorbereitung
 bestehen?</strong> Theoretisch ja, praktisch selten. Gerade beim psychologischen
 Gespräch scheitern viele an fehlender Aufarbeitung. Eine gezielte
-<a href="/ratgeber/mpu-vorbereitung">MPU-Vorbereitung</a> erhöht die Chancen deutlich.</div>
+<a href="/kfz-ratgeber/mpu-vorbereitung/">MPU-Vorbereitung</a> erhöht die Chancen deutlich.</div>
 
 <div class="box box-frage"><strong>Was passiert, wenn ich durchfalle?</strong> Du
 kannst die MPU wiederholen. Ein negatives Gutachten musst du nicht einreichen –
@@ -161,7 +161,7 @@ nächsten Anlauf.</div>
 
 <div class="box box-frage"><strong>Verjährt eine MPU-Anordnung
 irgendwann?</strong> Eintragungen und damit verbundene Fristen können verfallen.
-Die Details dazu habe ich im <a href="/ratgeber/mpu-verjahrung">Ratgeber zur MPU-Verjährung</a>
+Die Details dazu habe ich im <a href="/kfz-ratgeber/mpu-verjaehrung/">Ratgeber zur MPU-Verjährung</a>
 zusammengetragen – sie hängen stark vom Einzelfall ab.</div>
 
 <div class="box box-frage"><strong>Ist der Leistungstest schwer?</strong> Für die
@@ -177,7 +177,7 @@ nachvollziehbar du dein Verhalten aufgearbeitet hast.
 
 Wenn du den „Idiotentest" als das siehst, was er ist – eine klar strukturierte
 Prüfung deiner Eignung – nimmst du ihm viel von seinem Schrecken. Den nächsten
-sinnvollen Schritt findest du im [Ratgeber zur MPU-Vorbereitung](/ratgeber/mpu-vorbereitung).
+sinnvollen Schritt findest du im [Ratgeber zur MPU-Vorbereitung](/kfz-ratgeber/mpu-vorbereitung/).
 Wer mehr über Punkte und ihre Folgen wissen will, schaut beim
 [TÜV-Verband](https://www.tuev-verband.de) oder beim
 [ADAC](https://www.adac.de) vorbei – beide ordnen das Thema seriös ein.

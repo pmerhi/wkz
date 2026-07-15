@@ -42,7 +42,7 @@ zusammenhängt.
 
 <div class="box box-check"><strong>Das brauchst du für die Berechnung:</strong>
 Hubraum in cm³, CO₂-Ausstoß in g/km, Kraftstoffart und das Datum der
-Erstzulassung. Alle Werte findest du in deiner <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a>
+Erstzulassung. Alle Werte findest du in deiner <a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung Teil I</a>
 (Felder P.1, V.7 und P.3).</div>
 
 ## Der CO₂-Freibetrag – und warum er so wichtig ist
@@ -94,10 +94,10 @@ Ausnahmen solltest du kennen:
 
 **Elektroautos** sind aktuell steuerlich stark begünstigt. Reine E-Fahrzeuge, die
 bis Ende **2025** erstmals zugelassen wurden, sind bis **2030** komplett von der
-Kfz-Steuer befreit. Wer ein [E-Auto zulassen](/ratgeber/e-kennzeichen) lässt, spart
+Kfz-Steuer befreit. Wer ein [E-Auto zulassen](/kfz-ratgeber/e-kennzeichen/) lässt, spart
 hier also bares Geld.
 
-**Oldtimer** mit [H-Kennzeichen](/ratgeber/h-kennzeichen) zahlen eine Pauschale von
+**Oldtimer** mit [H-Kennzeichen](/kfz-ratgeber/h-kennzeichen/) zahlen eine Pauschale von
 rund **191 € pro Jahr** (Motorräder weniger), unabhängig von Hubraum und Abgaswerten.
 Das ist für große, alte Motoren oft ein echtes Schnäppchen.
 
@@ -105,7 +105,7 @@ Das ist für große, alte Motoren oft ein echtes Schnäppchen.
 Hubraum, CO₂ spielt keine Rolle.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Wenn du dein Fahrzeug nur saisonal
-nutzt, lohnt sich ein <a href="/ratgeber/saisonkennzeichen">Saisonkennzeichen</a>. Die Kfz-Steuer
+nutzt, lohnt sich ein <a href="/kfz-ratgeber/saisonkennzeichen/">Saisonkennzeichen</a>. Die Kfz-Steuer
 fällt dann nur anteilig für die Monate an, in denen das Auto angemeldet ist – beim
 Cabrio im Sommer spürbar günstiger.</div>
 
@@ -139,8 +139,8 @@ Ein paar konkrete Hebel, mit denen du bei der Kraftfahrzeugsteuer sparst:
    fahren.
 
 Wenn du das Auto wechselst, hängt die Steuer übrigens am Halter und Fahrzeug, nicht
-am Schild. Beim [Halterwechsel](/ratgeber/halterwechsel-auto) oder beim
-[Ummelden](/ratgeber/auto-ummelden) wird das SEPA-Mandat einfach neu erteilt.
+am Schild. Beim [Halterwechsel](/kfz-ratgeber/halterwechsel-auto/) oder beim
+[Ummelden](/kfz-ratgeber/auto-ummelden/) wird das SEPA-Mandat einfach neu erteilt.
 
 ## Häufige Fragen zur Kfz-Steuer
 
@@ -150,14 +150,14 @@ SEPA-Lastschrift von dem Konto ein, das du bei der Zulassung angegeben hast.</di
 
 <div class="box box-frage"><strong>Bekomme ich Steuer zurück, wenn ich das Auto
 abmelde?</strong> Ja. Meldest du das Fahrzeug ab oder lässt es
-<a href="/ratgeber/auto-stilllegen">stilllegen</a>, wird die zu viel gezahlte Steuer
+<a href="/kfz-ratgeber/auto-stilllegen/">stilllegen</a>, wird die zu viel gezahlte Steuer
 taggenau erstattet. Die Abmeldung meldet die Zulassungsstelle automatisch an den
 Zoll.</div>
 
 <div class="box box-frage"><strong>Wo finde ich Hubraum und CO₂-Wert?</strong> In der
 Zulassungsbescheinigung Teil I: Hubraum unter P.1, CO₂ unter V.7 und die Kraftstoffart
 unter P.3. Ist dein Schein weg, hilft dir der
-<a href="/ratgeber/fahrzeugschein-verloren">Ratgeber Fahrzeugschein verloren</a> weiter.</div>
+<a href="/kfz-ratgeber/fahrzeugschein-verloren/">Ratgeber Fahrzeugschein verloren</a> weiter.</div>
 
 <div class="box box-frage"><strong>Zahlen Diesel wirklich mehr Steuer?</strong> Beim
 Hubraum-Anteil ja – rund 9,50 € statt 2,00 € je 100 cm³. Dafür ist der Kraftstoff
@@ -174,5 +174,5 @@ beiden Werte aus dem Fahrzeugschein kennt, kann die Autosteuer in zwei Minuten
 Spannend wird es vor dem Autokauf: Ein niedriger CO₂-Wert und ein E-Antrieb können
 dich über die Haltedauer hunderte Euro sparen. Rechne also einmal nach, bevor du
 unterschreibst. Und wenn du danach das Fahrzeug zulässt, findest du im
-[Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden) alle Schritte – inklusive der
+[Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/) alle Schritte – inklusive der
 Unterlagen, die der Zoll für das Steuer-Mandat braucht.

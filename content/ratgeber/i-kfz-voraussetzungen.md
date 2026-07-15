@@ -83,7 +83,7 @@ zusammenspielen – und gerätst nicht mitten im Antrag in Stress.</div>
 
 Jetzt zu den **i-Kfz benötigten Daten**. Neben deiner Identität braucht das System
 die Angaben rund ums Fahrzeug. Diese stehen in deinen
-[Zulassungsbescheinigungen](/ratgeber/zulassungsbescheinigung): Teil I (der frühere
+[Zulassungsbescheinigungen](/kfz-ratgeber/zulassungsbescheinigung/): Teil I (der frühere
 Fahrzeugschein) und Teil II (der frühere Fahrzeugbrief).
 
 Auf den neueren Dokumenten findest du **verdeckte Sicherheitscodes** unter einer
@@ -93,7 +93,7 @@ etwa bei älteren Dokumenten – ist der Online-Weg leider versperrt.
 
 <div class="box box-check"><strong>Diese Daten hältst du bereit:</strong> die
 verdeckten Sicherheitscodes aus ZB I und II, deine
-<a href="/ratgeber/evb-nummer">eVB-Nummer</a> der Kfz-Versicherung, deine IBAN für das
+<a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> der Kfz-Versicherung, deine IBAN für das
 SEPA-Lastschriftmandat der Kfz-Steuer und – bei einem Wunschkennzeichen – die
 reservierte Kombination.</div>
 
@@ -101,7 +101,7 @@ Die eVB-Nummer ist dabei der Nachweis, dass eine Haftpflichtversicherung besteht
 Ohne sie geht weder online noch vor Ort etwas. Und die IBAN brauchst du, weil das
 Hauptzollamt die Kfz-Steuer ausschließlich per Lastschrift einzieht. Wie sich diese
 Steuer zusammensetzt, habe ich dir im
-[Ratgeber zur Kfz-Steuer](/ratgeber/kfz-steuer-berechnen) aufgeschrieben.
+[Ratgeber zur Kfz-Steuer](/kfz-ratgeber/kfz-steuer-berechnen/) aufgeschrieben.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Auch das alte Kennzeichen
 spielt eine Rolle. Bei einer Abmeldung oder Ummeldung müssen die Plaketten auf den
@@ -113,20 +113,20 @@ einscannst.</div>
 Seit der großen Reform deckt i-Kfz fast den kompletten Lebenszyklus eines
 Fahrzeugs ab: Neuzulassung, Wiederzulassung, Ummeldung, Halterwechsel und
 Abmeldung. Den genauen Ablauf und die Dauer findest du im
-[Ratgeber zu i-Kfz Ablauf und Dauer](/ratgeber/i-kfz-ablauf-dauer). Wenn du wissen
+[Ratgeber zu i-Kfz Ablauf und Dauer](/kfz-ratgeber/i-kfz-ablauf-dauer/). Wenn du wissen
 willst, was die viel zitierte „Stufe 4" konkret bedeutet, lies meinen Beitrag zu
-[i-Kfz Stufe 4](/ratgeber/i-kfz-stufe-4).
+[i-Kfz Stufe 4](/kfz-ratgeber/i-kfz-stufe-4/).
 
 Den kompletten Weg von der Anmeldung bis zum fertigen Schein beschreibe ich
-außerdem im Überblick zur [i-Kfz Online-Zulassung](/ratgeber/i-kfz-online-zulassung).
+außerdem im Überblick zur [i-Kfz Online-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/).
 Die rechtliche Grundlage liefert übrigens die
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Die Online-Zulassung
 ist meist etwas günstiger als der Gang zur Behörde. Statt der vollen
 Vor-Ort-Gebühr von rund <strong>30 €</strong> zahlst du online oft nur etwa
 <strong>13–20 €</strong> – plus Schilder und eventuelle Wunschkennzeichen-Gebühr.
-Die genauen Beträge findest du im <a href="/ratgeber/zulassungskosten">Zulassungskosten-Ratgeber</a>.</div>
+Die genauen Beträge findest du im <a href="/kfz-ratgeber/zulassungskosten/">Zulassungskosten-Ratgeber</a>.</div>
 
 ## Die häufigsten Stolpersteine
 
@@ -158,11 +158,11 @@ Online-Funktion.</div>
 
 <div class="box box-frage"><strong>Was, wenn meine Zulassungsbescheinigung keinen
 Sicherheitscode hat?</strong> Dann ist die Online-Zulassung nicht möglich. Du musst
-in dem Fall persönlich zur <a href="/zulassungsstelle">Zulassungsstelle</a>.</div>
+in dem Fall persönlich zur <a href="/zulassungsstelle/">Zulassungsstelle</a>.</div>
 
 <div class="box box-frage"><strong>Kann ich ein Wunschkennzeichen online
 einbinden?</strong> Ja. Reserviere es vorab und gib die Kombination im Antrag an –
-mehr dazu im <a href="/ratgeber/wunschkennzeichen-reservieren">Ratgeber zum Wunschkennzeichen reservieren</a>.</div>
+mehr dazu im <a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Ratgeber zum Wunschkennzeichen reservieren</a>.</div>
 
 ## Fazit
 
@@ -173,4 +173,4 @@ wenigen Minuten durch. Scheitert es, liegt es fast immer am Ausweis.
 
 Mein Rat: Prüfe heute schon mit der AusweisApp, ob deine eID läuft. Dann steht
 deinem entspannten Antrag nichts mehr im Weg. Wie es danach Schritt für Schritt
-weitergeht, zeige ich dir im [Ratgeber zur i-Kfz Online-Zulassung](/ratgeber/i-kfz-online-zulassung).
+weitergeht, zeige ich dir im [Ratgeber zur i-Kfz Online-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/).

@@ -45,7 +45,7 @@ Orientierung, nicht als Rechtsrat – und kläre Zweifelsfälle mit der Behörde
 
 ## Die einfache und die qualifizierte Halterabfrage
 
-Hier wird es konkret. Das Gesetz – die [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/)
+Hier wird es konkret. Das Gesetz – die [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/)
 – unterscheidet zwei Wege, und sie könnten kaum unterschiedlicher sein.
 
 Die **einfache Halterabfrage** liefert nur eingeschränkte Daten und ist vor allem
@@ -88,11 +88,11 @@ Bevor du überhaupt eine Behörde bemühst, lohnt ein zweiter Blick auf das Schi
 selbst. Das **Unterscheidungszeichen** vorne – also die ein bis drei Buchstaben –
 verrät dir den Zulassungsbezirk. „M" steht für München, „HH" für Hamburg, „B"
 für Berlin. Welche Stadt sich hinter welcher Abkürzung verbirgt, findest du in
-meiner Übersicht der [Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen).
+meiner Übersicht der [Kennzeichen-Abkürzungen](/kfz-ratgeber/kennzeichen-abkuerzungen/).
 
 Das hilft dir zwar nicht, den konkreten Halter zu finden, grenzt aber die Region
 ein – und sagt dir, **welche Zulassungsstelle** überhaupt zuständig ist. Die
-[Stempelplakette](/ratgeber/zulassungsbescheinigung) und der TÜV-Hinweis sagen
+[Stempelplakette](/kfz-ratgeber/zulassungsbescheinigung/) und der TÜV-Hinweis sagen
 zusätzlich etwas über die Gültigkeit der Zulassung aus.
 
 <div class="box box-frage"><strong>Verrät mir das Kennzeichen den Namen direkt?</strong>
@@ -127,11 +127,11 @@ deine Anschrift werden nicht wahllos herausgegeben – das schützt dich vor
 Stalking, Werbung und Missbrauch.
 
 Wenn du dein Fahrzeug ohnehin neu zulässt oder ummeldest, lohnt sich der Blick in
-die passenden Ratgeber: vom [Auto anmelden](/ratgeber/auto-anmelden) über das
-[Ummelden](/ratgeber/auto-ummelden) bis zur bequemen
-[Online-Zulassung per i-Kfz](/ratgeber/i-kfz-online-zulassung). Und falls du dir
+die passenden Ratgeber: vom [Auto anmelden](/kfz-ratgeber/auto-anmelden/) über das
+[Ummelden](/kfz-ratgeber/auto-ummelden/) bis zur bequemen
+[Online-Zulassung per i-Kfz](/kfz-ratgeber/i-kfz-online-zulassung/). Und falls du dir
 gerade ein Wunschkennzeichen aussuchst: Manche Kombinationen sind aus gutem Grund
-[verboten](/ratgeber/verbotene-wunschkennzeichen).
+[verboten](/kfz-ratgeber/verbotene-wunschkennzeichen/).
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Im Zentralen
 Fahrzeugregister kannst du als Halter Auskunft über die zu deiner Person
@@ -170,5 +170,5 @@ Mein Tipp aus eigener Erfahrung: Belege sichern, Vorfall sauber dokumentieren un
 den offiziellen Weg gehen. Das ist günstiger, sicherer und rechtlich sauber –
 besser als jeder dubiose „Wir finden jeden Halter"-Dienst aus dem Netz. Mehr zu
 den Buchstaben auf dem Schild liest du übrigens in den
-[Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen), und weitere
-Antworten rund ums Auto findest du in unserem [Ratgeber](/ratgeber).
+[Kennzeichen-Abkürzungen](/kfz-ratgeber/kennzeichen-abkuerzungen/), und weitere
+Antworten rund ums Auto findest du in unserem [Ratgeber](/kfz-ratgeber/).

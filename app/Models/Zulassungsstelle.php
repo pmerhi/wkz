@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
+use Illuminate\Support\Str;
 
 class Zulassungsstelle extends Model
 {
@@ -40,6 +41,75 @@ class Zulassungsstelle extends Model
         return url($this->pfad);
     }
 
+    /** Alle Ämter derselben Stadt (Ort + Bundesland). */
+    public function stadtGruppe()
+    {
+        return static::query()
+            ->where('ort', $this->ort)
+            ->when($this->bundesland_id, fn ($q) => $q->where('bundesland_id', $this->bundesland_id));
+    }
+
+    /** Kanonische Stelle der Stadt = Träger der Hub-URL (Slug == slug(ort,de), sonst kürzester Primär-Slug). */
+    public function kanonischeStelle(): self
+    {
+        $grp = $this->stadtGruppe()->get(['id', 'slug', 'parent_id']);
+        $ortSlug = Str::slug((string) $this->ort, '-', 'de');
+        $prim = $grp->whereNull('parent_id');
+
+        return $prim->firstWhere('slug', $ortSlug)
+            ?? $prim->sortBy(fn ($s) => strlen($s->slug))->first()
+            ?? $grp->sortBy(fn ($s) => strlen($s->slug))->first()
+            ?? $this;
+    }
+
+    /**
+     * Kanonischer Pfad für interne Links: Stadt-Hub, wenn die Stadt mehrere Ämter
+     * hat, sonst die eigene Detailseite. (Ein Query.)
+     */
+    public function getHubPfadAttribute(): string
+    {
+        if (! $this->ort) {
+            return $this->pfad;
+        }
+        $grp = $this->stadtGruppe()->get(['id', 'slug', 'parent_id']);
+        if ($grp->count() <= 1) {
+            return $this->pfad;
+        }
+        $ortSlug = Str::slug((string) $this->ort, '-', 'de');
+        $prim = $grp->whereNull('parent_id');
+        $canon = $prim->firstWhere('slug', $ortSlug)
+            ?? $prim->sortBy(fn ($s) => strlen($s->slug))->first()
+            ?? $grp->sortBy(fn ($s) => strlen($s->slug))->first();
+
+        return '/zulassungsstelle/'.($canon->slug ?? $this->slug);
+    }
+
+    /**
+     * Karte slug → kanonischer Hub-Pfad für ALLE Stellen (ein Query, kein N+1).
+     * Für Sitemap, Bundesland-Listing usw. Gleiche Regel wie hubPfad.
+     */
+    public static function hubPfadMap(): array
+    {
+        $map = [];
+        $alle = static::query()->get(['id', 'slug', 'ort', 'bundesland_id', 'parent_id']);
+        foreach ($alle->groupBy(fn ($s) => $s->ort.'|'.$s->bundesland_id) as $grp) {
+            $ort = $grp->first()->ort;
+            $canonSlug = $grp->first()->slug;
+            if ($ort && $grp->count() > 1) {
+                $ortSlug = Str::slug((string) $ort, '-', 'de');
+                $prim = $grp->whereNull('parent_id');
+                $canonSlug = ($prim->firstWhere('slug', $ortSlug)
+                    ?? $prim->sortBy(fn ($s) => strlen($s->slug))->first()
+                    ?? $grp->sortBy(fn ($s) => strlen($s->slug))->first())->slug;
+            }
+            foreach ($grp as $s) {
+                $map[$s->slug] = '/zulassungsstelle/'.$canonSlug;
+            }
+        }
+
+        return $map;
+    }
+
     /** Genug Substanz für Indexierung? (nicht nur Name + Geo; keine Kind-Stelle) */
     public function getIsIndexableAttribute(): bool
     {
@@ -61,6 +131,12 @@ class Zulassungsstelle extends Model
     public function scopePrimaer($query)
     {
         return $query->whereNull('parent_id');
+    }
+
+    /** Anzeigename ohne „Kfz-"-Präfix, z. B. „Zulassungsstelle Kaiserslautern (Stadt)". */
+    public function anzeigeName(): string
+    {
+        return preg_replace('/^Kfz-\s*/i', '', (string) $this->name);
     }
 
     /** Primär-Amt (bei Kind-Stellen). */

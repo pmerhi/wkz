@@ -23,7 +23,7 @@ stecken völlig unterschiedliche Welten. Schauen wir uns das in Ruhe an.
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die rote Farbe ist kein
 Designgag. Sie signalisiert der Polizei sofort, dass es sich um ein dauerhaft
 zugeteiltes Sonderkennzeichen handelt – nicht um eine normale Zulassung und auch
-nicht um ein zeitlich befristetes <a href="/ratgeber/kurzzeitkennzeichen">Kurzzeitkennzeichen</a>.</div>
+nicht um ein zeitlich befristetes <a href="/kfz-ratgeber/kurzzeitkennzeichen/">Kurzzeitkennzeichen</a>.</div>
 
 ## Was ist ein rotes Kennzeichen überhaupt?
 
@@ -32,7 +32,7 @@ einer **Person oder einem Betrieb**. Das ist der entscheidende Unterschied zur
 normalen Zulassung. Du darfst damit also – je nach Art – wechselnde Fahrzeuge
 bewegen, ohne jedes einzeln anmelden zu müssen.
 
-Geregelt ist das Ganze in der [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+Geregelt ist das Ganze in der [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 Dort steht auch, dass rote Kennzeichen ausschließlich für klar definierte Zwecke
 ausgegeben werden – nämlich Prüfungs-, Probe- und Überführungsfahrten beim 06er
 sowie Fahrten rund um Oldtimer beim 07er. Privat „einfach mal so" durch die Gegend
@@ -49,7 +49,7 @@ Typische erlaubte Fahrten sind:
 
 - **Probefahrten** mit Kunden vor dem Kauf
 - **Überführungsfahrten**, etwa vom Auktionsplatz zum Hof
-- **Prüfungsfahrten**, zum Beispiel zur Hauptuntersuchung beim [TÜV](/ratgeber/hauptuntersuchung-tuv)
+- **Prüfungsfahrten**, zum Beispiel zur Hauptuntersuchung beim [TÜV](/kfz-ratgeber/hauptuntersuchung-tuev/)
 - Werkstattfahrten zur Funktionskontrolle nach einer Reparatur
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ein 06er ist kein Hobby-Kennzeichen.
@@ -75,7 +75,7 @@ Charme: Ein einziges 07er-Kennzeichen kann für **mehrere Oldtimer** genutzt wer
 die du nacheinander damit fährst.
 
 <div class="box box-frage"><strong>07er oder H-Kennzeichen – was ist besser?</strong>
-Kommt drauf an. Das <a href="/ratgeber/h-kennzeichen">H-Kennzeichen</a> ist eine
+Kommt drauf an. Das <a href="/kfz-ratgeber/h-kennzeichen/">H-Kennzeichen</a> ist eine
 volle Zulassung für einen einzelnen Oldtimer, mit dem du unbegrenzt fahren darfst.
 Das 07er lohnt sich eher, wenn du mehrere Klassiker besitzt und sie nur
 gelegentlich bewegst.</div>
@@ -83,11 +83,11 @@ gelegentlich bewegst.</div>
 Voraussetzung ist in der Regel, dass das Fahrzeug die Oldtimer-Kriterien erfüllt –
 also mindestens 30 Jahre alt und weitgehend im Originalzustand ist. Ein
 Sachverständigengutachten (oft nach § 23 StVZO) gehört meist dazu. Mehr zum Thema
-findest du im [Ratgeber zum Oldtimer zulassen](/ratgeber/oldtimer-zulassen).
+findest du im [Ratgeber zum Oldtimer zulassen](/kfz-ratgeber/oldtimer-zulassen/).
 
 <div class="box box-check"><strong>Das brauchst du für ein 07er:</strong>
 Personalausweis, Fahrzeugpapiere bzw. ein Datenblatt zum Oldtimer, ein
-Oldtimergutachten, eine <a href="/ratgeber/evb-nummer">eVB-Nummer</a> der Versicherung und
+Oldtimergutachten, eine <a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> der Versicherung und
 das ausgefüllte Antragsformular der Zulassungsstelle. Ein Fahrtenbuch musst du
 zusätzlich führen.</div>
 
@@ -127,16 +127,16 @@ Für mehrere Oldtimer kann sich das gegenüber lauter Einzelzulassungen lohnen.<
 realistische Orientierungswerte, kein garantierter Festpreis. Gebühren, Auflagen
 und sogar die Frage, ob ein 07er überhaupt ausgegeben wird, unterscheiden sich
 regional teils deutlich. Frag im Zweifel direkt bei deiner zuständigen
-<a href="/zulassungsstelle">Zulassungsstelle</a> nach – Angaben hier ohne Gewähr.</div>
+<a href="/zulassungsstelle/">Zulassungsstelle</a> nach – Angaben hier ohne Gewähr.</div>
 
 ## Rotes Kennzeichen, Saison- oder Kurzzeitkennzeichen?
 
 Wer einen Klassiker nur im Sommer bewegt, fragt sich oft, ob nicht eine andere
 Lösung günstiger wäre. Ein paar Alternativen im Vergleich:
 
-- Das [Saisonkennzeichen](/ratgeber/saisonkennzeichen) ist ideal, wenn du **ein**
+- Das [Saisonkennzeichen](/kfz-ratgeber/saisonkennzeichen/) ist ideal, wenn du **ein**
   Fahrzeug regelmäßig in einem festen Zeitraum fährst.
-- Das [Kurzzeitkennzeichen](/ratgeber/kurzzeitkennzeichen) (gelb mit Datumsstreifen)
+- Das [Kurzzeitkennzeichen](/kfz-ratgeber/kurzzeitkennzeichen/) (gelb mit Datumsstreifen)
   ist nur **fünf Tage** gültig und passt für einmalige Überführungen.
 - Das rote Kennzeichen lohnt sich dagegen, wenn du **wechselnde Fahrzeuge** oder
   **mehrere Oldtimer** flexibel bewegen willst.
@@ -159,11 +159,11 @@ richtige Weg.</div>
 <div class="box box-frage"><strong>Brauche ich für jedes Fahrzeug eine eigene
 Versicherung?</strong> Nein, das ist gerade der Vorteil: Die Versicherung hängt am
 roten Kennzeichen, nicht am einzelnen Fahrzeug. Trotzdem brauchst du eine
-<a href="/ratgeber/evb-nummer">eVB-Nummer</a> für die Zuteilung.</div>
+<a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> für die Zuteilung.</div>
 
 <div class="box box-frage"><strong>Muss ein Oldtimer für das 07er durch den
 TÜV?</strong> Ein gültiges Oldtimergutachten ist Pflicht, eine regelmäßige
-<a href="/ratgeber/hauptuntersuchung-tuv">Hauptuntersuchung</a> wird in der Praxis ebenfalls
+<a href="/kfz-ratgeber/hauptuntersuchung-tuev/">Hauptuntersuchung</a> wird in der Praxis ebenfalls
 verlangt. Die genauen Auflagen klärst du mit deiner Zulassungsstelle.</div>
 
 ## Fazit
@@ -175,6 +175,6 @@ Schild. Beide verlangen ein sauber geführtes Fahrtenbuch und halten sich strikt
 die erlaubten Fahrtzwecke.
 
 Wenn du nur einen einzelnen Klassiker dauerhaft fahren willst, schau dir vorher in
-Ruhe das [H-Kennzeichen](/ratgeber/h-kennzeichen) an – oft ist das die
+Ruhe das [H-Kennzeichen](/kfz-ratgeber/h-kennzeichen/) an – oft ist das die
 unkompliziertere Lösung. Hast du dagegen eine kleine Sammlung, spielt das rote
 07er seine Stärken aus.

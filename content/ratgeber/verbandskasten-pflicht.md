@@ -94,25 +94,25 @@ landest du in einer ähnlichen Größenordnung.
 Teurer und unangenehmer wird es beim **TÜV**: Bei der Hauptuntersuchung wird die
 Vollständigkeit zwar nicht immer streng geprüft, ein fehlender oder abgelaufener
 Kasten kann aber als Mangel notiert werden. Mehr zum Ablauf findest du im
-[Ratgeber zur Hauptuntersuchung beim TÜV](/ratgeber/hauptuntersuchung-tuv).
+[Ratgeber zur Hauptuntersuchung beim TÜV](/kfz-ratgeber/hauptuntersuchung-tuev/).
 
 <div class="box box-frage"><strong>Bekomme ich Punkte in Flensburg dafür?</strong>
 Nein. Ein fehlender Verbandskasten oder eine fehlende Warnweste ist eine
 Ordnungswidrigkeit mit Verwarngeld, aber ohne Eintrag im
-<a href="/ratgeber/punkte-in-flensburg">Fahreignungsregister</a>. Trotzdem kein Grund,
+<a href="/kfz-ratgeber/punkte-in-flensburg/">Fahreignungsregister</a>. Trotzdem kein Grund,
 nachlässig zu sein – im Ernstfall geht es um Erste Hilfe.</div>
 
 ## Verbandskasten und Zulassung – hängt das zusammen?
 
 Eine Frage, die mir oft begegnet: Brauche ich den Verbandskasten schon bei der
 Anmeldung? Nein. Die Pflichtausstattung wird bei der eigentlichen
-[Fahrzeugzulassung](/ratgeber/auto-anmelden) nicht kontrolliert. Sie muss erst
+[Fahrzeugzulassung](/kfz-ratgeber/auto-anmelden/) nicht kontrolliert. Sie muss erst
 vorhanden sein, wenn du am Straßenverkehr teilnimmst.
 
 Trotzdem gehört sie für mich zur Grundausstattung wie die
-[eVB-Nummer](/ratgeber/evb-nummer) oder die
-[Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung). Wer ein
-[gebrauchtes Auto zulässt](/ratgeber/gebrauchtwagen-zulassen), sollte direkt
+[eVB-Nummer](/kfz-ratgeber/evb-nummer/) oder die
+[Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/). Wer ein
+[gebrauchtes Auto zulässt](/kfz-ratgeber/gebrauchtwagen-zulassen/), sollte direkt
 prüfen, ob Kasten, Dreieck und Weste an Bord und aktuell sind – beim Vorbesitzer
 liegt das Ablaufdatum erfahrungsgemäß gern im roten Bereich.
 
@@ -153,5 +153,5 @@ Leben retten.
 Mein Tipp aus eigener Erfahrung: Schreib dir das früheste Ablaufdatum in den
 Kalender. Dann erwischt dich keine Kontrolle mehr auf dem falschen Fuß. Und wenn
 du gerade ohnehin dein Fahrzeug auf Vordermann bringst, wirf auch einen Blick
-auf verwandte Themen wie die [Umweltplakette](/ratgeber/umweltplakette) oder den
-[Verbandskasten im Zusammenspiel mit der HU](/ratgeber/hauptuntersuchung-tuv).
+auf verwandte Themen wie die [Umweltplakette](/kfz-ratgeber/umweltplakette/) oder den
+[Verbandskasten im Zusammenspiel mit der HU](/kfz-ratgeber/hauptuntersuchung-tuev/).

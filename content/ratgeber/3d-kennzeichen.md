@@ -35,7 +35,7 @@ deutlich aus der Fläche herausragen. Optisch wirkt das hochwertiger und tiefer
 – daher der Spitzname „3D".
 
 Wichtig ist: Es geht hier rein um die **Optik der Prägung**, nicht um den
-Inhalt. Dein [Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) mit
+Inhalt. Dein [Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) mit
 deinen Lieblingsbuchstaben kannst du natürlich genauso in 3D-Optik prägen
 lassen wie ein Standardschild.
 
@@ -54,7 +54,7 @@ flache Schilder genauso wie für die 3D-Variante.
 Seriöse Anbieter von 3D-Kennzeichen halten diese Norm ein. Ihre Schilder sind
 retroreflektierend, in den vorgeschriebenen Maßen gefertigt und tragen alle
 Prüfzeichen. Solche Schilder sind im Straßenverkehr **vollkommen legal** – auch
-bei der [Hauptuntersuchung](/ratgeber/hauptuntersuchung-tuv) gibt es damit keine
+bei der [Hauptuntersuchung](/kfz-ratgeber/hauptuntersuchung-tuev/) gibt es damit keine
 Probleme.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Maßgeblich ist die
@@ -72,7 +72,7 @@ und genau das ist der entscheidende Verstoß.
 Denn der weiße Untergrund eines Kennzeichens muss Licht zurückwerfen, damit das
 Schild im Scheinwerferlicht und auf Kamerabildern lesbar bleibt. Ein dunkles
 Carbon-Schild oder ein Schild mit getönter Folie erfüllt das nicht. In dem
-Moment, in dem die Reflexion fehlt, ist die [Betriebserlaubnis](/ratgeber/betriebserlaubnis)
+Moment, in dem die Reflexion fehlt, ist die [Betriebserlaubnis](/kfz-ratgeber/betriebserlaubnis/)
 gefährdet und das Kennzeichen nicht mehr zulässig.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Wenn dir die Carbon-Optik
@@ -94,7 +94,7 @@ Versicherungsschutz infrage gestellt werden, was im Schadensfall richtig teuer
 wird.
 
 Welche konkreten Beträge fällig werden, kannst du im
-[Bußgeldkatalog](/ratgeber/bussgeldkatalog) nachschlagen. Spannender finde ich
+[Bußgeldkatalog](/kfz-ratgeber/bussgeldkatalog/) nachschlagen. Spannender finde ich
 ohnehin den praktischen Punkt: Ein nicht lesbares Schild fällt spätestens beim
 TÜV oder einer Polizeikontrolle auf – und dann ist der Ärger größer als die
 gesparte Mühe.
@@ -109,12 +109,12 @@ variieren je nach Hersteller.</div>
 
 Nein. Solange das Schild der DIN-Norm entspricht und die richtige Kombination
 trägt, brauchst du keine Extra-Genehmigung. Du reservierst dein
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-online-vor-ort) wie gewohnt,
+[Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-online-vor-ort/) wie gewohnt,
 lässt es als 3D-Variante prägen und meldest das Fahrzeug ganz normal bei der
-[Zulassungsstelle](/zulassungsstelle) an.
+[Zulassungsstelle](/zulassungsstelle/) an.
 
 Der Ablauf unterscheidet sich also kaum vom normalen
-[Auto anmelden](/ratgeber/auto-anmelden). Der einzige Unterschied: Du bestellst
+[Auto anmelden](/kfz-ratgeber/auto-anmelden/). Der einzige Unterschied: Du bestellst
 deine Schilder bei einem Anbieter, der die 3D-Prägung im Programm hat – und
 achtest auf die Prüfzeichen.
 
@@ -141,7 +141,7 @@ Vorschriften wissen will, findet beim [ADAC](https://www.adac.de) gute
 
 <div class="box box-frage"><strong>Sind 3D-Kennzeichen TÜV-konform?</strong>
 Ja, sofern sie nach DIN 74069 gefertigt sind und die Prüfzeichen tragen. Bei
-der <a href="/ratgeber/hauptuntersuchung-tuv">Hauptuntersuchung</a> gibt es mit
+der <a href="/kfz-ratgeber/hauptuntersuchung-tuev/">Hauptuntersuchung</a> gibt es mit
 normgerechten Schildern keine Beanstandung.</div>
 
 <div class="box box-frage"><strong>Sind Carbon-Kennzeichen verboten?</strong>
@@ -156,7 +156,7 @@ ziehen.</div>
 
 <div class="box box-frage"><strong>Kann ich mein 3D-Kennzeichen auch fürs
 Motorrad nutzen?</strong> Grundsätzlich ja – auch
-<a href="/ratgeber/motorradkennzeichen">Motorradkennzeichen</a> gibt es in 3D-Optik,
+<a href="/kfz-ratgeber/motorradkennzeichen/">Motorradkennzeichen</a> gibt es in 3D-Optik,
 solange sie der vorgeschriebenen Größe und Norm entsprechen.</div>
 
 ## Fazit
@@ -169,5 +169,5 @@ unzulässigen Schild überschritten.
 
 Mein Rat: Kauf bei einem seriösen Anbieter, achte auf die Prüfzeichen und genieße
 den Hingucker mit gutem Gewissen. Wenn du noch beim Aussuchen deiner Kombination
-bist, hilft dir der [Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren)
+bist, hilft dir der [Ratgeber zum Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 weiter.

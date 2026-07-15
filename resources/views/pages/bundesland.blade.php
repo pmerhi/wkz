@@ -23,10 +23,14 @@
                 ? 'Zuständige Zulassungsstelle – mit Öffnungszeiten, Online-Termin und Kontakt:'
                 : 'Wähle deinen Ort für Öffnungszeiten, Online-Termin und Kontakt:' }}</p>
             <div class="grid">
+                @php $gesehenL = []; @endphp
                 @foreach($land->zulassungsstellen as $s)
+                    @php $hp = $hubPfade[$s->slug] ?? '/zulassungsstelle/'.$s->slug; @endphp
+                    @continue(in_array($hp, $gesehenL, true))
+                    @php $gesehenL[] = $hp; @endphp
                     <div class="card">
-                        <a href="{{ $s->url() }}">{{ $s->ort ?: $s->name }}</a>
-                        @if($s->ort && $s->ort !== $s->name)<div class="muted" style="font-size:.9rem">{{ $s->name }}</div>@endif
+                        <a href="{{ url($hp) }}">{{ $s->ort ?: $s->anzeigeName() }}</a>
+                        @if($s->ort && $s->ort !== $s->anzeigeName())<div class="muted" style="font-size:.9rem">{{ $s->anzeigeName() }}</div>@endif
                     </div>
                 @endforeach
             </div>

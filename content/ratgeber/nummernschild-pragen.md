@@ -35,7 +35,7 @@ eingefärbt.
 Diese Reliefprägung ist kein Schnickschnack, sondern Vorschrift. Sie sorgt
 dafür, dass das Schild bei Tag und Nacht gut lesbar und fälschungssicher ist.
 Welche Kürzel auf deinem Schild stehen dürfen, erklärt dir mein Ratgeber zu den
-[Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen).
+[Kennzeichen-Abkürzungen](/kfz-ratgeber/kennzeichen-abkuerzungen/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Nur ein korrekt geprägtes
 und DIN-zertifiziertes Schild ist zulassungsfähig. Selbst gedruckte oder
@@ -51,10 +51,10 @@ Wunsch-Buchstaben und -Zahlen und siehst sofort eine Vorschau.
 
 Wie viele Zeichen du nehmen darfst und welche Kombinationen erlaubt sind, hängt
 von den Regeln ab – das habe ich im Ratgeber zu
-[Buchstaben und Zahlen](/ratgeber/wunschkennzeichen-buchstaben-zahlen) und zum
-[kurzen Kennzeichen](/ratgeber/kurzes-kennzeichen) ausführlich aufgeschrieben.
+[Buchstaben und Zahlen](/kfz-ratgeber/wunschkennzeichen-buchstaben-zahlen/) und zum
+[kurzen Kennzeichen](/kfz-ratgeber/kurzes-kennzeichen/) ausführlich aufgeschrieben.
 Wenn dir eine bestimmte Kombination wichtig ist, solltest du sie vorher
-[reservieren](/ratgeber/wunschkennzeichen-reservieren), damit sie dir am Tag der
+[reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/), damit sie dir am Tag der
 Zulassung sicher gehört.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Gestalte und bestelle die
@@ -94,8 +94,8 @@ Vorschau – ein guter Schutz vor Tippfehlern.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die Schilder allein
 melden dein Auto noch nicht an. Du brauchst weiterhin die eigentliche
-<a href="/ratgeber/auto-anmelden">Zulassung</a> bei der Behörde oder bequem
-<a href="/ratgeber/i-kfz-online-zulassung">online über i-Kfz</a>. Erst die Stempelplakette
+<a href="/kfz-ratgeber/auto-anmelden/">Zulassung</a> bei der Behörde oder bequem
+<a href="/kfz-ratgeber/i-kfz-online-zulassung/">online über i-Kfz</a>. Erst die Stempelplakette
 macht aus dem geprägten Schild ein gültiges Kennzeichen.</div>
 
 ## Die Stempelplakette – der letzte Schritt
@@ -105,16 +105,16 @@ braucht es die runde **Stempelplakette** (HU-Plakette plus Zulassungsstempel),
 die die Behörde bei der Zulassung anbringt. Erst damit darfst du wirklich
 losfahren.
 
-Bei der [internetbasierten Fahrzeugzulassung](/ratgeber/i-kfz-online-zulassung)
+Bei der [internetbasierten Fahrzeugzulassung](/kfz-ratgeber/i-kfz-online-zulassung/)
 läuft das über einen verdeckten Sicherheitscode auf Schild und Plakette, den du
 freirubbelst und online eingibst. So bekommst du dein Auto komplett digital
 zugelassen – die geprägten Schilder hast du dann schon zu Hause liegen. Welche
 Bedingungen dafür gelten, steht in meinem Ratgeber zu den
-[i-Kfz-Voraussetzungen](/ratgeber/i-kfz-voraussetzungen).
+[i-Kfz-Voraussetzungen](/kfz-ratgeber/i-kfz-voraussetzungen/).
 
 Die rechtlichen Vorgaben für Form, Maße und Beschaffenheit der Kennzeichen
 findest du übrigens in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 Einen guten, verständlichen Überblick bietet auch der
 [ADAC](https://www.adac.de).
 
@@ -128,7 +128,7 @@ Festpreis – Angaben ohne Gewähr.</div>
 So gehe ich persönlich vor, wenn ich neue Schilder brauche:
 
 1. **Kombination festlegen** – Wunschkennzeichen prüfen und bei Bedarf
-   [reservieren](/ratgeber/wunschkennzeichen-reservieren).
+   [reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/).
 2. **Größe wählen** – Standard, kurz oder zweizeilig je nach Fahrzeug.
 3. **Online gestalten und bestellen** – Vorschau genau kontrollieren.
 4. **Liefern lassen** – meist innerhalb weniger Werktage.
@@ -156,7 +156,7 @@ kommen Zulassungsgebühren und die Plakette – die Beträge variieren regional.
 
 <div class="box box-frage"><strong>Brauche ich für die Bestellung schon die
 Fahrzeugpapiere?</strong> Für die reine Prägung nicht – du brauchst nur die
-Kombination. Die <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a> und
+Kombination. Die <a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung</a> und
 weitere Dokumente brauchst du erst bei der eigentlichen Zulassung.</div>
 
 ## Fazit
@@ -168,6 +168,6 @@ ist nur: zertifizierte Schilder, richtige Größe und eine sorgfältig geprüfte
 Vorschau.
 
 Wenn du so weit bist, fehlt nur noch die Anmeldung. Wie das Schritt für Schritt
-läuft, zeige ich dir im [Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden) –
+läuft, zeige ich dir im [Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/) –
 und für die digitale Variante im
-[i-Kfz-Ratgeber](/ratgeber/i-kfz-online-zulassung).
+[i-Kfz-Ratgeber](/kfz-ratgeber/i-kfz-online-zulassung/).

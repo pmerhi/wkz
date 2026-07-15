@@ -29,7 +29,7 @@ ist immer nur eine Übersetzung deines normalen Scheins.</div>
 
 Seit 2013 gibt es das einheitliche **EU-Kartenformat** im Scheckkartendesign.
 Wer in Deutschland heute eine Fahrerlaubnis erwirbt, bekommt automatisch diesen
-Führerschein. Das Praktische daran: Die [Führerscheinklassen](/ratgeber/fuhrerscheinklassen)
+Führerschein. Das Praktische daran: Die [Führerscheinklassen](/kfz-ratgeber/fuehrerscheinklassen/)
 und Symbole sind EU-weit harmonisiert, sodass ein Beamter in Spanien oder Polen
 sofort erkennt, was du fahren darfst.
 
@@ -41,7 +41,7 @@ dauerhaft wohnen, ohne den Führerschein umschreiben zu lassen.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Alle alten Papierführerscheine
 (grau oder rosa) müssen bis spätestens 2033 in das EU-Kartenformat umgetauscht
 werden. Die genauen Fristen hängen vom Geburtsjahr und Ausstellungsdatum ab –
-Details habe ich dir im <a href="/ratgeber/fuhrerschein-umtauschen">Ratgeber zum Führerschein umtauschen</a>
+Details habe ich dir im <a href="/kfz-ratgeber/fuehrerschein-umtauschen/">Ratgeber zum Führerschein umtauschen</a>
 zusammengestellt.</div>
 
 ## Internationaler Führerschein: Wann brauchst du ihn?
@@ -78,7 +78,7 @@ dazu, rechne mit weiteren <strong>25–35 €</strong>.</div>
 
 Beim Fahren **im Ausland** spielen ein paar Dinge zusammen. Innerhalb Europas
 kannst du dich entspannt zurücklehnen: Dein EU-Führerschein reicht, oft sogar
-zusammen mit einer [grünen Versicherungskarte](/ratgeber/evb-nummer) als Nachweis
+zusammen mit einer [grünen Versicherungskarte](/kfz-ratgeber/evb-nummer/) als Nachweis
 deiner Kfz-Versicherung. Anders ist es bei Fernreisen.
 
 Bevor du ein Auto mietest, prüf immer die Vorgaben des Vermieters. Manche
@@ -95,7 +95,7 @@ Ein Sonderfall sind **Umzüge ins Ausland**. Ziehst du dauerhaft in ein
 Nicht-EU-Land, musst du deinen deutschen Führerschein dort meist innerhalb einer
 Frist umschreiben oder eine zusätzliche Prüfung ablegen. Innerhalb der EU bleibt
 dein Schein dagegen gültig – ähnlich entspannt wie beim Auto, das du nach einem
-Umzug [ummelden](/ratgeber/auto-ummelden) kannst.
+Umzug [ummelden](/kfz-ratgeber/auto-ummelden/) kannst.
 
 ## Drittstaaten-Führerschein in Deutschland
 
@@ -124,7 +124,7 @@ EU-Führerschein reicht völlig aus – auch für den Mietwagen.</div>
 <div class="box box-frage"><strong>Wie lange ist der internationale Führerschein
 gültig?</strong> In der Regel drei Jahre, längstens jedoch so lange wie dein
 nationaler Führerschein. Verlierst du den nationalen Schein, wird auch der
-internationale ungültig – mehr dazu im <a href="/ratgeber/fuhrerschein-verloren">Ratgeber Führerschein verloren</a>.</div>
+internationale ungültig – mehr dazu im <a href="/kfz-ratgeber/fuehrerschein-verloren/">Ratgeber Führerschein verloren</a>.</div>
 
 <div class="box box-frage"><strong>Muss ich meinen alten Papierführerschein
 umtauschen?</strong> Ja, bis spätestens 2033 – gestaffelt nach Geburtsjahr. Ohne
@@ -148,5 +148,5 @@ Wer den alten Papierschein noch in der Schublade hat, sollte den Umtausch nicht
 auf die lange Bank schieben: Ohne Kartenführerschein gibt es weder den
 internationalen Schein noch entspanntes Fahren **im Ausland**. Plan deine Reise
 also rechtzeitig – und prüf vorher kurz die Vorgaben deines Reiseziels. Im
-[Überblick zu den Führerscheinklassen](/ratgeber/fuhrerscheinklassen) findest du,
+[Überblick zu den Führerscheinklassen](/kfz-ratgeber/fuehrerscheinklassen/) findest du,
 was du mit deiner Karte überhaupt fahren darfst.

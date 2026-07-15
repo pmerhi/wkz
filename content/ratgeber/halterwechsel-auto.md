@@ -36,7 +36,7 @@ wenn das Auto künftig auf den Partner laufen soll.
 
 Den **Fahrzeughalter ändern** musst du immer dann, wenn sich die Person hinter dem
 Kennzeichen ändert. Das ist keine Höflichkeit gegenüber der Behörde, sondern Pflicht
-nach der [Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2011/).
+nach der [Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2023/).
 Solange du eingetragener Halter bist, bekommst du Post vom Finanzamt, von der
 Versicherung und – im Zweifel – von der Bußgeldstelle.
 
@@ -46,11 +46,11 @@ Beim Halterwechsel gibt es grundsätzlich zwei Varianten, und sie unterscheiden 
 vor allem danach, ob der neue Halter im selben Zulassungsbezirk wohnt.
 
 Bleibt das Auto **im selben Kreis**, läuft der Halterwechsel als
-[Ummeldung ohne Kreiswechsel](/ratgeber/auto-ummelden-ohne-kreiswechsel). Das Kenn-
+[Ummeldung ohne Kreiswechsel](/kfz-ratgeber/auto-ummelden-ohne-kreiswechsel/). Das Kenn-
 zeichen kann sogar bleiben. Zieht das Fahrzeug in einen **anderen Zulassungsbezirk**,
-greift die [Ummeldung mit Kreiswechsel](/ratgeber/auto-ummelden-kreiswechsel) – früher
+greift die [Ummeldung mit Kreiswechsel](/kfz-ratgeber/auto-ummelden-kreiswechsel/) – früher
 hieß das automatisch neues Kennzeichen, heute darf der neue Halter sein altes
-[Kennzeichen sogar mitnehmen](/ratgeber/wunschkennzeichen-mitnehmen).
+[Kennzeichen sogar mitnehmen](/kfz-ratgeber/wunschkennzeichen-mitnehmen/).
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Erledige den Halterwechsel
 gemeinsam mit dem Käufer oder vereinbare ein festes Datum, bis zu dem er umgemeldet
@@ -61,17 +61,17 @@ haben muss. Lass dir die neue Zulassungsbescheinigung zeigen oder eine Kopie sch
 
 Der Halterwechsel scheitert in der Praxis fast immer am gleichen Punkt: ein fehlendes
 Dokument. Deshalb hier die komplette Checkliste, die der neue Halter mit zur
-[Zulassungsstelle](/zulassungsstelle) bringen muss.
+[Zulassungsstelle](/zulassungsstelle/) bringen muss.
 
 <div class="box box-check"><strong>Das brauchst du für den Halterwechsel:</strong>
 Personalausweis des neuen Halters, Zulassungsbescheinigung Teil I (Fahrzeugschein)
 und Teil II (Fahrzeugbrief), gültige HU-Bescheinigung, eine
-<a href="/ratgeber/evb-nummer">eVB-Nummer</a> der neuen Versicherung, ein SEPA-Mandat
+<a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> der neuen Versicherung, ein SEPA-Mandat
 für die Kfz-Steuer und – bei Verkauf – den Kaufvertrag. Die alten Kennzeichen müssen
 vorgelegt werden, falls sie nicht weiterlaufen.</div>
 
 Fehlt einer der Papiere – etwa weil der
-[Fahrzeugbrief verloren](/ratgeber/fahrzeugbrief-verloren) gegangen ist – musst du
+[Fahrzeugbrief verloren](/kfz-ratgeber/fahrzeugbrief-verloren/) gegangen ist – musst du
 zuerst Ersatz beantragen. Das kostet Zeit und Nerven, also prüfe die Unterlagen, bevor
 ihr zum Amt fahrt.
 
@@ -95,7 +95,7 @@ Familie weitergegeben wird, muss der neue Halter eingetragen werden.
 
 <div class="box box-frage"><strong>Reicht es, wenn der Käufer einfach weiterfährt?</strong>
 Nein. Solange du eingetragen bist, haftest du als Halter mit. Bestehe auf der
-Ummeldung und sichere dich mit einer <a href="/ratgeber/auto-verkaufen-abmelden">Verkaufsabmeldung</a>
+Ummeldung und sichere dich mit einer <a href="/kfz-ratgeber/auto-verkaufen-abmelden/">Verkaufsabmeldung</a>
 ab, falls der Käufer trödelt.</div>
 
 ## Was kostet ein Halterwechsel?
@@ -109,9 +109,9 @@ Kommen neue Schilder dazu, rechne <strong>ca. 20–35 €</strong> obendrauf, ei
 Wunschkennzeichen schlägt mit weiteren <strong>10–13 €</strong> zu Buche. Unterm
 Strich landest du je nach Fall bei etwa <strong>30–80 €</strong>.</div>
 
-Die genauen [Zulassungskosten](/ratgeber/zulassungskosten) hängen vom Bundesland und
+Die genauen [Zulassungskosten](/kfz-ratgeber/zulassungskosten/) hängen vom Bundesland und
 deiner Zulassungsstelle ab. Wer den Weg über die
-[i-Kfz Online-Zulassung](/ratgeber/i-kfz-online-zulassung) nimmt, spart in vielen
+[i-Kfz Online-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/) nimmt, spart in vielen
 Bezirken sogar ein paar Euro und den Gang zum Amt.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Alle hier genannten Beträge sind
@@ -133,8 +133,8 @@ Gebrauchtwagens:
    Ummeldebestätigung zeigen.
 
 Wer ganz sichergehen will, meldet das Auto vor dem Verkauf kurz ab. Wie das geht, steht
-im [Ratgeber zum Auto abmelden](/ratgeber/auto-abmelden). Der Käufer kann es danach als
-[Gebrauchtwagen neu zulassen](/ratgeber/gebrauchtwagen-zulassen).
+im [Ratgeber zum Auto abmelden](/kfz-ratgeber/auto-abmelden/). Der Käufer kann es danach als
+[Gebrauchtwagen neu zulassen](/kfz-ratgeber/gebrauchtwagen-zulassen/).
 
 <div class="box box-tipp"><strong>Tipp:</strong> Notiere im Kaufvertrag ausdrücklich,
 dass der Käufer das Fahrzeug unverzüglich umzumelden hat. Das hilft dir später, falls
@@ -144,7 +144,7 @@ es Streit um Bußgelder oder Steuern gibt.</div>
 
 <div class="box box-frage"><strong>Muss der alte Halter zur Zulassungsstelle mit?</strong>
 In der Regel nicht. Der neue Halter erledigt die Ummeldung allein, sofern er alle
-Papiere hat. Eine <a href="/ratgeber/zulassungsdienst-vollmacht">Vollmacht</a> braucht es nur,
+Papiere hat. Eine <a href="/kfz-ratgeber/zulassungsdienst-vollmacht/">Vollmacht</a> braucht es nur,
 wenn jemand Drittes das übernimmt.</div>
 
 <div class="box box-frage"><strong>Was passiert mit der Kfz-Steuer?</strong> Die Steuer
@@ -153,13 +153,13 @@ zahlt ab Umschreibung. Zu viel gezahlte Steuer wird dir anteilig erstattet.</div
 
 <div class="box box-frage"><strong>Und die Versicherung?</strong> Der bisherige Vertrag
 endet mit dem Halterwechsel. Der neue Halter braucht eine eigene
-<a href="/ratgeber/evb-nummer">eVB-Nummer</a>. Vergleiche vorher in Ruhe die
-<a href="/ratgeber/kfz-versicherung-vergleich">Kfz-Versicherung</a>, das spart oft mehr als die
+<a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a>. Vergleiche vorher in Ruhe die
+<a href="/kfz-ratgeber/kfz-versicherung-vergleich/">Kfz-Versicherung</a>, das spart oft mehr als die
 Umschreibegebühr.</div>
 
 <div class="box box-frage"><strong>Kann ich mein Kennzeichen behalten?</strong> Als
 verkaufender Halter ja – du kannst dein Wunschkennzeichen
-<a href="/ratgeber/wunschkennzeichen-reservieren">mitnehmen und reservieren</a>, wenn du es fürs
+<a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">mitnehmen und reservieren</a>, wenn du es fürs
 nächste Auto nutzen willst. Sonst geht es an den neuen Halter oder wird eingezogen.</div>
 
 ## Fazit
@@ -172,6 +172,6 @@ ignoriert, riskiert fremde Bußgelder im eigenen Briefkasten.
 
 Mein wichtigster Rat aus eigener Erfahrung: Gib dich nie mit einem mündlichen
 Versprechen zufrieden. Sichere dich mit einer
-[Verkaufsabmeldung](/ratgeber/auto-verkaufen-abmelden) ab und lass dir die Ummeldung
+[Verkaufsabmeldung](/kfz-ratgeber/auto-verkaufen-abmelden/) ab und lass dir die Ummeldung
 schriftlich bestätigen. Dann bleibt der Halterwechsel das, was er sein soll: ein
 sauberer Schlussstrich.

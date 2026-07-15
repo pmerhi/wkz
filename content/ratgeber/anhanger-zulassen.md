@@ -39,22 +39,22 @@ oder Transportanhänger gilt: Der will angemeldet werden.
 <div class="box box-wichtig"><strong>Wichtig:</strong> „Anhänger anmelden" und
 „Anhänger zulassen" meinen im Behördendeutsch dasselbe. Wer ohne gültige
 Zulassung fährt, riskiert ein Bußgeld und im Schadensfall Ärger mit der
-Versicherung. Mehr dazu im Ratgeber <a href="/ratgeber/fahren-ohne-zulassung">Fahren ohne Zulassung</a>.</div>
+Versicherung. Mehr dazu im Ratgeber <a href="/kfz-ratgeber/fahren-ohne-zulassung/">Fahren ohne Zulassung</a>.</div>
 
 ## Welche Unterlagen du für die Zulassung brauchst
 
-Der Gang zur [Zulassungsstelle](/zulassungsstelle) wird nur dann stressig, wenn
+Der Gang zur [Zulassungsstelle](/zulassungsstelle/) wird nur dann stressig, wenn
 Papiere fehlen. Deshalb lege ich dir alles vorher griffbereit hin. Das ist der
 Kern dessen, was du mitbringen musst.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis oder
-Reisepass mit Meldebescheinigung, die <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a>
+Reisepass mit Meldebescheinigung, die <a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung</a>
 Teil II (früher Fahrzeugbrief), bei gebrauchten Anhängern auch Teil I, eine
 gültige HU-Bescheinigung und die eVB-Nummer deiner Versicherung. Bei
 fabrikneuen Anhängern kommt die CoC-Bescheinigung oder Datenbestätigung dazu.</div>
 
 Hast du den Anhänger gebraucht gekauft, läuft die Sache wie bei einem
-[Halterwechsel](/ratgeber/halterwechsel-auto): Du brauchst zusätzlich die
+[Halterwechsel](/kfz-ratgeber/halterwechsel-auto/): Du brauchst zusätzlich die
 Unterlagen des Vorbesitzers und gegebenenfalls einen Kaufvertrag. Bei einem
 fabrikneuen Modell vom Händler bekommst du die Papiere fix und fertig mitgeliefert.
 
@@ -87,10 +87,10 @@ kannst also nicht einfach das Schild deines Zugfahrzeugs mitbenutzen. Optisch
 sieht es aus wie ein normales Pkw-Kennzeichen, ist aber meist etwas
 quadratischer geschnitten, damit es an die Rückseite passt.
 
-Das Schöne: Du darfst dir ein [Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren)
+Das Schöne: Du darfst dir ein [Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 aussuchen, genau wie beim Auto. Wie die Buchstaben und Zahlen aufgebaut sind,
-erkläre ich dir im Ratgeber [Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen).
-Die Schilder selbst lässt du beim [Schilderprägen](/ratgeber/nummernschild-pragen)
+erkläre ich dir im Ratgeber [Kennzeichen-Abkürzungen](/kfz-ratgeber/kennzeichen-abkuerzungen/).
+Die Schilder selbst lässt du beim [Schilderprägen](/kfz-ratgeber/nummernschild-praegen/)
 anfertigen – online oft günstiger als am Stand vor der Behörde.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Bestell das Schild erst, wenn
@@ -101,11 +101,11 @@ falls deine Lieblingskombination schon vergeben sein sollte.</div>
 
 Auch ein Anhänger braucht eine **Kfz-Haftpflichtversicherung**. Den Nachweis
 darüber lieferst du der Zulassungsstelle als siebenstellige
-[eVB-Nummer](/ratgeber/evb-nummer). Ohne sie wird dein Anhänger nicht zugelassen.
+[eVB-Nummer](/kfz-ratgeber/evb-nummer/). Ohne sie wird dein Anhänger nicht zugelassen.
 
 Die gute Nachricht: Eine Anhängerversicherung ist meist erstaunlich preiswert,
 weil das Schadenrisiko niedriger ist als beim Auto. Häufig zahlst du nur einen
-kleinen zweistelligen Betrag im Jahr. Ein [Versicherungsvergleich](/ratgeber/kfz-versicherung-vergleich)
+kleinen zweistelligen Betrag im Jahr. Ein [Versicherungsvergleich](/kfz-ratgeber/kfz-versicherung-vergleich/)
 lohnt sich trotzdem, denn die Tarife schwanken spürbar.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Verursacht dein Anhänger
@@ -126,9 +126,9 @@ Macht für die komplette Anmeldung grob <strong>45–125 €</strong> – plus d
 kleinen Versicherungsbeitrag.</div>
 
 Ähnliche Posten findest du auch beim normalen Auto: Eine Übersicht gibt dir mein
-Ratgeber zu den [Zulassungskosten](/ratgeber/zulassungskosten). Wer ein
+Ratgeber zu den [Zulassungskosten](/kfz-ratgeber/zulassungskosten/). Wer ein
 Wunschkennzeichen möchte, rechnet die paar Euro aus dem Ratgeber
-[Wunschkennzeichen-Kosten](/ratgeber/wunschkennzeichen-kosten) obendrauf.
+[Wunschkennzeichen-Kosten](/kfz-ratgeber/wunschkennzeichen-kosten/) obendrauf.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die genauen Beträge
 unterscheiden sich je nach Bundesland und Zulassungsbezirk. Manche Kommunen
@@ -138,9 +138,9 @@ Orientierung, nicht als amtlich garantierten Festpreis – Angaben ohne Gewähr.
 ## Online oder vor Ort zulassen?
 
 Seit der i-Kfz-Reform lassen sich viele Anhänger auch online anmelden. Über die
-[internetbasierte Fahrzeugzulassung](/ratgeber/i-kfz-online-zulassung) erledigst
+[internetbasierte Fahrzeugzulassung](/kfz-ratgeber/i-kfz-online-zulassung/) erledigst
 du den Antrag vom Sofa aus – sofern dein Anhänger und deine Papiere die
-[Voraussetzungen](/ratgeber/i-kfz-voraussetzungen) erfüllen. Das spart dir
+[Voraussetzungen](/kfz-ratgeber/i-kfz-voraussetzungen/) erfüllen. Das spart dir
 Anfahrt, Parkplatzsuche und Wartemarke.
 
 Klappt das in deinem Bezirk noch nicht oder fehlt dir die nötige Ausweis-
@@ -159,12 +159,12 @@ Anhänger Kennzeichen, das nicht mit dem des Zugfahrzeugs identisch ist.</div>
 
 <div class="box box-frage"><strong>Kann ich einen Anhänger als Saisonkennzeichen
 anmelden?</strong> Ja, das geht. Gerade bei Wohn- oder Bootsanhängern ist ein
-<a href="/ratgeber/saisonkennzeichen">Saisonkennzeichen</a> sinnvoll, wenn du ihn nur in
+<a href="/kfz-ratgeber/saisonkennzeichen/">Saisonkennzeichen</a> sinnvoll, wenn du ihn nur in
 bestimmten Monaten nutzt.</div>
 
 <div class="box box-frage"><strong>Muss ich den Anhänger ummelden, wenn ich
 umziehe?</strong> Beim Umzug in einen anderen Kreis ja – das läuft wie beim
-<a href="/ratgeber/auto-ummelden">Auto ummelden</a>. Innerhalb desselben Bezirks darfst du
+<a href="/kfz-ratgeber/auto-ummelden/">Auto ummelden</a>. Innerhalb desselben Bezirks darfst du
 dein Kennzeichen meist behalten.</div>
 
 ## Fazit
@@ -175,8 +175,8 @@ Zulassungsbescheinigung, eVB-Nummer – und ein eigenes Anhänger Kennzeichen. D
 Kosten halten sich in Grenzen, und mit i-Kfz geht vieles sogar online.
 
 Wenn du so weit bist, prüfst du am besten zuerst deine Wunschkombination: Im
-Ratgeber [Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren)
+Ratgeber [Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 zeige ich dir Schritt für Schritt, wie du dir dein Anhänger-Schild sicherst. Die
 rechtlichen Details kannst du jederzeit in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/)
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/)
 nachlesen.

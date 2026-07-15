@@ -42,7 +42,7 @@ besitzt, ist die Sache erledigt. Punkte in Flensburg gibt es dafür nicht.
 Foto deines Führerscheins im Handy auf. Das ersetzt zwar nicht das Original, hilft
 aber bei der Kontrolle oft, die Lage schnell zu klären. Hast du das Kärtchen
 verloren, kümmere dich zügig um Ersatz – wie das geht, liest du im Ratgeber
-<a href="/ratgeber/fuhrerschein-verloren">Führerschein verloren</a>.</div>
+<a href="/kfz-ratgeber/fuehrerschein-verloren/">Führerschein verloren</a>.</div>
 
 ## Fahren ohne Fahrerlaubnis: jetzt wird es ernst
 
@@ -83,19 +83,19 @@ und das nur die Strafe, ohne Anwalt und Verfahrenskosten.</div>
 ## Der Sonderfall: Fahren trotz Führerscheinentzug
 
 Besonders heikel wird es, wenn dir die Fahrerlaubnis **entzogen** wurde – etwa
-nach zu vielen [Punkten in Flensburg](/ratgeber/punkte-in-flensburg), einer
-[Trunkenheitsfahrt](/ratgeber/mpu-kosten) oder einer angeordneten MPU. Fährst du
+nach zu vielen [Punkten in Flensburg](/kfz-ratgeber/punkte-in-flensburg/), einer
+[Trunkenheitsfahrt](/kfz-ratgeber/mpu-kosten/) oder einer angeordneten MPU. Fährst du
 während eines laufenden **Führerscheinentzugs** oder einer Sperrfrist trotzdem,
 ist das eine eigene, schwerwiegende Straftat.
 
 Gerichte werten das deutlich härter, weil du dich bewusst über ein Verbot
 hinwegsetzt. Hier sind Freiheitsstrafen realistischer, und eine spätere
 Wiedererteilung der Fahrerlaubnis wird umso schwieriger – oft erst nach
-bestandener [MPU](/ratgeber/mpu-vorbereitung).
+bestandener [MPU](/kfz-ratgeber/mpu-vorbereitung/).
 
 <div class="box box-check"><strong>Das brauchst du, bevor du dich wieder ans
 Steuer setzt:</strong> eine gültige Fahrerlaubnis für die passende
-<a href="/ratgeber/fuhrerscheinklassen">Fahrzeugklasse</a>, nach einem Entzug ggf. den
+<a href="/kfz-ratgeber/fuehrerscheinklassen/">Fahrzeugklasse</a>, nach einem Entzug ggf. den
 positiven MPU-Bescheid und die behördliche Wiedererteilung. Erst dann bist du auf
 der sicheren Seite.</div>
 
@@ -131,13 +131,13 @@ Haft und ein möglicher Eintrag ins Führungszeugnis.</div>
 
 <div class="box box-frage"><strong>Was ist mit ausländischem oder abgelaufenem
 Führerschein?</strong> Ein abgelaufenes Kärtchen heißt nicht automatisch, dass die
-Fahrerlaubnis weg ist – meist musst du nur <a href="/ratgeber/fuhrerschein-umtauschen">umtauschen</a>.
-Beim <a href="/ratgeber/eu-fuhrerschein">EU-Führerschein</a> gelten eigene Regeln; im Zweifel
+Fahrerlaubnis weg ist – meist musst du nur <a href="/kfz-ratgeber/fuehrerschein-umtauschen/">umtauschen</a>.
+Beim <a href="/kfz-ratgeber/eu-fuehrerschein/">EU-Führerschein</a> gelten eigene Regeln; im Zweifel
 vorher klären.</div>
 
 <div class="box box-frage"><strong>Darf ich mit 17 schon allein fahren?</strong>
 Nur mit gültigem Begleiter im Rahmen des begleiteten Fahrens – Details im Ratgeber
-<a href="/ratgeber/fuhrerschein-ab-17">Führerschein ab 17</a>. Fährst du ohne Begleitperson,
+<a href="/kfz-ratgeber/fuehrerschein-ab-17/">Führerschein ab 17</a>. Fährst du ohne Begleitperson,
 riskierst du den Entzug der Prüfungsbescheinigung.</div>
 
 ## Fazit
@@ -151,5 +151,5 @@ Haft, Versicherungsärger und einen Eintrag, der noch Jahre nachwirkt.
 Mein Rat aus eigener Erfahrung: Lass es im Zweifel. Eine offizielle Übersicht zu
 Regeln und Statistiken rund um die Fahrerlaubnis findest du beim
 [ADAC](https://www.adac.de). Und wenn du gerade dabei bist, deinen Schein neu zu
-ordnen, helfen dir die Ratgeber zu den [Führerscheinklassen](/ratgeber/fuhrerscheinklassen)
-und zum [Umtausch](/ratgeber/fuhrerschein-umtauschen) weiter.
+ordnen, helfen dir die Ratgeber zu den [Führerscheinklassen](/kfz-ratgeber/fuehrerscheinklassen/)
+und zum [Umtausch](/kfz-ratgeber/fuehrerschein-umtauschen/) weiter.

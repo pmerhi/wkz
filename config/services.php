@@ -35,4 +35,11 @@ return [
         ],
     ],
 
+    // Openverse – offene API (WordPress/Creative Commons) für die Recherche
+    // kommerziell nutzbarer Städtebilder (ortbilder:fetch). Kein Key nötig;
+    // ein optionaler Token erhöht nur das Rate-Limit (api.openverse.org).
+    'openverse' => [
+        'token' => env('OPENVERSE_API_TOKEN'),
+    ],
+
 ];

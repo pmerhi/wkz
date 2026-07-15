@@ -26,6 +26,31 @@ class Gemeinde extends Model
         return $this->hasMany(Zulassungsstelle::class);
     }
 
+    /** Alle recherchierten/ausgewählten Städtebilder. */
+    public function ortbilder(): HasMany
+    {
+        return $this->hasMany(Ortbild::class);
+    }
+
+    /** Ausgewähltes Hero-Bild (oben auf der Ort-Seite), falls vorhanden. */
+    public function heroBild(): ?Ortbild
+    {
+        return $this->ortbilder()->where('rolle', 'hero')->first();
+    }
+
+    /** Ausgewähltes Footer-Bild (kleiner, unten auf der Ort-Seite), falls vorhanden. */
+    public function footerBild(): ?Ortbild
+    {
+        return $this->ortbilder()->where('rolle', 'footer')->first();
+    }
+
+    /** Beide Footer-Bilder (unten nebeneinander) in fester Reihenfolge. */
+    public function footerBilder(): \Illuminate\Support\Collection
+    {
+        return $this->ortbilder()->whereIn('rolle', ['footer', 'footer2'])
+            ->orderByRaw("FIELD(rolle,'footer','footer2')")->get();
+    }
+
     /** Kennzeichen-Kürzel der Gemeinde (über den Kreis). */
     public function kennzeichenKuerzel()
     {

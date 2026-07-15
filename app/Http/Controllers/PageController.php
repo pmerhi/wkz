@@ -105,6 +105,18 @@ class PageController extends Controller
      */
     public function zulassungsstelle(string $slug)
     {
+        // 0) HUB-Rollout: Städte mit mehreren Ämtern werden als Stadt-Hub ausgeliefert.
+        //    Nicht-kanonische Slugs (Zweit-Amt/Nebenstelle) 301 auf die kanonische Stadt-URL.
+        //    Einzelamt-Städte behalten ihre reichhaltige Detailseite (Schritt 1 ff.).
+        $seed = Zulassungsstelle::where('slug', $slug)->first();
+        if ($seed && $seed->ort && $seed->stadtGruppe()->count() > 1) {
+            $canonSlug = $seed->kanonischeStelle()->slug;
+            if ($slug !== $canonSlug) {
+                return redirect('/zulassungsstelle/'.$canonSlug, 301);
+            }
+            return $this->renderHub($seed);
+        }
+
         // 1) Hauptstelle mit diesem Slug? (Stadtstaaten: berlin/bremen/hamburg → Stelle gewinnt)
         $stelle = Zulassungsstelle::whereNull('parent_id')->where('slug', $slug)
             ->with(['bundesland', 'kennzeichenKuerzel', 'seoMeta', 'gemeinde',
@@ -136,6 +148,71 @@ class PageController extends Controller
 
         // 5) sonst → zur Übersicht statt 404.
         return redirect('/zulassungsstelle');
+    }
+
+    /**
+     * Rendert die Stadt-Hub-Seite: alle Ämter des Ortes (Stadt + Landkreis +
+     * Nebenstellen), auf dasselbe Bundesland begrenzt (kein Merge gleichnamiger
+     * Orte). Hauptstellen zuerst.
+     */
+    private function renderHub(Zulassungsstelle $seed)
+    {
+        $standorte = $seed->stadtGruppe()
+            ->with(['kennzeichenKuerzel', 'bundesland:id,name,slug'])
+            ->orderByRaw('parent_id IS NOT NULL')
+            ->orderBy('name')
+            ->get();
+
+        $canonSlug = $seed->kanonischeStelle()->slug;
+        $canonUrl  = url('/zulassungsstelle/'.$canonSlug);
+        $stelle    = $standorte->firstWhere('parent_id', null) ?? $seed;
+        $ortLabel  = $seed->ort;
+
+        // JSON-LD: jeder Standort als GovernmentOffice in einer ItemList + Breadcrumb.
+        $items = [];
+        foreach ($standorte as $i => $loc) {
+            $office = array_filter([
+                '@type'     => 'GovernmentOffice',
+                'name'      => $loc->anzeigeName(),
+                'url'       => $canonUrl,
+                'telephone' => $loc->telefon ?: null,
+                'email'     => $loc->email ?: null,
+                'address'   => array_filter([
+                    '@type'           => 'PostalAddress',
+                    'streetAddress'   => $loc->strasse ?: null,
+                    'postalCode'      => $loc->plz ?: null,
+                    'addressLocality' => $loc->ort ?: null,
+                    'addressRegion'   => $loc->bundesland?->name,
+                    'addressCountry'  => 'DE',
+                ]) ?: null,
+            ]);
+            if ($loc->lat && $loc->lng) {
+                $office['geo'] = ['@type' => 'GeoCoordinates', 'latitude' => (float) $loc->lat, 'longitude' => (float) $loc->lng];
+            }
+            $items[] = ['@type' => 'ListItem', 'position' => $i + 1, 'item' => $office];
+        }
+        $schemas = [
+            ['@context' => 'https://schema.org', '@type' => 'ItemList',
+                'name' => 'Zulassungsstellen in '.$ortLabel, 'itemListElement' => $items],
+            $this->breadcrumb([
+                ['Start', url('/')],
+                ['Zulassungsstellen', url('/zulassungsstelle')],
+                ['Zulassungsstelle '.$ortLabel, $canonUrl],
+            ]),
+        ];
+
+        return view('pages.zulassungsstelle-hub', [
+            'title'       => 'Zulassungsstelle '.$ortLabel.' – Standorte, Öffnungszeiten & Termin',
+            'description' => 'Alle Zulassungsstellen in '.$ortLabel.' auf einen Blick: Standorte, Öffnungszeiten, '
+                            .'Online-Termin und Wunschkennzeichen reservieren.',
+            'canonical'   => $canonUrl,
+            'robots'      => 'index,follow',
+            'schemas'     => $schemas,
+            'stelle'      => $stelle,
+            'standorte'   => $standorte,
+            'ortLabel'    => $ortLabel,
+            'kuerzel'     => $stelle->kennzeichenKuerzel->first(),
+        ]);
     }
 
     /**
@@ -268,8 +345,8 @@ class PageController extends Controller
             : collect();
 
         return view('pages.zulassungsstelle', [
-            'title'       => $stelle->seoMeta?->title ?? ($stelle->name.' — Öffnungszeiten, Termin & Wunschkennzeichen'),
-            'description' => $stelle->seoMeta?->description ?? ('Zulassungsstelle '.$stelle->name.': Anschrift, Öffnungszeiten, Terminvergabe und Wunschkennzeichen reservieren.'),
+            'title'       => $stelle->seoMeta?->title ?? ($stelle->anzeigeName().' — Öffnungszeiten, Termin & Wunschkennzeichen'),
+            'description' => $stelle->seoMeta?->description ?? ('Zulassungsstelle '.($stelle->ort ?: $stelle->anzeigeName()).': Anschrift, Öffnungszeiten, Terminvergabe und Wunschkennzeichen reservieren.'),
             'canonical'   => $stelle->seoMeta?->canonical ?? $stelle->url(),
             'robots'      => $noindex ? 'noindex,follow' : 'index,follow',
             'schemas'     => $schemas,
@@ -755,6 +832,8 @@ class PageController extends Controller
             'stelle'         => $stelle,
             'nachbarn'       => $nachbarn,
             'faq'            => $faq,
+            'heroBild'       => $g->heroBild(),
+            'footerBilder'   => $g->footerBilder(),
         ]);
     }
 
@@ -779,13 +858,21 @@ class PageController extends Controller
             ->groupBy(fn ($s) => Str::upper(Str::substr($s->ort ?: $s->name, 0, 1)))
             ->sortKeys();
 
+        // Kanonische Hub-Pfade (slug → Pfad) einmal für alle Stellen (kein N+1).
+        $hubPfade = Zulassungsstelle::hubPfadMap();
+
+        // ItemList-Schema: nach kanonischer URL dedupliziert, Namen ohne „Kfz-".
         $items = [];
-        foreach ($bl->zulassungsstellen as $i => $s) {
+        $gesehen = [];
+        foreach ($bl->zulassungsstellen as $s) {
+            $pfad = $hubPfade[$s->slug] ?? '/zulassungsstelle/'.$s->slug;
+            if (isset($gesehen[$pfad])) continue;
+            $gesehen[$pfad] = true;
             $items[] = [
                 '@type'    => 'ListItem',
-                'position' => $i + 1,
-                'name'     => $s->name,
-                'url'      => $s->url(),
+                'position' => count($items) + 1,
+                'name'     => $s->anzeigeName(),
+                'url'      => url($pfad),
             ];
         }
 
@@ -808,6 +895,7 @@ class PageController extends Controller
             'kuerzel'     => $kuerzel,
             'artikel'     => $artikel,
             'gruppen'     => $gruppen,
+            'hubPfade'    => $hubPfade,
         ]);
     }
 

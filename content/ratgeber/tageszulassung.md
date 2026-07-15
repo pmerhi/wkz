@@ -37,7 +37,7 @@ Boni und Margen hängen. Der Händler „opfert" also die Erstzulassung, um das 
 danach mit kräftigem Rabatt schneller loszuwerden.
 
 Für dich heißt das: Du kaufst ein technisch neues Fahrzeug mit null oder ganz
-wenigen Kilometern – aber im [Fahrzeugschein](/ratgeber/zulassungsbescheinigung)
+wenigen Kilometern – aber im [Fahrzeugschein](/kfz-ratgeber/zulassungsbescheinigung/)
 steht der Händler als erster Halter. Du wirst beim Kauf zum zweiten.
 
 <div class="box box-frage"><strong>Ist eine Tageszulassung ein Gebrauchtwagen?</strong>
@@ -98,13 +98,13 @@ Auto je angemeldet auf der Straße bewegt wurde.</div>
 Auch wenn das Auto schon einmal zugelassen war: Du musst es nach dem Kauf auf
 **deinen Namen ummelden** – das ist eine ganz normale Zulassung. Wie das abläuft
 und was du brauchst, habe ich dir im
-[Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden) Schritt für Schritt
+[Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/) Schritt für Schritt
 zusammengestellt.
 
 Die Behördengebühr liegt meist bei **rund 30 €**, dazu kommen die Schilder. Wenn
-du dir gleich ein [Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren)
+du dir gleich ein [Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 willst, kostet das nur ein paar Euro extra. Den schnellsten Weg bietet die
-[i-Kfz-Online-Zulassung](/ratgeber/i-kfz-online-zulassung) – die spart Anfahrt
+[i-Kfz-Online-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/) – die spart Anfahrt
 und Wartezeit.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Tageszulassung mit
@@ -114,9 +114,9 @@ ein vierstelliger Vorteil – vorausgesetzt, der Wertverlust durch den
 Zweithalter-Status frisst ihn nicht teilweise wieder auf.</div>
 
 Detaillierte Posten zur Anmeldung findest du im
-[Überblick zu den Zulassungskosten](/ratgeber/zulassungskosten). Bei einem
+[Überblick zu den Zulassungskosten](/kfz-ratgeber/zulassungskosten/). Bei einem
 Halterwechsel wie hier gilt grundsätzlich der gleiche Ablauf wie beim
-[Gebrauchtwagen zulassen](/ratgeber/gebrauchtwagen-zulassen).
+[Gebrauchtwagen zulassen](/kfz-ratgeber/gebrauchtwagen-zulassen/).
 
 ## Tageszulassung oder echter Neuwagen – wann lohnt was?
 
@@ -151,11 +151,11 @@ zurückliegt, desto weniger Garantie bleibt dir.</div>
 <div class="box box-frage"><strong>Kann ich ein Wunschkennzeichen nutzen?</strong>
 Klar. Du meldest das Auto ganz normal auf dich an und kannst dabei dein
 Wunschkennzeichen wählen – siehe
-<a href="/ratgeber/wunschkennzeichen-online-vor-ort">Wunschkennzeichen online oder vor Ort</a>.</div>
+<a href="/kfz-ratgeber/wunschkennzeichen-online-vor-ort/">Wunschkennzeichen online oder vor Ort</a>.</div>
 
 <div class="box box-frage"><strong>Ist die Tageszulassung steuerlich ein
 Neuwagen?</strong> Für die Kfz-Steuer wird nach den technischen Werten berechnet –
-du kannst sie vorab mit dem <a href="/ratgeber/kfz-steuer-berechnen">Kfz-Steuer-Rechner</a>
+du kannst sie vorab mit dem <a href="/kfz-ratgeber/kfz-steuer-berechnen/">Kfz-Steuer-Rechner</a>
 abschätzen. Beim Halterstatus bleibst du aber zweiter Halter.</div>
 
 ## Fazit
@@ -169,5 +169,5 @@ Mein Fazit nach mehreren solcher Käufe: Wer das Erstzulassungsdatum prüft, den
 Rabatt sauber gegenrechnet und mit dem leicht gedrückten Wiederverkaufswert leben
 kann, macht mit einer Tageszulassung selten etwas falsch. Bist du bereit, das
 Auto auf dich anzumelden, hilft dir der
-[Ratgeber zum Gebrauchtwagen zulassen](/ratgeber/gebrauchtwagen-zulassen) durch
+[Ratgeber zum Gebrauchtwagen zulassen](/kfz-ratgeber/gebrauchtwagen-zulassen/) durch
 jeden Schritt.

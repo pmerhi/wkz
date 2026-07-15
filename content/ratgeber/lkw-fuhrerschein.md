@@ -52,7 +52,7 @@ beim Mindestalter und endet beim Gesundheitscheck.
 Grundsätzlich brauchst du für C und CE ein Mindestalter von **21 Jahren** – mit
 beschleunigter Grundqualifikation für den Berufskraftfahrer geht es schon ab
 **18 Jahren**. Außerdem musst du in der Regel bereits die Klasse B (Pkw)
-besitzen. Anders als beim [Pkw-Führerschein](/ratgeber/fuhrerscheinklassen) sind
+besitzen. Anders als beim [Pkw-Führerschein](/kfz-ratgeber/fuehrerscheinklassen/) sind
 zusätzlich ein **augenärztliches Gutachten** und eine **ärztliche Untersuchung**
 zur körperlichen Eignung Pflicht.
 
@@ -65,13 +65,13 @@ Der Lkw-Führerschein ist außerdem zeitlich befristet: Die Klassen C und CE gel
 nur **fünf Jahre** und müssen danach mit einer erneuten ärztlichen Untersuchung
 verlängert werden. Das ist kein einmaliges „bestanden und fertig", sondern eine
 wiederkehrende Pflicht. Wer schon mal einen Schein verlängern oder umtauschen
-musste, kennt das aus dem [Führerschein-Umtausch](/ratgeber/fuhrerschein-umtauschen).
+musste, kennt das aus dem [Führerschein-Umtausch](/kfz-ratgeber/fuehrerschein-umtauschen/).
 
 ## Lkw-Führerschein Kosten: Womit musst du rechnen?
 
 Jetzt zum Punkt, der die meisten am meisten interessiert: Was kostet das alles?
 Und hier muss ich dich vorwarnen – der Lkw-Führerschein ist deutlich teurer als
-der [Pkw-Führerschein](/ratgeber/fuhrerschein-kosten). Die Beträge bewegen sich je
+der [Pkw-Führerschein](/kfz-ratgeber/fuehrerschein-kosten/). Die Beträge bewegen sich je
 nach Region, Fahrschule und Vorerfahrung in einer breiten Spanne.
 
 Für die **Klasse C allein** landest du grob bei **2.500–3.500 €**. Kommt die
@@ -141,7 +141,7 @@ Ein paar Hebel, mit denen du die Kosten drückst:
    – und teure zusätzliche Fahrstunden.
 
 Wenn du parallel über das Thema Fahrzeug und Anhänger nachdenkst, lohnt auch ein
-Blick in den [Ratgeber zum Anhänger zulassen](/ratgeber/anhanger-zulassen) – denn
+Blick in den [Ratgeber zum Anhänger zulassen](/kfz-ratgeber/anhaenger-zulassen/) – denn
 mit der Klasse CE willst du das Gespann am Ende ja auch korrekt auf die Straße
 bringen.
 
@@ -174,5 +174,5 @@ vergisst, wenn du beruflich fahren willst.
 Mein wichtigster Rat: Frag vor der Anmeldung nach **Förderung**. In vielen Fällen
 musst du die mehreren tausend Euro gar nicht selbst zahlen. Und wenn du dich
 allgemein über die einzelnen Klassen informieren willst, schau in den
-[Überblick zu den Führerscheinklassen](/ratgeber/fuhrerscheinklassen) – dort
+[Überblick zu den Führerscheinklassen](/kfz-ratgeber/fuehrerscheinklassen/) – dort
 ordne ich C, CE und Co. noch einmal verständlich ein.

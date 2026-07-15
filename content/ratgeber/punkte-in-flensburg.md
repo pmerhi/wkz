@@ -66,7 +66,7 @@ Rechtsberatung – im Einzelfall entscheidet immer die Behörde. Ohne Gewähr.</
 Ist der Führerschein erst einmal weg, kommst du nicht sofort wieder ans Steuer.
 Es gibt eine **Sperrfrist** von mindestens sechs Monaten, und danach musst du die
 Fahrerlaubnis neu beantragen. Häufig verlangt die Behörde dann eine
-[medizinisch-psychologische Untersuchung (MPU)](/ratgeber/mpu-kosten), bevor du
+[medizinisch-psychologische Untersuchung (MPU)](/kfz-ratgeber/mpu-kosten/), bevor du
 wieder fahren darfst.
 
 ## Wann Punkte wieder verfallen
@@ -143,8 +143,8 @@ nicht am Steuer saß.
 
 Trotzdem lohnt sich der Blick aufs große Ganze: Wer auffällig fährt, zahlt oft
 auch bei der Versicherung drauf. Ein Blick in den
-[Bußgeldkatalog](/ratgeber/bussgeldkatalog) und ein ehrlicher
-[Versicherungsvergleich](/ratgeber/kfz-versicherung-vergleich) helfen, böse
+[Bußgeldkatalog](/kfz-ratgeber/bussgeldkatalog/) und ein ehrlicher
+[Versicherungsvergleich](/kfz-ratgeber/kfz-versicherung-vergleich/) helfen, böse
 Überraschungen zu vermeiden.
 
 <div class="box box-frage"><strong>Bekomme ich als Halter Punkte, wenn jemand
@@ -181,6 +181,6 @@ Fahreignungsseminar genau eine, eng begrenzte Option.
 
 Mein ehrliches Fazit nach Jahren auf der Straße: Der beste Schutz ist
 vorausschauendes Fahren. Wenn du tiefer einsteigen willst, schau dir auch die
-[Punkte und Bußgelder im Detail](/ratgeber/bussgeldkatalog) sowie die
-[MPU-Vorbereitung](/ratgeber/mpu-vorbereitung) an – dann bist du auf alles
+[Punkte und Bußgelder im Detail](/kfz-ratgeber/bussgeldkatalog/) sowie die
+[MPU-Vorbereitung](/kfz-ratgeber/mpu-vorbereitung/) an – dann bist du auf alles
 vorbereitet.

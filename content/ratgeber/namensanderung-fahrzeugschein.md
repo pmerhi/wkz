@@ -34,13 +34,13 @@ Fahrzeugschein nicht zu deinem Personalausweis passt, gibt es im besten Fall
 Erklärungsbedarf, im schlechteren Fall ein Verwarnungsgeld.
 
 Auch beim **Verkauf** deines Autos, bei der Kfz-Versicherung oder bei einem
-Halterwechsel kann der falsche Name zu Reibereien führen. Die [FZV](https://www.gesetze-im-internet.de/fzv_2011/)
+Halterwechsel kann der falsche Name zu Reibereien führen. Die [FZV](https://www.gesetze-im-internet.de/fzv_2023/)
 verpflichtet dich, Änderungen deiner Daten der Zulassungsbehörde mitzuteilen.
 Es ist also keine Kann-, sondern eine Soll-Sache.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Eine reine
 <strong>Namensänderung</strong> ist kein Halterwechsel. Du bleibst dieselbe Person – nur dein
-Name ändert sich. Verwechsle das nicht mit dem <a href="/ratgeber/halterwechsel-auto">Halterwechsel beim Auto</a>,
+Name ändert sich. Verwechsle das nicht mit dem <a href="/kfz-ratgeber/halterwechsel-auto/">Halterwechsel beim Auto</a>,
 bei dem das Fahrzeug auf eine andere Person übergeht.</div>
 
 ## Die häufigsten Anlässe: Heirat, Scheidung & Co.
@@ -76,7 +76,7 @@ deine Kennzeichen, falls neue Schilder nötig werden.</div>
 Ob du **Teil II** wirklich mitbringen musst, ist regional unterschiedlich. Manche
 Zulassungsstellen tragen die Änderung nur in Teil I ein, andere wollen beide
 Dokumente sehen. Ein kurzer Anruf vorab spart dir im Zweifel den zweiten Weg.
-Falls dir Papiere fehlen: Wie du eine [verlorene Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung)
+Falls dir Papiere fehlen: Wie du eine [verlorene Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/)
 ersetzt, habe ich dir separat aufgeschrieben.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Aktualisiere zuerst deinen
@@ -98,14 +98,14 @@ Der Ablauf ist erfreulich überschaubar. So bin ich vorgegangen:
 
 Das Ganze dauert vor Ort selten länger als 15 bis 20 Minuten – die Wartezeit
 einmal außen vor. In vielen Bezirken lässt sich der Vorgang inzwischen auch über
-die [internetbasierte Fahrzeugzulassung (i-Kfz)](/ratgeber/i-kfz-online-zulassung)
+die [internetbasierte Fahrzeugzulassung (i-Kfz)](/kfz-ratgeber/i-kfz-online-zulassung/)
 anstoßen, sodass du dir den Gang zum Amt sparst.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Wenn sich gleichzeitig
 deine Adresse ändert – etwa weil du zum Partner ziehst – kannst du beides
 zusammen erledigen. Bleibst du im selben Zulassungsbezirk, ist das eine
-<a href="/ratgeber/auto-ummelden-ohne-kreiswechsel">Ummeldung ohne Kreiswechsel</a>; ziehst
-du in einen anderen Kreis, greift die <a href="/ratgeber/auto-ummelden-kreiswechsel">Ummeldung mit Kreiswechsel</a>.</div>
+<a href="/kfz-ratgeber/auto-ummelden-ohne-kreiswechsel/">Ummeldung ohne Kreiswechsel</a>; ziehst
+du in einen anderen Kreis, greift die <a href="/kfz-ratgeber/auto-ummelden-kreiswechsel/">Ummeldung mit Kreiswechsel</a>.</div>
 
 ## Was kostet die Namensänderung?
 
@@ -120,7 +120,7 @@ Neue <strong>Schilder</strong> brauchst du in der Regel nicht – das Kennzeiche
 bleibt. Unterm Strich landest du fast immer unter <strong>30 €</strong>.</div>
 
 Teurer wird es nur, wenn du den Anlass nutzt, um gleich noch ein
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) zu reservieren oder
+[Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) zu reservieren oder
 neue Schilder prägen zu lassen. Das ist aber freiwillig – für die bloße
 Namenskorrektur nicht nötig.
 
@@ -155,12 +155,12 @@ an deinen Namen. Neue Schilder sind nur nötig, wenn du sie ausdrücklich möcht
 
 <div class="box box-frage"><strong>Kann ich die Namensänderung online
 machen?</strong> In immer mehr Zulassungsbezirken ja, über
-<a href="/ratgeber/i-kfz-online-zulassung">i-Kfz</a>. Welche Schritte online möglich sind,
+<a href="/kfz-ratgeber/i-kfz-online-zulassung/">i-Kfz</a>. Welche Schritte online möglich sind,
 hängt von deiner Behörde ab – ein Blick aufs jeweilige Portal lohnt sich.</div>
 
 <div class="box box-frage"><strong>Was, wenn ich gleichzeitig umziehe?</strong>
 Dann erledigst du Namens- und Adressänderung am besten in einem Termin. Je nach
-Wohnort ist das eine <a href="/ratgeber/auto-ummelden">Ummeldung mit oder ohne Kreiswechsel</a>.</div>
+Wohnort ist das eine <a href="/kfz-ratgeber/auto-ummelden/">Ummeldung mit oder ohne Kreiswechsel</a>.</div>
 
 ## Fazit
 
@@ -173,5 +173,5 @@ Kennzeichen darfst du behalten.
 Mein Rat: Schieb es nicht auf. Sobald dein Personalausweis den neuen Namen trägt,
 gehst du gleich die Fahrzeugpapiere an. So passt am Ende alles zusammen – und du
 hast bei der nächsten Verkehrskontrolle oder beim
-[Auto verkaufen](/ratgeber/auto-verkaufen-abmelden) garantiert keinen Ärger mit
+[Auto verkaufen](/kfz-ratgeber/auto-verkaufen-abmelden/) garantiert keinen Ärger mit
 einem veralteten Eintrag.

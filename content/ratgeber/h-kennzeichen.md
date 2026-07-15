@@ -29,7 +29,7 @@ nicht bietet.</div>
 ## Was ist ein H-Kennzeichen überhaupt?
 
 Ein H-Kennzeichen ist ein ganz normales Nummernschild mit deinem
-[Unterscheidungszeichen](/kennzeichen) – nur dass hinter der Zahlenkombination
+[Unterscheidungszeichen](/kennzeichen/) – nur dass hinter der Zahlenkombination
 ein **„H"** angehängt wird, etwa „B-MW 123 H". Optisch unscheinbar, rechtlich
 aber ein eigener Status.
 
@@ -39,7 +39,7 @@ Sammler-Kennzeichen, sondern ein vollwertiges Alltagskennzeichen – nur eben f�
 Klassiker.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Das H-Kennzeichen lässt sich auch
-als <a href="/ratgeber/saisonkennzeichen">Saisonkennzeichen</a> kombinieren. So
+als <a href="/kfz-ratgeber/saisonkennzeichen/">Saisonkennzeichen</a> kombinieren. So
 fährst du deinen Sommer-Roadster nur von April bis Oktober und sparst Steuer und
 Versicherung in den Wintermonaten.</div>
 
@@ -60,8 +60,8 @@ lief – oder mit zeitgenössischem, dokumentiertem Zubehör.
 
 <div class="box box-check"><strong>Das brauchst du fürs H-Kennzeichen:</strong>
 ein Fahrzeug ab 30 Jahren, das Oldtimer-Gutachten nach § 23 StVZO, die
-<a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a> Teil I und
-II, deinen Personalausweis sowie eine <a href="/ratgeber/evb-nummer">eVB-Nummer</a>
+<a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung</a> Teil I und
+II, deinen Personalausweis sowie eine <a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a>
 deiner Versicherung.</div>
 
 Den Zustand bestätigt dir ein Sachverständiger von TÜV, DEKRA oder GTÜ mit einem
@@ -84,7 +84,7 @@ eine pauschale Kfz-Steuer – aktuell **191,73 € pro Jahr** für Pkw (Motorrä
 deutlich weniger). Bei einem durstigen Achtzylinder aus den 90ern, der regulär
 mehrere Hundert Euro kosten würde, ist das ein echtes Geschenk. Wie sich die
 reguläre Steuer berechnet, kannst du im
-[Ratgeber zur Kfz-Steuer](/ratgeber/kfz-steuer-berechnen) nachlesen.
+[Ratgeber zur Kfz-Steuer](/kfz-ratgeber/kfz-steuer-berechnen/) nachlesen.
 
 Dazu kommt: Mit dem H-Kennzeichen darfst du in **jede Umweltzone** einfahren –
 ganz ohne grüne Plakette. Für viele Innenstädte ist das der entscheidende Punkt.
@@ -125,7 +125,7 @@ größte ist nicht etwa die Zulassung, sondern das Gutachten.
   **80–160 €**
 - **Hauptuntersuchung (HU):** etwa **60–130 €**, oft direkt mit dem Gutachten kombiniert
 - **Zulassungsgebühr:** rund **30 €**, ähnlich wie beim normalen
-  [Auto anmelden](/ratgeber/auto-anmelden)
+  [Auto anmelden](/kfz-ratgeber/auto-anmelden/)
 - **Zwei geprägte Schilder:** ca. **20–35 €**
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Lass HU und Oldtimer-Gutachten
@@ -160,7 +160,7 @@ sie.</div>
 
 <div class="box box-frage"><strong>Kann ich ein Wunschkennzeichen mit H
 kombinieren?</strong> Ja. Du kannst dir wie üblich eine
-<a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkombination reservieren</a>
+<a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Wunschkombination reservieren</a>
 – das „H" wird einfach angehängt.</div>
 
 ## Fazit
@@ -173,6 +173,6 @@ Umweltzone. Die Voraussetzungen – 30 Jahre, originaler Zustand, Gutachten nach
 Hast du dagegen mehrere Schätzchen, die nur gelegentlich aus der Garage rollen,
 schau dir das **07-Kennzeichen** genauer an. Und wenn du wissen willst, welche
 Fristen und Unterlagen sonst noch auf dich zukommen, hilft dir der
-[Ratgeber zum Oldtimer zulassen](/ratgeber/oldtimer-zulassen) Schritt für Schritt
+[Ratgeber zum Oldtimer zulassen](/kfz-ratgeber/oldtimer-zulassen/) Schritt für Schritt
 weiter. Rechtliche Details und die offiziellen Bestände findest du beim
 [Kraftfahrt-Bundesamt](https://www.kba.de).

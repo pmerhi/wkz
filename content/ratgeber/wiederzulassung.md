@@ -28,7 +28,7 @@ Routine.</div>
 
 ## Was bedeutet Wiederzulassung überhaupt?
 
-Wenn du ein Fahrzeug [abmeldest](/ratgeber/auto-abmelden), wird es im
+Wenn du ein Fahrzeug [abmeldest](/kfz-ratgeber/auto-abmelden/), wird es im
 Zentralen Fahrzeugregister außer Betrieb gesetzt. Versicherung und Kfz-Steuer
 ruhen, du darfst nicht mehr fahren – das Auto darf aber stehen bleiben, etwa in
 der Garage oder auf dem Privatgrundstück.
@@ -41,7 +41,7 @@ aber für den Aufwand.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ohne gültige Zulassung zu
 fahren, ist kein Kavaliersdelikt. Es droht eine Strafanzeige wegen
-<a href="/ratgeber/fahren-ohne-zulassung">Fahrens ohne Zulassung</a> – und der
+<a href="/kfz-ratgeber/fahren-ohne-zulassung/">Fahrens ohne Zulassung</a> – und der
 Versicherungsschutz fehlt komplett. Warte also, bis die Wiederzulassung wirklich
 durch ist.</div>
 
@@ -53,16 +53,16 @@ Ohne gültige HU keine Wiederzulassung – das ist der Punkt, an dem die meisten
 zuerst hängenbleiben.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis oder
-Reisepass mit Meldebescheinigung, <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a>
-Teil I und II, gültige HU (TÜV/DEKRA), eine <a href="/ratgeber/evb-nummer">eVB-Nummer</a> deiner
+Reisepass mit Meldebescheinigung, <a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung</a>
+Teil I und II, gültige HU (TÜV/DEKRA), eine <a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> deiner
 Versicherung, ein SEPA-Lastschriftmandat für die Kfz-Steuer und – falls vorhanden –
 die alten Kennzeichen.</div>
 
 Hast du das Auto in der Stilllegung gekauft, brauchst du zusätzlich den
-Kaufvertrag, weil dann ein [Halterwechsel](/ratgeber/halterwechsel-auto) mit drin
+Kaufvertrag, weil dann ein [Halterwechsel](/kfz-ratgeber/halterwechsel-auto/) mit drin
 hängt. Sind die Papiere weg, ist das kein K.-o.-Kriterium: Bei verlorenem
-[Fahrzeugschein](/ratgeber/fahrzeugschein-verloren) oder
-[Fahrzeugbrief](/ratgeber/fahrzeugbrief-verloren) lässt sich Ersatz beantragen –
+[Fahrzeugschein](/kfz-ratgeber/fahrzeugschein-verloren/) oder
+[Fahrzeugbrief](/kfz-ratgeber/fahrzeugbrief-verloren/) lässt sich Ersatz beantragen –
 das kostet aber Zeit und Geld.
 
 ## Schritt für Schritt: abgemeldetes Auto zulassen
@@ -73,7 +73,7 @@ So gehe ich bei einer Wiederzulassung vor:
    Prüfstelle. Das Auto muss dafür verkehrssicher sein.
 2. **eVB-Nummer besorgen.** Ein Anruf bei der Versicherung oder ein
    Online-Abschluss genügt – ohne eVB läuft nichts.
-3. **Termin bei der [Zulassungsstelle](/zulassungsstelle) buchen** oder den
+3. **Termin bei der [Zulassungsstelle](/zulassungsstelle/) buchen** oder den
    Online-Weg wählen.
 4. **Antrag stellen, Gebühren zahlen, Schilder prägen lassen.** Behältst du das
    alte Kennzeichen, sparst du dir neue Schilder.
@@ -84,8 +84,8 @@ lass das Auto vorher checken. Eine durchgefallene Untersuchung verzögert die
 Wiederzulassung um Tage – und kostet die Nachprüfung extra.</div>
 
 Übrigens: In vielen Bezirken geht die Wiederzulassung inzwischen komplett digital
-über die [i-Kfz-Online-Zulassung](/ratgeber/i-kfz-online-zulassung). Ob dein
-Fahrzeug die [Voraussetzungen](/ratgeber/i-kfz-voraussetzungen) erfüllt, hängt vor
+über die [i-Kfz-Online-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/). Ob dein
+Fahrzeug die [Voraussetzungen](/kfz-ratgeber/i-kfz-voraussetzungen/) erfüllt, hängt vor
 allem davon ab, ob die Zulassungsbescheinigung die nötigen Sicherheitscodes hat.
 
 ## Bekomme ich mein altes Kennzeichen zurück?
@@ -100,8 +100,8 @@ ohne neue Schilder behalten. Danach kann es anderweitig vergeben sein.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Willst du auf Nummer
 sicher gehen oder dir eine schöne Kombination holen, lohnt sich ein
-<a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen reservieren</a>. Die genaue
-<a href="/ratgeber/wunschkennzeichen-reservierung-gultigkeit">Gültigkeit der Reservierung</a>
+<a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Wunschkennzeichen reservieren</a>. Die genaue
+<a href="/kfz-ratgeber/wunschkennzeichen-reservierung-gueltigkeit/">Gültigkeit der Reservierung</a>
 ist regional unterschiedlich.</div>
 
 ## Was kostet die Wiederzulassung?
@@ -119,7 +119,7 @@ ohne mögliche Reparaturen für die HU.</div>
 Behältst du dein altes Kennzeichen und ist die HU noch gültig (etwa bei nur kurzer
 Stilllegung), wird es deutlich günstiger – dann landest du nahe an der reinen
 Anmeldegebühr. Eine genaue Aufstellung findest du im Ratgeber zu den
-[Zulassungskosten](/ratgeber/zulassungskosten).
+[Zulassungskosten](/kfz-ratgeber/zulassungskosten/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Gebühren und Beträge
 unterscheiden sich je nach Bundesland und Zulassungsbezirk, auch HU-Preise
@@ -135,10 +135,10 @@ HU, weil die technischen Daten neu festgestellt werden müssen.
 
 Auch ältere Fahrzeuge profitieren manchmal: Wer ein mindestens 30 Jahre altes,
 originalgetreues Auto wieder anmeldet, kann über ein
-[H-Kennzeichen](/ratgeber/h-kennzeichen) und die
-[Oldtimer-Zulassung](/ratgeber/oldtimer-zulassen) nachdenken – mit steuerlichen
+[H-Kennzeichen](/kfz-ratgeber/h-kennzeichen/) und die
+[Oldtimer-Zulassung](/kfz-ratgeber/oldtimer-zulassen/) nachdenken – mit steuerlichen
 Vorteilen. Für die rechtlichen Grundlagen lohnt ein Blick in die
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 
 ## Häufige Fragen zur Wiederzulassung
 
@@ -168,4 +168,4 @@ zugelassen – online oft am bequemsten.
 
 Mein Rat: Prüf zuerst die HU, kümmere dich dann um die eVB-Nummer und entscheide,
 ob du dein altes Kennzeichen behältst. Wie der eigentliche Anmeldevorgang abläuft,
-liest du im Detail im [Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden).
+liest du im Detail im [Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/).

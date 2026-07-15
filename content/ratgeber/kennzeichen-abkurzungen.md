@@ -22,7 +22,7 @@ Jedes deutsche Kfz-Kennzeichen folgt demselben Schema:
 1. **Unterscheidungszeichen** – ein bis drei Buchstaben für den Zulassungsbezirk
    (z. B. „M" für München, „GAP" für Garmisch-Partenkirchen).
 2. **Erkennungsnummer** – ein bis zwei Buchstaben plus ein bis vier Ziffern, die
-   du dir bei einem [Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren)
+   du dir bei einem [Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/)
    frei aussuchen kannst.
 
 Dazwischen sitzen das ovale EU-Feld mit dem „D" und die Prüf- sowie HU-Plakette.
@@ -42,11 +42,11 @@ für den Kreis Warendorf.
 Festgelegt werden die Zeichen von den Ländern; das
 [Kraftfahrt-Bundesamt](https://www.kba.de) führt die offiziellen Verzeichnisse.
 Eine vollständige, durchsuchbare Übersicht aller Kürzel findest du in unserer
-[Kennzeichen-Liste von A–Z](/kennzeichen).
+[Kennzeichen-Liste von A–Z](/kennzeichen/).
 
 <div class="box box-tipp"><strong>Tipp:</strong> Du willst wissen, welches Kürzel
 zu deiner Stadt gehört? Tippe es einfach in unsere
-<a href="/kennzeichen">Kennzeichen-Übersicht</a> ein – dort siehst du Bedeutung und
+<a href="/kennzeichen/">Kennzeichen-Übersicht</a> ein – dort siehst du Bedeutung und
 zuständige Zulassungsstelle auf einen Blick.</div>
 
 ## Die Sache mit den Altkennzeichen
@@ -57,7 +57,7 @@ Kennzeichenliberalisierung 2012 sind viele dieser Codes **wieder erhältlich**.
 
 So kannst du heute mancherorts wieder ein Kürzel führen, das es offiziell jahrelang
 nicht mehr gab – ein echtes Stück Heimat auf dem Schild. Welche das sind, zeigt
-unsere [Altkennzeichen-Liste](/altkennzeichen).
+unsere [Altkennzeichen-Liste](/altkennzeichen/).
 
 <div class="box box-info"><strong>Beispiel:</strong> „LAU" für Lauf an der Pegnitz
 oder „BCH" für Buchen – beides Kürzel, die zurückgekehrt sind und sich super als
@@ -89,7 +89,7 @@ und ein vierstelliges Datum unterbringen willst.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Du suchst ein besonders kurzes
 Kennzeichen? In Großstädten mit einbuchstabigem Kürzel hast du die meiste Freiheit.
-Stöbere in der <a href="/kennzeichen">Kennzeichen-Liste</a>, um Kürzel und Bedeutung zu
+Stöbere in der <a href="/kennzeichen/">Kennzeichen-Liste</a>, um Kürzel und Bedeutung zu
 vergleichen.</div>
 
 ## Wie viele Kürzel gibt es eigentlich?
@@ -98,7 +98,7 @@ In Deutschland sind mehrere Hundert Unterscheidungszeichen in Gebrauch – Tende
 durch die zurückgekehrten Altkennzeichen sogar steigend. Genau deshalb lohnt sich
 eine durchsuchbare Liste mehr als jedes Auswendiglernen: Statt zu raten, schlägst
 du das Kürzel einfach nach und siehst sofort Stadt, Landkreis und zuständige
-[Zulassungsstelle](/zulassungsstelle).
+[Zulassungsstelle](/zulassungsstelle/).
 
 ## Was sonst noch auf dem Schild steht
 
@@ -118,7 +118,7 @@ Verkehrssicherheit.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Egal welche Optik – die
 Buchstaben-Zahlen-Kombination und das Unterscheidungszeichen bleiben dieselben. Die
-Bauform ändert nichts an der Zuteilung deines <a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichens</a>.</div>
+Bauform ändert nichts an der Zuteilung deines <a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Wunschkennzeichens</a>.</div>
 
 ## Häufige Fragen
 
@@ -138,6 +138,6 @@ Das „Y" ist das Sonderkennzeichen der Bundeswehr und gehört keiner Stadt.</di
 
 Die Buchstaben am Anfang eines Kennzeichens sind kein Zufall: Sie stehen für den
 Zulassungsbezirk und damit für die Herkunft des Fahrzeugs. Wer die Bedeutung wissen
-will, schlägt sie in der [Kennzeichen-Liste](/kennzeichen) nach – und wer Lust auf
+will, schlägt sie in der [Kennzeichen-Liste](/kennzeichen/) nach – und wer Lust auf
 ein Kürzel mit Geschichte hat, wirft einen Blick auf die zurückgekehrten
-[Altkennzeichen](/altkennzeichen).
+[Altkennzeichen](/altkennzeichen/).

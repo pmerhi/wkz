@@ -37,7 +37,7 @@ Schadstoffgruppe 1 bekommen gar keine Plakette – sie dürfen in keine Umweltzo
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Maßgeblich für deine
 Schadstoffgruppe ist die Emissionsschlüsselnummer in der
-<a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a>. Sie steht im
+<a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung Teil I</a>. Sie steht im
 Feld 14.1 – die letzten beiden Ziffern verraten dem Prüfer sofort, welche Plakette
 dir zusteht.</div>
 
@@ -50,8 +50,8 @@ Die Faustregel ist erfreulich einfach: Die allermeisten heutigen Pkw bekommen di
 
 Ältere Diesel ohne Filter landen schnell in der gelben oder roten Gruppe und
 dürfen damit in fast keine Umweltzone mehr hinein. Wenn du ein
-[Oldtimer-Fahrzeug zulassen](/ratgeber/oldtimer-zulassen) willst, gibt es eine
-gute Nachricht: Autos mit [H-Kennzeichen](/ratgeber/h-kennzeichen) sind in vielen
+[Oldtimer-Fahrzeug zulassen](/kfz-ratgeber/oldtimer-zulassen/) willst, gibt es eine
+gute Nachricht: Autos mit [H-Kennzeichen](/kfz-ratgeber/h-kennzeichen/) sind in vielen
 Städten von der Plakettenpflicht ausgenommen.
 
 <div class="box box-check"><strong>Das brauchst du zum Kauf:</strong> Deine
@@ -67,9 +67,9 @@ einstelligen Eurobereich.
 
 Anlaufstellen sind unter anderem:
 
-- die [Zulassungsstelle](/zulassungsstelle) vor Ort
+- die [Zulassungsstelle](/zulassungsstelle/) vor Ort
 - Prüforganisationen wie TÜV, DEKRA oder GTÜ – oft direkt bei der
-  [Hauptuntersuchung](/ratgeber/hauptuntersuchung-tuv)
+  [Hauptuntersuchung](/kfz-ratgeber/hauptuntersuchung-tuev/)
 - viele Kfz-Werkstätten und Autohäuser
 - zahlreiche Online-Shops, die dir die Plakette per Post schicken
 
@@ -81,7 +81,7 @@ Bußgeldern ein lächerlich kleiner Betrag – mehr dazu gleich.</div>
 <div class="box box-tipp"><strong>Mein Rat:</strong> Lass dir die Plakette gleich
 bei der nächsten HU mitgeben. Du sparst dir den Extraweg, und die Prüfstelle hat
 deine Fahrzeugdaten ohnehin schon vorliegen. Beim
-<a href="/ratgeber/auto-anmelden">Auto anmelden</a> kannst du sie ebenfalls direkt mitnehmen.</div>
+<a href="/kfz-ratgeber/auto-anmelden/">Auto anmelden</a> kannst du sie ebenfalls direkt mitnehmen.</div>
 
 ## Was ist eine Umweltzone – und wo gilt sie?
 
@@ -112,7 +112,7 @@ Und ein verbreiteter Irrtum: Es zählt nicht, ob dein Auto eine grüne Plakette
 *verdient* hätte. Entscheidend ist, ob sie **tatsächlich an der Scheibe klebt**.
 Wer die richtige Plakette zwar besitzt, aber nicht angebracht hat, riskiert
 trotzdem das Bußgeld. Details zu Verstößen findest du im
-[Bußgeldkatalog](/ratgeber/bussgeldkatalog).
+[Bußgeldkatalog](/kfz-ratgeber/bussgeldkatalog/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Auch ausländische Fahrzeuge
 und Mietwagen brauchen die Plakette. Wenn du einen Wagen mietest, wirf vor der
@@ -131,7 +131,7 @@ ist, dass auf der Plakette dein **Kennzeichen** vermerkt ist; sie gilt immer nur
 für genau dieses Fahrzeug.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Wenn du dein
-<a href="/ratgeber/auto-ummelden">Auto ummeldest</a> und ein neues Kennzeichen bekommst,
+<a href="/kfz-ratgeber/auto-ummelden/">Auto ummeldest</a> und ein neues Kennzeichen bekommst,
 trag das neue Kennzeichen auf der Plakette nach oder hol dir eine neue. Eine
 Plakette mit altem Kennzeichen kann bei einer Kontrolle Probleme machen.</div>
 
@@ -165,6 +165,6 @@ Plakette** ohne Umstände, und besorgen kannst du sie bei der Zulassungsstelle, 
 Prüforganisation oder online.
 
 Mein Rat: Kümmere dich einmal darum, kleb die Plakette an die Scheibe und vergiss
-sie wieder. Wenn du ohnehin gerade dein [Auto anmeldest](/ratgeber/auto-anmelden)
-oder zur [Hauptuntersuchung](/ratgeber/hauptuntersuchung-tuv) musst, nimm sie
+sie wieder. Wenn du ohnehin gerade dein [Auto anmeldest](/kfz-ratgeber/auto-anmelden/)
+oder zur [Hauptuntersuchung](/kfz-ratgeber/hauptuntersuchung-tuev/) musst, nimm sie
 einfach gleich mit – dann stehst du nie wieder ratlos vor einem Umweltzonen-Schild.

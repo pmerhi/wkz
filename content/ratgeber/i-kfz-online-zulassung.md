@@ -18,14 +18,14 @@ durch den kompletten digitalen Weg.
 ## Was i-Kfz eigentlich ist
 
 i-Kfz steht für **internetbasierte Fahrzeugzulassung**. Statt zur
-[Zulassungsstelle](/zulassungsstelle) zu fahren, erledigst du den Vorgang online über
+[Zulassungsstelle](/zulassungsstelle/) zu fahren, erledigst du den Vorgang online über
 ein Portal – die Behörde im Hintergrund bleibt deine zuständige Stelle, der Antrag
 läuft nur digital.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> i-Kfz wurde in Stufen
 ausgebaut. Mit der jüngsten Ausbaustufe sind inzwischen auch Neuzulassung und
 Halterwechsel online möglich – mehr dazu im Ratgeber zu
-<a href="/ratgeber/i-kfz-stufe-4">i-Kfz Stufe 4</a>.</div>
+<a href="/kfz-ratgeber/i-kfz-stufe-4/">i-Kfz Stufe 4</a>.</div>
 
 ## Diese Vorgänge gehen online
 
@@ -33,9 +33,9 @@ Halterwechsel online möglich – mehr dazu im Ratgeber zu
 
 - **Neuzulassung** und **Wiederzulassung** eines Fahrzeugs
 - **Halterwechsel** beim Gebrauchtwagenkauf
-- **Adressänderung** nach einem Umzug (<a href="/ratgeber/auto-ummelden">Ummeldung</a>)
-- **Außerbetriebsetzung** (<a href="/ratgeber/auto-abmelden">Abmeldung</a>)
-- Zuteilung eines <a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichens</a>
+- **Adressänderung** nach einem Umzug (<a href="/kfz-ratgeber/auto-ummelden/">Ummeldung</a>)
+- **Außerbetriebsetzung** (<a href="/kfz-ratgeber/auto-abmelden/">Abmeldung</a>)
+- Zuteilung eines <a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Wunschkennzeichens</a>
   im selben Vorgang
 
 ## Die Voraussetzungen
@@ -46,12 +46,12 @@ die meisten beim ersten Versuch.
 <div class="box box-check"><strong>Das brauchst du für i-Kfz:</strong> Personalausweis
 mit aktivierter <strong>Online-Ausweisfunktion (eID)</strong> und PIN, ein
 NFC-fähiges Smartphone mit AusweisApp (oder ein Kartenlesegerät), die
-<a href="/ratgeber/evb-nummer">eVB-Nummer</a> deiner Versicherung sowie die
+<a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> deiner Versicherung sowie die
 verdeckten <strong>Sicherheitscodes</strong> auf Zulassungsbescheinigung, Brief und
 Stempelplaketten.</div>
 
 Die genauen Anforderungen und wie du die eID einrichtest, beschreibe ich im Ratgeber
-zu den <a href="/ratgeber/i-kfz-voraussetzungen">i-Kfz-Voraussetzungen</a>. Hilfreich
+zu den <a href="/kfz-ratgeber/i-kfz-voraussetzungen/">i-Kfz-Voraussetzungen</a>. Hilfreich
 ist auch das offizielle
 [Personalausweisportal](https://www.personalausweisportal.de).
 
@@ -69,7 +69,7 @@ ist auch das offizielle
 <div class="box box-tipp"><strong>Tipp:</strong> Halte vor dem Start alle
 Sicherheitscodes bereit und prüfe, ob deine eID aktiv ist. Das erspart dir den
 häufigsten Abbruch mitten im Vorgang. Wie lange alles dauert, steht im Ratgeber zu
-<a href="/ratgeber/i-kfz-ablauf-dauer">i-Kfz Ablauf & Dauer</a>.</div>
+<a href="/kfz-ratgeber/i-kfz-ablauf-dauer/">i-Kfz Ablauf & Dauer</a>.</div>
 
 ## Was kostet i-Kfz?
 
@@ -78,7 +78,7 @@ Schilderkosten, falls neue Kennzeichen nötig sind.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> i-Kfz-Vorgänge kosten je
 nach Art rund 10–30 € Gebühr. Die komplette Übersicht aller Posten findest du im
-Ratgeber zu den <a href="/ratgeber/zulassungskosten">Zulassungskosten</a>.</div>
+Ratgeber zu den <a href="/kfz-ratgeber/zulassungskosten/">Zulassungskosten</a>.</div>
 
 ## Wo i-Kfz an Grenzen stößt
 
@@ -89,7 +89,7 @@ Online-Identifizierung, kannst du jederzeit zur Zulassungsstelle ausweichen. Ang
 ohne Gewähr, keine Rechtsberatung.</div>
 
 Rechtsgrundlage ist die
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/);
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/);
 die Bestände und Statistiken führt das [Kraftfahrt-Bundesamt](https://www.kba.de).
 
 ## Die Sicherheitscodes: wo du sie findest
@@ -130,7 +130,7 @@ Auch gewerbliche Halter profitieren: Über die sogenannte Großkundenschnittstel
 können Autohäuser, Flottenbetreiber und Zulassungsdienste viele Fahrzeuge gebündelt
 online zulassen. Für Privatpersonen ist das nicht nötig – der normale i-Kfz-Weg
 genügt. Wer sein Auto trotzdem lieber zulassen lässt, findet im Ratgeber zu
-<a href="/ratgeber/zulassungsdienst-vollmacht">Zulassungsdienst & Vollmacht</a> die
+<a href="/kfz-ratgeber/zulassungsdienst-vollmacht/">Zulassungsdienst & Vollmacht</a> die
 passenden Infos.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die Online-Zulassung ist
@@ -164,5 +164,5 @@ Zulassungsbescheinigung als Nachweis.</div>
 i-Kfz hat die Fahrzeugzulassung vom Behördengang zum Online-Vorgang gemacht: an-,
 ab- und ummelden geht heute weitgehend digital, rund um die Uhr und oft günstiger.
 Die einzige echte Hürde ist die eID – ist die aktiv, erledigst du selbst eine
-Neuzulassung samt [Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) vom
+Neuzulassung samt [Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) vom
 Sofa aus.

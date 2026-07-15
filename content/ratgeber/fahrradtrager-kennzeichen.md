@@ -65,11 +65,11 @@ nachgeprägt wie ein verlorenes Schild. Die Behörde muss die zusätzliche
 Ausfertigung **bestätigen und stempeln** – sonst handelt es sich rein rechtlich um
 ein nicht zugelassenes drittes Schild.
 
-Du gehst also (oder fährst online) zur [Zulassungsstelle](/zulassungsstelle),
+Du gehst also (oder fährst online) zur [Zulassungsstelle](/zulassungsstelle/),
 weist nach, dass du einen Heckträger nutzt, und bekommst die Freigabe für das
 Zusatzkennzeichen. Erst danach lässt du das Schild prägen und siegeln. Wie der
 Ablauf an der Behörde grundsätzlich funktioniert, habe ich dir im
-[Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden) zusammengefasst.
+[Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/) zusammengefasst.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Ruf vorher kurz bei deiner
 Zulassungsstelle an. Manche regeln das Zusatzkennzeichen sehr unkompliziert,
@@ -86,10 +86,10 @@ einzelnes geprägtes Schild kostet rund <strong>10–20 €</strong>. Unterm Str
 landest du also häufig bei <strong>20–35 €</strong> – einmalig, denn das
 Zusatzkennzeichen behältst du, solange sich dein Kennzeichen nicht ändert.</div>
 
-Vergleichbar ist das mit den [Zulassungskosten](/ratgeber/zulassungskosten) für
+Vergleichbar ist das mit den [Zulassungskosten](/kfz-ratgeber/zulassungskosten/) für
 ein reguläres Schild – nur dass eben kein kompletter Zulassungsvorgang nötig ist.
 Wenn du wissen willst, wie sich Prägekosten generell zusammensetzen, schau mal in
-den Ratgeber zum [Nummernschild prägen](/ratgeber/nummernschild-pragen).
+den Ratgeber zum [Nummernschild prägen](/kfz-ratgeber/nummernschild-praegen/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die genauen Beträge
 unterscheiden sich je nach Bundesland und Zulassungsbezirk. Manche Kommunen rufen
@@ -139,14 +139,14 @@ du den Träger an mehreren Autos, brauchst du für jedes ein eigenes
 Zusatzkennzeichen – oder du klärst eine Wechsellösung mit der Behörde.</div>
 
 <div class="box box-frage"><strong>Funktioniert das auch mit einem
-<a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen</a>?</strong> Natürlich.
+<a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Wunschkennzeichen</a>?</strong> Natürlich.
 Das Zusatzschild übernimmt exakt deine zugeteilte Kombination – egal ob
 Standard- oder Wunschkennzeichen.</div>
 
 <div class="box box-frage"><strong>Gilt das auch für Wohnmobile und
 Anhänger?</strong> Sobald ein Heckträger das hintere Kennzeichen verdeckt, gilt
 dieselbe Regel. Bei Gespannen lohnt sich vorab ein Blick in den Ratgeber zum
-<a href="/ratgeber/anhanger-zulassen">Anhänger zulassen</a>.</div>
+<a href="/kfz-ratgeber/anhaenger-zulassen/">Anhänger zulassen</a>.</div>
 
 ## Fazit
 
@@ -157,5 +157,5 @@ Heckträger** – behördlich bestätigt, geprägt und beleuchtet.
 
 Für rund 20 bis 35 Euro hast du das ein für alle Mal erledigt und fährst ohne
 Bauchschmerzen in den Urlaub. Wenn du dein Schild ohnehin neu brauchst, schau dir
-auch den Ratgeber zum [Nummernschild prägen](/ratgeber/nummernschild-pragen) an –
+auch den Ratgeber zum [Nummernschild prägen](/kfz-ratgeber/nummernschild-praegen/) an –
 da klären sich gleich die wichtigsten Fragen rund ums Material und die Größe.

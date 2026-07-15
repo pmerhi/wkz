@@ -38,20 +38,20 @@ in derselben Reihenfolge stehen:
    Ziffern. Das ist der Teil, den du frei wählst.
 3. Die **Plaketten** – das HU-Siegel und das Zulassungssiegel des Bundeslandes.
 
-Den ersten Teil bekommst du also von der [Zulassungsstelle](/zulassungsstelle)
+Den ersten Teil bekommst du also von der [Zulassungsstelle](/zulassungsstelle/)
 vorgegeben, je nachdem, wo dein Auto angemeldet wird. Den zweiten Teil – Buchstaben
 und Zahlen – darfst du dir aussuchen. Genau das macht das Wunschkennzeichen aus.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Welche Ortskürzel es
-gibt und welche <a href="/altkennzeichen">Altkennzeichen</a> wieder erlaubt sind, hat nichts
+gibt und welche <a href="/altkennzeichen/">Altkennzeichen</a> wieder erlaubt sind, hat nichts
 mit deiner Wunsch-Kombination zu tun. Das Kürzel ist fix – frei wählbar ist nur
 der hintere Teil. Eine Übersicht findest du in unseren
-<a href="/ratgeber/kennzeichen-abkurzungen">Kennzeichen-Abkürzungen</a>.</div>
+<a href="/kfz-ratgeber/kennzeichen-abkuerzungen/">Kennzeichen-Abkürzungen</a>.</div>
 
 ## Wie viele Zeichen sind beim Kennzeichen maximal erlaubt?
 
 Jetzt zur Kernfrage: **Wie viele Zeichen darf ein Kennzeichen haben?** Die
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/)
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/)
 gibt den Rahmen vor. Entscheidend ist nicht nur deine Wunsch-Kombi, sondern die
 Gesamtlänge.
 
@@ -81,10 +81,10 @@ unübersichtlich.
 Deshalb ist auch die Breite der Schilder gestaffelt. Ein langes Kennzeichen mit
 acht Stellen braucht ein breiteres Schild als eine kurze Kombination. Wie das beim
 Prägen abläuft, liest du im Ratgeber
-[Nummernschild prägen](/ratgeber/nummernschild-pragen).
+[Nummernschild prägen](/kfz-ratgeber/nummernschild-praegen/).
 
 <div class="box box-tipp"><strong>Tipp:</strong> Willst du es besonders kompakt,
-geh auf ein <a href="/ratgeber/kurzes-kennzeichen">kurzes Kennzeichen</a> mit nur wenigen
+geh auf ein <a href="/kfz-ratgeber/kurzes-kennzeichen/">kurzes Kennzeichen</a> mit nur wenigen
 Zeichen. Das wirkt aufgeräumt, passt auch an kleine Motorräder und sieht an
 sportlichen Autos einfach gut aus.</div>
 
@@ -95,7 +95,7 @@ kennen, bevor du im Portal loslegst:
 
 - Die **Buchstabenkombinationen** dürfen keine verbotenen Kürzel ergeben. Mehr
   dazu in unserem Ratgeber zu den
-  [verbotenen Wunschkennzeichen](/ratgeber/verbotene-wunschkennzeichen).
+  [verbotenen Wunschkennzeichen](/kfz-ratgeber/verbotene-wunschkennzeichen/).
 - Eine **Null als erste Ziffer** ist nicht erlaubt – „M-A 07" geht also nicht.
 - Bestimmte Kombinationen wie „HJ" oder „SS" werden in vielen Bundesländern
   generell gesperrt.
@@ -136,12 +136,12 @@ wer ohnehin auf eine kurze Kombi steht, spart hier ein paar Cent.
 Standardschilder kosten je nach Anbieter etwa <strong>20–35 €</strong>. Die
 Reservierung deiner Wunsch-Kombi schlägt mit rund <strong>10–13 €</strong> zu
 Buche – unabhängig davon, ob du zwei oder sechs Zeichen wählst. Details findest du
-im Ratgeber zu den <a href="/ratgeber/wunschkennzeichen-kosten">Wunschkennzeichen-Kosten</a>.</div>
+im Ratgeber zu den <a href="/kfz-ratgeber/wunschkennzeichen-kosten/">Wunschkennzeichen-Kosten</a>.</div>
 
 Ob du am Ende online oder vor Ort reservierst, macht für die Zeichenregeln keinen
 Unterschied. Praktisch ist der digitale Weg trotzdem: Du siehst sofort, ob deine
 Kombination noch frei ist. Wie das funktioniert, zeige ich dir unter
-[Wunschkennzeichen online oder vor Ort](/ratgeber/wunschkennzeichen-online-vor-ort).
+[Wunschkennzeichen online oder vor Ort](/kfz-ratgeber/wunschkennzeichen-online-vor-ort/).
 
 ## Häufige Fragen
 
@@ -171,6 +171,6 @@ etwas zurückstecken.
 
 Mein Rat: Überleg dir vorab zwei oder drei Varianten, dann findest du fast immer
 eine freie Kombi. Wie du sie sicherst, liest du im Ratgeber
-[Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren) – und was
+[Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/) – und was
 einzelne Buchstabenkombis bedeuten können, klärt der Ratgeber zur
-[Wunschkennzeichen-Bedeutung](/ratgeber/wunschkennzeichen-bedeutung).
+[Wunschkennzeichen-Bedeutung](/kfz-ratgeber/wunschkennzeichen-bedeutung/).

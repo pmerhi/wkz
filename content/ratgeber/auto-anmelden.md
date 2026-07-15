@@ -21,8 +21,8 @@ Egal ob Neuwagen oder Gebrauchter – ohne diese Papiere geht es nicht:
 
 <div class="box box-check"><strong>Checkliste Zulassung:</strong> gültiger
 Personalausweis (oder Pass mit Meldebescheinigung), Zulassungsbescheinigung Teil I
-und Teil II, <a href="/ratgeber/evb-nummer">eVB-Nummer</a> deiner Versicherung,
-Nachweis der gültigen <a href="/ratgeber/hauptuntersuchung-tuv">Hauptuntersuchung</a>,
+und Teil II, <a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> deiner Versicherung,
+Nachweis der gültigen <a href="/kfz-ratgeber/hauptuntersuchung-tuev/">Hauptuntersuchung</a>,
 SEPA-Mandat für die Kfz-Steuer und – bei einem Gebrauchten – der Kaufvertrag.</div>
 
 Bei einem Neuwagen liegt statt der vollständigen Zulassungsbescheinigung oft die
@@ -32,12 +32,12 @@ Erstzulassung.
 ## Der Ablauf vor Ort
 
 Klassisch läuft die Anmeldung bei der zuständigen
-[Zulassungsstelle](/zulassungsstelle):
+[Zulassungsstelle](/zulassungsstelle/):
 
 1. **Termin sichern:** Die meisten Behörden arbeiten mit Online-Terminen – das
    spart Wartezeit.
 2. **Unterlagen vorlegen:** Du gibst die Papiere ab, optional mit deinem
-   reservierten [Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren).
+   reservierten [Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/).
 3. **Gebühr zahlen und Schilder prägen:** Du erhältst die Zuteilung, lässt die
    Schilder prägen und bekommst die Plaketten.
 4. **Fertig:** Mit den gestempelten Schildern darfst du sofort losfahren.
@@ -51,7 +51,7 @@ Amt. Das ist der größte Spar-Posten.</div>
 Seit dem Ausbau der internetbasierten Fahrzeugzulassung kannst du viele Neuwagen
 und Gebrauchte komplett digital anmelden – ohne Behördengang. Wie das genau
 funktioniert und was du dafür brauchst, erkläre ich ausführlich im Ratgeber zur
-[i-Kfz-Zulassung](/ratgeber/i-kfz-online-zulassung).
+[i-Kfz-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/).
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Für i-Kfz brauchst du den
 Online-Ausweis (eID) mit PIN und die Sicherheitscodes auf Schein, Brief und
@@ -66,7 +66,7 @@ Schilder (ca. 20–35 €) und – wenn gewünscht – das Wunschkennzeichen (ca
 <div class="box box-kosten"><strong>Beispiel Neuzulassung:</strong> Gebühr ~30 € +
 Schilder ~25 € + Wunschkennzeichen ~13 € = rund <strong>68 €</strong>. Alle Posten und
 Spar-Tipps findest du im Ratgeber zu den
-<a href="/ratgeber/zulassungskosten">Zulassungskosten</a>.</div>
+<a href="/kfz-ratgeber/zulassungskosten/">Zulassungskosten</a>.</div>
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ist die Hauptuntersuchung
 abgelaufen, kannst du das Fahrzeug nicht ohne Weiteres anmelden – plane die HU
@@ -79,12 +79,12 @@ Je nach Fahrzeug unterscheidet sich der Aufwand leicht:
 
 - **Neuwagen** zulassen ist am einfachsten – die Papiere kommen frisch vom Händler.
 - Beim **Gebrauchtwagen** kommt der Halterwechsel dazu; Details im Ratgeber zum
-  <a href="/ratgeber/gebrauchtwagen-zulassen">Gebrauchtwagen zulassen</a>.
+  <a href="/kfz-ratgeber/gebrauchtwagen-zulassen/">Gebrauchtwagen zulassen</a>.
 - Beim **Import** brauchst du zusätzliche Nachweise wie die EG-Übereinstimmungs-
   bescheinigung (COC).
 
 Rechtsgrundlage ist die
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/) –
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/) –
 sie regelt bundesweit, wer was zur Zulassung vorlegen muss.
 
 ## Mit Termin oder ohne?
@@ -92,13 +92,13 @@ sie regelt bundesweit, wer was zur Zulassung vorlegen muss.
 An vielen Zulassungsstellen kommst du heute nur noch mit **Online-Termin** dran –
 spontanes Erscheinen wird oft abgewiesen oder bedeutet stundenlanges Warten. Buche
 den Termin daher ein paar Tage im Voraus über das Portal deiner
-[Zulassungsstelle](/zulassungsstelle). In kleineren Kommunen gibt es teils noch
+[Zulassungsstelle](/zulassungsstelle/). In kleineren Kommunen gibt es teils noch
 offene Sprechzeiten, in Großstädten praktisch nie.
 
 Wer den Behördengang ganz vermeiden will, nutzt die
-[i-Kfz-Zulassung](/ratgeber/i-kfz-online-zulassung) – dann brauchst du gar keinen
+[i-Kfz-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/) – dann brauchst du gar keinen
 Termin. Und wenn dir der Aufwand zu groß ist, übernimmt ein
-<a href="/ratgeber/zulassungsdienst-vollmacht">Zulassungsdienst</a> das Ganze gegen
+<a href="/kfz-ratgeber/zulassungsdienst-vollmacht/">Zulassungsdienst</a> das Ganze gegen
 Gebühr für dich.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Prüfe bei der Terminbuchung, welche
@@ -115,7 +115,7 @@ Hauptuntersuchung abgelaufen, hol sie vor der Zulassung nach – sonst wird das 
 
 <div class="box box-tipp"><strong>Tipp:</strong> Frag deine Versicherung direkt nach
 der eVB-Nummer fürs Wunschfahrzeug – sie ist in der Regel
-<a href="/ratgeber/evb-nummer">kostenlos</a> und sofort verfügbar. Mit ihr in der
+<a href="/kfz-ratgeber/evb-nummer/">kostenlos</a> und sofort verfügbar. Mit ihr in der
 Hand ist die größte Hürde genommen.</div>
 
 ## Nach der Zulassung
@@ -126,26 +126,26 @@ eingezogen, und die Papiere (Zulassungsbescheinigung) hebst du sicher auf – Te
 gehört übrigens **nicht** ins Handschuhfach, sondern nach Hause.
 
 Verkaufst du das Fahrzeug später wieder, denk an die
-<a href="/ratgeber/auto-verkaufen-abmelden">Abmeldung bzw. Ummeldung</a>, damit nichts
+<a href="/kfz-ratgeber/auto-verkaufen-abmelden/">Abmeldung bzw. Ummeldung</a>, damit nichts
 mehr auf deinen Namen läuft. Und falls du umziehst: Dein Kennzeichen darfst du
-<a href="/ratgeber/wunschkennzeichen-mitnehmen">mitnehmen</a>, nur die
-<a href="/ratgeber/auto-ummelden">Adresse</a> muss aktualisiert werden.
+<a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">mitnehmen</a>, nur die
+<a href="/kfz-ratgeber/auto-ummelden/">Adresse</a> muss aktualisiert werden.
 
 ## Häufige Fragen
 
 <div class="box box-frage"><strong>Kann ich ein Auto auf eine andere Person
 anmelden?</strong> Ja, mit einer Vollmacht und den Ausweisdaten des Halters. Mehr
-dazu im Ratgeber zu <a href="/ratgeber/zulassungsdienst-vollmacht">Zulassungsdienst
+dazu im Ratgeber zu <a href="/kfz-ratgeber/zulassungsdienst-vollmacht/">Zulassungsdienst
 & Vollmacht</a>.</div>
 
 <div class="box box-frage"><strong>Brauche ich für die Anmeldung schon ein
 Kennzeichen?</strong> Nein – das Kennzeichen wird bei der Zulassung zugeteilt. Du
-kannst dir vorab nur ein <a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen
+kannst dir vorab nur ein <a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Wunschkennzeichen
 reservieren</a>.</div>
 
 <div class="box box-frage"><strong>Was ist die eVB-Nummer?</strong> Die elektronische
 Versicherungsbestätigung deiner Kfz-Versicherung – ohne sie keine Zulassung. Sie ist
-meist <a href="/ratgeber/evb-nummer">kostenlos</a>.</div>
+meist <a href="/kfz-ratgeber/evb-nummer/">kostenlos</a>.</div>
 
 <div class="box box-frage"><strong>Wie lange dauert die Zulassung vor Ort?</strong>
 Mit Termin und vollständigen Unterlagen meist nur 15 bis 30 Minuten. Die Schilderprägung
@@ -160,5 +160,5 @@ Ja, dann brauchst du zusätzliche Nachweise wie die EG-Übereinstimmungsbeschein
 Auto anmelden ist kein Hexenwerk: Mit vollständigen Unterlagen, einer eVB-Nummer und
 gültiger HU bist du schnell durch – vor Ort in einer Viertelstunde, online sogar
 ohne Behördengang. Wer die Schilder clever kauft und ein
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) möchte, regelt das im
+[Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) möchte, regelt das im
 selben Aufwasch.

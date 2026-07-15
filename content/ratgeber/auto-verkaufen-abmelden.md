@@ -34,16 +34,16 @@ klingt nach einem festen Vorgang – ist es aber nicht. Es gibt zwei Wege:
 **Abmeldung (Außerbetriebsetzung):** Das Fahrzeug wird komplett aus dem Verkehr
 genommen, die Kennzeichen werden entstempelt. Das macht Sinn, wenn das Auto nicht
 mehr fahrbereit ist, verschrottet wird oder ins Ausland geht. Wie das genau läuft,
-liest du im [Ratgeber zum Auto abmelden](/ratgeber/auto-abmelden).
+liest du im [Ratgeber zum Auto abmelden](/kfz-ratgeber/auto-abmelden/).
 
 **Ummeldung / Halterwechsel:** Das Auto bleibt zugelassen, wechselt aber den
 Halter. Der Käufer fährt damit direkt weiter und meldet es bei seiner
 Zulassungsstelle auf sich um. Den Ablauf habe ich dir im
-[Halterwechsel beim Auto](/ratgeber/halterwechsel-auto) aufgeschrieben.
+[Halterwechsel beim Auto](/kfz-ratgeber/halterwechsel-auto/) aufgeschrieben.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Verkaufst du ein fahrbereites
 Auto, lass den Käufer ummelden statt selbst abzumelden. Eine Abmeldung würde den
-Käufer zwingen, mit <a href="/ratgeber/kurzzeitkennzeichen">Kurzzeitkennzeichen</a> oder
+Käufer zwingen, mit <a href="/kfz-ratgeber/kurzzeitkennzeichen/">Kurzzeitkennzeichen</a> oder
 Überführung zu hantieren – das schreckt Interessenten eher ab.</div>
 
 ## Wenn der Käufer ummeldet: das musst du absichern
@@ -78,7 +78,7 @@ Diese Punkte gehören für die **Kaufvertrag-Auto-Abmeldung** unbedingt rein:
 - eine Klausel, dass der Käufer das Fahrzeug **unverzüglich ummeldet**
 
 <div class="box box-check"><strong>Das brauchst du beim Verkauf:</strong>
-Zulassungsbescheinigung Teil I und II (<a href="/ratgeber/zulassungsbescheinigung">Fahrzeugschein und -brief</a>),
+Zulassungsbescheinigung Teil I und II (<a href="/kfz-ratgeber/zulassungsbescheinigung/">Fahrzeugschein und -brief</a>),
 gültige HU-Bescheinigung, beide Kennzeichen am Fahrzeug, Kaufvertrag in zweifacher
 Ausfertigung und eine Ausweiskopie des Käufers für deine Veräußerungsanzeige.</div>
 
@@ -99,7 +99,7 @@ Auch hier zeigt sich: Je schneller der Käufer ummeldet, desto besser für dich.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Eine Ummeldung kostet
 den Käufer meist <strong>rund 25–40 €</strong> plus eventuell neue
-<a href="/ratgeber/auto-ummelden-kreiswechsel">Schilder bei Kreiswechsel</a> (ca. 20–35 €).
+<a href="/kfz-ratgeber/auto-ummelden-kreiswechsel/">Schilder bei Kreiswechsel</a> (ca. 20–35 €).
 Für dich als Verkäufer ist die Veräußerungsanzeige in vielen Bezirken
 <strong>kostenlos</strong> oder kostet nur wenige Euro – ein günstiger Preis für
 deine Absicherung.</div>
@@ -115,9 +115,9 @@ betrifft:
 - im schlimmsten Fall Fragen nach einem Unfall, wenn unklar ist, wer fuhr
 
 Wer dann hinter dem Steuer saß, lässt sich nur über den
-[Halter ermitteln per Kennzeichen](/ratgeber/halter-ermitteln-kennzeichen) – und
+[Halter ermitteln per Kennzeichen](/kfz-ratgeber/halter-ermitteln-kennzeichen/) – und
 das bist im Register eben noch du. Die rechtlichen Grundlagen zum Halterwechsel
-findest du in der [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+findest du in der [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Verlässt du dich allein auf
 das Versprechen des Käufers, das Auto „demnächst" umzumelden, trägst du das volle
@@ -128,13 +128,13 @@ nicht rückwirkend von Verstößen, dokumentiert aber, dass du verkauft hast.</d
 
 Was, wenn dein Auto gar nicht mehr fährt oder du es als Bastlerfahrzeug verkaufst?
 Dann ist die **Abmeldung** oft der bessere Weg. Du setzt das Fahrzeug außer Betrieb
-([Auto stilllegen](/ratgeber/auto-stilllegen)), und der Käufer holt es mit
+([Auto stilllegen](/kfz-ratgeber/auto-stilllegen/)), und der Käufer holt es mit
 Anhänger oder Überführung ab.
 
 Verkaufst du an einen Händler oder einen Verwerter, bekommst du bei einer
 endgültigen Stilllegung einen Verwertungsnachweis. Den brauchst du, damit das Auto
 sauber aus dem Register verschwindet. Mehr dazu im
-[Ratgeber Auto verkaufen & abmelden bei Verschrottung](/ratgeber/auto-stilllegen).
+[Ratgeber Auto verkaufen & abmelden bei Verschrottung](/kfz-ratgeber/auto-stilllegen/).
 
 <div class="box box-tipp"><strong>Tipp:</strong> Auch ein abgemeldetes Auto darfst
 du verkaufen. Notiere im Kaufvertrag den Abmeldetag und übergib die
@@ -159,7 +159,7 @@ warst.</div>
 
 <div class="box box-frage"><strong>Kann der Käufer das Auto bei seiner eigenen
 Zulassungsstelle ummelden?</strong> Ja. Seit der i-Kfz-Reform ist der Halterwechsel
-bundesweit möglich, oft sogar <a href="/ratgeber/i-kfz-online-zulassung">online über i-Kfz</a> –
+bundesweit möglich, oft sogar <a href="/kfz-ratgeber/i-kfz-online-zulassung/">online über i-Kfz</a> –
 unabhängig davon, wo das Auto vorher zugelassen war.</div>
 
 ## Fazit
@@ -172,5 +172,5 @@ an die Zulassungsstelle sind deine drei wichtigsten Hebel gegen Haftung und offe
 Kosten.
 
 Nur wenn das Auto nicht mehr fährt oder verschrottet wird, führt der Weg über die
-echte [Abmeldung](/ratgeber/auto-abmelden). In beiden Fällen gilt: Lieber einmal zu
+echte [Abmeldung](/kfz-ratgeber/auto-abmelden/). In beiden Fällen gilt: Lieber einmal zu
 gründlich dokumentieren als später Bußgeldbescheide für fremde Fahrten bezahlen.

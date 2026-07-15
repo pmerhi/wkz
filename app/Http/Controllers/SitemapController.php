@@ -31,8 +31,7 @@ class SitemapController extends Controller
     {
         $urls = match ($typ) {
             'static'      => $this->staticUrls(),
-            'stellen'     => Zulassungsstelle::indexable()->with('bundesland:id,slug')->orderBy('name')->get()
-                                ->map(fn ($s) => ['loc' => $s->url(), 'lastmod' => $s->updated_at?->toAtomString()])->all(),
+            'stellen'     => $this->stellenUrls(),
             'kennzeichen' => KennzeichenKuerzel::indexable()->orderBy('code')->get()
                                 ->map(fn ($k) => ['loc' => url('/kennzeichen/'.$k->slug), 'lastmod' => $k->updated_at?->toAtomString()])->all(),
             'ort'         => Gemeinde::whereNotNull('slug')
@@ -65,6 +64,25 @@ class SitemapController extends Controller
         $xml .= '</urlset>'."\n";
 
         return response($xml, 200, ['Content-Type' => 'application/xml']);
+    }
+
+    /**
+     * Zulassungsstellen-URLs: jede indexierbare Stelle auf ihre kanonische Stadt-Hub-URL
+     * abgebildet und dedupliziert (Mehrfach-Ämter-Städte erscheinen einmal).
+     */
+    private function stellenUrls(): array
+    {
+        $hubPfade = Zulassungsstelle::hubPfadMap();
+        $urls = [];
+        $gesehen = [];
+        foreach (Zulassungsstelle::indexable()->orderBy('name')->get(['slug', 'updated_at']) as $s) {
+            $pfad = $hubPfade[$s->slug] ?? '/zulassungsstelle/'.$s->slug;
+            if (isset($gesehen[$pfad])) continue;
+            $gesehen[$pfad] = true;
+            $urls[] = ['loc' => url($pfad), 'lastmod' => $s->updated_at?->toAtomString()];
+        }
+
+        return $urls;
     }
 
     private function staticUrls(): array

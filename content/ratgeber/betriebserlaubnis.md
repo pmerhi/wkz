@@ -45,7 +45,7 @@ Serie.
 
 Wenn du einen Neuwagen kaufst, hat der Hersteller diese Typgenehmigung längst
 erledigt. Du merkst davon nichts, weil alles in der
-[Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung) hinterlegt ist. Spannend
+[Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/) hinterlegt ist. Spannend
 wird die ABE vor allem bei **Zubehör und Tuning**: Felgen, Sportauspuff oder
 Fahrwerk bringen oft ein eigenes ABE-Papier mit.
 
@@ -60,7 +60,7 @@ die Wirkung der ABE.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Verbaust du Teile ohne
 gültige Genehmigung oder missachtest die Auflagen, kann die
-<a href="/ratgeber/betriebserlaubnis-erloschen">Betriebserlaubnis deines Fahrzeugs erlöschen</a>.
+<a href="/kfz-ratgeber/betriebserlaubnis-erloeschen/">Betriebserlaubnis deines Fahrzeugs erlöschen</a>.
 Dann ist dein Auto faktisch nicht mehr zugelassen – mit allen rechtlichen Folgen.
 Angaben hier ohne Gewähr, regionale Auslegung kann abweichen.</div>
 
@@ -72,8 +72,8 @@ ein Eigenbau-Anhänger oder ein stark modifizierter Wagen braucht dann eine
 Sachverständiger – etwa von TÜV oder DEKRA – genau dieses eine Fahrzeug.
 
 Das ist aufwändiger und teurer als eine ABE, aber oft der einzige Weg. Wer einen
-[Oldtimer zulassen](/ratgeber/oldtimer-zulassen) oder einen
-[Anhänger zulassen](/ratgeber/anhanger-zulassen) will, der nicht aus der Serie
+[Oldtimer zulassen](/kfz-ratgeber/oldtimer-zulassen/) oder einen
+[Anhänger zulassen](/kfz-ratgeber/anhaenger-zulassen/) will, der nicht aus der Serie
 stammt, kommt um die Einzelabnahme nicht herum.
 
 <div class="box box-check"><strong>Das brauchst du für die Einzelabnahme:</strong>
@@ -83,7 +83,7 @@ anerkannten Prüforganisation.</div>
 
 Der Sachverständige stellt nach bestandener Prüfung ein Gutachten aus, mit dem du
 zur Zulassungsstelle gehst. Erst dann darfst du das Fahrzeug
-[anmelden](/ratgeber/auto-anmelden) und auf die Straße bringen.
+[anmelden](/kfz-ratgeber/auto-anmelden/) und auf die Straße bringen.
 
 ## ABE oder EBE – wann brauchst du was?
 
@@ -94,7 +94,7 @@ Serien-Genehmigung nicht mehr greift, brauchst du die EBE.
 <div class="box box-frage"><strong>Und bei einem importierten Auto?</strong> Fahrzeuge
 ohne EU-Typgenehmigung – etwa aus den USA – benötigen meist ebenfalls eine
 Einzelabnahme. Mehr dazu im Ratgeber zum
-<a href="/ratgeber/auto-import-nicht-eu">Auto-Import außerhalb der EU</a>.</div>
+<a href="/kfz-ratgeber/auto-import-nicht-eu/">Auto-Import außerhalb der EU</a>.</div>
 
 ## Was kostet eine Betriebserlaubnis?
 
@@ -124,9 +124,9 @@ Bußgeld, Punkte in Flensburg und im Ernstfall den Verlust des Versicherungsschu
 
 Gerade der letzte Punkt wird unterschätzt: Baut du in einen Unfall, kann die
 Versicherung bei erloschener Betriebserlaubnis Leistungen kürzen. Das Thema
-[Fahren ohne Zulassung](/ratgeber/fahren-ohne-zulassung) zeigt, wie schnell aus
+[Fahren ohne Zulassung](/kfz-ratgeber/fahren-ohne-zulassung/) zeigt, wie schnell aus
 einem kleinen Umbau ein großes Problem wird. Welche Sanktionen drohen, findest du
-im [Bußgeldkatalog](/ratgeber/bussgeldkatalog).
+im [Bußgeldkatalog](/kfz-ratgeber/bussgeldkatalog/).
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Lass jeden sicherheitsrelevanten
 Umbau vorher prüfen und eintragen. Die paar Euro für die Abnahme sind nichts gegen
@@ -136,13 +136,13 @@ das Risiko, am Ende ohne Versicherungsschutz dazustehen.</div>
 
 <div class="box box-frage"><strong>Ist die Betriebserlaubnis dasselbe wie der
 Fahrzeugschein?</strong> Nein. Der frühere Fahrzeugschein – heute
-<a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a> – dokumentiert
+<a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung Teil I</a> – dokumentiert
 die Zulassung. Die Betriebserlaubnis ist die technische Grundlage dahinter.</div>
 
 <div class="box box-frage"><strong>Erlischt die ABE durch jedes Zubehörteil?</strong>
 Nicht durch jedes. Kleinere, genehmigte Teile mit eigener ABE sind unkritisch.
 Sicherheitsrelevante Änderungen ohne Genehmigung können die
-<a href="/ratgeber/betriebserlaubnis-erloschen">Betriebserlaubnis erlöschen lassen</a>.</div>
+<a href="/kfz-ratgeber/betriebserlaubnis-erloeschen/">Betriebserlaubnis erlöschen lassen</a>.</div>
 
 <div class="box box-frage"><strong>Brauche ich für eine andere Felge immer eine
 Eintragung?</strong> Nur wenn die Felge keine passende ABE mit erfüllbaren Auflagen
@@ -163,5 +163,5 @@ kommen ABE-Auflagen oder die **Einzelbetriebserlaubnis** ins Spiel.
 Mein Fazit nach Jahren mit Schraubereien: Wer vorher fragt und sauber eintragen
 lässt, fährt entspannt. Wer es ignoriert, riskiert Bußgeld und Versicherungsärger.
 Wenn du gerade ein besonderes Fahrzeug auf die Straße bringen willst, hilft dir der
-Ratgeber zum [Gebrauchtwagen zulassen](/ratgeber/gebrauchtwagen-zulassen) beim
+Ratgeber zum [Gebrauchtwagen zulassen](/kfz-ratgeber/gebrauchtwagen-zulassen/) beim
 nächsten Schritt.

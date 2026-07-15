@@ -31,7 +31,7 @@ Der Teil, der dein Kennzeichen erst zum *Wunsch*kennzeichen macht, ist die
 Reservierung. Du sicherst dir eine bestimmte Kombination, damit sie dir am Tag
 der Zulassung garantiert zugeteilt wird.
 
-Die Gebühr dafür ist in der bundesweiten [Gebührenordnung (GebOSt)](https://www.gesetze-im-internet.de/gebost/)
+Die Gebühr dafür ist in der bundesweiten [Gebührenordnung (GebOSt)](https://www.gesetze-im-internet.de/stgebo_2011/)
 geregelt und liegt für die Wunsch-Zuteilung bei rund **10,20 €**. Kommt eine
 Online-Reservierung im Voraus dazu, berechnen viele Zulassungsstellen noch einen
 kleinen Aufschlag von etwa **2,60 €**.
@@ -58,13 +58,13 @@ vermeidest du Fehlprägungen und kannst in Ruhe den günstigsten Anbieter wähle
 ## 3. Die Zulassung selbst
 
 Reservierung und Schilder ergeben noch kein angemeldetes Auto. Dazu kommt die
-eigentliche **Zulassung** bei der zuständigen [Zulassungsstelle](/zulassungsstelle).
+eigentliche **Zulassung** bei der zuständigen [Zulassungsstelle](/zulassungsstelle/).
 Was genau du dafür brauchst und wie der Ablauf ist, habe ich dir im
-[Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden) ausführlich aufgeschrieben.
+[Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/) ausführlich aufgeschrieben.
 
 Die reine Anmeldegebühr bewegt sich meist im Bereich von **rund 30 €** – plus
 Auslagen wie die Plakette für die Hauptuntersuchung. Wenn du das Fahrzeug
-[online über i-Kfz](/ratgeber/i-kfz-online-zulassung) zulässt, ist es in vielen
+[online über i-Kfz](/kfz-ratgeber/i-kfz-online-zulassung/) zulässt, ist es in vielen
 Fällen sogar etwas günstiger als der Gang zur Behörde.
 
 <div class="box box-check"><strong>Das brauchst du für die Zulassung:</strong>
@@ -82,7 +82,7 @@ die Parkgebühr und – ehrlich gesagt – jede Menge Wartezeit am Ticketautomat
 Beim klassischen Weg vor Ort kommen schnell versteckte Kosten dazu: der teurere
 Schilderstand direkt am Amt, eventuell ein Zulassungsdienst, der dir die
 Wartezeit abnimmt, und im Zweifel ein zweiter Anlauf, weil ein Dokument fehlt.
-Über die [internetbasierte Fahrzeugzulassung (i-Kfz)](/ratgeber/i-kfz-online-zulassung)
+Über die [internetbasierte Fahrzeugzulassung (i-Kfz)](/kfz-ratgeber/i-kfz-online-zulassung/)
 erledigst du dagegen alles vom Sofa aus – inklusive Wunschkennzeichen.
 
 Wie viele Fahrzeuge in Deutschland überhaupt zugelassen sind und wie sich die
@@ -135,8 +135,8 @@ normales?</strong> Nur minimal. Der eigentliche Aufpreis sind die wenigen Euro f
 Wunsch-Zuteilung und Reservierung – der Rest fällt sowieso an.</div>
 
 <div class="box box-frage"><strong>Sind Altkennzeichen teurer?</strong> Nein.
-Wieder eingeführte <a href="/altkennzeichen">Altkennzeichen</a> kosten genauso viel wie jedes
-andere <a href="/kennzeichen">Unterscheidungszeichen</a> – du zahlst ganz normal die
+Wieder eingeführte <a href="/altkennzeichen/">Altkennzeichen</a> kosten genauso viel wie jedes
+andere <a href="/kennzeichen/">Unterscheidungszeichen</a> – du zahlst ganz normal die
 Wunsch-Gebühr.</div>
 
 ## Fazit
@@ -147,6 +147,6 @@ den Schildern und der Zulassung. Wer **online reserviert, die Schilder clever
 kauft und i-Kfz nutzt**, sichert sich sein Wunschkennzeichen entspannt und spart
 dabei sogar.
 
-Wenn du so weit bist: Im [Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren)
+Wenn du so weit bist: Im [Ratgeber zum Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 zeige ich dir Schritt für Schritt, wie du deine Wunschkombination prüfst und
 sicherst.

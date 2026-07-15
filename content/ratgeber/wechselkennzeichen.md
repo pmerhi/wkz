@@ -37,14 +37,14 @@ fahren willst, bekommt diesen Wechselteil aufgesteckt – und nur dieses Fahrzeu
 ist dann im öffentlichen Straßenverkehr erlaubt.
 
 Geregelt ist das Ganze in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 Wichtig: Es funktioniert nur für **zwei Fahrzeuge derselben Fahrzeugklasse** –
 also zum Beispiel zwei Pkw oder zwei Motorräder, nicht Pkw plus Motorrad.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> zwei zugelassene
 Fahrzeuge derselben Klasse, für jedes eine eigene
-<a href="/ratgeber/evb-nummer">eVB-Nummer</a> der Versicherung, die
-<a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigungen</a> und – wie immer –
+<a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> der Versicherung, die
+<a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigungen</a> und – wie immer –
 deinen Personalausweis. Beide Fahrzeuge brauchen eine gültige HU.</div>
 
 ## Wechselkennzeichen Vorteile: Was bringt es dir?
@@ -55,12 +55,12 @@ durchaus praktisch.
 
 Spannender sind die finanziellen **Wechselkennzeichen Vorteile**: Bei vielen
 Versicherern bekommst du Rabatte, weil ja immer nur ein Fahrzeug fahren kann. Und
-auch bei der [Kfz-Steuer](/ratgeber/kfz-steuer-berechnen) lässt sich sparen –
+auch bei der [Kfz-Steuer](/kfz-ratgeber/kfz-steuer-berechnen/) lässt sich sparen –
 allerdings nicht automatisch, dazu gleich mehr.
 
 Für wen lohnt sich das also? Klassisch für alle mit einem **Zweitfahrzeug, das
 selten fährt**: das Cabrio für den Sommer, das
-[Motorrad](/ratgeber/wunschkennzeichen-motorrad) neben dem Alltags-Pkw oder der
+[Motorrad](/kfz-ratgeber/wunschkennzeichen-motorrad/) neben dem Alltags-Pkw oder der
 gepflegte Youngtimer für Ausfahrten am Wochenende.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Rechne vorher mit deiner
@@ -92,7 +92,7 @@ Doppelzulassung am Ende oft die bessere Wahl.
 ## Wechselkennzeichen Kosten: Womit musst du rechnen?
 
 Kommen wir zum Geld. Die **Wechselkennzeichen Kosten** setzen sich – ähnlich wie
-bei jeder [Zulassung](/ratgeber/zulassungskosten) – aus mehreren Bausteinen
+bei jeder [Zulassung](/kfz-ratgeber/zulassungskosten/) – aus mehreren Bausteinen
 zusammen.
 
 Da du **zwei Fahrzeuge** zulässt, fallen auch zwei Zulassungsvorgänge an. Die
@@ -104,7 +104,7 @@ einzelnes Standardkennzeichen.
 Dazu kommen die **Schilder**. Beim Wechselkennzeichen brauchst du den gemeinsamen
 Wechselteil plus die beiden fahrzeugfesten Teile – also mehr Blech als bei einem
 einfachen Kennzeichen. Rechne hier mit etwa **40–70 €** für den kompletten Satz,
-je nach Anbieter und [Prägung](/ratgeber/nummernschild-pragen).
+je nach Anbieter und [Prägung](/kfz-ratgeber/nummernschild-praegen/).
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Zulassung zwei
 Fahrzeuge: ca. <strong>2 × 30 € = 60 €</strong>. Wechselschild-Satz: ca.
@@ -125,10 +125,10 @@ Anmeldung genau – die Bedingungen unterscheiden sich von Anbieter zu Anbieter.
 
 Die gute Nachricht: Du musst auf deine Lieblingskombination nicht verzichten. Den
 gemeinsamen Stammteil kannst du genauso als
-[Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren) wie ein
+[Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/) wie ein
 normales Schild. Welche Buchstaben und Zahlen erlaubt sind, erfährst du im
 Ratgeber zu den
-[Buchstaben und Zahlen am Kennzeichen](/ratgeber/wunschkennzeichen-buchstaben-zahlen).
+[Buchstaben und Zahlen am Kennzeichen](/kfz-ratgeber/wunschkennzeichen-buchstaben-zahlen/).
 
 Beachte nur: Der fahrzeugbezogene Abschnitt unterscheidet die beiden Autos und ist
 nicht frei wählbar – der gemeinsame Wunschteil dagegen schon.
@@ -151,8 +151,8 @@ Versicherungstarife – und nur, wenn ein Fahrzeug überwiegend steht.</div>
 
 <div class="box box-frage"><strong>Gibt es das Wechselkennzeichen als
 Saisonvariante?</strong> Das Wechselkennzeichen und das
-<a href="/ratgeber/saisonkennzeichen">Saisonkennzeichen</a> sind zwei getrennte Modelle.
-Für ein reines Sommerfahrzeug ist die <a href="/ratgeber/saisonzulassung">Saisonzulassung</a>
+<a href="/kfz-ratgeber/saisonkennzeichen/">Saisonkennzeichen</a> sind zwei getrennte Modelle.
+Für ein reines Sommerfahrzeug ist die <a href="/kfz-ratgeber/saisonzulassung/">Saisonzulassung</a>
 oft die einfachere Lösung.</div>
 
 ## Fazit
@@ -167,4 +167,4 @@ Wichtig bleibt der eine Grundsatz: immer nur **ein Fahrzeug gleichzeitig**
 bewegen. Wer das im Alltag locker einhalten kann, für den ist das
 Wechselkennzeichen einen ernsthaften Vergleich wert. Brauchst du beide Autos
 parallel, bleibst du besser bei zwei eigenständigen Kennzeichen – wie du sie ganz
-normal an der [Zulassungsstelle](/zulassungsstelle) bekommst.
+normal an der [Zulassungsstelle](/zulassungsstelle/) bekommst.

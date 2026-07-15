@@ -39,7 +39,7 @@ noch nicht regulär zugelassen ist. Klassisch sind drei Szenarien:
 Wichtig ist: Es ist immer an *ein konkretes Fahrzeug* gebunden. Du darfst damit
 nicht beliebig mehrere Autos bewegen. Wer regelmäßig wechselnde Fahrzeuge fährt –
 etwa Händler oder Werkstätten – nutzt stattdessen ein
-[Überführungskennzeichen](/ratgeber/uberfuhrungskennzeichen) oder ein rotes
+[Überführungskennzeichen](/kfz-ratgeber/ueberfuehrungskennzeichen/) oder ein rotes
 Händlerkennzeichen.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Für ein
@@ -53,7 +53,7 @@ Zweifel vorher nach.</div>
 
 Beim Thema *Kurzzeitkennzeichen beantragen* geraten viele in Stress, dabei ist
 der Ablauf erstaunlich geradlinig. Du gehst dafür zur
-[Zulassungsstelle](/zulassungsstelle) – meist dort, wo du wohnst oder wo das
+[Zulassungsstelle](/zulassungsstelle/) – meist dort, wo du wohnst oder wo das
 Fahrzeug steht.
 
 Der Ablauf in Kurzform:
@@ -63,7 +63,7 @@ Der Ablauf in Kurzform:
 3. Mit dieser Nummer lässt du die Schilder beim Prägedienst herstellen.
 4. Die Schilder werden gestempelt – fertig, du darfst losfahren.
 
-Anders als bei der normalen [Auto-Anmeldung](/ratgeber/auto-anmelden) brauchst
+Anders als bei der normalen [Auto-Anmeldung](/kfz-ratgeber/auto-anmelden/) brauchst
 du hier keine Zulassungsbescheinigung Teil I auf deinen Namen. Das macht die
 Sache schnell – oft hast du das Schild in unter einer Stunde in der Hand.
 
@@ -74,7 +74,7 @@ als Beleg der gültigen Hauptuntersuchung – und vor allem die
 <strong>eVB-Nummer</strong> deiner Versicherung.</div>
 
 Eine reine Online-Beantragung wie bei der
-[i-Kfz-Zulassung](/ratgeber/i-kfz-online-zulassung) ist beim Kurzzeitkennzeichen
+[i-Kfz-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/) ist beim Kurzzeitkennzeichen
 bislang nur eingeschränkt möglich. In den meisten Bezirken bleibt der Gang vor
 Ort oder ein beauftragter Dienstleister der zuverlässigste Weg.
 
@@ -98,7 +98,7 @@ Alter und deine Schadenfreiheitsklasse können hineinspielen.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Hol dir die eVB für das
 Kurzzeitkennzeichen über einen Online-Versicherer statt am Schalter. Die Preise
-schwanken stark – ein kurzer <a href="/ratgeber/kfz-versicherung-vergleich">Versicherungsvergleich</a>
+schwanken stark – ein kurzer <a href="/kfz-ratgeber/kfz-versicherung-vergleich/">Versicherungsvergleich</a>
 kann dir hier schnell 30 € und mehr sparen.</div>
 
 ## Die Kurzzeitkennzeichen Versicherung – ohne eVB geht nichts
@@ -118,7 +118,7 @@ in der Regel die <strong>Haftpflicht</strong> ab – also Schäden, die du ander
 zufügst. Eine Kaskoabdeckung für dein eigenes Fahrzeug ist nicht automatisch
 dabei. Bei einem hochwertigen Überführungsstück lohnt sich der Blick auf einen
 Zusatzschutz. Mehr zur eVB findest du im
-<a href="/ratgeber/evb-nummer">eVB-Nummer-Ratgeber</a>.</div>
+<a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer-Ratgeber</a>.</div>
 
 ## Wie lange gilt ein Kurzzeitkennzeichen?
 
@@ -129,7 +129,7 @@ Verlängerung. Du musst bei Bedarf ein neues beantragen.
 
 Plane deine Fahrten also realistisch. Wenn du ein Auto über mehrere Etappen
 überführen willst oder eine längere Wiederzulassung vorhast, ist unter Umständen
-ein anderer Weg sinnvoller – etwa eine [Wiederzulassung](/ratgeber/wiederzulassung)
+ein anderer Weg sinnvoller – etwa eine [Wiederzulassung](/kfz-ratgeber/wiederzulassung/)
 oder gleich die reguläre Anmeldung.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Fährst du nach Ablauf des
@@ -144,16 +144,16 @@ Nicht immer ist das Kurzzeitkennzeichen die beste Wahl. Ein kurzer Vergleich,
 damit du die passende Lösung findest:
 
 - **Überführung über lange Strecke oder mehrfach?** Dann lohnt ein
-  [Ausfuhrkennzeichen](/ratgeber/ausfuhrkennzeichen) (bei Export) oder das rote
+  [Ausfuhrkennzeichen](/kfz-ratgeber/ausfuhrkennzeichen/) (bei Export) oder das rote
   Händlerschild.
 - **Fahrzeug bleibt dauerhaft deins?** Dann melde es direkt regulär an – siehe
-  [Gebrauchtwagen zulassen](/ratgeber/gebrauchtwagen-zulassen).
-- **Nur saisonal unterwegs?** Ein [Saisonkennzeichen](/ratgeber/saisonkennzeichen)
+  [Gebrauchtwagen zulassen](/kfz-ratgeber/gebrauchtwagen-zulassen/).
+- **Nur saisonal unterwegs?** Ein [Saisonkennzeichen](/kfz-ratgeber/saisonkennzeichen/)
   spart auf Dauer Geld.
 
 Für die einmalige Fahrt vom Verkäufer nach Hause aber bleibt das
 Kurzzeitkennzeichen unschlagbar praktisch. Die offiziellen Regeln dazu findest du
-in der [Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2011/),
+in der [Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2023/),
 und der [ADAC](https://www.adac.de) hält ebenfalls eine gute Übersicht bereit.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Kläre vor dem Kauf, ob das
@@ -169,12 +169,12 @@ variiert je nach Zulassungsbezirk.</div>
 
 <div class="box box-frage"><strong>Darf ich mit dem Kurzzeitkennzeichen ins
 Ausland fahren?</strong> Nicht überall. Manche Länder erkennen es an, andere
-nicht. Für den Export ist das <a href="/ratgeber/ausfuhrkennzeichen">Ausfuhrkennzeichen</a>
+nicht. Für den Export ist das <a href="/kfz-ratgeber/ausfuhrkennzeichen/">Ausfuhrkennzeichen</a>
 der sichere Weg. Kläre die Einreisebestimmungen vorher.</div>
 
 <div class="box box-frage"><strong>Was passiert mit den Schildern nach den fünf
 Tagen?</strong> Sie werden ungültig und du entsorgst sie. Eine Entstempelung wie
-beim normalen <a href="/ratgeber/auto-abmelden">Auto abmelden</a> ist nicht nötig.</div>
+beim normalen <a href="/kfz-ratgeber/auto-abmelden/">Auto abmelden</a> ist nicht nötig.</div>
 
 <div class="box box-frage"><strong>Kann ich das Kurzzeitkennzeichen
 verlängern?</strong> Nein. Brauchst du länger, beantragst du ein neues – mit
@@ -190,4 +190,4 @@ wichtigste Regel: Es gilt nur fünf Tage – plane deine Fahrt entsprechend.
 
 Wenn das Auto danach dauerhaft deins bleibt, geht es weiter mit der regulären
 Anmeldung. Wie das Schritt für Schritt läuft, habe ich dir im
-[Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden) ausführlich aufgeschrieben.
+[Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/) ausführlich aufgeschrieben.

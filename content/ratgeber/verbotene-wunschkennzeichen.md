@@ -31,12 +31,12 @@ blockiert.</div>
 Ein deutsches Kennzeichen besteht aus dem **Unterscheidungszeichen** deiner
 Stadt oder deines Kreises (zum Beispiel M, B oder HH) sowie einer **Erkennungs­nummer**
 aus ein bis zwei Buchstaben und ein bis vier Ziffern. Mehr zu diesem Aufbau
-findest du im Ratgeber zu den [Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen).
+findest du im Ratgeber zu den [Kennzeichen-Abkürzungen](/kfz-ratgeber/kennzeichen-abkuerzungen/).
 
 Die Behörde sperrt bestimmte Buchstabenkombinationen aus zwei Gründen: Entweder
 sie erinnern an **nationalsozialistische** Begriffe und Organisationen, oder sie
 sind aus technischen Gründen für andere Zwecke reserviert. Das Ganze stützt sich
-auf die [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/)
+auf die [Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/)
 und auf interne Verwaltungsvorschriften der Länder.
 
 ## Die historisch belasteten Kürzel: HJ, SS, KZ und Co.
@@ -71,9 +71,9 @@ Kombination im hinteren, frei wählbaren Teil deines Kennzeichens.
 Neben der Geschichte gibt es einen ganz unaufgeregten zweiten Grund, warum eine
 Kombination nicht geht: Sie ist für etwas anderes **reserviert**.
 
-So sind zum Beispiel die Buchstaben, die sonst für [Saisonkennzeichen](/ratgeber/saisonkennzeichen),
-[Kurzzeitkennzeichen](/ratgeber/kurzzeitkennzeichen) oder
-[Überführungskennzeichen](/ratgeber/uberfuhrungskennzeichen) gebraucht werden, im
+So sind zum Beispiel die Buchstaben, die sonst für [Saisonkennzeichen](/kfz-ratgeber/saisonkennzeichen/),
+[Kurzzeitkennzeichen](/kfz-ratgeber/kurzzeitkennzeichen/) oder
+[Überführungskennzeichen](/kfz-ratgeber/ueberfuehrungskennzeichen/) gebraucht werden, im
 normalen Wunschbereich nicht frei verfügbar. Auch Behörden- und Diplomaten­kennzeichen
 folgen eigenen Regeln und tauchen für dich gar nicht erst als Option auf.
 
@@ -106,12 +106,12 @@ die Kombination **frei, vergeben oder gesperrt** ist. Eine gesperrte Kombi wird
 dir gar nicht erst zur Reservierung angeboten.
 
 Wie das Schritt für Schritt läuft, habe ich dir im Ratgeber zum
-[Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren)
+[Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 aufgeschrieben. Und wenn du wissen willst, was hinter den Kürzeln stecken kann,
-schau in den Ratgeber zur [Wunschkennzeichen-Bedeutung](/ratgeber/wunschkennzeichen-bedeutung).
+schau in den Ratgeber zur [Wunschkennzeichen-Bedeutung](/kfz-ratgeber/wunschkennzeichen-bedeutung/).
 
 <div class="box box-check"><strong>Das brauchst du für die Prüfung:</strong> nur
-deine Wunschkombination und die Online-Maske deiner <a href="/zulassungsstelle">Zulassungsstelle</a>.
+deine Wunschkombination und die Online-Maske deiner <a href="/zulassungsstelle/">Zulassungsstelle</a>.
 Du musst dafür noch nichts bezahlen – die reine Verfügbarkeitsabfrage ist kostenlos.</div>
 
 ## Was es nicht kostet – und was schon
@@ -119,7 +119,7 @@ Du musst dafür noch nichts bezahlen – die reine Verfügbarkeitsabfrage ist ko
 Die gute Nachricht zuerst: Das **Prüfen** auf verbotene oder vergebene
 Kombinationen ist gratis. Erst wenn du eine erlaubte Kombi tatsächlich
 **reservierst**, fällt eine Gebühr an. Wie hoch die ausfällt, liest du im Detail
-im Ratgeber zu den [Wunschkennzeichen-Kosten](/ratgeber/wunschkennzeichen-kosten).
+im Ratgeber zu den [Wunschkennzeichen-Kosten](/kfz-ratgeber/wunschkennzeichen-kosten/).
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Die reine
 Reservierung deines Wunschkennzeichens kostet meist rund <strong>10–13 €</strong>.
@@ -134,7 +134,7 @@ flott deine Wunschnummer.</div>
 
 ## Gelten die Verbote auch fürs Motorrad?
 
-Ja. Ein zweizeiliges [Wunschkennzeichen fürs Motorrad](/ratgeber/wunschkennzeichen-motorrad)
+Ja. Ein zweizeiliges [Wunschkennzeichen fürs Motorrad](/kfz-ratgeber/wunschkennzeichen-motorrad/)
 folgt denselben Regeln wie das Auto-Kennzeichen. Die belasteten Kürzel sind auch
 hier tabu – die kompaktere Schildform ändert nichts an den inhaltlichen Sperren.
 
@@ -155,7 +155,7 @@ mit belasteten Buchstaben. Die Handhabung ist regional unterschiedlich – im Zw
 zeigt dir die Online-Maske, ob deine Kombi geht.</div>
 
 <div class="box box-frage"><strong>Kann ich ein gesperrtes Altkennzeichen
-bekommen?</strong> Wieder eingeführte <a href="/altkennzeichen">Altkennzeichen</a> betreffen nur
+bekommen?</strong> Wieder eingeführte <a href="/altkennzeichen/">Altkennzeichen</a> betreffen nur
 das vordere Unterscheidungszeichen. Im frei wählbaren Teil gelten die normalen
 Sperren weiter – ein belastetes Kürzel bleibt also auch dort verboten.</div>
 
@@ -174,5 +174,5 @@ findest fast immer eine erlaubte Alternative.
 
 Wenn du deinen Favoriten checken willst: In der Online-Maske deiner
 Zulassungsstelle siehst du in Sekunden, ob deine Kombi frei ist. Und falls sie
-durchgeht, zeige ich dir im [Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren),
+durchgeht, zeige ich dir im [Ratgeber zum Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/),
 wie du sie dir gleich sicherst.

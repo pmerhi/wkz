@@ -27,7 +27,7 @@ hinterlegte Anschrift des Halters.</div>
 ## Warum du die Adresse überhaupt ändern musst
 
 Der Gesetzgeber will wissen, wo du wohnst – das steht so in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 Ändert sich deine Anschrift, bist du verpflichtet, das der Zulassungsbehörde
 „unverzüglich" mitzuteilen. Eine starre Frist von genau X Tagen gibt es zwar nicht,
 aber „unverzüglich" bedeutet eben nicht „irgendwann nächstes Jahr".
@@ -49,12 +49,12 @@ Wenn ja, ist das der einfache Fall – das **Ummelden im gleichen Kreis** läuft
 reine Adressänderung. Dein bisheriges Kennzeichen bleibt, neue Schilder brauchst du
 nicht. Ziehst du dagegen in einen anderen Kreis, ist das ein echter Halterprozess
 mit möglichem Kennzeichenwechsel. Diesen Fall habe ich dir separat im Ratgeber
-[Auto ummelden bei Kreiswechsel](/ratgeber/auto-ummelden-kreiswechsel) aufgeschrieben.
+[Auto ummelden bei Kreiswechsel](/kfz-ratgeber/auto-ummelden-kreiswechsel/) aufgeschrieben.
 
 <div class="box box-frage"><strong>Woher weiß ich, ob es derselbe Kreis ist?</strong>
 Schau auf dein Kennzeichen: Bleibt das Unterscheidungszeichen (die Buchstaben vor
 dem Strich) für deine neue Adresse zuständig, bist du im gleichen Bezirk. Welche
-Stelle für dich zuständig ist, findest du über die <a href="/zulassungsstelle">Zulassungsstellen-Suche</a>.</div>
+Stelle für dich zuständig ist, findest du über die <a href="/zulassungsstelle/">Zulassungsstellen-Suche</a>.</div>
 
 ## So läuft die Adressänderung Schritt für Schritt
 
@@ -64,7 +64,7 @@ Minuten am Schalter. Und immer öfter geht es sogar ganz ohne Behördenbesuch.
 So gehst du vor:
 
 1. **Unterlagen zusammensuchen** (siehe Box unten).
-2. Zuständige [Zulassungsstelle](/zulassungsstelle) aufsuchen oder den Online-Weg prüfen.
+2. Zuständige [Zulassungsstelle](/zulassungsstelle/) aufsuchen oder den Online-Weg prüfen.
 3. Neue Anschrift in der **Zulassungsbescheinigung Teil I** (dem Fahrzeugschein) eintragen lassen.
 4. Aufkleber mit der neuen Adresse auf das Dokument – fertig.
 
@@ -74,15 +74,15 @@ Schild** geprägt werden und auch Teil II (der Fahrzeugbrief) bleibt meist unber
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis oder
 Reisepass mit aktueller Meldebescheinigung, die Zulassungsbescheinigung Teil I
 (Fahrzeugschein) und – je nach Behörde – Teil II. Wenn jemand anderes für dich geht,
-zusätzlich eine <a href="/ratgeber/zulassungsdienst-vollmacht">Vollmacht</a>.</div>
+zusätzlich eine <a href="/kfz-ratgeber/zulassungsdienst-vollmacht/">Vollmacht</a>.</div>
 
 ## Geht das auch online? i-Kfz und die Adressänderung
 
 Ja – und genau das macht den Fall „gleicher Kreis" so angenehm. Über die
-[internetbasierte Fahrzeugzulassung (i-Kfz)](/ratgeber/i-kfz-online-zulassung) kannst
+[internetbasierte Fahrzeugzulassung (i-Kfz)](/kfz-ratgeber/i-kfz-online-zulassung/) kannst
 du viele Vorgänge digital erledigen. Welche Schritte dafür freigeschaltet sind und
 welche Stufe deine Behörde anbietet, hängt vom Ausbaustand ab – das erkläre ich dir
-im Detail unter [i-Kfz Voraussetzungen](/ratgeber/i-kfz-voraussetzungen).
+im Detail unter [i-Kfz Voraussetzungen](/kfz-ratgeber/i-kfz-voraussetzungen/).
 
 Voraussetzung ist meist ein Personalausweis mit freigeschalteter
 **Online-Ausweisfunktion (eID)** und ein Nutzerkonto. Der große Vorteil: keine
@@ -103,10 +103,10 @@ weil keine neuen Schilder und keine vollständige Neuzulassung anfallen.
 Adressänderung im Fahrzeugschein liegst du meist bei rund <strong>10–15 €</strong>.
 Online über i-Kfz ist es häufig ähnlich günstig oder etwas weniger. Ein
 Kreiswechsel mit neuem Kennzeichen wäre mit Schildern und Zulassung deutlich teurer
-– mehr dazu im <a href="/ratgeber/zulassungskosten">Ratgeber Zulassungskosten</a>.</div>
+– mehr dazu im <a href="/kfz-ratgeber/zulassungskosten/">Ratgeber Zulassungskosten</a>.</div>
 
 Vergleich gefällig? Wer den Kreis wechselt, landet schnell beim Drei- bis Vierfachen,
-sobald neue [Nummernschilder geprägt](/ratgeber/nummernschild-pragen) und ein
+sobald neue [Nummernschilder geprägt](/kfz-ratgeber/nummernschild-praegen/) und ein
 Kennzeichen neu zugeteilt werden müssen. Der gleiche Kreis spart dir also bares Geld.
 
 ## Häufige Stolperfallen – aus eigener Erfahrung
@@ -122,7 +122,7 @@ Ein paar Dinge, bei denen ich selbst schon ins Grübeln kam:
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Ändert sich neben der
 Adresse auch der Halter – etwa weil du das Auto übernimmst – ist es keine reine
-Adressänderung mehr, sondern ein <a href="/ratgeber/halterwechsel-auto">Halterwechsel</a>. Dann
+Adressänderung mehr, sondern ein <a href="/kfz-ratgeber/halterwechsel-auto/">Halterwechsel</a>. Dann
 sind andere Unterlagen nötig.</div>
 
 ## Häufige Fragen
@@ -144,7 +144,7 @@ Wohnsitz-Ummeldung.</div>
 <div class="box box-frage"><strong>Kann ich die Adressänderung mit einem
 Wunschkennzeichen verbinden?</strong> Wenn du im gleichen Kreis bleibst, brauchst du
 kein neues Kennzeichen. Möchtest du trotzdem eines, kannst du es separat
-<a href="/ratgeber/wunschkennzeichen-reservieren">reservieren</a> – das ist dann aber ein
+<a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">reservieren</a> – das ist dann aber ein
 zusätzlicher Vorgang mit eigenen Kosten.</div>
 
 ## Fazit
@@ -156,5 +156,5 @@ Idealfall die Online-Ausweisfunktion nutzt, ist in wenigen Minuten fertig.
 
 Mein Tipp: Erledige die Adressänderung direkt nach dem Umzug mit – so vergisst du sie
 nicht und vermeidest unnötigen Ärger. Und falls dein nächster Umzug doch über die
-Kreisgrenze geht, weißt du im [Ratgeber zum Kreiswechsel](/ratgeber/auto-ummelden-kreiswechsel),
+Kreisgrenze geht, weißt du im [Ratgeber zum Kreiswechsel](/kfz-ratgeber/auto-ummelden-kreiswechsel/),
 worauf es dann ankommt.

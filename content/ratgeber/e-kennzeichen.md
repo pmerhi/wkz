@@ -35,7 +35,7 @@ Kennzeichen-Kombination klebt ein zusätzliches **E**.
 
 Wichtig ist: Das E ist Teil des Kennzeichens, nicht etwa eine Plakette. Wenn du
 mehr über den allgemeinen Aufbau von Nummernschildern wissen willst, hilft dir mein
-Ratgeber zu den [Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen) weiter –
+Ratgeber zu den [Kennzeichen-Abkürzungen](/kfz-ratgeber/kennzeichen-abkuerzungen/) weiter –
 dort erkläre ich, was die Buchstaben und Zahlen bedeuten.
 
 Der eigentliche Clou steckt aber nicht im Buchstaben selbst, sondern in den
@@ -84,7 +84,7 @@ der CO₂-Wert entscheidend.</div>
 
 Klassische Mild-Hybride oder Verbrenner mit kleinem E-Boost fallen also nicht
 darunter. Ob dein Fahrzeug die Kriterien erfüllt, steht letztlich in den
-Fahrzeugpapieren – im Zweifel fragst du bei der [Zulassungsstelle](/zulassungsstelle)
+Fahrzeugpapieren – im Zweifel fragst du bei der [Zulassungsstelle](/zulassungsstelle/)
 nach.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die genauen Reichweiten- und
@@ -101,17 +101,17 @@ Gebrauchten anmeldest.
 
 Bei der **Anmeldung** sagst du einfach, dass du das E-Kennzeichen möchtest. Wie der
 Ablauf grundsätzlich funktioniert, habe ich dir im Ratgeber zum
-[Auto anmelden](/ratgeber/auto-anmelden) ausführlich beschrieben. Hast du schon ein
+[Auto anmelden](/kfz-ratgeber/auto-anmelden/) ausführlich beschrieben. Hast du schon ein
 zugelassenes E-Auto ohne das E, kannst du es im Rahmen einer
-[Ummeldung](/ratgeber/auto-ummelden) nachträglich beantragen.
+[Ummeldung](/kfz-ratgeber/auto-ummelden/) nachträglich beantragen.
 
 Inzwischen geht das vielerorts auch digital: Über die
-[internetbasierte Fahrzeugzulassung (i-Kfz)](/ratgeber/i-kfz-online-zulassung)
+[internetbasierte Fahrzeugzulassung (i-Kfz)](/kfz-ratgeber/i-kfz-online-zulassung/)
 erledigst du die Anmeldung bequem von zu Hause aus. Welche Voraussetzungen dafür
-gelten, erkläre ich im Beitrag zu den [i-Kfz-Voraussetzungen](/ratgeber/i-kfz-voraussetzungen).
+gelten, erkläre ich im Beitrag zu den [i-Kfz-Voraussetzungen](/kfz-ratgeber/i-kfz-voraussetzungen/).
 
 <div class="box box-tipp"><strong>Tipp:</strong> Du kannst dein E-Kennzeichen auch
-als <a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen reservieren</a>. Das E
+als <a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Wunschkennzeichen reservieren</a>. Das E
 hängt sich dann einfach an deine Wunschkombination an – etwa deine Initialen plus
 ein Geburtsjahr und das abschließende E.</div>
 
@@ -120,17 +120,17 @@ ein Geburtsjahr und das abschließende E.</div>
 Hier kann ich dich beruhigen: Das E an sich kostet **keinen Aufpreis**. Du zahlst
 die normale Zulassungsgebühr und die Schilder wie bei jedem anderen Kennzeichen
 auch. Die Details zu den einzelnen Posten findest du in meinem Ratgeber zu den
-[Zulassungskosten](/ratgeber/zulassungskosten).
+[Zulassungskosten](/kfz-ratgeber/zulassungskosten/).
 
 Lediglich die Schilder sind minimal länger, weil das E zusätzlichen Platz braucht –
 das macht aber preislich kaum einen Unterschied. Wer ein Wunschkennzeichen wählt,
 zahlt zusätzlich die übliche Wunsch-Gebühr, die ich in den
-[Wunschkennzeichen-Kosten](/ratgeber/wunschkennzeichen-kosten) aufschlüssele.
+[Wunschkennzeichen-Kosten](/kfz-ratgeber/wunschkennzeichen-kosten/) aufschlüssele.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die früher diskutierte
 Kfz-Steuerbefreiung für reine Elektroautos ist ein eigenes Thema und hängt nicht am
 E-Kennzeichen, sondern an der Fahrzeugart. Mehr dazu, wie sich die Abgabe berechnet,
-liest du unter <a href="/ratgeber/kfz-steuer-berechnen">Kfz-Steuer berechnen</a>.</div>
+liest du unter <a href="/kfz-ratgeber/kfz-steuer-berechnen/">Kfz-Steuer berechnen</a>.</div>
 
 ## Lohnt sich das E-Kennzeichen für dich?
 
@@ -164,7 +164,7 @@ oder höchstens 50 g CO₂ pro Kilometer. Steht in deinen Fahrzeugpapieren.</div
 
 <div class="box box-frage"><strong>Kann ich das E nachträglich anbringen?</strong>
 Nicht einfach selbst aufkleben – das E ist Teil des amtlichen Kennzeichens. Du
-brauchst eine <a href="/ratgeber/auto-ummelden">Ummeldung</a> mit neuen Schildern.</div>
+brauchst eine <a href="/kfz-ratgeber/auto-ummelden/">Ummeldung</a> mit neuen Schildern.</div>
 
 ## Fazit
 
@@ -175,5 +175,5 @@ Ladeplätzen und Sonderzonen, wo die jeweilige Kommune das anbietet.
 
 Mein Fazit nach mehreren E-Auto-Zulassungen: Nimm das E mit. Es kostet dich keinen
 Cent extra und kann dir im Alltag spürbar helfen. Wenn du gleich loslegen willst,
-prüfe deine [Wunschkombination](/ratgeber/wunschkennzeichen-reservieren) und sichere
+prüfe deine [Wunschkombination](/kfz-ratgeber/wunschkennzeichen-reservieren/) und sichere
 dir dein persönliches Elektrokennzeichen.

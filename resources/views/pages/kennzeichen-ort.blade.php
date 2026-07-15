@@ -1,4 +1,9 @@
-<x-layout :title="$title" :description="$description" :canonical="$canonical" :robots="$robots" :schemas="$schemas">
+@php
+    // Social-Sharing-Bild aus dem Hero-Ortsbild ableiten (absolute URL erforderlich).
+    $ogBild    = $heroBild?->bildUrl();
+    $ogBildAlt = $heroBild ? $heroBild->altText() : null;
+@endphp
+<x-layout :title="$title" :description="$description" :canonical="$canonical" :robots="$robots" :schemas="$schemas" :og-image="$ogBild" :og-image-alt="$ogBildAlt">
     <nav class="breadcrumb">
         <a href="{{ url('/') }}">Start</a> ›
         <a href="{{ url('/kennzeichen') }}">Kennzeichen</a>
@@ -11,16 +16,21 @@
         $primary = $kuerzel->first();
     @endphp
 
-    <section class="hero hero-sm reveal in">
-        <h1>Kfz-Kennzeichen {{ $gemeinde->name }}</h1>
-        @if($kuerzel->isNotEmpty())
-            <p class="lead">Fahrzeuge in {{ $gemeinde->name }} tragen das
-            Unterscheidungszeichen <strong>{{ $codes }}</strong>. Sichere dir deine Wunsch-Kombination online.</p>
-        @else
-            <p class="lead">Alles zur Kfz-Zulassung in {{ $gemeinde->name }} – zuständige Zulassungsstelle und
-            Wunschkennzeichen reservieren.</p>
-        @endif
-    </section>
+    @php
+        $heroLead = $kuerzel->isNotEmpty()
+            ? 'Fahrzeuge in '.e($gemeinde->name).' tragen das Unterscheidungszeichen <strong>'.e($codes).'</strong>. Sichere dir deine Wunsch-Kombination online.'
+            : 'Alles zur Kfz-Zulassung in '.e($gemeinde->name).' – zuständige Zulassungsstelle und Wunschkennzeichen reservieren.';
+    @endphp
+
+    @if($heroBild)
+        {{-- Verschmolzener Hero: Stadtbild mit Titel/Lead-Box im unteren Bereich --}}
+        <x-ort-hero :bild="$heroBild" :heading="'Kfz-Kennzeichen '.$gemeinde->name">{!! $heroLead !!}</x-ort-hero>
+    @else
+        <section class="hero hero-sm reveal in">
+            <h1>Kfz-Kennzeichen {{ $gemeinde->name }}</h1>
+            <p class="lead">{!! $heroLead !!}</p>
+        </section>
+    @endif
 
     {{-- Kürzel --}}
     @if($kuerzel->isNotEmpty())
@@ -59,14 +69,15 @@
 
     {{-- Zuständige Zulassungsstelle --}}
     @if($stelle)
+    @php $stelleUrl = url($stelle->hubPfad); @endphp
     <section class="section reveal">
         <h2>Zuständige Zulassungsstelle für {{ $gemeinde->name }}</h2>
         <div class="card">
-            <a href="{{ $stelle->url() }}"><strong>{{ $stelle->name }}</strong></a>
+            <a href="{{ $stelleUrl }}"><strong>{{ $stelle->anzeigeName() }}</strong></a>
             <div class="muted">{{ $stelle->strasse }}@if($stelle->strasse)<br>@endif{{ $stelle->plz }} {{ $stelle->ort }}</div>
             @if($stelle->termin_url)<a class="js-termin" data-label="{{ $stelle->slug }}" href="{{ $stelle->termin_url }}" rel="nofollow noopener" target="_blank">Online-Termin →</a>@endif
         </div>
-        <p style="margin-top:10px"><a href="{{ $stelle->url() }}">Öffnungszeiten, Termin &amp; Kontakt der Zulassungsstelle {{ $stelle->ort ?: $stelle->name }} →</a></p>
+        <p style="margin-top:10px"><a href="{{ $stelleUrl }}">Öffnungszeiten, Termin &amp; Kontakt der Zulassungsstelle {{ $stelle->ort ?: $stelle->name }} →</a></p>
     </section>
     @endif
 
@@ -120,6 +131,28 @@
             <div class="card"><a href="{{ url('/kfz-ratgeber/i-kfz-online-zulassung') }}">i-Kfz – online zulassen</a></div>
         </div>
     </section>
+
+    {{-- Footer-Ortsbilder (unten nebeneinander) mit Lizenznachweis --}}
+    @if($footerBilder->isNotEmpty())
+        <section class="section reveal">
+            <div class="bild-credit-grid">
+                @foreach($footerBilder as $fb)
+                    <x-bild-credit
+                        :src="$fb->bildUrl()"
+                        :alt="$fb->altText()"
+                        :titel="$fb->titel"
+                        :autor="$fb->autor"
+                        :autor-url="$fb->autor_url"
+                        :quelle="$fb->quelle"
+                        :lizenz="$fb->lizenz"
+                        :lizenz-url="$fb->lizenz_url"
+                        :bearbeitet="$fb->bearbeitet"
+                        :width="$fb->width"
+                        :height="$fb->height" />
+                @endforeach
+            </div>
+        </section>
+    @endif
 
     <x-quiz-teaser :code="$primary?->code" />
 

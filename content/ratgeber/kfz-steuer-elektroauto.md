@@ -31,7 +31,7 @@ an, die sich nur nach dem Fahrzeuggewicht richtet, nicht nach Emissionen.</div>
 
 Die Idee dahinter ist politischer Natur: Der Staat wollte den Umstieg auf
 emissionsfreie Fahrzeuge attraktiv machen. Bei klassischen Verbrennern berechnet
-sich die [Kfz-Steuer](/ratgeber/kfz-steuer-berechnen) zu großen Teilen nach dem
+sich die [Kfz-Steuer](/kfz-ratgeber/kfz-steuer-berechnen/) zu großen Teilen nach dem
 CO₂-Ausstoß und dem Hubraum. Ein reines Elektroauto stößt lokal kein CO₂ aus –
 und hat gar keinen Hubraum. Logischerweise greift hier ein eigener Mechanismus.
 
@@ -72,13 +72,13 @@ erhalten, auch wenn das Auto den Besitzer wechselt. Kaufst du einen gebrauchten
 Stromer, übernimmst du die **Restlaufzeit** der Befreiung. Das ist ein
 unterschätztes Argument beim Gebrauchtkauf.
 
-Beim [Ummelden](/ratgeber/auto-ummelden) oder einem
-[Halterwechsel](/ratgeber/halterwechsel-auto) läuft die Frist also einfach
+Beim [Ummelden](/kfz-ratgeber/auto-ummelden/) oder einem
+[Halterwechsel](/kfz-ratgeber/halterwechsel-auto/) läuft die Frist also einfach
 weiter, sie wird nicht zurückgesetzt. Wenn du also 2026 ein E-Auto mit
 Erstzulassung 2022 kaufst, profitierst du noch bis 2030 von der Steuerfreiheit.
 
 <div class="box box-check"><strong>Das brauchst du, um es zu prüfen:</strong>
-Wirf einen Blick in die <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a>
+Wirf einen Blick in die <a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung</a>
 Teil I. Unter „B" steht das Datum der Erstzulassung – ab diesem Tag läuft deine
 Befreiungsfrist. Die Antriebsart erkennst du an Feld „P.3" (Kraftstoffart:
 „Elektro").</div>
@@ -114,18 +114,18 @@ das du in Strom, Reifen oder schlicht in den Tank deiner Urlaubskasse steckst.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Lass dich nicht nur von der
 Steuerbefreiung leiten. Rechne die Gesamtkosten – Anschaffung, Strom,
-<a href="/ratgeber/kfz-versicherung-vergleich">Versicherung</a> und Wertverlust – zusammen.
+<a href="/kfz-ratgeber/kfz-versicherung-vergleich/">Versicherung</a> und Wertverlust – zusammen.
 Die Steuerersparnis ist ein schöner Bonus, aber selten allein der entscheidende
 Posten.</div>
 
 ## Das grüne Drumherum: Plakette und Kennzeichen
 
 Steuerlich bist du als E-Auto-Fahrer im Vorteil, und auch sonst gibt es Extras.
-Mit einem [E-Kennzeichen](/ratgeber/e-kennzeichen) – dem Schild mit dem „E" am
+Mit einem [E-Kennzeichen](/kfz-ratgeber/e-kennzeichen/) – dem Schild mit dem „E" am
 Ende – darfst du je nach Kommune kostenlos parken oder Busspuren nutzen. Das hat
 mit der Steuer zwar nichts zu tun, gehört für mich aber zum Gesamtbild dazu.
 
-Die [Umweltplakette](/ratgeber/umweltplakette) für Umweltzonen brauchst du als
+Die [Umweltplakette](/kfz-ratgeber/umweltplakette/) für Umweltzonen brauchst du als
 reines Elektroauto übrigens trotzdem – sie ist an die Schadstoffklasse geknüpft,
 nicht an die Steuerfreiheit. Stromer bekommen die grüne Plakette automatisch.
 
@@ -143,11 +143,11 @@ emissionsarme Verbrenner.</div>
 
 <div class="box box-frage"><strong>Was passiert, wenn ich ein E-Auto aus dem
 Ausland importiere?</strong> Entscheidend ist die deutsche Erstzulassung. Beim
-<a href="/ratgeber/gebrauchtwagen-zulassen">Import und der Zulassung</a> zählt das Datum, an
+<a href="/kfz-ratgeber/gebrauchtwagen-zulassen/">Import und der Zulassung</a> zählt das Datum, an
 dem das Fahrzeug hier erstmals zugelassen wurde.</div>
 
 <div class="box box-frage"><strong>Verliere ich die Befreiung beim Umzug oder
-Ummelden?</strong> Nein. Beim <a href="/ratgeber/auto-ummelden-kreiswechsel">Ummelden mit Kreiswechsel</a>
+Ummelden?</strong> Nein. Beim <a href="/kfz-ratgeber/auto-ummelden-kreiswechsel/">Ummelden mit Kreiswechsel</a>
 oder ohne läuft die Befreiungsfrist unverändert weiter – sie hängt am Fahrzeug,
 nicht am Wohnort.</div>
 
@@ -165,6 +165,6 @@ spart das schnell vierstellige Beträge gegenüber einem Verbrenner.
 Behalte trotzdem das Stichdatum und die Gesetzeslage im Blick, denn beim
 Steuerrecht ändert sich gern etwas. Aktuelle Eckdaten findest du beim
 [ADAC](https://www.adac.de) und bei der zuständigen
-[Zulassungsstelle](/zulassungsstelle). Wenn du dein E-Auto erst noch anmelden
+[Zulassungsstelle](/zulassungsstelle/). Wenn du dein E-Auto erst noch anmelden
 willst, zeige ich dir den Ablauf im
-[Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden) Schritt für Schritt.
+[Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/) Schritt für Schritt.

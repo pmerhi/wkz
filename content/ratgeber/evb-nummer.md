@@ -35,7 +35,7 @@ Der Hintergrund ist simpel: In Deutschland darf kein Fahrzeug ohne gültige
 **Kfz-Haftpflichtversicherung** auf die Straße. Bevor dir die Behörde ein
 Kennzeichen zuteilt, will sie sicher sein, dass im Schadensfall jemand haftet. Die
 eVB-Nummer ist genau dieser Beweis – verankert unter anderem in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/),
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/),
 die regelt, welche Nachweise du zur Zulassung mitbringen musst.
 
 Ohne diese Nummer wird **keine Zulassung** durchgeführt – egal ob du vor Ort am
@@ -52,13 +52,13 @@ Blick. Angaben hier ohne Gewähr, da sich Details je nach Anbieter unterscheiden
 Du brauchst die eVB-Nummer praktisch bei jedem Vorgang, bei dem ein Fahrzeug
 **neu auf die Straße kommt** oder den Halter wechselt. Konkret heißt das:
 
-- **Neuwagen anmelden** oder einen [Gebrauchtwagen zulassen](/ratgeber/gebrauchtwagen-zulassen)
-- ein Fahrzeug [ummelden](/ratgeber/auto-ummelden), wenn es zugleich den Halter wechselt
-- ein stillgelegtes Auto [wiederzulassen](/ratgeber/wiederzulassung)
-- ein [Saisonkennzeichen](/ratgeber/saisonkennzeichen) oder
-  [Kurzzeitkennzeichen](/ratgeber/kurzzeitkennzeichen) beantragen
+- **Neuwagen anmelden** oder einen [Gebrauchtwagen zulassen](/kfz-ratgeber/gebrauchtwagen-zulassen/)
+- ein Fahrzeug [ummelden](/kfz-ratgeber/auto-ummelden/), wenn es zugleich den Halter wechselt
+- ein stillgelegtes Auto [wiederzulassen](/kfz-ratgeber/wiederzulassung/)
+- ein [Saisonkennzeichen](/kfz-ratgeber/saisonkennzeichen/) oder
+  [Kurzzeitkennzeichen](/kfz-ratgeber/kurzzeitkennzeichen/) beantragen
 
-Auch wenn du dir vorab dein [Wunschkennzeichen reservierst](/ratgeber/wunschkennzeichen-reservieren),
+Auch wenn du dir vorab dein [Wunschkennzeichen reservierst](/kfz-ratgeber/wunschkennzeichen-reservieren/),
 brauchst du die eVB spätestens am Tag der Zuteilung. Sie gehört einfach zur
 Standard-Checkliste jeder Anmeldung.
 
@@ -83,12 +83,12 @@ einen Versicherer. Es gibt im Wesentlichen drei Wege:
 
 Welche Daten du parat haben solltest? Die wichtigsten sind die
 **Fahrzeug-Identifizierungsnummer (FIN)**, Angaben zum Fahrzeug aus der
-[Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung), deine Adresse und – je
+[Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/), deine Adresse und – je
 nach Tarif – Infos zu deinem Schadenfreiheitsrabatt.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Bevor du blind die erstbeste eVB
 nimmst, lohnt ein kurzer Blick auf die Tarife. Wer einen
-<a href="/ratgeber/kfz-versicherung-vergleich">Kfz-Versicherungsvergleich</a> macht, sichert
+<a href="/kfz-ratgeber/kfz-versicherung-vergleich/">Kfz-Versicherungsvergleich</a> macht, sichert
 sich oft günstigere Konditionen – und die eVB gibt's beim Abschluss meist gratis
 obendrauf.</div>
 
@@ -108,7 +108,7 @@ sein. Für die normale Zulassung gehst du aber besser direkt zur Versicherung.
 dich in der Regel <strong>0 €</strong>. Was Geld kostet, ist die Versicherung
 dahinter – und die brauchst du ohnehin. Plane für die eigentliche Zulassung dann noch
 die Behördengebühr (rund 30 €) und die Schilder (ca. 20–35 €) ein. Mehr dazu im
-<a href="/ratgeber/zulassungskosten">Ratgeber zu den Zulassungskosten</a>.</div>
+<a href="/kfz-ratgeber/zulassungskosten/">Ratgeber zu den Zulassungskosten</a>.</div>
 
 ## Wie lange ist eine eVB-Nummer gültig?
 
@@ -129,7 +129,7 @@ nicht zweimal beantragen.</div>
 ## Online-Zulassung: eVB als Schlüssel zur i-Kfz
 
 Besonders praktisch wird die eVB beim Online-Weg. Bei der
-[internetbasierten Fahrzeugzulassung (i-Kfz)](/ratgeber/i-kfz-online-zulassung)
+[internetbasierten Fahrzeugzulassung (i-Kfz)](/kfz-ratgeber/i-kfz-online-zulassung/)
 trägst du die siebenstellige Nummer einfach ins Portal ein – die Zulassungsstelle
 gleicht sie automatisch mit dem zentralen Register beim
 [Kraftfahrt-Bundesamt](https://www.kba.de) ab. Stimmt alles, läuft der Vorgang
@@ -137,7 +137,7 @@ digital weiter.
 
 Genau deshalb ist die eVB im elektronischen Zeitalter so wertvoll: Sie ist
 maschinenlesbar und macht den Papier-Nachweis überflüssig. Welche
-[Voraussetzungen für i-Kfz](/ratgeber/i-kfz-voraussetzungen) sonst noch gelten, habe
+[Voraussetzungen für i-Kfz](/kfz-ratgeber/i-kfz-voraussetzungen/) sonst noch gelten, habe
 ich dir separat zusammengefasst.
 
 <div class="box box-frage"><strong>Was ist, wenn meine eVB online nicht akzeptiert
@@ -161,7 +161,7 @@ Telefonisch geht es ähnlich schnell.</div>
 
 <div class="box box-frage"><strong>Brauche ich für ein Wunschkennzeichen eine eigene
 eVB?</strong> Nein, es ist dieselbe eVB wie für jede Zulassung. Das
-<a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen</a> selbst reservierst du
+<a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Wunschkennzeichen</a> selbst reservierst du
 unabhängig davon.</div>
 
 ## Fazit
@@ -174,5 +174,5 @@ bei jeder Anmeldung vor.
 
 Mein wichtigster Tipp bleibt: Erst Versicherung clever wählen, dann eVB sichern, und
 zwar zeitnah zum Zulassungstermin. Wenn du jetzt loslegen willst, schau dir den
-[Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden) an – dort findest du die
+[Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/) an – dort findest du die
 komplette Checkliste für deinen Behördengang.

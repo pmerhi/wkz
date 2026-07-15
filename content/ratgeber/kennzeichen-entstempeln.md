@@ -41,7 +41,7 @@ behältst du in der Regel mit nach Hause.
 entstempeltem Kennzeichen darf nicht mehr im öffentlichen Verkehr bewegt werden –
 auch nicht „nur kurz". Wer ohne gültiges Siegel fährt, riskiert ein Bußgeld und
 fährt ohne Versicherungsschutz. Mehr dazu im Ratgeber
-<a href="/ratgeber/fahren-ohne-zulassung">Fahren ohne Zulassung</a>.</div>
+<a href="/kfz-ratgeber/fahren-ohne-zulassung/">Fahren ohne Zulassung</a>.</div>
 
 ## Wann musst du dein Kennzeichen entstempeln lassen?
 
@@ -55,7 +55,7 @@ Das Entstempeln gehört zu fast jedem offiziellen Vorgang rund um die
 
 In all diesen Fällen ist das Entsiegeln der technische Kern der Abmeldung. Den
 gesamten Ablauf einer Abmeldung habe ich dir im Ratgeber
-[Auto abmelden](/ratgeber/auto-abmelden) Schritt für Schritt aufgeschrieben –
+[Auto abmelden](/kfz-ratgeber/auto-abmelden/) Schritt für Schritt aufgeschrieben –
 hier konzentrieren wir uns auf das Schild selbst.
 
 <div class="box box-frage"><strong>Muss ich beide Schilder mitbringen?</strong> Ja.
@@ -71,7 +71,7 @@ es richtig:
 1. **Schilder demontieren** oder am Fahrzeug lassen (je nach Zulassungsstelle).
    Manche Ämter entsiegeln direkt am Auto, andere am Schalter.
 2. **Zur Zulassungsstelle** deines Bezirks fahren. Welche das ist, findest du
-   über die [Zulassungsstelle](/zulassungsstelle)-Suche.
+   über die [Zulassungsstelle](/zulassungsstelle/)-Suche.
 3. **Unterlagen vorlegen** und die Außerbetriebsetzung beantragen.
 4. **Siegel wird entfernt** – der Mitarbeiter zerstört die Plakette vor deinen
    Augen.
@@ -79,12 +79,12 @@ es richtig:
    Fahrzeug offiziell abgemeldet ist.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis oder
-Reisepass, die <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a>
+Reisepass, die <a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung Teil I</a>
 (Fahrzeugschein) und beide Kennzeichen mit Siegel. Bei einer Stilllegung kann auch
 Teil II verlangt werden.</div>
 
 Mittlerweile geht vieles auch digital. Über die
-[internetbasierte Fahrzeugzulassung (i-Kfz)](/ratgeber/i-kfz-online-zulassung)
+[internetbasierte Fahrzeugzulassung (i-Kfz)](/kfz-ratgeber/i-kfz-online-zulassung/)
 kannst du dein Auto online außer Betrieb setzen – dafür sitzen verdeckte
 Sicherheitscodes unter den Siegeln und auf der Zulassungsbescheinigung, die du
 freilegst und eingibst. Das physische Entstempeln am Schalter entfällt dann.
@@ -103,7 +103,7 @@ entsprechend.
 
 Online ist es oft noch etwas günstiger. Eine Übersicht über die typischen
 Behördengebühren findest du im Ratgeber
-[Zulassungskosten](/ratgeber/zulassungskosten).
+[Zulassungskosten](/kfz-ratgeber/zulassungskosten/).
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Reine Abmeldung mit
 Entstempeln vor Ort: ca. <strong>7–15 €</strong>. Online über i-Kfz: häufig nur
@@ -111,7 +111,7 @@ Entstempeln vor Ort: ca. <strong>7–15 €</strong>. Online über i-Kfz: häufi
 Schild noch rund <strong>10–18 €</strong> dazu.</div>
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die genauen Beträge sind in
-der bundesweiten <a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">FZV</a> geregelt,
+der bundesweiten <a href="https://www.gesetze-im-internet.de/fzv_2023/" rel="nofollow noopener" target="_blank">FZV</a> geregelt,
 können aber je nach Bundesland und Kommune leicht abweichen. Sieh die Angaben
 hier als realistische Orientierung – ohne Gewähr und ohne Anspruch auf einen
 garantierten Festpreis.</div>
@@ -123,15 +123,15 @@ meisten Fällen ja – das entstempelte Blechschild darfst du behalten. Nur das
 Siegel ist dann eben ungültig.
 
 Spannend wird es, wenn du dein Kennzeichen weiternutzen willst. Seit der Reform
-kannst du dein [Wunschkennzeichen mitnehmen](/ratgeber/wunschkennzeichen-mitnehmen),
+kannst du dein [Wunschkennzeichen mitnehmen](/kfz-ratgeber/wunschkennzeichen-mitnehmen/),
 selbst wenn du in einen anderen Kreis umziehst. Beim Halterwechsel oder
-[Auto ummelden](/ratgeber/auto-ummelden) lässt sich das Kennzeichen unter
+[Auto ummelden](/kfz-ratgeber/auto-ummelden/) lässt sich das Kennzeichen unter
 bestimmten Voraussetzungen reservieren statt entstempeln.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Wer sein Fahrzeug nur
 vorübergehend abmeldet, kann das Kennzeichen meist bis zu zwölf Monate
 reservieren lassen. Bei einer späteren
-<a href="/ratgeber/wiederzulassung">Wiederzulassung</a> bekommst du dann genau dieselbe
+<a href="/kfz-ratgeber/wiederzulassung/">Wiederzulassung</a> bekommst du dann genau dieselbe
 Kombination zurück.</div>
 
 ## Häufige Fragen zum Entstempeln
@@ -149,12 +149,12 @@ Außerbetriebsetzung.</div>
 <div class="box box-frage"><strong>Was passiert mit dem entstempelten
 Schild?</strong> Du nimmst es mit. Brauchst du es nicht mehr, gehört es in den
 Metallschrott. Für eine spätere Anmeldung lässt du einfach neue Schilder
-<a href="/ratgeber/nummernschild-pragen">prägen</a>.</div>
+<a href="/kfz-ratgeber/nummernschild-praegen/">prägen</a>.</div>
 
 <div class="box box-frage"><strong>Geht Entstempeln auch beim Verkauf?</strong> Ja.
 Wenn der Käufer das Auto nicht selbst ummeldet, solltest du es vor der Übergabe
 abmelden lassen. Wie das sicher klappt, zeigt der Ratgeber
-<a href="/ratgeber/auto-verkaufen-abmelden">Auto verkaufen und abmelden</a>.</div>
+<a href="/kfz-ratgeber/auto-verkaufen-abmelden/">Auto verkaufen und abmelden</a>.</div>
 
 ## Fazit
 
@@ -166,4 +166,4 @@ und du bist Steuer und Versicherung los.
 Mein Rat: Erledige es offiziell, bring beide Schilder und alle Unterlagen mit,
 und prüfe, ob der Online-Weg über i-Kfz für dich passt. Dann ist das Entsiegeln
 in wenigen Minuten erledigt. Wann immer du dein Fahrzeug wieder anmelden willst,
-hilft dir der Ratgeber [Wiederzulassung](/ratgeber/wiederzulassung) weiter.
+hilft dir der Ratgeber [Wiederzulassung](/kfz-ratgeber/wiederzulassung/) weiter.

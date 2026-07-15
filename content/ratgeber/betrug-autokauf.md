@@ -56,7 +56,7 @@ weißt, wo du suchst.
 Vergleiche den angezeigten Kilometerstand mit dem **Verschleiß**: Abgewetztes
 Lenkrad, durchgesessener Fahrersitz und ausgeleierte Pedalgummis passen nicht zu
 „nur 60.000 km". Lass dir außerdem das **Scheckheft**, alte
-[Hauptuntersuchungs-Berichte](/ratgeber/hauptuntersuchung-tuv) und
+[Hauptuntersuchungs-Berichte](/kfz-ratgeber/hauptuntersuchung-tuev/) und
 Werkstattrechnungen zeigen – dort sind die Kilometerstände dokumentiert. Springt
 der Wert zwischen zwei Terminen plötzlich zurück, weißt du Bescheid.
 
@@ -87,11 +87,11 @@ beiden Seiten das Risiko.</div>
 Ganz entscheidend ist außerdem die **Abmeldung** rund um den Verkauf. Solange das
 Auto auf dich zugelassen ist, haftest du für Steuer, Versicherung und im Zweifel
 für Verkehrsverstöße des neuen Fahrers. Wie du das sauber trennst, habe ich dir im
-Ratgeber [Auto verkaufen und abmelden](/ratgeber/auto-verkaufen-abmelden) und beim
-[Halterwechsel](/ratgeber/halterwechsel-auto) ausführlich erklärt.
+Ratgeber [Auto verkaufen und abmelden](/kfz-ratgeber/auto-verkaufen-abmelden/) und beim
+[Halterwechsel](/kfz-ratgeber/halterwechsel-auto/) ausführlich erklärt.
 
 <div class="box box-frage"><strong>Muss ich das Auto vor dem Verkauf abmelden?</strong>
-Nicht zwingend – oft übernimmt der Käufer die <a href="/ratgeber/auto-ummelden">Ummeldung</a>.
+Nicht zwingend – oft übernimmt der Käufer die <a href="/kfz-ratgeber/auto-ummelden/">Ummeldung</a>.
 Sicherer ist es aber, gemeinsam zur Zulassungsstelle zu gehen oder den Verkauf
 schriftlich der Behörde zu melden, damit die Haftung sauber übergeht.</div>
 
@@ -108,7 +108,7 @@ Forderungen – solange du keine Mängel arglistig verschweigst. Lügst du aktiv
 einen Unfall, hilft dir auch der beste Vertrag nicht.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Ein
-<a href="/ratgeber/kfz-gutachten">Kfz-Gutachten</a> oder ein Werkstatt-Check vor dem Kauf
+<a href="/kfz-ratgeber/kfz-gutachten/">Kfz-Gutachten</a> oder ein Werkstatt-Check vor dem Kauf
 kostet dich rund 80–150 €. Klingt nach viel? Gegen einen versteckten Motorschaden
 von mehreren tausend Euro ist das eine der günstigsten Versicherungen überhaupt.</div>
 
@@ -128,7 +128,7 @@ Warnsignale, bei denen ich sofort hellhörig werde:
    Treuhanddienste.
 
 Triff dich immer persönlich, prüf vor der Zulassung die
-[Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung) Teil I und II und
+[Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/) Teil I und II und
 gleiche die Daten mit dem Ausweis des Verkäufers ab. Stimmt da etwas nicht, lass
 die Finger davon.
 
@@ -152,7 +152,7 @@ nicht hat. Bei arglistiger Täuschung greift der Ausschluss nicht.</div>
 <div class="box box-frage"><strong>Wie erkenne ich gefälschte Fahrzeugpapiere?</strong>
 Achte auf Wasserzeichen, saubere Druckqualität und stimmige Stempel. Gleiche
 Fahrgestellnummer im Schein, am Fahrzeug und in der
-<a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a> ab. Bei Unstimmigkeiten
+<a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung</a> ab. Bei Unstimmigkeiten
 brich den Kauf ab.</div>
 
 ## Fazit
@@ -164,6 +164,6 @@ ob beim Kaufen oder beim **sicher Auto verkaufen**.
 
 Mein wichtigster Rat bleibt: Vertrau deinem Bauchgefühl. Klingt ein Angebot zu
 gut, um wahr zu sein, ist es das meistens auch. Und wenn der Deal durch ist,
-kümmer dich zügig um die [Ummeldung](/ratgeber/auto-ummelden) oder
-[Abmeldung](/ratgeber/auto-abmelden) – damit der Wechsel auch behördlich sauber
+kümmer dich zügig um die [Ummeldung](/kfz-ratgeber/auto-ummelden/) oder
+[Abmeldung](/kfz-ratgeber/auto-abmelden/) – damit der Wechsel auch behördlich sauber
 abgeschlossen ist.

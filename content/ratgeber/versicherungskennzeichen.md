@@ -24,7 +24,7 @@ hat: Jedes Jahr wechselt es die Farbe.
 Versicherungskennzeichen ist kein amtliches Kennzeichen und keine Zulassung. Es
 ist der sichtbare Nachweis, dass für dein Kleinkraftrad eine gültige
 Haftpflichtversicherung besteht. Deshalb bekommst du es auch ohne Gang zur
-<a href="/zulassungsstelle">Zulassungsstelle</a>.</div>
+<a href="/zulassungsstelle/">Zulassungsstelle</a>.</div>
 
 ## Wer braucht ein Versicherungskennzeichen?
 
@@ -42,11 +42,11 @@ Ein klassisches **Mofa Kennzeichen** ist also nichts anderes als ein
 Versicherungskennzeichen. Auch das **Rollerkennzeichen** für deinen 50er-Roller
 fällt genau in diese Kategorie. Sobald dein Zweirad schneller als 45 km/h fährt
 oder mehr als 50 cm³ hat, brauchst du dagegen ein echtes
-[Motorradkennzeichen](/ratgeber/motorradkennzeichen) und eine richtige Zulassung.
+[Motorradkennzeichen](/kfz-ratgeber/motorradkennzeichen/) und eine richtige Zulassung.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Fährst du dein Mofa oder
 deinen Roller ohne gültiges Versicherungskennzeichen, fehlt der
-Versicherungsschutz – und das gilt rechtlich wie <a href="/ratgeber/fahren-ohne-zulassung">Fahren ohne
+Versicherungsschutz – und das gilt rechtlich wie <a href="/kfz-ratgeber/fahren-ohne-zulassung/">Fahren ohne
 Zulassung</a>. Im Schadensfall haftest du
 persönlich, und es droht ein Strafverfahren. Diese Angaben sind ohne Gewähr und
 können je nach Fall variieren.</div>
@@ -87,7 +87,7 @@ nur den anteiligen Betrag bis Ende Februar.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Vergleiche die Anbieter vor dem
 1. März. Viele Versicherer locken zum Saisonstart mit günstigen Tarifen, und ein
-<a href="/ratgeber/kfz-versicherung-vergleich">Kfz-Versicherungsvergleich</a> lohnt sich
+<a href="/kfz-ratgeber/kfz-versicherung-vergleich/">Kfz-Versicherungsvergleich</a> lohnt sich
 auch beim kleinen Roller. Die Beitragsunterschiede sind oft größer, als man
 denkt.</div>
 
@@ -101,10 +101,10 @@ ausgehändigt oder innerhalb weniger Tage zugeschickt.
 <div class="box box-check"><strong>Das brauchst du dafür:</strong> Personalausweis,
 deine persönlichen Daten, Angaben zum Fahrzeug (Hersteller,
 Fahrzeug-Identifizierungsnummer, Hubraum bzw. Leistung) und eine Bankverbindung
-für den Beitrag. Eine <a href="/ratgeber/evb-nummer">eVB-Nummer</a> wie beim Auto brauchst
+für den Beitrag. Eine <a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> wie beim Auto brauchst
 du hier nicht – das Schild ist der Nachweis selbst.</div>
 
-Im Gegensatz zur klassischen [Auto-Anmeldung](/ratgeber/auto-anmelden) entfällt
+Im Gegensatz zur klassischen [Auto-Anmeldung](/kfz-ratgeber/auto-anmelden/) entfällt
 also der komplette Behördenweg. Kein Termin, keine Wartenummer, keine
 Zulassungsbescheinigung. Das macht das Versicherungskennzeichen zum
 unkompliziertesten Schild im deutschen Straßenverkehr.
@@ -143,7 +143,7 @@ beginnt. Mehr Aufwand ist es tatsächlich nicht.
 
 <div class="box box-frage"><strong>Brauche ich für ein Mofa einen
 Führerschein?</strong> Für ein Mofa bis 25 km/h reicht die Mofa-Prüfbescheinigung,
-für schnellere Roller die <a href="/ratgeber/fuhrerscheinklassen">Führerscheinklasse AM</a>.
+für schnellere Roller die <a href="/kfz-ratgeber/fuehrerscheinklassen/">Führerscheinklasse AM</a>.
 Das Versicherungskennzeichen ersetzt keine Fahrerlaubnis.</div>
 
 <div class="box box-frage"><strong>Gilt das Versicherungskennzeichen auch für
@@ -153,13 +153,13 @@ Farbwechsel sind identisch.</div>
 
 <div class="box box-frage"><strong>Was passiert bei Diebstahl des
 Schilds?</strong> Melde den Verlust deiner Versicherung, ähnlich wie beim
-<a href="/ratgeber/kennzeichen-verloren-gestohlen">verlorenen Kennzeichen</a> am Auto. Du
+<a href="/kfz-ratgeber/kennzeichen-verloren-gestohlen/">verlorenen Kennzeichen</a> am Auto. Du
 bekommst Ersatz und solltest den Diebstahl je nach Fall auch der Polizei
 melden.</div>
 
 <div class="box box-frage"><strong>Kann ich das Kennzeichen mitten im Jahr
 abmelden?</strong> Du kannst die Versicherung kündigen oder das Fahrzeug
-abstellen. Anders als beim <a href="/ratgeber/auto-abmelden">Auto abmelden</a> gibt es aber
+abstellen. Anders als beim <a href="/kfz-ratgeber/auto-abmelden/">Auto abmelden</a> gibt es aber
 keine Behörde, der du das melden musst – es genügt der Weg über den
 Versicherer.</div>
 
@@ -172,6 +172,6 @@ Schild. Merk dir vor allem zwei Dinge – die **jährlich wechselnde Farbe** und
 
 Wenn dein Zweirad schneller wird und über 50 cm³ klettert, wird aus dem
 Versicherungs- ein echtes Zulassungsthema. Wie das läuft, liest du im
-[Ratgeber zum Motorrad zulassen](/ratgeber/wunschkennzeichen-motorrad). Und
+[Ratgeber zum Motorrad zulassen](/kfz-ratgeber/wunschkennzeichen-motorrad/). Und
 einen guten Überblick über alle Pflichten rund ums Zweirad findest du beim
 [ADAC](https://www.adac.de).

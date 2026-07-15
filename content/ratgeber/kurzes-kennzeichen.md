@@ -32,7 +32,7 @@ Minimum kann aber deutlich kürzer ausfallen.</div>
 Die kürzeste denkbare Kombination besteht aus dem Stadtkürzel plus **einem
 Buchstaben und einer Ziffer** – zum Beispiel „B A 1" in Berlin. Damit landest du
 bei nur drei Zeichen hinter dem Städtekürzel. Kürzer geht es nicht, denn die
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/)
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/)
 schreibt mindestens einen Buchstaben und eine Ziffer in der Erkennungsnummer vor.
 
 Entscheidend ist also zuerst, **wie kurz das Unterscheidungszeichen deiner Stadt
@@ -54,13 +54,13 @@ Aussehen? Tatsächlich mehr, als man denkt.
 Erstens ist es leichter zu merken – praktisch, wenn du dein Auto in der Tiefgarage
 suchst oder es jemandem durchgeben musst. Zweitens passt eine kurze Kombination
 auch auf **kleinere Schilder**, etwa beim verkleinerten Format oder am
-[Motorrad](/ratgeber/wunschkennzeichen-motorrad), wo der Platz knapp ist. Und
+[Motorrad](/kfz-ratgeber/wunschkennzeichen-motorrad/), wo der Platz knapp ist. Und
 drittens wirkt es einfach aufgeräumter.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Wenn dir die Optik wichtig ist,
 kombiniere ein kurzes Kennzeichen mit einem schönen verkleinerten Schildformat.
 Wie das geprägt wird und worauf du achten musst, erkläre ich dir im
-<a href="/ratgeber/nummernschild-pragen">Ratgeber zum Nummernschild prägen</a>.</div>
+<a href="/kfz-ratgeber/nummernschild-praegen/">Ratgeber zum Nummernschild prägen</a>.</div>
 
 ## So sicherst du dir kurze Zeichen
 
@@ -76,7 +76,7 @@ verschiedene kurze Varianten durch, bis eine freie auftaucht.
 <div class="box box-check"><strong>Das brauchst du:</strong> Zugang zum
 Online-Portal deiner Zulassungsstelle, ein paar Wunsch-Kombinationen als
 Alternativen, deine Fahrzeugdaten und etwas Geduld beim Durchprobieren. Mehr
-dazu im <a href="/ratgeber/wunschkennzeichen-reservieren">Ratgeber Wunschkennzeichen reservieren</a>.</div>
+dazu im <a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Ratgeber Wunschkennzeichen reservieren</a>.</div>
 
 Ganz praktisch hilft es, **flexibel** zu sein. Wenn „M A 1" weg ist, sind
 „M A 2", „M B 1" oder „M K 9" vielleicht noch frei. Je weniger du dich auf eine
@@ -95,9 +95,9 @@ Aufschlag für die Online-Reservierung. Die Schilder selbst können sogar etwas
 günstiger sein, weil weniger Zeichen geprägt werden müssen.
 
 Alle Posten im Detail – Reservierung, Zuteilung und Schilder – habe ich dir im
-[Ratgeber zu den Wunschkennzeichen-Kosten](/ratgeber/wunschkennzeichen-kosten)
+[Ratgeber zu den Wunschkennzeichen-Kosten](/kfz-ratgeber/wunschkennzeichen-kosten/)
 aufgeschlüsselt. Und wenn du wissen willst, wie lange deine Reservierung gilt,
-schau in den [Ratgeber zur Reservierungs-Gültigkeit](/ratgeber/wunschkennzeichen-reservierung-gultigkeit).
+schau in den [Ratgeber zur Reservierungs-Gültigkeit](/kfz-ratgeber/wunschkennzeichen-reservierung-gueltigkeit/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die genauen Gebühren
 unterscheiden sich je nach Bundesland und Zulassungsbezirk. Manche Kommunen rufen
@@ -114,13 +114,13 @@ weil das Stadtkürzel selbst nur eine Stelle belegt.
 Beachte aber: Du musst deinen Wohnsitz im jeweiligen Zulassungsbezirk haben.
 Einfach ein fremdes Kürzel zu wählen, weil es kürzer ist, funktioniert nicht. Mehr
 zu den Regeln und Bedeutungen findest du in der Übersicht der
-[Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen) und beim
+[Kennzeichen-Abkürzungen](/kfz-ratgeber/kennzeichen-abkuerzungen/) und beim
 [Kraftfahrt-Bundesamt](https://www.kba.de).
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Seit der
 Kennzeichen-Reform darfst du dein altes Kennzeichen bei einem Umzug oft
 mitnehmen. Hast du also einmal ein kurzes Kennzeichen ergattert, musst du es bei
-einem <a href="/ratgeber/wunschkennzeichen-mitnehmen">Umzug nicht zwangsläufig aufgeben</a>.</div>
+einem <a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">Umzug nicht zwangsläufig aufgeben</a>.</div>
 
 ## Häufige Fragen
 
@@ -139,7 +139,7 @@ Nein. Du zahlst die normale Wunschgebühr. Die Schilder können wegen weniger
 Zeichen sogar etwas günstiger ausfallen.</div>
 
 <div class="box box-frage"><strong>Gilt das auch fürs Motorrad?</strong> Ja –
-gerade beim <a href="/ratgeber/wunschkennzeichen-motorrad">Motorradkennzeichen</a> ist ein
+gerade beim <a href="/kfz-ratgeber/wunschkennzeichen-motorrad/">Motorradkennzeichen</a> ist ein
 kurzes Kennzeichen praktisch, weil das verkleinerte Format weniger Platz bietet.</div>
 
 ## Fazit
@@ -151,6 +151,6 @@ bleiben, mehrere kurze Varianten bereithalten.** So sicherst du dir entspannt
 ein Kennzeichen mit wenig Zeichen, ohne mehr zu zahlen.
 
 Wenn du loslegen willst, zeige ich dir im
-[Ratgeber Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren)
+[Ratgeber Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 Schritt für Schritt, wie du freie Kombinationen prüfst und deine kurze
 Wunschvariante sicherst.

@@ -51,15 +51,15 @@ Typgenehmigung entspricht.
 
 Mit einem gültigen COC sparst du dir im besten Fall ein teures Einzelgutachten.
 Fehlt es, wird es aufwendiger – dann brauchst du oft eine
-[Vollabnahme nach §21 StVZO](/ratgeber/betriebserlaubnis), bei der ein Prüfer das
+[Vollabnahme nach §21 StVZO](/kfz-ratgeber/betriebserlaubnis/), bei der ein Prüfer das
 Fahrzeug technisch begutachtet.
 
 <div class="box box-check"><strong>Das brauchst du für den EU-Import:</strong> COC-Papier,
 ausländische Zulassungsbescheinigung (Teil I und ggf. II), Kaufvertrag, gültige
-<a href="/ratgeber/evb-nummer">eVB-Nummer</a> deiner Versicherung, Personalausweis und – falls
+<a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> deiner Versicherung, Personalausweis und – falls
 vorhanden – den Nachweis über eine bestehende technische Prüfung.</div>
 
-Hast du die ausländische [Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung)
+Hast du die ausländische [Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/)
 nicht vollständig, wird die deutsche Behörde Rückfragen stellen. Lass dir vom
 Verkäufer wirklich alles aushändigen – auch das, was unwichtig aussieht.
 
@@ -69,8 +69,8 @@ Ein gekauftes Auto muss erst einmal nach Deutschland kommen. Dafür brauchst du
 ein Kennzeichen für die Fahrt. Im Ausland bekommst du meist ein
 **Exportkennzeichen** des jeweiligen Landes. Alternativ holst du den Wagen per
 Trailer oder nutzt für die deutsche Strecke ein
-[Kurzzeitkennzeichen](/ratgeber/kurzzeitkennzeichen) oder
-[Überführungskennzeichen](/ratgeber/uberfuhrungskennzeichen).
+[Kurzzeitkennzeichen](/kfz-ratgeber/kurzzeitkennzeichen/) oder
+[Überführungskennzeichen](/kfz-ratgeber/ueberfuehrungskennzeichen/).
 
 <div class="box box-tipp"><strong>Tipp:</strong> Kläre die Versicherung für die
 Überführung VOR der Abholung. Eine Grüne Karte oder eine kurzzeitige
@@ -81,7 +81,7 @@ schlimmsten Fall völlig unversichert über die Grenze.</div>
 
 Hier atmen die meisten auf: Innerhalb der EU gibt es **keine Einfuhrzölle**. Der
 Zoll spielt nur eine Rolle, wenn du außerhalb der EU kaufst – dann gelten ganz
-andere Regeln, die ich im [Ratgeber Auto-Import außerhalb der EU](/ratgeber/auto-import-nicht-eu)
+andere Regeln, die ich im [Ratgeber Auto-Import außerhalb der EU](/kfz-ratgeber/auto-import-nicht-eu/)
 beschreibe.
 
 Knifflig wird es bei der **Umsatzsteuer**, und zwar fast nur bei
@@ -103,12 +103,12 @@ Kaufland abgegolten – ein großer Vorteil beim klassischen Gebrauchtwagenkauf.
 
 Jetzt kommt der vertraute Teil. Sobald Papiere, COC und Versicherung stehen, läuft
 die Anmeldung fast wie bei jedem anderen Auto ab. Was genau auf dich zukommt, habe
-ich im allgemeinen [Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden) erklärt –
+ich im allgemeinen [Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/) erklärt –
 für den Import ergänze ich hier die Besonderheiten.
 
 1. **Technische Identität prüfen:** Mit gültigem COC reicht oft die Vorlage bei der
    Zulassungsstelle. Ohne COC: Vollabnahme beim TÜV oder einer anderen Prüforganisation.
-2. **Hauptuntersuchung:** Ist die ausländische [HU](/ratgeber/hauptuntersuchung-tuv)
+2. **Hauptuntersuchung:** Ist die ausländische [HU](/kfz-ratgeber/hauptuntersuchung-tuev/)
    abgelaufen oder nicht anerkannt, brauchst du eine neue.
 3. **eVB-Nummer besorgen:** Ohne Versicherungsnachweis keine Zulassung.
 4. **Zur Zulassungsstelle:** Dort bekommst du deutsche Papiere und dein Kennzeichen.
@@ -116,9 +116,9 @@ für den Import ergänze ich hier die Besonderheiten.
 <div class="box box-frage"><strong>Kann ich ein importiertes Auto online über i-Kfz
 zulassen?</strong> Teilweise. Bei sauberen Papieren und vorhandener Typgenehmigung
 geht vieles digital. Fehlt das COC oder ist eine Vollabnahme nötig, führt der Weg
-in der Regel doch zur <a href="/zulassungsstelle">Zulassungsstelle</a> vor Ort.</div>
+in der Regel doch zur <a href="/zulassungsstelle/">Zulassungsstelle</a> vor Ort.</div>
 
-Du kannst dir natürlich auch direkt ein [Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren) –
+Du kannst dir natürlich auch direkt ein [Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/) –
 das funktioniert beim Import genauso wie bei einem deutschen Gebrauchtwagen.
 
 ## Beispielrechnung: Kombi aus den Niederlanden
@@ -157,7 +157,7 @@ an – auch beim Privatkauf.</div>
 
 <div class="box box-frage"><strong>Wie komme ich legal nach Hause?</strong> Mit
 einem ausländischen Exportkennzeichen, einem deutschen
-<a href="/ratgeber/kurzzeitkennzeichen">Kurzzeitkennzeichen</a> oder per Anhänger. Wichtig ist
+<a href="/kfz-ratgeber/kurzzeitkennzeichen/">Kurzzeitkennzeichen</a> oder per Anhänger. Wichtig ist
 in jedem Fall ein gültiger Versicherungsschutz für die Fahrt.</div>
 
 ## Fazit
@@ -170,5 +170,5 @@ kann ein **Auto aus EU importieren** und entspannt in Deutschland zulassen.
 
 Verlässliche Hintergründe zu Typgenehmigung und Fahrzeugdaten findest du beim
 [Kraftfahrt-Bundesamt](https://www.kba.de). Und wenn du beim Kauf auf Nummer sicher
-gehen willst, lies vorher meinen Ratgeber zum [Betrug beim Autokauf](/ratgeber/betrug-autokauf) –
+gehen willst, lies vorher meinen Ratgeber zum [Betrug beim Autokauf](/kfz-ratgeber/betrug-autokauf/) –
 gerade bei Distanzkäufen im Ausland ein wertvoller Schutz.

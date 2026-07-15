@@ -63,8 +63,8 @@ schadenfreien Jahre einfach mit. Der neue Versicherer fragt sie beim alten ab.
 ## Haftpflicht, Teilkasko, Vollkasko – was brauchst du wirklich?
 
 Die **Kfz-Haftpflicht** ist gesetzlich vorgeschrieben. Ohne sie darf kein Auto auf
-die Straße – sie ist Voraussetzung für die [Zulassung](/ratgeber/auto-anmelden) und
-steckt hinter jeder [eVB-Nummer](/ratgeber/evb-nummer), die du dafür brauchst. Sie
+die Straße – sie ist Voraussetzung für die [Zulassung](/kfz-ratgeber/auto-anmelden/) und
+steckt hinter jeder [eVB-Nummer](/kfz-ratgeber/evb-nummer/), die du dafür brauchst. Sie
 zahlt Schäden, die du anderen zufügst.
 
 Die **Teilkasko** deckt zusätzlich Dinge wie Diebstahl, Glasbruch, Sturm, Hagel und
@@ -89,7 +89,7 @@ du beim Vergleich an den richtigen Schrauben drehst, sparst du zusätzlich:
 - **Stellplatz**: Garage statt Straße kann den Beitrag senken
 
 <div class="box box-check"><strong>Das brauchst du für den Vergleich:</strong>
-Fahrzeugschein bzw. <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung Teil I</a>
+Fahrzeugschein bzw. <a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung Teil I</a>
 mit HSN/TSN, deine aktuelle SF-Klasse, die jährliche Fahrleistung, dein
 Zulassungsbezirk und Angaben zu den Fahrern. Mit diesen Daten dauert ein
 Online-Vergleich keine zehn Minuten.</div>
@@ -124,12 +124,12 @@ Der Wechsel ist einfacher, als die meisten denken. So gehe ich jedes Jahr vor:
 <div class="box box-info"><strong>Gut zu wissen:</strong> Neben dem regulären
 Stichtag gibt es ein <strong>Sonderkündigungsrecht</strong> – etwa nach einer
 Beitragserhöhung oder im Schadenfall. Dann kannst du auch mitten im Jahr wechseln.
-Beim ohnehin geplanten <a href="/ratgeber/halterwechsel-auto">Halterwechsel</a> oder
-<a href="/ratgeber/auto-ummelden">Auto ummelden</a> ist ein neuer Tarif ebenfalls ein guter
+Beim ohnehin geplanten <a href="/kfz-ratgeber/halterwechsel-auto/">Halterwechsel</a> oder
+<a href="/kfz-ratgeber/auto-ummelden/">Auto ummelden</a> ist ein neuer Tarif ebenfalls ein guter
 Anlass zum Vergleich.</div>
 
 Übrigens: Beim Wechsel des Fahrzeugs nimmst du deine SF-Klasse mit – genauso wie du
-beim Umzug oft dein [Wunschkennzeichen mitnehmen](/ratgeber/wunschkennzeichen-mitnehmen)
+beim Umzug oft dein [Wunschkennzeichen mitnehmen](/kfz-ratgeber/wunschkennzeichen-mitnehmen/)
 kannst. Beides bleibt an dir hängen, nicht am alten Anbieter.
 
 ## Worauf du beim Vergleichen achten solltest
@@ -167,7 +167,7 @@ Dann greift in der Regel ein Sonderkündigungsrecht von einem Monat.</div>
 <div class="box box-frage"><strong>Wie hängt die Versicherung mit der Kfz-Steuer
 zusammen?</strong> Gar nicht direkt – das sind zwei getrennte Posten. Was dein
 Fahrzeug an Steuer kostet, kannst du im Ratgeber
-<a href="/ratgeber/kfz-steuer-berechnen">Kfz-Steuer berechnen</a> nachsehen.</div>
+<a href="/kfz-ratgeber/kfz-steuer-berechnen/">Kfz-Steuer berechnen</a> nachsehen.</div>
 
 ## Fazit
 
@@ -179,5 +179,5 @@ heraus – ohne dabei am Schutz zu sparen.
 
 Mein Rat: Setz dir einmal jährlich, am besten im Herbst, eine Erinnerung. Eine knappe
 Stunde Vergleich kann dir mehrere Hundert Euro sparen. Und wenn ohnehin gerade eine
-[Zulassung](/ratgeber/auto-anmelden) ansteht, ist der perfekte Moment dafür sowieso
+[Zulassung](/kfz-ratgeber/auto-anmelden/) ansteht, ist der perfekte Moment dafür sowieso
 schon da.

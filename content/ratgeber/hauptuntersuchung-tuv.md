@@ -57,7 +57,7 @@ verschiedene Dinge, die heute zusammen stattfinden:
 
 Du musst die AU also nicht extra organisieren – die Prüforganisation erledigt
 beides in einem Rutsch. Auf dem Prüfbericht und in deiner
-[Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung) sind beide Teile
+[Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/) sind beide Teile
 dokumentiert.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die hier genannten Beträge,
@@ -134,12 +134,12 @@ Werkstatt vorab beheben – und sparst dir die Nachprüfungsgebühr.
 ## TÜV und Zulassung hängen zusammen
 
 Eine gültige HU ist nicht nur Pflicht, sie ist auch Voraussetzung für viele
-Behördengänge. Willst du dein [Auto ummelden](/ratgeber/auto-ummelden), ein
-[Fahrzeug wiederzulassen](/ratgeber/wiederzulassung) oder einen
-[Gebrauchtwagen zulassen](/ratgeber/gebrauchtwagen-zulassen), verlangt die
-[Zulassungsstelle](/zulassungsstelle) einen aktuellen HU-Nachweis.
+Behördengänge. Willst du dein [Auto ummelden](/kfz-ratgeber/auto-ummelden/), ein
+[Fahrzeug wiederzulassen](/kfz-ratgeber/wiederzulassung/) oder einen
+[Gebrauchtwagen zulassen](/kfz-ratgeber/gebrauchtwagen-zulassen/), verlangt die
+[Zulassungsstelle](/zulassungsstelle/) einen aktuellen HU-Nachweis.
 
-Auch beim [Auto anmelden](/ratgeber/auto-anmelden) gehört die gültige
+Auch beim [Auto anmelden](/kfz-ratgeber/auto-anmelden/) gehört die gültige
 Hauptuntersuchung zu den Dokumenten, die du parat haben musst. Ist der TÜV
 abgelaufen, kommst du um eine frische HU nicht herum, bevor das Fahrzeug wieder
 offiziell auf die Straße darf.
@@ -178,6 +178,6 @@ und mach vorher einen kurzen Eigen-Check bei Licht und Reifen. So fährst du
 entspannt rein und mit frischer Plakette wieder raus.
 
 Wenn der nächste Behördengang ansteht: In meinem
-[Ratgeber zur Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung) zeige
+[Ratgeber zur Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/) zeige
 ich dir, welche Papiere du dafür griffbereit haben solltest – die gültige HU
 gehört immer dazu.

@@ -42,7 +42,7 @@ mit dem Fahrzeug machst.
 <div class="box box-wichtig"><strong>Wichtig:</strong> „Stillgelegt" heißt nicht
 automatisch „abgemeldet bei der Versicherung". Beides läuft getrennt. Die
 Zulassungsstelle informiert deine Kfz-Versicherung zwar, aber kümmere dich
-trotzdem selbst um die <a href="/ratgeber/evb-nummer">eVB-Nummer</a> und den Vertragsstatus.</div>
+trotzdem selbst um die <a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> und den Vertragsstatus.</div>
 
 ## Wann lohnt sich eine Stilllegung?
 
@@ -57,18 +57,18 @@ ergibt – und ich habe die meisten davon selbst schon durchgespielt:
   Verkehr nehmen.
 
 Gerade beim Saison-Thema lohnt sich aber ein zweiter Blick: Statt jedes Jahr neu
-stillzulegen und wieder anzumelden, ist oft ein [Saisonkennzeichen](/ratgeber/saisonkennzeichen)
+stillzulegen und wieder anzumelden, ist oft ein [Saisonkennzeichen](/kfz-ratgeber/saisonkennzeichen/)
 die elegantere Lösung. Das pausiert automatisch und spart dir den doppelten
 Behördengang.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Planst du eine feste, jährlich
 wiederkehrende Pause – etwa November bis März –, prüf ernsthaft die
-<a href="/ratgeber/saisonzulassung">Saisonzulassung</a>. Sie ist bequemer als zweimal pro
+<a href="/kfz-ratgeber/saisonzulassung/">Saisonzulassung</a>. Sie ist bequemer als zweimal pro
 Jahr zur Behörde zu fahren und kostet dich nur einmal Gebühren.</div>
 
 ## Was du zum Stilllegen brauchst
 
-Der Gang zur [Zulassungsstelle](/zulassungsstelle) ist beim Stilllegen
+Der Gang zur [Zulassungsstelle](/zulassungsstelle/) ist beim Stilllegen
 erfreulich unkompliziert – jedenfalls, wenn die Unterlagen vollständig sind. Im
 Kern brauchst du das Fahrzeug nicht einmal mitzubringen, nur die Papiere und die
 Kennzeichen.
@@ -76,13 +76,13 @@ Kennzeichen.
 <div class="box box-check"><strong>Das brauchst du:</strong> deinen
 Personalausweis, die Zulassungsbescheinigung Teil I (früher Fahrzeugschein),
 beide Kennzeichenschilder zum Entstempeln und – falls vorhanden – die
-<a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a> Teil II. Wer für
-jemand anderen abmeldet, braucht eine <a href="/ratgeber/zulassungsdienst-vollmacht">Vollmacht</a>.</div>
+<a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung</a> Teil II. Wer für
+jemand anderen abmeldet, braucht eine <a href="/kfz-ratgeber/zulassungsdienst-vollmacht/">Vollmacht</a>.</div>
 
 Vor Ort werden die Stempelplaketten von den Schildern entfernt. Du bekommst eine
 Bestätigung der Außerbetriebsetzung – die hebst du gut auf, denn sie ist dein
 Nachweis gegenüber Finanzamt und Versicherung. Sind die Papiere verloren, wird es
-aufwendiger: Dann hilft dir mein Ratgeber zum [Fahrzeugschein verloren](/ratgeber/fahrzeugschein-verloren)
+aufwendiger: Dann hilft dir mein Ratgeber zum [Fahrzeugschein verloren](/kfz-ratgeber/fahrzeugschein-verloren/)
 weiter.
 
 ## Auto stilllegen online – geht das?
@@ -90,13 +90,13 @@ weiter.
 Ja, und das ist die wahrscheinlich beste Nachricht in diesem Artikel. Über die
 internetbasierte Fahrzeugzulassung kannst du dein Fahrzeug stilllegen, ohne einen
 Fuß vor die Tür zu setzen. Die Außerbetriebsetzung war eine der ersten Funktionen,
-die per [i-Kfz online](/ratgeber/i-kfz-online-zulassung) bundesweit verfügbar war.
+die per [i-Kfz online](/kfz-ratgeber/i-kfz-online-zulassung/) bundesweit verfügbar war.
 
 Du brauchst dafür den **Sicherheitscode** unter der Stempelplakette deiner
 Kennzeichen (das verdeckte Feld zum Freirubbeln) und den Code auf der
 Zulassungsbescheinigung Teil I. Welche Voraussetzungen genau gelten und welche
 Stufen es gibt, findest du in meinem Überblick zu den
-[i-Kfz-Voraussetzungen](/ratgeber/i-kfz-voraussetzungen).
+[i-Kfz-Voraussetzungen](/kfz-ratgeber/i-kfz-voraussetzungen/).
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die Online-Stilllegung
 funktioniert nur bei neueren Kennzeichen mit aufgedrucktem Sicherheitscode. Hast
@@ -119,7 +119,7 @@ Euro</strong>. Das Stilllegen rechnet sich also fast immer.</div>
 
 Wie viel Steuer du sparst, hängt von Hubraum und Schadstoffklasse ab. Eine grobe
 Hausnummer liefert dir mein Rechner-Ratgeber zum
-[Kfz-Steuer berechnen](/ratgeber/kfz-steuer-berechnen).
+[Kfz-Steuer berechnen](/kfz-ratgeber/kfz-steuer-berechnen/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Gebühren unterscheiden sich
 je nach Bundesland und Zulassungsbezirk. Manche Kommunen rufen für Online-Dienste
@@ -135,14 +135,14 @@ danach kann die Kombination an andere vergeben werden.
 
 Das Fahrzeug selbst kannst du grundsätzlich **mehrere Jahre** außer Betrieb
 lassen. Erst nach sieben Jahren wird die Akte endgültig gelöscht; danach wäre eine
-[Wiederzulassung](/ratgeber/wiederzulassung) aufwendiger und braucht unter
+[Wiederzulassung](/kfz-ratgeber/wiederzulassung/) aufwendiger und braucht unter
 Umständen ein neues Gutachten. Wer das Auto nur überbrückend pausiert, hat also
 reichlich Luft.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Willst du dein Kennzeichen
 später wiederverwenden, melde das Fahrzeug innerhalb von zwölf Monaten erneut an.
 Wie das funktioniert, steht im Ratgeber zur
-<a href="/ratgeber/wiederzulassung">Wiederzulassung</a>.</div>
+<a href="/kfz-ratgeber/wiederzulassung/">Wiederzulassung</a>.</div>
 
 ## Stilllegen beim Verkauf – ja oder nein?
 
@@ -152,8 +152,8 @@ Privatperson, die das Fahrzeug überführen will, ist die Außerbetriebsetzung s
 und sicher – du haftest dann nicht mehr für Verstöße des neuen Halters.
 
 Übernimmt der Käufer das Auto fahrbereit mit Kennzeichen, ist auch ein direkter
-[Halterwechsel](/ratgeber/halterwechsel-auto) möglich. Alle Details zum sauberen
-Verkauf habe ich im Ratgeber [Auto verkaufen und abmelden](/ratgeber/auto-verkaufen-abmelden)
+[Halterwechsel](/kfz-ratgeber/halterwechsel-auto/) möglich. Alle Details zum sauberen
+Verkauf habe ich im Ratgeber [Auto verkaufen und abmelden](/kfz-ratgeber/auto-verkaufen-abmelden/)
 zusammengetragen.
 
 ## Häufige Fragen
@@ -169,7 +169,7 @@ i-Kfz brauchst du nicht einmal das.</div>
 <div class="box box-frage"><strong>Darf ich ein stillgelegtes Auto noch fahren?</strong>
 Nein, auf keinen Fall. Ohne Zulassung und Versicherung ist jede Fahrt eine
 Straftat. Brauchst du es nur kurz von A nach B, hilft ein
-<a href="/ratgeber/kurzzeitkennzeichen">Kurzzeitkennzeichen</a>.</div>
+<a href="/kfz-ratgeber/kurzzeitkennzeichen/">Kurzzeitkennzeichen</a>.</div>
 
 <div class="box box-frage"><strong>Bekomme ich zu viel gezahlte Kfz-Steuer zurück?</strong>
 Ja. Die Steuer wird taggenau abgerechnet; den Rest erstattet das Hauptzollamt
@@ -184,7 +184,7 @@ vom Sofa aus erledigt. Offizielle Hinweise dazu liefern dir das
 [Kraftfahrt-Bundesamt](https://www.kba.de) und der [ADAC](https://www.adac.de).
 
 Wenn du dein Fahrzeug nur saisonal pausieren willst, schau dir vorher unbedingt
-das [Saisonkennzeichen](/ratgeber/saisonkennzeichen) an – oft die clevere
+das [Saisonkennzeichen](/kfz-ratgeber/saisonkennzeichen/) an – oft die clevere
 Alternative zum ständigen Hin und Her. Und wenn es ans Wiederanmelden geht, führt
-dich mein Ratgeber zur [Wiederzulassung](/ratgeber/wiederzulassung) Schritt für
+dich mein Ratgeber zur [Wiederzulassung](/kfz-ratgeber/wiederzulassung/) Schritt für
 Schritt durch.

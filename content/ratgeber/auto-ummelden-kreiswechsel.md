@@ -28,7 +28,7 @@ lassen.</div>
 ## Warum überhaupt ummelden – und bis wann?
 
 Ziehst du um, ändert sich deine Meldeadresse. Und die steht in deiner
-[Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung) Teil I, dem früheren
+[Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/) Teil I, dem früheren
 Fahrzeugschein. Das Auto muss also auf deine neue Anschrift „umgeschrieben"
 werden – das nennt man Ummeldung.
 
@@ -46,7 +46,7 @@ aktualisierte Meldebestätigung oder den geänderten Personalausweis.</div>
 
 Das ist die entscheidende Weiche. Beim **Umzug ohne Kreiswechsel**, also innerhalb
 desselben Zulassungsbezirks, ist die Sache schnell erledigt – Details dazu findest
-du im [Ratgeber Auto ummelden ohne Kreiswechsel](/ratgeber/auto-ummelden-ohne-kreiswechsel).
+du im [Ratgeber Auto ummelden ohne Kreiswechsel](/kfz-ratgeber/auto-ummelden-ohne-kreiswechsel/).
 
 Beim **Umzug in einen anderen Landkreis** wechselst du dagegen die zuständige
 Zulassungsstelle. Früher hieß das fast automatisch: neues Unterscheidungszeichen,
@@ -57,7 +57,7 @@ mit dem Kürzel deines neuen Kreises beantragen.
 <div class="box box-tipp"><strong>Mein Rat:</strong> Wenn dir dein altes
 Kennzeichen ans Herz gewachsen ist oder du dir die Kosten für neue Schilder sparen
 willst, nimm es einfach mit. Mehr dazu liest du im
-<a href="/ratgeber/wunschkennzeichen-mitnehmen">Ratgeber Wunschkennzeichen mitnehmen</a>.</div>
+<a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">Ratgeber Wunschkennzeichen mitnehmen</a>.</div>
 
 ## Schritt für Schritt: Auto ummelden in den anderen Landkreis
 
@@ -66,19 +66,19 @@ So gehe ich beim **Ummelden in einen anderen Landkreis** vor:
 1. **Wohnsitz ummelden** beim Einwohnermeldeamt deiner neuen Gemeinde.
 2. **Unterlagen zusammensuchen** (siehe Checkliste unten).
 3. **Termin bei der neuen Zulassungsstelle** vereinbaren – oder online prüfen, ob
-   [i-Kfz](/ratgeber/i-kfz-online-zulassung) für deinen Fall geht.
+   [i-Kfz](/kfz-ratgeber/i-kfz-online-zulassung/) für deinen Fall geht.
 4. **Ummeldung durchführen**: Daten werden auf die neue Adresse und ggf. das neue
    Unterscheidungszeichen aktualisiert.
 5. **Neue Schilder prägen** – nur, falls du das Kennzeichen wechselst.
 
-Welche [Zulassungsstelle](/zulassungsstelle) für dich zuständig ist, richtet sich
+Welche [Zulassungsstelle](/zulassungsstelle/) für dich zuständig ist, richtet sich
 nach deinem neuen Wohnort. Das passende Kürzel deines neuen Kreises kannst du
-vorab in der Übersicht der [Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen)
+vorab in der Übersicht der [Kennzeichen-Abkürzungen](/kfz-ratgeber/kennzeichen-abkuerzungen/)
 nachschlagen.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis (mit
 neuer Adresse) oder Meldebestätigung, Zulassungsbescheinigung Teil I und II,
-<a href="/ratgeber/evb-nummer">eVB-Nummer</a> deiner Versicherung, gültige HU-Plakette und –
+<a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a> deiner Versicherung, gültige HU-Plakette und –
 falls vorhanden – den SEPA-Bescheid für die Kfz-Steuer. Bei Kennzeichenwechsel
 zusätzlich die alten Schilder.</div>
 
@@ -89,9 +89,9 @@ Kennzeichen, bewegt sich die Gebühr meist im Bereich von **rund 20 bis 30 €**
 
 Entscheidest du dich für ein neues Kennzeichen, kommen die Kosten für **zwei
 geprägte Schilder** dazu – je nach Anbieter etwa **20 bis 35 €**. Und wenn du die
-Gelegenheit gleich für ein [Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren)
+Gelegenheit gleich für ein [Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 nutzt, fällt noch eine kleine Reservierungsgebühr an. Was am Ende zusammenkommt,
-habe ich dir im [Ratgeber Wunschkennzeichen-Kosten](/ratgeber/wunschkennzeichen-kosten)
+habe ich dir im [Ratgeber Wunschkennzeichen-Kosten](/kfz-ratgeber/wunschkennzeichen-kosten/)
 aufgeschlüsselt.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Ummeldung mit
@@ -105,7 +105,7 @@ Ich mache es an drei Fragen fest:
 
 - **Kostenbewusst?** Dann Kennzeichen mitnehmen – du sparst die Schilder.
 - **Lust auf einen Neustart?** Ein frisches Kürzel deines neuen Kreises signalisiert
-  „angekommen". Vielleicht ist auch ein [kurzes Kennzeichen](/ratgeber/kurzes-kennzeichen)
+  „angekommen". Vielleicht ist auch ein [kurzes Kennzeichen](/kfz-ratgeber/kurzes-kennzeichen/)
   drin, das vorher vergeben war.
 - **Auto bald verkaufen?** Dann lohnt sich der Aufwand für neue Schilder kaum.
 
@@ -115,17 +115,17 @@ mehr die Behörde. Allgemeine Hinweise zum Umzug mit Fahrzeug findest du auch be
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Die rechtliche Grundlage
 für Ummeldung und Kennzeichenmitnahme ist die
-<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.
+<a href="https://www.gesetze-im-internet.de/fzv_2023/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung (FZV)</a>.
 Dort ist auch geregelt, dass das bisherige Kennzeichen bei einem Halterwechsel des
 Wohnorts weitergeführt werden darf.</div>
 
 ## Geht die Ummeldung auch online?
 
 Ja – und das wird immer komfortabler. Über die internetbasierte Fahrzeugzulassung
-([i-Kfz](/ratgeber/i-kfz-online-zulassung)) kannst du viele Ummeldungen inzwischen
+([i-Kfz](/kfz-ratgeber/i-kfz-online-zulassung/)) kannst du viele Ummeldungen inzwischen
 vom Sofa aus erledigen, auch bei einem Kreiswechsel. Welche
-[Voraussetzungen](/ratgeber/i-kfz-voraussetzungen) du dafür erfüllen musst und wie
-der [Ablauf](/ratgeber/i-kfz-ablauf-dauer) im Detail aussieht, habe ich dir
+[Voraussetzungen](/kfz-ratgeber/i-kfz-voraussetzungen/) du dafür erfüllen musst und wie
+der [Ablauf](/kfz-ratgeber/i-kfz-ablauf-dauer/) im Detail aussieht, habe ich dir
 gesondert beschrieben.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Halte für den Online-Weg deinen
@@ -169,7 +169,7 @@ nur die richtige Reihenfolge: erst Wohnung, dann Auto – und die Unterlagen
 vollständig dabei.
 
 Wenn du parallel den Halter änderst, etwa weil du das Fahrzeug übernommen hast,
-schau in den [Ratgeber Halterwechsel](/ratgeber/halterwechsel-auto). Und für alle,
+schau in den [Ratgeber Halterwechsel](/kfz-ratgeber/halterwechsel-auto/). Und für alle,
 die beim Umzug ohnehin neu durchstarten: Ein frisch reserviertes
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) ist der perfekte
+[Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) ist der perfekte
 Anlass, im neuen Kreis anzukommen.

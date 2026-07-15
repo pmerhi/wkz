@@ -27,7 +27,7 @@ Stellen – von der Polizei über den Zoll bis zur Bundeswehr.</div>
 
 ## Was ist ein Behördenkennzeichen überhaupt?
 
-Das normale deutsche Kennzeichen verrät dir mit seinem [Unterscheidungszeichen](/ratgeber/kennzeichen-abkurzungen)
+Das normale deutsche Kennzeichen verrät dir mit seinem [Unterscheidungszeichen](/kfz-ratgeber/kennzeichen-abkuerzungen/)
 sofort, woher ein Auto kommt – „M" für München, „HH" für Hamburg. Bei
 Behördenfahrzeugen ist das anders gelöst. Hier steht am Anfang kein Ortskürzel,
 sondern ein **Kürzel der jeweiligen Behörde oder Gebietskörperschaft**.
@@ -101,12 +101,12 @@ der dir im Alltag begegnen kann:
 - **THW** – Technisches Hilfswerk (über Bundeskennung)
 
 Dazu kommen Länderkürzel für Landesbehörden und Polizei. Die genaue Vergabe und
-Systematik findest du in der [Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2011/),
+Systematik findest du in der [Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2023/),
 die den rechtlichen Rahmen für alle Kennzeichen in Deutschland setzt.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Verwechsle Behördenkennzeichen
-nicht mit dem <a href="/ratgeber/grunes-kennzeichen">grünen Kennzeichen</a> für
-steuerbefreite Fahrzeuge oder dem <a href="/ratgeber/rotes-kennzeichen">roten Kennzeichen</a>
+nicht mit dem <a href="/kfz-ratgeber/gruenes-kennzeichen/">grünen Kennzeichen</a> für
+steuerbefreite Fahrzeuge oder dem <a href="/kfz-ratgeber/rotes-kennzeichen/">roten Kennzeichen</a>
 für Händler. Das sind völlig andere Sonderformen – die Farbe oder Buchstabenwahl
 sagt jeweils etwas ganz Eigenes aus.</div>
 
@@ -125,7 +125,7 @@ gekennzeichnet (Blaulicht) unterwegs ist.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Für reguläre
 Verkehrsverstöße gelten auch für viele Behördenfahrzeuge dieselben Regeln wie für
-dich – ein Blick in den <a href="/ratgeber/bussgeldkatalog">Bußgeldkatalog</a> lohnt sich
+dich – ein Blick in den <a href="/kfz-ratgeber/bussgeldkatalog/">Bußgeldkatalog</a> lohnt sich
 also nicht nur für Privatleute. Im Einsatz mit Blaulicht greifen dagegen
 Sonderrechte.</div>
 
@@ -134,11 +134,11 @@ Sonderrechte.</div>
 Kurz und ehrlich: nein. Behördenkennzeichen sind staatlichen Stellen vorbehalten.
 Als Privatperson kannst du dir kein „Y" oder „BP" reservieren – das ist gesetzlich
 ausgeschlossen. Wer ein individuelles Schild möchte, bleibt beim klassischen
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) mit dem Kürzel der
+[Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) mit dem Kürzel der
 eigenen Stadt.
 
 Auch der umgekehrte Weg ist klar geregelt: Wird ein ausgemustertes
-Behördenfahrzeug verkauft, bekommt es bei der [Zulassung](/ratgeber/gebrauchtwagen-zulassen)
+Behördenfahrzeug verkauft, bekommt es bei der [Zulassung](/kfz-ratgeber/gebrauchtwagen-zulassen/)
 ein ganz normales ziviles Kennzeichen. Das Behördenschild bleibt bei der Behörde.
 
 <div class="box box-frage"><strong>Darf ich ein altes Bundeswehr-Fahrzeug mit „Y"
@@ -160,7 +160,7 @@ Hoheits- und Bundesfahrzeuge.</div>
 
 <div class="box box-frage"><strong>Bekommen Behördenfahrzeuge eine HU?</strong>
 Ja, auch Dienstfahrzeuge müssen verkehrssicher sein und durchlaufen technische
-Prüfungen ähnlich der <a href="/ratgeber/hauptuntersuchung-tuv">Hauptuntersuchung</a>. Details
+Prüfungen ähnlich der <a href="/kfz-ratgeber/hauptuntersuchung-tuev/">Hauptuntersuchung</a>. Details
 können je nach Behörde geregelt sein.</div>
 
 ## Fazit
@@ -173,7 +173,7 @@ aber für sich genommen keine Sonderrechte.
 
 Für dich als Privatperson bleibt die Erkenntnis: Diese Schilder sind hübsch
 anzusehen, aber reserviert. Dein individuelles Schild gestaltest du über das
-klassische [Wunschkennzeichen](/ratgeber/wunschkennzeichen-bedeutung) – und wie
+klassische [Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-bedeutung/) – und wie
 das genau geht, liest du in meinen weiteren Ratgebern. Mehr Hintergrund zu
 Fahrzeugbeständen und Statistik findest du übrigens beim
 [Kraftfahrt-Bundesamt](https://www.kba.de).

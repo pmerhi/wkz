@@ -3,16 +3,16 @@
     // Einzige Quelle für Kopf-Menü UND jumpnav, damit beide nicht auseinanderlaufen.
     $hatHoursKopf = is_array($stelle->oeffnungszeiten) && count($stelle->oeffnungszeiten) && ! isset($stelle->oeffnungszeiten['raw']);
     $kopfNav = [];
-    $kopfNav[] = ['href' => '#kontakt', 'label' => '📍 Kontakt'];
-    if ($hatHoursKopf) $kopfNav[] = ['href' => '#oeffnungszeiten', 'label' => '🕒 Öffnungszeiten'];
-    $kopfNav[] = ['href' => '#online', 'label' => '🚗 Online-Zulassung'];
-    $kopfNav[] = ['href' => '#reservieren', 'label' => '⭐ Wunschkennzeichen'];
-    if ($stelle->termin_url) $kopfNav[] = ['href' => '#termin', 'label' => '📅 Termin'];
-    $kopfNav[] = ['href' => '#formulare', 'label' => '📄 Formulare'];
-    $kopfNav[] = ['href' => '#mitbringen', 'label' => '✅ Was mitbringen'];
-    $kopfNav[] = ['href' => '#faq', 'label' => '❓ FAQ'];
+    $kopfNav[] = ['href' => '#kontakt', 'label' => 'Kontakt'];
+    if ($hatHoursKopf) $kopfNav[] = ['href' => '#oeffnungszeiten', 'label' => 'Öffnungszeiten'];
+    $kopfNav[] = ['href' => '#online', 'label' => 'Online-Zulassung'];
+    $kopfNav[] = ['href' => '#reservieren', 'label' => 'Wunschkennzeichen'];
+    if ($stelle->termin_url) $kopfNav[] = ['href' => '#termin', 'label' => 'Termin'];
+    $kopfNav[] = ['href' => '#formulare', 'label' => 'Formulare'];
+    $kopfNav[] = ['href' => '#mitbringen', 'label' => 'Was mitbringen'];
+    $kopfNav[] = ['href' => '#faq', 'label' => 'FAQ'];
 @endphp
-<x-layout :title="$title" :description="$description" :canonical="$canonical" :robots="$robots" :schemas="$schemas" :brand="$stelle->kopf_titel ?: $stelle->name" :nav-links="$kopfNav">
+<x-layout :title="$title" :description="$description" :canonical="$canonical" :robots="$robots" :schemas="$schemas" :brand="$stelle->kopf_titel ?: $stelle->anzeigeName()" :nav-links="$kopfNav">
     {{-- Breadcrumb hier bewusst ausgeblendet: Besucher soll auf der Seite bleiben.
          BreadcrumbList-JSON-LD bleibt für SEO erhalten (kommt aus dem Controller). --}}
 
@@ -38,7 +38,7 @@
         }
     </style>
     <div class="intro-with-badges">
-        <p class="lead-intro">Die <strong>{{ $stelle->name }}</strong> ist für die Kfz-Zulassung in
+        <p class="lead-intro">Die <strong>{{ $stelle->anzeigeName() }}</strong> ist für die Kfz-Zulassung in
             <strong>{{ $ortLabel }}</strong> zuständig{!! $kuerzelHinweis !!}.
             Hier findest du heutige Öffnungszeiten, Online-Termin und Kontakt – und kannst dein
             Wunschkennzeichen direkt reservieren.</p>
@@ -62,6 +62,9 @@
         {{-- Standortkarte (basemap.de) – nur wenn Koordinaten vorliegen --}}
         <x-standort-karte :stelle="$stelle" />
     </section>
+
+    {{-- Reservierungsmaske direkt unter der Karte (mit Ortskürzel der Stelle) --}}
+    <x-kennzeichen-generator :kuerzel="$kuerzel?->code" />
 
     {{-- Öffnungszeiten: heute mit Balken, ganze Woche aufklappbar --}}
     @if($hatHours || $hatRawHours)

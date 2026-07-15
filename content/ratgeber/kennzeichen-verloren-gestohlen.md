@@ -64,9 +64,9 @@ Datum, Uhrzeit und die Tagebuchnummer.</div>
 ## Schritt 2: Altes Kennzeichen entstempeln und Ersatz holen
 
 Ob gestohlen oder verloren – das alte Kennzeichen muss aus dem Verkehr. Bei der
-[Zulassungsstelle](/zulassungsstelle) wird es offiziell **entstempelt** bzw. zur
+[Zulassungsstelle](/zulassungsstelle/) wird es offiziell **entstempelt** bzw. zur
 Sperrung gemeldet, damit niemand das Restschild oder ein Duplikat missbraucht.
-Wie das [Entstempeln](/ratgeber/kennzeichen-entstempeln) abläuft, habe ich dir
+Wie das [Entstempeln](/kfz-ratgeber/kennzeichen-entstempeln/) abläuft, habe ich dir
 separat aufgeschrieben.
 
 Jetzt gibt es zwei Wege:
@@ -78,7 +78,7 @@ Jetzt gibt es zwei Wege:
   Kriminelle endgültig wertlos.
 
 <div class="box box-check"><strong>Das brauchst du bei der Zulassungsstelle:</strong>
-Personalausweis, die <a href="/ratgeber/zulassungsbescheinigung">Zulassungsbescheinigung</a>
+Personalausweis, die <a href="/kfz-ratgeber/zulassungsbescheinigung/">Zulassungsbescheinigung</a>
 Teil I (Fahrzeugschein), bei Diebstahl die polizeiliche Anzeige mit Tagebuchnummer
 und – falls noch vorhanden – das verbliebene zweite Schild.</div>
 
@@ -86,14 +86,14 @@ und – falls noch vorhanden – das verbliebene zweite Schild.</div>
 
 Steht die Kombination fest, brauchst du die physischen Schilder. Die bekommst du
 beim Schilderprägedienst – direkt an der Behörde oder günstiger online. Beim
-[Nummernschild prägen](/ratgeber/nummernschild-pragen) gehst du genauso vor wie
+[Nummernschild prägen](/kfz-ratgeber/nummernschild-praegen/) gehst du genauso vor wie
 bei einer normalen Zulassung. Anschließend werden die neuen Schilder mit der
 Plakette wieder gestempelt, und du darfst losfahren.
 
 Wenn du ohnehin einen neuen Look willst: Auch ein
-[3D-Kennzeichen](/ratgeber/3d-kennzeichen) ist erlaubt, sofern es DIN-zertifiziert
+[3D-Kennzeichen](/kfz-ratgeber/3d-kennzeichen/) ist erlaubt, sofern es DIN-zertifiziert
 ist. Die Wahl der Kombination bleibt dir überlassen – ein
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) ist also auch beim
+[Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) ist also auch beim
 Ersatz möglich.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Mit Entstempeln,
@@ -117,7 +117,7 @@ Mautforderungen wehren, die jemand mit deinem alten Schild verursacht hat. Bewah
 die Tagebuchnummer deshalb gut auf.</div>
 
 Die genauen Pflichten rund um Zulassung und Kennzeichen regelt übrigens die
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/) –
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/) –
 ein Blick hinein lohnt sich, wenn du es ganz genau wissen willst.
 
 ## Häufige Fragen
@@ -146,11 +146,11 @@ Zuteilung.</div>
 
 Ein verlorenes oder gestohlenes Kennzeichen ist ärgerlich, aber gut beherrschbar,
 wenn du die Reihenfolge einhältst: **Bei Diebstahl zuerst zur Polizei**, dann das
-alte Kennzeichen bei der [Zulassungsstelle](/zulassungsstelle) entstempeln lassen,
+alte Kennzeichen bei der [Zulassungsstelle](/zulassungsstelle/) entstempeln lassen,
 eine neue Kombination zuteilen und Schilder prägen. Die Kennzeichen Verlust
 Anzeige ist dabei kein lästiger Papierkram, sondern dein wichtigster Schutz vor
 fremden Forderungen.
 
 Wenn du ohnehin alles neu machst: Vielleicht ist jetzt der Moment für deine
-Wunschkombination. Im [Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren)
+Wunschkombination. Im [Ratgeber zum Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 zeige ich dir, wie du deine Lieblingsbuchstaben prüfst und sicherst.

@@ -32,9 +32,13 @@
         <section class="section reveal">
             <h2>Zuständige Zulassungsstelle(n)</h2>
             <div class="grid">
+                @php $gesehenK = []; @endphp
                 @foreach($kuerzel->zulassungsstellen as $s)
+                    @php $hp = $s->hubPfad; @endphp
+                    @continue(in_array($hp, $gesehenK, true))
+                    @php $gesehenK[] = $hp; @endphp
                     <div class="card">
-                        <a href="{{ $s->url() }}">{{ $s->name }}</a>
+                        <a href="{{ url($hp) }}">{{ $s->anzeigeName() }}</a>
                         <div class="muted">{{ $s->ort }}@if($s->bundesland) · {{ $s->bundesland->name }}@endif</div>
                     </div>
                 @endforeach

@@ -20,7 +20,7 @@ Kleinigkeit, die bares Geld kostet. Schauen wir es uns an.
 Im Amtsdeutsch heißt das Abmelden **Außerbetriebsetzung**. Das Fahrzeug bleibt dir,
 darf aber nicht mehr im öffentlichen Verkehr bewegt werden. Typische Gründe: Verkauf,
 Verschrottung, eine längere Standzeit oder der Wechsel auf ein
-<a href="/ratgeber/saisonkennzeichen">Saisonkennzeichen</a>.
+<a href="/kfz-ratgeber/saisonkennzeichen/">Saisonkennzeichen</a>.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Mit der Abmeldung endet
 auch deine Kfz-Steuerpflicht und – je nach Vertrag – ruht deine Versicherung. Genau
@@ -29,7 +29,7 @@ deshalb solltest du nicht zu lange damit warten, wenn das Auto ohnehin steht.</d
 ## Auto online abmelden (i-Kfz)
 
 Die Außerbetriebsetzung ist der einfachste
-[i-Kfz-Vorgang](/ratgeber/i-kfz-online-zulassung). Du erledigst sie komplett digital:
+[i-Kfz-Vorgang](/kfz-ratgeber/i-kfz-online-zulassung/). Du erledigst sie komplett digital:
 
 1. **Einloggen** im i-Kfz-Portal mit deinem Online-Ausweis (eID) und PIN.
 2. **Sicherheitscode der Plakette freilegen** und eingeben – der versteckte Code
@@ -43,13 +43,13 @@ auf Stempelplakette und Zulassungsbescheinigung Teil I.</div>
 
 ## Auto vor Ort abmelden
 
-Lieber persönlich? Dann gehst du zur [Zulassungsstelle](/zulassungsstelle) –
+Lieber persönlich? Dann gehst du zur [Zulassungsstelle](/zulassungsstelle/) –
 übrigens an einer beliebigen, nicht nur an deiner. Mitbringen musst du die
 Zulassungsbescheinigung Teil I, die Kennzeichen (zum
-<a href="/ratgeber/kennzeichen-entstempeln">Entstempeln</a>) und deinen Ausweis.
+<a href="/kfz-ratgeber/kennzeichen-entstempeln/">Entstempeln</a>) und deinen Ausweis.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Willst du dein
-<a href="/ratgeber/wunschkennzeichen-mitnehmen">Wunschkennzeichen behalten</a> und
+<a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">Wunschkennzeichen behalten</a> und
 auf ein neues Auto übertragen, sag das bei der Abmeldung – dann wird die Kombination
 für dich reserviert statt freigegeben.</div>
 
@@ -77,27 +77,27 @@ Rechtsberatung.</div>
 Was nach der Abmeldung kommt, hängt von deinem Plan ab:
 
 - **Verkaufen:** Details im Ratgeber zum
-  <a href="/ratgeber/auto-verkaufen-abmelden">Auto verkaufen und abmelden</a>.
+  <a href="/kfz-ratgeber/auto-verkaufen-abmelden/">Auto verkaufen und abmelden</a>.
 - **Verschrotten:** Du brauchst einen Verwertungsnachweis vom zertifizierten
   Betrieb.
 - **Später wieder nutzen:** Dann ist eine
-  <a href="/ratgeber/wiederzulassung">Wiederzulassung</a> nötig – das abgemeldete
+  <a href="/kfz-ratgeber/wiederzulassung/">Wiederzulassung</a> nötig – das abgemeldete
   Kennzeichen ist dabei nur befristet reserviert.
 
 Geregelt ist das alles in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 
 ## Kennzeichen behalten oder freigeben?
 
 Ein Punkt, den viele bei der Abmeldung übersehen: Was passiert mit deinem
 Kennzeichen? Standardmäßig wird die Kombination nach einer Frist wieder freigegeben.
-Hast du aber ein liebgewonnenes [Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren),
+Hast du aber ein liebgewonnenes [Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/),
 kannst du es dir reservieren lassen und auf dein nächstes Auto übertragen.
 
 Sag das aktiv bei der Abmeldung – online wie vor Ort gibt es dafür eine Option. Tust
 du nichts, ist die Kombination irgendwann weg, und im Zweifel schnappt sie sich jemand
 anderes. Mehr zur Übertragung steht im Ratgeber zum
-<a href="/ratgeber/wunschkennzeichen-mitnehmen">Wunschkennzeichen mitnehmen</a>.
+<a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">Wunschkennzeichen mitnehmen</a>.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Notiere dir die Reservierungsfrist
 für dein Kennzeichen. Wer das nächste Auto erst Monate später anschafft, sollte die
@@ -108,7 +108,7 @@ Frist im Blick behalten – sonst ist die Lieblingskombination doch wieder frei.
 Es gibt Momente, in denen jeder Tag mit angemeldetem Auto bares Geld kostet. Steht
 dein Fahrzeug etwa über den Winter ungenutzt in der Garage, sparst du mit der
 Abmeldung Steuer und kannst die Versicherung ruhen lassen. Für saisonale Nutzung ist
-oft ein <a href="/ratgeber/saisonkennzeichen">Saisonkennzeichen</a> die elegantere
+oft ein <a href="/kfz-ratgeber/saisonkennzeichen/">Saisonkennzeichen</a> die elegantere
 Lösung – damit musst du nicht jedes Frühjahr neu anmelden.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Rechne kurz nach: Wenn dein Auto
@@ -123,7 +123,7 @@ abzumelden oder umzumelden, bleibst du als Halter in der Verantwortung – für
 Versicherung, Steuer und im Zweifel sogar für Bußgelder des neuen Fahrers. Lass dir
 deshalb entweder die Ummeldung vom Käufer bestätigen oder melde das Fahrzeug vor der
 Übergabe ab. Worauf du beim Verkauf sonst noch achten solltest, steht im Ratgeber zu
-<a href="/ratgeber/betrug-autokauf">Betrug beim Autokauf</a>.
+<a href="/kfz-ratgeber/betrug-autokauf/">Betrug beim Autokauf</a>.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Eine Abmeldung kannst du
 bundesweit bei jeder Zulassungsstelle erledigen – du bist nicht an deinen Wohnort
@@ -137,7 +137,7 @@ Kombination neu vergeben werden.</div>
 
 <div class="box box-frage"><strong>Kann ich ein abgemeldetes Auto noch fahren?</strong>
 Nein. Für eine Überführung brauchst du ein
-<a href="/ratgeber/kurzzeitkennzeichen">Kurzzeitkennzeichen</a>.</div>
+<a href="/kfz-ratgeber/kurzzeitkennzeichen/">Kurzzeitkennzeichen</a>.</div>
 
 <div class="box box-frage"><strong>Muss ich zu meiner eigenen Zulassungsstelle?</strong>
 Nein – die Abmeldung kannst du bundesweit bei jeder Zulassungsstelle oder online
@@ -156,5 +156,5 @@ den Online-Ausweis des Halters.</div>
 Auto abmelden ist schnell, günstig und online in Minuten erledigt. Der eigentliche
 Knackpunkt liegt *danach*: Versicherung und Steuer im Blick behalten und die
 Abmeldebestätigung aufheben. Wer das beachtet, spart sich böse Überraschungen – und
-hat sein <a href="/ratgeber/wunschkennzeichen-mitnehmen">Wunschkennzeichen</a> im
+hat sein <a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">Wunschkennzeichen</a> im
 Zweifel für das nächste Auto reserviert.

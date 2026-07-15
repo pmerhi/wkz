@@ -30,7 +30,7 @@ Rechnest du <strong>Vorbereitung</strong> (Kurse, Beratung) und eventuelle
 
 Fangen wir mit dem Posten an, an den die meisten zuerst denken: die eigentliche
 Untersuchung bei der Begutachtungsstelle. Die Gebühren dafür sind in der
-[Gebührenordnung (GebOSt)](https://www.gesetze-im-internet.de/gebost/) geregelt –
+[Gebührenordnung (GebOSt)](https://www.gesetze-im-internet.de/stgebo_2011/) geregelt –
 und sie hängen direkt vom **Anlass** ab.
 
 Grob kannst du dich an diesen Spannen orientieren:
@@ -93,9 +93,9 @@ Das sind unter anderem die Gebühr bei der Führerscheinstelle für die
 Wiedererteilung (oft **100–200 €**), gegebenenfalls ein Sehtest, ein
 Erste-Hilfe-Kurs und – falls verlangt – ein Aufbauseminar. Wenn dein Weg zurück
 zum Führerschein insgesamt ansteht, lohnt auch ein Blick in meinen Überblick zu den
-[Führerschein-Kosten](/ratgeber/fuhrerschein-kosten). Steht danach ein Fahrzeug an,
-helfen dir meine Ratgeber zu den [Zulassungskosten](/ratgeber/zulassungskosten) und
-zur [KFZ-Steuer berechnen](/ratgeber/kfz-steuer-berechnen) bei der weiteren Planung.
+[Führerschein-Kosten](/kfz-ratgeber/fuehrerschein-kosten/). Steht danach ein Fahrzeug an,
+helfen dir meine Ratgeber zu den [Zulassungskosten](/kfz-ratgeber/zulassungskosten/) und
+zur [KFZ-Steuer berechnen](/kfz-ratgeber/kfz-steuer-berechnen/) bei der weiteren Planung.
 
 <div class="box box-check"><strong>Das brauchst du auf dem Weg zur MPU:</strong>
 Anordnung der Führerscheinstelle, ggf. lückenlose Abstinenznachweise, deinen
@@ -184,7 +184,7 @@ früh plant, sich ordentlich vorbereiten lässt und die Kostenübernahme prüft,
 die Summe im Rahmen und kommt schneller wieder ans Steuer.
 
 Wenn der Führerschein erst einmal zurück ist und ein neues Auto ansteht: In meinem
-[Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden) zeige ich dir Schritt für
+[Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/) zeige ich dir Schritt für
 Schritt, was du dafür brauchst – und im
-[Ratgeber zur KFZ-Versicherung](/ratgeber/kfz-versicherung-vergleich) findest du die
+[Ratgeber zur KFZ-Versicherung](/kfz-ratgeber/kfz-versicherung-vergleich/) findest du die
 passende eVB-Nummer dazu.

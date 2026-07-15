@@ -23,7 +23,7 @@ fährst du mit der einen oder anderen deutlich besser (und günstiger).
 <div class="box box-info"><strong>Gut zu wissen:</strong> Als Oldtimer gilt ein
 Fahrzeug erst, wenn es vor mindestens <strong>30 Jahren</strong> erstmals
 zugelassen wurde, weitgehend im Originalzustand und gut erhalten ist. Diese
-Definition steht in der <a href="https://www.gesetze-im-internet.de/fzv_2011/">Fahrzeug-Zulassungsverordnung (FZV)</a>.</div>
+Definition steht in der <a href="https://www.gesetze-im-internet.de/fzv_2023/">Fahrzeug-Zulassungsverordnung (FZV)</a>.</div>
 
 ## Wann ist ein Auto überhaupt ein Oldtimer?
 
@@ -54,9 +54,9 @@ Achtzylinder spart die Steuerpauschale richtig Geld.
 
 Voraussetzung ist ein **Oldtimer-Gutachten nach § 23 StVZO**, das ein
 Sachverständiger von TÜV, DEKRA oder GTÜ erstellt. Erst mit diesem positiven
-Gutachten kannst du das H-Kennzeichen bei der [Zulassungsstelle](/zulassungsstelle)
+Gutachten kannst du das H-Kennzeichen bei der [Zulassungsstelle](/zulassungsstelle/)
 beantragen. Wie du danach deine Wunschkombination sicherst, erfährst du im
-[Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren).
+[Ratgeber zum Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/).
 
 <div class="box box-tipp"><strong>Tipp:</strong> Sammle vor dem Gutachtentermin
 alte Fotos, Rechnungen und Belege zur Historie deines Fahrzeugs. Das erleichtert
@@ -86,11 +86,11 @@ abweichen, daher ohne Gewähr.</div>
 Du musst deinen Oldtimer nicht zwingend mit H- oder 07er-Kennzeichen anmelden.
 Erfüllt das Fahrzeug eine moderne Abgasnorm oder willst du es schlicht klassisch
 fahren, kannst du es **ganz normal zulassen** – wie jedes andere Auto auch. Der
-Ablauf entspricht dann dem [Auto-Anmelden](/ratgeber/auto-anmelden).
+Ablauf entspricht dann dem [Auto-Anmelden](/kfz-ratgeber/auto-anmelden/).
 
 Spannend ist auch die Kombination mit einem **Saisonkennzeichen**: Viele
 Klassiker bewegen sich ohnehin nur im Sommer. Mit einer
-[Saisonzulassung](/ratgeber/saisonkennzeichen) zahlst du Steuer und Versicherung
+[Saisonzulassung](/kfz-ratgeber/saisonkennzeichen/) zahlst du Steuer und Versicherung
 nur für die Monate, in denen du wirklich fährst. Das spart bares Geld, wenn das
 Auto den Winter über in der Garage steht.
 
@@ -112,9 +112,9 @@ geprägte Schilder: <strong>ca. 25–35 €</strong>. Macht in Summe grob
 Dazu kommt natürlich die laufende **Kfz-Steuer** – beim H-Kennzeichen pauschal
 rund 191 € im Jahr für Pkw, bei Motorrädern entsprechend weniger. Wie sich die
 Steuer im Detail zusammensetzt, kannst du im Ratgeber zur
-[Kfz-Steuer berechnen](/ratgeber/kfz-steuer-berechnen) nachlesen. Für die
+[Kfz-Steuer berechnen](/kfz-ratgeber/kfz-steuer-berechnen/) nachlesen. Für die
 Schilder selbst lohnt ein Blick in den Ratgeber zum
-[Nummernschild prägen](/ratgeber/nummernschild-pragen).
+[Nummernschild prägen](/kfz-ratgeber/nummernschild-praegen/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die genannten Beträge sind
 realistische Spannen, keine garantierten Festpreise. Gebühren für Gutachten und
@@ -131,7 +131,7 @@ anzumelden:
    regulär.
 2. **Hauptuntersuchung** machen lassen – am besten direkt beim Sachverständigen.
 3. **Oldtimer-Gutachten** nach § 23 StVZO erstellen lassen.
-4. **eVB-Nummer** der Versicherung besorgen – eine [eVB-Nummer](/ratgeber/evb-nummer)
+4. **eVB-Nummer** der Versicherung besorgen – eine [eVB-Nummer](/kfz-ratgeber/evb-nummer/)
    brauchst du für jede Zulassung.
 5. **Unterlagen sammeln** und bei der Zulassungsstelle das H- oder 07er-Kennzeichen
    beantragen.
@@ -150,7 +150,7 @@ das Datum der Erstzulassung.</div>
 
 <div class="box box-frage"><strong>Ist ein H-Kennzeichen Pflicht?</strong> Nein.
 Du kannst einen 30 Jahre alten Wagen auch ganz normal oder als
-<a href="/ratgeber/saisonzulassung">Saisonzulassung</a> anmelden. Das H-Kennzeichen ist ein
+<a href="/kfz-ratgeber/saisonzulassung/">Saisonzulassung</a> anmelden. Das H-Kennzeichen ist ein
 Angebot mit Steuer- und Umweltzonen-Vorteilen, keine Pflicht.</div>
 
 <div class="box box-frage"><strong>Darf ich mit dem 07er-Kennzeichen täglich
@@ -176,4 +176,4 @@ Zustand, bestandene HU und ein positives Oldtimer-Gutachten. Hast du das beisamm
 steht der ersten Ausfahrt nichts mehr im Weg. Mehr Hintergründe zu historischen
 Fahrzeugen findest du auch beim [ADAC](https://www.adac.de) – und wenn du dein
 Wunschkennzeichen schon im Blick hast, schau in den
-[Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren).
+[Ratgeber zum Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/).

@@ -65,7 +65,7 @@ Erlöschen.</div>
 Aber Tuning ist nicht die einzige Ursache. Auch schwere Unfallschäden, die die
 Fahrzeugstruktur betreffen, oder das Entfernen von Sicherheitseinrichtungen können
 die Erlaubnis kosten. Selbst eine [erloschene
-Betriebserlaubnis durch Manipulation](/ratgeber/betriebserlaubnis) am Partikelfilter
+Betriebserlaubnis durch Manipulation](/kfz-ratgeber/betriebserlaubnis/) am Partikelfilter
 fällt darunter.
 
 ## Welche Folgen drohen dir konkret?
@@ -75,8 +75,8 @@ sondern hat eine ganze Kette von Konsequenzen.
 
 **Bußgeld und Punkt:** Fährst du mit erloschener Betriebserlaubnis, droht ein
 Verwarn- bzw. Bußgeld. Bei sicherheitsrelevanten Mängeln kommt schnell ein Punkt
-in [Flensburg](/ratgeber/punkte-in-flensburg) dazu. Die genauen Sätze findest du im
-[Bußgeldkatalog](/ratgeber/bussgeldkatalog).
+in [Flensburg](/kfz-ratgeber/punkte-in-flensburg/) dazu. Die genauen Sätze findest du im
+[Bußgeldkatalog](/kfz-ratgeber/bussgeldkatalog/).
 
 **Versicherungsschutz wackelt:** Das ist der Punkt, der wirklich weh tut. Im
 Schadensfall kann die Kfz-Versicherung Leistungen kürzen oder dich in Regress
@@ -84,7 +84,7 @@ nehmen, wenn die erloschene Betriebserlaubnis ursächlich war.
 
 **Steuerlicher Vorteil weg:** Auch der Versicherungsschutz und die Einstufung
 können betroffen sein – und im Extremfall gilt das Fahren wie [Fahren ohne
-Zulassung](/ratgeber/fahren-ohne-zulassung).
+Zulassung](/kfz-ratgeber/fahren-ohne-zulassung/).
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Ein einfacher
 Verstoß startet oft im Bereich von etwa <strong>50–90 €</strong>. Kommen Punkt,
@@ -106,7 +106,7 @@ grundsätzlich zwei Wege.
 **Weg 1 – Eintragen lassen:** Hat das verbaute Teil eine ABE oder ein
 Teilegutachten, lässt du die Änderung bei einer Prüforganisation wie TÜV oder
 DEKRA abnehmen. Der Prüfer bestätigt, dass alles passt, und du bekommst die
-Änderung in die [Zulassungsbescheinigung](/ratgeber/zulassungsbescheinigung)
+Änderung in die [Zulassungsbescheinigung](/kfz-ratgeber/zulassungsbescheinigung/)
 eingetragen. Damit lebt die Betriebserlaubnis wieder auf.
 
 **Weg 2 – Zurückbauen:** Gibt es keine Freigabe oder ist die Eintragung zu teuer,
@@ -126,11 +126,11 @@ Fall den Rückbau.</div>
 Wenn die Erlaubnis komplett weg ist und nicht mehr aufleben kann, hilft am Ende
 nur eine **Einzelabnahme** nach § 21 StVZO oder eine neue Begutachtung. Das ist
 aufwendig – aber besser, als illegal weiterzufahren oder das Auto am Ende
-[stilllegen](/ratgeber/auto-stilllegen) zu müssen.
+[stilllegen](/kfz-ratgeber/auto-stilllegen/) zu müssen.
 
 ## Was bei der Hauptuntersuchung passiert
 
-Spätestens bei der [Hauptuntersuchung (TÜV)](/ratgeber/hauptuntersuchung-tuv)
+Spätestens bei der [Hauptuntersuchung (TÜV)](/kfz-ratgeber/hauptuntersuchung-tuev/)
 fliegt eine erloschene Betriebserlaubnis auf. Der Prüfer vergleicht den
 Ist-Zustand mit den Papieren – und nicht eingetragene Umbauten führen zur
 Verweigerung der Plakette.
@@ -151,7 +151,7 @@ weg – ohne Bescheid. Du merkst es oft erst bei Kontrolle oder HU.</div>
 
 <div class="box box-frage"><strong>Darf ich mit erloschener Betriebserlaubnis noch
 fahren?</strong> Nein, das solltest du nicht. Es drohen Bußgeld, Punkt und Probleme
-mit der <a href="/ratgeber/kfz-versicherung-vergleich">Kfz-Versicherung</a> – im Ernstfall
+mit der <a href="/kfz-ratgeber/kfz-versicherung-vergleich/">Kfz-Versicherung</a> – im Ernstfall
 sogar Regress im Schadensfall.</div>
 
 <div class="box box-frage"><strong>Bringt jedes Tuning die Betriebserlaubnis zum
@@ -174,4 +174,4 @@ Mein wichtigster Rat aus der Praxis: Kläre vor jedem Umbau, ob das Teil
 eintragungsfähig ist. Dann fährst du legal, sicher – und ohne böse Überraschung
 bei der nächsten Kontrolle. Wie es weitergeht, wenn die Erlaubnis tatsächlich
 komplett weg ist, liest du im Ratgeber zur
-[Betriebserlaubnis](/ratgeber/betriebserlaubnis).
+[Betriebserlaubnis](/kfz-ratgeber/betriebserlaubnis/).

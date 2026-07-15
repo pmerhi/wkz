@@ -39,7 +39,7 @@ wiederholen?* Wer darauf keine glaubwürdige, durchdachte Antwort hat, fällt du
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Eine MPU-Anordnung kommt
 nie aus heiterem Himmel – sie hat immer einen konkreten Anlass (Alkohol, Drogen,
-zu viele <a href="/ratgeber/punkte-in-flensburg">Punkte in Flensburg</a> oder eine
+zu viele <a href="/kfz-ratgeber/punkte-in-flensburg/">Punkte in Flensburg</a> oder eine
 Straftat). Deine gesamte Vorbereitung muss exakt auf diesen Anlass zugeschnitten
 sein.</div>
 
@@ -77,7 +77,7 @@ verkehrspsychologisches Einzelgespräch kostet oft zwischen <strong>80 und 150 �
 Stunde</strong>. Für eine komplette Vorbereitung solltest du je nach Fall mit insgesamt
 <strong>ca. 300 bis 800 €</strong> rechnen. Die MPU selbst schlägt noch einmal mit rund <strong>400
 bis 750 €</strong> zu Buche. Mehr dazu findest du in meinem Überblick zu den
-<a href="/ratgeber/mpu-kosten">MPU-Kosten</a>.</div>
+<a href="/kfz-ratgeber/mpu-kosten/">MPU-Kosten</a>.</div>
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Such dir eine Beratung, die
 nach Verkehrspsychologie-Standard arbeitet, und vereinbare ein unverbindliches
@@ -148,9 +148,9 @@ schwierigeren Anlässen erhöht eine seriöse Beratung deine Erfolgschancen aber
 deutlich.</div>
 
 <div class="box box-frage"><strong>Was passiert mit meinem Führerschein bis dahin?</strong>
-War der Lappen entzogen, läuft die <a href="/ratgeber/mpu-ablauf">MPU</a> im Rahmen der
+War der Lappen entzogen, läuft die <a href="/kfz-ratgeber/mpu-ablauf/">MPU</a> im Rahmen der
 Wiedererteilung. Wie der Ablauf genau aussieht und ob du den
-<a href="/ratgeber/fuhrerschein-verloren">Führerschein neu beantragen</a> musst, hängt von
+<a href="/kfz-ratgeber/fuehrerschein-verloren/">Führerschein neu beantragen</a> musst, hängt von
 deinem Bescheid ab.</div>
 
 ## Fazit
@@ -167,5 +167,5 @@ zur MPU müssen und mit welchen Anlässen, kannst du beim
 [TÜV-Verband](https://www.tuev-verband.de) nachlesen.
 
 Wenn du tiefer einsteigen willst: In meinem Ratgeber zum
-[MPU-Ablauf](/ratgeber/mpu-ablauf) erkläre ich dir Schritt für Schritt, was am
+[MPU-Ablauf](/kfz-ratgeber/mpu-ablauf/) erkläre ich dir Schritt für Schritt, was am
 Tag der Untersuchung auf dich zukommt.

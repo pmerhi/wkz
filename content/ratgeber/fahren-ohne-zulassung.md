@@ -28,15 +28,15 @@ sich die Konsequenzen.</div>
 
 ## 1. Was heißt „Fahren ohne Zulassung" überhaupt?
 
-Ein Auto gilt als zugelassen, wenn es bei der [Zulassungsstelle](/zulassungsstelle)
+Ein Auto gilt als zugelassen, wenn es bei der [Zulassungsstelle](/zulassungsstelle/)
 angemeldet ist, ein gültiges Kennzeichen trägt und eine gültige
 Hauptuntersuchung hat. Fehlt diese Anmeldung – etwa weil du das Fahrzeug
-[abgemeldet](/ratgeber/auto-abmelden) oder
-[stillgelegt](/ratgeber/auto-stilllegen) hast –, darfst du damit nicht am
+[abgemeldet](/kfz-ratgeber/auto-abmelden/) oder
+[stillgelegt](/kfz-ratgeber/auto-stilllegen/) hast –, darfst du damit nicht am
 öffentlichen Straßenverkehr teilnehmen. Auch nicht „nur kurz".
 
 Die Pflicht zur Zulassung steht in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 Wer ohne gültige Zulassung fährt, begeht eine Ordnungswidrigkeit – und im
 Zusammenspiel mit der fehlenden Versicherung sogar eine Straftat. Mehr dazu
 gleich.
@@ -56,8 +56,8 @@ meist im Bereich von rund **40 bis 70 €**.
 Auch entstempelte, also nach der Abmeldung „ungültig" gemachte Schilder zählen
 hier mit. Ein abgemeldetes Auto auf eigener Achse zur Werkstatt zu bewegen, ist
 deshalb keine gute Idee – dafür gibt es legale Alternativen wie das
-[Kurzzeitkennzeichen](/ratgeber/kurzzeitkennzeichen) oder ein
-[Überführungskennzeichen](/ratgeber/uberfuhrungskennzeichen).
+[Kurzzeitkennzeichen](/kfz-ratgeber/kurzzeitkennzeichen/) oder ein
+[Überführungskennzeichen](/kfz-ratgeber/ueberfuehrungskennzeichen/).
 
 <div class="box box-tipp"><strong>Tipp:</strong> Musst du ein abgemeldetes
 Fahrzeug bewegen, hol dir vorher ein Kurzzeitkennzeichen. Es ist günstig, schnell
@@ -67,7 +67,7 @@ sicheren Seite.</div>
 ## 3. Kennzeichen ohne eVB – die teure Falle
 
 Jetzt wird es ernst. Das Stichwort lautet **Kennzeichen ohne eVB** beziehungsweise
-**fahren ohne Versicherung**. Die [eVB-Nummer](/ratgeber/evb-nummer) ist der
+**fahren ohne Versicherung**. Die [eVB-Nummer](/kfz-ratgeber/evb-nummer/) ist der
 elektronische Versicherungsnachweis, ohne den du ein Fahrzeug gar nicht erst
 zulassen kannst. Fehlt der Versicherungsschutz, fährst du im rechtlichen Sinne
 „unversichert".
@@ -114,14 +114,14 @@ gültige Hauptuntersuchung. Fehlt einer dieser Punkte, lass das Auto stehen.</di
 Die gute Nachricht: Du musst nie ohne Zulassung fahren. Für jede Situation gibt
 es eine legale Lösung.
 
-1. **Auto noch nicht angemeldet?** Erledige die [Zulassung](/ratgeber/auto-anmelden)
-   oder nutze die [i-Kfz-Online-Zulassung](/ratgeber/i-kfz-online-zulassung) –
+1. **Auto noch nicht angemeldet?** Erledige die [Zulassung](/kfz-ratgeber/auto-anmelden/)
+   oder nutze die [i-Kfz-Online-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/) –
    das geht heute oft am selben Tag.
 2. **Fahrzeug abgemeldet, muss aber bewegt werden?** Nimm ein
-   [Kurzzeitkennzeichen](/ratgeber/kurzzeitkennzeichen) mit eigener Versicherung.
+   [Kurzzeitkennzeichen](/kfz-ratgeber/kurzzeitkennzeichen/) mit eigener Versicherung.
 3. **Versicherung gekündigt oder ausgelaufen?** Hol dir vor der ersten Fahrt eine
-   neue [eVB-Nummer](/ratgeber/evb-nummer) und vergleiche die Tarife in Ruhe.
-4. **Nur saisonal unterwegs?** Ein [Saisonkennzeichen](/ratgeber/saisonkennzeichen)
+   neue [eVB-Nummer](/kfz-ratgeber/evb-nummer/) und vergleiche die Tarife in Ruhe.
+4. **Nur saisonal unterwegs?** Ein [Saisonkennzeichen](/kfz-ratgeber/saisonkennzeichen/)
    spart Geld und Papierkram, ohne dass du je illegal fährst.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Plane den Werkstatt- oder
@@ -159,7 +159,7 @@ wird daraus eine Straftat mit Geldstrafe, Punkten und im Ernstfall Fahrverbot.
 Und wer dann noch einen Unfall baut, haftet im Zweifel selbst.
 
 Das Beste daran: Du brauchst dieses Risiko nie einzugehen. Mit
-[Kurzzeitkennzeichen](/ratgeber/kurzzeitkennzeichen), rechtzeitiger
-[Versicherung](/ratgeber/evb-nummer) und einer sauberen
-[Zulassung](/ratgeber/auto-anmelden) bist du immer auf der sicheren Seite – und
+[Kurzzeitkennzeichen](/kfz-ratgeber/kurzzeitkennzeichen/), rechtzeitiger
+[Versicherung](/kfz-ratgeber/evb-nummer/) und einer sauberen
+[Zulassung](/kfz-ratgeber/auto-anmelden/) bist du immer auf der sicheren Seite – und
 sparst dir Ärger, der ein Vielfaches teurer wäre als jede legale Lösung.

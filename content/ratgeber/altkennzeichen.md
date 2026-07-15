@@ -39,7 +39,7 @@ identifizieren sich stark mit ihrer Region. Aus diesem Wunsch heraus entstand di
 Idee, die alten Kürzel wieder freizugeben.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Ein Altkennzeichen ist
-technisch ein ganz normales <a href="/kennzeichen">Unterscheidungszeichen</a>. Es steht für
+technisch ein ganz normales <a href="/kennzeichen/">Unterscheidungszeichen</a>. Es steht für
 einen Ort, gehört aber demselben heutigen Zulassungsbezirk an. Verwaltung, Steuer
 und Zulassung laufen völlig identisch – nur die Buchstaben vorn sind eben „alt".</div>
 
@@ -59,7 +59,7 @@ anderes nur ein paar Kilometer weiter nicht.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Welche Altkennzeichen
 verfügbar sind, hängt vom Bundesland und vom konkreten Zulassungsbezirk ab und kann
 sich ändern. Die Rechtsgrundlage findest du in der
-<a href="https://www.gesetze-im-internet.de/fzv_2011/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung</a>. Sieh
+<a href="https://www.gesetze-im-internet.de/fzv_2023/" rel="nofollow noopener" target="_blank">Fahrzeug-Zulassungsverordnung</a>. Sieh
 die Angaben hier als Orientierung – ohne Gewähr und ohne Rechtsrat.</div>
 
 ## Altkennzeichen-Liste: bekannte Beispiele
@@ -80,7 +80,7 @@ kleinere Landkreise, deren Kürzel im Gedächtnis der Menschen weiterlebt.
 
 <div class="box box-check"><strong>Das brauchst du, um es zu prüfen:</strong> deine
 Wohnort-Postleitzahl, den Namen deines aktuellen Zulassungsbezirks und einen Blick
-ins Online-Portal deiner <a href="/zulassungsstelle">Zulassungsstelle</a>. Dort siehst du,
+ins Online-Portal deiner <a href="/zulassungsstelle/">Zulassungsstelle</a>. Dort siehst du,
 welche Kürzel – aktuelle wie alte – sich auswählen lassen.</div>
 
 ## Wie bekomme ich ein Altkennzeichen?
@@ -92,20 +92,20 @@ Bezirk freigegeben ist.
 
 Du kannst das alte Kürzel sogar mit einer Wunschkombination verbinden. Möchtest du
 also „SLE – AB 123", reservierst du das wie ein klassisches
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) und sicherst dir die
+[Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) und sicherst dir die
 Kombination für den Zulassungstermin. Wie das Reservieren funktioniert und wie lange
 deine Reservierung gilt, habe ich dir im Ratgeber zur
-[Gültigkeit der Reservierung](/ratgeber/wunschkennzeichen-reservierung-gultigkeit)
+[Gültigkeit der Reservierung](/kfz-ratgeber/wunschkennzeichen-reservierung-gueltigkeit/)
 aufgeschrieben.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Prüfe zuerst online, ob dein
 Wunsch-Altkürzel überhaupt verfügbar ist, und reserviere die Kombination erst dann.
 Bei einer Neuanmeldung kannst du das Altkennzeichen direkt mit der
-<a href="/ratgeber/auto-anmelden">Auto-Anmeldung</a> verbinden.</div>
+<a href="/kfz-ratgeber/auto-anmelden/">Auto-Anmeldung</a> verbinden.</div>
 
 Ob du den Gang zur Behörde oder den digitalen Weg wählst, bleibt dir überlassen.
 Viele Bezirke bieten die Auswahl des Kürzels inzwischen auch über die
-[i-Kfz-Online-Zulassung](/ratgeber/i-kfz-online-zulassung) an – bequem vom Sofa aus.
+[i-Kfz-Online-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/) an – bequem vom Sofa aus.
 
 ## Was kostet ein Altkennzeichen?
 
@@ -113,7 +113,7 @@ Hier kann ich dich beruhigen: Ein Altkennzeichen ist **nicht teurer** als ein
 normales. Du zahlst die übliche Zuteilungsgebühr, und wenn du es mit einer
 Wunschkombination verbindest, kommt der kleine Wunsch-Aufpreis dazu. Die genauen
 Posten habe ich dir im Ratgeber zu den
-[Wunschkennzeichen-Kosten](/ratgeber/wunschkennzeichen-kosten) aufgeschlüsselt.
+[Wunschkennzeichen-Kosten](/kfz-ratgeber/wunschkennzeichen-kosten/) aufgeschlüsselt.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Wunsch-Zuteilung inkl.
 Online-Reservierung rund <strong>13 €</strong>, Zulassungsgebühr etwa
@@ -131,7 +131,7 @@ oft riesig, das alte Zeichen wieder fahren zu dürfen.
 Ein kleiner Nebeneffekt: Manche seltene Altkürzel sind echte Hingucker und lassen
 Kombinationen zu, die bei den überlaufenen Großstadtkennzeichen längst vergeben
 wären. Du hast also unter Umständen mehr Auswahl bei deiner
-[Buchstaben-Zahlen-Kombination](/ratgeber/wunschkennzeichen-buchstaben-zahlen).
+[Buchstaben-Zahlen-Kombination](/kfz-ratgeber/wunschkennzeichen-buchstaben-zahlen/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ein Altkennzeichen ändert
 nichts an Zuständigkeit oder Steuer. Du bleibst beim selben Zulassungsbezirk
@@ -147,7 +147,7 @@ Versicherung und Behörden behandeln sie genau wie jedes andere Kürzel.</div>
 <div class="box box-frage"><strong>Kann ich jedes alte Kürzel wählen?</strong> Nein.
 Verfügbar sind nur die Altkennzeichen, die dein Bundesland für deinen
 Zulassungsbezirk wieder freigegeben hat. Das prüfst du am besten direkt im Portal
-deiner <a href="/zulassungsstelle">Zulassungsstelle</a>.</div>
+deiner <a href="/zulassungsstelle/">Zulassungsstelle</a>.</div>
 
 <div class="box box-frage"><strong>Muss ich im Altkennzeichen-Ort wohnen?</strong>
 In der Regel musst du im heutigen Zulassungsbezirk gemeldet sein, zu dem das alte
@@ -155,7 +155,7 @@ Kürzel gehört. Der exakte Wohnort innerhalb des Bezirks spielt meist keine Rol
 die Details regelt die jeweilige Behörde.</div>
 
 <div class="box box-frage"><strong>Kann ich mein Altkennzeichen bei Umzug
-mitnehmen?</strong> Seit der Reform ist die <a href="/ratgeber/wunschkennzeichen-mitnehmen">Kennzeichenmitnahme</a>
+mitnehmen?</strong> Seit der Reform ist die <a href="/kfz-ratgeber/wunschkennzeichen-mitnehmen/">Kennzeichenmitnahme</a>
 bundesweit möglich. Ziehst du allerdings in einen ganz anderen Bezirk, hängt es von
 der dortigen Freigabe ab, ob du das Kürzel behalten darfst.</div>
 
@@ -167,7 +167,7 @@ Kennzeichenliberalisierung vielerorts wieder da. Für dich heißt das vor allem 
 Auswahl und ein Stück Heimat am Auto – ohne Mehrkosten und ohne Nachteile.
 
 Wenn du dein Wunsch-Altkürzel gefunden hast, geht es weiter wie bei jedem anderen
-Kennzeichen: Im [Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren)
+Kennzeichen: Im [Ratgeber zum Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 zeige ich dir Schritt für Schritt, wie du deine Kombination prüfst und sicherst.
 Mehr Hintergrund zu Kürzeln und ihrer Herkunft findest du außerdem in der Übersicht
-der [Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen).
+der [Kennzeichen-Abkürzungen](/kfz-ratgeber/kennzeichen-abkuerzungen/).

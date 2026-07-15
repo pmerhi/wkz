@@ -29,8 +29,8 @@ Mandat dort abgibst.</div>
 ## Warum die Einzugsermächtigung für die Kfz-Steuer Pflicht ist
 
 Früher konntest du die Kfz-Steuer auch per Überweisung zahlen. Das ist seit dem
-1. Januar 2018 vorbei. Wer ein Fahrzeug [anmeldet](/ratgeber/auto-anmelden) oder
-[ummeldet](/ratgeber/auto-ummelden), muss eine **Einzugsermächtigung für die
+1. Januar 2018 vorbei. Wer ein Fahrzeug [anmeldet](/kfz-ratgeber/auto-anmelden/) oder
+[ummeldet](/kfz-ratgeber/auto-ummelden/), muss eine **Einzugsermächtigung für die
 Kfz-Steuer** erteilen – sonst gibt es keine Zulassung.
 
 Der Grund ist simpel: Der Staat will den Verwaltungsaufwand klein halten und
@@ -40,7 +40,7 @@ Jahr, im Voraus, zum Tag der Zulassung.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ohne gültiges
 SEPA-Lastschriftmandat verweigert die Zulassungsstelle die Anmeldung. Das gilt für
-Neuwagen, Gebrauchtwagen und jeden <a href="/ratgeber/halterwechsel-auto">Halterwechsel</a>
+Neuwagen, Gebrauchtwagen und jeden <a href="/kfz-ratgeber/halterwechsel-auto/">Halterwechsel</a>
 gleichermaßen. Es gibt hier praktisch keine Ausnahme für Privatpersonen.</div>
 
 ## Was ist ein SEPA-Lastschriftmandat überhaupt?
@@ -59,7 +59,7 @@ vollständigen Namen und die Anschrift des Fahrzeughalters, eine gültige IBAN (
 ggf. BIC), das amtliche Kennzeichen sowie deine Unterschrift. Das Konto muss auf
 den <strong>Halter</strong> lauten oder eine Abbuchung durch ihn zulassen.</div>
 
-Bei einer reinen Online-Zulassung über [i-Kfz](/ratgeber/i-kfz-online-zulassung)
+Bei einer reinen Online-Zulassung über [i-Kfz](/kfz-ratgeber/i-kfz-online-zulassung/)
 gibst du die Bankverbindung direkt im Portal ein. Das Mandat wird dann elektronisch
 erteilt – ganz ohne Papier und Unterschrift am Schalter.
 
@@ -70,13 +70,13 @@ Du füllst das Formular aus, gibst es ab, und die Behörde leitet die Daten an d
 Zoll weiter. Du musst also nicht selbst zum Hauptzollamt fahren.
 
 1. **Formular besorgen:** Du bekommst es an der Zulassungsstelle oder als Download
-   beim Zoll. Bei der [Online-Zulassung](/ratgeber/i-kfz-online-zulassung) erübrigt
+   beim Zoll. Bei der [Online-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/) erübrigt
    sich das.
 2. **Bankdaten eintragen:** IBAN sorgfältig prüfen – am besten von der Bankkarte
    abschreiben statt aus dem Kopf.
 3. **Unterschreiben:** Nur der Kontoinhaber darf das Mandat erteilen.
 4. **Abgeben:** Zusammen mit den übrigen
-   [Zulassungsunterlagen](/ratgeber/zulassungsbescheinigung).
+   [Zulassungsunterlagen](/kfz-ratgeber/zulassungsbescheinigung/).
 
 <div class="box box-tipp"><strong>Tipp:</strong> Sorge dafür, dass auf dem Konto am
 Tag der Zulassung genug Deckung ist. Der Zoll bucht die erste Jahressteuer oft
@@ -101,32 +101,32 @@ Fahrzeugs. Melde einen Kontowechsel deshalb zeitnah.</div>
 
 ## Was passiert bei Verkauf, Abmeldung oder Halterwechsel?
 
-Verkaufst du dein Auto und [meldest es ab](/ratgeber/auto-verkaufen-abmelden),
+Verkaufst du dein Auto und [meldest es ab](/kfz-ratgeber/auto-verkaufen-abmelden/),
 endet auch deine Steuerpflicht. Der Zoll rechnet die zu viel gezahlte Steuer
 tagesgenau ab und erstattet dir den Restbetrag – über genau das Konto, das du im
 Mandat hinterlegt hast. Auch deshalb lohnt es sich, die Bankverbindung aktuell zu
 halten.
 
-Beim [Halterwechsel](/ratgeber/halterwechsel-auto) wird das alte Mandat hinfällig.
+Beim [Halterwechsel](/kfz-ratgeber/halterwechsel-auto/) wird das alte Mandat hinfällig.
 Der neue Halter muss ein **eigenes SEPA-Mandat** erteilen, denn die Steuerpflicht
 geht auf ihn über. Dein altes Mandat erlischt mit der Ummeldung automatisch.
 
 <div class="box box-frage"><strong>Bleibt mein Mandat beim Umzug bestehen?</strong>
 Ja. Ziehst du nur um und behältst dein Auto, läuft die Lastschrift weiter. Bei einem
-<a href="/ratgeber/auto-ummelden-kreiswechsel">Kreiswechsel</a> ändert sich ggf. das
+<a href="/kfz-ratgeber/auto-ummelden-kreiswechsel/">Kreiswechsel</a> ändert sich ggf. das
 zuständige Zollamt, das Mandat selbst bleibt aber gültig.</div>
 
 ## Beispielrechnung: Was zieht der Zoll ein?
 
 Damit du ein Gefühl für die Beträge bekommst, ein typisches Beispiel. Die genaue
 Höhe der Steuer hängt von Hubraum, Antriebsart und CO₂-Ausstoß ab – wie sich das
-zusammensetzt, kannst du im [Ratgeber Kfz-Steuer berechnen](/ratgeber/kfz-steuer-berechnen)
+zusammensetzt, kannst du im [Ratgeber Kfz-Steuer berechnen](/kfz-ratgeber/kfz-steuer-berechnen/)
 nachlesen.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Ein Benziner mit
 1.600 ccm und moderatem CO₂-Wert liegt grob bei <strong>120–180 €</strong>
 Kfz-Steuer im Jahr. Diesen Betrag zieht der Zoll per Lastschrift in einer Summe
-ein – nicht monatlich. Ein reines <a href="/ratgeber/kfz-steuer-elektroauto">Elektroauto</a>
+ein – nicht monatlich. Ein reines <a href="/kfz-ratgeber/kfz-steuer-elektroauto/">Elektroauto</a>
 ist befristet steuerbefreit, hier wird (vorerst) gar nichts abgebucht.</div>
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Liegt deine Jahressteuer
@@ -167,4 +167,4 @@ im schlimmsten Fall die Stilllegung.
 Mein Rat: Notier dir, welches Konto im Mandat steht, und denk bei jedem Kontowechsel
 an die Meldung ans Hauptzollamt. Alle amtlichen Details und Formulare findest du
 beim [ADAC](https://www.adac.de) oder direkt beim Zoll. Wie du die Steuer im Vorfeld
-schätzt, zeige ich dir im [Ratgeber Kfz-Steuer berechnen](/ratgeber/kfz-steuer-berechnen).
+schätzt, zeige ich dir im [Ratgeber Kfz-Steuer berechnen](/kfz-ratgeber/kfz-steuer-berechnen/).

@@ -38,7 +38,7 @@ der EU bewegst.
 
 Wer heute ein Fahrzeug in Deutschland zulässt, bekommt automatisch ein
 EU-Kennzeichen – ein reines Schild ohne Euro-Feld bekommst du im normalen
-Verfahren gar nicht mehr. Wie die [Zulassung Schritt für Schritt](/ratgeber/auto-anmelden)
+Verfahren gar nicht mehr. Wie die [Zulassung Schritt für Schritt](/kfz-ratgeber/auto-anmelden/)
 abläuft, habe ich dir separat aufgeschrieben.
 
 <div class="box box-check"><strong>Das macht ein EU-Kennzeichen aus:</strong> blaues
@@ -69,7 +69,7 @@ Euro-Feld hat sie nur elegant ins Nummernschild integriert.
 Länderkennzeichen nicht mit dem regionalen <strong>Unterscheidungszeichen</strong>
 (z. B. „M" für München). Ersteres steht im blauen Feld, Letzteres ist der erste
 Teil deiner Kennung. Welche Kürzel für welche Stadt stehen, findest du in meiner
-Übersicht der <a href="/ratgeber/kennzeichen-abkurzungen">Kennzeichen-Abkürzungen</a>.</div>
+Übersicht der <a href="/kfz-ratgeber/kennzeichen-abkuerzungen/">Kennzeichen-Abkürzungen</a>.</div>
 
 ## Reicht das Euro-Feld wirklich im ganzen Ausland?
 
@@ -102,12 +102,12 @@ Youngtimer. Die Antwort: In Deutschland gibt es **keine Pflicht zum Umtausch**.
 ordnungsgemäß zugeteilt wurden und lesbar sind.
 
 Sobald du aber neu zulässt, ummeldest oder ein neues Schild prägen lässt, bekommst
-du automatisch die EU-Variante. Wer sein [Kennzeichen mitnimmt](/ratgeber/wunschkennzeichen-mitnehmen)
-oder das Auto [ummeldet](/ratgeber/auto-ummelden), wechselt also spätestens dann
+du automatisch die EU-Variante. Wer sein [Kennzeichen mitnimmt](/kfz-ratgeber/wunschkennzeichen-mitnehmen/)
+oder das Auto [ummeldet](/kfz-ratgeber/auto-ummelden/), wechselt also spätestens dann
 auf das Euro-Feld – freiwillig oder nicht.
 
 <div class="box box-frage"><strong>Und bei einem H-Kennzeichen?</strong> Oldtimer
-mit <a href="/ratgeber/h-kennzeichen">H-Kennzeichen</a> tragen oft bewusst kein Euro-Feld, um
+mit <a href="/kfz-ratgeber/h-kennzeichen/">H-Kennzeichen</a> tragen oft bewusst kein Euro-Feld, um
 den historischen Look zu wahren – das ist erlaubt. Auch hier gilt: kein Zwang, aber
 auch kein automatischer EU-Schutz im Ausland.</div>
 
@@ -147,7 +147,7 @@ ein D-Schild brauchst du dort in der Regel nicht.</div>
 <div class="box box-frage"><strong>Kann ich ein Wunschkennzeichen mit Euro-Feld
 kombinieren?</strong> Selbstverständlich. Das Euro-Feld ist Teil jedes modernen
 Schilds – deine Wunschkombination steht einfach rechts daneben. Wie das geht,
-zeigt mein Ratgeber zum <a href="/ratgeber/wunschkennzeichen-reservieren">Wunschkennzeichen reservieren</a>.</div>
+zeigt mein Ratgeber zum <a href="/kfz-ratgeber/wunschkennzeichen-reservieren/">Wunschkennzeichen reservieren</a>.</div>
 
 ## Fazit
 
@@ -162,5 +162,5 @@ Ziellandes lieber einmal zu viel als zu wenig. Innerhalb Europas aber gilt: Dein
 EU-Kennzeichen bringt dich entspannt über jede Grenze.
 
 Wenn du dich für die verschiedenen Schildtypen interessierst, wirf auch einen
-Blick auf meine Übersicht zu [Kennzeichen-Arten](/kennzeichen) und das
-[3D-Kennzeichen](/ratgeber/3d-kennzeichen).
+Blick auf meine Übersicht zu [Kennzeichen-Arten](/kennzeichen/) und das
+[3D-Kennzeichen](/kfz-ratgeber/3d-kennzeichen/).

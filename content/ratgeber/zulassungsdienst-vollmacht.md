@@ -37,8 +37,8 @@ Zulassungsstellen – nicht ohne Grund.
 Der Reiz liegt auf der Hand: kein Wartezimmer, keine Urlaubstage, kein zweiter
 Anlauf wegen eines vergessenen Stempels. Gerade wer beruflich eingespannt ist oder
 in einem Bezirk mit langen Wartezeiten wohnt, spart hier echte Lebenszeit. Auch
-beim [Gebrauchtwagen zulassen](/ratgeber/gebrauchtwagen-zulassen) oder beim
-[Neuwagen zulassen](/ratgeber/neuwagen-zulassen) übernehmen viele Autohäuser diesen
+beim [Gebrauchtwagen zulassen](/kfz-ratgeber/gebrauchtwagen-zulassen/) oder beim
+[Neuwagen zulassen](/kfz-ratgeber/neuwagen-zulassen/) übernehmen viele Autohäuser diesen
 Service gleich mit.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Frag beim Autokauf direkt, ob das
@@ -74,7 +74,7 @@ Zulassung übrigens **nicht** nötig.
 <div class="box box-wichtig"><strong>Wichtig:</strong> Die genauen Anforderungen an
 Form und Inhalt der Vollmacht unterscheiden sich von Bezirk zu Bezirk. Einige Ämter
 verlangen zusätzlich eine Ausweiskopie des Halters, andere ein bestimmtes
-Formular. Erkundige dich vorab bei deiner <a href="/zulassungsstelle">Zulassungsstelle</a> –
+Formular. Erkundige dich vorab bei deiner <a href="/zulassungsstelle/">Zulassungsstelle</a> –
 die Angaben hier sind eine Orientierung ohne Gewähr und kein Rechtsrat.</div>
 
 ## Welche Unterlagen muss der Dienst mitnehmen?
@@ -82,7 +82,7 @@ die Angaben hier sind eine Orientierung ohne Gewähr und kein Rechtsrat.</div>
 Die Vollmacht allein reicht nicht. Der Zulassungsdienst braucht denselben
 Papierstapel, den du auch selbst vorlegen müsstest. Fehlt ein Dokument, scheitert
 der Vorgang trotz Vollmacht. Die Details findest du im
-[Ratgeber zum Auto anmelden](/ratgeber/auto-anmelden), hier die Kurzfassung.
+[Ratgeber zum Auto anmelden](/kfz-ratgeber/auto-anmelden/), hier die Kurzfassung.
 
 <div class="box box-check"><strong>Das gehört zum Zulassungspaket:</strong>
 Personalausweis (oder Kopie) des Halters, Zulassungsbescheinigung Teil I und II,
@@ -90,9 +90,9 @@ eVB-Nummer der Versicherung, Nachweis der gültigen Hauptuntersuchung, das
 SEPA-Lastschriftmandat für die Kfz-Steuer und – bei Halterwechsel – der Kaufvertrag.
 Dazu die Vollmacht.</div>
 
-Wenn du ein [Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren)
+Wenn du ein [Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/)
 möchtest, gibst du dem Dienst die reservierte Kombination mit. Auch die
-[eVB-Nummer](/ratgeber/evb-nummer) deiner Versicherung darf nicht fehlen – ohne sie
+[eVB-Nummer](/kfz-ratgeber/evb-nummer/) deiner Versicherung darf nicht fehlen – ohne sie
 gibt es keine Zulassung, egal wie vollständig die Vollmacht ist.
 
 ## Was kostet das Ganze?
@@ -100,7 +100,7 @@ gibt es keine Zulassung, egal wie vollständig die Vollmacht ist.
 Hier kommen zwei Posten zusammen: die amtlichen Gebühren und das Honorar des
 Dienstleisters. Die reinen Behördengebühren bewegen sich – je nach Vorgang – meist
 im Bereich von **rund 30 €** für eine Anmeldung. Einen genaueren Überblick gibt dir
-der [Ratgeber zu den Zulassungskosten](/ratgeber/zulassungskosten).
+der [Ratgeber zu den Zulassungskosten](/kfz-ratgeber/zulassungskosten/).
 
 Obendrauf kommt das **Service-Honorar** des Zulassungsdienstes. Das liegt
 erfahrungsgemäß zwischen **30 und 90 €**, je nach Region, Aufwand und ob Botenfahrt
@@ -118,10 +118,10 @@ einen halben Arbeitstag opfern müsste, für den rechnen sich 50 € oft schnell
 ## Vollmacht-Alternative: i-Kfz online
 
 Bevor du einen Dienst beauftragst, lohnt ein Blick auf den digitalen Weg. Über die
-[internetbasierte Fahrzeugzulassung (i-Kfz)](/ratgeber/i-kfz-online-zulassung)
+[internetbasierte Fahrzeugzulassung (i-Kfz)](/kfz-ratgeber/i-kfz-online-zulassung/)
 kannst du dein Auto in vielen Fällen komplett von zu Hause aus zulassen – ganz ohne
 Vollmacht und ohne Dritte. Was du dafür brauchst, steht im
-[Ratgeber zu den i-Kfz-Voraussetzungen](/ratgeber/i-kfz-voraussetzungen).
+[Ratgeber zu den i-Kfz-Voraussetzungen](/kfz-ratgeber/i-kfz-voraussetzungen/).
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Prüf zuerst, ob dein Fahrzeug
 und dein Personalausweis (mit Online-Funktion) i-Kfz erlauben. Wenn ja, sparst du
@@ -143,7 +143,7 @@ anmelden?</strong> Wenn er nicht selbst Halter ist, braucht auch er eine schrift
 Vollmacht von dir. Das gilt für jede dritte Person, egal wie verwandt.</div>
 
 <div class="box box-frage"><strong>Gilt eine Vollmacht auch fürs Abmelden?</strong>
-Ja, du kannst dein <a href="/ratgeber/auto-abmelden">Auto abmelden</a> ebenso per Vollmacht
+Ja, du kannst dein <a href="/kfz-ratgeber/auto-abmelden/">Auto abmelden</a> ebenso per Vollmacht
 erledigen lassen. Nenne den Vorgang in der Vollmacht am besten ausdrücklich.</div>
 
 <div class="box box-frage"><strong>Reicht eine Kopie der Vollmacht?</strong> Das
@@ -157,10 +157,10 @@ warten – vorausgesetzt, die **Vollmacht für die Kfz-Zulassung** sitzt. Wichti
 saubere Halterdaten, der genannte Vorgang, deine Original-Unterschrift und das
 vollständige Unterlagenpaket. Dann erledigt der Zulassungsdienst den Rest.
 
-Mein Tipp: Prüf zuerst, ob [i-Kfz](/ratgeber/i-kfz-online-zulassung) für dich
+Mein Tipp: Prüf zuerst, ob [i-Kfz](/kfz-ratgeber/i-kfz-online-zulassung/) für dich
 funktioniert – das ist oft die günstigste Variante. Geht das nicht, ist der
 Dienstleister mit Vollmacht die komfortable Lösung. Die rechtliche Grundlage zur
 Zulassung findest du übrigens in der
-[Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2011/), und
+[Fahrzeug-Zulassungsverordnung](https://www.gesetze-im-internet.de/fzv_2023/), und
 einen guten Überblick zu Abläufen rund ums Fahrzeug bietet der
 [ADAC](https://www.adac.de).

@@ -81,7 +81,7 @@ je nach Fahrschule und Region.</div>
 In diesen Summen steckt schon einiges drin: Anmeldegebühr der Fahrschule,
 Lehrmaterial, Prüfungsgebühren für TÜV oder DEKRA und – beim AM – die Fahrstunden.
 Wie sich Führerscheinkosten generell zusammensetzen, habe ich dir im
-[Ratgeber zu den Führerschein-Kosten](/ratgeber/fuhrerschein-kosten) im Detail
+[Ratgeber zu den Führerschein-Kosten](/kfz-ratgeber/fuehrerschein-kosten/) im Detail
 aufgeschlüsselt.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Hol dir vor der Anmeldung
@@ -94,13 +94,13 @@ geschickten Lerner sind das schnell 100 € gespart.</div>
 Der AM-Schein ist für viele nur die erste Stufe. Wer später richtig Motorrad
 fahren will, steigt über die Klassen A1, A2 und A auf. Das ist ein eigenes Thema –
 einen guten Überblick gebe ich dir im
-[Ratgeber zum Motorradführerschein](/ratgeber/motorradfuhrerschein).
+[Ratgeber zum Motorradführerschein](/kfz-ratgeber/motorradfuehrerschein/).
 
 Ein schöner Nebeneffekt der frühen Roller-Erfahrung: Du sammelst schon mit 15
 oder 16 echte Praxis im Straßenverkehr. Das macht den späteren Umstieg auf ein
-stärkeres [Motorradkennzeichen](/ratgeber/motorradkennzeichen)-pflichtiges
+stärkeres [Motorradkennzeichen](/kfz-ratgeber/motorradkennzeichen/)-pflichtiges
 Fahrzeug deutlich entspannter. Und wenn du ohnehin den
-[Führerschein ab 17](/ratgeber/fuhrerschein-ab-17) im Blick hast, passt der
+[Führerschein ab 17](/kfz-ratgeber/fuehrerschein-ab-17/) im Blick hast, passt der
 AM-Schein perfekt als Vorstufe.
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Kosten, Mindestalter und
@@ -115,7 +115,7 @@ Ein Punkt, den fast alle übersehen: Auch ein Mofa oder Roller braucht
 Versicherungsschutz. Statt eines normalen Schilds bekommst du ein kleines
 **Versicherungskennzeichen** – das wechselt jedes Jahr die Farbe und gilt immer
 für eine Saison. Wie das funktioniert, liest du im
-[Ratgeber zum Versicherungskennzeichen](/ratgeber/versicherungskennzeichen).
+[Ratgeber zum Versicherungskennzeichen](/kfz-ratgeber/versicherungskennzeichen/).
 
 Eine separate Zulassung wie beim Auto entfällt dabei. Du holst dir die Plakette
 direkt bei einer Versicherung, befestigst sie am Fahrzeug – und darfst losfahren.
@@ -127,7 +127,7 @@ blau, grün im Wechsel). An der Farbe erkennt die Polizei auf einen Blick, ob de
 Schutz noch aktuell ist.</div>
 
 Mehr zu den verschiedenen Schildern für Kleinkrafträder findest du auch im
-Überblick zum [Mofa- und Mopedkennzeichen](/ratgeber/motorradkennzeichen). Die
+Überblick zum [Mofa- und Mopedkennzeichen](/kfz-ratgeber/motorradkennzeichen/). Die
 rechtlichen Grundlagen rund um die Fahrerlaubnis kannst du beim
 [Kraftfahrt-Bundesamt](https://www.kba.de) nachlesen, ein neutraler
 Erfahrungsbericht zur Mofa-Ausbildung steht beim [ADAC](https://www.adac.de).
@@ -164,5 +164,5 @@ Sprungbrett für später.
 
 Mein Tipp zum Schluss: Denk an die Versicherung und das passende Kennzeichen,
 bevor du losfährst. Und wenn du ohnehin Richtung Motorrad schielst, lies dich im
-[Ratgeber zum Motorradführerschein](/ratgeber/motorradfuhrerschein) ein – dann
+[Ratgeber zum Motorradführerschein](/kfz-ratgeber/motorradfuehrerschein/) ein – dann
 planst du von Anfang an in die richtige Richtung.

@@ -31,7 +31,7 @@ Ausfuhrkennzeichen.</div>
 
 Der Grundsatz ist streng: Ein Fahrzeug darf auf öffentlichen Straßen nur fahren,
 wenn es **zugelassen und versichert** ist. Das steht so in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 Wer ein abgemeldetes oder noch nicht angemeldetes Auto trotzdem bewegt, riskiert
 ein Bußgeld, Punkte – und im Schadensfall haftet er ohne Versicherungsschutz
 selbst.
@@ -39,12 +39,12 @@ selbst.
 Genau deshalb gibt es die verschiedenen **Überführungskennzeichen**: Sie geben dir
 für einen begrenzten Zeitraum die Erlaubnis, das Fahrzeug zu fahren, obwohl es
 (noch) keine reguläre Zulassung hat. Mehr zu den Folgen einer Fahrt ohne Papiere
-liest du im Ratgeber [Fahren ohne Zulassung](/ratgeber/fahren-ohne-zulassung).
+liest du im Ratgeber [Fahren ohne Zulassung](/kfz-ratgeber/fahren-ohne-zulassung/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Ohne gültige
 Versicherung darfst du auch mit einem Überführungskennzeichen nicht losfahren. Für
 jede dieser Kennzeichenarten brauchst du eine Versicherungsbestätigung – meist in
-Form einer <a href="/ratgeber/evb-nummer">eVB-Nummer</a>.</div>
+Form einer <a href="/kfz-ratgeber/evb-nummer/">eVB-Nummer</a>.</div>
 
 ## Die drei Wege, ein Auto zu überführen
 
@@ -54,7 +54,7 @@ sortiere dir die drei häufigsten Fälle.
 ### 1. Das Kurzzeitkennzeichen – der Klassiker im Inland
 
 Für Überführungsfahrten innerhalb Deutschlands ist das
-[Kurzzeitkennzeichen](/ratgeber/kurzzeitkennzeichen) der Standard. Du erkennst es
+[Kurzzeitkennzeichen](/kfz-ratgeber/kurzzeitkennzeichen/) der Standard. Du erkennst es
 am gelben Balken am rechten Rand mit einem **Ablaufdatum**. Es gilt für maximal
 **fünf Tage** und ist gedacht für Probe-, Prüfungs- und eben Überführungsfahrten.
 
@@ -65,13 +65,13 @@ direkt zur nächsten Prüfstelle fahren.
 <div class="box box-check"><strong>Das brauchst du fürs Kurzzeitkennzeichen:</strong>
 Personalausweis, Fahrzeugbrief (Zulassungsbescheinigung Teil II), eVB-Nummer und –
 für die uneingeschränkte Nutzung – einen gültigen HU-Nachweis. Beantragen kannst
-du es bei der <a href="/zulassungsstelle">Zulassungsstelle</a> deines Wohnorts oder am
+du es bei der <a href="/zulassungsstelle/">Zulassungsstelle</a> deines Wohnorts oder am
 Standort des Fahrzeugs.</div>
 
 ### 2. Das Ausfuhrkennzeichen – wenn es ins Ausland geht
 
 Verkaufst oder kaufst du ein Auto über die Grenze, kommt das
-[Ausfuhrkennzeichen](/ratgeber/ausfuhrkennzeichen) ins Spiel. Es hat einen
+[Ausfuhrkennzeichen](/kfz-ratgeber/ausfuhrkennzeichen/) ins Spiel. Es hat einen
 **roten Balken** mit Ablaufdatum und ist international anerkannt. Damit kannst du
 das Fahrzeug legal aus Deutschland heraus überführen.
 
@@ -123,7 +123,7 @@ längere Versicherung meist höher.</div>
 
 Beim Schilderkauf gilt dasselbe wie bei jedem Kennzeichen: Direkt am Stand vor dem
 Amt zahlst du den Höchstpreis, online sind die DIN-zertifizierten Schilder oft
-günstiger. Mehr dazu im Ratgeber [Nummernschild prägen](/ratgeber/nummernschild-pragen).
+günstiger. Mehr dazu im Ratgeber [Nummernschild prägen](/kfz-ratgeber/nummernschild-praegen/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Alle hier genannten Beträge
 sind realistische Spannen, keine garantierten Festpreise. Gebühren und vor allem
@@ -143,9 +143,9 @@ Damit du nicht ins Stolpern gerätst, hier mein bewährter Ablauf:
 5. **Schilder prägen lassen** und montieren – fertig für die Überführungsfahrt.
 
 Den allgemeinen Behördenablauf habe ich dir im Ratgeber
-[Auto anmelden](/ratgeber/auto-anmelden) zusammengefasst – vieles davon gilt
+[Auto anmelden](/kfz-ratgeber/auto-anmelden/) zusammengefasst – vieles davon gilt
 sinngemäß auch hier. Wer einen Gebrauchten überführt, findet außerdem im Ratgeber
-[Gebrauchtwagen zulassen](/ratgeber/gebrauchtwagen-zulassen) die nächsten Schritte
+[Gebrauchtwagen zulassen](/kfz-ratgeber/gebrauchtwagen-zulassen/) die nächsten Schritte
 nach der Fahrt. Eine gute neutrale Übersicht zu Fahrzeug- und Zulassungsthemen
 bietet außerdem der [ADAC](https://www.adac.de).
 
@@ -179,6 +179,6 @@ Zulassung" heißt dabei nie „ohne Schild und ohne Versicherung", sondern immer
 einem dieser befristeten Kennzeichen.
 
 Wenn du als Nächstes wissen willst, wie du das überführte Fahrzeug endgültig
-anmeldest, schau in den Ratgeber [Gebrauchtwagen zulassen](/ratgeber/gebrauchtwagen-zulassen)
-oder direkt in die [i-Kfz Online-Zulassung](/ratgeber/i-kfz-online-zulassung) –
+anmeldest, schau in den Ratgeber [Gebrauchtwagen zulassen](/kfz-ratgeber/gebrauchtwagen-zulassen/)
+oder direkt in die [i-Kfz Online-Zulassung](/kfz-ratgeber/i-kfz-online-zulassung/) –
 damit bringst du dein Auto entspannt auf die Straße.

@@ -100,9 +100,9 @@ Laufleistung und Reparaturanfälligkeit deines Modells ab – ohne Gewähr.</div
 ## Worauf du beim Kauf achten solltest
 
 Bevor du unterschreibst, lohnt ein nüchterner Blick auf den Vertrag und das Auto.
-Ein unabhängiges [Kfz-Gutachten](/ratgeber/kfz-gutachten) deckt versteckte Schäden
+Ein unabhängiges [Kfz-Gutachten](/kfz-ratgeber/kfz-gutachten/) deckt versteckte Schäden
 auf, bevor sie zum Streitfall werden. Lass dir außerdem die letzte
-[Hauptuntersuchung beim TÜV](/ratgeber/hauptuntersuchung-tuv) und das Serviceheft
+[Hauptuntersuchung beim TÜV](/kfz-ratgeber/hauptuntersuchung-tuev/) und das Serviceheft
 zeigen – beides sagt mehr über den Zustand als jede Hochglanzanzeige.
 
 Achte beim Vertrag auf die genaue Formulierung zur Haftung. „Gekauft wie gesehen"
@@ -113,11 +113,11 @@ wirksam – plane das ein.
 <div class="box box-frage"><strong>Was, wenn der Verkäufer offensichtlich
 betrügt?</strong> Bei arglistiger Täuschung – etwa manipuliertem Tacho – greift kein
 Gewährleistungsausschluss. Mehr dazu liest du im Ratgeber
-<a href="/ratgeber/betrug-autokauf">Betrug beim Autokauf</a>.</div>
+<a href="/kfz-ratgeber/betrug-autokauf/">Betrug beim Autokauf</a>.</div>
 
 Nach dem Kauf wartet noch der Papierkram: Das Fahrzeug muss
-[umgemeldet](/ratgeber/auto-ummelden) oder neu zugelassen werden, und der
-[Halterwechsel](/ratgeber/halterwechsel-auto) gehört sauber dokumentiert. Tipps zum
+[umgemeldet](/kfz-ratgeber/auto-ummelden/) oder neu zugelassen werden, und der
+[Halterwechsel](/kfz-ratgeber/halterwechsel-auto/) gehört sauber dokumentiert. Tipps zum
 sicheren Ablauf findest du auch beim [ADAC](https://www.adac.de).
 
 ## So gehst du im Streitfall vor
@@ -162,4 +162,4 @@ ist wie sein Kleingedrucktes.
 Mein Rat: Prüf vor dem Kauf den Zustand, lies den Vertrag genau und kenne deine
 Rechte. Dann wird aus dem Schnäppchen kein teures Lehrgeld – so wie damals bei
 meinem Getriebe. Wer gut vorbereitet ist, kann den Rest des Ablaufs vom
-[Halterwechsel](/ratgeber/halterwechsel-auto) bis zur Ummeldung entspannt angehen.
+[Halterwechsel](/kfz-ratgeber/halterwechsel-auto/) bis zur Ummeldung entspannt angehen.

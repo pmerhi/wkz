@@ -35,7 +35,7 @@ ungültig wird.
 
 Hast du wirklich überall geschaut? Dann geht es los. Der Weg führt zur
 **Führerscheinstelle** deines Wohnorts – das ist meist Teil der
-[Zulassungsstelle](/zulassungsstelle) oder des Straßenverkehrsamts.
+[Zulassungsstelle](/zulassungsstelle/) oder des Straßenverkehrsamts.
 
 ## Verloren oder gestohlen? Der Unterschied zählt
 
@@ -47,7 +47,7 @@ zusätzlich eine **Anzeige bei der Polizei** machen.
 Warum? Ein gestohlener Führerschein kann zur Identitätstäuschung missbraucht
 werden. Die polizeiliche Verlustanzeige schützt dich und dient der
 Führerscheinstelle als Nachweis. Das kennst du ähnlich vom
-[verlorenen Fahrzeugschein](/ratgeber/fahrzeugschein-verloren).
+[verlorenen Fahrzeugschein](/kfz-ratgeber/fahrzeugschein-verloren/).
 
 <div class="box box-wichtig"><strong>Wichtig:</strong> Bei Diebstahl unbedingt
 Anzeige erstatten und die Bestätigung aufheben. Sie kann später nötig sein und
@@ -98,7 +98,7 @@ zu deinem konkreten Fall gibt dir nur deine zuständige Führerscheinstelle.</di
 Das ist deutlich weniger als der Aufwand einer kompletten Neuausbildung – die
 Sorge, „alles neu machen zu müssen", ist also unbegründet. Wer wissen will, wie
 teuer eine Fahrausbildung von Grund auf wäre, findet im Ratgeber zu den
-[Führerschein-Kosten](/ratgeber/fuhrerschein-kosten) die ganze Bandbreite.
+[Führerschein-Kosten](/kfz-ratgeber/fuehrerschein-kosten/) die ganze Bandbreite.
 
 <div class="box box-tipp"><strong>Mein Rat:</strong> Frag bei deiner
 Führerscheinstelle vorab telefonisch oder online nach, ob ein Termin nötig ist und
@@ -126,7 +126,7 @@ wenn der neue Führerschein da ist.</div>
 Wenn du ohnehin schon dabei bist: Vielleicht ist dein alter Führerschein noch einer
 der alten grauen oder rosa Papierführerscheine. Diese müssen bis zu festgelegten
 Fristen ohnehin in den **EU-Kartenführerschein** umgetauscht werden. Mehr dazu liest
-du im Ratgeber zum [Führerschein umtauschen](/ratgeber/fuhrerschein-umtauschen).
+du im Ratgeber zum [Führerschein umtauschen](/kfz-ratgeber/fuehrerschein-umtauschen/).
 
 Den Verlust gleich mit einem fälligen Umtausch zu verbinden, spart dir
 unter Umständen einen späteren zweiten Behördengang. Frag einfach an, ob das in
@@ -155,7 +155,7 @@ bei deiner Behörde nach.</div>
 
 Mehr Hintergrund zu Fristen und Pflichten findest du auch beim
 [ADAC](https://www.adac.de) oder direkt im Text der
-[Fahrerlaubnis-Verordnung](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrerlaubnis-Verordnung](https://www.gesetze-im-internet.de/fev_2010/).
 
 ## Fazit
 
@@ -169,4 +169,4 @@ Mein Tipp zum Schluss: Mach dir vorab ein Handyfoto von deinem Führerschein und
 notier dir die ausstellende Behörde. Falls die Karte doch mal verschwindet, hast du
 alle wichtigen Angaben sofort parat – und der Ersatz ist schneller beantragt, als du
 denkst. Ähnlich praktisch ist das übrigens beim
-[verlorenen Fahrzeugbrief](/ratgeber/fahrzeugbrief-verloren).
+[verlorenen Fahrzeugbrief](/kfz-ratgeber/fahrzeugbrief-verloren/).

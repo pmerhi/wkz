@@ -24,23 +24,23 @@ einheitlich.
 
 Das heißt: Dein „M" aus München kannst du theoretisch behalten, selbst wenn du
 nach Hamburg ziehst. Du musst dein Auto zwar **ummelden**, aber das
-[Unterscheidungszeichen](/kennzeichen) und deine Wunschkombination bleiben gleich.
+[Unterscheidungszeichen](/kennzeichen/) und deine Wunschkombination bleiben gleich.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Genau dieser Effekt hat
 auch dazu geführt, dass viele alte Kürzel zurückgekehrt sind. Die wieder
 eingeführten Codes findest du in unserer
-<a href="/altkennzeichen">Altkennzeichen-Liste</a>.</div>
+<a href="/altkennzeichen/">Altkennzeichen-Liste</a>.</div>
 
 ## So läuft die Kennzeichenmitnahme ab
 
 Der Vorgang ist eine ganz normale Ummeldung – nur ohne neue Schilder. Du gehst
-zur [Zulassungsstelle](/zulassungsstelle) an deinem neuen Wohnort (oder erledigst
+zur [Zulassungsstelle](/zulassungsstelle/) an deinem neuen Wohnort (oder erledigst
 es online) und meldest die neue Adresse. Dein Kennzeichen wird beibehalten.
 
 <div class="box box-check"><strong>Das brauchst du:</strong> Personalausweis mit
 neuer Meldeadresse, Zulassungsbescheinigung Teil I und II, eVB-Nummer und deine
 bisherigen Kennzeichen. Den genauen Ablauf findest du im
-<a href="/ratgeber/auto-ummelden">Ratgeber zum Auto ummelden</a>.</div>
+<a href="/kfz-ratgeber/auto-ummelden/">Ratgeber zum Auto ummelden</a>.</div>
 
 Weil keine neuen Schilder nötig sind, ist dieser Weg oft der **günstigste**
 überhaupt – du sparst dir 20 bis 35 Euro für die Prägung.
@@ -48,7 +48,7 @@ Weil keine neuen Schilder nötig sind, ist dieser Weg oft der **günstigste**
 <div class="box box-kosten"><strong>Kostenvorteil:</strong> Ummeldung mit
 Kennzeichenmitnahme kostet meist nur die Verwaltungsgebühr von rund 20–30 €.
 Neue Schilder? Null. Mehr dazu im
-<a href="/ratgeber/zulassungskosten">Ratgeber zu den Zulassungskosten</a>.</div>
+<a href="/kfz-ratgeber/zulassungskosten/">Ratgeber zu den Zulassungskosten</a>.</div>
 
 ## Schritt für Schritt: Kennzeichen mitnehmen
 
@@ -58,7 +58,7 @@ anderen Kreis:
 1. **Wohnsitz ummelden:** Zuerst meldest du dich beim Einwohnermeldeamt um – die
    neue Adresse steht dann in deinem Personalausweis.
 2. **Termin oder Online-Vorgang:** Du vereinbarst einen Termin bei der neuen
-   [Zulassungsstelle](/zulassungsstelle) oder startest die Ummeldung im i-Kfz-Portal.
+   [Zulassungsstelle](/zulassungsstelle/) oder startest die Ummeldung im i-Kfz-Portal.
 3. **Unterlagen vorlegen:** Fahrzeugpapiere, eVB-Nummer und Ausweis bereithalten.
 4. **Kennzeichen behalten:** Du gibst an, dass du dein bisheriges Kennzeichen
    mitnehmen möchtest. Neue Schilder sind nicht nötig.
@@ -98,7 +98,7 @@ ein Verwarnungsgeld.</div>
 ## Ein kurzer Blick zurück: Warum das früher anders war
 
 Bis zu den großen Gebietsreformen und der Reform der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/)
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/)
 war das Kennzeichen fest an den Zulassungsbezirk gebunden. Wer umzog, bekam
 zwangsläufig ein neues Schild – und das alte Kürzel war Geschichte. Für viele war
 das ein kleiner emotionaler Verlust, schließlich steckt im Heimatkürzel ein Stück
@@ -107,7 +107,7 @@ Identität.
 Mit der Liberalisierung hat der Gesetzgeber genau darauf reagiert. Heute steht die
 **Verbundenheit mit der Region** im Vordergrund, nicht die Bürokratie. Das ist auch
 der Grund, warum Wunschkennzeichen mit Heimatbezug so beliebt sind – und warum
-zahlreiche [Altkennzeichen](/altkennzeichen) ein Comeback gefeiert haben.
+zahlreiche [Altkennzeichen](/altkennzeichen/) ein Comeback gefeiert haben.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Wenn dir dein Heimatkürzel wichtig
 ist, lohnt sich vor einem Umzug ein kurzer Check, ob du es behalten möchtest. Die
@@ -134,5 +134,5 @@ nicht.</div>
 Dein Wunschkennzeichen ist heute erfreulich reisefreudig: Beim Umzug darfst du es
 in fast allen Fällen behalten – über Kreisgrenzen hinweg, ohne neue Schilder und
 damit oft zum kleinsten Preis. Du musst nur daran denken, fristgerecht
-[umzumelden](/ratgeber/auto-ummelden). So bleibt dein Kennzeichen genau das, was
+[umzumelden](/kfz-ratgeber/auto-ummelden/). So bleibt dein Kennzeichen genau das, was
 es sein soll: deins.

@@ -66,10 +66,10 @@ macht oft direkt A2 und steigt mit 20 per Aufstiegsprüfung auf A um. Das ist
 günstiger und schneller, als bis 24 auf den Direkteinstieg zu warten – und du
 sammelst zwei Jahre wertvolle Fahrpraxis.</div>
 
-Übrigens: Wenn du schon einen [Pkw-Führerschein der Klasse B](/ratgeber/fuhrerscheinklassen)
+Übrigens: Wenn du schon einen [Pkw-Führerschein der Klasse B](/kfz-ratgeber/fuehrerscheinklassen/)
 besitzt, gibt es seit einer Reform die Möglichkeit, mit Zusatzschulung kleine
 125er (Schlüsselzahl B196) zu fahren – ohne komplette A1-Prüfung. Ein Blick auf
-die [Führerscheinklassen](/ratgeber/fuhrerscheinklassen) lohnt sich also.
+die [Führerscheinklassen](/kfz-ratgeber/fuehrerscheinklassen/) lohnt sich also.
 
 ## Was kostet der Motorradführerschein?
 
@@ -114,14 +114,14 @@ einmal zahlen. Solide Vorbereitung ist deshalb auch finanziell die beste
 Strategie.</div>
 
 Hast du den Führerschein dann in der Hand, geht es ums Fahrzeug: Auch ein Motorrad
-braucht ein [Motorradkennzeichen](/ratgeber/motorradkennzeichen) und muss
-[zugelassen](/ratgeber/auto-anmelden) werden. Viele entscheiden sich dabei für ein
-[Saisonkennzeichen](/ratgeber/saisonkennzeichen), weil das Bike ohnehin nur im
+braucht ein [Motorradkennzeichen](/kfz-ratgeber/motorradkennzeichen/) und muss
+[zugelassen](/kfz-ratgeber/auto-anmelden/) werden. Viele entscheiden sich dabei für ein
+[Saisonkennzeichen](/kfz-ratgeber/saisonkennzeichen/), weil das Bike ohnehin nur im
 Sommer fährt.
 
 <div class="box box-tipp"><strong>Tipp:</strong> Wer nur saisonal fährt, spart mit
 einem Saisonkennzeichen Steuer und Versicherung für die Wintermonate. Wie das
-funktioniert, liest du im Ratgeber zur <a href="/ratgeber/saisonzulassung">Saisonzulassung</a>.</div>
+funktioniert, liest du im Ratgeber zur <a href="/kfz-ratgeber/saisonzulassung/">Saisonzulassung</a>.</div>
 
 ## Theorie- und Praxisstunden: Wie viele wirklich nötig sind
 
@@ -152,7 +152,7 @@ schon 24 bist und sofort große Maschinen willst, ja. Bist du jünger, ist der W
 
 <div class="box box-frage"><strong>Verliere ich bei einem Umzug etwas?</strong>
 Nein. Der Führerschein gilt bundesweit. Vergiss aber nicht, bei einem Umzug auch
-dein <a href="/ratgeber/auto-ummelden">Motorrad umzumelden</a>.</div>
+dein <a href="/kfz-ratgeber/auto-ummelden/">Motorrad umzumelden</a>.</div>
 
 ## Fazit
 
@@ -163,6 +163,6 @@ sich damit Zeit und Geld.
 
 Mein wichtigster Rat: Sei bei den Fahrstunden ehrlich zu dir selbst. Lieber eine
 Übungseinheit mehr, dafür sicher unterwegs. Wenn dein Lappen dann da ist, kümmere
-dich um [Zulassung](/ratgeber/auto-anmelden) und das passende
-[Kennzeichen](/ratgeber/motorradkennzeichen) – und dann: Helm auf, Visier runter,
+dich um [Zulassung](/kfz-ratgeber/auto-anmelden/) und das passende
+[Kennzeichen](/kfz-ratgeber/motorradkennzeichen/) – und dann: Helm auf, Visier runter,
 losfahren.

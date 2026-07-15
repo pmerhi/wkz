@@ -22,7 +22,7 @@ ablesen, aus welchem Land jemand kommt und welchen Rang er hat. Genau das
 schauen wir uns jetzt in Ruhe an.
 
 <div class="box box-info"><strong>Gut zu wissen:</strong> Diplomatenkennzeichen
-sind keine eigene Kennzeichenfarbe wie das <a href="/ratgeber/grunes-kennzeichen">grüne Kennzeichen</a>,
+sind keine eigene Kennzeichenfarbe wie das <a href="/kfz-ratgeber/gruenes-kennzeichen/">grüne Kennzeichen</a>,
 sondern reguläre schwarz-weiße Schilder mit einer besonderen Zahlensystematik.
 Erkennbar sind sie vor allem an der führenden <strong>0</strong> und an den
 Kürzeln <strong>CD</strong> oder <strong>CC</strong>.</div>
@@ -44,7 +44,7 @@ führende 0 (Status), die Länderzahl (Herkunftsstaat), die Rangzahl (Position) 
 mitunter ein vorangestelltes Kürzel wie CD oder CC für den jeweiligen Typ der
 Vertretung.</div>
 
-Anders als beim normalen [Wunschkennzeichen mit frei wählbarer Bedeutung](/ratgeber/wunschkennzeichen-bedeutung)
+Anders als beim normalen [Wunschkennzeichen mit frei wählbarer Bedeutung](/kfz-ratgeber/wunschkennzeichen-bedeutung/)
 darfst du dir hier nichts aussuchen. Die Zahlen werden zentral vergeben und
 folgen einer festen Logik – das macht das System überhaupt erst lesbar.
 
@@ -86,7 +86,7 @@ steht in Deutschland meist die Zahlensystematik mit der führenden 0.</div>
 
 Wenn dich generell interessiert, was die vielen Buchstaben auf deutschen
 Schildern bedeuten, lohnt ein Blick in meine Übersicht zu den
-[Kennzeichen-Abkürzungen](/ratgeber/kennzeichen-abkurzungen) – dort
+[Kennzeichen-Abkürzungen](/kfz-ratgeber/kennzeichen-abkuerzungen/) – dort
 geht es um die normalen Unterscheidungszeichen der Städte und Kreise.
 
 ## Welche Sonderrechte hängen daran?
@@ -108,9 +108,9 @@ Orientierung, kein Rechtsrat – im Einzelfall entscheiden die zuständigen
 Behörden und das Auswärtige Amt.</div>
 
 Für alle Fragen rund um die Zulassung gewöhnlicher Fahrzeuge gilt dagegen die
-ganz normale [Fahrzeug-Zulassungsverordnung](/ratgeber/fahrzeugzulassungsverordnung).
+ganz normale [Fahrzeug-Zulassungsverordnung](/kfz-ratgeber/fahrzeugzulassungsverordnung/).
 Wer kein Diplomat ist, durchläuft den üblichen Weg über die
-[Zulassungsstelle](/zulassungsstelle) – mit allen bekannten Schritten.
+[Zulassungsstelle](/zulassungsstelle/) – mit allen bekannten Schritten.
 
 ## Wer bekommt überhaupt ein Diplomatenkennzeichen?
 
@@ -125,7 +125,7 @@ Zulassungsstelle, sondern zentral. Berechtigt sind im Wesentlichen:
 Ein normaler Bürger kann ein solches Kennzeichen also nicht beantragen – es ist
 an den diplomatischen oder konsularischen Status gebunden. Wer „nur" ein
 auffälliges Kennzeichen möchte, ist bei einem regulären
-[Wunschkennzeichen](/ratgeber/wunschkennzeichen-reservieren) richtig
+[Wunschkennzeichen](/kfz-ratgeber/wunschkennzeichen-reservieren/) richtig
 und kann sich dort im Rahmen der Regeln eine eigene Kombination sichern.
 
 <div class="box box-kosten"><strong>Kurz gerechnet:</strong> Für eine ganz
@@ -136,7 +136,7 @@ nicht, und die genauen Beträge variieren. Ohne Gewähr.</div>
 
 Wer sich für die rechtlichen Grundlagen interessiert, findet die maßgeblichen
 Regeln zur Fahrzeugzulassung in der
-[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2011/).
+[Fahrzeug-Zulassungsverordnung (FZV)](https://www.gesetze-im-internet.de/fzv_2023/).
 Aktuelle Zahlen zum Fahrzeugbestand veröffentlicht außerdem das
 [Kraftfahrt-Bundesamt](https://www.kba.de).
 
@@ -160,7 +160,7 @@ völkerrechtlich jedoch eingeschränkt.</div>
 <div class="box box-frage"><strong>Kann ich selbst ein CD-Kennzeichen
 bekommen?</strong> Nein. Es ist an den diplomatischen oder konsularischen Status
 gebunden. Als Privatperson wählst du stattdessen ein reguläres
-<a href="/ratgeber/wunschkennzeichen-buchstaben-zahlen">Wunschkennzeichen mit eigenen Buchstaben und Zahlen</a>.</div>
+<a href="/kfz-ratgeber/wunschkennzeichen-buchstaben-zahlen/">Wunschkennzeichen mit eigenen Buchstaben und Zahlen</a>.</div>
 
 ## Fazit
 
@@ -172,4 +172,4 @@ Botschafterkennzeichen ist nichts anderes als ein CD-Kennzeichen.
 Für dich als normalen Fahrer ist das vor allem spannend zum Entschlüsseln am
 Straßenrand – dein eigenes Schild bekommst du auf dem üblichen Weg. Wenn du
 deine Wunschkombination prüfen willst, zeige ich dir das Schritt für Schritt im
-[Ratgeber zum Wunschkennzeichen reservieren](/ratgeber/wunschkennzeichen-reservieren).
+[Ratgeber zum Wunschkennzeichen reservieren](/kfz-ratgeber/wunschkennzeichen-reservieren/).
