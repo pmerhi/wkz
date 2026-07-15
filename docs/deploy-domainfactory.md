@@ -45,13 +45,22 @@ npm ci && npm run build
 Die Prod-DB ist leer. Zulassungsstellen, Kürzel, Ratgeber usw. liegen in der DB
 (FAQ/AGB liegen als Dateien im Code). Kompletten Dump der lokalen DB einspielen:
 ```bash
-# lokal (Mac): Dump ziehen
-mysqldump -u wunsch -p wunsch > wkr.sql
-# hochladen, dann auf dem Server importieren:
+# lokal (Mac): Dump ziehen – OHNE Dev-Ballast.
+# Die Tabelle crawl_seite (~540 MB Roh-HTML des Referenzseiten-Crawls) und die
+# Runtime-Tabellen (cache/sessions/jobs) NICHT mit Daten dumpen, nur Struktur.
+EXCL="crawl_seite cache cache_locks sessions jobs job_batches failed_jobs"
+IGN=""; for t in ${=EXCL}; do IGN="$IGN --ignore-table=wunsch.$t"; done
+mysqldump -u wunsch -p --single-transaction --quick --no-tablespaces \
+  --default-character-set=utf8mb4 --add-drop-table ${=IGN} wunsch > wkr.sql
+mysqldump -u wunsch -p --single-transaction --no-tablespaces --add-drop-table \
+  --no-data wunsch ${=EXCL} >> wkr.sql        # nur Struktur der ausgeschlossenen Tabellen
+# -> wkr.sql ist ~10 MB statt ~518 MB. Per SFTP hochladen, dann importieren:
 mysql -u db96617_82 -p db96617_82 < wkr.sql
 # danach evtl. neue Migrations nachziehen:
 php artisan migrate --force
 ```
+> `${=VAR}` erzwingt in zsh das Wort-Splitting (sonst wird die ganze Flag-Liste als ein
+> Argument übergeben). In bash reicht `$VAR`.
 > Alternativ ohne Dump: `php artisan migrate --force` + eigene Import-Commands/Seeder –
 > aber der Dump ist der schnellste, vollständige Weg (inkl. deiner gepflegten Inhalte).
 
