@@ -242,7 +242,7 @@
         .badge-alt{border-color:#055cc5;background:#e8f1fb;color:#055cc5;font-weight:700}
 
         /* Altkennzeichen-Infografik (iframe der interaktiven Karte) */
-        .ak-infografik{margin:28px 0}
+        .ak-infografik{margin:28px 0 48px}
         .ak-infografik-cap{margin:0 0 14px;padding:0}
         .ak-infografik-titel{margin:0 0 4px}
         .ak-infografik-intro{margin:0;max-width:62ch}
