@@ -246,8 +246,8 @@
         .ak-infografik-cap{margin:0 0 14px;padding:0}
         .ak-infografik-titel{margin:0 0 4px}
         .ak-infografik-intro{margin:0;max-width:62ch}
-        .ak-infografik-frame{width:462px;max-width:100%;margin:0 auto}
-        .ak-infografik-frame iframe{width:462px;max-width:100%;height:840px;border:1px solid var(--line);border-radius:12px;background:#fff;display:block}
+        .ak-infografik-frame{width:100%;max-width:100%;margin:0 auto}
+        .ak-infografik-frame iframe{width:100%;height:840px;border:1px solid var(--line);border-radius:12px;background:#fff;display:block}
 
         /* Interaktive Deutschlandkarte (Altkennzeichen nach Bundesland) */
         .de-karte-wrap{margin:28px 0}
