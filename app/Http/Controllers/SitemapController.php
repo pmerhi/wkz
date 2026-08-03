@@ -95,6 +95,7 @@ class SitemapController extends Controller
             ['loc' => url('/altkennzeichen')],
             ['loc' => url('/kennzeichen-quiz')],
             ['loc' => url('/kfz-ratgeber')],
+            ['loc' => url('/kfz-abmeldung')],
             ['loc' => url('/formulare')],
             ['loc' => url('/ueber-uns')],
         ];

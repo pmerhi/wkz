@@ -78,6 +78,11 @@
             @if($stelle->termin_url)<a class="js-termin" data-label="{{ $stelle->slug }}" href="{{ $stelle->termin_url }}" rel="nofollow noopener" target="_blank">Online-Termin →</a>@endif
         </div>
         <p style="margin-top:10px"><a href="{{ $stelleUrl }}">Öffnungszeiten, Termin &amp; Kontakt der Zulassungsstelle {{ $stelle->ort ?: $stelle->name }} →</a></p>
+        <x-abmelde-cta variant="hinweis"
+                       :label="'ort:'.$gemeinde->slug"
+                       campaign="ort"
+                       titel="Fahrzeug abmelden statt anmelden?"
+                       :text="'Für die Außerbetriebsetzung brauchst du keinen Termin in '.$gemeinde->name.': Unser Abmeldeservice erledigt das komplett online – in 2 Minuten, mit digitaler Abmeldebestätigung.'" />
     </section>
     @endif
 

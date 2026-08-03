@@ -47,6 +47,9 @@
         <p style="margin-top:14px"><a href="{{ url('/zulassungsstelle') }}">Alle Zulassungsstellen nach Bundesland →</a></p>
     @endif
 
+    {{-- Zweiter eigener Service neben der Reservierung --}}
+    <x-abmelde-cta label="home" campaign="home" />
+
     @if($artikel->isNotEmpty())
         <h2 class="reveal">Ratgeber rund ums Kfz</h2>
         <div class="grid">

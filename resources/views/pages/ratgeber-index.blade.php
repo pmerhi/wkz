@@ -56,6 +56,9 @@
                     </div>
                 </section>
             @endforeach
+
+            {{-- Eigener Abmeldeservice als Abschluss der Übersicht --}}
+            <x-abmelde-cta label="ratgeber-index" campaign="ratgeber-index" />
         @endif
     @endif
 </x-layout>

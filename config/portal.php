@@ -8,6 +8,11 @@ return [
     // Basis-Domain des Portals (für absolute URLs in Sitemap/Canonical/Schema)
     'site_name' => 'Wunschkennzeichen-Portal',
 
+    // Öffentliche Adresse für Ausdrucke/Downloads (PDF-Formulare). Bewusst nicht
+    // url()/APP_URL, damit auf Dateien, die beim Nutzer landen, nie eine lokale
+    // Entwicklungs- oder Staging-URL steht.
+    'public_url' => env('PUBLIC_URL', 'https://www.wunschkennzeichen-reservieren.de'),
+
     // Matomo (selbst gehostet). Leer = Tracking deaktiviert.
     'matomo_url'     => env('MATOMO_URL'),          // z.B. https://stats.example.de
     'matomo_site_id' => env('MATOMO_SITE_ID'),      // z.B. 1

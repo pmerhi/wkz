@@ -52,6 +52,9 @@ foreach (['kfz-zulassung', 'kfz-kennzeichen', 'tipps-fuer-fahrzeughalter', 'kfz-
     Route::get('/'.$altPfad.'/{slug}', [PageController::class, 'altRatgeberRedirect'])->where('slug', '.*');
 }
 
+// Transaktionale Landingpage zum eigenen Abmeldeservice (Money-Page, indexierbar).
+Route::get('/kfz-abmeldung', [PageController::class, 'kfzAbmeldung'])->name('kfz-abmeldung');
+
 Route::get('/ueber-uns', [PageController::class, 'ueberUns'])->name('ueber-uns');
 
 // Kfz-Formulare: Übersicht + PDF-Download.
@@ -61,6 +64,8 @@ Route::get('/formulare/{slug}.pdf', [\App\Http\Controllers\FormularController::c
 
 // Reservierungs-Conversion VOR der {placement}-Route registrieren.
 Route::get('/go/reservierung', \App\Http\Controllers\ReservierungController::class)->name('go.reservierung');
+// Abmeldeservice-Conversion ebenfalls VOR der {placement}-Route.
+Route::get('/go/abmeldung', \App\Http\Controllers\AbmeldungController::class)->name('go.abmeldung');
 Route::get('/go/{placement}', GoController::class)->name('go');
 
 // Sitemap-Index + Kind-Sitemaps je Typ (Diagnostik in der Search Console)

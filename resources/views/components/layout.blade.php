@@ -83,16 +83,25 @@
         }
         [data-theme="dark"] header.site{background:rgba(15,23,42,.85)}
         [data-theme="dark"] a,[data-theme="dark"] .content a,[data-theme="dark"] nav.breadcrumb a:hover{color:#60a5fa}
+        /* Buttons behalten weißen Text – sonst zieht die Link-Regel oben das Blau auf den
+           farbigen Button. Bewusst direkt danach und gleich spezifisch: `.hero .cta`
+           (weißer Button auf blauem Hero) ist stärker und bleibt dunkelblau. */
+        [data-theme="dark"] .cta,[data-theme="dark"] .btn,
+        [data-theme="dark"] .content a.cta,[data-theme="dark"] .content a.btn{color:#fff}
         [data-theme="dark"] .card,[data-theme="dark"] table.info,[data-theme="dark"] .oz,
         [data-theme="dark"] .faq details,[data-theme="dark"] .faq-item,[data-theme="dark"] .ac-panel,
         [data-theme="dark"] .quiz-opt,[data-theme="dark"] .hs-table,[data-theme="dark"] .quiz-info,
         [data-theme="dark"] .hero-search input,[data-theme="dark"] .gen-controls input,
-        [data-theme="dark"] .quiz-name,[data-theme="dark"] .badge,[data-theme="dark"] .ac-item{
+        [data-theme="dark"] .quiz-name,[data-theme="dark"] .badge,[data-theme="dark"] .ac-item,
+        [data-theme="dark"] .hs-tab{
             background:var(--soft);color:var(--tx);border-color:var(--line)}
         [data-theme="dark"] table.info th,[data-theme="dark"] .hs-table th,
         [data-theme="dark"] .ac-item.active,[data-theme="dark"] .ac-item:hover{background:var(--soft2)}
         [data-theme="dark"] .box{background:var(--soft2);border-color:var(--line);color:var(--tx)}
         [data-theme="dark"] .wusstest-box{background:linear-gradient(135deg,#3a2f0a,#4a3a0c);border-color:#a16207}
+        [data-theme="dark"] .abm-cta{background:linear-gradient(135deg,#0d2c1c,#123524);border-color:#166534}
+        [data-theme="dark"] .feature{background:linear-gradient(135deg,#152238,#1b2b45);border-color:#31456b}
+        [data-theme="dark"] .feature .card{background:rgba(255,255,255,.06)}
         [data-theme="dark"] .wusstest-titel,[data-theme="dark"] .wusstest-text{color:#fde68a}
         @media(max-width:760px){[data-theme="dark"] nav.main{background:var(--soft)}}
         *{box-sizing:border-box}
@@ -113,6 +122,13 @@
         .brand--static{cursor:default}
         .brand .brand-logo{height:80px;width:auto;display:block;transition:height .25s ease}
         .brand .brand-amt{margin:0;font-weight:800;letter-spacing:-.02em;font-size:clamp(1rem,2.4vw,1.2rem);line-height:1.15;color:var(--ink)}
+        /* Zulassungsstellen-Seiten: Logo oben, Amtsname darunter. Das Logo ist kleiner
+           als auf den übrigen Seiten, damit der gestapelte Kopf gleich hoch bleibt. */
+        .brand--static{flex-direction:column;align-items:flex-start;gap:4px}
+        .brand--static .brand-home{display:block;line-height:0}
+        .brand--static .brand-logo{height:44px}
+        header.site.is-small .brand--static .brand-logo{height:30px}
+        .brand--static .brand-amt{font-size:clamp(.95rem,2.2vw,1.1rem)}
         /* Zertifikats-Badges im Header (SSL, DIN) – wie Referenz, auf Mobil ausgeblendet */
         .header-badges{display:flex;align-items:center;gap:12px;flex:0 0 auto}
         .header-badges img{height:48px;width:auto;display:block;transition:height .25s ease}
@@ -155,8 +171,10 @@
         @media(max-width:760px){
             header.site .wrap{height:60px}
             .brand .brand-logo{height:40px}
+            .brand--static .brand-logo{height:30px}
             header.site.is-small .wrap{height:52px}
             header.site.is-small .brand-logo{height:34px}
+            header.site.is-small .brand--static .brand-logo{height:24px}
             nav.main{position:fixed;inset:60px 0 auto 0;flex-direction:column;align-items:stretch;background:#fff;border-bottom:1px solid var(--line);padding:8px 16px 16px;box-shadow:var(--shadow);transform:translateY(-130%);transition:transform .25s ease;gap:2px}
             nav.main.open{transform:translateY(0)}
             nav.main a{padding:12px 10px}
@@ -167,7 +185,7 @@
         @media(min-width:761px) and (max-width:1024px){
             header.site .wrap:has(.nav--inpage){flex-direction:column;height:auto;align-items:center;gap:8px;padding:12px 0}
             header.site.is-small .wrap:has(.nav--inpage){height:auto}
-            .wrap:has(.nav--inpage) .brand--static{width:100%;justify-content:center;text-align:center}
+            .wrap:has(.nav--inpage) .brand--static{width:100%;align-items:center;text-align:center}
             .wrap:has(.nav--inpage) .header-right{width:100%;justify-content:center;min-width:0}
             .wrap:has(.nav--inpage) nav.main.nav--inpage{min-width:0}
         }
@@ -240,6 +258,9 @@
         .badge{display:inline-block;border:1px solid var(--line);border-radius:8px;padding:3px 10px;margin:2px;font-size:.9rem;text-decoration:none;color:var(--tx);background:#fff;transition:.15s}
         a.badge:hover{border-color:var(--pri-l);color:var(--pri);background:var(--soft2);transform:translateY(-1px)}
         .badge-alt{border-color:#055cc5;background:#e8f1fb;color:#055cc5;font-weight:700}
+        /* Im blauen Hero (in beiden Themes blau) braucht das Badge weißen Grund und dunkle Schrift –
+           sonst zieht die Dark-Mode-Regel für .badge helle Schrift auf hellen Grund. */
+        .hero .badge-alt{background:#fff;border-color:#fff;color:var(--pri-d)}
 
         /* Altkennzeichen-Infografik (iframe der interaktiven Karte) */
         .ak-infografik{margin:28px 0 48px}
@@ -394,6 +415,9 @@
         .gen-status.ok{color:#29aa5d}
         .gen-status.err{color:#dc2626}
         .cta.is-disabled{opacity:.5;pointer-events:none;filter:grayscale(.3)}
+        /* Generator-CTA wird grün, sobald die Kombination vollständig und damit prüfbar ist. */
+        .js-gen-cta:not(.is-disabled){background:var(--ok)}
+        .js-gen-cta:not(.is-disabled):hover{background:#218a4b}
         /* Kennzeichen-Eingabemaske (direkt im Schild tippen) */
         .nt-row{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
         .nt-plate-wrap{flex:0 1 480px;max-width:100%}
@@ -459,6 +483,20 @@
         .pri-cta-block{background:linear-gradient(135deg,#004bb1,#055cc5);color:#fff;border-radius:20px;padding:clamp(22px,4vw,32px);text-align:center;box-shadow:var(--shadow-lg)}
         .pri-cta-block h2{color:#fff;margin-top:0}
         .pri-cta-block p{color:rgba(255,255,255,.9);max-width:54ch;margin:0 auto 18px}
+        /* Abmeldeservice-CTA – bewusst grün abgesetzt, damit er nicht mit dem
+           blauen Reservierungs-CTA konkurriert, wenn beide auf einer Seite stehen. */
+        .abm-cta{background:linear-gradient(135deg,#ecfdf5,#e3f5ea);border:1px solid #a7f3d0;border-radius:20px;padding:clamp(22px,4vw,32px);box-shadow:var(--shadow)}
+        .abm-cta h2{margin:10px 0 8px;color:var(--ink)}
+        .abm-cta p{max-width:60ch;margin:0 0 14px}
+        .abm-tag{display:inline-block;background:var(--ok);color:#fff;font-size:.72rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:5px 11px;border-radius:30px}
+        .abm-usps{list-style:none;display:flex;flex-wrap:wrap;gap:6px 22px;margin:0 0 18px;padding:0}
+        .abm-usps li{position:relative;padding-left:22px;font-weight:600}
+        .abm-usps li::before{content:"✔︎";position:absolute;left:0;color:var(--ok)}
+        .abm-cta .btn{background:var(--ok)}
+        .abm-cta .btn:hover{background:#218a4b}
+        .abm-mehr{display:inline-block;margin-left:16px;font-weight:600}
+        .abm-bewertung{margin-top:12px;font-size:.86rem;color:var(--mut)}
+        @media(max-width:520px){.abm-mehr{display:block;margin:12px 0 0}}
 
         /* Reveal / Bewegung */
         .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
@@ -484,7 +522,11 @@
         /* Callout-Boxen für Ratgeber */
         .box{position:relative;border-radius:4px;padding:16px 18px 16px 50px;margin:1.4em 0;border:1px solid var(--line);background:var(--soft2);box-shadow:var(--shadow)}
         .box::before{position:absolute;left:16px;top:15px;font-size:1.2rem;line-height:1}
-        .box>strong{display:block;margin-bottom:3px}
+        /* Nur die Überschrift der Box umbricht – <strong> im Fließtext bleibt inline. */
+        .box>strong:first-child{display:block;margin-bottom:3px}
+        /* Kurze Hinweise: Überschrift und Text stehen in einer Zeile. */
+        .box--zeile{padding-top:13px;padding-bottom:13px}
+        .box--zeile>strong:first-child{display:inline;margin-bottom:0}
         .box-tipp{background:#ecfdf5;border-color:#a7f3d0}.box-tipp::before{content:"💡"}
         .box-info{background:#e8f1fb;border-color:#bcd6f2}.box-info::before{content:"ℹ️"}
         .box-wichtig{background:#fff7ed;border-color:#fed7aa}.box-wichtig::before{content:"⚠️"}
@@ -521,8 +563,13 @@
 <header class="site">
     <div class="wrap">
         @if($brand)
-            {{-- Amtsname als Kopf-Titel: bewusst NICHT verlinkt; zugleich die einzige H1 der Seite. --}}
-            <div class="brand brand--static"><h1 class="brand-amt">{{ $brand }}</h1></div>
+            {{-- Logo (verlinkt) und darunter der Amtsname – der bleibt die einzige H1 der Seite. --}}
+            <div class="brand brand--static">
+                <a class="brand-home" href="{{ url('/') }}" aria-label="{{ config('portal.site_name') }} – zur Startseite">
+                    <img class="brand-logo" src="{{ asset('img/logo-wkr.svg') }}" alt="{{ config('portal.site_name') }}" width="366" height="80">
+                </a>
+                <h1 class="brand-amt">{{ $brand }}</h1>
+            </div>
         @else
             <a class="brand" href="{{ url('/') }}">
                 <img class="brand-logo" src="{{ asset('img/logo-wkr.svg') }}" alt="{{ config('portal.site_name') }}" width="366" height="80">
@@ -546,6 +593,7 @@
                     <a href="{{ url('/altkennzeichen') }}">Altkennzeichen</a>
                     <a href="{{ url('/formulare') }}">Formulare</a>
                     <a href="{{ url('/kfz-ratgeber') }}">Ratgeber</a>
+                    <a style="white-space:nowrap" href="{{ url('/kfz-abmeldung') }}">Kfz abmelden</a>
                 @endif
             </nav>
             <button class="tool-btn js-settings" type="button" title="Darstellung" aria-label="Darstellung einstellen" aria-haspopup="dialog">Aa</button>
@@ -600,8 +648,12 @@
             {{-- Bestehende Footer-Infos --}}
             <div class="footer-info">
                 <p class="muted">Nicht-amtliches Informationsangebot. Die Reservierung erfolgt
-                über die zuständige Zulassungsstelle bzw. die externe Reservierungs-App.
+                über die zuständige Zulassungsstelle bzw. die externe Reservierungs-App;
+                die Abmeldung wird über unseren kostenpflichtigen Abmeldeservice beauftragt.
                 Einige Links sind Partner-/Affiliate-Links (als <em>Anzeige</em> gekennzeichnet).</p>
+                <h3 class="footer-h">Unsere Services</h3>
+                <p><a href="{{ url('/go/reservierung') }}?c=footer&amp;label=footer" rel="nofollow">Wunschkennzeichen reservieren</a> ·
+                   <a href="{{ url('/kfz-abmeldung') }}">Kfz online abmelden</a></p>
                 <p><a href="{{ url('/ueber-uns') }}">Über uns</a> · <a href="{{ url('/faq') }}">FAQ</a> · <a href="{{ url('/impressum') }}">Impressum</a> · <a href="{{ url('/datenschutz') }}">Datenschutz</a> · <a href="{{ url('/agb') }}">AGB</a></p>
             </div>
         </div>

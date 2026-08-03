@@ -14,6 +14,15 @@
         {!! \Illuminate\Support\Str::markdown($artikel->body ?? '') !!}
     </article>
 
+    {{-- Abmeldeservice: großer CTA bei Abmelde-Suchintention, sonst nur ein Hinweiskasten. --}}
+    @if(in_array($artikel->slug, config('abmeldung.ratgeber.primaer', []), true))
+        <x-abmelde-cta :label="'ratgeber:'.$artikel->slug" campaign="ratgeber" />
+    @elseif(in_array($artikel->slug, config('abmeldung.ratgeber.sekundaer', []), true))
+        <div class="wrap--narrow">
+            <x-abmelde-cta variant="hinweis" :label="'ratgeber:'.$artikel->slug" campaign="ratgeber-sek" />
+        </div>
+    @endif
+
     @if($artikel->tags->isNotEmpty())
         <p>
             @foreach($artikel->tags as $t)

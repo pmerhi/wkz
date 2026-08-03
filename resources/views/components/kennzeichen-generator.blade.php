@@ -35,7 +35,7 @@
         <h2>Wunschkennzeichen{{ $code !== '' ? ' '.$code : '' }} prüfen &amp; reservieren</h2>
         <p class="lead-intro">Tippe direkt ins Kennzeichen – wir prüfen live, ob deine Kombination möglich ist.</p>
 
-        <p class="muted" style="font-weight:700;margin:0 0 8px">Ihre Wunschkombi:</p>
+        <p class="muted" style="font-weight:700;margin:0 0 8px">Deine Wunschkombi:</p>
         <div class="nt-row">
             <div class="licenseplate-container js-validate">
                 <div id="nt-license-input" class="nt-licenseplate nt-licenseplate--oneline nt-licenseplate--460 nt-licenseplate--normal licenseplate--ad" style="font-size:clamp(120px, 80vw, 300px);">
@@ -67,7 +67,7 @@
         </div>
 
         <p class="gen-status js-gen-status" aria-live="polite"></p>
-        <div class="box box-info" style="margin-top:8px"><strong>Tipp:</strong> Verwende ein <strong>?</strong> als Platzhalter für einzelne Zeichen.</div>
+        <div class="box box-info box--zeile" style="margin-top:8px"><strong>Tipp:</strong> Verwende ein <strong>?</strong> als Platzhalter für einzelne Zeichen.</div>
 
         @if($code !== '' && $kombis->isNotEmpty())
             <p class="muted" style="margin:16px 0 4px">Beliebte Kombis für {{ $code }} – zum Übernehmen antippen:</p>

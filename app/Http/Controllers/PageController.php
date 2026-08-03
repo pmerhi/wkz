@@ -252,7 +252,7 @@ class PageController extends Controller
         // Kuratierte, für jede Zulassungsstelle relevante Ratgeber (feste Reihenfolge).
         $ratgeberSlugs = [
             'wunschkennzeichen-reservieren', 'wunschkennzeichen-kosten', 'auto-anmelden',
-            'i-kfz-online-zulassung', 'zulassungskosten', 'auto-ummelden', 'auto-abmelden',
+            'zulassungskosten', 'auto-ummelden', 'auto-abmelden',
             'evb-nummer', 'gebrauchtwagen-zulassen', 'kurzzeitkennzeichen',
         ];
         $artikel = RatgeberArtikel::with('kategorie')
@@ -329,9 +329,10 @@ class PageController extends Controller
              .'zum Wunschkennzeichen reservieren</a>. <a href="'.e($reservUrl).'" rel="nofollow">Jetzt prüfen &amp; reservieren →</a>'],
             ['Brauche ich für die Zulassung in '.$ortLabel.' einen Termin?',
              $terminAntwort],
-            ['Kann ich mein Auto in '.$ortLabel.' online zulassen?',
-             'Ja – über das i-Kfz-Portal sind An-, Ab- und Ummeldung digital möglich. Wie das genau '
-             .'funktioniert, erklären wir im <a href="'.url('/kfz-ratgeber/i-kfz-online-zulassung').'">i-Kfz-Ratgeber</a>.'],
+            ['Kann ich mein Fahrzeug in '.$ortLabel.' abmelden lassen?',
+             'Ja – die Außerbetriebsetzung erledigst du über unseren Abmeldeservice komplett online, '
+             .'ohne Termin bei der '.e($stelle->name).'. Was du dafür brauchst, steht auf der Seite '
+             .'<a href="'.url('/kfz-abmeldung').'">Kfz-Abmeldung</a>.'],
         ];
         $schemas[] = $this->faqPage($faq);
 
@@ -1178,6 +1179,69 @@ class PageController extends Controller
         return $related;
     }
 
+    /**
+     * Transaktionale Landingpage zum eigenen Abmeldeservice.
+     * Bewusst anders positioniert als /kfz-ratgeber/auto-abmelden (dort: Anleitung
+     * zum Selbermachen), damit sich die beiden Seiten nicht kannibalisieren.
+     */
+    public function kfzAbmeldung()
+    {
+        // Ratgeber-Cluster für die interne Verlinkung – nur Artikel, die es wirklich gibt.
+        $clusterSlugs = array_merge(
+            config('abmeldung.ratgeber.primaer', []),
+            config('abmeldung.ratgeber.sekundaer', []),
+        );
+        $reihenfolge = array_flip($clusterSlugs);   // Config-Reihenfolge schlägt DB-Reihenfolge
+        $ratgeber = RatgeberArtikel::whereNotNull('published_at')
+            ->whereIn('slug', $clusterSlugs)
+            ->get(['slug', 'titel', 'intro'])
+            ->sortBy(fn ($a) => $reihenfolge[$a->slug] ?? PHP_INT_MAX)
+            ->take(6)->values();
+
+        $faq = [
+            ['Was kostet die Abmeldung über den Abmeldeservice?',
+                'Den aktuellen Preis siehst du direkt im Bestellprozess, bevor du etwas verbindlich beauftragst. Zum Vergleich: Die Außerbetriebsetzung direkt bei der Zulassungsstelle kostet als reine Amtsgebühr rund 5–11 €, kostet dich aber Anfahrt und Wartezeit.'],
+            ['Wie lange dauert die Abmeldung?', 'Die Beauftragung selbst dauert rund zwei Minuten. Die Abmeldebestätigung erhältst du anschließend digital.'],
+            ['Was brauche ich für die Abmeldung?',
+                'Die Zulassungsbescheinigung Teil I (Fahrzeugschein) mit den Fahrzeugdaten sowie das Kennzeichen. Welche Angaben und Nachweise im Einzelnen nötig sind, führt dich der Bestellprozess Schritt für Schritt durch.'],
+            ['Kann ich mein Wunschkennzeichen behalten?',
+                'Ja. Nach der Außerbetriebsetzung bleibt die Kombination befristet für dich reserviert und lässt sich auf dein nächstes Fahrzeug übertragen. Gib bei der Abmeldung an, dass du das Kennzeichen behalten möchtest.'],
+            ['Endet mit der Abmeldung auch Steuer und Versicherung?',
+                'Die Kfz-Steuerpflicht endet mit dem Tag der Außerbetriebsetzung. Deine Versicherung wechselt je nach Vertrag in eine beitragsfreie Ruheversicherung – prüfe das nach der Abmeldung aktiv nach.'],
+            ['Kann ich das Fahrzeug später wieder anmelden?',
+                'Ja, über eine Wiederzulassung. Steht das Fahrzeug länger als sieben Jahre abgemeldet, ist zusätzlich eine Vollabnahme nach § 21 StVZO nötig.'],
+            ['Geht die Abmeldung auch ohne Abmeldeservice?',
+                'Selbstverständlich. Du kannst zu jeder beliebigen Zulassungsstelle gehen oder – mit Online-Ausweis und den Sicherheitscodes – die Außerbetriebsetzung selbst über i-Kfz erledigen. Der Service nimmt dir nur den Aufwand ab.'],
+        ];
+
+        $schemas = [
+            [
+                '@context'    => 'https://schema.org',
+                '@type'       => 'Service',
+                'name'        => 'Kfz-Abmeldeservice',
+                'serviceType' => 'Kfz-Abmeldung (Außerbetriebsetzung)',
+                'description' => 'Fahrzeug online abmelden lassen – ohne Behördengang, mit digitaler Abmeldebestätigung.',
+                'areaServed'  => ['@type' => 'Country', 'name' => 'Deutschland'],
+                'provider'    => ['@type' => 'Organization', 'name' => config('portal.site_name'), 'url' => url('/')],
+                'url'         => url('/kfz-abmeldung'),
+            ],
+            $this->breadcrumb([
+                ['Start', url('/')],
+                ['Kfz-Abmeldung', url('/kfz-abmeldung')],
+            ]),
+            $this->faqPage($faq),
+        ];
+
+        return view('pages.kfz-abmeldung', [
+            'title'       => 'Kfz-Abmeldung – Fahrzeug online abmelden lassen',
+            'description' => 'Fahrzeug abmelden ohne Behördengang: Ablauf, Unterlagen und Kosten der Außerbetriebsetzung – plus Abmeldeservice, der die Abmeldung für dich online erledigt.',
+            'canonical'   => url('/kfz-abmeldung'),
+            'schemas'     => $schemas,
+            'faq'         => $faq,
+            'ratgeber'    => $ratgeber,
+        ]);
+    }
+
     public function ueberUns()
     {
         return view('pages.ueber-uns', [
@@ -1226,7 +1290,9 @@ class PageController extends Controller
     {
         $titel = $page === 'impressum' ? 'Impressum' : 'Datenschutzerklärung';
 
-        $file = base_path('../../recht/'.$page.'.md');
+        // Liegt im Repo (resources/legal/), damit die Texte beim Deploy mitgehen –
+        // der frühere Pfad ../../recht/ existierte auf dem Server nicht.
+        $file = resource_path('legal/'.$page.'.md');
         $html = is_file($file) ? Str::markdown((string) file_get_contents($file)) : null;
 
         return view('pages.legal', [

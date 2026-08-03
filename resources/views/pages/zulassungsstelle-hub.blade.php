@@ -2,7 +2,7 @@
     $kopfNav = [
         ['href' => '#standorte',   'label' => 'Standorte'],
         ['href' => '#reservieren', 'label' => 'Wunschkennzeichen'],
-        ['href' => '#online',      'label' => 'Online-Zulassung'],
+        ['href' => '#abmelden',    'label' => 'Abmelden'],
     ];
     $anzahl = $standorte->count();
 @endphp
@@ -56,16 +56,14 @@
         @endforeach
     </section>
 
-    {{-- Online-Zulassung (i-Kfz) --}}
-    <section class="section reveal" id="online">
-        <div class="feature">
-            <span class="tag-new">Neu · i-Kfz Stufe 4</span>
-            <h2>Auto online zulassen – ganz ohne Amtsbesuch</h2>
-            <p class="lead-intro">Viele Vorgänge in {{ $ortLabel }} gehen komplett digital: An-, Ab- und Ummeldung
-                rund um die Uhr über das <a href="{{ url('/kfz-ratgeber/i-kfz-online-zulassung') }}">i-Kfz-Portal</a>.</p>
-            <p style="margin:14px 0 0"><a class="btn" href="{{ url('/kfz-ratgeber/i-kfz-online-zulassung') }}">So funktioniert i-Kfz →</a></p>
-        </div>
-    </section>
+    {{-- Abmeldeservice --}}
+    <div id="abmelden">
+        <x-abmelde-cta
+            :label="'zst-hub:'.$ortLabel"
+            campaign="zst-hub"
+            :titel="'Fahrzeug abmelden – ohne Termin in '.$ortLabel"
+            text="Außerbetriebsetzung komplett digital: Daten eingeben, absenden, Abmeldebestätigung erhalten – ohne Behördengang und ohne Online-Ausweis." />
+    </div>
 
     <p class="muted" style="font-size:.82rem">Angaben ohne Gewähr – bitte vor dem Besuch prüfen.
         <br><em>Prototyp-Ansicht (noindex). Live-Einzelseiten bleiben vorerst unter /zulassungsstelle/{slug}.</em></p>

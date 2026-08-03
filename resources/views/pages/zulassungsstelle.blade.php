@@ -5,8 +5,8 @@
     $kopfNav = [];
     $kopfNav[] = ['href' => '#kontakt', 'label' => 'Kontakt'];
     if ($hatHoursKopf) $kopfNav[] = ['href' => '#oeffnungszeiten', 'label' => 'Öffnungszeiten'];
-    $kopfNav[] = ['href' => '#online', 'label' => 'Online-Zulassung'];
     $kopfNav[] = ['href' => '#reservieren', 'label' => 'Wunschkennzeichen'];
+    $kopfNav[] = ['href' => '#abmelden', 'label' => 'Abmelden'];
     if ($stelle->termin_url) $kopfNav[] = ['href' => '#termin', 'label' => 'Termin'];
     $kopfNav[] = ['href' => '#formulare', 'label' => 'Formulare'];
     $kopfNav[] = ['href' => '#mitbringen', 'label' => 'Was mitbringen'];
@@ -81,29 +81,6 @@
     {{-- Beste Besuchszeit (Erfahrungswerte) --}}
     <x-besuchszeit :ort="$ortLabel" :hatTermin="(bool) $stelle->termin_url" />
 
-    {{-- Online-Zulassung (i-Kfz) – der große „Neu"-Bereich --}}
-    <section class="section reveal" id="online">
-        <div class="feature">
-            <span class="tag-new">Neu · i-Kfz Stufe 4</span>
-            <h2>Auto online zulassen, ab- &amp; ummelden</h2>
-            <p class="lead-intro">Viele Vorgänge gehen heute komplett digital – ganz ohne Gang zur
-                Zulassungsstelle {{ $ortLabel }}. Über das bundesweite <a href="{{ url('/kfz-ratgeber/i-kfz-online-zulassung') }}">i-Kfz-Portal</a>
-                erledigst du An-, Ab- und Ummeldung rund um die Uhr von zu Hause.</p>
-            <div class="grid">
-                <div class="card"><strong>✅ Voraussetzungen</strong>
-                    <div class="muted">Online-Ausweis (eID) mit PIN, Smartphone/Lesegerät, Sicherheitscodes auf Schein, Brief &amp; Plaketten.</div>
-                </div>
-                <div class="card"><strong>🚗 Anmelden &amp; ummelden</strong>
-                    <div class="muted">Neu- und Gebrauchtwagen online zulassen, Halterwechsel und Umzug digital melden.</div>
-                </div>
-                <div class="card"><strong>🅿️ Abmelden</strong>
-                    <div class="muted">Fahrzeug außer Betrieb setzen – sofort und gebührengünstig online.</div>
-                </div>
-            </div>
-            <p style="margin:18px 0 0"><a class="btn" href="{{ url('/kfz-ratgeber/i-kfz-online-zulassung') }}">So funktioniert i-Kfz →</a></p>
-        </div>
-    </section>
-
     {{-- Wunschkennzeichen reservieren --}}
     <section class="section reveal" id="reservieren">
         <div class="pri-cta-block">
@@ -113,6 +90,15 @@
             <x-reservierung-cta :label="'zst:'.$stelle->slug" campaign="zst" />
         </div>
     </section>
+
+    {{-- Abmeldeservice --}}
+    <div id="abmelden">
+        <x-abmelde-cta
+            :label="'zst:'.$stelle->slug"
+            campaign="zst"
+            :titel="'Fahrzeug abmelden – ohne Termin bei der Zulassungsstelle '.$ortLabel"
+            text="Für die Außerbetriebsetzung musst du nicht persönlich vorsprechen: Wir übernehmen die Abmeldung digital – Daten eingeben, absenden, Abmeldebestätigung erhalten." />
+    </div>
 
     {{-- Termin --}}
     @if($stelle->termin_url)
@@ -128,9 +114,9 @@
     <section class="section reveal" id="formulare">
         <h2>Formulare für die Zulassungsstelle {{ $ortLabel }}</h2>
         <div class="box box-info">
-            <strong>Für die Online-Zulassung brauchst du keine Formulare.</strong>
-            Die Muster helfen nur, wenn du persönlich zur {{ $stelle->name }} gehst.
-            <a href="{{ url('/kfz-ratgeber/i-kfz-online-zulassung') }}">Zur Online-Zulassung (i-Kfz) →</a>
+            <strong>Für den Besuch vor Ort.</strong>
+            Die Muster helfen dir, wenn du persönlich zur {{ $stelle->name }} gehst –
+            ausfüllen, ausdrucken und zum Termin mitnehmen.
         </div>
         <div class="grid">
             @foreach(config('formulare', []) as $slug => $form)

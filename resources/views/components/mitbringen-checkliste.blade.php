@@ -4,7 +4,7 @@
     <p class="lead-intro">Damit der Termin reibungslos läuft: die nötigen Unterlagen je Anliegen –
         zum Aufklappen.</p>
 
-    @foreach(config('checklisten', []) as $liste)
+    @foreach(config('checklisten', []) as $key => $liste)
         <details class="faq-item">
             <summary>{{ $liste['titel'] }}</summary>
             <ul class="check-list">
@@ -12,6 +12,11 @@
                     <li>{{ $item }}</li>
                 @endforeach
             </ul>
+            @if($key === 'abmeldung')
+                <p style="margin:0;padding:0 18px 14px">Oder du sparst dir den Weg komplett:
+                    <x-abmelde-cta variant="inline" :label="'checkliste'.($ort ? ':'.$ort : '')" campaign="checkliste">Fahrzeug online abmelden →</x-abmelde-cta>
+                </p>
+            @endif
         </details>
     @endforeach
 

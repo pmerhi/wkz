@@ -6,14 +6,16 @@
 @php
     $base    = rtrim($matomoUrl, '/').'/';
     $resHost = parse_url((string) config('portal.reservation_url'), PHP_URL_HOST);
+    $abmHost = parse_url((string) config('abmeldung.url'), PHP_URL_HOST);
+    $hosts   = array_values(array_unique(array_filter([$resHost, $abmHost])));
 @endphp
 <script>
     var _paq = window._paq = window._paq || [];
     _paq.push(['disableCookies']);          // cookieless: consent-frei (Variante A)
     _paq.push(['enableLinkTracking']);
-    @if($resHost)
-    _paq.push(['setDomains', ['*.{{ request()->getHost() }}', '*.{{ $resHost }}']]);
-    _paq.push(['enableCrossDomainLinking']); // Funnel Portal -> Reservierungs-Domain
+    @if($hosts)
+    _paq.push(['setDomains', ['*.{{ request()->getHost() }}'@foreach($hosts as $h), '*.{{ $h }}'@endforeach]]);
+    _paq.push(['enableCrossDomainLinking']); // Funnel Portal -> Reservierungs-/Abmelde-Domain
     @endif
     (function () {
         var u = "{{ $base }}";
@@ -34,6 +36,8 @@
             var v = a.getAttribute('data-variant');
             var label = (a.getAttribute('data-label') || location.pathname) + (v ? '|v=' + v : '');
             _paq.push(['trackEvent', 'Reservierung', 'CTA-Klick', label]);
+        } else if (a.classList.contains('js-abmelde-cta')) {
+            _paq.push(['trackEvent', 'Abmeldung', 'CTA-Klick', a.getAttribute('data-label') || location.pathname]);
         } else if (a.classList.contains('js-affiliate')) {
             _paq.push(['trackEvent', 'Affiliate', 'Klick', a.getAttribute('data-label') || a.getAttribute('href')]);
         } else if (a.classList.contains('js-termin')) {

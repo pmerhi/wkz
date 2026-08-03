@@ -26,7 +26,7 @@
     </style>
 </head>
 <body>
-    <div class="brand">{{ config('portal.site_name', 'Wunschkennzeichen-Portal') }}</div>
+    <div class="brand">{{ config('portal.public_url') }}</div>
     <h1>{{ $form['titel'] }}</h1>
     <div class="intro">{{ $form['intro'] }}</div>
 
@@ -59,6 +59,6 @@
         einzelne Behörden verlangen eigene Vordrucke. Angaben ohne Gewähr.
     </div>
 
-    <div class="foot">{{ config('portal.site_name', 'Wunschkennzeichen-Portal') }} · {{ url('/formulare') }}</div>
+    <div class="foot">{{ config('portal.public_url') }}</div>
 </body>
 </html>

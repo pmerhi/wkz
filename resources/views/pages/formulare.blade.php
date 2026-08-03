@@ -23,6 +23,10 @@
         @endforeach
     </div>
 
+    <x-abmelde-cta label="formulare" campaign="formulare"
+                   titel="Abmeldung ohne Formular und ohne Amtsbesuch"
+                   text="Wenn du dein Fahrzeug außer Betrieb setzen willst, brauchst du weder Vordruck noch Termin: Unser Abmeldeservice übernimmt die Außerbetriebsetzung komplett online." />
+
     <p class="muted" style="font-size:.85rem;margin-top:22px">
         Alle Formulare sind kostenlose Muster zur Vorbereitung – kein amtliches Dokument, keine Rechtsberatung.
         Einzelne Zulassungsstellen verlangen eigene Vordrucke. Angaben ohne Gewähr.

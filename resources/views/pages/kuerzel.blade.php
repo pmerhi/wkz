@@ -52,7 +52,7 @@
     <section class="hero hero-sm reveal in">
         <h1>Kennzeichen {{ $kuerzel->code }}@if($kuerzel->bedeutung) – {{ $kuerzel->bedeutung }}@endif</h1>
         @if($kuerzel->ist_altkennzeichen)
-            <p class="badge badge-alt" style="background:#fff" title="Im Rahmen der Kennzeichenliberalisierung (seit 1. November 2012) wieder eingeführt">↩︎ Altkennzeichen – wieder erhältlich</p>
+            <p class="badge badge-alt" title="Im Rahmen der Kennzeichenliberalisierung (seit 1. November 2012) wieder eingeführt">↩︎ Altkennzeichen – wieder erhältlich</p>
         @endif
         <p style="margin:16px 0 0"><x-reservierung-cta :label="'kuerzel:'.$kuerzel->code" campaign="kuerzel" /></p>
     </section>
