@@ -33,8 +33,9 @@ class SmokeTest extends TestCase
         $this->get('/zulassungsstelle')->assertOk();
         $this->get('/kennzeichen')->assertOk();
         $this->get('/altkennzeichen')->assertOk()->assertSee('FAQPage', false);
-        $this->get('/ratgeber')->assertOk();
+        $this->get('/kfz-ratgeber')->assertOk();
         $this->get('/ueber-uns')->assertOk();
+        $this->get('/kfz-abmeldung')->assertOk();
         // Suche: Ergebnisseite ist noindex
         $this->get('/zulassungsstelle?q=test')->assertOk()->assertSee('noindex', false);
     }
@@ -43,11 +44,34 @@ class SmokeTest extends TestCase
     {
         $this->seedData();
         $this->get('/zulassungsstelle/teststaat')->assertOk()->assertSee('Teststadt');
-        $this->get('/zulassungsstelle/teststaat/test-stelle')->assertOk()->assertSee('GovernmentOffice', false);
-        // Altes flaches Schema wird auf die kanonische URL weitergeleitet bzw. existiert nicht mehr.
-        $this->get('/bundesland/teststaat')->assertRedirect('/zulassungsstelle/teststaat');
+        $this->get('/zulassungsstelle/test-stelle')->assertOk()->assertSee('GovernmentOffice', false);
         $this->get('/kennzeichen/tt')->assertOk()->assertSee('TT');
-        $this->get('/ratgeber/test-artikel')->assertOk()->assertSee('Article', false);
+        $this->get('/kfz-ratgeber/test-artikel')->assertOk()->assertSee('Article', false);
+    }
+
+    /** Alt-URLs des Vorgängerprojekts: ein 301-Sprung auf die kanonische URL, keine Ketten. */
+    public function test_alt_urls_leiten_dauerhaft_um(): void
+    {
+        $this->seedData();
+
+        // Zweisegmentige Zulassungsstellen-URL → einsegmentig.
+        $this->get('/zulassungsstelle/teststaat/test-stelle')
+            ->assertRedirect(url('/zulassungsstelle/test-stelle'))->assertStatus(301);
+        // Flaches Bundesland-Schema → Zulassungsstellen-Listing.
+        $this->get('/bundesland/teststaat')
+            ->assertRedirect(url('/zulassungsstelle/teststaat'))->assertStatus(301);
+        // /ratgeber/* → /kfz-ratgeber/*
+        $this->get('/ratgeber')->assertRedirect(url('/kfz-ratgeber'))->assertStatus(301);
+        $this->get('/ratgeber/test-artikel')
+            ->assertRedirect(url('/kfz-ratgeber/test-artikel'))->assertStatus(301);
+        // Alte Ratgeber-Kategorien des Vorgängerprojekts.
+        $this->get('/kfz-zulassung')->assertRedirect(url('/kfz-ratgeber'))->assertStatus(301);
+
+        // Ziel jedes Redirects muss selbst 200 liefern (keine Ketten, keine Sackgassen).
+        foreach (['/zulassungsstelle/test-stelle', '/zulassungsstelle/teststaat',
+                  '/kfz-ratgeber', '/kfz-ratgeber/test-artikel'] as $ziel) {
+            $this->get($ziel)->assertOk();
+        }
     }
 
     public function test_rechtseiten_sind_noindex(): void
@@ -62,7 +86,11 @@ class SmokeTest extends TestCase
         $this->get('/sitemap.xml')->assertOk()->assertSee('<sitemapindex', false);
         $this->get('/sitemap-ratgeber.xml')->assertOk()->assertSee('<urlset', false);
         $this->get('/robots.txt')->assertOk()->assertSee('Disallow: /admin');
-        $this->get('/zulassungsstelle/gibtsnicht')->assertNotFound();
+        // Unbekannter Stellen-Slug: bewusst zurück ins Verzeichnis statt 404
+        // (PageController::zulassungsstelle, Fall 5).
+        $this->get('/zulassungsstelle/gibtsnicht')->assertRedirect('/zulassungsstelle');
+        // Ein wirklich unbekannter Pfad muss weiterhin 404 liefern.
+        $this->get('/gibtsnicht')->assertNotFound();
     }
 
     public function test_affiliate_redirect_zaehlt_klick(): void
