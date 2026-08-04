@@ -5,8 +5,10 @@
 Nebenstellen). Behebt Keyword-Kannibalisierung und Thin Content; trifft die Suchintention
 („Zulassungsstelle {Stadt}"). Vorbild: KennzeichenKing.
 
-Prototyp läuft unter `/zulassungsstelle-hub/{slug}` (noindex). Controller
-`PageController::zulassungsstelleHub`, View `pages/zulassungsstelle-hub.blade.php`.
+**Status: ausgerollt.** Der Hub läuft unter der regulären URL `/zulassungsstelle/{slug}`
+und ist `index,follow`. Die Weiche sitzt am Anfang von `PageController::zulassungsstelle()`,
+gerendert wird über `renderHub()` mit `pages/zulassungsstelle-hub.blade.php`. Die frühere
+Prototyp-Route `/zulassungsstelle-hub/{slug}` gibt es nicht mehr.
 
 ## Kennzahlen (Stand generierung)
 - **813** Hub-Seiten (Städte), davon **198** mit mehreren Ämtern/Standorten.
@@ -25,7 +27,8 @@ Beispiel Kaiserslautern → kanonisch `/zulassungsstelle/kaiserslautern` (Stadt)
 ## Umsetzung (Reihenfolge)
 
 ### 1. Voraussetzungen (Daten)
-- [ ] **25 Stellen ohne `ort`** prüfen/ergänzen (sonst fehlen sie im Hub). Separate Aufgabe.
+- [x] **25 Stellen ohne `ort`** – erledigt (2026-07-14): waren Dubletten/Import-Müll ohne
+      Ort, Kürzel und Kinder und wurden gelöscht statt ergänzt.
 - [x] „Kfz-"-Präfix wird im Titel entfernt (Anzeige via `Zulassungsstelle::anzeigeName()`).
       → in der Einzel-View ebenfalls anwenden, falls diese bestehen bleibt.
 

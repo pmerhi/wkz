@@ -65,6 +65,5 @@
             text="Außerbetriebsetzung komplett digital: Daten eingeben, absenden, Abmeldebestätigung erhalten – ohne Behördengang und ohne Online-Ausweis." />
     </div>
 
-    <p class="muted" style="font-size:.82rem">Angaben ohne Gewähr – bitte vor dem Besuch prüfen.
-        <br><em>Prototyp-Ansicht (noindex). Live-Einzelseiten bleiben vorerst unter /zulassungsstelle/{slug}.</em></p>
+    <p class="muted" style="font-size:.82rem">Angaben ohne Gewähr – bitte vor dem Besuch prüfen.</p>
 </x-layout>
