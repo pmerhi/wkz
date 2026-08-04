@@ -40,12 +40,17 @@ class ReservierungController extends Controller
         $symbol  = strtoupper(preg_replace('/[^A-Za-zÄÖÜäöü?]/u', '', (string) $request->query('symbol', '')));
         $letters = strtolower(preg_replace('/[^A-Za-z?]/', '', (string) $request->query('letters', '')));
         $numbers = preg_replace('/[^0-9?]/', '', (string) $request->query('numbers', ''));
-        if ($symbol !== '' && ($letters !== '' || $numbers !== '')) {
-            $query['symbol']      = $symbol;
-            $query['letters']     = $letters;
-            $query['numbers']     = $numbers;
-            $query['kennzeichen'] = $symbol.'-'.strtoupper($letters).'-'.$numbers;
-            $query['search']      = 1;
+        if ($symbol !== '') {
+            // Ortskürzel allein (CTA einer Orts-/Stellen-/Kürzel-Seite): nur vorbelegen.
+            $query['symbol'] = $symbol;
+
+            // Vollständige Kombi aus dem Generator: zusätzlich die Suche auslösen.
+            if ($letters !== '' || $numbers !== '') {
+                $query['letters']     = $letters;
+                $query['numbers']     = $numbers;
+                $query['kennzeichen'] = $symbol.'-'.strtoupper($letters).'-'.$numbers;
+                $query['search']      = 1;
+            }
         }
 
         $ziel = config('portal.reservation_url').'?'.http_build_query($query);

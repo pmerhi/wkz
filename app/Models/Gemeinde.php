@@ -47,8 +47,9 @@ class Gemeinde extends Model
     /** Beide Footer-Bilder (unten nebeneinander) in fester Reihenfolge. */
     public function footerBilder(): \Illuminate\Support\Collection
     {
-        return $this->ortbilder()->whereIn('rolle', ['footer', 'footer2'])
-            ->orderByRaw("FIELD(rolle,'footer','footer2')")->get();
+        // Sortierung in PHP: FIELD() gibt es nur in MySQL, die Tests laufen auf SQLite.
+        return $this->ortbilder()->whereIn('rolle', ['footer', 'footer2'])->get()
+            ->sortBy(fn ($b) => $b->rolle === 'footer' ? 0 : 1)->values();
     }
 
     /** Kennzeichen-Kürzel der Gemeinde (über den Kreis). */

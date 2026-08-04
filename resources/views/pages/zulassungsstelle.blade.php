@@ -87,7 +87,7 @@
             <h2>Wunschkennzeichen @if($kuerzel){{ $kuerzel->code }} @endif in {{ $ortLabel }} reservieren</h2>
             <p>Prüfe live, ob deine Wunsch-Kombination frei ist, und sichere sie in wenigen Minuten –
                 bequem online, bevor du zur Zulassung gehst.</p>
-            <x-reservierung-cta :label="'zst:'.$stelle->slug" campaign="zst" />
+            <x-reservierung-cta :label="'zst:'.$stelle->slug" campaign="zst" :symbol="$kuerzel?->code" />
         </div>
     </section>
 

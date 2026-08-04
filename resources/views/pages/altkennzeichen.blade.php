@@ -12,7 +12,7 @@
             werden dürfen. Hier findest du alle <strong>{{ $anzahl }}</strong> wieder eingeführten
             Altkennzeichen – mit historischer Bedeutung und heutigem Zulassungsbezirk.
         </p>
-        <p style="margin:18px 0 0"><a class="cta js-reservierung-cta" data-label="altkennzeichen:index" href="{{ config('portal.reservation_url') }}?utm_source=portal&utm_medium=cta&utm_campaign=altkennzeichen" rel="nofollow">Wunschkennzeichen mit Altkennzeichen reservieren →</a></p>
+        <p style="margin:18px 0 0"><x-reservierung-cta label="altkennzeichen:index" campaign="altkennzeichen" /></p>
     </section>
 
     <x-altkennzeichen-infografik />

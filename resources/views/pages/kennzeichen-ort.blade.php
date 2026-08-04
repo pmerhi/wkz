@@ -62,7 +62,7 @@
         <div class="pri-cta-block">
             <h2>Wunschkennzeichen @if($primary){{ $primary->code }} @endif in {{ $gemeinde->name }} reservieren</h2>
             <p>Prüfe live, ob deine Wunsch-Kombination frei ist, und sichere sie in wenigen Minuten – bequem online.</p>
-            <x-reservierung-cta :label="'ort:'.$gemeinde->slug" campaign="ort" />
+            <x-reservierung-cta :label="'ort:'.$gemeinde->slug" campaign="ort" :symbol="$primary?->code" />
         </div>
     </section>
     @endif
