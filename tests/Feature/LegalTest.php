@@ -18,6 +18,14 @@ class LegalTest extends TestCase
             ->assertSee('kennzeichen.click GmbH')
             ->assertDontSee('Entwurf folgt aus Arbeitspaket');
 
-        $this->get('/datenschutz')->assertOk()->assertDontSee('Entwurf folgt aus Arbeitspaket');
+        $this->get('/datenschutz')->assertOk()
+            ->assertDontSee('Entwurf folgt aus Arbeitspaket')
+            // 1:1 aus der gelieferten datenschutz.html – Struktur muss ankommen.
+            ->assertSee('Datenschutzerklärung')
+            ->assertSee('1. Datenschutz auf einen Blick')
+            ->assertSee('11. Eigene Dienste')
+            // Nur der Body-Inhalt uebernommen: kein zweites <html>/<head> in der Seite.
+            ->assertDontSee('<html lang="de">'."\n".'<html', false)
+            ->assertDontSee('meine-datenschutzerklaerung', false);
     }
 }

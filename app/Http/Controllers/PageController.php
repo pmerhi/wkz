@@ -1293,8 +1293,16 @@ class PageController extends Controller
 
         // Liegt im Repo (resources/legal/), damit die Texte beim Deploy mitgehen –
         // der frühere Pfad ../../recht/ existierte auf dem Server nicht.
-        $file = resource_path('legal/'.$page.'.md');
-        $html = is_file($file) ? Str::markdown((string) file_get_contents($file)) : null;
+        // .html gewinnt vor .md: fertige Rechtstexte werden 1:1 übernommen,
+        // selbst gepflegte als Markdown geschrieben.
+        $htmlDatei = resource_path('legal/'.$page.'.html');
+        $mdDatei   = resource_path('legal/'.$page.'.md');
+
+        $html = match (true) {
+            is_file($htmlDatei) => (string) file_get_contents($htmlDatei),
+            is_file($mdDatei)   => Str::markdown((string) file_get_contents($mdDatei)),
+            default             => null,
+        };
 
         return view('pages.legal', [
             'title'     => $titel.' — '.config('portal.site_name'),
