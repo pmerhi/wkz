@@ -13,11 +13,15 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware): void {
         $middleware->web(prepend: [
+            // Erst kanonisieren (301 auf die Slash-Variante), dann eigene Redirects.
+            \App\Http\Middleware\RedirectToTrailingSlash::class,
             \App\Http\Middleware\HandleRedirects::class,
         ]);
         $middleware->web(append: [
             \App\Http\Middleware\AssignExperiments::class,
         ]);
+        // Sicherheits-Header auf allen Antworten, auch im Admin.
+        $middleware->append(\App\Http\Middleware\SecurityHeaders::class);
         // A/B-Cookies unverschlüsselt (nicht personenbezogen, sticky)
         $middleware->encryptCookies(except: ['ab_cta_text']);
     })

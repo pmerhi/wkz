@@ -5,7 +5,8 @@
 @endphp
 @if($lat && $lng)
     @once
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+        {{-- Leaflet liegt lokal unter public/vendor/leaflet (kein CDN: keine IP-Weitergabe an Dritte, kein Supply-Chain-Risiko). --}}
+        <link rel="stylesheet" href="{{ asset('vendor/leaflet/leaflet.css') }}">
         <style>
             .standort-karte{height:320px;border-radius:var(--r,14px);overflow:hidden;
                 border:1px solid var(--line,#e2e8f0);box-shadow:var(--shadow);margin:.6em 0 .2em;background:var(--soft2,#f8fafc)}
@@ -28,7 +29,7 @@
     </p>
 
     @once
-        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="{{ asset('vendor/leaflet/leaflet.js') }}"></script>
         <script>
         (function () {
             function init() {

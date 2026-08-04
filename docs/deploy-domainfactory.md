@@ -113,3 +113,11 @@ php artisan filament:upgrade
 php artisan config:cache && php artisan route:cache && php artisan view:cache
 php artisan up
 ```
+
+### Admin-Zugang (ab Migration `add_is_admin_to_users_table`)
+Das Filament-Panel prüft `users.is_admin` (siehe `User::canAccessPanel`). Die Migration
+setzt **bestehende** Konten auf `is_admin = true`; **neu** angelegte Konten haben
+standardmäßig *keinen* Zugang und müssen freigeschaltet werden:
+```bash
+php artisan tinker --execute="App\Models\User::where('email','…')->update(['is_admin' => true]);"
+```
