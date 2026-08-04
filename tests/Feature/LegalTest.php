@@ -23,9 +23,26 @@ class LegalTest extends TestCase
             // 1:1 aus der gelieferten datenschutz.html – Struktur muss ankommen.
             ->assertSee('Datenschutzerklärung')
             ->assertSee('1. Datenschutz auf einen Blick')
-            ->assertSee('11. Eigene Dienste')
+            ->assertSee('7. Eigene Dienste')
             // Nur der Body-Inhalt uebernommen: kein zweites <html>/<head> in der Seite.
             ->assertDontSee('<html lang="de">'."\n".'<html', false)
-            ->assertDontSee('meine-datenschutzerklaerung', false);
+            ->assertDontSee('meine-datenschutzerklaerung', false)
+            // Hosting-Angabe
+            ->assertSee('DomainFactory GmbH')
+            ->assertSee('Neuturmstrasse 5')
+            // Herausgenommene Abschnitte duerfen nicht zurueckkehren.
+            ->assertDontSee('Kommentarfunktion')
+            ->assertDontSee('Registrierung auf dieser Website')
+            ->assertDontSee('Soziale Medien')
+            ->assertDontSee('Pinterest')
+            ->assertDontSee('Google Analytics')
+            ->assertDontSee('Hotjar')
+            ->assertDontSee('Active Campaign')
+            ->assertDontSee('Google Maps')
+            ->assertDontSee('Amazon')
+            ->assertDontSee('finanzamt24')
+            // Fremd-CDN und verwaiste Opt-out-Skripte sind raus.
+            ->assertDontSee('cdnjs.cloudflare.com', false)
+            ->assertDontSee('fpOptout', false);
     }
 }
