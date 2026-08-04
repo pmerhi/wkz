@@ -1191,6 +1191,8 @@ class PageController extends Controller
             config('abmeldung.ratgeber.primaer', []),
             config('abmeldung.ratgeber.sekundaer', []),
         );
+        // i-Kfz bewusst ausgeklammert: die Seite bewirbt ausschließlich den eigenen Service.
+        $clusterSlugs = array_values(array_filter($clusterSlugs, fn ($s) => ! str_starts_with($s, 'i-kfz')));
         $reihenfolge = array_flip($clusterSlugs);   // Config-Reihenfolge schlägt DB-Reihenfolge
         $ratgeber = RatgeberArtikel::whereNotNull('published_at')
             ->whereIn('slug', $clusterSlugs)
@@ -1199,9 +1201,8 @@ class PageController extends Controller
             ->take(6)->values();
 
         $faq = [
-            ['Was kostet die Abmeldung über den Abmeldeservice?',
-                'Den aktuellen Preis siehst du direkt im Bestellprozess, bevor du etwas verbindlich beauftragst. Zum Vergleich: Die Außerbetriebsetzung direkt bei der Zulassungsstelle kostet als reine Amtsgebühr rund 5–11 €, kostet dich aber Anfahrt und Wartezeit.'],
-            ['Wie lange dauert die Abmeldung?', 'Die Beauftragung selbst dauert rund zwei Minuten. Die Abmeldebestätigung erhältst du anschließend digital.'],
+            ['Wie lange dauert die Abmeldung?', 'Die Beauftragung dauert rund zwei Minuten. Die Abmeldebestätigung erhältst du anschließend digital.'],
+            ['Muss ich zur Zulassungsstelle?', 'Nein. Wir übernehmen die Außerbetriebsetzung für dich – ohne Termin, ohne Wartezeit, ohne Papierkram.'],
             ['Was brauche ich für die Abmeldung?',
                 'Die Zulassungsbescheinigung Teil I (Fahrzeugschein) mit den Fahrzeugdaten sowie das Kennzeichen. Welche Angaben und Nachweise im Einzelnen nötig sind, führt dich der Bestellprozess Schritt für Schritt durch.'],
             ['Kann ich mein Wunschkennzeichen behalten?',
@@ -1210,8 +1211,8 @@ class PageController extends Controller
                 'Die Kfz-Steuerpflicht endet mit dem Tag der Außerbetriebsetzung. Deine Versicherung wechselt je nach Vertrag in eine beitragsfreie Ruheversicherung – prüfe das nach der Abmeldung aktiv nach.'],
             ['Kann ich das Fahrzeug später wieder anmelden?',
                 'Ja, über eine Wiederzulassung. Steht das Fahrzeug länger als sieben Jahre abgemeldet, ist zusätzlich eine Vollabnahme nach § 21 StVZO nötig.'],
-            ['Geht die Abmeldung auch ohne Abmeldeservice?',
-                'Selbstverständlich. Du kannst zu jeder beliebigen Zulassungsstelle gehen oder – mit Online-Ausweis und den Sicherheitscodes – die Außerbetriebsetzung selbst über i-Kfz erledigen. Der Service nimmt dir nur den Aufwand ab.'],
+            ['Was passiert, wenn etwas nicht klappt?',
+                'Für den Fall der Fälle gibt es die Geld-zurück-Garantie. Fragen zu einem laufenden Auftrag beantwortet der Kundenservice.'],
         ];
 
         $schemas = [
@@ -1234,7 +1235,7 @@ class PageController extends Controller
 
         return view('pages.kfz-abmeldung', [
             'title'       => 'Kfz-Abmeldung – Fahrzeug online abmelden lassen',
-            'description' => 'Fahrzeug abmelden ohne Behördengang: Ablauf, Unterlagen und Kosten der Außerbetriebsetzung – plus Abmeldeservice, der die Abmeldung für dich online erledigt.',
+            'description' => 'Fahrzeug abmelden ohne Behördengang: Wir übernehmen die Außerbetriebsetzung für dich – in 2 Minuten beauftragt, mit digitaler Abmeldebestätigung und Geld-zurück-Garantie.',
             'canonical'   => url('/kfz-abmeldung'),
             'schemas'     => $schemas,
             'faq'         => $faq,

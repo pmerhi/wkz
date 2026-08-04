@@ -67,7 +67,7 @@ class AbmeldungTest extends TestCase
             // Cluster-Verlinkung: existierende Ratgeber werden verlinkt.
             ->assertSee('/kfz-ratgeber/auto-abmelden', false)
             // Auf der Landingpage selbst kein Selbst-Link im CTA-Block.
-            ->assertDontSee('Ablauf, Unterlagen &amp; Kosten ansehen', false);
+            ->assertDontSee('So läuft die Abmeldung ab', false);
     }
 
     public function test_landingpage_ist_intern_verlinkt_und_in_der_sitemap(): void
@@ -80,12 +80,30 @@ class AbmeldungTest extends TestCase
         $this->get('/sitemap-static.xml')->assertOk()->assertSee(url('/kfz-abmeldung'), false);
     }
 
+    /** Die Landingpage bewirbt nur den eigenen Service: kein Preis, kein i-Kfz, kein Vergleich. */
+    public function test_landingpage_ohne_preis_und_ohne_ikfz(): void
+    {
+        foreach (['auto-abmelden', 'i-kfz-stufe-4', 'i-kfz-online-zulassung'] as $slug) {
+            RatgeberArtikel::create(['titel' => $slug, 'slug' => $slug, 'intro' => 'Kurz.',
+                'body' => '## Hallo', 'published_at' => now()]);
+        }
+
+        $res = $this->get('/kfz-abmeldung')->assertOk();
+
+        // Kein Preis und keine Gebuehrenangabe.
+        $res->assertDontSee('€', false)->assertDontSee('Amtsgebühr')->assertDontSee('Gebühr');
+        // Kein i-Kfz – auch nicht ueber die Ratgeber-Verlinkung.
+        $res->assertDontSee('i-Kfz')->assertDontSee('/kfz-ratgeber/i-kfz', false);
+        // Kein Wegevergleich.
+        $res->assertDontSee('Zulassungsstelle gehen')->assertDontSee('eID');
+    }
+
     public function test_cta_block_verlinkt_auf_die_landingpage(): void
     {
         RatgeberArtikel::create(['titel' => 'Auto abmelden', 'slug' => 'auto-abmelden', 'body' => '## Hallo', 'published_at' => now()]);
 
         $this->get('/kfz-ratgeber/auto-abmelden')->assertOk()
-            ->assertSee('Ablauf, Unterlagen &amp; Kosten ansehen', false);
+            ->assertSee('So läuft die Abmeldung ab', false);
     }
 
     public function test_cta_nur_auf_passenden_ratgebern(): void

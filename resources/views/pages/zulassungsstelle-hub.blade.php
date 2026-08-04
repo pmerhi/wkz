@@ -62,7 +62,7 @@
             :label="'zst-hub:'.$ortLabel"
             campaign="zst-hub"
             :titel="'Fahrzeug abmelden – ohne Termin in '.$ortLabel"
-            text="Außerbetriebsetzung komplett digital: Daten eingeben, absenden, Abmeldebestätigung erhalten – ohne Behördengang und ohne Online-Ausweis." />
+            text="Außerbetriebsetzung komplett digital: Daten eingeben, absenden, Abmeldebestätigung erhalten – ohne Termin und ohne Behördengang." />
     </div>
 
     <p class="muted" style="font-size:.82rem">Angaben ohne Gewähr – bitte vor dem Besuch prüfen.</p>

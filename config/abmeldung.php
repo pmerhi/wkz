@@ -26,11 +26,6 @@ return [
         'Geld-zurück-Garantie',
     ],
 
-    // Preis des Services. Die Zielseite gibt ihn nicht im HTML aus, deshalb steht
-    // hier null = wird auf /kfz-abmeldung nicht behauptet. Sobald der Preis fix ist,
-    // hier eintragen (z. B. '39,90 €') – die Landingpage zeigt ihn dann automatisch.
-    'preis' => env('ABMELDUNG_PREIS'),
-
     /*
      * Ratgeber-Slugs, auf denen der Abmelde-CTA ausgespielt wird.
      * primaer   = großer CTA-Block direkt unter dem Artikel (Suchintention = abmelden)

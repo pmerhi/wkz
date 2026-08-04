@@ -42,7 +42,7 @@
             @endif
             <a class="btn js-abmelde-cta" data-label="{{ $label }}" href="{{ $href }}" rel="nofollow">{{ $btn }}</a>
             @if($zeigeMehr)
-                <a class="abm-mehr" href="{{ url('/kfz-abmeldung') }}">Ablauf, Unterlagen &amp; Kosten ansehen</a>
+                <a class="abm-mehr" href="{{ url('/kfz-abmeldung') }}">So läuft die Abmeldung ab</a>
             @endif
             @if(! empty($bew['wert']))
                 <div class="abm-bewertung">★ {{ $bew['wert'] }} von 5 – {{ $bew['anzahl'] }} {{ $bew['quelle'] }}-Rezensionen</div>

@@ -1,17 +1,10 @@
 @php
-    $preis = config('abmeldung.preis');
-    $bew   = config('abmeldung.bewertung');
+    $bew = config('abmeldung.bewertung');
 @endphp
 <x-layout :title="$title" :description="$description" :canonical="$canonical" :schemas="$schemas">
     <nav class="breadcrumb"><a href="{{ url('/') }}">Start</a> › Kfz-Abmeldung</nav>
 
     <style>
-        .abm-wege{width:100%;border-collapse:collapse;margin:0 0 8px}
-        .abm-wege th,.abm-wege td{border:1px solid var(--line);padding:11px 14px;text-align:left;vertical-align:top}
-        .abm-wege th{background:var(--soft);color:var(--ink);font-size:.92rem}
-        .abm-wege td:first-child{font-weight:700;color:var(--ink)}
-        .abm-wege .ja{color:var(--ok);font-weight:700}
-        .abm-wege .nein{color:var(--mut)}
         .abm-schritte{list-style:none;counter-reset:s;margin:0;padding:0;display:grid;gap:14px;
             grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
         .abm-schritte li{counter-increment:s;position:relative;background:var(--bg);border:1px solid var(--line);
@@ -23,11 +16,12 @@
         .abm-need>div{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
         .abm-need strong{display:block;margin-bottom:4px;color:var(--ink)}
         .abm-need p{margin:0;font-size:.92rem;color:var(--mut)}
-        [data-theme="dark"] .abm-schritte li,[data-theme="dark"] .abm-need>div{background:var(--soft)}
-        [data-theme="dark"] .abm-wege th{background:var(--soft2)}
-        @media(max-width:640px){
-            .abm-wege{display:block;overflow-x:auto;white-space:nowrap}
-        }
+        .abm-nutzen{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-top:6px}
+        .abm-nutzen>div{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:18px 20px;box-shadow:var(--shadow)}
+        .abm-nutzen strong{display:block;margin-bottom:4px;color:var(--ink)}
+        .abm-nutzen p{margin:0;font-size:.94rem;color:var(--mut)}
+        [data-theme="dark"] .abm-schritte li,[data-theme="dark"] .abm-need>div,
+        [data-theme="dark"] .abm-nutzen>div{background:var(--soft)}
     </style>
 
     <section class="hero hero-sm reveal in">
@@ -57,42 +51,35 @@
                 <span class="muted">Du bekommst die Bestätigung der Außerbetriebsetzung digital – als Nachweis
                 für Versicherung, Finanzamt oder Käufer.</span></li>
         </ol>
-        @if($preis)
-            <p class="muted" style="margin-top:14px">Preis: <strong>{{ $preis }}</strong> inkl. Amtsgebühren.</p>
-        @else
-            <p class="muted" style="margin-top:14px">Den Preis siehst du transparent im Bestellprozess,
-                bevor du etwas verbindlich beauftragst.</p>
-        @endif
     </section>
 
-    {{-- Ehrlicher Vergleich der drei Wege – schafft Vertrauen und deckt die Suchintention ab --}}
     <section class="section reveal">
-        <h2>Abmeldeservice, i-Kfz oder selbst zur Zulassungsstelle?</h2>
-        <p class="lead-intro">Es gibt drei Wege, ein Fahrzeug abzumelden. Welcher der richtige ist, hängt
-            vor allem davon ab, ob du einen freigeschalteten Online-Ausweis hast und wie viel Zeit du investieren willst.</p>
-        <table class="abm-wege">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>Abmeldeservice</th>
-                    <th>i-Kfz selbst</th>
-                    <th>Zulassungsstelle</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>Behördengang</td><td class="ja">nicht nötig</td><td class="ja">nicht nötig</td><td class="nein">persönlich vor Ort</td></tr>
-                <tr><td>Online-Ausweis (eID) nötig</td><td class="ja">nein</td><td class="nein">ja, mit PIN</td><td class="ja">nein</td></tr>
-                <tr><td>Aufwand für dich</td><td>ca. 2 Minuten</td><td>ca. 15 Minuten Einrichtung</td><td>Anfahrt + Wartezeit</td></tr>
-                <tr><td>Kosten</td><td>{{ $preis ?: 'Servicegebühr, im Bestellprozess ausgewiesen' }}</td><td>nur Amtsgebühr</td><td>Amtsgebühr ca. 5–11 €</td></tr>
-                <tr><td>Abmeldebestätigung</td><td>digital</td><td>digital</td><td>vor Ort</td></tr>
-            </tbody>
-        </table>
-        <p class="muted" style="font-size:.85rem">Gebühren sind Richtwerte nach GebOSt und variieren je Zulassungsstelle. Angaben ohne Gewähr.</p>
-        <div class="box box-info"><strong>Du willst es selbst erledigen?</strong>
-            Völlig in Ordnung – die Schritt-für-Schritt-Anleitung für beide Wege steht in unserem Ratgeber
-            <a href="{{ url('/kfz-ratgeber/auto-abmelden') }}">Auto abmelden</a>, die Voraussetzungen für das
-            Online-Verfahren unter <a href="{{ url('/kfz-ratgeber/i-kfz-online-zulassung') }}">i-Kfz</a>.
-            Deine zuständige Behörde findest du im <a href="{{ url('/zulassungsstelle') }}">Zulassungsstellen-Verzeichnis</a>.</div>
+        <h2>Warum die Abmeldung über uns</h2>
+        <p class="lead-intro">Die Außerbetriebsetzung ist schnell erledigt – wenn sie jemand für dich
+            übernimmt. Wir kümmern uns um den Behördenteil, du gibst nur deine Fahrzeugdaten ein.</p>
+        <div class="abm-nutzen">
+            <div>
+                <strong>Kein Behördengang</strong>
+                <p>Kein Termin, keine Anfahrt, keine Wartemarke. Du erledigst die Abmeldung von zu Hause
+                    aus – an jedem Tag und zu jeder Uhrzeit.</p>
+            </div>
+            <div>
+                <strong>In 2 Minuten beauftragt</strong>
+                <p>Fahrzeugdaten eingeben, absenden, fertig. Länger dauert der Teil, den du selbst machst,
+                    nicht.</p>
+            </div>
+            <div>
+                <strong>Digitale Abmeldebestätigung</strong>
+                <p>Du bekommst den Nachweis der Außerbetriebsetzung digital – bereit für Versicherung,
+                    Finanzamt oder Käufer.</p>
+            </div>
+            <div>
+                <strong>Geld-zurück-Garantie</strong>
+                <p>Sollte etwas nicht klappen, bekommst du dein Geld zurück. Bewertet mit
+                    {{ $bew['wert'] ?? '4,8' }} von 5 Sternen bei {{ $bew['anzahl'] ?? '2.129' }}
+                    {{ $bew['quelle'] ?? 'Google' }}-Rezensionen.</p>
+            </div>
+        </div>
     </section>
 
     <section class="section reveal">
@@ -160,5 +147,5 @@
 
     <p class="muted" style="font-size:.85rem">Der Abmeldeservice ist ein kostenpflichtiges Angebot und keine
         amtliche Stelle. Die Außerbetriebsetzung selbst erfolgt nach § 14 FZV über die zuständige
-        Zulassungsbehörde. Angaben zu Gebühren und Fristen sind Richtwerte und keine Rechtsberatung.</p>
+        Zulassungsbehörde. Angaben ohne Gewähr, keine Rechtsberatung.</p>
 </x-layout>
