@@ -68,8 +68,8 @@
                 url("/fonts/gl-nummernschild-mtl.ttf") format("truetype");}
         :root{
             --pri:#055cc5; --pri-d:#004bb1; --pri-l:#3d82d6;
-            --ok:#29aa5d; --ok-bg:#e3f5ea; --warn:#d97706; --warn-bg:#fef3c7; --no:#dc2626; --no-bg:#fee2e2;
-            --ink:#000000; --tx:#1f1f1f; --mut:#888888; --bg:#ffffff; --page:#f1f1f1; --soft:#f1f1f1; --soft2:#e8e8e8; --line:#d9d9d9;
+            --ok:#1f8347; --ok-bg:#e3f5ea; --warn:#d97706; --warn-bg:#fef3c7; --no:#dc2626; --no-bg:#fee2e2;
+            --ink:#000000; --tx:#1f1f1f; --mut:#666666; --bg:#ffffff; --page:#f1f1f1; --soft:#f1f1f1; --soft2:#e8e8e8; --line:#d9d9d9;
             --shadow:0 1px 5px 0 rgba(0,0,0,.25);
             --shadow-lg:0 8px 30px -8px rgba(0,0,0,.28);
             --r:4px; --maxw:1080px;
@@ -417,7 +417,7 @@
         .cta.is-disabled{opacity:.5;pointer-events:none;filter:grayscale(.3)}
         /* Generator-CTA wird grün, sobald die Kombination vollständig und damit prüfbar ist. */
         .js-gen-cta:not(.is-disabled){background:var(--ok)}
-        .js-gen-cta:not(.is-disabled):hover{background:#218a4b}
+        .js-gen-cta:not(.is-disabled):hover{background:#17693a}
         /* Kennzeichen-Eingabemaske (direkt im Schild tippen) */
         .nt-row{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
         .nt-plate-wrap{flex:0 1 480px;max-width:100%}
@@ -493,7 +493,7 @@
         .abm-usps li{position:relative;padding-left:22px;font-weight:600}
         .abm-usps li::before{content:"✔︎";position:absolute;left:0;color:var(--ok)}
         .abm-cta .btn{background:var(--ok)}
-        .abm-cta .btn:hover{background:#218a4b}
+        .abm-cta .btn:hover{background:#17693a}
         .abm-mehr{display:inline-block;margin-left:16px;font-weight:600}
         .abm-bewertung{margin-top:12px;font-size:.86rem;color:var(--mut)}
         @media(max-width:520px){.abm-mehr{display:block;margin:12px 0 0}}
