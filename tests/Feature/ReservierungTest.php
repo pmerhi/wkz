@@ -14,16 +14,18 @@ class ReservierungTest extends TestCase
 {
     use RefreshDatabase;
 
-    /** Ortskürzel allein: vorbelegen, aber keine Suche auslösen (Kombi ist ja unvollständig). */
-    public function test_kuerzel_allein_wird_durchgereicht_ohne_suche(): void
+    /** Ortskürzel allein: als kennzeichen=AC durchreichen, ohne symbol/letters/numbers. */
+    public function test_kuerzel_allein_wird_als_kennzeichen_durchgereicht(): void
     {
-        $ziel = $this->get('/go/reservierung?c=zst&label=zst:test&symbol=SE')
+        $ziel = $this->get('/go/reservierung?c=zst&label=zst:aachen&symbol=AC')
             ->assertStatus(302)->headers->get('location');
 
-        $this->assertStringContainsString('symbol=SE', $ziel);
+        $this->assertStringContainsString('kennzeichen=AC', $ziel);
+        $this->assertStringContainsString('search=1', $ziel);
         $this->assertStringContainsString('cId='.config('portal.reservation_cid'), $ziel);
-        $this->assertStringNotContainsString('search=1', $ziel);
-        $this->assertStringNotContainsString('kennzeichen=', $ziel);
+        $this->assertStringNotContainsString('symbol=', $ziel);
+        $this->assertStringNotContainsString('letters=', $ziel);
+        $this->assertStringNotContainsString('numbers=', $ziel);
     }
 
     /** Vollständige Kombi aus dem Generator: zusätzlich Suche auslösen. */
