@@ -168,6 +168,15 @@ class PageController extends Controller
         $stelle    = $standorte->firstWhere('parent_id', null) ?? $seed;
         $ortLabel  = $seed->ort;
 
+        // Ort-Seiten der Bezirke (mehrere Ämter → ggf. mehrere kreis_id, z. B. Stadt + Landkreis).
+        // Die Seite der Stadt selbst wird herausgelöst und prominent verlinkt; ohne diesen Block
+        // hätte die Hub-Seite gar keinen Ausgang in die /wunschkennzeichen/-Money-Pages.
+        $gemeinden = $this->bezirksGemeinden($standorte->pluck('kreis_id'));
+        $ortSlug   = Str::slug((string) $ortLabel, '-', 'de');
+        $ortSeite  = $gemeinden->firstWhere('slug', $ortSlug)
+            ?? Gemeinde::where('slug', $ortSlug)->first(['id', 'name', 'slug']);
+        $umland    = $ortSeite ? $gemeinden->where('slug', '!=', $ortSeite->slug)->values() : $gemeinden;
+
         // JSON-LD: jeder Standort als GovernmentOffice in einer ItemList + Breadcrumb.
         $items = [];
         foreach ($standorte as $i => $loc) {
@@ -212,6 +221,8 @@ class PageController extends Controller
             'standorte'   => $standorte,
             'ortLabel'    => $ortLabel,
             'kuerzel'     => $stelle->kennzeichenKuerzel->first(),
+            'ortSeite'    => $ortSeite,
+            'gemeinden'   => $umland,
         ]);
     }
 
@@ -244,6 +255,24 @@ class PageController extends Controller
             }
         }
         return null;
+    }
+
+    /**
+     * Gemeinden eines oder mehrerer Zulassungsbezirke, alphabetisch – Grundlage der
+     * reziproken Verlinkung in die /wunschkennzeichen/{ort}/-Seiten. Bewusst ohne
+     * Kappung: die Ort-Seiten sind Money-Pages und hängen an genau diesem Inlink.
+     *
+     * @param  iterable<int|null>  $kreisIds
+     */
+    private function bezirksGemeinden(iterable $kreisIds)
+    {
+        $ids = collect($kreisIds)->filter()->unique()->values();
+        if ($ids->isEmpty()) {
+            return collect();
+        }
+
+        return Gemeinde::whereIn('kreis_id', $ids)->whereNotNull('slug')
+            ->orderBy('name')->get(['id', 'name', 'slug']);
     }
 
     /** Rendert die Detailseite einer (Haupt-)Zulassungsstelle. */
@@ -340,10 +369,7 @@ class PageController extends Controller
         $noindex = $stelle->seoMeta?->noindex || ! $stelle->is_indexable;
 
         // Gemeinden des Zulassungsbezirks → reziproke Verlinkung in die Ort-Seiten.
-        $gemeinden = $stelle->kreis_id
-            ? Gemeinde::where('kreis_id', $stelle->kreis_id)->whereNotNull('slug')
-                ->orderBy('name')->limit(60)->get(['id', 'name', 'slug'])
-            : collect();
+        $gemeinden = $this->bezirksGemeinden([$stelle->kreis_id]);
 
         return view('pages.zulassungsstelle', [
             'title'       => $stelle->seoMeta?->title ?? ($stelle->anzeigeName().' — Öffnungszeiten, Termin & Wunschkennzeichen'),

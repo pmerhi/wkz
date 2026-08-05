@@ -60,6 +60,27 @@ gewünscht sind. Format: `from_path;to_path;stadt`.
 - Sitemap nur noch kanonische Hub-URLs (Zweit-Ämter/Kinder raus).
 - Interne Links (Ort-Seiten „zuständige Zulassungsstelle", Bundesland-Listing) auf kanonische URL zeigen lassen.
 - Bundesland-Listing: je Stadt nur einen Eintrag.
+- **Ausgang in die Ort-Seiten nicht verlieren (nachgezogen 2026-08-05):** Das Hub-Template hatte
+  anfangs keinen Gegenpart zum Block „Städte & Gemeinden im Zulassungsbezirk" der Detailseite.
+  Dadurch hatten 193 Hub-Städte – darunter Berlin, Hamburg, Stuttgart, Nürnberg, Leipzig – keinen
+  Inlink mehr auf ihre `/wunschkennzeichen/{ort}/`-Money-Page; erreichbar blieben sie nur über
+  `/kennzeichen/ort/bundesland/{land}/` auf Klicktiefe 4. Der Hub führt jetzt beides:
+  einen prominenten Einzellink auf die Ort-Seite der Stadt selbst (auch bei kreisfreien Städten
+  ohne Umland) und die Gemeindeliste der Bezirke aller Standorte.
+  **Regel für künftige Templates:** Jede Zulassungsstellen-Ansicht muss mindestens die eigene
+  Ort-Seite verlinken. Gegenprobe siehe unten.
+
+### 5a. Gegenprobe der Ort-Verlinkung
+Nach Änderungen an `renderHub()`/`renderStelle()` oder den beiden Templates prüfen, dass keine
+indexierbare Ort-Seite ohne Inlink dasteht – Soll ist 0:
+
+```
+Zulassungsstellenseiten je Stadt/Kreis rendern und href="…/wunschkennzeichen/{slug}" einsammeln,
+gegen PageController::ortIndexierbar() gegenprüfen.
+```
+Stand 2026-08-05: 10.266 indexierbare Ort-Seiten, davon 0 ohne Inlink (vorher 2.236).
+Die 2.236 setzten sich zusammen aus 406 Orten in Kreisen, die von einer Hub-Stelle bedient werden,
+und 1.830 Orten, die das frühere `limit(60)` im Gemeinde-Block abgeschnitten hat.
 
 ### 6. Canary → Full
 1. **Canary:** Weiche zunächst nur für 3–5 Städte aktiv (z. B. kaiserslautern, wuerzburg, magdeburg),

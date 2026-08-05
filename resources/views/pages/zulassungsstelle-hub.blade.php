@@ -1,9 +1,11 @@
 @php
-    $kopfNav = [
+    $gemeinden = $gemeinden ?? collect();
+    $kopfNav = array_values(array_filter([
         ['href' => '#standorte',   'label' => 'Standorte'],
         ['href' => '#reservieren', 'label' => 'Wunschkennzeichen'],
+        $gemeinden->isNotEmpty() ? ['href' => '#orte', 'label' => 'Orte im Bezirk'] : null,
         ['href' => '#abmelden',    'label' => 'Abmelden'],
-    ];
+    ]));
     $anzahl = $standorte->count();
 @endphp
 <x-layout :title="$title" :description="$description" :canonical="$canonical" :robots="$robots"
@@ -19,6 +21,11 @@
         .hub-standort .kontaktzeile{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:.9rem;margin:0 0 12px}
         .hub-standort .kontaktzeile a{color:var(--pri)}
         [data-theme="dark"] .hub-standort{background:var(--soft2)}
+        .hub-ortlink{border:1px solid var(--line);border-left:4px solid var(--pri);border-radius:var(--r);
+            box-shadow:var(--shadow);padding:16px 20px;margin:22px 0 0;background:#fff}
+        .hub-ortlink > a{font-weight:700;font-size:1.05rem}
+        .hub-ortlink > p{margin:4px 0 0;color:var(--mut);font-size:.9rem}
+        [data-theme="dark"] .hub-ortlink{background:var(--soft2)}
     </style>
 
     {{-- Intro (H1 steht bereits im Header-Brand, um Doppel-H1 zu vermeiden) --}}
@@ -31,6 +38,15 @@
     {{-- Reservierungsmaske (einmal, oben) --}}
     <span id="reservieren"></span>
     <x-kennzeichen-generator :kuerzel="$kuerzel?->code" />
+
+    {{-- Ort-Seite der Stadt selbst: der wichtigste Ausgang dieser Seite. --}}
+    @if($ortSeite ?? null)
+    <div class="hub-ortlink reveal">
+        <a href="{{ url('/wunschkennzeichen/'.$ortSeite->slug) }}">Kennzeichen &amp; Wunschkennzeichen für {{ $ortSeite->name }} →</a>
+        <p>Unterscheidungszeichen{{ $kuerzel ? ' '.$kuerzel->code : '' }}, freie Kombinationen, Kosten und
+            Reservierung – alles zum Kennzeichen von {{ $ortSeite->name }}.</p>
+    </div>
+    @endif
 
     {{-- Standorte --}}
     <section class="section reveal" id="standorte">
@@ -55,6 +71,20 @@
             </article>
         @endforeach
     </section>
+
+    {{-- Städte & Gemeinden im Zulassungsbezirk (reziproke Verlinkung in die Ort-Seiten) --}}
+    @if($gemeinden->isNotEmpty())
+    <section class="section reveal" id="orte">
+        <h2>Städte &amp; Gemeinden im Zulassungsbezirk</h2>
+        <p class="lead-intro">Welches Kennzeichen gilt in deinem Ort? Hier findest du das Unterscheidungszeichen
+            und die Wunschkennzeichen-Reservierung für jede Gemeinde:</p>
+        <div class="grid">
+            @foreach($gemeinden as $gem)
+                <div class="card"><a href="{{ url('/wunschkennzeichen/'.$gem->slug) }}">Kennzeichen {{ $gem->name }}</a></div>
+            @endforeach
+        </div>
+    </section>
+    @endif
 
     {{-- Abmeldeservice --}}
     <div id="abmelden">
